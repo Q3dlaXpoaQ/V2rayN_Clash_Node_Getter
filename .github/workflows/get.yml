@@ -41,9 +41,8 @@ jobs:
       uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
-        file: nodefree.txt
         tag: "每日节点"
-        asset_name: nodefree.txt
+        files: "nodefree.txt;openrunner.txt"
         overwrite: true
         draft: false
         prerelease: false
