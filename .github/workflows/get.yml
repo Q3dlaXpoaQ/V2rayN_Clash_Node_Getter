@@ -42,7 +42,7 @@ jobs:
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         file: nodefree.txt
-        tag: ${{ github.ref }}
+        tag: "每日节点"
         asset_name: nodefree.txt
         overwrite: true
         draft: false
