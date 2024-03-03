@@ -37,12 +37,22 @@ jobs:
       env:
         PAT: ${{ secrets.PAT }}
 
-    - name: Upload files to release
+    - name: Upload nodefree
       uses: svenstaro/upload-release-action@v2
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         tag: "Nodes"
         file: "nodefree.txt"
+        overwrite: true
+        draft: false
+        prerelease: false
+
+    - name: Upload openrunner
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        tag: "Nodes"
+        file: "openrunner.txt"
         overwrite: true
         draft: false
         prerelease: false
