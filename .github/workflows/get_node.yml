@@ -22,12 +22,12 @@ jobs:
       run: pip install requests
 
     - name: Run Python script
-      run: python script.py
+      run: python get.py
 
     - name: Commit changes
       run: |
-        git config --global user.email "you@example.com"
-        git config --global user.name "Your Name"
+        git config --global user.email "C_wz__@outlook.com"
+        git config --global user.name "Q3dlaXpoaQ"
         git add .
         git commit -m "Update files"
         git push
