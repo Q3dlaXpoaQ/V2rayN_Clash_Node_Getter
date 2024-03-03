@@ -3,6 +3,7 @@ name: Run Python Script
 on:
   schedule:
     - cron: '0 9 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -25,8 +26,8 @@ jobs:
 
     - name: Commit changes
       run: |
-        git config --global user.email "C_wz__@outlook.com"
-        git config --global user.name "Q3dlaXpoaQ"
+        git config --global user.email "you@example.com"
+        git config --global user.name "Your Name"
         git add .
         git commit -m "Update files"
         git push
