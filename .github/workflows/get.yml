@@ -42,7 +42,9 @@ jobs:
       with:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         tag: "每日节点"
-        files: "nodefree.txt;openrunner.txt"
+        files: |
+          nodefree.txt
+          a.txt
         overwrite: true
         draft: false
         prerelease: false
