@@ -28,7 +28,9 @@ jobs:
       run: |
         git status
         if [[ $(git status --porcelain) ]]; then
-          git add .
+          git add nodefree.txt
+          git add openrunner.txt
+          git status
           git commit -m "Update files"
           git push https://github.com/${{ github.repository }} HEAD:main
         else
