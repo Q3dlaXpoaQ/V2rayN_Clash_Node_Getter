@@ -1,4 +1,4 @@
-name: Update Files
+name: Update Files and Create Release
 
 on:
   schedule:
@@ -24,16 +24,21 @@ jobs:
     - name: Run Python script
       run: python get.py
 
-    - name: Commit changes
+    - name: Check for changes
       run: |
-        git add .
-        git commit -m "Update files"
-        git push https://github.com/${{ github.repository }} HEAD:main
-      env:
-        PAT: ${{ secrets.PAT }}
-    - name: Update GitHub Release
-      run: |
-        curl -X PATCH -H "Content-Type: application/json" -d '{"name": "每日节点", "body": "新节点"}' "https://api.github.com/repos/${{ github.repository }}/releases/${{ github.event.release.id }}" -H "Authorization: token ${{ secrets.PAT }}"
+        git status
+        if [[ $(git status --porcelain) ]]; then
+          git add .
+          git commit -m "Update files"
+          git push https://github.com/${{ github.repository }} HEAD:main
+        else
+          echo "No changes to commit"
+        fi
       env:
         PAT: ${{ secrets.PAT }}
 
+    - name: Create GitHub Release
+      run: |
+        curl -X POST -H "Content-Type: application/json" -d '{"tag_name": "v1.0.0", "name": "每日节点", "body": "Release version 1.0.0"}' "https://api.github.com/repos/${{ github.repository }}/releases" -H "Authorization: token ${{ secrets.PAT }}"
+      env:
+        PAT: ${{ secrets.PAT }}
