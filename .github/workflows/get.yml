@@ -43,8 +43,8 @@ jobs:
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         tag: "Nodes"
         file: |
-          nodefree.txt
-          openrunner.txt
+          "nodefree.txt"
+          "openrunner.txt"
         overwrite: true
         draft: false
         prerelease: false
