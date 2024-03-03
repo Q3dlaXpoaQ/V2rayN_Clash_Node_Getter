@@ -37,16 +37,15 @@ jobs:
       env:
         PAT: ${{ secrets.PAT }}
 
-    - name: Create GitHub Release
-      run: |
-        curl -X POST -H "Content-Type: application/json" -d '{"tag_name": "v1.0.0", "name": "每日节点", "body": "Release version 1.0.0"}' "https://api.github.com/repos/${{ github.repository }}/releases" -H "Authorization: token ${{ secrets.PAT }}"
-      env:
-        PAT: ${{ secrets.PAT }}
-    - name: Upload text file to GitHub Release
-      run: |
-        curl -X POST -H "Content-Type: text/plain" --data-binary @nodefree.txt "https://uploads.github.com/repos/${{ github.repository }}/releases/${{ github.event.release.id }}/assets?name=nodefree.txt" -H "Authorization: token ${{ secrets.PAT }}"
-        curl -X POST -H "Content-Type: text/plain" --data-binary @openrunner.txt "https://uploads.github.com/repos/${{ github.repository }}/releases/${{ github.event.release.id }}/assets?name=openrunner.txt" -H "Authorization: token ${{ secrets.PAT }}"
+    - name: Upload files to release
+      uses: svenstaro/upload-release-action@v2
+      with:
+        repo_token: ${{ secrets.GITHUB_TOKEN }}
+        file: nodefree.txt
+        tag: ${{ github.ref }}
+        asset_name: nodefree.txt
+        overwrite: true
+        draft: false
+        prerelease: false
 
-      env:
-        PAT: ${{ secrets.PAT }}
 
