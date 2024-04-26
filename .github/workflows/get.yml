@@ -1,4 +1,4 @@
-name: Update Files and Create Release
+name: Update Nodes API
 
 on:
   schedule:
@@ -22,14 +22,17 @@ jobs:
       run: pip install requests
 
     - name: Run Python script
-      run: python get.py
+      run: |
+        cd APIs/
+        python get.py
 
     - name: Check for changes
       run: |
         git status
-        if [[ $(git status --porcelain) ]]; then
-          git add nodefree.txt
-          git add nodeshare.txt
+        if [[ $(git status --porcelain APIs/nodefree.txt APIs/nodeshare.txt APIs/clashgithub.txt) ]]; then
+          git add APIs/nodefree.txt
+          git add APIs/nodeshare.txt
+          git add APIs/clashgithub.txt
           git status
           git commit -m "Update files"
           git push https://github.com/${{ github.repository }} HEAD:main
@@ -38,25 +41,5 @@ jobs:
         fi
       env:
         PAT: ${{ secrets.PAT }}
-
-    - name: Upload nodefree
-      uses: svenstaro/upload-release-action@v2
-      with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        tag: "Nodes"
-        file: "nodefree.txt"
-        overwrite: true
-        draft: false
-        prerelease: false
-
-    - name: Upload openrunner
-      uses: svenstaro/upload-release-action@v2
-      with:
-        repo_token: ${{ secrets.GITHUB_TOKEN }}
-        tag: "Nodes"
-        file: "nodeshare.txt"
-        overwrite: true
-        draft: false
-        prerelease: false
-
-
+    
+    
