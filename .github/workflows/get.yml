@@ -23,15 +23,20 @@ jobs:
 
     - name: Run Python script
       run: |
+        cd APIs/
         python get.py
 
     - name: Check for changes
       run: |
         git status
-        if [[ $(git status --porcelain nodefree.txt nodeshare.txt clashgithub.txt) ]]; then
+        if [[ $(git status --porcelain nodefree.txt nodeshare.txt clashgithub0.txt clashgithub1.txt clashgithub2.txt clashgithub3.txt clashgithub4.txt ) ]]; then
           git add nodefree.txt
           git add nodeshare.txt
-          git add clashgithub.txt
+          git add clashgithub0.txt
+          git add clashgithub1.txt
+          git add clashgithub2.txt
+          git add clashgithub3.txt
+          git add clashgithub4.txt
           git status
           git commit -m "Update files"
           git push https://github.com/${{ github.repository }} HEAD:main
