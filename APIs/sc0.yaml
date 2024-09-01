@@ -36,7 +36,23 @@ proxies:
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大
   network: ws
   port: 2086
-  server: 172.64.166.22
+  server: 162.159.140.89
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  network: ws
+  port: 2086
+  server: 172.64.166.2
+  skip-cert-verify: true
+  sni: ''
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
@@ -45,68 +61,54 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-  network: ws
-  port: 2086
-  server: 172.64.198.249
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      host: ip1.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
   network: ws
   port: 2086
-  server: 104.26.5.67
+  server: 23.227.38.6
   skip-cert-verify: true
   sni: ''
   type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
   ws-opts:
     headers:
-      host: ip1.1789034.xyz
+      host: ip006.dtku47.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
   network: ws
   port: 2086
-  server: 172.67.2.238
-  skip-cert-verify: false
-  sni: ip1.1789034.xyz
+  server: 104.19.46.36
+  skip-cert-verify: true
+  sni: ''
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
-      host: ip1.1789034.xyz
+      host: ip13.freegradely.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
   network: ws
   port: 2086
-  server: 104.26.5.112
+  server: 172.64.167.15
   skip-cert-verify: true
   sni: ''
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
-      host: ip1.1789034.xyz
+      host: ip2.1457230.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
   network: ws
   port: 2086
-  server: 172.64.166.28
-  skip-cert-verify: true
-  sni: ''
+  server: 172.64.166.33
+  skip-cert-verify: false
+  sni: ip2.1457230.xyz
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
@@ -118,7 +120,19 @@ proxies:
   name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
   network: ws
   port: 2086
-  server: 104.19.45.11
+  server: 172.67.71.187
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_7
+  network: ws
+  port: 2086
+  server: 172.64.175.88
   skip-cert-verify: true
   sni: ''
   type: vmess
@@ -129,10 +143,69 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_7
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
   network: ws
   port: 2086
-  server: 172.64.194.76
+  server: malaysia.com
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国
+  network: ws
+  port: 46001
+  server: mmhk01.micloud.buzz
+  sni: ''
+  type: vmess
+  uuid: c9bda0e7-4ffa-464f-84a0-41253180d04c
+  ws-opts:
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
+  network: ws
+  port: 2086
+  server: 104.19.46.233
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      host: ip002-2.dtku47.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_10
+  network: ws
+  port: 2086
+  server: 104.26.5.145
+  skip-cert-verify: false
+  sni: ip1.1789034.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- cipher: aes-256-cfb
+  name: 🇷🇺_RU_俄罗斯
+  password: Sn5B7jTqr76aCJT8
+  port: 9097
+  server: 80.92.204.106
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_11
+  network: ws
+  port: 2086
+  server: 104.19.47.122
   skip-cert-verify: true
   sni: ''
   type: vmess
@@ -143,30 +216,134 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_12
   network: ws
   port: 2086
-  server: 104.19.46.17
+  server: 104.19.38.8
   skip-cert-verify: true
   sni: ''
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
-      host: ip13.freegradely.xyz
+      host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_13
+  network: ws
+  port: 2086
+  server: 104.19.32.88
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip5-4.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_14
+  network: ws
+  port: 2086
+  server: 104.19.57.4
+  skip-cert-verify: false
+  sni: ip2.1457230.xyz
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip2.1457230.xyz
     path: github.com/Alvin9999
 - cipher: aes-256-cfb
-  name: 🇷🇺_RU_俄罗斯
-  password: BNmAXXxAHYpTRdzu
-  port: 9020
+  name: 🇷🇺_RU_俄罗斯_1
+  password: a3GFYt36Sm82Vys9
+  port: 9000
   server: 80.92.204.106
   type: ss
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_15
   network: ws
   port: 2086
-  server: 104.22.37.243
+  server: 172.64.167.10
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_1
+  network: ws
+  port: 80
+  server: 104.19.235.1
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: aa6c09dc-aa4a-4914-b439-6d8117f733a3
+  ws-opts:
+    headers:
+      host: 127.0.0.1.востейcontrol.kонтроль農達懲罰.wonkacapitano.buzz.
+    path: /vmess#t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro-t-me-DarkVPNpro
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国
+  network: ws
+  port: 2082
+  server: s1c.v2.v001sss.xyz
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_16
+  network: ws
+  port: 2086
+  server: 104.16.148.244
+  skip-cert-verify: false
+  sni: ip006.freegradely.xyz
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      host: ip006.freegradely.xyz
+    path: github.com/Alvin9999
+- cipher: aes-256-cfb
+  name: 🇷🇺_RU_俄罗斯_2
+  password: VP8ZPxQpJtZRCjfZ
+  port: 9080
+  server: 80.92.204.106
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_17
+  network: ws
+  port: 2086
+  server: 172.64.166.9
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_18
+  network: ws
+  port: 2086
+  server: 104.26.12.31
+  skip-cert-verify: true
+  sni: ''
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
@@ -175,7 +352,35 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_10
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_19
+  network: ws
+  port: 2086
+  server: 104.26.7.132
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip1.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_20
+  network: ws
+  port: 2086
+  server: 104.19.47.77
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_21
   network: ws
   port: 2086
   server: 104.19.45.50
@@ -189,30 +394,10 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_11
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_22
   network: ws
   port: 2086
-  server: 172.67.71.187
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- cipher: aes-128-cfb
-  name: 🇺🇸_US_美国_3
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_12
-  network: ws
-  port: 2086
-  server: 162.159.140.33
-  skip-cert-verify: false
-  sni: ip1.1789034.xyz
+  server: 104.26.10.11
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
@@ -221,38 +406,10 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_13
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_23
   network: ws
   port: 2086
-  server: 104.19.32.46
-  skip-cert-verify: false
-  sni: ip006.dtku47.xyz
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      host: ip006.dtku47.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_14
-  network: ws
-  port: 2086
-  server: 23.227.38.5
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      host: ip006.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_15
-  network: ws
-  port: 2086
-  server: 172.64.167.44
+  server: 172.64.166.12
   skip-cert-verify: true
   sni: ''
   type: vmess
@@ -260,20 +417,6 @@ proxies:
   ws-opts:
     headers:
       host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_16
-  network: ws
-  port: 2086
-  server: 104.19.51.232
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      host: ip006.3196772.xyz
     path: github.com/Alvin9999
 proxy-groups:
 - name: 🚀 节点选择
@@ -289,16 +432,27 @@ proxy-groups:
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_7
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
-  - 🇷🇺_RU_俄罗斯
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_10
+  - 🇷🇺_RU_俄罗斯
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_11
-  - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_12
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_13
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_14
+  - 🇷🇺_RU_俄罗斯_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_15
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_16
+  - 🇷🇺_RU_俄罗斯_2
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_17
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_18
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_19
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_20
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_21
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_22
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_23
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -312,16 +466,27 @@ proxy-groups:
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_7
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
-  - 🇷🇺_RU_俄罗斯
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_10
+  - 🇷🇺_RU_俄罗斯
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_11
-  - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_12
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_13
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_14
+  - 🇷🇺_RU_俄罗斯_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_15
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_16
+  - 🇷🇺_RU_俄罗斯_2
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_17
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_18
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_19
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_20
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_21
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_22
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_23
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -339,16 +504,27 @@ proxy-groups:
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_7
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
-  - 🇷🇺_RU_俄罗斯
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_10
+  - 🇷🇺_RU_俄罗斯
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_11
-  - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_12
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_13
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_14
+  - 🇷🇺_RU_俄罗斯_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_15
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_16
+  - 🇷🇺_RU_俄罗斯_2
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_17
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_18
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_19
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_20
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_21
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_22
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_23
   type: select
 - name: 📲 电报信息
   proxies:
@@ -363,16 +539,27 @@ proxy-groups:
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_7
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
-  - 🇷🇺_RU_俄罗斯
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_10
+  - 🇷🇺_RU_俄罗斯
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_11
-  - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_12
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_13
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_14
+  - 🇷🇺_RU_俄罗斯_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_15
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_16
+  - 🇷🇺_RU_俄罗斯_2
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_17
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_18
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_19
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_20
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_21
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_22
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_23
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -387,16 +574,27 @@ proxy-groups:
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_7
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
-  - 🇷🇺_RU_俄罗斯
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_10
+  - 🇷🇺_RU_俄罗斯
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_11
-  - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_12
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_13
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_14
+  - 🇷🇺_RU_俄罗斯_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_15
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_16
+  - 🇷🇺_RU_俄罗斯_2
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_17
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_18
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_19
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_20
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_21
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_22
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_23
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -411,16 +609,27 @@ proxy-groups:
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_7
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
-  - 🇷🇺_RU_俄罗斯
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_10
+  - 🇷🇺_RU_俄罗斯
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_11
-  - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_12
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_13
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_14
+  - 🇷🇺_RU_俄罗斯_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_15
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_16
+  - 🇷🇺_RU_俄罗斯_2
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_17
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_18
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_19
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_20
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_21
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_22
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_23
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -452,16 +661,27 @@ proxy-groups:
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_7
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
-  - 🇷🇺_RU_俄罗斯
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_9
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_10
+  - 🇷🇺_RU_俄罗斯
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_11
-  - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_12
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_13
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_14
+  - 🇷🇺_RU_俄罗斯_1
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_15
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
   - 🇺🇸_US_美国->🇨🇦_CA_加拿大_16
+  - 🇷🇺_RU_俄罗斯_2
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_17
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_18
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_19
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_20
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_21
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_22
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_23
   type: select
 rule-providers:
   Apple:
