@@ -1,1012 +1,6422 @@
-allow-lan: false
+allow-lan: true
 dns:
   default-nameserver:
   - 223.5.5.5
   - 114.114.114.114
-  enable: true
+  enabled: true
   enhanced-mode: fake-ip
   fake-ip-filter:
   - '*.lan'
-  - '*.localdomain'
-  - '*.example'
-  - '*.invalid'
-  - '*.localhost'
-  - '*.test'
-  - '*.local'
-  - '*.home.arpa'
-  - router.asus.com
-  - localhost.sec.qq.com
+  - '*.linksys.com'
+  - '*.linksyssmartwifi.com'
+  - swscan.apple.com
+  - mesu.apple.com
+  - '*.msftconnecttest.com'
+  - '*.msftncsi.com'
+  - time.*.com
+  - time.*.gov
+  - time.*.edu.cn
+  - time.*.apple.com
+  - time1.*.com
+  - time2.*.com
+  - time3.*.com
+  - time4.*.com
+  - time5.*.com
+  - time6.*.com
+  - time7.*.com
+  - ntp.*.com
+  - ntp.*.com
+  - ntp1.*.com
+  - ntp2.*.com
+  - ntp3.*.com
+  - ntp4.*.com
+  - ntp5.*.com
+  - ntp6.*.com
+  - ntp7.*.com
+  - '*.time.edu.cn'
+  - '*.ntp.org.cn'
+  - +.pool.ntp.org
+  - time1.cloud.tencent.com
+  - +.music.163.com
+  - '*.126.net'
+  - musicapi.taihe.com
+  - music.taihe.com
+  - songsearch.kugou.com
+  - trackercdn.kugou.com
+  - '*.kuwo.cn'
+  - api-jooxtt.sanook.com
+  - api.joox.com
+  - joox.com
+  - +.y.qq.com
+  - +.music.tc.qq.com
+  - aqqmusic.tc.qq.com
+  - +.stream.qqmusic.qq.com
+  - '*.xiami.com'
+  - +.music.migu.cn
+  - +.srv.nintendo.net
+  - +.stun.playstation.net
+  - xbox.*.microsoft.com
+  - +.xboxlive.com
   - localhost.ptlogin2.qq.com
-  - +.msftconnecttest.com
+  - proxy.golang.org
+  - stun.*.*
+  - stun.*.*.*
+  - '*.mcdn.bilivideo.cn'
   fake-ip-range: 198.18.0.1/16
-  ipv6: false
-  listen: 0.0.0.0:53
+  fallback-filter:
+    geoip: false
+    ipcidr:
+    - 240.0.0.0/4
+    - 0.0.0.0/32
+  ipv6: true
+  listen: 0.0.0.0:1053
   nameserver:
-  - 223.5.5.5
-  - 114.114.114.114
-  - 119.29.29.29
-  - 180.76.76.76
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
 external-controller: 0.0.0.0:9090
-ipv6: false
 log-level: info
 mixed-port: 7890
-mode: rule
 proxies:
+- name: 香港_1
+  network: ws
+  port: 12345
+  server: 42.98.167.229
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 香港_2
+  network: ws
+  port: 35500
+  server: 61.239.234.5
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_1
+  network: ws
+  port: 35002
+  server: 58.176.229.127
+  servername: dns68.putata.eu.org
+  tls: true
+  type: vless
+  uuid: d7dd3a35-b68b-4992-b319-a85b8a1fc8e5
+  ws-opts:
+    headers:
+      host: dns68.putata.eu.org
+    path: /
+- name: 香港_3
+  network: ws
+  port: 443
+  server: 219.76.13.169
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 香港_4
+  network: ws
+  port: 54321
+  server: 59.149.204.93
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 韩国_1
+  network: ws
+  port: 31285
+  server: 106.240.98.130
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 韩国_2
+  network: ws
+  port: 16082
+  server: 121.152.127.130
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 香港_5
+  network: ws
+  port: 12345
+  server: 42.98.167.229
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.aliyuo.fxxk.dedyo.io
+- name: 韩国_3
+  network: ws
+  port: 16051
+  server: 119.65.118.27
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 韩国_4
+  network: ws
+  port: 16082
+  server: 121.152.127.130
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 韩国_5
+  network: ws
+  port: 16082
+  server: 121.152.127.130
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 韩国_6
+  network: ws
+  port: 16051
+  server: 119.65.118.27
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 韩国_7
+  network: ws
+  port: 16051
+  server: 119.65.118.27
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 韩国_8
+  network: ws
+  port: 31604
+  server: 121.155.14.99
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?proxyip=proxyip.kr.fxxk.dedyo.io
+- name: 香港_6
+  network: ws
+  port: 12345
+  server: 42.98.167.229
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 香港_7
+  network: ws
+  port: 443
+  server: 219.76.13.164
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 香港_8
+  network: ws
+  port: 443
+  server: 219.76.13.183
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 韩国_9
+  network: ws
+  port: 31604
+  server: 121.155.14.99
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 韩国_10
+  network: ws
+  port: 50026
+  server: 115.88.75.154
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 韩国_11
+  network: ws
+  port: 30042
+  server: 210.91.8.234
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.kr.fxxk.dedyo.io
+- name: 韩国_12
+  network: ws
+  port: 10255
+  server: 175.206.2.186
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 韩国_13
+  network: ws
+  port: 10065
+  server: 175.206.233.78
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 韩国_14
+  network: ws
+  port: 50000
+  server: 118.47.96.102
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 韩国_15
+  network: ws
+  port: 50000
+  server: 14.39.254.65
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 韩国_16
+  network: ws
+  port: 10201
+  server: 121.145.59.207
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 韩国_17
+  network: ws
+  port: 30001
+  server: 121.143.196.49
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 韩国_18
+  network: ws
+  port: 50000
+  server: 14.39.254.65
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 韩国_19
+  network: ws
+  port: 10201
+  server: 121.145.59.207
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 韩国_20
+  network: ws
+  port: 10255
+  server: 175.206.2.186
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 韩国_21
+  network: ws
+  port: 10001
+  server: 124.153.214.6
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 韩国_22
+  network: ws
+  port: 12000
+  server: 115.143.93.241
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.kr.fxxk.dedyo.io
+- name: 韩国_23
+  network: ws
+  port: 443
+  server: 59.3.3.161
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 韩国_24
+  network: ws
+  port: 443
+  server: 59.3.3.161
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /?proxyip=proxyip.kr.fxxk.dedyo.io
+- name: 韩国_25
+  network: ws
+  port: 50000
+  server: 14.39.254.65
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 韩国_26
+  network: ws
+  port: 10201
+  server: 121.145.59.207
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 韩国_27
+  network: ws
+  port: 10042
+  server: 175.211.223.106
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 韩国_28
+  network: ws
+  port: 443
+  server: 59.3.3.161
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 韩国_29
+  network: ws
+  port: 50000
+  server: 14.39.254.65
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 韩国_30
+  network: ws
+  port: 10001
+  server: 124.153.214.6
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.kr.fxxk.dedyo.io
+- name: 韩国_31
+  network: ws
+  port: 10255
+  server: 175.206.2.186
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?proxyip=proxyip.kr.fxxk.dedyo.io
+- name: 韩国_32
+  network: ws
+  port: 10255
+  server: 175.206.2.186
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?proxyip=proxyip.kr.fxxk.dedyo.io
+- name: 美国_2
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 132.226.1.227
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_3
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 150.230.196.248
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_4
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 140.238.40.67
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 香港_9
+  network: ws
+  port: 12345
+  server: 42.98.167.229
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
 - name: 美国_5
   network: ws
   password: NISHIKUITAN222
   port: 443
-  server: 141.147.70.245
-  skip-cert-verify: false
+  server: 129.151.204.91
+  skip-cert-verify: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: tn.ylks.xyz
+      host: to.ylks.xyz
     path: /
-- name: 美国_7
+- name: 美国_6
   network: ws
   password: NISHIKUITAN222
   port: 443
-  server: 152.70.186.19
-  skip-cert-verify: false
+  server: 158.178.192.221
+  skip-cert-verify: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: tn.ylks.xyz
+      host: to.ylks.xyz
     path: /
+- name: 美国_7
+  network: ws
+  port: 443
+  server: 173.249.197.84
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
 - name: 美国_8
   network: ws
   password: NISHIKUITAN222
   port: 443
-  server: 143.47.245.162
-  skip-cert-verify: false
+  server: 141.147.161.250
+  skip-cert-verify: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: tn.ylks.xyz
+      host: to.ylks.xyz
     path: /
 - name: 美国_9
   network: ws
-  password: NISHIKUITAN222
   port: 443
-  server: 150.230.123.238
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  server: 172.82.16.99
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
+      host: ko.ylks.xyz
+    path: /blue
 - name: 美国_10
   network: ws
-  password: NISHIKUITAN222
   port: 443
-  server: 141.147.61.90
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  server: 69.84.182.102
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
+      host: xo.ylks.xyz
+    path: /blue
+- name: 罗马尼亚_1
+  network: ws
+  port: 443
+  server: 94.177.8.43
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.oracle.fxxk.dedyo.io
 - name: 美国_11
   network: ws
-  password: NISHIKUITAN222
   port: 443
-  server: 150.230.7.216
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  server: 98.70.26.236
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
+      host: ko.ylks.xyz
+    path: /blue
 - name: 美国_12
   network: ws
-  password: NISHIKUITAN222
   port: 443
-  server: 165.1.123.204
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  server: 198.62.62.145
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
+      host: ho.ylks.xyz
+    path: /blue
 - name: 美国_13
   network: ws
-  password: NISHIKUITAN222
   port: 443
-  server: 144.22.252.124
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  server: 172.82.16.99
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      host: tn.ylks.xyz
+      host: ho.ylks.xyz
+    path: /blue
+- name: 法国_1
+  network: ws
+  port: 8443
+  server: 45.80.110.13
+  servername: a.ssll.gay
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
     path: /
 - name: 美国_14
   network: ws
-  password: NISHIKUITAN222
   port: 443
-  server: 138.2.135.224
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  server: 198.62.62.236
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
+      host: ko.ylks.xyz
+    path: /blue
 - name: 美国_15
   network: ws
-  password: NISHIKUITAN222
   port: 443
-  server: 152.70.71.23
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  server: 69.84.182.16
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
+      host: yo.ylka.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
 - name: 美国_16
   network: ws
-  password: NISHIKUITAN222
   port: 443
-  server: 140.83.86.166
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  server: 69.84.182.102
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
+      host: ko.ylks.xyz
+    path: /blue
 - name: 美国_17
   network: ws
-  password: NISHIKUITAN222
   port: 443
-  server: 150.230.63.93
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  server: 69.84.182.94
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
+      host: xo.ylks.xyz
+    path: /blue
 - name: 美国_18
   network: ws
-  password: NISHIKUITAN222
   port: 443
-  server: 34.105.189.25
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  server: 172.82.16.99
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
+      host: jo.ylks01.eu.org
+    path: /blue
 - name: 美国_19
   network: ws
-  password: NISHIKUITAN222
   port: 443
-  server: 34.22.142.117
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  server: 172.82.16.99
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_20
+  network: ws
+  port: 443
+  server: 198.62.62.14
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
 - name: 美国_21
   network: ws
-  password: NISHIKUITAN222
   port: 443
-  server: 34.147.130.63
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  server: 198.62.62.212
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
+      host: jo.ylks01.eu.org
+    path: /blue
 - name: 美国_22
   network: ws
-  password: NISHIKUITAN222
   port: 443
-  server: 141.147.100.185
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  server: 198.62.62.127
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 美国_23
+  network: ws
+  port: 443
+  server: 69.84.182.231
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
 - name: 美国_24
   network: ws
-  password: NISHIKUITAN222
   port: 443
-  server: 34.175.202.195
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  server: 69.84.182.127
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
+      host: yo.ylks.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_25
+  network: ws
+  port: 443
+  server: 198.62.62.212
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
 - name: 美国_26
   network: ws
-  password: NISHIKUITAN222
   port: 443
-  server: 158.178.158.13
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  server: 198.62.62.91
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
 - name: 美国_27
   network: ws
-  password: NISHIKUITAN222
   port: 443
-  server: 34.147.231.33
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  server: 69.84.182.127
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
 - name: 美国_28
   network: ws
-  password: NISHIKUITAN222
   port: 443
-  server: 130.162.252.17
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  server: 69.84.182.102
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_32
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_29
   network: ws
-  password: NISHIKUITAN222
   port: 443
-  server: 141.147.114.14
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  server: 135.84.76.152
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_35
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_30
   network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 130.162.51.4
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  port: 80
+  server: 204.110.220.120
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_40
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 荷兰_1
   network: ws
-  password: NISHIKUITAN222
   port: 443
-  server: 158.178.152.40
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  server: 45.159.216.147
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_41
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 152.70.112.158
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_43
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 34.91.136.173
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_44
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 141.147.5.36
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_47
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 141.147.100.202
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_48
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 141.147.98.82
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_49
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 158.180.43.153
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_50
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 129.159.22.4
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_51
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 152.70.69.199
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_54
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 144.24.173.182
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_63
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 141.147.51.56
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_65
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 141.148.242.189
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_66
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 158.101.214.112
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_73
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 141.147.111.134
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_74
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 143.47.235.184
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_76
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 129.151.204.91
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_84
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 146.235.197.123
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_89
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 129.146.168.102
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_103
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 132.226.205.160
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_117
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 84.235.175.252
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_132
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 144.24.200.164
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_136
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 158.179.206.143
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_148
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 34.69.150.180
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_159
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 132.226.31.178
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_167
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 213.170.157.1
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_194
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 192.18.159.129
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_201
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: tn.ylks.xyz
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_202
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 34.123.83.237
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_203
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 129.159.47.255
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_223
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 213.35.105.46
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_246
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 158.180.49.179
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_247
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 207.127.94.174
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_261
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 204.110.220.254
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_309
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 129.146.134.77
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_318
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_31
   network: ws
   password: NISHIKUITAN222
   port: 443
   server: 204.110.220.12
-  skip-cert-verify: false
+  skip-cert-verify: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: tn.ylks.xyz
+      host: to.ylks.xyz
+    path: /
+- name: 美国_32
+  network: ws
+  port: 443
+  server: 69.84.182.112
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_33
+  network: ws
+  port: 443
+  server: 198.62.62.231
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_34
+  network: ws
+  port: 443
+  server: singapore.com
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_35
+  network: ws
+  port: 443
+  server: 69.84.182.85
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_36
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 134.65.59.100
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_37
+  network: ws
+  port: 443
+  server: 198.62.62.6
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_38
+  network: ws
+  port: 443
+  server: 198.62.62.165
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_39
+  network: ws
+  port: 443
+  server: 198.62.62.49
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_40
+  network: ws
+  port: 80
+  server: 204.110.220.1
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_41
+  network: ws
+  port: 443
+  server: 69.84.182.1
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_42
+  network: ws
+  port: 443
+  server: 69.84.182.21
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_43
+  network: ws
+  port: 443
+  server: 69.84.182.95
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_44
+  network: ws
+  port: 443
+  server: 192.0.63.8
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_45
+  network: ws
+  port: 443
+  server: 198.62.62.106
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_46
+  network: ws
+  port: 443
+  server: 198.62.62.73
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_47
+  network: ws
+  port: 80
+  server: 204.110.220.120
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_48
+  network: ws
+  port: 443
+  server: 216.221.213.149
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_49
+  network: ws
+  port: 443
+  server: 69.84.182.16
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_50
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 158.179.206.143
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_51
+  network: ws
+  port: 443
+  server: 69.84.182.75
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_52
+  network: ws
+  port: 443
+  server: 198.62.62.91
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 奥地利_1
+  network: ws
+  port: 443
+  server: 212.183.88.142
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.oracle.fxxk.dedyo.io
+- name: 美国_53
+  network: ws
+  port: 443
+  server: 192.0.54.33
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_54
+  network: ws
+  port: 443
+  server: 69.84.182.216
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_55
+  network: ws
+  port: 443
+  server: 69.84.182.128
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_56
+  network: ws
+  port: 443
+  server: 69.84.182.85
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_57
+  network: ws
+  port: 2096
+  server: www.visaeurope.at
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?ed=2560
+- name: 美国_58
+  network: ws
+  port: 443
+  server: 69.84.182.114
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_59
+  network: ws
+  port: 443
+  server: 69.84.182.165
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_60
+  network: ws
+  port: 443
+  server: 69.84.182.1
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_61
+  network: ws
+  port: 443
+  server: 69.84.182.89
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_62
+  network: ws
+  port: 443
+  server: 69.84.182.90
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_63
+  network: ws
+  port: 443
+  server: 69.84.182.193
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 波兰
+  network: ws
+  port: 443
+  server: 193.84.2.206
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /?proxyip=proxyip.oracle.fxxk.dedyo.io
+- name: 立陶宛_1
+  network: ws
+  port: 443
+  server: 185.176.24.64
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_64
+  network: ws
+  port: 2083
+  server: africa.visa.com
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?ed=2560
+- name: 美国_65
+  network: ws
+  port: 443
+  server: qa.visamiddleeast.com
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?ed=2560
+- name: 美国_66
+  network: ws
+  port: 443
+  server: 69.84.182.95
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_67
+  network: ws
+  port: 443
+  server: 198.62.62.58
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 美国_68
+  network: ws
+  port: 443
+  server: 69.84.182.216
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_69
+  network: ws
+  port: 80
+  server: 204.110.220.1
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_70
+  network: ws
+  port: 443
+  server: 69.84.182.21
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_71
+  network: ws
+  port: 443
+  server: 198.62.62.73
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 奥地利_2
+  network: ws
+  port: 443
+  server: 212.183.88.242
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_72
+  network: ws
+  port: 443
+  server: 69.84.182.75
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_73
+  network: ws
+  port: 443
+  server: 69.84.182.128
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_74
+  network: ws
+  port: 443
+  server: 69.84.182.90
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_75
+  network: ws
+  port: 443
+  server: 198.62.62.47
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_76
+  network: ws
+  port: 443
+  server: 198.62.62.9
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_77
+  network: ws
+  port: 8443
+  server: www.visa.com
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?ed=2560
+- name: 美国_78
+  network: ws
+  port: 443
+  server: 198.62.62.186
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_79
+  network: ws
+  port: 443
+  server: 69.84.182.48
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_80
+  network: ws
+  port: 443
+  server: 198.62.62.73
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_81
+  network: ws
+  port: 443
+  server: 69.84.182.125
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_82
+  network: ws
+  port: 443
+  server: 198.62.62.193
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_83
+  network: ws
+  port: 443
+  server: 198.62.62.60
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_84
+  network: ws
+  port: 443
+  server: 63.141.128.98
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_85
+  network: ws
+  port: 443
+  server: 198.62.62.49
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_86
+  network: ws
+  port: 443
+  server: 69.84.182.196
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 立陶宛_2
+  network: ws
+  port: 443
+  server: 185.176.24.64
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_87
+  network: ws
+  port: 443
+  server: 69.84.182.192
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_88
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 152.70.57.182
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_89
+  network: ws
+  port: 443
+  server: 69.84.182.178
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_90
+  network: ws
+  port: 443
+  server: 198.62.62.254
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 美国_91
+  network: ws
+  port: 443
+  server: 198.62.62.0
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 荷兰_2
+  network: ws
+  port: 443
+  server: 45.159.218.110
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: /tg@zdyz2
+- name: 美国_92
+  network: ws
+  port: 443
+  server: singapore.com
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_93
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 213.170.157.1
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_94
+  network: ws
+  port: 443
+  server: 198.62.62.49
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_95
+  network: ws
+  port: 443
+  server: 69.84.182.110
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_96
+  network: ws
+  port: 443
+  server: 69.84.182.100
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 俄罗斯_1
+  network: ws
+  port: 8443
+  server: 185.174.138.141
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: /
+- name: 美国_97
+  network: ws
+  port: 443
+  server: 69.84.182.250
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_98
+  network: ws
+  port: 80
+  server: 204.110.220.3
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_99
+  network: ws
+  port: 443
+  server: 192.200.160.89
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_100
+  network: ws
+  port: 8443
+  server: 159.112.235.14
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: /?ed
+- name: 美国_101
+  network: ws
+  port: 443
+  server: 69.84.182.89
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_102
+  network: ws
+  port: 443
+  server: 198.62.62.233
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_103
+  network: ws
+  port: 443
+  server: 198.62.62.152
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 荷兰_3
+  network: ws
+  port: 443
+  server: 45.159.216.147
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_104
+  network: ws
+  port: 443
+  server: 69.84.182.211
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_105
+  network: ws
+  port: 443
+  server: www.udemy.com
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_106
+  network: ws
+  port: 443
+  server: 69.84.182.125
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_107
+  network: ws
+  port: 80
+  server: 204.110.220.1
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_108
+  network: ws
+  port: 2083
+  server: africa.visa.com
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?ed=2560
+- name: 香港_10
+  network: ws
+  port: 12345
+  server: 42.98.167.229
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_109
+  network: ws
+  port: 443
+  server: 69.84.182.172
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- client-fingerprint: random
+  name: 乌克兰_1
+  network: ws
+  port: 443
+  server: 45.67.215.39
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /
+- name: 美国_110
+  network: ws
+  port: 443
+  server: 198.62.62.9
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_111
+  network: ws
+  port: 443
+  server: 69.84.182.43
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_112
+  network: ws
+  port: 443
+  server: 198.62.62.217
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_113
+  network: ws
+  port: 443
+  server: 69.84.182.39
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_114
+  network: ws
+  port: 443
+  server: 69.84.182.86
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 奥地利_3
+  network: ws
+  port: 443
+  server: 212.183.88.33
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_115
+  network: ws
+  port: 443
+  server: 69.84.182.84
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_116
+  network: ws
+  port: 443
+  server: 69.84.182.100
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_117
+  network: ws
+  port: 443
+  server: 198.62.62.0
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_118
+  network: ws
+  port: 2096
+  server: www.visaeurope.at
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?ed=2560
+- name: 荷兰_4
+  network: ws
+  port: 443
+  server: 45.159.216.227
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 美国_119
+  network: ws
+  port: 443
+  server: 198.62.62.78
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_120
+  network: ws
+  port: 443
+  server: 69.84.182.210
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_121
+  network: ws
+  port: 443
+  server: 69.84.182.88
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_122
+  network: ws
+  port: 443
+  server: 69.84.182.44
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_123
+  network: ws
+  port: 443
+  server: 69.84.182.44
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_124
+  network: ws
+  port: 443
+  server: time.is
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?ed=2560
+- name: 美国_125
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 152.70.112.158
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_126
+  network: ws
+  port: 443
+  server: 198.62.62.223
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_127
+  network: ws
+  port: 443
+  server: 69.84.182.179
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_128
+  network: ws
+  port: 443
+  server: 198.62.62.156
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_129
+  network: ws
+  port: 443
+  server: 69.84.182.93
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_130
+  network: ws
+  port: 443
+  server: 69.84.182.76
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_131
+  network: ws
+  port: 443
+  server: 69.84.182.119
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 荷兰_5
+  network: ws
+  port: 443
+  server: 45.159.217.220
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: /
+- name: 美国_132
+  network: ws
+  port: 443
+  server: 69.84.182.110
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_133
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 207.127.94.174
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_134
+  network: ws
+  port: 443
+  server: 69.84.182.172
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_135
+  network: ws
+  port: 443
+  server: 198.62.62.243
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_136
+  network: ws
+  port: 443
+  server: 69.84.182.185
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_137
+  network: ws
+  port: 2096
+  server: vo.ylks.xyz
+  servername: vo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      host: vo.ylks.xyz
+    path: /whhkmqzv3c8chzyr?ed=2560
+- name: 美国_138
+  network: ws
+  port: 443
+  server: 69.84.182.134
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_139
+  network: ws
+  port: 443
+  server: 198.62.62.48
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 美国_140
+  network: ws
+  port: 443
+  server: 69.84.182.134
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_141
+  network: ws
+  port: 443
+  server: 198.62.62.151
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_142
+  network: ws
+  port: 443
+  server: 69.84.182.97
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_143
+  network: ws
+  port: 443
+  server: 69.84.182.71
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 俄罗斯_2
+  network: ws
+  port: 443
+  server: 185.59.218.139
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2fp
+- name: 美国_144
+  network: ws
+  port: 443
+  server: 69.84.182.192
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 美国_145
+  network: ws
+  port: 2053
+  server: cis.visa.com
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?ed=2560
+- name: 美国_146
+  network: ws
+  port: 443
+  server: 160.79.105.38
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_147
+  network: ws
+  port: 443
+  server: 69.84.182.32
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_148
+  network: ws
+  port: 443
+  server: 69.84.182.109
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_149
+  network: ws
+  port: 443
+  server: 69.84.182.70
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_150
+  network: ws
+  port: 443
+  server: 198.62.62.44
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 美国_151
+  network: ws
+  port: 443
+  server: 69.84.182.104
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_152
+  network: ws
+  port: 443
+  server: 198.62.62.163
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 乌克兰_2
+  network: ws
+  port: 443
+  server: 45.67.215.41
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.oracle.fxxk.dedyo.io
+- name: 美国_153
+  network: ws
+  port: 443
+  server: 69.84.182.100
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_154
+  network: ws
+  port: 443
+  server: 198.62.62.245
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_155
+  network: ws
+  port: 443
+  server: 69.84.182.164
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_156
+  network: ws
+  port: 443
+  server: 198.62.62.205
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_157
+  network: ws
+  port: 443
+  server: 198.62.62.220
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_158
+  network: ws
+  port: 443
+  server: 69.84.182.32
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_159
+  network: ws
+  port: 443
+  server: 69.84.182.225
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 美国_160
+  network: ws
+  port: 443
+  server: 69.84.182.77
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_161
+  network: ws
+  port: 443
+  server: 69.84.182.215
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_162
+  network: ws
+  port: 443
+  server: 198.62.62.239
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_163
+  network: ws
+  port: 443
+  server: 198.62.62.44
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 俄罗斯_3
+  network: ws
+  port: 443
+  server: 185.109.21.19
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: /tg@zdyz2
+- name: 美国_164
+  network: ws
+  port: 443
+  server: 69.84.182.145
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_165
+  network: ws
+  port: 443
+  server: 198.62.62.245
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 罗马尼亚_2
+  network: ws
+  port: 443
+  server: 94.177.8.26
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 南非_1
+  network: ws
+  port: 443
+  server: 160.123.255.201
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_166
+  network: ws
+  port: 443
+  server: 69.84.182.104
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_167
+  network: ws
+  port: 443
+  server: 69.84.182.215
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 美国_168
+  network: ws
+  port: 443
+  server: 69.84.182.215
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_169
+  network: ws
+  port: 443
+  server: 198.62.62.110
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_170
+  network: ws
+  port: 443
+  server: 198.62.62.186
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_171
+  network: ws
+  port: 443
+  server: 69.84.182.178
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_172
+  network: ws
+  port: 443
+  server: 198.62.62.151
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_173
+  network: ws
+  port: 443
+  server: 69.84.182.30
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_174
+  network: ws
+  port: 443
+  server: 69.84.182.178
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 立陶宛_3
+  network: ws
+  port: 443
+  server: 185.148.107.173
+  servername: cfed.tgzdyz2.top
+  tls: true
+  type: vless
+  uuid: 2cd6ed0f-636e-4e6c-9449-5a263d7a0fa5
+  ws-opts:
+    headers:
+      host: cfed.tgzdyz2.top
+    path: tg@zdyz2
+- name: 美国_175
+  network: ws
+  port: 443
+  server: 69.84.182.71
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_176
+  network: ws
+  port: 443
+  server: 69.84.182.104
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_177
+  network: ws
+  port: 443
+  server: 198.62.62.234
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_178
+  network: ws
+  port: 2053
+  server: cis.visa.com
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?ed=2560
+- name: 美国_179
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: to.ylks.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_180
+  network: ws
+  port: 443
+  server: 198.62.62.67
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_181
+  network: ws
+  port: 443
+  server: 69.84.182.247
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_182
+  network: ws
+  port: 2052
+  server: 130.250.137.235
+  servername: ho.ylks.xyz
+  tls: false
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_183
+  network: ws
+  port: 443
+  server: 69.84.182.119
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_184
+  network: ws
+  port: 443
+  server: 198.62.62.217
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_185
+  network: ws
+  port: 443
+  server: 69.84.182.131
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_186
+  network: ws
+  port: 443
+  server: 198.62.62.111
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 美国_187
+  network: ws
+  port: 443
+  server: 69.84.182.31
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_188
+  network: ws
+  port: 443
+  server: 69.84.182.84
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_189
+  network: ws
+  port: 443
+  server: 69.84.182.71
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_190
+  network: ws
+  port: 443
+  server: 69.84.182.177
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_191
+  network: ws
+  port: 443
+  server: 69.84.182.100
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_192
+  network: ws
+  port: 443
+  server: 69.84.182.139
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 南非_2
+  network: ws
+  port: 443
+  server: 160.123.255.71
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 法国_2
+  network: ws
+  port: 2053
+  server: 45.80.110.211
+  servername: a.ssll.gay
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: twitterfreecodesfp
+- name: 美国_193
+  network: ws
+  port: 443
+  server: 69.84.182.30
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_194
+  network: ws
+  port: 443
+  server: 192.200.160.201
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_195
+  network: ws
+  port: 443
+  server: 69.84.182.210
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_196
+  network: ws
+  port: 443
+  server: 69.84.182.218
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_197
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 129.146.168.102
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_198
+  network: ws
+  port: 443
+  server: 69.84.182.23
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 香港_11
+  network: ws
+  port: 443
+  server: 219.76.13.164
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_199
+  network: ws
+  port: 443
+  server: 69.84.182.145
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_200
+  network: ws
+  port: 443
+  server: 69.84.182.247
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_201
+  network: ws
+  port: 443
+  server: 69.84.182.78
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 南非_3
+  network: ws
+  port: 443
+  server: 160.123.255.162
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_202
+  network: ws
+  port: 443
+  server: 198.62.62.239
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 美国_203
+  network: ws
+  port: 443
+  server: 69.84.182.144
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_204
+  network: ws
+  port: 443
+  server: 198.62.62.251
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 美国_205
+  network: ws
+  port: 2082
+  server: 130.250.137.200
+  servername: ho.ylks.xyz
+  tls: false
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 澳大利亚_1
+  network: ws
+  port: 443
+  server: 43.153.103.203
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_206
+  network: ws
+  port: 443
+  server: 69.84.182.210
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_207
+  network: ws
+  port: 443
+  server: 63.141.128.219
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 法国_3
+  network: ws
+  port: 8443
+  server: 45.80.110.212
+  servername: a.ssll.gay
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: twitterfreecodessecurity
+- name: 美国_208
+  network: ws
+  port: 443
+  server: 69.84.182.172
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_209
+  network: ws
+  port: 443
+  server: 69.84.182.97
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_210
+  network: ws
+  port: 443
+  server: 69.84.182.209
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_211
+  network: ws
+  port: 443
+  server: 69.84.182.198
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_212
+  network: ws
+  port: 8443
+  server: www.visa.com
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?ed=2560
+- name: 澳大利亚_2
+  network: ws
+  port: 38454
+  server: 43.153.103.203
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_213
+  network: ws
+  port: 443
+  server: 69.84.182.139
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_214
+  network: ws
+  port: 443
+  server: 69.84.182.187
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 香港_12
+  network: ws
+  port: 11524
+  server: 223.18.129.85
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.aliyuo.fxxk.dedyo.io
+- name: 美国_215
+  network: ws
+  port: 443
+  server: 198.62.62.198
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_216
+  network: ws
+  port: 443
+  server: 198.62.62.186
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 美国_217
+  network: ws
+  port: 443
+  server: 69.84.182.208
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_218
+  network: ws
+  port: 443
+  server: 69.84.182.100
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 英国
+  network: ws
+  port: 443
+  server: 188.244.122.57
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_219
+  network: ws
+  port: 443
+  server: 69.84.182.104
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_220
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 129.153.126.67
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 香港_13
+  network: ws
+  port: 39578
+  server: 223.18.129.85
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 澳大利亚_3
+  network: ws
+  port: 38454
+  server: 43.153.103.203
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_221
+  network: ws
+  port: 443
+  server: cnv6.xxxxxxxx.tk
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_222
+  network: ws
+  port: 443
+  server: 198.62.62.251
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_223
+  network: ws
+  port: 443
+  server: 160.79.105.51
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_224
+  network: ws
+  port: 443
+  server: vo.ylks.xyz
+  servername: vo.YlKS.xYz
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      host: vo.YlKS.xYz
+    path: /7f2p5lz1ecxdimfz?ed=2560
+- name: 美国_225
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 34.123.83.237
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_226
+  network: ws
+  port: 443
+  server: 69.84.182.187
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_227
+  network: ws
+  port: 443
+  server: 198.62.62.28
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_228
+  network: ws
+  port: 443
+  server: 135.84.76.97
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_229
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 213.35.105.46
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_230
+  network: ws
+  port: 443
+  server: 69.84.182.133
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 美国_231
+  network: ws
+  port: 443
+  server: 69.84.182.144
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 荷兰_6
+  network: ws
+  port: 443
+  server: 45.159.218.181
+  servername: juzibaipiao.5112233.xyz
+  tls: true
+  type: vless
+  uuid: f775978b-6e22-41a8-ae5e-5f9779e6745f
+  ws-opts:
+    headers:
+      host: juzibaipiao.5112233.xyz
+    path: /
+- name: 美国_232
+  network: ws
+  port: 443
+  server: 69.84.182.116
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_233
+  network: ws
+  port: 443
+  server: 69.84.182.143
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 澳大利亚_4
+  network: ws
+  port: 38454
+  server: 43.153.103.203
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_234
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 204.110.220.3
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 奥地利_4
+  network: ws
+  port: 443
+  server: 212.183.88.102
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 奥地利_5
+  network: ws
+  port: 443
+  server: 212.183.88.103
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.oracle.fxxk.dedyo.io
+- name: 美国_235
+  network: ws
+  port: 443
+  server: 198.62.62.10
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 美国_236
+  network: ws
+  port: 443
+  server: 69.84.182.81
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_237
+  network: ws
+  port: 443
+  server: 69.84.182.53
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_238
+  network: ws
+  port: 443
+  server: 69.84.182.15
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_239
+  network: ws
+  port: 443
+  server: 198.62.62.166
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 澳大利亚_5
+  network: ws
+  port: 38454
+  server: 43.153.103.203
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_240
+  network: ws
+  port: 443
+  server: 192.0.54.0
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_241
+  network: ws
+  port: 443
+  server: 69.84.182.218
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_242
+  network: ws
+  port: 443
+  server: 69.84.182.140
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 乌克兰_3
+  network: ws
+  port: 443
+  server: 45.67.215.0
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.oracle.fxxk.dedyo.io
+- name: 美国_243
+  network: ws
+  port: 443
+  server: 69.84.182.15
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_244
+  network: ws
+  port: 443
+  server: 69.84.182.138
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_245
+  network: ws
+  port: 443
+  server: 198.62.62.199
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_246
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 34.69.150.180
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 香港_14
+  network: ws
+  port: 12345
+  server: 42.98.167.229
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 美国_247
+  network: ws
+  port: 443
+  server: 69.84.182.53
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_248
+  network: ws
+  port: 443
+  server: 198.62.62.119
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_249
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 34.123.83.237
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_250
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 129.146.47.72
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_251
+  network: ws
+  port: 37813
+  server: 65.75.193.21
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_252
+  network: ws
+  port: 443
+  server: 69.84.182.234
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 香港_15
+  network: ws
+  port: 9999
+  server: 218.102.12.37
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.aliyuo.fxxk.dedyo.io
+- name: 美国_253
+  network: ws
+  port: 443
+  server: 69.84.182.213
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- client-fingerprint: random
+  name: 美国_254
+  network: ws
+  port: 443
+  server: 63.141.128.103
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /
+- name: 美国_255
+  network: ws
+  port: 443
+  server: 69.84.182.232
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 法国_4
+  network: ws
+  port: 8443
+  server: 45.80.110.43
+  servername: a.ssll.gay
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: twitterfreecodessecurity
+- name: 美国_256
+  network: ws
+  port: 443
+  server: 69.84.182.81
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 香港_16
+  network: ws
+  port: 443
+  server: 219.76.13.164
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 美国_257
+  network: ws
+  port: 443
+  server: 198.62.62.42
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 美国_258
+  network: ws
+  port: 443
+  server: 69.84.182.33
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_259
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 146.235.17.31
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_260
+  network: ws
+  port: 443
+  server: 198.62.62.53
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_261
+  network: ws
+  port: 443
+  server: 198.62.62.10
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_262
+  network: ws
+  port: 443
+  server: 198.62.62.64
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_263
+  network: ws
+  port: 443
+  server: malaysia.com
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 香港_17
+  network: ws
+  port: 443
+  server: 219.76.13.164
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 澳大利亚_6
+  network: ws
+  port: 443
+  server: 43.153.80.208
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_264
+  network: ws
+  port: 443
+  server: 69.84.182.147
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_265
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 192.18.159.129
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_266
+  network: ws
+  port: 8443
+  server: russia.com
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_267
+  network: ws
+  port: 37813
+  server: 65.75.193.21
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_268
+  network: ws
+  port: 80
+  server: xn--b6gac.eu.org
+  servername: ho.ylks.xyz
+  tls: false
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_269
+  network: ws
+  port: 443
+  server: 69.84.182.250
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_270
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 152.70.69.199
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 澳大利亚_7
+  network: ws
+  port: 443
+  server: 43.153.103.203
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_271
+  network: ws
+  port: 443
+  server: 198.62.62.59
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_272
+  network: ws
+  port: 443
+  server: www.udemy.com
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 香港_18
+  network: ws
+  port: 443
+  server: 219.76.13.169
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 澳大利亚_8
+  network: ws
+  port: 38454
+  server: 43.153.103.203
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_273
+  network: ws
+  port: 443
+  server: 69.84.182.52
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_274
+  network: ws
+  port: 443
+  server: 198.62.62.183
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_275
+  network: ws
+  port: 443
+  server: 198.62.62.204
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 澳大利亚_9
+  network: ws
+  port: 443
+  server: 43.153.103.203
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_276
+  network: ws
+  port: 443
+  server: 198.62.62.211
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 澳大利亚_10
+  network: ws
+  port: 443
+  server: 43.153.80.208
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_277
+  network: ws
+  port: 443
+  server: 69.84.182.247
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_278
+  network: ws
+  port: 8443
+  server: russia.com
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_279
+  network: ws
+  port: 443
+  server: 69.84.182.39
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_280
+  network: ws
+  port: 443
+  server: 198.62.62.132
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_281
+  network: ws
+  port: 443
+  server: 198.62.62.185
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_282
+  network: ws
+  port: 8443
+  server: vo.ylks.xyz
+  servername: vo.YLKs.xyz
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      host: vo.YLKs.xyz
+    path: /tcdblzuj87sp0noj?ed=2560
+- name: 美国_283
+  network: ws
+  port: 443
+  server: www.hugedomains.com
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_284
+  network: ws
+  port: 443
+  server: 198.62.62.144
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 南非_4
+  network: ws
+  port: 443
+  server: 160.123.255.151
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_285
+  network: ws
+  port: 443
+  server: 198.62.62.185
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_286
+  network: ws
+  port: 2087
+  server: vo.ylks.xyz
+  servername: vo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      host: vo.ylks.xyz
+    path: /yysi4uadt5nqdunn?ed=2560
+- name: 美国_287
+  network: ws
+  port: 443
+  server: 69.84.182.241
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 美国_288
+  network: ws
+  port: 443
+  server: 198.62.62.13
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_289
+  network: ws
+  port: 2083
+  server: vo.ylks.xyz
+  servername: vo.ylKS.XYZ
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      host: vo.ylKS.XYZ
+    path: /rt9oqrshckrrpwx8?ed=2560
+- name: 美国_290
+  network: ws
+  port: 443
+  server: 69.84.182.101
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 澳大利亚_11
+  network: ws
+  port: 443
+  server: 43.153.80.208
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 美国_291
+  network: ws
+  port: 443
+  server: 69.84.182.250
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_292
+  network: ws
+  port: 443
+  server: 69.84.182.27
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_293
+  network: ws
+  port: 443
+  server: 69.84.182.234
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_294
+  network: ws
+  port: 443
+  server: 198.62.62.204
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_295
+  network: ws
+  port: 443
+  server: icook.hk
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?ed=2560
+- name: 美国_296
+  network: ws
+  port: 443
+  server: malaysia.com
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 香港_19
+  network: ws
+  port: 443
+  server: 219.76.13.183
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.aliyuo.fxxk.dedyo.io
+- name: 美国_297
+  network: ws
+  port: 443
+  server: 160.79.105.241
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_298
+  network: ws
+  port: 443
+  server: 69.84.182.141
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_299
+  network: ws
+  port: 8443
+  server: www.wto.org
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?ed=2560
+- name: 美国_300
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 129.159.22.4
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_301
+  network: ws
+  port: 443
+  server: 198.62.62.70
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_302
+  network: ws
+  port: 443
+  server: time.is
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_303
+  network: ws
+  port: 8443
+  server: vo.ylks.xyz
+  servername: vo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      host: vo.ylks.xyz
+    path: /0gwrgf8xwxvwv66u?ed=2560
+- name: 美国_304
+  network: ws
+  port: 443
+  server: 69.84.182.175
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- client-fingerprint: random
+  name: 俄罗斯_4
+  network: ws
+  port: 443
+  server: 194.76.18.189
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /
+- name: 美国_305
+  network: ws
+  port: 443
+  server: cnv6.xxxxxxxx.tk
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_306
+  network: ws
+  port: 443
+  server: 69.84.182.250
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_307
+  network: ws
+  port: 8443
+  server: www.wto.org
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?ed=2560
+- name: 美国_308
+  network: ws
+  port: 443
+  server: 69.84.182.159
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 美国_309
+  network: ws
+  port: 443
+  server: 69.84.182.159
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_310
+  network: ws
+  port: 443
+  server: icook.hk
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?ed=2560
+- name: 美国_311
+  network: ws
+  port: 443
+  server: www.hugedomains.com
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_312
+  network: ws
+  port: 37813
+  server: 65.75.193.21
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_313
+  network: ws
+  port: 2083
+  server: vo.ylks.xyz
+  servername: vo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      host: vo.ylks.xyz
+    path: /uabpscnfwhnbrs47?ed=2560
+- name: 日本_1
+  network: ws
+  port: 8442
+  server: 103.35.189.61
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 美国_314
+  network: ws
+  port: 443
+  server: 198.62.62.89
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_315
+  network: ws
+  port: 2096
+  server: vo.ylks.xyz
+  servername: vo.yLks.xYZ
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      host: vo.yLks.xYZ
+    path: /uncubhxxgiyem7ql?ed=2560
+- name: 香港_20
+  network: ws
+  port: 443
+  server: 219.76.13.183
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_316
+  network: ws
+  port: 443
+  server: 69.84.182.106
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_317
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 129.159.47.255
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 日本_2
+  network: ws
+  port: 8442
+  server: 103.35.189.61
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 日本_3
+  network: ws
+  port: 8442
+  server: 103.35.189.61
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 智利
+  network: ws
+  port: 443
+  server: 186.67.70.55
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.oracle.fxxk.dedyo.io
+- name: 美国_318
+  network: ws
+  port: 2087
+  server: vo.ylks.xyz
+  servername: Vo.ylks.xYz
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      host: Vo.ylks.xYz
+    path: /fsqdwq2glrvt62eh?ed=2560
+- name: 美国_319
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 146.235.197.123
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 日本_4
+  network: ws
+  port: 8444
+  server: 103.35.189.61
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ko.ylks.xyz
+    path: /blue
+- name: 法国_5
+  network: ws
+  port: 2083
+  server: 45.80.110.5
+  servername: a.ssll.gay
+  tls: true
+  type: vless
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  ws-opts:
+    headers:
+      host: a.ssll.gay
+    path: /fp
+- name: 香港_21
+  network: ws
+  port: 443
+  server: 219.76.13.183
+  servername: jo.ylks01.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: jo.ylks01.eu.org
+    path: /blue
+- name: 香港_22
+  network: ws
+  port: 443
+  server: 219.76.13.169
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.aliyuo.fxxk.dedyo.io
+- name: 美国_320
+  network: ws
+  port: 443
+  server: qa.visamiddleeast.com
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?ed=2560
+- name: 美国_321
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 34.147.130.63
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
     path: /
 - name: 美国_322
   network: ws
   password: NISHIKUITAN222
   port: 443
-  server: 152.70.57.182
-  skip-cert-verify: false
+  server: 34.147.231.33
+  skip-cert-verify: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: tn.ylks.xyz
+      host: to.ylks.xyz
     path: /
+- name: 美国_323
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 34.175.202.195
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_324
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 34.91.136.173
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_325
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 34.105.189.25
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_326
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 34.22.142.117
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_327
+  network: ws
+  port: 443
+  server: 69.84.182.141
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
 - name: 美国_328
   network: ws
   password: NISHIKUITAN222
   port: 443
-  server: 204.110.220.3
-  skip-cert-verify: false
+  server: 152.70.71.23
+  skip-cert-verify: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: tn.ylks.xyz
+      host: to.ylks.xyz
     path: /
+- name: 香港_23
+  network: ws
+  port: 443
+  server: 219.76.13.164
+  servername: ho.kpcloud.eu.org
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.kpcloud.eu.org
+    path: /blue
+- name: 美国_329
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 144.22.252.124
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_330
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 144.22.252.124
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_331
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 165.1.123.204
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_332
+  network: ws
+  port: 443
+  server: joio.my.telegrao.channel.cmliussss.to.unlock.more.premiuo.nodes.cf.090227.xyz
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?ed=2560
+- name: 韩国_33
+  network: ws
+  port: 31604
+  server: 121.155.14.99
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?proxyip=proxyip.kr.fxxk.dedyo.io
+- name: 香港_24
+  network: ws
+  port: 35500
+  server: 61.239.234.5
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 韩国_34
+  network: ws
+  port: 31604
+  server: 121.155.14.99
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
+- name: 美国_333
+  network: ws
+  password: NISHIKUITAN222
+  port: 443
+  server: 144.24.200.164
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: to.ylks.xyz
+    path: /
+- name: 美国_334
+  network: ws
+  port: 443
+  server: joio.my.telegrao.channel.cmliussss.to.unlock.more.premiuo.nodes.cf.090227.xyz
+  servername: yo.ylks.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylks.us.kg
+    path: /?ed=2560
+- name: 美国_335
+  network: ws
+  port: 443
+  server: 69.84.182.141
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: yo.ylka.us.kg
+    path: /?proxyip=proxyip.us.fxxk.dedyo.io
+- name: 美国_336
+  network: ws
+  port: 443
+  server: time.is
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
+  ws-opts:
+    headers:
+      host: xo.ylks.xyz
+    path: /blue
+- name: 美国_337
+  network: ws
+  port: 2053
+  server: vo.ylks.xyz
+  servername: vo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      host: vo.ylks.xyz
+    path: /or1vfucgjjworerm?ed=2560
+- name: 美国_338
+  network: ws
+  port: 443
+  server: vo.ylks.xyz
+  servername: vo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      host: vo.ylks.xyz
+    path: /571umej5cy8zghg9?ed=2560
+- name: 美国_339
+  network: ws
+  port: 443
+  server: 69.84.182.186
+  servername: ho.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
+  ws-opts:
+    headers:
+      host: ho.ylks.xyz
+    path: /blue
 - name: 美国_340
   network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 150.230.196.248
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  port: 2053
+  server: vo.ylks.xyz
+  servername: Vo.YLKS.xYz
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
+      host: Vo.YLKS.xYz
+    path: /l9jis9kctiys0fg9?ed=2560
 - name: 美国_341
   network: ws
-  password: NISHIKUITAN222
   port: 443
-  server: 132.226.1.227
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  server: time.is
+  servername: yo.ylka.us.kg
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_351
+      host: yo.ylka.us.kg
+    path: /?ed=2560
+- name: 美国_342
   network: ws
   password: NISHIKUITAN222
   port: 443
-  server: 129.146.47.72
-  skip-cert-verify: false
+  server: 152.70.71.23
+  skip-cert-verify: true
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: tn.ylks.xyz
+      host: to.ylks.xyz
     path: /
-- name: 美国_355
+- name: 乌克兰_4
   network: ws
-  password: NISHIKUITAN222
   port: 443
-  server: 129.153.126.67
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  server: 95.164.62.196
+  servername: ko.ylks.xyz
+  tls: true
+  type: vless
+  uuid: a13df940-020c-465f-bc89-ee5279b5cd6a
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_368
+      host: ko.ylks.xyz
+    path: /?proxyip=proxyip.oracle.fxxk.dedyo.io
+- name: 乌克兰_5
   network: ws
-  password: NISHIKUITAN222
   port: 443
-  server: 134.65.59.100
-  skip-cert-verify: false
-  type: trojan
-  udp: true
+  server: 95.164.62.196
+  servername: xo.ylks.xyz
+  tls: true
+  type: vless
+  uuid: 48198295-b7ba-4b5c-8d85-085d55a6c869
   ws-opts:
     headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_370
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 141.147.161.250
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_371
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 158.178.192.221
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_373
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 140.238.40.67
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_374
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 146.235.17.31
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
-- name: 美国_376
-  network: ws
-  password: NISHIKUITAN222
-  port: 443
-  server: 158.180.231.216
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tn.ylks.xyz
-    path: /
+      host: xo.ylks.xyz
+    path: /?proxyip=proxyip.oracle.fxxk.dedyo.io
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
+  - 香港_1
+  - 香港_2
+  - 美国_1
+  - 香港_3
+  - 香港_4
+  - 韩国_1
+  - 韩国_2
+  - 香港_5
+  - 韩国_3
+  - 韩国_4
+  - 韩国_5
+  - 韩国_6
+  - 韩国_7
+  - 韩国_8
+  - 香港_6
+  - 香港_7
+  - 香港_8
+  - 韩国_9
+  - 韩国_10
+  - 韩国_11
+  - 韩国_12
+  - 韩国_13
+  - 韩国_14
+  - 韩国_15
+  - 韩国_16
+  - 韩国_17
+  - 韩国_18
+  - 韩国_19
+  - 韩国_20
+  - 韩国_21
+  - 韩国_22
+  - 韩国_23
+  - 韩国_24
+  - 韩国_25
+  - 韩国_26
+  - 韩国_27
+  - 韩国_28
+  - 韩国_29
+  - 韩国_30
+  - 韩国_31
+  - 韩国_32
+  - 美国_2
+  - 美国_3
+  - 美国_4
+  - 香港_9
   - 美国_5
+  - 美国_6
   - 美国_7
   - 美国_8
   - 美国_9
   - 美国_10
+  - 罗马尼亚_1
   - 美国_11
   - 美国_12
   - 美国_13
+  - 法国_1
   - 美国_14
   - 美国_15
   - 美国_16
   - 美国_17
   - 美国_18
   - 美国_19
+  - 美国_20
   - 美国_21
   - 美国_22
+  - 美国_23
   - 美国_24
+  - 美国_25
   - 美国_26
   - 美国_27
   - 美国_28
+  - 美国_29
+  - 美国_30
+  - 荷兰_1
+  - 美国_31
   - 美国_32
+  - 美国_33
+  - 美国_34
   - 美国_35
+  - 美国_36
+  - 美国_37
+  - 美国_38
+  - 美国_39
   - 美国_40
   - 美国_41
+  - 美国_42
   - 美国_43
   - 美国_44
+  - 美国_45
+  - 美国_46
   - 美国_47
   - 美国_48
   - 美国_49
   - 美国_50
   - 美国_51
+  - 美国_52
+  - 奥地利_1
+  - 美国_53
   - 美国_54
+  - 美国_55
+  - 美国_56
+  - 美国_57
+  - 美国_58
+  - 美国_59
+  - 美国_60
+  - 美国_61
+  - 美国_62
   - 美国_63
+  - 波兰
+  - 立陶宛_1
+  - 美国_64
   - 美国_65
   - 美国_66
+  - 美国_67
+  - 美国_68
+  - 美国_69
+  - 美国_70
+  - 美国_71
+  - 奥地利_2
+  - 美国_72
   - 美国_73
   - 美国_74
+  - 美国_75
   - 美国_76
+  - 美国_77
+  - 美国_78
+  - 美国_79
+  - 美国_80
+  - 美国_81
+  - 美国_82
+  - 美国_83
   - 美国_84
+  - 美国_85
+  - 美国_86
+  - 立陶宛_2
+  - 美国_87
+  - 美国_88
   - 美国_89
+  - 美国_90
+  - 美国_91
+  - 荷兰_2
+  - 美国_92
+  - 美国_93
+  - 美国_94
+  - 美国_95
+  - 美国_96
+  - 俄罗斯_1
+  - 美国_97
+  - 美国_98
+  - 美国_99
+  - 美国_100
+  - 美国_101
+  - 美国_102
   - 美国_103
+  - 荷兰_3
+  - 美国_104
+  - 美国_105
+  - 美国_106
+  - 美国_107
+  - 美国_108
+  - 香港_10
+  - 美国_109
+  - 乌克兰_1
+  - 美国_110
+  - 美国_111
+  - 美国_112
+  - 美国_113
+  - 美国_114
+  - 奥地利_3
+  - 美国_115
+  - 美国_116
   - 美国_117
+  - 美国_118
+  - 荷兰_4
+  - 美国_119
+  - 美国_120
+  - 美国_121
+  - 美国_122
+  - 美国_123
+  - 美国_124
+  - 美国_125
+  - 美国_126
+  - 美国_127
+  - 美国_128
+  - 美国_129
+  - 美国_130
+  - 美国_131
+  - 荷兰_5
   - 美国_132
+  - 美国_133
+  - 美国_134
+  - 美国_135
   - 美国_136
+  - 美国_137
+  - 美国_138
+  - 美国_139
+  - 美国_140
+  - 美国_141
+  - 美国_142
+  - 美国_143
+  - 俄罗斯_2
+  - 美国_144
+  - 美国_145
+  - 美国_146
+  - 美国_147
   - 美国_148
+  - 美国_149
+  - 美国_150
+  - 美国_151
+  - 美国_152
+  - 乌克兰_2
+  - 美国_153
+  - 美国_154
+  - 美国_155
+  - 美国_156
+  - 美国_157
+  - 美国_158
   - 美国_159
+  - 美国_160
+  - 美国_161
+  - 美国_162
+  - 美国_163
+  - 俄罗斯_3
+  - 美国_164
+  - 美国_165
+  - 罗马尼亚_2
+  - 南非_1
+  - 美国_166
   - 美国_167
+  - 美国_168
+  - 美国_169
+  - 美国_170
+  - 美国_171
+  - 美国_172
+  - 美国_173
+  - 美国_174
+  - 立陶宛_3
+  - 美国_175
+  - 美国_176
+  - 美国_177
+  - 美国_178
+  - 美国_179
+  - 美国_180
+  - 美国_181
+  - 美国_182
+  - 美国_183
+  - 美国_184
+  - 美国_185
+  - 美国_186
+  - 美国_187
+  - 美国_188
+  - 美国_189
+  - 美国_190
+  - 美国_191
+  - 美国_192
+  - 南非_2
+  - 法国_2
+  - 美国_193
   - 美国_194
+  - 美国_195
+  - 美国_196
+  - 美国_197
+  - 美国_198
+  - 香港_11
+  - 美国_199
+  - 美国_200
   - 美国_201
+  - 南非_3
   - 美国_202
   - 美国_203
+  - 美国_204
+  - 美国_205
+  - 澳大利亚_1
+  - 美国_206
+  - 美国_207
+  - 法国_3
+  - 美国_208
+  - 美国_209
+  - 美国_210
+  - 美国_211
+  - 美国_212
+  - 澳大利亚_2
+  - 美国_213
+  - 美国_214
+  - 香港_12
+  - 美国_215
+  - 美国_216
+  - 美国_217
+  - 美国_218
+  - 英国
+  - 美国_219
+  - 美国_220
+  - 香港_13
+  - 澳大利亚_3
+  - 美国_221
+  - 美国_222
   - 美国_223
+  - 美国_224
+  - 美国_225
+  - 美国_226
+  - 美国_227
+  - 美国_228
+  - 美国_229
+  - 美国_230
+  - 美国_231
+  - 荷兰_6
+  - 美国_232
+  - 美国_233
+  - 澳大利亚_4
+  - 美国_234
+  - 奥地利_4
+  - 奥地利_5
+  - 美国_235
+  - 美国_236
+  - 美国_237
+  - 美国_238
+  - 美国_239
+  - 澳大利亚_5
+  - 美国_240
+  - 美国_241
+  - 美国_242
+  - 乌克兰_3
+  - 美国_243
+  - 美国_244
+  - 美国_245
   - 美国_246
+  - 香港_14
   - 美国_247
+  - 美国_248
+  - 美国_249
+  - 美国_250
+  - 美国_251
+  - 美国_252
+  - 香港_15
+  - 美国_253
+  - 美国_254
+  - 美国_255
+  - 法国_4
+  - 美国_256
+  - 香港_16
+  - 美国_257
+  - 美国_258
+  - 美国_259
+  - 美国_260
   - 美国_261
+  - 美国_262
+  - 美国_263
+  - 香港_17
+  - 澳大利亚_6
+  - 美国_264
+  - 美国_265
+  - 美国_266
+  - 美国_267
+  - 美国_268
+  - 美国_269
+  - 美国_270
+  - 澳大利亚_7
+  - 美国_271
+  - 美国_272
+  - 香港_18
+  - 澳大利亚_8
+  - 美国_273
+  - 美国_274
+  - 美国_275
+  - 澳大利亚_9
+  - 美国_276
+  - 澳大利亚_10
+  - 美国_277
+  - 美国_278
+  - 美国_279
+  - 美国_280
+  - 美国_281
+  - 美国_282
+  - 美国_283
+  - 美国_284
+  - 南非_4
+  - 美国_285
+  - 美国_286
+  - 美国_287
+  - 美国_288
+  - 美国_289
+  - 美国_290
+  - 澳大利亚_11
+  - 美国_291
+  - 美国_292
+  - 美国_293
+  - 美国_294
+  - 美国_295
+  - 美国_296
+  - 香港_19
+  - 美国_297
+  - 美国_298
+  - 美国_299
+  - 美国_300
+  - 美国_301
+  - 美国_302
+  - 美国_303
+  - 美国_304
+  - 俄罗斯_4
+  - 美国_305
+  - 美国_306
+  - 美国_307
+  - 美国_308
   - 美国_309
+  - 美国_310
+  - 美国_311
+  - 美国_312
+  - 美国_313
+  - 日本_1
+  - 美国_314
+  - 美国_315
+  - 香港_20
+  - 美国_316
+  - 美国_317
+  - 日本_2
+  - 日本_3
+  - 智利
   - 美国_318
+  - 美国_319
+  - 日本_4
+  - 法国_5
+  - 香港_21
+  - 香港_22
+  - 美国_320
+  - 美国_321
   - 美国_322
+  - 美国_323
+  - 美国_324
+  - 美国_325
+  - 美国_326
+  - 美国_327
   - 美国_328
+  - 香港_23
+  - 美国_329
+  - 美国_330
+  - 美国_331
+  - 美国_332
+  - 韩国_33
+  - 香港_24
+  - 韩国_34
+  - 美国_333
+  - 美国_334
+  - 美国_335
+  - 美国_336
+  - 美国_337
+  - 美国_338
+  - 美国_339
   - 美国_340
   - 美国_341
-  - 美国_351
-  - 美国_355
-  - 美国_368
-  - 美国_370
-  - 美国_371
-  - 美国_373
-  - 美国_374
-  - 美国_376
+  - 美国_342
+  - 乌克兰_4
+  - 乌克兰_5
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
+  - 香港_1
+  - 香港_2
+  - 美国_1
+  - 香港_3
+  - 香港_4
+  - 韩国_1
+  - 韩国_2
+  - 香港_5
+  - 韩国_3
+  - 韩国_4
+  - 韩国_5
+  - 韩国_6
+  - 韩国_7
+  - 韩国_8
+  - 香港_6
+  - 香港_7
+  - 香港_8
+  - 韩国_9
+  - 韩国_10
+  - 韩国_11
+  - 韩国_12
+  - 韩国_13
+  - 韩国_14
+  - 韩国_15
+  - 韩国_16
+  - 韩国_17
+  - 韩国_18
+  - 韩国_19
+  - 韩国_20
+  - 韩国_21
+  - 韩国_22
+  - 韩国_23
+  - 韩国_24
+  - 韩国_25
+  - 韩国_26
+  - 韩国_27
+  - 韩国_28
+  - 韩国_29
+  - 韩国_30
+  - 韩国_31
+  - 韩国_32
+  - 美国_2
+  - 美国_3
+  - 美国_4
+  - 香港_9
   - 美国_5
+  - 美国_6
   - 美国_7
   - 美国_8
   - 美国_9
   - 美国_10
+  - 罗马尼亚_1
   - 美国_11
   - 美国_12
   - 美国_13
+  - 法国_1
   - 美国_14
   - 美国_15
   - 美国_16
   - 美国_17
   - 美国_18
   - 美国_19
+  - 美国_20
   - 美国_21
   - 美国_22
+  - 美国_23
   - 美国_24
+  - 美国_25
   - 美国_26
   - 美国_27
   - 美国_28
+  - 美国_29
+  - 美国_30
+  - 荷兰_1
+  - 美国_31
   - 美国_32
+  - 美国_33
+  - 美国_34
   - 美国_35
+  - 美国_36
+  - 美国_37
+  - 美国_38
+  - 美国_39
   - 美国_40
   - 美国_41
+  - 美国_42
   - 美国_43
   - 美国_44
+  - 美国_45
+  - 美国_46
   - 美国_47
   - 美国_48
   - 美国_49
   - 美国_50
   - 美国_51
+  - 美国_52
+  - 奥地利_1
+  - 美国_53
   - 美国_54
+  - 美国_55
+  - 美国_56
+  - 美国_57
+  - 美国_58
+  - 美国_59
+  - 美国_60
+  - 美国_61
+  - 美国_62
   - 美国_63
+  - 波兰
+  - 立陶宛_1
+  - 美国_64
   - 美国_65
   - 美国_66
+  - 美国_67
+  - 美国_68
+  - 美国_69
+  - 美国_70
+  - 美国_71
+  - 奥地利_2
+  - 美国_72
   - 美国_73
   - 美国_74
+  - 美国_75
   - 美国_76
+  - 美国_77
+  - 美国_78
+  - 美国_79
+  - 美国_80
+  - 美国_81
+  - 美国_82
+  - 美国_83
   - 美国_84
+  - 美国_85
+  - 美国_86
+  - 立陶宛_2
+  - 美国_87
+  - 美国_88
   - 美国_89
+  - 美国_90
+  - 美国_91
+  - 荷兰_2
+  - 美国_92
+  - 美国_93
+  - 美国_94
+  - 美国_95
+  - 美国_96
+  - 俄罗斯_1
+  - 美国_97
+  - 美国_98
+  - 美国_99
+  - 美国_100
+  - 美国_101
+  - 美国_102
   - 美国_103
+  - 荷兰_3
+  - 美国_104
+  - 美国_105
+  - 美国_106
+  - 美国_107
+  - 美国_108
+  - 香港_10
+  - 美国_109
+  - 乌克兰_1
+  - 美国_110
+  - 美国_111
+  - 美国_112
+  - 美国_113
+  - 美国_114
+  - 奥地利_3
+  - 美国_115
+  - 美国_116
   - 美国_117
+  - 美国_118
+  - 荷兰_4
+  - 美国_119
+  - 美国_120
+  - 美国_121
+  - 美国_122
+  - 美国_123
+  - 美国_124
+  - 美国_125
+  - 美国_126
+  - 美国_127
+  - 美国_128
+  - 美国_129
+  - 美国_130
+  - 美国_131
+  - 荷兰_5
   - 美国_132
+  - 美国_133
+  - 美国_134
+  - 美国_135
   - 美国_136
+  - 美国_137
+  - 美国_138
+  - 美国_139
+  - 美国_140
+  - 美国_141
+  - 美国_142
+  - 美国_143
+  - 俄罗斯_2
+  - 美国_144
+  - 美国_145
+  - 美国_146
+  - 美国_147
   - 美国_148
+  - 美国_149
+  - 美国_150
+  - 美国_151
+  - 美国_152
+  - 乌克兰_2
+  - 美国_153
+  - 美国_154
+  - 美国_155
+  - 美国_156
+  - 美国_157
+  - 美国_158
   - 美国_159
+  - 美国_160
+  - 美国_161
+  - 美国_162
+  - 美国_163
+  - 俄罗斯_3
+  - 美国_164
+  - 美国_165
+  - 罗马尼亚_2
+  - 南非_1
+  - 美国_166
   - 美国_167
+  - 美国_168
+  - 美国_169
+  - 美国_170
+  - 美国_171
+  - 美国_172
+  - 美国_173
+  - 美国_174
+  - 立陶宛_3
+  - 美国_175
+  - 美国_176
+  - 美国_177
+  - 美国_178
+  - 美国_179
+  - 美国_180
+  - 美国_181
+  - 美国_182
+  - 美国_183
+  - 美国_184
+  - 美国_185
+  - 美国_186
+  - 美国_187
+  - 美国_188
+  - 美国_189
+  - 美国_190
+  - 美国_191
+  - 美国_192
+  - 南非_2
+  - 法国_2
+  - 美国_193
   - 美国_194
+  - 美国_195
+  - 美国_196
+  - 美国_197
+  - 美国_198
+  - 香港_11
+  - 美国_199
+  - 美国_200
   - 美国_201
+  - 南非_3
   - 美国_202
   - 美国_203
+  - 美国_204
+  - 美国_205
+  - 澳大利亚_1
+  - 美国_206
+  - 美国_207
+  - 法国_3
+  - 美国_208
+  - 美国_209
+  - 美国_210
+  - 美国_211
+  - 美国_212
+  - 澳大利亚_2
+  - 美国_213
+  - 美国_214
+  - 香港_12
+  - 美国_215
+  - 美国_216
+  - 美国_217
+  - 美国_218
+  - 英国
+  - 美国_219
+  - 美国_220
+  - 香港_13
+  - 澳大利亚_3
+  - 美国_221
+  - 美国_222
   - 美国_223
+  - 美国_224
+  - 美国_225
+  - 美国_226
+  - 美国_227
+  - 美国_228
+  - 美国_229
+  - 美国_230
+  - 美国_231
+  - 荷兰_6
+  - 美国_232
+  - 美国_233
+  - 澳大利亚_4
+  - 美国_234
+  - 奥地利_4
+  - 奥地利_5
+  - 美国_235
+  - 美国_236
+  - 美国_237
+  - 美国_238
+  - 美国_239
+  - 澳大利亚_5
+  - 美国_240
+  - 美国_241
+  - 美国_242
+  - 乌克兰_3
+  - 美国_243
+  - 美国_244
+  - 美国_245
   - 美国_246
+  - 香港_14
   - 美国_247
+  - 美国_248
+  - 美国_249
+  - 美国_250
+  - 美国_251
+  - 美国_252
+  - 香港_15
+  - 美国_253
+  - 美国_254
+  - 美国_255
+  - 法国_4
+  - 美国_256
+  - 香港_16
+  - 美国_257
+  - 美国_258
+  - 美国_259
+  - 美国_260
   - 美国_261
+  - 美国_262
+  - 美国_263
+  - 香港_17
+  - 澳大利亚_6
+  - 美国_264
+  - 美国_265
+  - 美国_266
+  - 美国_267
+  - 美国_268
+  - 美国_269
+  - 美国_270
+  - 澳大利亚_7
+  - 美国_271
+  - 美国_272
+  - 香港_18
+  - 澳大利亚_8
+  - 美国_273
+  - 美国_274
+  - 美国_275
+  - 澳大利亚_9
+  - 美国_276
+  - 澳大利亚_10
+  - 美国_277
+  - 美国_278
+  - 美国_279
+  - 美国_280
+  - 美国_281
+  - 美国_282
+  - 美国_283
+  - 美国_284
+  - 南非_4
+  - 美国_285
+  - 美国_286
+  - 美国_287
+  - 美国_288
+  - 美国_289
+  - 美国_290
+  - 澳大利亚_11
+  - 美国_291
+  - 美国_292
+  - 美国_293
+  - 美国_294
+  - 美国_295
+  - 美国_296
+  - 香港_19
+  - 美国_297
+  - 美国_298
+  - 美国_299
+  - 美国_300
+  - 美国_301
+  - 美国_302
+  - 美国_303
+  - 美国_304
+  - 俄罗斯_4
+  - 美国_305
+  - 美国_306
+  - 美国_307
+  - 美国_308
   - 美国_309
+  - 美国_310
+  - 美国_311
+  - 美国_312
+  - 美国_313
+  - 日本_1
+  - 美国_314
+  - 美国_315
+  - 香港_20
+  - 美国_316
+  - 美国_317
+  - 日本_2
+  - 日本_3
+  - 智利
   - 美国_318
+  - 美国_319
+  - 日本_4
+  - 法国_5
+  - 香港_21
+  - 香港_22
+  - 美国_320
+  - 美国_321
   - 美国_322
+  - 美国_323
+  - 美国_324
+  - 美国_325
+  - 美国_326
+  - 美国_327
   - 美国_328
+  - 香港_23
+  - 美国_329
+  - 美国_330
+  - 美国_331
+  - 美国_332
+  - 韩国_33
+  - 香港_24
+  - 韩国_34
+  - 美国_333
+  - 美国_334
+  - 美国_335
+  - 美国_336
+  - 美国_337
+  - 美国_338
+  - 美国_339
   - 美国_340
   - 美国_341
-  - 美国_351
-  - 美国_355
-  - 美国_368
-  - 美国_370
-  - 美国_371
-  - 美国_373
-  - 美国_374
-  - 美国_376
+  - 美国_342
+  - 乌克兰_4
+  - 乌克兰_5
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1015,297 +6425,1829 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
+  - 香港_1
+  - 香港_2
+  - 美国_1
+  - 香港_3
+  - 香港_4
+  - 韩国_1
+  - 韩国_2
+  - 香港_5
+  - 韩国_3
+  - 韩国_4
+  - 韩国_5
+  - 韩国_6
+  - 韩国_7
+  - 韩国_8
+  - 香港_6
+  - 香港_7
+  - 香港_8
+  - 韩国_9
+  - 韩国_10
+  - 韩国_11
+  - 韩国_12
+  - 韩国_13
+  - 韩国_14
+  - 韩国_15
+  - 韩国_16
+  - 韩国_17
+  - 韩国_18
+  - 韩国_19
+  - 韩国_20
+  - 韩国_21
+  - 韩国_22
+  - 韩国_23
+  - 韩国_24
+  - 韩国_25
+  - 韩国_26
+  - 韩国_27
+  - 韩国_28
+  - 韩国_29
+  - 韩国_30
+  - 韩国_31
+  - 韩国_32
+  - 美国_2
+  - 美国_3
+  - 美国_4
+  - 香港_9
   - 美国_5
+  - 美国_6
   - 美国_7
   - 美国_8
   - 美国_9
   - 美国_10
+  - 罗马尼亚_1
   - 美国_11
   - 美国_12
   - 美国_13
+  - 法国_1
   - 美国_14
   - 美国_15
   - 美国_16
   - 美国_17
   - 美国_18
   - 美国_19
+  - 美国_20
   - 美国_21
   - 美国_22
+  - 美国_23
   - 美国_24
+  - 美国_25
   - 美国_26
   - 美国_27
   - 美国_28
+  - 美国_29
+  - 美国_30
+  - 荷兰_1
+  - 美国_31
   - 美国_32
+  - 美国_33
+  - 美国_34
   - 美国_35
+  - 美国_36
+  - 美国_37
+  - 美国_38
+  - 美国_39
   - 美国_40
   - 美国_41
+  - 美国_42
   - 美国_43
   - 美国_44
+  - 美国_45
+  - 美国_46
   - 美国_47
   - 美国_48
   - 美国_49
   - 美国_50
   - 美国_51
+  - 美国_52
+  - 奥地利_1
+  - 美国_53
   - 美国_54
+  - 美国_55
+  - 美国_56
+  - 美国_57
+  - 美国_58
+  - 美国_59
+  - 美国_60
+  - 美国_61
+  - 美国_62
   - 美国_63
+  - 波兰
+  - 立陶宛_1
+  - 美国_64
   - 美国_65
   - 美国_66
+  - 美国_67
+  - 美国_68
+  - 美国_69
+  - 美国_70
+  - 美国_71
+  - 奥地利_2
+  - 美国_72
   - 美国_73
   - 美国_74
+  - 美国_75
   - 美国_76
+  - 美国_77
+  - 美国_78
+  - 美国_79
+  - 美国_80
+  - 美国_81
+  - 美国_82
+  - 美国_83
   - 美国_84
+  - 美国_85
+  - 美国_86
+  - 立陶宛_2
+  - 美国_87
+  - 美国_88
   - 美国_89
+  - 美国_90
+  - 美国_91
+  - 荷兰_2
+  - 美国_92
+  - 美国_93
+  - 美国_94
+  - 美国_95
+  - 美国_96
+  - 俄罗斯_1
+  - 美国_97
+  - 美国_98
+  - 美国_99
+  - 美国_100
+  - 美国_101
+  - 美国_102
   - 美国_103
+  - 荷兰_3
+  - 美国_104
+  - 美国_105
+  - 美国_106
+  - 美国_107
+  - 美国_108
+  - 香港_10
+  - 美国_109
+  - 乌克兰_1
+  - 美国_110
+  - 美国_111
+  - 美国_112
+  - 美国_113
+  - 美国_114
+  - 奥地利_3
+  - 美国_115
+  - 美国_116
   - 美国_117
+  - 美国_118
+  - 荷兰_4
+  - 美国_119
+  - 美国_120
+  - 美国_121
+  - 美国_122
+  - 美国_123
+  - 美国_124
+  - 美国_125
+  - 美国_126
+  - 美国_127
+  - 美国_128
+  - 美国_129
+  - 美国_130
+  - 美国_131
+  - 荷兰_5
   - 美国_132
+  - 美国_133
+  - 美国_134
+  - 美国_135
   - 美国_136
+  - 美国_137
+  - 美国_138
+  - 美国_139
+  - 美国_140
+  - 美国_141
+  - 美国_142
+  - 美国_143
+  - 俄罗斯_2
+  - 美国_144
+  - 美国_145
+  - 美国_146
+  - 美国_147
   - 美国_148
+  - 美国_149
+  - 美国_150
+  - 美国_151
+  - 美国_152
+  - 乌克兰_2
+  - 美国_153
+  - 美国_154
+  - 美国_155
+  - 美国_156
+  - 美国_157
+  - 美国_158
   - 美国_159
+  - 美国_160
+  - 美国_161
+  - 美国_162
+  - 美国_163
+  - 俄罗斯_3
+  - 美国_164
+  - 美国_165
+  - 罗马尼亚_2
+  - 南非_1
+  - 美国_166
   - 美国_167
+  - 美国_168
+  - 美国_169
+  - 美国_170
+  - 美国_171
+  - 美国_172
+  - 美国_173
+  - 美国_174
+  - 立陶宛_3
+  - 美国_175
+  - 美国_176
+  - 美国_177
+  - 美国_178
+  - 美国_179
+  - 美国_180
+  - 美国_181
+  - 美国_182
+  - 美国_183
+  - 美国_184
+  - 美国_185
+  - 美国_186
+  - 美国_187
+  - 美国_188
+  - 美国_189
+  - 美国_190
+  - 美国_191
+  - 美国_192
+  - 南非_2
+  - 法国_2
+  - 美国_193
   - 美国_194
+  - 美国_195
+  - 美国_196
+  - 美国_197
+  - 美国_198
+  - 香港_11
+  - 美国_199
+  - 美国_200
   - 美国_201
+  - 南非_3
   - 美国_202
   - 美国_203
+  - 美国_204
+  - 美国_205
+  - 澳大利亚_1
+  - 美国_206
+  - 美国_207
+  - 法国_3
+  - 美国_208
+  - 美国_209
+  - 美国_210
+  - 美国_211
+  - 美国_212
+  - 澳大利亚_2
+  - 美国_213
+  - 美国_214
+  - 香港_12
+  - 美国_215
+  - 美国_216
+  - 美国_217
+  - 美国_218
+  - 英国
+  - 美国_219
+  - 美国_220
+  - 香港_13
+  - 澳大利亚_3
+  - 美国_221
+  - 美国_222
   - 美国_223
+  - 美国_224
+  - 美国_225
+  - 美国_226
+  - 美国_227
+  - 美国_228
+  - 美国_229
+  - 美国_230
+  - 美国_231
+  - 荷兰_6
+  - 美国_232
+  - 美国_233
+  - 澳大利亚_4
+  - 美国_234
+  - 奥地利_4
+  - 奥地利_5
+  - 美国_235
+  - 美国_236
+  - 美国_237
+  - 美国_238
+  - 美国_239
+  - 澳大利亚_5
+  - 美国_240
+  - 美国_241
+  - 美国_242
+  - 乌克兰_3
+  - 美国_243
+  - 美国_244
+  - 美国_245
   - 美国_246
+  - 香港_14
   - 美国_247
+  - 美国_248
+  - 美国_249
+  - 美国_250
+  - 美国_251
+  - 美国_252
+  - 香港_15
+  - 美国_253
+  - 美国_254
+  - 美国_255
+  - 法国_4
+  - 美国_256
+  - 香港_16
+  - 美国_257
+  - 美国_258
+  - 美国_259
+  - 美国_260
   - 美国_261
+  - 美国_262
+  - 美国_263
+  - 香港_17
+  - 澳大利亚_6
+  - 美国_264
+  - 美国_265
+  - 美国_266
+  - 美国_267
+  - 美国_268
+  - 美国_269
+  - 美国_270
+  - 澳大利亚_7
+  - 美国_271
+  - 美国_272
+  - 香港_18
+  - 澳大利亚_8
+  - 美国_273
+  - 美国_274
+  - 美国_275
+  - 澳大利亚_9
+  - 美国_276
+  - 澳大利亚_10
+  - 美国_277
+  - 美国_278
+  - 美国_279
+  - 美国_280
+  - 美国_281
+  - 美国_282
+  - 美国_283
+  - 美国_284
+  - 南非_4
+  - 美国_285
+  - 美国_286
+  - 美国_287
+  - 美国_288
+  - 美国_289
+  - 美国_290
+  - 澳大利亚_11
+  - 美国_291
+  - 美国_292
+  - 美国_293
+  - 美国_294
+  - 美国_295
+  - 美国_296
+  - 香港_19
+  - 美国_297
+  - 美国_298
+  - 美国_299
+  - 美国_300
+  - 美国_301
+  - 美国_302
+  - 美国_303
+  - 美国_304
+  - 俄罗斯_4
+  - 美国_305
+  - 美国_306
+  - 美国_307
+  - 美国_308
   - 美国_309
+  - 美国_310
+  - 美国_311
+  - 美国_312
+  - 美国_313
+  - 日本_1
+  - 美国_314
+  - 美国_315
+  - 香港_20
+  - 美国_316
+  - 美国_317
+  - 日本_2
+  - 日本_3
+  - 智利
   - 美国_318
+  - 美国_319
+  - 日本_4
+  - 法国_5
+  - 香港_21
+  - 香港_22
+  - 美国_320
+  - 美国_321
   - 美国_322
+  - 美国_323
+  - 美国_324
+  - 美国_325
+  - 美国_326
+  - 美国_327
   - 美国_328
+  - 香港_23
+  - 美国_329
+  - 美国_330
+  - 美国_331
+  - 美国_332
+  - 韩国_33
+  - 香港_24
+  - 韩国_34
+  - 美国_333
+  - 美国_334
+  - 美国_335
+  - 美国_336
+  - 美国_337
+  - 美国_338
+  - 美国_339
   - 美国_340
   - 美国_341
-  - 美国_351
-  - 美国_355
-  - 美国_368
-  - 美国_370
-  - 美国_371
-  - 美国_373
-  - 美国_374
-  - 美国_376
+  - 美国_342
+  - 乌克兰_4
+  - 乌克兰_5
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 香港_1
+  - 香港_2
+  - 美国_1
+  - 香港_3
+  - 香港_4
+  - 韩国_1
+  - 韩国_2
+  - 香港_5
+  - 韩国_3
+  - 韩国_4
+  - 韩国_5
+  - 韩国_6
+  - 韩国_7
+  - 韩国_8
+  - 香港_6
+  - 香港_7
+  - 香港_8
+  - 韩国_9
+  - 韩国_10
+  - 韩国_11
+  - 韩国_12
+  - 韩国_13
+  - 韩国_14
+  - 韩国_15
+  - 韩国_16
+  - 韩国_17
+  - 韩国_18
+  - 韩国_19
+  - 韩国_20
+  - 韩国_21
+  - 韩国_22
+  - 韩国_23
+  - 韩国_24
+  - 韩国_25
+  - 韩国_26
+  - 韩国_27
+  - 韩国_28
+  - 韩国_29
+  - 韩国_30
+  - 韩国_31
+  - 韩国_32
+  - 美国_2
+  - 美国_3
+  - 美国_4
+  - 香港_9
   - 美国_5
+  - 美国_6
   - 美国_7
   - 美国_8
   - 美国_9
   - 美国_10
+  - 罗马尼亚_1
   - 美国_11
   - 美国_12
   - 美国_13
+  - 法国_1
   - 美国_14
   - 美国_15
   - 美国_16
   - 美国_17
   - 美国_18
   - 美国_19
+  - 美国_20
   - 美国_21
   - 美国_22
+  - 美国_23
   - 美国_24
+  - 美国_25
   - 美国_26
   - 美国_27
   - 美国_28
+  - 美国_29
+  - 美国_30
+  - 荷兰_1
+  - 美国_31
   - 美国_32
+  - 美国_33
+  - 美国_34
   - 美国_35
+  - 美国_36
+  - 美国_37
+  - 美国_38
+  - 美国_39
   - 美国_40
   - 美国_41
+  - 美国_42
   - 美国_43
   - 美国_44
+  - 美国_45
+  - 美国_46
   - 美国_47
   - 美国_48
   - 美国_49
   - 美国_50
   - 美国_51
+  - 美国_52
+  - 奥地利_1
+  - 美国_53
   - 美国_54
+  - 美国_55
+  - 美国_56
+  - 美国_57
+  - 美国_58
+  - 美国_59
+  - 美国_60
+  - 美国_61
+  - 美国_62
   - 美国_63
+  - 波兰
+  - 立陶宛_1
+  - 美国_64
   - 美国_65
   - 美国_66
+  - 美国_67
+  - 美国_68
+  - 美国_69
+  - 美国_70
+  - 美国_71
+  - 奥地利_2
+  - 美国_72
   - 美国_73
   - 美国_74
+  - 美国_75
   - 美国_76
+  - 美国_77
+  - 美国_78
+  - 美国_79
+  - 美国_80
+  - 美国_81
+  - 美国_82
+  - 美国_83
   - 美国_84
+  - 美国_85
+  - 美国_86
+  - 立陶宛_2
+  - 美国_87
+  - 美国_88
   - 美国_89
+  - 美国_90
+  - 美国_91
+  - 荷兰_2
+  - 美国_92
+  - 美国_93
+  - 美国_94
+  - 美国_95
+  - 美国_96
+  - 俄罗斯_1
+  - 美国_97
+  - 美国_98
+  - 美国_99
+  - 美国_100
+  - 美国_101
+  - 美国_102
   - 美国_103
+  - 荷兰_3
+  - 美国_104
+  - 美国_105
+  - 美国_106
+  - 美国_107
+  - 美国_108
+  - 香港_10
+  - 美国_109
+  - 乌克兰_1
+  - 美国_110
+  - 美国_111
+  - 美国_112
+  - 美国_113
+  - 美国_114
+  - 奥地利_3
+  - 美国_115
+  - 美国_116
   - 美国_117
+  - 美国_118
+  - 荷兰_4
+  - 美国_119
+  - 美国_120
+  - 美国_121
+  - 美国_122
+  - 美国_123
+  - 美国_124
+  - 美国_125
+  - 美国_126
+  - 美国_127
+  - 美国_128
+  - 美国_129
+  - 美国_130
+  - 美国_131
+  - 荷兰_5
   - 美国_132
+  - 美国_133
+  - 美国_134
+  - 美国_135
   - 美国_136
+  - 美国_137
+  - 美国_138
+  - 美国_139
+  - 美国_140
+  - 美国_141
+  - 美国_142
+  - 美国_143
+  - 俄罗斯_2
+  - 美国_144
+  - 美国_145
+  - 美国_146
+  - 美国_147
   - 美国_148
+  - 美国_149
+  - 美国_150
+  - 美国_151
+  - 美国_152
+  - 乌克兰_2
+  - 美国_153
+  - 美国_154
+  - 美国_155
+  - 美国_156
+  - 美国_157
+  - 美国_158
   - 美国_159
+  - 美国_160
+  - 美国_161
+  - 美国_162
+  - 美国_163
+  - 俄罗斯_3
+  - 美国_164
+  - 美国_165
+  - 罗马尼亚_2
+  - 南非_1
+  - 美国_166
   - 美国_167
+  - 美国_168
+  - 美国_169
+  - 美国_170
+  - 美国_171
+  - 美国_172
+  - 美国_173
+  - 美国_174
+  - 立陶宛_3
+  - 美国_175
+  - 美国_176
+  - 美国_177
+  - 美国_178
+  - 美国_179
+  - 美国_180
+  - 美国_181
+  - 美国_182
+  - 美国_183
+  - 美国_184
+  - 美国_185
+  - 美国_186
+  - 美国_187
+  - 美国_188
+  - 美国_189
+  - 美国_190
+  - 美国_191
+  - 美国_192
+  - 南非_2
+  - 法国_2
+  - 美国_193
   - 美国_194
+  - 美国_195
+  - 美国_196
+  - 美国_197
+  - 美国_198
+  - 香港_11
+  - 美国_199
+  - 美国_200
   - 美国_201
+  - 南非_3
   - 美国_202
   - 美国_203
+  - 美国_204
+  - 美国_205
+  - 澳大利亚_1
+  - 美国_206
+  - 美国_207
+  - 法国_3
+  - 美国_208
+  - 美国_209
+  - 美国_210
+  - 美国_211
+  - 美国_212
+  - 澳大利亚_2
+  - 美国_213
+  - 美国_214
+  - 香港_12
+  - 美国_215
+  - 美国_216
+  - 美国_217
+  - 美国_218
+  - 英国
+  - 美国_219
+  - 美国_220
+  - 香港_13
+  - 澳大利亚_3
+  - 美国_221
+  - 美国_222
   - 美国_223
+  - 美国_224
+  - 美国_225
+  - 美国_226
+  - 美国_227
+  - 美国_228
+  - 美国_229
+  - 美国_230
+  - 美国_231
+  - 荷兰_6
+  - 美国_232
+  - 美国_233
+  - 澳大利亚_4
+  - 美国_234
+  - 奥地利_4
+  - 奥地利_5
+  - 美国_235
+  - 美国_236
+  - 美国_237
+  - 美国_238
+  - 美国_239
+  - 澳大利亚_5
+  - 美国_240
+  - 美国_241
+  - 美国_242
+  - 乌克兰_3
+  - 美国_243
+  - 美国_244
+  - 美国_245
   - 美国_246
+  - 香港_14
   - 美国_247
+  - 美国_248
+  - 美国_249
+  - 美国_250
+  - 美国_251
+  - 美国_252
+  - 香港_15
+  - 美国_253
+  - 美国_254
+  - 美国_255
+  - 法国_4
+  - 美国_256
+  - 香港_16
+  - 美国_257
+  - 美国_258
+  - 美国_259
+  - 美国_260
   - 美国_261
+  - 美国_262
+  - 美国_263
+  - 香港_17
+  - 澳大利亚_6
+  - 美国_264
+  - 美国_265
+  - 美国_266
+  - 美国_267
+  - 美国_268
+  - 美国_269
+  - 美国_270
+  - 澳大利亚_7
+  - 美国_271
+  - 美国_272
+  - 香港_18
+  - 澳大利亚_8
+  - 美国_273
+  - 美国_274
+  - 美国_275
+  - 澳大利亚_9
+  - 美国_276
+  - 澳大利亚_10
+  - 美国_277
+  - 美国_278
+  - 美国_279
+  - 美国_280
+  - 美国_281
+  - 美国_282
+  - 美国_283
+  - 美国_284
+  - 南非_4
+  - 美国_285
+  - 美国_286
+  - 美国_287
+  - 美国_288
+  - 美国_289
+  - 美国_290
+  - 澳大利亚_11
+  - 美国_291
+  - 美国_292
+  - 美国_293
+  - 美国_294
+  - 美国_295
+  - 美国_296
+  - 香港_19
+  - 美国_297
+  - 美国_298
+  - 美国_299
+  - 美国_300
+  - 美国_301
+  - 美国_302
+  - 美国_303
+  - 美国_304
+  - 俄罗斯_4
+  - 美国_305
+  - 美国_306
+  - 美国_307
+  - 美国_308
   - 美国_309
+  - 美国_310
+  - 美国_311
+  - 美国_312
+  - 美国_313
+  - 日本_1
+  - 美国_314
+  - 美国_315
+  - 香港_20
+  - 美国_316
+  - 美国_317
+  - 日本_2
+  - 日本_3
+  - 智利
   - 美国_318
+  - 美国_319
+  - 日本_4
+  - 法国_5
+  - 香港_21
+  - 香港_22
+  - 美国_320
+  - 美国_321
   - 美国_322
+  - 美国_323
+  - 美国_324
+  - 美国_325
+  - 美国_326
+  - 美国_327
   - 美国_328
+  - 香港_23
+  - 美国_329
+  - 美国_330
+  - 美国_331
+  - 美国_332
+  - 韩国_33
+  - 香港_24
+  - 韩国_34
+  - 美国_333
+  - 美国_334
+  - 美国_335
+  - 美国_336
+  - 美国_337
+  - 美国_338
+  - 美国_339
   - 美国_340
   - 美国_341
-  - 美国_351
-  - 美国_355
-  - 美国_368
-  - 美国_370
-  - 美国_371
-  - 美国_373
-  - 美国_374
-  - 美国_376
+  - 美国_342
+  - 乌克兰_4
+  - 乌克兰_5
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
+  - 香港_1
+  - 香港_2
+  - 美国_1
+  - 香港_3
+  - 香港_4
+  - 韩国_1
+  - 韩国_2
+  - 香港_5
+  - 韩国_3
+  - 韩国_4
+  - 韩国_5
+  - 韩国_6
+  - 韩国_7
+  - 韩国_8
+  - 香港_6
+  - 香港_7
+  - 香港_8
+  - 韩国_9
+  - 韩国_10
+  - 韩国_11
+  - 韩国_12
+  - 韩国_13
+  - 韩国_14
+  - 韩国_15
+  - 韩国_16
+  - 韩国_17
+  - 韩国_18
+  - 韩国_19
+  - 韩国_20
+  - 韩国_21
+  - 韩国_22
+  - 韩国_23
+  - 韩国_24
+  - 韩国_25
+  - 韩国_26
+  - 韩国_27
+  - 韩国_28
+  - 韩国_29
+  - 韩国_30
+  - 韩国_31
+  - 韩国_32
+  - 美国_2
+  - 美国_3
+  - 美国_4
+  - 香港_9
   - 美国_5
+  - 美国_6
   - 美国_7
   - 美国_8
   - 美国_9
   - 美国_10
+  - 罗马尼亚_1
   - 美国_11
   - 美国_12
   - 美国_13
+  - 法国_1
   - 美国_14
   - 美国_15
   - 美国_16
   - 美国_17
   - 美国_18
   - 美国_19
+  - 美国_20
   - 美国_21
   - 美国_22
+  - 美国_23
   - 美国_24
+  - 美国_25
   - 美国_26
   - 美国_27
   - 美国_28
+  - 美国_29
+  - 美国_30
+  - 荷兰_1
+  - 美国_31
   - 美国_32
+  - 美国_33
+  - 美国_34
   - 美国_35
+  - 美国_36
+  - 美国_37
+  - 美国_38
+  - 美国_39
   - 美国_40
   - 美国_41
+  - 美国_42
   - 美国_43
   - 美国_44
+  - 美国_45
+  - 美国_46
   - 美国_47
   - 美国_48
   - 美国_49
   - 美国_50
   - 美国_51
+  - 美国_52
+  - 奥地利_1
+  - 美国_53
   - 美国_54
+  - 美国_55
+  - 美国_56
+  - 美国_57
+  - 美国_58
+  - 美国_59
+  - 美国_60
+  - 美国_61
+  - 美国_62
   - 美国_63
+  - 波兰
+  - 立陶宛_1
+  - 美国_64
   - 美国_65
   - 美国_66
+  - 美国_67
+  - 美国_68
+  - 美国_69
+  - 美国_70
+  - 美国_71
+  - 奥地利_2
+  - 美国_72
   - 美国_73
   - 美国_74
+  - 美国_75
   - 美国_76
+  - 美国_77
+  - 美国_78
+  - 美国_79
+  - 美国_80
+  - 美国_81
+  - 美国_82
+  - 美国_83
   - 美国_84
+  - 美国_85
+  - 美国_86
+  - 立陶宛_2
+  - 美国_87
+  - 美国_88
   - 美国_89
+  - 美国_90
+  - 美国_91
+  - 荷兰_2
+  - 美国_92
+  - 美国_93
+  - 美国_94
+  - 美国_95
+  - 美国_96
+  - 俄罗斯_1
+  - 美国_97
+  - 美国_98
+  - 美国_99
+  - 美国_100
+  - 美国_101
+  - 美国_102
   - 美国_103
+  - 荷兰_3
+  - 美国_104
+  - 美国_105
+  - 美国_106
+  - 美国_107
+  - 美国_108
+  - 香港_10
+  - 美国_109
+  - 乌克兰_1
+  - 美国_110
+  - 美国_111
+  - 美国_112
+  - 美国_113
+  - 美国_114
+  - 奥地利_3
+  - 美国_115
+  - 美国_116
   - 美国_117
+  - 美国_118
+  - 荷兰_4
+  - 美国_119
+  - 美国_120
+  - 美国_121
+  - 美国_122
+  - 美国_123
+  - 美国_124
+  - 美国_125
+  - 美国_126
+  - 美国_127
+  - 美国_128
+  - 美国_129
+  - 美国_130
+  - 美国_131
+  - 荷兰_5
   - 美国_132
+  - 美国_133
+  - 美国_134
+  - 美国_135
   - 美国_136
+  - 美国_137
+  - 美国_138
+  - 美国_139
+  - 美国_140
+  - 美国_141
+  - 美国_142
+  - 美国_143
+  - 俄罗斯_2
+  - 美国_144
+  - 美国_145
+  - 美国_146
+  - 美国_147
   - 美国_148
+  - 美国_149
+  - 美国_150
+  - 美国_151
+  - 美国_152
+  - 乌克兰_2
+  - 美国_153
+  - 美国_154
+  - 美国_155
+  - 美国_156
+  - 美国_157
+  - 美国_158
   - 美国_159
+  - 美国_160
+  - 美国_161
+  - 美国_162
+  - 美国_163
+  - 俄罗斯_3
+  - 美国_164
+  - 美国_165
+  - 罗马尼亚_2
+  - 南非_1
+  - 美国_166
   - 美国_167
+  - 美国_168
+  - 美国_169
+  - 美国_170
+  - 美国_171
+  - 美国_172
+  - 美国_173
+  - 美国_174
+  - 立陶宛_3
+  - 美国_175
+  - 美国_176
+  - 美国_177
+  - 美国_178
+  - 美国_179
+  - 美国_180
+  - 美国_181
+  - 美国_182
+  - 美国_183
+  - 美国_184
+  - 美国_185
+  - 美国_186
+  - 美国_187
+  - 美国_188
+  - 美国_189
+  - 美国_190
+  - 美国_191
+  - 美国_192
+  - 南非_2
+  - 法国_2
+  - 美国_193
   - 美国_194
+  - 美国_195
+  - 美国_196
+  - 美国_197
+  - 美国_198
+  - 香港_11
+  - 美国_199
+  - 美国_200
   - 美国_201
+  - 南非_3
   - 美国_202
   - 美国_203
+  - 美国_204
+  - 美国_205
+  - 澳大利亚_1
+  - 美国_206
+  - 美国_207
+  - 法国_3
+  - 美国_208
+  - 美国_209
+  - 美国_210
+  - 美国_211
+  - 美国_212
+  - 澳大利亚_2
+  - 美国_213
+  - 美国_214
+  - 香港_12
+  - 美国_215
+  - 美国_216
+  - 美国_217
+  - 美国_218
+  - 英国
+  - 美国_219
+  - 美国_220
+  - 香港_13
+  - 澳大利亚_3
+  - 美国_221
+  - 美国_222
   - 美国_223
+  - 美国_224
+  - 美国_225
+  - 美国_226
+  - 美国_227
+  - 美国_228
+  - 美国_229
+  - 美国_230
+  - 美国_231
+  - 荷兰_6
+  - 美国_232
+  - 美国_233
+  - 澳大利亚_4
+  - 美国_234
+  - 奥地利_4
+  - 奥地利_5
+  - 美国_235
+  - 美国_236
+  - 美国_237
+  - 美国_238
+  - 美国_239
+  - 澳大利亚_5
+  - 美国_240
+  - 美国_241
+  - 美国_242
+  - 乌克兰_3
+  - 美国_243
+  - 美国_244
+  - 美国_245
   - 美国_246
+  - 香港_14
   - 美国_247
+  - 美国_248
+  - 美国_249
+  - 美国_250
+  - 美国_251
+  - 美国_252
+  - 香港_15
+  - 美国_253
+  - 美国_254
+  - 美国_255
+  - 法国_4
+  - 美国_256
+  - 香港_16
+  - 美国_257
+  - 美国_258
+  - 美国_259
+  - 美国_260
   - 美国_261
+  - 美国_262
+  - 美国_263
+  - 香港_17
+  - 澳大利亚_6
+  - 美国_264
+  - 美国_265
+  - 美国_266
+  - 美国_267
+  - 美国_268
+  - 美国_269
+  - 美国_270
+  - 澳大利亚_7
+  - 美国_271
+  - 美国_272
+  - 香港_18
+  - 澳大利亚_8
+  - 美国_273
+  - 美国_274
+  - 美国_275
+  - 澳大利亚_9
+  - 美国_276
+  - 澳大利亚_10
+  - 美国_277
+  - 美国_278
+  - 美国_279
+  - 美国_280
+  - 美国_281
+  - 美国_282
+  - 美国_283
+  - 美国_284
+  - 南非_4
+  - 美国_285
+  - 美国_286
+  - 美国_287
+  - 美国_288
+  - 美国_289
+  - 美国_290
+  - 澳大利亚_11
+  - 美国_291
+  - 美国_292
+  - 美国_293
+  - 美国_294
+  - 美国_295
+  - 美国_296
+  - 香港_19
+  - 美国_297
+  - 美国_298
+  - 美国_299
+  - 美国_300
+  - 美国_301
+  - 美国_302
+  - 美国_303
+  - 美国_304
+  - 俄罗斯_4
+  - 美国_305
+  - 美国_306
+  - 美国_307
+  - 美国_308
   - 美国_309
+  - 美国_310
+  - 美国_311
+  - 美国_312
+  - 美国_313
+  - 日本_1
+  - 美国_314
+  - 美国_315
+  - 香港_20
+  - 美国_316
+  - 美国_317
+  - 日本_2
+  - 日本_3
+  - 智利
   - 美国_318
+  - 美国_319
+  - 日本_4
+  - 法国_5
+  - 香港_21
+  - 香港_22
+  - 美国_320
+  - 美国_321
   - 美国_322
+  - 美国_323
+  - 美国_324
+  - 美国_325
+  - 美国_326
+  - 美国_327
   - 美国_328
+  - 香港_23
+  - 美国_329
+  - 美国_330
+  - 美国_331
+  - 美国_332
+  - 韩国_33
+  - 香港_24
+  - 韩国_34
+  - 美国_333
+  - 美国_334
+  - 美国_335
+  - 美国_336
+  - 美国_337
+  - 美国_338
+  - 美国_339
   - 美国_340
   - 美国_341
-  - 美国_351
-  - 美国_355
-  - 美国_368
-  - 美国_370
-  - 美国_371
-  - 美国_373
-  - 美国_374
-  - 美国_376
+  - 美国_342
+  - 乌克兰_4
+  - 乌克兰_5
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
+  - 香港_1
+  - 香港_2
+  - 美国_1
+  - 香港_3
+  - 香港_4
+  - 韩国_1
+  - 韩国_2
+  - 香港_5
+  - 韩国_3
+  - 韩国_4
+  - 韩国_5
+  - 韩国_6
+  - 韩国_7
+  - 韩国_8
+  - 香港_6
+  - 香港_7
+  - 香港_8
+  - 韩国_9
+  - 韩国_10
+  - 韩国_11
+  - 韩国_12
+  - 韩国_13
+  - 韩国_14
+  - 韩国_15
+  - 韩国_16
+  - 韩国_17
+  - 韩国_18
+  - 韩国_19
+  - 韩国_20
+  - 韩国_21
+  - 韩国_22
+  - 韩国_23
+  - 韩国_24
+  - 韩国_25
+  - 韩国_26
+  - 韩国_27
+  - 韩国_28
+  - 韩国_29
+  - 韩国_30
+  - 韩国_31
+  - 韩国_32
+  - 美国_2
+  - 美国_3
+  - 美国_4
+  - 香港_9
   - 美国_5
+  - 美国_6
   - 美国_7
   - 美国_8
   - 美国_9
   - 美国_10
+  - 罗马尼亚_1
   - 美国_11
   - 美国_12
   - 美国_13
+  - 法国_1
   - 美国_14
   - 美国_15
   - 美国_16
   - 美国_17
   - 美国_18
   - 美国_19
+  - 美国_20
   - 美国_21
   - 美国_22
+  - 美国_23
   - 美国_24
+  - 美国_25
   - 美国_26
   - 美国_27
   - 美国_28
+  - 美国_29
+  - 美国_30
+  - 荷兰_1
+  - 美国_31
   - 美国_32
+  - 美国_33
+  - 美国_34
   - 美国_35
+  - 美国_36
+  - 美国_37
+  - 美国_38
+  - 美国_39
   - 美国_40
   - 美国_41
+  - 美国_42
   - 美国_43
   - 美国_44
+  - 美国_45
+  - 美国_46
   - 美国_47
   - 美国_48
   - 美国_49
   - 美国_50
   - 美国_51
+  - 美国_52
+  - 奥地利_1
+  - 美国_53
   - 美国_54
+  - 美国_55
+  - 美国_56
+  - 美国_57
+  - 美国_58
+  - 美国_59
+  - 美国_60
+  - 美国_61
+  - 美国_62
   - 美国_63
+  - 波兰
+  - 立陶宛_1
+  - 美国_64
   - 美国_65
   - 美国_66
+  - 美国_67
+  - 美国_68
+  - 美国_69
+  - 美国_70
+  - 美国_71
+  - 奥地利_2
+  - 美国_72
   - 美国_73
   - 美国_74
+  - 美国_75
   - 美国_76
+  - 美国_77
+  - 美国_78
+  - 美国_79
+  - 美国_80
+  - 美国_81
+  - 美国_82
+  - 美国_83
   - 美国_84
+  - 美国_85
+  - 美国_86
+  - 立陶宛_2
+  - 美国_87
+  - 美国_88
   - 美国_89
+  - 美国_90
+  - 美国_91
+  - 荷兰_2
+  - 美国_92
+  - 美国_93
+  - 美国_94
+  - 美国_95
+  - 美国_96
+  - 俄罗斯_1
+  - 美国_97
+  - 美国_98
+  - 美国_99
+  - 美国_100
+  - 美国_101
+  - 美国_102
   - 美国_103
+  - 荷兰_3
+  - 美国_104
+  - 美国_105
+  - 美国_106
+  - 美国_107
+  - 美国_108
+  - 香港_10
+  - 美国_109
+  - 乌克兰_1
+  - 美国_110
+  - 美国_111
+  - 美国_112
+  - 美国_113
+  - 美国_114
+  - 奥地利_3
+  - 美国_115
+  - 美国_116
   - 美国_117
+  - 美国_118
+  - 荷兰_4
+  - 美国_119
+  - 美国_120
+  - 美国_121
+  - 美国_122
+  - 美国_123
+  - 美国_124
+  - 美国_125
+  - 美国_126
+  - 美国_127
+  - 美国_128
+  - 美国_129
+  - 美国_130
+  - 美国_131
+  - 荷兰_5
   - 美国_132
+  - 美国_133
+  - 美国_134
+  - 美国_135
   - 美国_136
+  - 美国_137
+  - 美国_138
+  - 美国_139
+  - 美国_140
+  - 美国_141
+  - 美国_142
+  - 美国_143
+  - 俄罗斯_2
+  - 美国_144
+  - 美国_145
+  - 美国_146
+  - 美国_147
   - 美国_148
+  - 美国_149
+  - 美国_150
+  - 美国_151
+  - 美国_152
+  - 乌克兰_2
+  - 美国_153
+  - 美国_154
+  - 美国_155
+  - 美国_156
+  - 美国_157
+  - 美国_158
   - 美国_159
+  - 美国_160
+  - 美国_161
+  - 美国_162
+  - 美国_163
+  - 俄罗斯_3
+  - 美国_164
+  - 美国_165
+  - 罗马尼亚_2
+  - 南非_1
+  - 美国_166
   - 美国_167
+  - 美国_168
+  - 美国_169
+  - 美国_170
+  - 美国_171
+  - 美国_172
+  - 美国_173
+  - 美国_174
+  - 立陶宛_3
+  - 美国_175
+  - 美国_176
+  - 美国_177
+  - 美国_178
+  - 美国_179
+  - 美国_180
+  - 美国_181
+  - 美国_182
+  - 美国_183
+  - 美国_184
+  - 美国_185
+  - 美国_186
+  - 美国_187
+  - 美国_188
+  - 美国_189
+  - 美国_190
+  - 美国_191
+  - 美国_192
+  - 南非_2
+  - 法国_2
+  - 美国_193
   - 美国_194
+  - 美国_195
+  - 美国_196
+  - 美国_197
+  - 美国_198
+  - 香港_11
+  - 美国_199
+  - 美国_200
   - 美国_201
+  - 南非_3
   - 美国_202
   - 美国_203
+  - 美国_204
+  - 美国_205
+  - 澳大利亚_1
+  - 美国_206
+  - 美国_207
+  - 法国_3
+  - 美国_208
+  - 美国_209
+  - 美国_210
+  - 美国_211
+  - 美国_212
+  - 澳大利亚_2
+  - 美国_213
+  - 美国_214
+  - 香港_12
+  - 美国_215
+  - 美国_216
+  - 美国_217
+  - 美国_218
+  - 英国
+  - 美国_219
+  - 美国_220
+  - 香港_13
+  - 澳大利亚_3
+  - 美国_221
+  - 美国_222
   - 美国_223
+  - 美国_224
+  - 美国_225
+  - 美国_226
+  - 美国_227
+  - 美国_228
+  - 美国_229
+  - 美国_230
+  - 美国_231
+  - 荷兰_6
+  - 美国_232
+  - 美国_233
+  - 澳大利亚_4
+  - 美国_234
+  - 奥地利_4
+  - 奥地利_5
+  - 美国_235
+  - 美国_236
+  - 美国_237
+  - 美国_238
+  - 美国_239
+  - 澳大利亚_5
+  - 美国_240
+  - 美国_241
+  - 美国_242
+  - 乌克兰_3
+  - 美国_243
+  - 美国_244
+  - 美国_245
   - 美国_246
+  - 香港_14
   - 美国_247
+  - 美国_248
+  - 美国_249
+  - 美国_250
+  - 美国_251
+  - 美国_252
+  - 香港_15
+  - 美国_253
+  - 美国_254
+  - 美国_255
+  - 法国_4
+  - 美国_256
+  - 香港_16
+  - 美国_257
+  - 美国_258
+  - 美国_259
+  - 美国_260
   - 美国_261
+  - 美国_262
+  - 美国_263
+  - 香港_17
+  - 澳大利亚_6
+  - 美国_264
+  - 美国_265
+  - 美国_266
+  - 美国_267
+  - 美国_268
+  - 美国_269
+  - 美国_270
+  - 澳大利亚_7
+  - 美国_271
+  - 美国_272
+  - 香港_18
+  - 澳大利亚_8
+  - 美国_273
+  - 美国_274
+  - 美国_275
+  - 澳大利亚_9
+  - 美国_276
+  - 澳大利亚_10
+  - 美国_277
+  - 美国_278
+  - 美国_279
+  - 美国_280
+  - 美国_281
+  - 美国_282
+  - 美国_283
+  - 美国_284
+  - 南非_4
+  - 美国_285
+  - 美国_286
+  - 美国_287
+  - 美国_288
+  - 美国_289
+  - 美国_290
+  - 澳大利亚_11
+  - 美国_291
+  - 美国_292
+  - 美国_293
+  - 美国_294
+  - 美国_295
+  - 美国_296
+  - 香港_19
+  - 美国_297
+  - 美国_298
+  - 美国_299
+  - 美国_300
+  - 美国_301
+  - 美国_302
+  - 美国_303
+  - 美国_304
+  - 俄罗斯_4
+  - 美国_305
+  - 美国_306
+  - 美国_307
+  - 美国_308
   - 美国_309
+  - 美国_310
+  - 美国_311
+  - 美国_312
+  - 美国_313
+  - 日本_1
+  - 美国_314
+  - 美国_315
+  - 香港_20
+  - 美国_316
+  - 美国_317
+  - 日本_2
+  - 日本_3
+  - 智利
   - 美国_318
+  - 美国_319
+  - 日本_4
+  - 法国_5
+  - 香港_21
+  - 香港_22
+  - 美国_320
+  - 美国_321
   - 美国_322
+  - 美国_323
+  - 美国_324
+  - 美国_325
+  - 美国_326
+  - 美国_327
   - 美国_328
+  - 香港_23
+  - 美国_329
+  - 美国_330
+  - 美国_331
+  - 美国_332
+  - 韩国_33
+  - 香港_24
+  - 韩国_34
+  - 美国_333
+  - 美国_334
+  - 美国_335
+  - 美国_336
+  - 美国_337
+  - 美国_338
+  - 美国_339
   - 美国_340
   - 美国_341
-  - 美国_351
-  - 美国_355
-  - 美国_368
-  - 美国_370
-  - 美国_371
-  - 美国_373
-  - 美国_374
-  - 美国_376
+  - 美国_342
+  - 乌克兰_4
+  - 乌克兰_5
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -1328,75 +8270,458 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
+  - 香港_1
+  - 香港_2
+  - 美国_1
+  - 香港_3
+  - 香港_4
+  - 韩国_1
+  - 韩国_2
+  - 香港_5
+  - 韩国_3
+  - 韩国_4
+  - 韩国_5
+  - 韩国_6
+  - 韩国_7
+  - 韩国_8
+  - 香港_6
+  - 香港_7
+  - 香港_8
+  - 韩国_9
+  - 韩国_10
+  - 韩国_11
+  - 韩国_12
+  - 韩国_13
+  - 韩国_14
+  - 韩国_15
+  - 韩国_16
+  - 韩国_17
+  - 韩国_18
+  - 韩国_19
+  - 韩国_20
+  - 韩国_21
+  - 韩国_22
+  - 韩国_23
+  - 韩国_24
+  - 韩国_25
+  - 韩国_26
+  - 韩国_27
+  - 韩国_28
+  - 韩国_29
+  - 韩国_30
+  - 韩国_31
+  - 韩国_32
+  - 美国_2
+  - 美国_3
+  - 美国_4
+  - 香港_9
   - 美国_5
+  - 美国_6
   - 美国_7
   - 美国_8
   - 美国_9
   - 美国_10
+  - 罗马尼亚_1
   - 美国_11
   - 美国_12
   - 美国_13
+  - 法国_1
   - 美国_14
   - 美国_15
   - 美国_16
   - 美国_17
   - 美国_18
   - 美国_19
+  - 美国_20
   - 美国_21
   - 美国_22
+  - 美国_23
   - 美国_24
+  - 美国_25
   - 美国_26
   - 美国_27
   - 美国_28
+  - 美国_29
+  - 美国_30
+  - 荷兰_1
+  - 美国_31
   - 美国_32
+  - 美国_33
+  - 美国_34
   - 美国_35
+  - 美国_36
+  - 美国_37
+  - 美国_38
+  - 美国_39
   - 美国_40
   - 美国_41
+  - 美国_42
   - 美国_43
   - 美国_44
+  - 美国_45
+  - 美国_46
   - 美国_47
   - 美国_48
   - 美国_49
   - 美国_50
   - 美国_51
+  - 美国_52
+  - 奥地利_1
+  - 美国_53
   - 美国_54
+  - 美国_55
+  - 美国_56
+  - 美国_57
+  - 美国_58
+  - 美国_59
+  - 美国_60
+  - 美国_61
+  - 美国_62
   - 美国_63
+  - 波兰
+  - 立陶宛_1
+  - 美国_64
   - 美国_65
   - 美国_66
+  - 美国_67
+  - 美国_68
+  - 美国_69
+  - 美国_70
+  - 美国_71
+  - 奥地利_2
+  - 美国_72
   - 美国_73
   - 美国_74
+  - 美国_75
   - 美国_76
+  - 美国_77
+  - 美国_78
+  - 美国_79
+  - 美国_80
+  - 美国_81
+  - 美国_82
+  - 美国_83
   - 美国_84
+  - 美国_85
+  - 美国_86
+  - 立陶宛_2
+  - 美国_87
+  - 美国_88
   - 美国_89
+  - 美国_90
+  - 美国_91
+  - 荷兰_2
+  - 美国_92
+  - 美国_93
+  - 美国_94
+  - 美国_95
+  - 美国_96
+  - 俄罗斯_1
+  - 美国_97
+  - 美国_98
+  - 美国_99
+  - 美国_100
+  - 美国_101
+  - 美国_102
   - 美国_103
+  - 荷兰_3
+  - 美国_104
+  - 美国_105
+  - 美国_106
+  - 美国_107
+  - 美国_108
+  - 香港_10
+  - 美国_109
+  - 乌克兰_1
+  - 美国_110
+  - 美国_111
+  - 美国_112
+  - 美国_113
+  - 美国_114
+  - 奥地利_3
+  - 美国_115
+  - 美国_116
   - 美国_117
+  - 美国_118
+  - 荷兰_4
+  - 美国_119
+  - 美国_120
+  - 美国_121
+  - 美国_122
+  - 美国_123
+  - 美国_124
+  - 美国_125
+  - 美国_126
+  - 美国_127
+  - 美国_128
+  - 美国_129
+  - 美国_130
+  - 美国_131
+  - 荷兰_5
   - 美国_132
+  - 美国_133
+  - 美国_134
+  - 美国_135
   - 美国_136
+  - 美国_137
+  - 美国_138
+  - 美国_139
+  - 美国_140
+  - 美国_141
+  - 美国_142
+  - 美国_143
+  - 俄罗斯_2
+  - 美国_144
+  - 美国_145
+  - 美国_146
+  - 美国_147
   - 美国_148
+  - 美国_149
+  - 美国_150
+  - 美国_151
+  - 美国_152
+  - 乌克兰_2
+  - 美国_153
+  - 美国_154
+  - 美国_155
+  - 美国_156
+  - 美国_157
+  - 美国_158
   - 美国_159
+  - 美国_160
+  - 美国_161
+  - 美国_162
+  - 美国_163
+  - 俄罗斯_3
+  - 美国_164
+  - 美国_165
+  - 罗马尼亚_2
+  - 南非_1
+  - 美国_166
   - 美国_167
+  - 美国_168
+  - 美国_169
+  - 美国_170
+  - 美国_171
+  - 美国_172
+  - 美国_173
+  - 美国_174
+  - 立陶宛_3
+  - 美国_175
+  - 美国_176
+  - 美国_177
+  - 美国_178
+  - 美国_179
+  - 美国_180
+  - 美国_181
+  - 美国_182
+  - 美国_183
+  - 美国_184
+  - 美国_185
+  - 美国_186
+  - 美国_187
+  - 美国_188
+  - 美国_189
+  - 美国_190
+  - 美国_191
+  - 美国_192
+  - 南非_2
+  - 法国_2
+  - 美国_193
   - 美国_194
+  - 美国_195
+  - 美国_196
+  - 美国_197
+  - 美国_198
+  - 香港_11
+  - 美国_199
+  - 美国_200
   - 美国_201
+  - 南非_3
   - 美国_202
   - 美国_203
+  - 美国_204
+  - 美国_205
+  - 澳大利亚_1
+  - 美国_206
+  - 美国_207
+  - 法国_3
+  - 美国_208
+  - 美国_209
+  - 美国_210
+  - 美国_211
+  - 美国_212
+  - 澳大利亚_2
+  - 美国_213
+  - 美国_214
+  - 香港_12
+  - 美国_215
+  - 美国_216
+  - 美国_217
+  - 美国_218
+  - 英国
+  - 美国_219
+  - 美国_220
+  - 香港_13
+  - 澳大利亚_3
+  - 美国_221
+  - 美国_222
   - 美国_223
+  - 美国_224
+  - 美国_225
+  - 美国_226
+  - 美国_227
+  - 美国_228
+  - 美国_229
+  - 美国_230
+  - 美国_231
+  - 荷兰_6
+  - 美国_232
+  - 美国_233
+  - 澳大利亚_4
+  - 美国_234
+  - 奥地利_4
+  - 奥地利_5
+  - 美国_235
+  - 美国_236
+  - 美国_237
+  - 美国_238
+  - 美国_239
+  - 澳大利亚_5
+  - 美国_240
+  - 美国_241
+  - 美国_242
+  - 乌克兰_3
+  - 美国_243
+  - 美国_244
+  - 美国_245
   - 美国_246
+  - 香港_14
   - 美国_247
+  - 美国_248
+  - 美国_249
+  - 美国_250
+  - 美国_251
+  - 美国_252
+  - 香港_15
+  - 美国_253
+  - 美国_254
+  - 美国_255
+  - 法国_4
+  - 美国_256
+  - 香港_16
+  - 美国_257
+  - 美国_258
+  - 美国_259
+  - 美国_260
   - 美国_261
+  - 美国_262
+  - 美国_263
+  - 香港_17
+  - 澳大利亚_6
+  - 美国_264
+  - 美国_265
+  - 美国_266
+  - 美国_267
+  - 美国_268
+  - 美国_269
+  - 美国_270
+  - 澳大利亚_7
+  - 美国_271
+  - 美国_272
+  - 香港_18
+  - 澳大利亚_8
+  - 美国_273
+  - 美国_274
+  - 美国_275
+  - 澳大利亚_9
+  - 美国_276
+  - 澳大利亚_10
+  - 美国_277
+  - 美国_278
+  - 美国_279
+  - 美国_280
+  - 美国_281
+  - 美国_282
+  - 美国_283
+  - 美国_284
+  - 南非_4
+  - 美国_285
+  - 美国_286
+  - 美国_287
+  - 美国_288
+  - 美国_289
+  - 美国_290
+  - 澳大利亚_11
+  - 美国_291
+  - 美国_292
+  - 美国_293
+  - 美国_294
+  - 美国_295
+  - 美国_296
+  - 香港_19
+  - 美国_297
+  - 美国_298
+  - 美国_299
+  - 美国_300
+  - 美国_301
+  - 美国_302
+  - 美国_303
+  - 美国_304
+  - 俄罗斯_4
+  - 美国_305
+  - 美国_306
+  - 美国_307
+  - 美国_308
   - 美国_309
+  - 美国_310
+  - 美国_311
+  - 美国_312
+  - 美国_313
+  - 日本_1
+  - 美国_314
+  - 美国_315
+  - 香港_20
+  - 美国_316
+  - 美国_317
+  - 日本_2
+  - 日本_3
+  - 智利
   - 美国_318
+  - 美国_319
+  - 日本_4
+  - 法国_5
+  - 香港_21
+  - 香港_22
+  - 美国_320
+  - 美国_321
   - 美国_322
+  - 美国_323
+  - 美国_324
+  - 美国_325
+  - 美国_326
+  - 美国_327
   - 美国_328
+  - 香港_23
+  - 美国_329
+  - 美国_330
+  - 美国_331
+  - 美国_332
+  - 韩国_33
+  - 香港_24
+  - 韩国_34
+  - 美国_333
+  - 美国_334
+  - 美国_335
+  - 美国_336
+  - 美国_337
+  - 美国_338
+  - 美国_339
   - 美国_340
   - 美国_341
-  - 美国_351
-  - 美国_355
-  - 美国_368
-  - 美国_370
-  - 美国_371
-  - 美国_373
-  - 美国_374
-  - 美国_376
+  - 美国_342
+  - 乌克兰_4
+  - 乌克兰_5
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
@@ -1405,7 +8730,6 @@ rules:
 - DOMAIN-SUFFIX,lan,🎯 全球直连
 - DOMAIN-SUFFIX,local,🎯 全球直连
 - DOMAIN-SUFFIX,localhost,🎯 全球直连
-- IP-CIDR,0.0.0.0/8,🎯 全球直连,no-resolve
 - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
 - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
 - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
@@ -1420,7 +8744,6 @@ rules:
 - DOMAIN,instant.arubanetworks.com,🎯 全球直连
 - DOMAIN,setmeup.arubanetworks.com,🎯 全球直连
 - DOMAIN,router.asus.com,🎯 全球直连
-- DOMAIN,www.asusrouter.com,🎯 全球直连
 - DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
 - DOMAIN-SUFFIX,leike.cc,🎯 全球直连
 - DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
@@ -1433,16 +8756,17 @@ rules:
 - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
 - DOMAIN-SUFFIX,zte.home,🎯 全球直连
 - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
-- DOMAIN-SUFFIX,wifi.cmcc,🎯 全球直连
 - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
 - DOMAIN-KEYWORD,admaster,🛑 全球拦截
 - DOMAIN-KEYWORD,adsage,🛑 全球拦截
 - DOMAIN-KEYWORD,adsensor,🛑 全球拦截
+- DOMAIN-KEYWORD,adservice,🛑 全球拦截
 - DOMAIN-KEYWORD,adsmogo,🛑 全球拦截
 - DOMAIN-KEYWORD,adsrvmedia,🛑 全球拦截
 - DOMAIN-KEYWORD,adsserving,🛑 全球拦截
 - DOMAIN-KEYWORD,adsystem,🛑 全球拦截
 - DOMAIN-KEYWORD,adwords,🛑 全球拦截
+- DOMAIN-KEYWORD,analysis,🛑 全球拦截
 - DOMAIN-KEYWORD,applovin,🛑 全球拦截
 - DOMAIN-KEYWORD,appsflyer,🛑 全球拦截
 - DOMAIN-KEYWORD,domob,🛑 全球拦截
@@ -1456,6 +8780,7 @@ rules:
 - DOMAIN-KEYWORD,pingfore,🛑 全球拦截
 - DOMAIN-KEYWORD,socdm,🛑 全球拦截
 - DOMAIN-KEYWORD,supersonicads,🛑 全球拦截
+- DOMAIN-KEYWORD,usage,🛑 全球拦截
 - DOMAIN-KEYWORD,wlmonitor,🛑 全球拦截
 - DOMAIN-KEYWORD,zjtoolbar,🛑 全球拦截
 - DOMAIN-SUFFIX,09mk.cn,🛑 全球拦截
@@ -1852,7 +9177,6 @@ rules:
 - DOMAIN-SUFFIX,zhjfad.com,🛑 全球拦截
 - DOMAIN-SUFFIX,zqzxz.com,🛑 全球拦截
 - DOMAIN-SUFFIX,zzsx8.com,🛑 全球拦截
-- DOMAIN-SUFFIX,wwads.cn,🛑 全球拦截
 - DOMAIN-SUFFIX,acuityplatform.com,🛑 全球拦截
 - DOMAIN-SUFFIX,ad-stir.com,🛑 全球拦截
 - DOMAIN-SUFFIX,ad-survey.com,🛑 全球拦截
@@ -2190,6 +9514,7 @@ rules:
 - DOMAIN-SUFFIX,baidu9635.com,🍃 应用净化
 - DOMAIN-SUFFIX,baidustatic.com,🍃 应用净化
 - DOMAIN-SUFFIX,baidutv.baidu.com,🍃 应用净化
+- DOMAIN-SUFFIX,baikebcs.bdimg.com,🍃 应用净化
 - DOMAIN-SUFFIX,banlv.baidu.com,🍃 应用净化
 - DOMAIN-SUFFIX,bar.baidu.com,🍃 应用净化
 - DOMAIN-SUFFIX,bdplus.baidu.com,🍃 应用净化
@@ -2547,6 +9872,7 @@ rules:
 - DOMAIN-SUFFIX,stat.pandora.xiaomi.com,🍃 应用净化
 - DOMAIN-SUFFIX,union.mi.com,🍃 应用净化
 - DOMAIN-SUFFIX,wtradv.market.xiaomi.com,🍃 应用净化
+- DOMAIN-SUFFIX,xmpush.xiaomi.com,🍃 应用净化
 - DOMAIN-SUFFIX,ad.api.moji.com,🍃 应用净化
 - DOMAIN-SUFFIX,app.moji001.com,🍃 应用净化
 - DOMAIN-SUFFIX,cdn.moji002.com,🍃 应用净化
@@ -2741,6 +10067,7 @@ rules:
 - DOMAIN-SUFFIX,ws.progrss.yahoo.com,🍃 应用净化
 - DOMAIN-SUFFIX,yads.yahoo.co.jp,🍃 应用净化
 - DOMAIN-SUFFIX,ybp.yahoo.com,🍃 应用净化
+- DOMAIN-SUFFIX,zhihu-web-analytics.zhihu.com,🍃 应用净化
 - DOMAIN-SUFFIX,shrek.6.cn,🍃 应用净化
 - DOMAIN-SUFFIX,simba.6.cn,🍃 应用净化
 - DOMAIN-SUFFIX,union.6.cn,🍃 应用净化
@@ -3060,24 +10387,32 @@ rules:
 - DOMAIN-SUFFIX,alt7-mtalk.google.com,🎯 全球直连
 - DOMAIN-SUFFIX,alt8-mtalk.google.com,🎯 全球直连
 - DOMAIN-SUFFIX,app-measurement.com,🎯 全球直连
+- DOMAIN-SUFFIX,c.android.clients.google.com,🎯 全球直连
 - DOMAIN-SUFFIX,cache.pack.google.com,🎯 全球直连
 - DOMAIN-SUFFIX,clickserve.dartsearch.net,🎯 全球直连
+- DOMAIN-SUFFIX,clientservices.googleapis.com,🎯 全球直连
 - DOMAIN-SUFFIX,crl.pki.goog,🎯 全球直连
 - DOMAIN-SUFFIX,dl.google.com,🎯 全球直连
 - DOMAIN-SUFFIX,dl.l.google.com,🎯 全球直连
+- DOMAIN-SUFFIX,fonts.googleapis.com,🎯 全球直连
+- DOMAIN-SUFFIX,fonts.gstatic.com,🎯 全球直连
 - DOMAIN-SUFFIX,googletagmanager.com,🎯 全球直连
 - DOMAIN-SUFFIX,googletagservices.com,🎯 全球直连
 - DOMAIN-SUFFIX,gtm.oasisfeng.com,🎯 全球直连
+- DOMAIN-SUFFIX,imasdk.googleapis.com,🎯 全球直连
 - DOMAIN-SUFFIX,mtalk.google.com,🎯 全球直连
 - DOMAIN-SUFFIX,ocsp.pki.goog,🎯 全球直连
 - DOMAIN-SUFFIX,recaptcha.net,🎯 全球直连
 - DOMAIN-SUFFIX,safebrowsing-cache.google.com,🎯 全球直连
+- DOMAIN-SUFFIX,safebrowsing.googleapis.com,🎯 全球直连
 - DOMAIN-SUFFIX,settings.crashlytics.com,🎯 全球直连
 - DOMAIN-SUFFIX,ssl-google-analytics.l.google.com,🎯 全球直连
 - DOMAIN-SUFFIX,toolbarqueries.google.com,🎯 全球直连
 - DOMAIN-SUFFIX,tools.google.com,🎯 全球直连
 - DOMAIN-SUFFIX,tools.l.google.com,🎯 全球直连
+- DOMAIN-SUFFIX,update.googleapis.com,🎯 全球直连
 - DOMAIN-SUFFIX,www-googletagmanager.l.google.com,🎯 全球直连
+- DOMAIN-SUFFIX,www.gstatic.com,🎯 全球直连
 - DOMAIN,csgo.wmsj.cn,🎯 全球直连
 - DOMAIN,dl.steam.clngaa.com,🎯 全球直连
 - DOMAIN,dl.steam.ksyna.com,🎯 全球直连
@@ -3089,7 +10424,6 @@ rules:
 - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
 - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
 - DOMAIN,wmsjsteam.com,🎯 全球直连
-- DOMAIN,xz.pphimalayanrt.com,🎯 全球直连
 - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
 - DOMAIN-SUFFIX,steamchina.com,🎯 全球直连
 - DOMAIN-SUFFIX,steamcontent.com,🎯 全球直连
@@ -3106,11 +10440,8 @@ rules:
 - DOMAIN-SUFFIX,azure.com,Ⓜ️ 微软服务
 - DOMAIN-SUFFIX,azure.net,Ⓜ️ 微软服务
 - DOMAIN-SUFFIX,azureedge.net,Ⓜ️ 微软服务
-- DOMAIN-SUFFIX,azureiotcentral.com,Ⓜ️ 微软服务
 - DOMAIN-SUFFIX,azurerms.com,Ⓜ️ 微软服务
 - DOMAIN-SUFFIX,bing.com,Ⓜ️ 微软服务
-- DOMAIN-SUFFIX,bing.net,Ⓜ️ 微软服务
-- DOMAIN-SUFFIX,bingapis.com,Ⓜ️ 微软服务
 - DOMAIN-SUFFIX,cloudapp.net,Ⓜ️ 微软服务
 - DOMAIN-SUFFIX,cloudappsecurity.com,Ⓜ️ 微软服务
 - DOMAIN-SUFFIX,edgesuite.net,Ⓜ️ 微软服务
@@ -3177,7 +10508,6 @@ rules:
 - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
 - DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
 - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
-- DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
 - DOMAIN-SUFFIX,apple-mapkit.com,🍎 苹果服务
 - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
 - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
@@ -3205,10 +10535,13 @@ rules:
 - DOMAIN-SUFFIX,edgedatg.com,🌍 国外媒体
 - DOMAIN-SUFFIX,go.com,🌍 国外媒体
 - DOMAIN-KEYWORD,abematv.akamaized.net,🌍 国外媒体
+- DOMAIN,api-abematv.bucketeer.jp,🌍 国外媒体
+- DOMAIN-SUFFIX,abema-tv.com,🌍 国外媒体
 - DOMAIN-SUFFIX,abema.io,🌍 国外媒体
 - DOMAIN-SUFFIX,abema.tv,🌍 国外媒体
 - DOMAIN-SUFFIX,ameba.jp,🌍 国外媒体
 - DOMAIN-SUFFIX,hayabusa.io,🌍 国外媒体
+- DOMAIN-SUFFIX,hayabusa.media,🌍 国外媒体
 - DOMAIN-SUFFIX,c4assets.com,🌍 国外媒体
 - DOMAIN-SUFFIX,channel4.com,🌍 国外媒体
 - DOMAIN-KEYWORD,avoddashs,🌍 国外媒体
@@ -3226,13 +10559,10 @@ rules:
 - DOMAIN-SUFFIX,aiv-cdn.net,🌍 国外媒体
 - DOMAIN-SUFFIX,aiv-delivery.net,🌍 国外媒体
 - DOMAIN-SUFFIX,amazon.jobs,🌍 国外媒体
-- DOMAIN-SUFFIX,amazontools.com,🌍 国外媒体
-- DOMAIN-SUFFIX,amazontours.com,🌍 国外媒体
 - DOMAIN-SUFFIX,amazonuniversity.jobs,🌍 国外媒体
 - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
 - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
 - DOMAIN-SUFFIX,pv-cdn.net,🌍 国外媒体
-- DOMAIN-SUFFIX,seattlespheres.com,🌍 国外媒体
 - DOMAIN,gspe1-ssl.ls.apple.com,🌍 国外媒体
 - DOMAIN,np-edge.itunes.apple.com,🌍 国外媒体
 - DOMAIN,play-edge.itunes.apple.com,🌍 国外媒体
@@ -3305,6 +10635,7 @@ rules:
 - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
 - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
 - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
+- DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
 - DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体
 - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
 - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
@@ -3413,49 +10744,11 @@ rules:
 - IP-CIDR,192.173.64.0/18,🌍 国外媒体,no-resolve
 - IP-CIDR,198.38.96.0/19,🌍 国外媒体,no-resolve
 - IP-CIDR,198.45.48.0/20,🌍 国外媒体,no-resolve
-- IP-CIDR,203.75.84.0/24,🌍 国外媒体,no-resolve
 - IP-CIDR,207.45.72.0/22,🌍 国外媒体,no-resolve
 - IP-CIDR,208.75.76.0/22,🌍 国外媒体,no-resolve
 - DOMAIN-SUFFIX,dmc.nico,🌍 国外媒体
 - DOMAIN-SUFFIX,nicovideo.jp,🌍 国外媒体
 - DOMAIN-SUFFIX,nimg.jp,🌍 国外媒体
-- DOMAIN-KEYWORD,nivod,🌍 国外媒体
-- DOMAIN-SUFFIX,biggggg.com,🌍 国外媒体
-- DOMAIN-SUFFIX,mudvod.tv,🌍 国外媒体
-- DOMAIN-SUFFIX,nbys.tv,🌍 国外媒体
-- DOMAIN-SUFFIX,nbys1.tv,🌍 国外媒体
-- DOMAIN-SUFFIX,nbyy.tv,🌍 国外媒体
-- DOMAIN-SUFFIX,newpppp.com,🌍 国外媒体
-- DOMAIN-SUFFIX,nivod.tv,🌍 国外媒体
-- DOMAIN-SUFFIX,nivodi.tv,🌍 国外媒体
-- DOMAIN-SUFFIX,nivodz.com,🌍 国外媒体
-- DOMAIN-SUFFIX,vod360.net,🌍 国外媒体
-- DOMAIN-KEYWORD,olevod,🌍 国外媒体
-- DOMAIN-SUFFIX,haiwaikan.com,🌍 国外媒体
-- DOMAIN-SUFFIX,iole.tv,🌍 国外媒体
-- DOMAIN-SUFFIX,olehd.com,🌍 国外媒体
-- DOMAIN-SUFFIX,olelive.com,🌍 国外媒体
-- DOMAIN-SUFFIX,olevod.com,🌍 国外媒体
-- DOMAIN-SUFFIX,olevod.io,🌍 国外媒体
-- DOMAIN-SUFFIX,olevod.tv,🌍 国外媒体
-- DOMAIN-SUFFIX,olevodtv.com,🌍 国外媒体
-- DOMAIN-KEYWORD,openai,🌍 国外媒体
-- DOMAIN,gemini.google.com,🌍 国外媒体
-- DOMAIN-SUFFIX,auth0.com,🌍 国外媒体
-- DOMAIN-SUFFIX,challenges.cloudflare.com,🌍 国外媒体
-- DOMAIN-SUFFIX,chatgpt.com,🌍 国外媒体
-- DOMAIN-SUFFIX,client-api.arkoselabs.com,🌍 国外媒体
-- DOMAIN-SUFFIX,events.statsigapi.net,🌍 国外媒体
-- DOMAIN-SUFFIX,featuregates.org,🌍 国外媒体
-- DOMAIN-SUFFIX,identrust.com,🌍 国外媒体
-- DOMAIN-SUFFIX,intercom.io,🌍 国外媒体
-- DOMAIN-SUFFIX,intercomcdn.com,🌍 国外媒体
-- DOMAIN-SUFFIX,oaistatic.com,🌍 国外媒体
-- DOMAIN-SUFFIX,oaiusercontent.com,🌍 国外媒体
-- DOMAIN-SUFFIX,openai.com,🌍 国外媒体
-- DOMAIN-SUFFIX,openaiapi-site.azureedge.net,🌍 国外媒体
-- DOMAIN-SUFFIX,sentry.io,🌍 国外媒体
-- DOMAIN-SUFFIX,stripe.com,🌍 国外媒体
 - DOMAIN-SUFFIX,pbs.org,🌍 国外媒体
 - DOMAIN-SUFFIX,pandora.com,🌍 国外媒体
 - DOMAIN-SUFFIX,phncdn.com,🌍 国外媒体
@@ -3466,7 +10759,7 @@ rules:
 - DOMAIN-SUFFIX,p-cdn.us,🌍 国外媒体
 - DOMAIN-SUFFIX,sndcdn.com,🌍 国外媒体
 - DOMAIN-SUFFIX,soundcloud.com,🌍 国外媒体
-- DOMAIN-KEYWORD,-spotify-,🌍 国外媒体
+- DOMAIN-KEYWORD,-spotify-com,🌍 国外媒体
 - DOMAIN-KEYWORD,spotify.com,🌍 国外媒体
 - DOMAIN-SUFFIX,pscdn.co,🌍 国外媒体
 - DOMAIN-SUFFIX,scdn.co,🌍 国外媒体
@@ -3479,7 +10772,7 @@ rules:
 - DOMAIN-SUFFIX,tidalhifi.com,🌍 国外媒体
 - DOMAIN,hamifans.emome.net,🌍 国外媒体
 - DOMAIN-SUFFIX,skyking.com.tw,🌍 国外媒体
-- DOMAIN-KEYWORD,tiktokcdn,🌍 国外媒体
+- DOMAIN-KEYWORD,tiktokcdn-,🌍 国外媒体
 - DOMAIN-SUFFIX,byteoversea.com,🌍 国外媒体
 - DOMAIN-SUFFIX,ibytedtos.com,🌍 国外媒体
 - DOMAIN-SUFFIX,ipstatp.com,🌍 国外媒体
@@ -3538,10 +10831,15 @@ rules:
 - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
 - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
 - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
+- DOMAIN-SUFFIX,v2rayse.com,🚀 节点选择
+- DOMAIN-SUFFIX,cff.pw,🚀 节点选择
+- DOMAIN-SUFFIX,vpnse.org,🚀 节点选择
+- DOMAIN-SUFFIX,cfmem.com,🚀 节点选择
 - DOMAIN-SUFFIX,1password.com,🚀 节点选择
 - DOMAIN-SUFFIX,adguard.org,🚀 节点选择
 - DOMAIN-SUFFIX,bit.no.com,🚀 节点选择
 - DOMAIN-SUFFIX,btlibrary.me,🚀 节点选择
+- DOMAIN-SUFFIX,chat.openai.com,🚀 节点选择
 - DOMAIN-SUFFIX,cloudcone.com,🚀 节点选择
 - DOMAIN-SUFFIX,dubox.com,🚀 节点选择
 - DOMAIN-SUFFIX,gameloft.com,🚀 节点选择
@@ -3552,13 +10850,13 @@ rules:
 - DOMAIN-SUFFIX,linkedin.com,🚀 节点选择
 - DOMAIN-SUFFIX,myteamspeak.com,🚀 节点选择
 - DOMAIN-SUFFIX,notion.so,🚀 节点选择
+- DOMAIN-SUFFIX,openai.com,🚀 节点选择
 - DOMAIN-SUFFIX,ping.pe,🚀 节点选择
 - DOMAIN-SUFFIX,reddit.com,🚀 节点选择
 - DOMAIN-SUFFIX,teddysun.com,🚀 节点选择
 - DOMAIN-SUFFIX,tumbex.com,🚀 节点选择
 - DOMAIN-SUFFIX,twdvd.com,🚀 节点选择
 - DOMAIN-SUFFIX,unsplash.com,🚀 节点选择
-- DOMAIN-SUFFIX,buzzsprout.com,🚀 节点选择
 - DOMAIN-SUFFIX,eu,🚀 节点选择
 - DOMAIN-SUFFIX,hk,🚀 节点选择
 - DOMAIN-SUFFIX,jp,🚀 节点选择
@@ -3566,6 +10864,7 @@ rules:
 - DOMAIN-SUFFIX,sg,🚀 节点选择
 - DOMAIN-SUFFIX,tw,🚀 节点选择
 - DOMAIN-SUFFIX,uk,🚀 节点选择
+- DOMAIN-SUFFIX,us,🚀 节点选择
 - DOMAIN-KEYWORD,1e100,🚀 节点选择
 - DOMAIN-KEYWORD,abema,🚀 节点选择
 - DOMAIN-KEYWORD,appledaily,🚀 节点选择
@@ -3716,11 +11015,8 @@ rules:
 - DOMAIN-KEYWORD,uk-live,🚀 节点选择
 - DOMAIN-SUFFIX,bbc.co,🚀 节点选择
 - DOMAIN-SUFFIX,bbc.com,🚀 节点选择
-- DOMAIN-SUFFIX,claude.ai,🚀 节点选择
-- DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
 - DOMAIN-SUFFIX,apache.org,🚀 节点选择
 - DOMAIN-SUFFIX,docker.com,🚀 节点选择
-- DOMAIN-SUFFIX,docker.io,🚀 节点选择
 - DOMAIN-SUFFIX,elastic.co,🚀 节点选择
 - DOMAIN-SUFFIX,elastic.com,🚀 节点选择
 - DOMAIN-SUFFIX,gcr.io,🚀 节点选择
@@ -3835,8 +11131,6 @@ rules:
 - IP-CIDR,119.235.236.0/23,🚀 节点选择,no-resolve
 - IP-CIDR,147.92.128.0/17,🚀 节点选择,no-resolve
 - IP-CIDR,203.104.128.0/19,🚀 节点选择,no-resolve
-- DOMAIN-SUFFIX,openai.com,🚀 节点选择
-- DOMAIN-SUFFIX,challenges.cloudflare.com,🚀 节点选择
 - DOMAIN-KEYWORD,1drv,🚀 节点选择
 - DOMAIN-KEYWORD,onedrive,🚀 节点选择
 - DOMAIN-KEYWORD,skydrive,🚀 节点选择
@@ -3874,7 +11168,6 @@ rules:
 - DOMAIN-SUFFIX,ypncdn.com,🚀 节点选择
 - DOMAIN-SUFFIX,pixiv.net,🚀 节点选择
 - DOMAIN-SUFFIX,pximg.net,🚀 节点选择
-- DOMAIN-SUFFIX,fanbox.cc,🚀 节点选择
 - DOMAIN-SUFFIX,amplitude.com,🚀 节点选择
 - DOMAIN-SUFFIX,firebaseio.com,🚀 节点选择
 - DOMAIN-SUFFIX,hockeyapp.net,🚀 节点选择
@@ -3893,6 +11186,7 @@ rules:
 - DOMAIN-SUFFIX,steamstatic.com,🚀 节点选择
 - DOMAIN-SUFFIX,steamstat.us,🚀 节点选择
 - DOMAIN,steambroadcast.akamaized.net,🚀 节点选择
+- DOMAIN,steamcdn-a.akamaihd.net,🚀 节点选择
 - DOMAIN,steamcommunity-a.akamaihd.net,🚀 节点选择
 - DOMAIN,steamstore-a.akamaihd.net,🚀 节点选择
 - DOMAIN,steamusercontent-a.akamaihd.net,🚀 节点选择
@@ -3949,8 +11243,6 @@ rules:
 - DOMAIN-SUFFIX,wikiversity.org,🚀 节点选择
 - DOMAIN-SUFFIX,wikivoyage.org,🚀 节点选择
 - DOMAIN-SUFFIX,wiktionary.org,🚀 节点选择
-- DOMAIN-SUFFIX,zoom.us,🚀 节点选择
-- DOMAIN-SUFFIX,zoomgov.com,🚀 节点选择
 - DOMAIN-SUFFIX,neulion.com,🚀 节点选择
 - DOMAIN-SUFFIX,icntv.xyz,🚀 节点选择
 - DOMAIN-SUFFIX,flzbcdn.xyz,🚀 节点选择
@@ -3972,12 +11264,11 @@ rules:
 - DOMAIN-SUFFIX,pdfwifi.com,🎯 全球直连
 - DOMAIN-SUFFIX,zhenguanyu.biz,🎯 全球直连
 - DOMAIN-SUFFIX,zhenguanyu.com,🎯 全球直连
-- DOMAIN-SUFFIX,snapdrop.net,🎯 全球直连
-- DOMAIN-SUFFIX,tebex.io,🎯 全球直连
 - DOMAIN-SUFFIX,cn,🎯 全球直连
 - DOMAIN-SUFFIX,xn--fiqs8s,🎯 全球直连
 - DOMAIN-SUFFIX,xn--55qx5d,🎯 全球直连
 - DOMAIN-SUFFIX,xn--io0a7i,🎯 全球直连
+- DOMAIN-KEYWORD,-cn,🎯 全球直连
 - DOMAIN-KEYWORD,360buy,🎯 全球直连
 - DOMAIN-KEYWORD,alicdn,🎯 全球直连
 - DOMAIN-KEYWORD,alimama,🎯 全球直连
@@ -4024,7 +11315,6 @@ rules:
 - DOMAIN-SUFFIX,aliyuncdn.com,🎯 全球直连
 - DOMAIN-SUFFIX,aliyuncs.com,🎯 全球直连
 - DOMAIN-SUFFIX,aliyundrive.com,🎯 全球直连
-- DOMAIN-SUFFIX,aliyundrive.net,🎯 全球直连
 - DOMAIN-SUFFIX,amap.com,🎯 全球直连
 - DOMAIN-SUFFIX,autonavi.com,🎯 全球直连
 - DOMAIN-SUFFIX,dingtalk.com,🎯 全球直连
@@ -4064,8 +11354,6 @@ rules:
 - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
 - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
 - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
-- DOMAIN-SUFFIX,bilibili.co,🎯 全球直连
-- DOMAIN-SUFFIX,biliintl.co,🎯 全球直连
 - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
 - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
 - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
@@ -4073,6 +11361,9 @@ rules:
 - DOMAIN-SUFFIX,hdslb.com,🎯 全球直连
 - DOMAIN-SUFFIX,im9.com,🎯 全球直连
 - DOMAIN-SUFFIX,smtcdns.net,🎯 全球直连
+- DOMAIN-SUFFIX,battle.net,🎯 全球直连
+- DOMAIN-SUFFIX,battlenet.com,🎯 全球直连
+- DOMAIN-SUFFIX,blizzard.com,🎯 全球直连
 - DOMAIN-SUFFIX,amemv.com,🎯 全球直连
 - DOMAIN-SUFFIX,bdxiguaimg.com,🎯 全球直连
 - DOMAIN-SUFFIX,bdxiguastatic.com,🎯 全球直连
@@ -4087,7 +11378,6 @@ rules:
 - DOMAIN-SUFFIX,bytetos.com,🎯 全球直连
 - DOMAIN-SUFFIX,bytexservice.com,🎯 全球直连
 - DOMAIN-SUFFIX,douyin.com,🎯 全球直连
-- DOMAIN-SUFFIX,douyincdn.com,🎯 全球直连
 - DOMAIN-SUFFIX,douyinpic.com,🎯 全球直连
 - DOMAIN-SUFFIX,douyinstatic.com,🎯 全球直连
 - DOMAIN-SUFFIX,douyinvod.com,🎯 全球直连
@@ -4136,25 +11426,12 @@ rules:
 - DOMAIN-SUFFIX,dbankcdn.com,🎯 全球直连
 - DOMAIN-SUFFIX,hc-cdn.com,🎯 全球直连
 - DOMAIN-SUFFIX,hicloud.com,🎯 全球直连
-- DOMAIN-SUFFIX,hihonor.com,🎯 全球直连
 - DOMAIN-SUFFIX,huawei.com,🎯 全球直连
 - DOMAIN-SUFFIX,huaweicloud.com,🎯 全球直连
 - DOMAIN-SUFFIX,huaweishop.net,🎯 全球直连
 - DOMAIN-SUFFIX,hwccpc.com,🎯 全球直连
 - DOMAIN-SUFFIX,vmall.com,🎯 全球直连
 - DOMAIN-SUFFIX,vmallres.com,🎯 全球直连
-- DOMAIN-SUFFIX,allawnfs.com,🎯 全球直连
-- DOMAIN-SUFFIX,allawno.com,🎯 全球直连
-- DOMAIN-SUFFIX,allawntech.com,🎯 全球直连
-- DOMAIN-SUFFIX,coloros.com,🎯 全球直连
-- DOMAIN-SUFFIX,heytap.com,🎯 全球直连
-- DOMAIN-SUFFIX,heytapcs.com,🎯 全球直连
-- DOMAIN-SUFFIX,heytapdownload.com,🎯 全球直连
-- DOMAIN-SUFFIX,heytapimage.com,🎯 全球直连
-- DOMAIN-SUFFIX,heytapmobi.com,🎯 全球直连
-- DOMAIN-SUFFIX,oppo.com,🎯 全球直连
-- DOMAIN-SUFFIX,oppoer.me,🎯 全球直连
-- DOMAIN-SUFFIX,oppomobile.com,🎯 全球直连
 - DOMAIN-SUFFIX,iflyink.com,🎯 全球直连
 - DOMAIN-SUFFIX,iflyrec.com,🎯 全球直连
 - DOMAIN-SUFFIX,iflytek.com,🎯 全球直连
@@ -4254,7 +11531,6 @@ rules:
 - DOMAIN,st.dl.bscstorage.net,🎯 全球直连
 - DOMAIN,st.dl.eccdnx.com,🎯 全球直连
 - DOMAIN,st.dl.pinyuncloud.com,🎯 全球直连
-- DOMAIN,xz.pphimalayanrt.com,🎯 全球直连
 - DOMAIN,steampipe.steamcontent.tnkjmec.com,🎯 全球直连
 - DOMAIN,steampowered.com.8686c.com,🎯 全球直连
 - DOMAIN,steamstatic.com.8686c.com,🎯 全球直连
@@ -4306,7 +11582,46 @@ rules:
 - DOMAIN-SUFFIX,zmzapi.com,🎯 全球直连
 - DOMAIN-SUFFIX,zmzapi.net,🎯 全球直连
 - DOMAIN-SUFFIX,zmzfile.com,🎯 全球直连
+- DOMAIN-KEYWORD,announce,🎯 全球直连
+- DOMAIN-KEYWORD,torrent,🎯 全球直连
+- DOMAIN-KEYWORD,tracker,🎯 全球直连
+- DOMAIN-SUFFIX,animebytes.tv,🎯 全球直连
+- DOMAIN-SUFFIX,animetorrents.me,🎯 全球直连
+- DOMAIN-SUFFIX,awesome-hd.me,🎯 全球直连
+- DOMAIN-SUFFIX,beitai.pt,🎯 全球直连
+- DOMAIN-SUFFIX,bittorrent.com,🎯 全球直连
+- DOMAIN-SUFFIX,broadcasthe.net,🎯 全球直连
+- DOMAIN-SUFFIX,chdbits.co,🎯 全球直连
+- DOMAIN-SUFFIX,classix-unlimited.co.uk,🎯 全球直连
+- DOMAIN-SUFFIX,empornium.me,🎯 全球直连
+- DOMAIN-SUFFIX,gazellegames.net,🎯 全球直连
+- DOMAIN-SUFFIX,hd4fans.org,🎯 全球直连
+- DOMAIN-SUFFIX,hdchina.org,🎯 全球直连
+- DOMAIN-SUFFIX,hdhome.org,🎯 全球直连
+- DOMAIN-SUFFIX,hdsky.me,🎯 全球直连
+- DOMAIN-SUFFIX,hdtime.org,🎯 全球直连
+- DOMAIN-SUFFIX,hdzone.me,🎯 全球直连
+- DOMAIN-SUFFIX,icetorrent.org,🎯 全球直连
+- DOMAIN-SUFFIX,jpopsuki.eu,🎯 全球直连
+- DOMAIN-SUFFIX,keepfrds.com,🎯 全球直连
+- DOMAIN-SUFFIX,leaguehd.com,🎯 全球直连
+- DOMAIN-SUFFIX,m-team.cc,🎯 全球直连
+- DOMAIN-SUFFIX,madsrevolution.net,🎯 全球直连
+- DOMAIN-SUFFIX,msg.vg,🎯 全球直连
+- DOMAIN-SUFFIX,nanyangpt.com,🎯 全球直连
+- DOMAIN-SUFFIX,ncore.cc,🎯 全球直连
+- DOMAIN-SUFFIX,open.cd,🎯 全球直连
+- DOMAIN-SUFFIX,ourbits.club,🎯 全球直连
+- DOMAIN-SUFFIX,passthepopcorn.me,🎯 全球直连
+- DOMAIN-SUFFIX,privatehd.to,🎯 全球直连
+- DOMAIN-SUFFIX,pthome.net,🎯 全球直连
+- DOMAIN-SUFFIX,redacted.ch,🎯 全球直连
+- DOMAIN-SUFFIX,springsunday.net,🎯 全球直连
+- DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
+- DOMAIN-SUFFIX,totheglory.im,🎯 全球直连
+- DOMAIN-SUFFIX,trontv.com,🎯 全球直连
 - DOMAIN-SUFFIX,teamviewer.com,🎯 全球直连
+- IP-CIDR,109.239.140.0/24,🎯 全球直连,no-resolve
 - IP-CIDR,139.220.243.27/32,🎯 全球直连,no-resolve
 - IP-CIDR,172.16.102.56/32,🎯 全球直连,no-resolve
 - IP-CIDR,185.188.32.1/28,🎯 全球直连,no-resolve
@@ -4320,10 +11635,6 @@ rules:
 - DOMAIN-SUFFIX,jiasule.com,🎯 全球直连
 - DOMAIN-SUFFIX,staticfile.org,🎯 全球直连
 - DOMAIN-SUFFIX,upaiyun.com,🎯 全球直连
-- DOMAIN-SUFFIX,doh.pub,🎯 全球直连
-- DOMAIN-SUFFIX,dns.alidns.com,🎯 全球直连
-- DOMAIN-SUFFIX,doh.360.cn,🎯 全球直连
-- IP-CIDR,1.12.12.12/32,🎯 全球直连,no-resolve
 - DOMAIN-SUFFIX,10010.com,🎯 全球直连
 - DOMAIN-SUFFIX,115.com,🎯 全球直连
 - DOMAIN-SUFFIX,12306.com,🎯 全球直连
@@ -4353,7 +11664,6 @@ rules:
 - DOMAIN-SUFFIX,biqudu.com,🎯 全球直连
 - DOMAIN-SUFFIX,biquge.com,🎯 全球直连
 - DOMAIN-SUFFIX,bitauto.com,🎯 全球直连
-- DOMAIN-SUFFIX,bosszhipin.com,🎯 全球直连
 - DOMAIN-SUFFIX,c-ctrip.com,🎯 全球直连
 - DOMAIN-SUFFIX,camera360.com,🎯 全球直连
 - DOMAIN-SUFFIX,cdnmama.com,🎯 全球直连
@@ -4389,7 +11699,6 @@ rules:
 - DOMAIN-SUFFIX,eastday.com,🎯 全球直连
 - DOMAIN-SUFFIX,eastmoney.com,🎯 全球直连
 - DOMAIN-SUFFIX,ecitic.com,🎯 全球直连
-- DOMAIN-SUFFIX,element-plus.org,🎯 全球直连
 - DOMAIN-SUFFIX,ewqcxz.com,🎯 全球直连
 - DOMAIN-SUFFIX,fang.com,🎯 全球直连
 - DOMAIN-SUFFIX,fantasy.tv,🎯 全球直连
@@ -4468,7 +11777,6 @@ rules:
 - DOMAIN-SUFFIX,nruan.com,🎯 全球直连
 - DOMAIN-SUFFIX,nuomi.com,🎯 全球直连
 - DOMAIN-SUFFIX,onedns.net,🎯 全球直连
-- DOMAIN-SUFFIX,oneplus.com,🎯 全球直连
 - DOMAIN-SUFFIX,onlinedown.net,🎯 全球直连
 - DOMAIN-SUFFIX,oracle.com,🎯 全球直连
 - DOMAIN-SUFFIX,oschina.net,🎯 全球直连
@@ -4491,7 +11799,6 @@ rules:
 - DOMAIN-SUFFIX,quanmin.tv,🎯 全球直连
 - DOMAIN-SUFFIX,qunar.com,🎯 全球直连
 - DOMAIN-SUFFIX,qunarzz.com,🎯 全球直连
-- DOMAIN-SUFFIX,realme.com,🎯 全球直连
 - DOMAIN-SUFFIX,repaik.com,🎯 全球直连
 - DOMAIN-SUFFIX,ruguoapp.com,🎯 全球直连
 - DOMAIN-SUFFIX,runoob.com,🎯 全球直连
@@ -4525,7 +11832,6 @@ rules:
 - DOMAIN-SUFFIX,upyun.com,🎯 全球直连
 - DOMAIN-SUFFIX,uxengine.net,🎯 全球直连
 - DOMAIN-SUFFIX,videocc.net,🎯 全球直连
-- DOMAIN-SUFFIX,vivo.com,🎯 全球直连
 - DOMAIN-SUFFIX,wandoujia.com,🎯 全球直连
 - DOMAIN-SUFFIX,weather.com,🎯 全球直连
 - DOMAIN-SUFFIX,weico.cc,🎯 全球直连
@@ -4562,7 +11868,6 @@ rules:
 - DOMAIN-SUFFIX,zhaopin.com,🎯 全球直连
 - DOMAIN-SUFFIX,zhihu.com,🎯 全球直连
 - DOMAIN-SUFFIX,zhimg.com,🎯 全球直连
-- DOMAIN-SUFFIX,zhipin.com,🎯 全球直连
 - DOMAIN-SUFFIX,zhongsou.com,🎯 全球直连
 - DOMAIN-SUFFIX,zhuihd.com,🎯 全球直连
 - IP-CIDR,8.128.0.0/10,🎯 全球直连,no-resolve
@@ -4788,17 +12093,3 @@ rules:
 - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
 - GEOIP,CN,🎯 全球直连
 - MATCH,🐟 漏网之鱼
-tun:
-  auto-detect-interface: true
-  auto-route: true
-  dns-hijack:
-  - 114.114.114.114
-  - 180.76.76.76
-  - 119.29.29.29
-  - 223.5.5.5
-  - 8.8.8.8
-  - 8.8.4.4
-  - 1.1.1.1
-  - 1.0.0.1
-  enable: true
-  stack: system
