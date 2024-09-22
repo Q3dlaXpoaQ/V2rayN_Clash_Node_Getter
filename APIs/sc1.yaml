@@ -4,23 +4,30 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- alterId: 0
-  cipher: auto
-  name: US美国(mibei77.com 米贝节点分享)
-  network: ws
-  port: 2086
-  server: 104.26.5.145
+- name: US美国(mibei77.com 米贝节点分享)
+  password: NISHIKUITAN222
+  port: 443
+  server: 144.24.200.164
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  type: trojan
   udp: true
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-headers:
-    Host: ip1.1789034.xyz
-  ws-path: github.com/Alvin9999
+- name: US美国(mibei77.com 米贝节点分享) 2
+  password: NISHIKUITAN222
+  port: 443
+  server: 129.159.47.255
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 3
+  password: NISHIKUITAN222
+  port: 443
+  server: 158.178.192.221
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: US美国(mibei77.com 米贝节点分享) 2
+  name: US美国(mibei77.com 米贝节点分享) 4
   network: ws
   port: 2086
   server: 104.26.5.90
@@ -32,20 +39,6 @@ proxies:
   ws-headers:
     Host: ip1.1789034.xyz
   ws-path: github.com/Alvin9999
-- name: US美国(mibei77.com 米贝节点分享) 3
-  password: NISHIKUITAN222
-  port: 443
-  server: 144.24.200.164
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 4
-  password: NISHIKUITAN222
-  port: 443
-  server: 34.147.130.63
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: US美国(mibei77.com 米贝节点分享) 5
@@ -63,63 +56,21 @@ proxies:
 - name: US美国(mibei77.com 米贝节点分享) 6
   password: NISHIKUITAN222
   port: 443
-  server: 129.146.47.72
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 7
-  password: NISHIKUITAN222
-  port: 443
   server: 152.70.69.199
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 8
-  password: NISHIKUITAN222
-  port: 443
-  server: 129.151.204.91
-  skip-cert-verify: true
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: US美国(mibei77.com 米贝节点分享) 9
+  name: US美国(mibei77.com 米贝节点分享) 7
   password: 70747514-fb14-4f31-8390-e1f0453eff6d
   port: 20027
   server: tw2.mhw7e2.online
   type: ss
   udp: true
-- name: US美国(mibei77.com 米贝节点分享) 10
+- name: US美国(mibei77.com 米贝节点分享) 8
   password: NISHIKUITAN222
   port: 443
-  server: 207.127.94.174
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 11
-  password: NISHIKUITAN222
-  port: 443
-  server: 165.1.123.204
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: US美国(mibei77.com 米贝节点分享) 12
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20024
-  server: tw3.mhw7e2.online
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: US美国(mibei77.com 米贝节点分享) 13
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20027
-  server: hk3.mhw7e2.online
-  type: ss
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 14
-  password: NISHIKUITAN222
-  port: 443
-  server: 158.178.192.221
+  server: 129.151.204.91
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -136,12 +87,6 @@ proxy-groups:
   - US美国(mibei77.com 米贝节点分享) 6
   - US美国(mibei77.com 米贝节点分享) 7
   - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
-  - US美国(mibei77.com 米贝节点分享) 10
-  - US美国(mibei77.com 米贝节点分享) 11
-  - US美国(mibei77.com 米贝节点分享) 12
-  - US美国(mibei77.com 米贝节点分享) 13
-  - US美国(mibei77.com 米贝节点分享) 14
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -154,12 +99,6 @@ proxy-groups:
   - US美国(mibei77.com 米贝节点分享) 6
   - US美国(mibei77.com 米贝节点分享) 7
   - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
-  - US美国(mibei77.com 米贝节点分享) 10
-  - US美国(mibei77.com 米贝节点分享) 11
-  - US美国(mibei77.com 米贝节点分享) 12
-  - US美国(mibei77.com 米贝节点分享) 13
-  - US美国(mibei77.com 米贝节点分享) 14
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎥 NETFLIX
@@ -175,12 +114,6 @@ proxy-groups:
   - US美国(mibei77.com 米贝节点分享) 6
   - US美国(mibei77.com 米贝节点分享) 7
   - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
-  - US美国(mibei77.com 米贝节点分享) 10
-  - US美国(mibei77.com 米贝节点分享) 11
-  - US美国(mibei77.com 米贝节点分享) 12
-  - US美国(mibei77.com 米贝节点分享) 13
-  - US美国(mibei77.com 米贝节点分享) 14
   type: select
 - name: ⛔️ 广告拦截
   proxies:
@@ -207,12 +140,6 @@ proxy-groups:
   - US美国(mibei77.com 米贝节点分享) 6
   - US美国(mibei77.com 米贝节点分享) 7
   - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
-  - US美国(mibei77.com 米贝节点分享) 10
-  - US美国(mibei77.com 米贝节点分享) 11
-  - US美国(mibei77.com 米贝节点分享) 12
-  - US美国(mibei77.com 米贝节点分享) 13
-  - US美国(mibei77.com 米贝节点分享) 14
   type: select
 - name: 🌏 国内媒体
   proxies:
@@ -231,12 +158,6 @@ proxy-groups:
   - US美国(mibei77.com 米贝节点分享) 6
   - US美国(mibei77.com 米贝节点分享) 7
   - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
-  - US美国(mibei77.com 米贝节点分享) 10
-  - US美国(mibei77.com 米贝节点分享) 11
-  - US美国(mibei77.com 米贝节点分享) 12
-  - US美国(mibei77.com 米贝节点分享) 13
-  - US美国(mibei77.com 米贝节点分享) 14
   type: select
 - name: 📲 电报信息
   proxies:
@@ -250,12 +171,6 @@ proxy-groups:
   - US美国(mibei77.com 米贝节点分享) 6
   - US美国(mibei77.com 米贝节点分享) 7
   - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
-  - US美国(mibei77.com 米贝节点分享) 10
-  - US美国(mibei77.com 米贝节点分享) 11
-  - US美国(mibei77.com 米贝节点分享) 12
-  - US美国(mibei77.com 米贝节点分享) 13
-  - US美国(mibei77.com 米贝节点分享) 14
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -270,12 +185,6 @@ proxy-groups:
   - US美国(mibei77.com 米贝节点分享) 6
   - US美国(mibei77.com 米贝节点分享) 7
   - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
-  - US美国(mibei77.com 米贝节点分享) 10
-  - US美国(mibei77.com 米贝节点分享) 11
-  - US美国(mibei77.com 米贝节点分享) 12
-  - US美国(mibei77.com 米贝节点分享) 13
-  - US美国(mibei77.com 米贝节点分享) 14
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -299,12 +208,6 @@ proxy-groups:
   - US美国(mibei77.com 米贝节点分享) 6
   - US美国(mibei77.com 米贝节点分享) 7
   - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
-  - US美国(mibei77.com 米贝节点分享) 10
-  - US美国(mibei77.com 米贝节点分享) 11
-  - US美国(mibei77.com 米贝节点分享) 12
-  - US美国(mibei77.com 米贝节点分享) 13
-  - US美国(mibei77.com 米贝节点分享) 14
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
