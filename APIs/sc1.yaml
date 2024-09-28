@@ -18,20 +18,6 @@ proxies:
   server: hk1.mhw7e2.online
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: HK香港(mibei77.com 米贝节点分享) 3
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20024
-  server: sg1.mhw7e2.online
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: HK香港(mibei77.com 米贝节点分享) 4
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20015
-  server: hk5.mhw7e2.online
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
   name: US美国(mibei77.com 米贝节点分享)
@@ -46,6 +32,13 @@ proxies:
   ws-headers:
     Host: ip1.1789034.xyz
   ws-path: github.com/Alvin9999
+- cipher: chacha20-ietf-poly1305
+  name: HK香港(mibei77.com 米贝节点分享) 3
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20024
+  server: sg1.mhw7e2.online
+  type: ss
+  udp: true
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
@@ -53,18 +46,16 @@ proxy-groups:
   - 🎯 全球直连
   - HK香港(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享) 2
-  - HK香港(mibei77.com 米贝节点分享) 3
-  - HK香港(mibei77.com 米贝节点分享) 4
   - US美国(mibei77.com 米贝节点分享)
+  - HK香港(mibei77.com 米贝节点分享) 3
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - HK香港(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享) 2
-  - HK香港(mibei77.com 米贝节点分享) 3
-  - HK香港(mibei77.com 米贝节点分享) 4
   - US美国(mibei77.com 米贝节点分享)
+  - HK香港(mibei77.com 米贝节点分享) 3
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎥 NETFLIX
@@ -74,9 +65,8 @@ proxy-groups:
   - 🎯 全球直连
   - HK香港(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享) 2
-  - HK香港(mibei77.com 米贝节点分享) 3
-  - HK香港(mibei77.com 米贝节点分享) 4
   - US美国(mibei77.com 米贝节点分享)
+  - HK香港(mibei77.com 米贝节点分享) 3
   type: select
 - name: ⛔️ 广告拦截
   proxies:
@@ -97,9 +87,8 @@ proxy-groups:
   - 🎯 全球直连
   - HK香港(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享) 2
-  - HK香港(mibei77.com 米贝节点分享) 3
-  - HK香港(mibei77.com 米贝节点分享) 4
   - US美国(mibei77.com 米贝节点分享)
+  - HK香港(mibei77.com 米贝节点分享) 3
   type: select
 - name: 🌏 国内媒体
   proxies:
@@ -107,7 +96,6 @@ proxy-groups:
   - HK香港(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享) 2
   - HK香港(mibei77.com 米贝节点分享) 3
-  - HK香港(mibei77.com 米贝节点分享) 4
   - 🔰 节点选择
   type: select
 - name: Ⓜ️ 微软服务
@@ -116,9 +104,8 @@ proxy-groups:
   - 🔰 节点选择
   - HK香港(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享) 2
-  - HK香港(mibei77.com 米贝节点分享) 3
-  - HK香港(mibei77.com 米贝节点分享) 4
   - US美国(mibei77.com 米贝节点分享)
+  - HK香港(mibei77.com 米贝节点分享) 3
   type: select
 - name: 📲 电报信息
   proxies:
@@ -126,9 +113,8 @@ proxy-groups:
   - 🎯 全球直连
   - HK香港(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享) 2
-  - HK香港(mibei77.com 米贝节点分享) 3
-  - HK香港(mibei77.com 米贝节点分享) 4
   - US美国(mibei77.com 米贝节点分享)
+  - HK香港(mibei77.com 米贝节点分享) 3
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -137,9 +123,8 @@ proxy-groups:
   - ♻️ 自动选择
   - HK香港(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享) 2
-  - HK香港(mibei77.com 米贝节点分享) 3
-  - HK香港(mibei77.com 米贝节点分享) 4
   - US美国(mibei77.com 米贝节点分享)
+  - HK香港(mibei77.com 米贝节点分享) 3
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -157,9 +142,8 @@ proxy-groups:
   - ♻️ 自动选择
   - HK香港(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享) 2
-  - HK香港(mibei77.com 米贝节点分享) 3
-  - HK香港(mibei77.com 米贝节点分享) 4
   - US美国(mibei77.com 米贝节点分享)
+  - HK香港(mibei77.com 米贝节点分享) 3
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
