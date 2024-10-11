@@ -33,59 +33,241 @@ mode: rule
 proxies:
 - cipher: aes-256-gcm
   name: 🇺🇸_US_美国
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 38.68.134.9
+  password: e4FCWrgpkji3QY
+  port: 9101
+  server: 142.202.49.122
   type: ss
-- alpn:
-  - http/1.1
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪_DE_德国
+  password: gDFRe52uiIvVaxqPlqw439
+  port: 8080
+  server: 45.87.175.181
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_1
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 142.202.49.84
+  type: ss
+- cipher: aes-256-gcm
   name: 🇺🇸_US_美国_2
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.156.90.44
-  sni: trojan.burgerip.co.uk
-  type: trojan
-- alpn:
-  - http/1.1
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 38.75.137.42
+  type: ss
+- cipher: aes-256-gcm
   name: 🇺🇸_US_美国_3
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 18.170.144.229
-  sni: trojan.burgerip.co.uk
-  type: trojan
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 169.197.142.216
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_4
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 38.75.137.42
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 🇳🇱_NL_荷兰
   password: d3837224ed465f00
   port: 57456
-  server: 45.144.48.63
+  server: war.ssvpnapp.win
   type: ss
 - cipher: aes-256-gcm
   name: 🇺🇸_US_美国_5
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 38.68.134.9
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 38.75.137.42
   type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_6
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 38.75.137.42
+  type: ss
+- name: 🇺🇸_US_美国_7
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 16.16.72.199
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_8
+  password: g5MeD6Ft3CWlJId
+  port: 5003
+  server: 142.202.49.84
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_9
+  password: cdBIDV42DCwnfIN
+  port: 8118
+  server: 142.202.49.122
+  type: ss
+- alterId: 64
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国
+  network: tcp
+  port: 43526
+  server: 120.232.153.40
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_10
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 38.75.137.42
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_11
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 142.202.49.84
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇬🇧_GB_英国->🇺🇸_US_美国
+  password: shadowsocks
+  port: 443
+  server: 212.102.53.195
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_12
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 69.50.95.53
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪_DE_德国_1
+  password: gDFRe52uiIvVaxqPlqw439
+  port: 8080
+  server: 45.87.175.188
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_13
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 169.197.142.216
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_14
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 142.202.49.122
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_15
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 142.202.49.84
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_16
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 142.202.49.122
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_17
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 142.202.49.84
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_18
+  password: KixLvKzwjekG00rm
+  port: 5500
+  server: 142.202.49.122
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪_DE_德国_2
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: beesyar.org
+  type: ss
+- name: 未知
+  password: '3672449442956713984'
+  port: 443
+  server: present-blowfish.sunbeam921.monster
+  skip-cert-verify: false
+  sni: present-blowfish.sunbeam921.monster
+  type: trojan
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_19
+  password: RexnBgU7EV5ADxG
+  port: 7002
+  server: 38.75.137.42
+  type: ss
+- name: 🇺🇸_US_美国_20
+  password: telegram-id-directvpn
+  port: 22222
+  server: 52.29.69.96
+  sni: trojan.burgerip.co.uk
+  type: trojan
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
   - 🇺🇸_US_美国
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国_4
   - 🇳🇱_NL_荷兰
   - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国_9
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇬🇧_GB_英国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_12
+  - 🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_13
+  - 🇺🇸_US_美国_14
+  - 🇺🇸_US_美国_15
+  - 🇺🇸_US_美国_16
+  - 🇺🇸_US_美国_17
+  - 🇺🇸_US_美国_18
+  - 🇩🇪_DE_德国_2
+  - 未知
+  - 🇺🇸_US_美国_19
+  - 🇺🇸_US_美国_20
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 🇺🇸_US_美国
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国_4
   - 🇳🇱_NL_荷兰
   - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国_9
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇬🇧_GB_英国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_12
+  - 🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_13
+  - 🇺🇸_US_美国_14
+  - 🇺🇸_US_美国_15
+  - 🇺🇸_US_美国_16
+  - 🇺🇸_US_美国_17
+  - 🇺🇸_US_美国_18
+  - 🇩🇪_DE_德国_2
+  - 未知
+  - 🇺🇸_US_美国_19
+  - 🇺🇸_US_美国_20
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -95,40 +277,132 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 🇺🇸_US_美国
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国_4
   - 🇳🇱_NL_荷兰
   - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国_9
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇬🇧_GB_英国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_12
+  - 🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_13
+  - 🇺🇸_US_美国_14
+  - 🇺🇸_US_美国_15
+  - 🇺🇸_US_美国_16
+  - 🇺🇸_US_美国_17
+  - 🇺🇸_US_美国_18
+  - 🇩🇪_DE_德国_2
+  - 未知
+  - 🇺🇸_US_美国_19
+  - 🇺🇸_US_美国_20
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🇺🇸_US_美国
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国_4
   - 🇳🇱_NL_荷兰
   - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国_9
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇬🇧_GB_英国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_12
+  - 🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_13
+  - 🇺🇸_US_美国_14
+  - 🇺🇸_US_美国_15
+  - 🇺🇸_US_美国_16
+  - 🇺🇸_US_美国_17
+  - 🇺🇸_US_美国_18
+  - 🇩🇪_DE_德国_2
+  - 未知
+  - 🇺🇸_US_美国_19
+  - 🇺🇸_US_美国_20
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
   - 🇺🇸_US_美国
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国_4
   - 🇳🇱_NL_荷兰
   - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国_9
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇬🇧_GB_英国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_12
+  - 🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_13
+  - 🇺🇸_US_美国_14
+  - 🇺🇸_US_美国_15
+  - 🇺🇸_US_美国_16
+  - 🇺🇸_US_美国_17
+  - 🇺🇸_US_美国_18
+  - 🇩🇪_DE_德国_2
+  - 未知
+  - 🇺🇸_US_美国_19
+  - 🇺🇸_US_美国_20
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - 🇺🇸_US_美国
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国_4
   - 🇳🇱_NL_荷兰
   - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国_9
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇬🇧_GB_英国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_12
+  - 🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_13
+  - 🇺🇸_US_美国_14
+  - 🇺🇸_US_美国_15
+  - 🇺🇸_US_美国_16
+  - 🇺🇸_US_美国_17
+  - 🇺🇸_US_美国_18
+  - 🇩🇪_DE_德国_2
+  - 未知
+  - 🇺🇸_US_美国_19
+  - 🇺🇸_US_美国_20
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -152,10 +426,33 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - 🇺🇸_US_美国
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_1
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国_4
   - 🇳🇱_NL_荷兰
   - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇺🇸_US_美国_9
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇬🇧_GB_英国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_12
+  - 🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_13
+  - 🇺🇸_US_美国_14
+  - 🇺🇸_US_美国_15
+  - 🇺🇸_US_美国_16
+  - 🇺🇸_US_美国_17
+  - 🇺🇸_US_美国_18
+  - 🇩🇪_DE_德国_2
+  - 未知
+  - 🇺🇸_US_美国_19
+  - 🇺🇸_US_美国_20
   type: select
 rule-providers:
   Apple:
