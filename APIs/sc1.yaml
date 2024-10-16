@@ -7,21 +7,63 @@ proxies:
 - name: US美国(mibei77.com 米贝节点分享)
   password: NISHIKUITAN222
   port: 443
-  server: 34.22.142.117
+  server: 34.147.231.33
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP日本(mibei77.com 米贝节点分享)
+  password: NISHIKUITAN222
+  port: 443
+  server: 140.238.33.161
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: US美国(mibei77.com 米贝节点分享) 2
   password: NISHIKUITAN222
   port: 443
-  server: 144.24.200.164
+  server: 152.70.71.23
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: US美国(mibei77.com 米贝节点分享) 3
   password: NISHIKUITAN222
   port: 443
-  server: 140.238.88.47
+  server: 34.147.231.33
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB英国(mibei77.com 米贝节点分享)
+  password: NISHIKUITAN222
+  port: 443
+  server: 144.24.200.164
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 4
+  password: NISHIKUITAN222
+  port: 443
+  server: 34.175.202.195
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: US美国(mibei77.com 米贝节点分享) 5
+  password: NISHIKUITAN222
+  port: 443
+  server: 144.24.200.164
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: JP日本(mibei77.com 米贝节点分享) 2
+  password: NISHIKUITAN222
+  port: 443
+  server: 34.91.136.173
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: GB英国(mibei77.com 米贝节点分享) 2
+  password: NISHIKUITAN222
+  port: 443
+  server: 144.24.83.39
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -31,15 +73,27 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - US美国(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享) 2
   - US美国(mibei77.com 米贝节点分享) 3
+  - GB英国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 4
+  - US美国(mibei77.com 米贝节点分享) 5
+  - JP日本(mibei77.com 米贝节点分享) 2
+  - GB英国(mibei77.com 米贝节点分享) 2
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - US美国(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享) 2
   - US美国(mibei77.com 米贝节点分享) 3
+  - GB英国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 4
+  - US美国(mibei77.com 米贝节点分享) 5
+  - JP日本(mibei77.com 米贝节点分享) 2
+  - GB英国(mibei77.com 米贝节点分享) 2
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎥 NETFLIX
@@ -48,8 +102,14 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - US美国(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享) 2
   - US美国(mibei77.com 米贝节点分享) 3
+  - GB英国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 4
+  - US美国(mibei77.com 米贝节点分享) 5
+  - JP日本(mibei77.com 米贝节点分享) 2
+  - GB英国(mibei77.com 米贝节点分享) 2
   type: select
 - name: ⛔️ 广告拦截
   proxies:
@@ -69,8 +129,14 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - US美国(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享) 2
   - US美国(mibei77.com 米贝节点分享) 3
+  - GB英国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 4
+  - US美国(mibei77.com 米贝节点分享) 5
+  - JP日本(mibei77.com 米贝节点分享) 2
+  - GB英国(mibei77.com 米贝节点分享) 2
   type: select
 - name: 🌏 国内媒体
   proxies:
@@ -82,16 +148,28 @@ proxy-groups:
   - 🎯 全球直连
   - 🔰 节点选择
   - US美国(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享) 2
   - US美国(mibei77.com 米贝节点分享) 3
+  - GB英国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 4
+  - US美国(mibei77.com 米贝节点分享) 5
+  - JP日本(mibei77.com 米贝节点分享) 2
+  - GB英国(mibei77.com 米贝节点分享) 2
   type: select
 - name: 📲 电报信息
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
   - US美国(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享) 2
   - US美国(mibei77.com 米贝节点分享) 3
+  - GB英国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 4
+  - US美国(mibei77.com 米贝节点分享) 5
+  - JP日本(mibei77.com 米贝节点分享) 2
+  - GB英国(mibei77.com 米贝节点分享) 2
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -99,8 +177,14 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - US美国(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享) 2
   - US美国(mibei77.com 米贝节点分享) 3
+  - GB英国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 4
+  - US美国(mibei77.com 米贝节点分享) 5
+  - JP日本(mibei77.com 米贝节点分享) 2
+  - GB英国(mibei77.com 米贝节点分享) 2
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -117,8 +201,14 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - US美国(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享) 2
   - US美国(mibei77.com 米贝节点分享) 3
+  - GB英国(mibei77.com 米贝节点分享)
+  - US美国(mibei77.com 米贝节点分享) 4
+  - US美国(mibei77.com 米贝节点分享) 5
+  - JP日本(mibei77.com 米贝节点分享) 2
+  - GB英国(mibei77.com 米贝节点分享) 2
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
