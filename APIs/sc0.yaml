@@ -31,42 +31,6 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
-- cipher: aes-128-gcm
-  name: 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.198
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇹🇷_TR_土耳其
-  password: xeQxB7sMGptfFct2qk2ESLeCNLLhRRwXrkNZXCdLFYvYwPQD
-  port: 51348
-  server: 5.188.36.54
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国
-  password: JN8psKoncqaqS4ul
-  port: 22064
-  server: 221.181.185.71
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_2
-  password: Y6R9pAtvxxzmGC
-  port: 8888
-  server: 69.50.93.113
-  type: ss
-- name: 🇺🇸_US_美国_3
-  network: ws
-  password: 4732adfa16c6450bbef87264e41332db
-  port: 443
-  server: 104.17.215.18
-  sni: jobscareerforstudent.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: jobscareerforstudent.com
-    path: /6b777a91
 - cipher: aes-256-cfb
   name: 🇨🇳_CN_中国->🇩🇪_DE_德国
   password: bbO8KazkNBUGb7HP
@@ -74,74 +38,80 @@ proxies:
   server: 221.181.185.71
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_6
+  name: 🇺🇸_US_美国_2
   password: cdBIDV42DCwnfIN
   port: 8118
-  server: 23.166.88.221
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国->🇨🇳_CN_中国
-  password: amazonskr05
-  port: 443
-  server: 3.113.6.44
+  server: 69.50.92.110
   type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_9
+  name: 🇺🇸_US_美国_3
+  password: Y6R9pAtvxxzmGC
+  port: 9090
+  server: 69.50.95.218
+  type: ss
+- cipher: aes-256-gcm
+  name: 🇺🇸_US_美国_5
   password: RexnBgU7EV5ADxG
   port: 7002
   server: 23.150.248.122
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸_US_美国_6
+  password: 5cp9Z3iWnJZ2
+  port: 443
+  server: 205.134.180.150
+  type: ss
 - cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_10
+  name: 🇺🇸_US_美国_7
   password: faBAoD54k87UJG7
   port: 2376
   server: 139.64.165.230
   type: ss
 - cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_11
+  name: 🇺🇸_US_美国_8
   password: amazonskr05
   port: 443
-  server: 35.87.156.159
+  server: 52.43.33.6
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸_US_美国_12
-  password: 5cp9Z3iWnJZ2
+- name: 🇺🇸_US_美国_10
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.71.242.90
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- cipher: aes-128-gcm
+  name: 🇬🇧_GB_英国
+  password: shadowsocks
   port: 443
-  server: 205.134.180.150
+  server: 212.102.53.198
   type: ss
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-  - 🇹🇷_TR_土耳其
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇨🇳_CN_中国->🇩🇪_DE_德国
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国
+  - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国->🇨🇳_CN_中国
-  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
   - 🇺🇸_US_美国_10
-  - 🇺🇸_US_美国_11
-  - 🇺🇸_US_美国_12
+  - 🇬🇧_GB_英国
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-  - 🇹🇷_TR_土耳其
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇨🇳_CN_中国->🇩🇪_DE_德国
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国
+  - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国->🇨🇳_CN_中国
-  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
   - 🇺🇸_US_美国_10
-  - 🇺🇸_US_美国_11
-  - 🇺🇸_US_美国_12
+  - 🇬🇧_GB_英国
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -150,69 +120,57 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-  - 🇹🇷_TR_土耳其
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇨🇳_CN_中国->🇩🇪_DE_德国
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国
+  - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国->🇨🇳_CN_中国
-  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
   - 🇺🇸_US_美国_10
-  - 🇺🇸_US_美国_11
-  - 🇺🇸_US_美国_12
+  - 🇬🇧_GB_英国
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-  - 🇹🇷_TR_土耳其
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇨🇳_CN_中国->🇩🇪_DE_德国
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国
+  - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国->🇨🇳_CN_中国
-  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
   - 🇺🇸_US_美国_10
-  - 🇺🇸_US_美国_11
-  - 🇺🇸_US_美国_12
+  - 🇬🇧_GB_英国
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-  - 🇹🇷_TR_土耳其
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇨🇳_CN_中国->🇩🇪_DE_德国
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国
+  - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国->🇨🇳_CN_中国
-  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
   - 🇺🇸_US_美国_10
-  - 🇺🇸_US_美国_11
-  - 🇺🇸_US_美国_12
+  - 🇬🇧_GB_英国
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-  - 🇹🇷_TR_土耳其
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇨🇳_CN_中国->🇩🇪_DE_德国
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国
+  - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国->🇨🇳_CN_中国
-  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
   - 🇺🇸_US_美国_10
-  - 🇺🇸_US_美国_11
-  - 🇺🇸_US_美国_12
+  - 🇬🇧_GB_英国
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -235,18 +193,15 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-  - 🇹🇷_TR_土耳其
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇨🇳_CN_中国->🇩🇪_DE_德国
   - 🇺🇸_US_美国_2
   - 🇺🇸_US_美国_3
-  - 🇨🇳_CN_中国->🇩🇪_DE_德国
+  - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国->🇨🇳_CN_中国
-  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
   - 🇺🇸_US_美国_10
-  - 🇺🇸_US_美国_11
-  - 🇺🇸_US_美国_12
+  - 🇬🇧_GB_英国
   type: select
 rule-providers:
   Apple:
