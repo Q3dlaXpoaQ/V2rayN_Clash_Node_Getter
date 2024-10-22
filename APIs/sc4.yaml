@@ -22,41 +22,17 @@ proxies:
   server: 127.0.0.1
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点
-  network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇮🇳 印度 v2rayfree.eu.org
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  ws-opts:
-    headers:
-      Host: irsoft.sytes.net
-    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 🇩🇪 德国下萨克森州萨尔茨吉特+德国电信
+  name: 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 20003
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3 2
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 26667
   server: service.ouluyun9803.com
@@ -65,38 +41,46 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇮🇳 印度 v2rayfree.eu.org 2
+  name: 🇺🇸 美国 CloudFlare节点
   network: ws
-  port: 443
-  server: 202.78.162.5
+  port: 8880
+  server: 104.21.82.183
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
   ws-opts:
     headers:
-      Host: pendar.onthewifi.com
+      Host: server26.beheshtbaneh.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇷🇺 俄罗斯+v2rayfree.eu.org
+  password: 36ZCHeabUSfKjfQEvJ4HDV
+  port: 54170
+  server: 185.242.86.156
+  tfo: false
+  type: ss
 proxy-groups:
 - name: 🔰 节点选择
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 🇬🇧 高性价比机场:https://kfyun.uk
+  - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3
+  - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3 2
   - 🇺🇸 美国 CloudFlare节点
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇩🇪 德国下萨克森州萨尔茨吉特+德国电信
-  - 🇮🇳 印度 v2rayfree.eu.org 2
+  - 🇷🇺 俄罗斯+v2rayfree.eu.org
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 🇬🇧 高性价比机场:https://kfyun.uk
+  - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3
+  - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3 2
   - 🇺🇸 美国 CloudFlare节点
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇩🇪 德国下萨克森州萨尔茨吉特+德国电信
-  - 🇮🇳 印度 v2rayfree.eu.org 2
+  - 🇷🇺 俄罗斯+v2rayfree.eu.org
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🌍 国外媒体
@@ -105,10 +89,10 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 🇬🇧 高性价比机场:https://kfyun.uk
+  - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3
+  - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3 2
   - 🇺🇸 美国 CloudFlare节点
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇩🇪 德国下萨克森州萨尔茨吉特+德国电信
-  - 🇮🇳 印度 v2rayfree.eu.org 2
+  - 🇷🇺 俄罗斯+v2rayfree.eu.org
   type: select
 - name: 🌏 国内媒体
   proxies:
@@ -120,20 +104,20 @@ proxy-groups:
   - 🎯 全球直连
   - 🔰 节点选择
   - 🇬🇧 高性价比机场:https://kfyun.uk
+  - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3
+  - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3 2
   - 🇺🇸 美国 CloudFlare节点
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇩🇪 德国下萨克森州萨尔茨吉特+德国电信
-  - 🇮🇳 印度 v2rayfree.eu.org 2
+  - 🇷🇺 俄罗斯+v2rayfree.eu.org
   type: select
 - name: 📲 电报信息
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
   - 🇬🇧 高性价比机场:https://kfyun.uk
+  - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3
+  - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3 2
   - 🇺🇸 美国 CloudFlare节点
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇩🇪 德国下萨克森州萨尔茨吉特+德国电信
-  - 🇮🇳 印度 v2rayfree.eu.org 2
+  - 🇷🇺 俄罗斯+v2rayfree.eu.org
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -141,10 +125,10 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - 🇬🇧 高性价比机场:https://kfyun.uk
+  - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3
+  - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3 2
   - 🇺🇸 美国 CloudFlare节点
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇩🇪 德国下萨克森州萨尔茨吉特+德国电信
-  - 🇮🇳 印度 v2rayfree.eu.org 2
+  - 🇷🇺 俄罗斯+v2rayfree.eu.org
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -161,10 +145,10 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - 🇬🇧 高性价比机场:https://kfyun.uk
+  - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3
+  - 🇺🇸 美国科罗拉多州布隆菲尔德市+Level3 2
   - 🇺🇸 美国 CloudFlare节点
-  - 🇮🇳 印度 v2rayfree.eu.org
-  - 🇩🇪 德国下萨克森州萨尔茨吉特+德国电信
-  - 🇮🇳 印度 v2rayfree.eu.org 2
+  - 🇷🇺 俄罗斯+v2rayfree.eu.org
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
