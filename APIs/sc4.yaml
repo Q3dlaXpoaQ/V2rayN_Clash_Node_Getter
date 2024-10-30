@@ -22,22 +22,22 @@ proxies:
   server: 127.0.0.1
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 🇵🇱 波兰+v2rayfree.eu.org
-  password: 7BcLdsO1WweoGD0X
-  port: 40368
-  server: 193.243.147.128
+  name: 🇺🇸 美国 CloudFlare节点
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  skip-cert-verify: false
   tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 🇷🇺 俄罗斯+v2rayfree.eu.org
-  password: 36ZCHeabUSfKjfQEvJ4HDV
-  port: 54170
-  server: 185.242.86.156
-  tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -49,26 +49,34 @@ proxies:
   tfo: false
   tls: true
   type: vmess
-  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
   ws-opts:
     headers:
-      Host: pendar.onthewifi.com
+      Host: irsoft.sytes.net
     path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 🇵🇱 波兰+v2rayfree.eu.org
+  password: 7BcLdsO1WweoGD0X
+  port: 40368
+  server: 193.243.147.128
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点
+  name: 🇺🇸 美国 CloudFlare节点 2
   network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
+  port: 8080
+  server: www.darkroom.lol
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      Host: server31.beheshtbaneh.com
+      Host: www.darkroom.lol
     path: /
 proxy-groups:
 - name: 🔰 节点选择
@@ -76,19 +84,19 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 🇬🇧 高性价比机场:https://kfyun.uk
-  - 🇵🇱 波兰+v2rayfree.eu.org
-  - 🇷🇺 俄罗斯+v2rayfree.eu.org
-  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇺🇸 美国 CloudFlare节点
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇵🇱 波兰+v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 2
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 🇬🇧 高性价比机场:https://kfyun.uk
-  - 🇵🇱 波兰+v2rayfree.eu.org
-  - 🇷🇺 俄罗斯+v2rayfree.eu.org
-  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇺🇸 美国 CloudFlare节点
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇵🇱 波兰+v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 2
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🌍 国外媒体
@@ -97,10 +105,10 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 🇬🇧 高性价比机场:https://kfyun.uk
-  - 🇵🇱 波兰+v2rayfree.eu.org
-  - 🇷🇺 俄罗斯+v2rayfree.eu.org
-  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇺🇸 美国 CloudFlare节点
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇵🇱 波兰+v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 2
   type: select
 - name: 🌏 国内媒体
   proxies:
@@ -112,20 +120,20 @@ proxy-groups:
   - 🎯 全球直连
   - 🔰 节点选择
   - 🇬🇧 高性价比机场:https://kfyun.uk
-  - 🇵🇱 波兰+v2rayfree.eu.org
-  - 🇷🇺 俄罗斯+v2rayfree.eu.org
-  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇺🇸 美国 CloudFlare节点
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇵🇱 波兰+v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 2
   type: select
 - name: 📲 电报信息
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
   - 🇬🇧 高性价比机场:https://kfyun.uk
-  - 🇵🇱 波兰+v2rayfree.eu.org
-  - 🇷🇺 俄罗斯+v2rayfree.eu.org
-  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇺🇸 美国 CloudFlare节点
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇵🇱 波兰+v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 2
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -133,10 +141,10 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - 🇬🇧 高性价比机场:https://kfyun.uk
-  - 🇵🇱 波兰+v2rayfree.eu.org
-  - 🇷🇺 俄罗斯+v2rayfree.eu.org
-  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇺🇸 美国 CloudFlare节点
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇵🇱 波兰+v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 2
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -153,10 +161,10 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - 🇬🇧 高性价比机场:https://kfyun.uk
-  - 🇵🇱 波兰+v2rayfree.eu.org
-  - 🇷🇺 俄罗斯+v2rayfree.eu.org
-  - 🇮🇳 印度 v2rayfree.eu.org
   - 🇺🇸 美国 CloudFlare节点
+  - 🇮🇳 印度 v2rayfree.eu.org
+  - 🇵🇱 波兰+v2rayfree.eu.org
+  - 🇺🇸 美国 CloudFlare节点 2
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
