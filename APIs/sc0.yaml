@@ -31,87 +31,23 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 38.75.136.117
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_1
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 38.110.1.102
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_4
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 38.110.1.51
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_5
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 69.50.92.99
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_6
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 38.110.1.51
-  type: ss
 - cipher: aes-128-gcm
   name: 🇬🇧_GB_英国
   password: shadowsocks
   port: 443
   server: 141.98.101.179
   type: ss
-- cipher: rc4-md5
-  name: 🇨🇳_CN_中国
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 107.155.57.51
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_7
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 38.75.136.117
-  type: ss
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国_8
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 38.68.134.202
-  type: ss
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇺🇸_US_美国
-  - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
   - 🇬🇧_GB_英国
-  - 🇨🇳_CN_中国
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇺🇸_US_美国
-  - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
   - 🇬🇧_GB_英国
-  - 🇨🇳_CN_中国
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -120,57 +56,25 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇺🇸_US_美国
-  - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
   - 🇬🇧_GB_英国
-  - 🇨🇳_CN_中国
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸_US_美国
-  - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
   - 🇬🇧_GB_英国
-  - 🇨🇳_CN_中国
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇺🇸_US_美国
-  - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
   - 🇬🇧_GB_英国
-  - 🇨🇳_CN_中国
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸_US_美国
-  - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
   - 🇬🇧_GB_英国
-  - 🇨🇳_CN_中国
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -193,15 +97,7 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇺🇸_US_美国
-  - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_4
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
   - 🇬🇧_GB_英国
-  - 🇨🇳_CN_中国
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
   type: select
 rule-providers:
   Apple:
