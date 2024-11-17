@@ -24,104 +24,166 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
+  name: 0|--2
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.178
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
   name: 0|--3
-  password: 5cp9Z3iWnJZ2
-  port: 443
-  server: 205.134.180.150
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.192
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 0|--4
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.192
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 0|--6
-  password: gNz73UbALLdO4RKGc99Gul
-  port: 15584
-  server: 213.108.23.243
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.192
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 0|--7
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  port: 2377
+  server: 23.247.137.165
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 0|--8
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.188
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 0|--9
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.178
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 0|--10
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.188
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 0|--11
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.188
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 0|--20
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 169.197.141.84
+  name: 0|--12
+  password: g5MeD6Ft3CWlJId
+  port: 5004
+  server: 142.202.48.105
   tfo: false
   type: ss
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 0|--21
-  password: amazonskr05
-  port: 443
-  server: 54.187.244.22
+  name: 0|--13
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.181
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 0|--14
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.181
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|--46
+  name: 0|--30
+  network: ws
+  port: 2095
+  server: 172.64.166.22
+  servername: ip20.6016725.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 1
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|--37
   network: ws
   port: 443
-  server: 216.24.57.171
-  servername: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
+  server: 172.105.172.209
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
-    path: /obdii.cfd:443/linkws
+      Host: 172.105.172.209
+    path: /linkvws
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|--47
+  name: 0|--39
   network: ws
-  port: 443
-  server: 194.76.18.113
-  servername: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
+  port: 2095
+  server: s2.db-link02.top
   skip-cert-verify: false
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  uuid: 1aea9bb2-de26-313c-b35c-8295e620c95b
   ws-opts:
     headers:
-      Host: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
-    path: /obdii.cfd:443/linkws
+      Host: 100-111-231-156.s2.db-link02.top
+    path: /dabai.in172.67.37.120
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|--48
-  network: ws
-  port: 17443
-  server: 211.248.216.119
-  servername: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
-    path: /obdii.cfd:443/linkws
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--50
+  name: 0|--45
   network: ws
   port: 443
-  server: 192.0.54.172
-  servername: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
+  server: 57.129.28.69
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: 2022585a-86a7-4231-b3a0-eeda14f77f4d.8f18237c-8e5f-4ffb-a434-1b2948c87be3.ddnsfree.com
-    path: /obdii.cfd:443/linkws
+      Host: baradiha.com
+    path: /linkvws
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -193,9 +255,9 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 🇭🇰 13|🇭🇰 香港|@ripaojiedian
-  password: HBBC2STZ150IG831
-  port: 15012
-  server: 120.241.45.50
+  password: QMOLGIKYZW15TD56
+  port: 15010
+  server: 58.63.250.61
   tfo: false
   type: ss
 - alterId: 64
@@ -212,30 +274,30 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 🇭🇰 13|🇭🇰 香港3|@ripaojiedian
-  password: C98R0J6MIG26GH4X
-  port: 15016
-  server: 120.241.45.50
+  password: c61155b9-8a96-4190-9dfc-5a9d70b6f3d5
+  port: 30474
+  server: ll-hg.mtls.xyz
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 🇭🇰 13|🇭🇰 香港4|@ripaojiedian
-  password: 87c6d447-b620-4c25-8386-e7f14b6de499
-  port: 11001
-  server: 183.240.255.75
+  password: 1S4F61F85M49UAJP
+  port: 15003
+  server: 58.63.250.61
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
-  port: 28724
-  server: 103.224.80.27
+  port: 53385
+  server: e00618c75712.uxzbpycs.xyz
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 45f7362a-79fd-444f-98b6-e62d7371ca91
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -248,51 +310,29 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - client-fingerprint: chrome
-  name: 🇹🇼 13,14|台湾|@ripaojiedian
-  password: c4da094b-3487-4607-b703-bc380ea3f461
-  port: 27201
-  server: aafrtpfxr.twl01i9zjfegelp.5xfsur8v62.gosdk.xyz
+  name: 🇭🇰 13,14|香港7|@ripaojiedian
+  password: 26e159d2-ec3a-4005-97c7-eb480bab096d
+  port: 27101
+  server: aafrtpfxr.hkl01i9zjfegelp.5xfsur8v62.gosdk.xyz
   skip-cert-verify: false
   sni: q08m.vgraxiw73s.hasyaf.cn
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 🇯🇵 13|🇯🇵 日本|@ripaojiedian
-  password: bb8b73a1-1b44-4e41-b032-f28e180a3827
-  port: 11001
-  server: 61.172.235.22
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-  port: 30178
-  server: 45.159.51.88
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a0dfa194-ce47-409f-b551-ff520181bfab
 - client-fingerprint: chrome
-  name: 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
-  password: AlXRB8wqec3pCYZgSNADxROFSEa0Saz3Z6O7u3FjIlDT4eDYxp89aCy35KC2yn
+  name: 🇯🇵 13,14|日本|@ripaojiedian
+  password: 8zlR8O7E3S8uqex4xYnpp8O6C3lZejBCZO53eYD7XIAaaTBRC3Cj9SCFxlAwKAwD2yyN3
   port: 443
-  server: nagoya.meijireform.com
+  server: 54.249.161.173
   skip-cert-verify: false
-  sni: nagoya.meijireform.com
+  sni: sniffle.meijireform.com
   type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
-  port: 35448
-  server: 45.94.68.144
+- client-fingerprint: chrome
+  name: 🇯🇵 13,14|日本2|@ripaojiedian
+  password: 7c58bf11-9175-46d1-accf-e1883bf0d5f8
+  port: 28721
+  server: svip.88de.hongxingdl.vip
   skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 37a9e3d4-08b2-4a54-92ad-e9dce926657d
+  sni: mmbiz1.redapricotcloud.com
+  type: trojan
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -320,7 +360,7 @@ proxies:
   name: 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.201.72.28
+  server: 43.201.29.47
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -328,7 +368,7 @@ proxies:
   name: 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.38.209.2
+  server: 52.79.157.153
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -336,15 +376,15 @@ proxies:
   name: 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.206.239.200
+  server: 35.88.136.187
   tfo: false
   type: ss
 - cipher: ss
   client-fingerprint: chrome
   name: 🇭🇰 14|香港|@ripaojiedian
-  password: //YWVzLTI1Ni1nY206SEJCQzJTVFoxNTBJRzgzMQ
-  port: 15012
-  server: 120.241.45.50
+  password: //YWVzLTI1Ni1nY206UU1PTEdJS1laVzE1VEQ1Ng
+  port: 15010
+  server: 58.63.250.61
   tfo: false
   type: ss
 - alterId: 64
@@ -361,30 +401,30 @@ proxies:
 - cipher: ss
   client-fingerprint: chrome
   name: 🇭🇰 14|香港3|@ripaojiedian
-  password: //YWVzLTI1Ni1nY206Qzk4UjBKNk1JRzI2R0g0WA
-  port: 15016
-  server: 120.241.45.50
+  password: //YWVzLTI1Ni1nY206YzYxMTU1YjktOGE5Ni00MTkwLTlkZmMtNWE5ZDcwYjZmM2Q1
+  port: 30474
+  server: ll-hg.mtls.xyz
   tfo: false
   type: ss
 - cipher: ss
   client-fingerprint: chrome
   name: 🇭🇰 14|香港4|@ripaojiedian
-  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo4N2M2ZDQ0Ny1iNjIwLTRjMjUtODM4Ni1lN2YxNGI2ZGU0OTk
-  port: 11001
-  server: 183.240.255.75
+  password: //YWVzLTI1Ni1nY206MVM0RjYxRjg1TTQ5VUFKUA
+  port: 15003
+  server: 58.63.250.61
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 🇭🇰 14|香港5|@ripaojiedian
-  port: 28724
-  server: 103.224.80.27
+  port: 53385
+  server: e00618c75712.uxzbpycs.xyz
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 45f7362a-79fd-444f-98b6-e62d7371ca91
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -396,44 +436,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: ss
-  client-fingerprint: chrome
-  name: 🇯🇵 14|日本|@ripaojiedian
-  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiYjhiNzNhMS0xYjQ0LTRlNDEtYjAzMi1mMjhlMTgwYTM4Mjc
-  port: 11001
-  server: 61.172.235.22
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇯🇵 14|日本2|@ripaojiedian
-  port: 30178
-  server: 45.159.51.88
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a0dfa194-ce47-409f-b551-ff520181bfab
-- client-fingerprint: chrome
-  name: 🇯🇵 14|日本3|@ripaojiedian
-  password: AlXRB8wqec3pCYZgSNADxROFSEa0Saz3Z6O7u3FjIlDT4eDYxp89aCy35KC2yn
-  port: 443
-  server: nagoya.meijireform.com
-  skip-cert-verify: false
-  sni: nagoya.meijireform.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇰🇷 14|韩国2|@ripaojiedian
-  port: 35448
-  server: 45.94.68.144
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 37a9e3d4-08b2-4a54-92ad-e9dce926657d
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -461,7 +463,7 @@ proxies:
   name: 🇰🇷 14|韩国特殊|@ripaojiedian
   password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
   port: 443
-  server: 43.201.72.28
+  server: 43.201.29.47
   tfo: false
   type: ss
 - cipher: ss
@@ -469,7 +471,7 @@ proxies:
   name: 🇯🇵 14|日本特殊|@ripaojiedian
   password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
   port: 443
-  server: 3.38.209.2
+  server: 52.79.157.153
   tfo: false
   type: ss
 - cipher: ss
@@ -477,7 +479,7 @@ proxies:
   name: 🇸🇬 14|狮城特殊|@ripaojiedian
   password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
   port: 443
-  server: 43.206.239.200
+  server: 35.88.136.187
   tfo: false
   type: ss
 - client-fingerprint: chrome
@@ -2452,14 +2454,22 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 🇬🇧 高性价比机场:https://kfyun.uk
+  - 0|--2
   - 0|--3
+  - 0|--4
   - 0|--6
-  - 0|--20
-  - 0|--21
-  - 0|--46
-  - 0|--47
-  - 0|--48
-  - 0|--50
+  - 0|--7
+  - 0|--8
+  - 0|--9
+  - 0|--10
+  - 0|--11
+  - 0|--12
+  - 0|--13
+  - 0|--14
+  - 0|--30
+  - 0|--37
+  - 0|--39
+  - 0|--45
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -2470,11 +2480,9 @@ proxy-groups:
   - 🇭🇰 13|🇭🇰 香港4|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
-  - 🇹🇼 13,14|台湾|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
-  - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  - 🇭🇰 13,14|香港7|@ripaojiedian
+  - 🇯🇵 13,14|日本|@ripaojiedian
+  - 🇯🇵 13,14|日本2|@ripaojiedian
   - 🇸🇬 13|🇸🇬 新加坡2|@ripaojiedian
   - 🇺🇸 13|🇺🇸 美国4|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
@@ -2486,10 +2494,6 @@ proxy-groups:
   - 🇭🇰 14|香港4|@ripaojiedian
   - 🇭🇰 14|香港5|@ripaojiedian
   - 🇭🇰 14|香港6|@ripaojiedian
-  - 🇯🇵 14|日本|@ripaojiedian
-  - 🇯🇵 14|日本2|@ripaojiedian
-  - 🇯🇵 14|日本3|@ripaojiedian
-  - 🇰🇷 14|韩国2|@ripaojiedian
   - 🇸🇬 14|新加坡2|@ripaojiedian
   - 🇺🇸 14|美国4|@ripaojiedian
   - 🇰🇷 14|韩国特殊|@ripaojiedian
@@ -2632,14 +2636,22 @@ proxy-groups:
   name: ♻️ 自动选择
   proxies:
   - 🇬🇧 高性价比机场:https://kfyun.uk
+  - 0|--2
   - 0|--3
+  - 0|--4
   - 0|--6
-  - 0|--20
-  - 0|--21
-  - 0|--46
-  - 0|--47
-  - 0|--48
-  - 0|--50
+  - 0|--7
+  - 0|--8
+  - 0|--9
+  - 0|--10
+  - 0|--11
+  - 0|--12
+  - 0|--13
+  - 0|--14
+  - 0|--30
+  - 0|--37
+  - 0|--39
+  - 0|--45
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -2650,11 +2662,9 @@ proxy-groups:
   - 🇭🇰 13|🇭🇰 香港4|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
-  - 🇹🇼 13,14|台湾|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
-  - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  - 🇭🇰 13,14|香港7|@ripaojiedian
+  - 🇯🇵 13,14|日本|@ripaojiedian
+  - 🇯🇵 13,14|日本2|@ripaojiedian
   - 🇸🇬 13|🇸🇬 新加坡2|@ripaojiedian
   - 🇺🇸 13|🇺🇸 美国4|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
@@ -2666,10 +2676,6 @@ proxy-groups:
   - 🇭🇰 14|香港4|@ripaojiedian
   - 🇭🇰 14|香港5|@ripaojiedian
   - 🇭🇰 14|香港6|@ripaojiedian
-  - 🇯🇵 14|日本|@ripaojiedian
-  - 🇯🇵 14|日本2|@ripaojiedian
-  - 🇯🇵 14|日本3|@ripaojiedian
-  - 🇰🇷 14|韩国2|@ripaojiedian
   - 🇸🇬 14|新加坡2|@ripaojiedian
   - 🇺🇸 14|美国4|@ripaojiedian
   - 🇰🇷 14|韩国特殊|@ripaojiedian
@@ -2815,14 +2821,22 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 🇬🇧 高性价比机场:https://kfyun.uk
+  - 0|--2
   - 0|--3
+  - 0|--4
   - 0|--6
-  - 0|--20
-  - 0|--21
-  - 0|--46
-  - 0|--47
-  - 0|--48
-  - 0|--50
+  - 0|--7
+  - 0|--8
+  - 0|--9
+  - 0|--10
+  - 0|--11
+  - 0|--12
+  - 0|--13
+  - 0|--14
+  - 0|--30
+  - 0|--37
+  - 0|--39
+  - 0|--45
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -2833,11 +2847,9 @@ proxy-groups:
   - 🇭🇰 13|🇭🇰 香港4|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
-  - 🇹🇼 13,14|台湾|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
-  - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  - 🇭🇰 13,14|香港7|@ripaojiedian
+  - 🇯🇵 13,14|日本|@ripaojiedian
+  - 🇯🇵 13,14|日本2|@ripaojiedian
   - 🇸🇬 13|🇸🇬 新加坡2|@ripaojiedian
   - 🇺🇸 13|🇺🇸 美国4|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
@@ -2849,10 +2861,6 @@ proxy-groups:
   - 🇭🇰 14|香港4|@ripaojiedian
   - 🇭🇰 14|香港5|@ripaojiedian
   - 🇭🇰 14|香港6|@ripaojiedian
-  - 🇯🇵 14|日本|@ripaojiedian
-  - 🇯🇵 14|日本2|@ripaojiedian
-  - 🇯🇵 14|日本3|@ripaojiedian
-  - 🇰🇷 14|韩国2|@ripaojiedian
   - 🇸🇬 14|新加坡2|@ripaojiedian
   - 🇺🇸 14|美国4|@ripaojiedian
   - 🇰🇷 14|韩国特殊|@ripaojiedian
@@ -3000,7 +3008,7 @@ proxy-groups:
   - 🇭🇰 13|🇭🇰 香港4|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
-  - 🇹🇼 13,14|台湾|@ripaojiedian
+  - 🇭🇰 13,14|香港7|@ripaojiedian
   - 🇭🇰 14|香港|@ripaojiedian
   - 🇭🇰 14|香港2|@ripaojiedian
   - 🇭🇰 14|香港3|@ripaojiedian
@@ -3014,14 +3022,22 @@ proxy-groups:
   - 🎯 全球直连
   - 🔰 节点选择
   - 🇬🇧 高性价比机场:https://kfyun.uk
+  - 0|--2
   - 0|--3
+  - 0|--4
   - 0|--6
-  - 0|--20
-  - 0|--21
-  - 0|--46
-  - 0|--47
-  - 0|--48
-  - 0|--50
+  - 0|--7
+  - 0|--8
+  - 0|--9
+  - 0|--10
+  - 0|--11
+  - 0|--12
+  - 0|--13
+  - 0|--14
+  - 0|--30
+  - 0|--37
+  - 0|--39
+  - 0|--45
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -3032,11 +3048,9 @@ proxy-groups:
   - 🇭🇰 13|🇭🇰 香港4|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
-  - 🇹🇼 13,14|台湾|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
-  - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  - 🇭🇰 13,14|香港7|@ripaojiedian
+  - 🇯🇵 13,14|日本|@ripaojiedian
+  - 🇯🇵 13,14|日本2|@ripaojiedian
   - 🇸🇬 13|🇸🇬 新加坡2|@ripaojiedian
   - 🇺🇸 13|🇺🇸 美国4|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
@@ -3048,10 +3062,6 @@ proxy-groups:
   - 🇭🇰 14|香港4|@ripaojiedian
   - 🇭🇰 14|香港5|@ripaojiedian
   - 🇭🇰 14|香港6|@ripaojiedian
-  - 🇯🇵 14|日本|@ripaojiedian
-  - 🇯🇵 14|日本2|@ripaojiedian
-  - 🇯🇵 14|日本3|@ripaojiedian
-  - 🇰🇷 14|韩国2|@ripaojiedian
   - 🇸🇬 14|新加坡2|@ripaojiedian
   - 🇺🇸 14|美国4|@ripaojiedian
   - 🇰🇷 14|韩国特殊|@ripaojiedian
@@ -3195,14 +3205,22 @@ proxy-groups:
   - 🔰 节点选择
   - 🎯 全球直连
   - 🇬🇧 高性价比机场:https://kfyun.uk
+  - 0|--2
   - 0|--3
+  - 0|--4
   - 0|--6
-  - 0|--20
-  - 0|--21
-  - 0|--46
-  - 0|--47
-  - 0|--48
-  - 0|--50
+  - 0|--7
+  - 0|--8
+  - 0|--9
+  - 0|--10
+  - 0|--11
+  - 0|--12
+  - 0|--13
+  - 0|--14
+  - 0|--30
+  - 0|--37
+  - 0|--39
+  - 0|--45
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -3213,11 +3231,9 @@ proxy-groups:
   - 🇭🇰 13|🇭🇰 香港4|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
-  - 🇹🇼 13,14|台湾|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
-  - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  - 🇭🇰 13,14|香港7|@ripaojiedian
+  - 🇯🇵 13,14|日本|@ripaojiedian
+  - 🇯🇵 13,14|日本2|@ripaojiedian
   - 🇸🇬 13|🇸🇬 新加坡2|@ripaojiedian
   - 🇺🇸 13|🇺🇸 美国4|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
@@ -3229,10 +3245,6 @@ proxy-groups:
   - 🇭🇰 14|香港4|@ripaojiedian
   - 🇭🇰 14|香港5|@ripaojiedian
   - 🇭🇰 14|香港6|@ripaojiedian
-  - 🇯🇵 14|日本|@ripaojiedian
-  - 🇯🇵 14|日本2|@ripaojiedian
-  - 🇯🇵 14|日本3|@ripaojiedian
-  - 🇰🇷 14|韩国2|@ripaojiedian
   - 🇸🇬 14|新加坡2|@ripaojiedian
   - 🇺🇸 14|美国4|@ripaojiedian
   - 🇰🇷 14|韩国特殊|@ripaojiedian
@@ -3377,14 +3389,22 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - 🇬🇧 高性价比机场:https://kfyun.uk
+  - 0|--2
   - 0|--3
+  - 0|--4
   - 0|--6
-  - 0|--20
-  - 0|--21
-  - 0|--46
-  - 0|--47
-  - 0|--48
-  - 0|--50
+  - 0|--7
+  - 0|--8
+  - 0|--9
+  - 0|--10
+  - 0|--11
+  - 0|--12
+  - 0|--13
+  - 0|--14
+  - 0|--30
+  - 0|--37
+  - 0|--39
+  - 0|--45
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -3395,11 +3415,9 @@ proxy-groups:
   - 🇭🇰 13|🇭🇰 香港4|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
-  - 🇹🇼 13,14|台湾|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
-  - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  - 🇭🇰 13,14|香港7|@ripaojiedian
+  - 🇯🇵 13,14|日本|@ripaojiedian
+  - 🇯🇵 13,14|日本2|@ripaojiedian
   - 🇸🇬 13|🇸🇬 新加坡2|@ripaojiedian
   - 🇺🇸 13|🇺🇸 美国4|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
@@ -3411,10 +3429,6 @@ proxy-groups:
   - 🇭🇰 14|香港4|@ripaojiedian
   - 🇭🇰 14|香港5|@ripaojiedian
   - 🇭🇰 14|香港6|@ripaojiedian
-  - 🇯🇵 14|日本|@ripaojiedian
-  - 🇯🇵 14|日本2|@ripaojiedian
-  - 🇯🇵 14|日本3|@ripaojiedian
-  - 🇰🇷 14|韩国2|@ripaojiedian
   - 🇸🇬 14|新加坡2|@ripaojiedian
   - 🇺🇸 14|美国4|@ripaojiedian
   - 🇰🇷 14|韩国特殊|@ripaojiedian
@@ -3568,14 +3582,22 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - 🇬🇧 高性价比机场:https://kfyun.uk
+  - 0|--2
   - 0|--3
+  - 0|--4
   - 0|--6
-  - 0|--20
-  - 0|--21
-  - 0|--46
-  - 0|--47
-  - 0|--48
-  - 0|--50
+  - 0|--7
+  - 0|--8
+  - 0|--9
+  - 0|--10
+  - 0|--11
+  - 0|--12
+  - 0|--13
+  - 0|--14
+  - 0|--30
+  - 0|--37
+  - 0|--39
+  - 0|--45
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -3586,11 +3608,9 @@ proxy-groups:
   - 🇭🇰 13|🇭🇰 香港4|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
-  - 🇹🇼 13,14|台湾|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-  - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
-  - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  - 🇭🇰 13,14|香港7|@ripaojiedian
+  - 🇯🇵 13,14|日本|@ripaojiedian
+  - 🇯🇵 13,14|日本2|@ripaojiedian
   - 🇸🇬 13|🇸🇬 新加坡2|@ripaojiedian
   - 🇺🇸 13|🇺🇸 美国4|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
@@ -3602,10 +3622,6 @@ proxy-groups:
   - 🇭🇰 14|香港4|@ripaojiedian
   - 🇭🇰 14|香港5|@ripaojiedian
   - 🇭🇰 14|香港6|@ripaojiedian
-  - 🇯🇵 14|日本|@ripaojiedian
-  - 🇯🇵 14|日本2|@ripaojiedian
-  - 🇯🇵 14|日本3|@ripaojiedian
-  - 🇰🇷 14|韩国2|@ripaojiedian
   - 🇸🇬 14|新加坡2|@ripaojiedian
   - 🇺🇸 14|美国4|@ripaojiedian
   - 🇰🇷 14|韩国特殊|@ripaojiedian
