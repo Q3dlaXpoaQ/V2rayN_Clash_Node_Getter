@@ -31,53 +31,17 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 🇺🇸_US_美国
-  network: ws
-  password: dTaXAtuoQF
-  port: 443
-  server: 185.143.232.200
-  sni: nginx-4561f180e2-anssdsfsdf.apps.ir-northwest1.arvancaas.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: nginx-4561f180e2-anssdsfsdf.apps.ir-northwest1.arvancaas.ir
-    path: /downloadgame
-- name: 🇺🇸_US_美国->🇩🇪_DE_德国
-  network: ws
-  password: dTaXAtuoQF
-  port: 443
-  server: 185.143.234.200
-  sni: nginx-4561f180e2-anssdsfsdf.apps.ir-northwest1.arvancaas.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: nginx-4561f180e2-anssdsfsdf.apps.ir-northwest1.arvancaas.ir
-    path: /downloadgame
 - cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_2
+  name: 🇺🇸_US_美国_1
   password: amazonskr05
   port: 443
   server: 52.33.189.33
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪_DE_德国_1
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.164
-  type: ss
-- cipher: aes-256-cfb
   name: 🇷🇺_RU_俄罗斯_1
-  password: ueLXVkvh4hckhErQ
-  port: 9060
-  server: 217.30.10.18
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪_DE_德国_2
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.154
+  password: 3MgIhqwp4pjM8SKwixNkYZ
+  port: 33068
+  server: 193.124.22.253
   type: ss
 - cipher: aes-256-cfb
   name: 🇵🇦_PA_巴拿马
@@ -85,33 +49,6 @@ proxies:
   port: 989
   server: 138.186.142.4
   type: ss
-- name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  network: ws
-  password: dTaXAtuoQF
-  port: 443
-  server: 185.143.233.200
-  sni: nginx-4561f180e2-anssdsfsdf.apps.ir-northwest1.arvancaas.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: nginx-4561f180e2-anssdsfsdf.apps.ir-northwest1.arvancaas.ir
-    path: /downloadgame
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪_DE_德国_3
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.178
-  type: ss
-- alpn:
-  - http/1.1
-  name: 🇺🇸_US_美国_4
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.76.127.3
-  sni: trojan.burgerip.co.uk
-  type: trojan
 - alterId: 64
   cipher: auto
   name: 🇨🇳_CN_中国->🇺🇸_US_美国
@@ -120,27 +57,20 @@ proxies:
   server: 183.236.48.163
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪_DE_德国
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.164
+  type: ss
 - alterId: 0
   cipher: auto
-  name: 🇮🇷_IR_伊朗
-  network: tcp
-  port: 9090
-  server: 2.182.174.21
-  sni: ''
-  type: vmess
-  uuid: fddf88ed-8c70-42ad-c12e-5f40841e6f00
-- cipher: chacha20-ietf-poly1305
   name: 🇷🇺_RU_俄罗斯_2
-  password: 3MgIhqwp4pjM8SKwixNkYZ
-  port: 33068
-  server: 193.124.22.253
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪_DE_德国->🇰🇷_KR_韩国
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: beesyar.org
-  type: ss
+  network: tcp
+  port: 8081
+  server: 194.87.31.160
+  type: vmess
+  uuid: a7e00c2f-411a-438f-9119-0f022a85a5e3
 - alterId: 64
   cipher: auto
   name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
@@ -150,74 +80,44 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪_DE_德国_4
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.171
-  type: ss
-- cipher: chacha20-ietf-poly1305
   name: 🇷🇺_RU_俄罗斯_3
   password: 2fwufOmJ9ELfN4umzcHBfV
   port: 12224
   server: 194.87.82.28
   type: ss
-- name: 🇺🇸_US_美国->🇩🇪_DE_德国_2
-  network: ws
-  password: dTaXAtuoQF
-  port: 443
-  server: 185.143.235.200
-  sni: nginx-4561f180e2-anssdsfsdf.apps.ir-northwest1.arvancaas.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: nginx-4561f180e2-anssdsfsdf.apps.ir-northwest1.arvancaas.ir
-    path: /downloadgame
+- cipher: chacha20-ietf-poly1305
+  name: 🇩🇪_DE_德国_1
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.87.175.154
+  type: ss
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇺🇸_US_美国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国
-  - 🇺🇸_US_美国_2
-  - 🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_1
   - 🇷🇺_RU_俄罗斯_1
-  - 🇩🇪_DE_德国_2
   - 🇵🇦_PA_巴拿马
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇩🇪_DE_德国_3
-  - 🇺🇸_US_美国_4
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇮🇷_IR_伊朗
+  - 🇩🇪_DE_德国
   - 🇷🇺_RU_俄罗斯_2
-  - 🇩🇪_DE_德国->🇰🇷_KR_韩国
   - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇩🇪_DE_德国_4
   - 🇷🇺_RU_俄罗斯_3
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  - 🇩🇪_DE_德国_1
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇺🇸_US_美国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国
-  - 🇺🇸_US_美国_2
-  - 🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_1
   - 🇷🇺_RU_俄罗斯_1
-  - 🇩🇪_DE_德国_2
   - 🇵🇦_PA_巴拿马
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇩🇪_DE_德国_3
-  - 🇺🇸_US_美国_4
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇮🇷_IR_伊朗
+  - 🇩🇪_DE_德国
   - 🇷🇺_RU_俄罗斯_2
-  - 🇩🇪_DE_德国->🇰🇷_KR_韩国
   - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇩🇪_DE_德国_4
   - 🇷🇺_RU_俄罗斯_3
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  - 🇩🇪_DE_德国_1
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -226,93 +126,57 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇺🇸_US_美国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国
-  - 🇺🇸_US_美国_2
-  - 🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_1
   - 🇷🇺_RU_俄罗斯_1
-  - 🇩🇪_DE_德国_2
   - 🇵🇦_PA_巴拿马
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇩🇪_DE_德国_3
-  - 🇺🇸_US_美国_4
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇮🇷_IR_伊朗
+  - 🇩🇪_DE_德国
   - 🇷🇺_RU_俄罗斯_2
-  - 🇩🇪_DE_德国->🇰🇷_KR_韩国
   - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇩🇪_DE_德国_4
   - 🇷🇺_RU_俄罗斯_3
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  - 🇩🇪_DE_德国_1
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸_US_美国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国
-  - 🇺🇸_US_美国_2
-  - 🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_1
   - 🇷🇺_RU_俄罗斯_1
-  - 🇩🇪_DE_德国_2
   - 🇵🇦_PA_巴拿马
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇩🇪_DE_德国_3
-  - 🇺🇸_US_美国_4
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇮🇷_IR_伊朗
+  - 🇩🇪_DE_德国
   - 🇷🇺_RU_俄罗斯_2
-  - 🇩🇪_DE_德国->🇰🇷_KR_韩国
   - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇩🇪_DE_德国_4
   - 🇷🇺_RU_俄罗斯_3
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  - 🇩🇪_DE_德国_1
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇺🇸_US_美国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国
-  - 🇺🇸_US_美国_2
-  - 🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_1
   - 🇷🇺_RU_俄罗斯_1
-  - 🇩🇪_DE_德国_2
   - 🇵🇦_PA_巴拿马
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇩🇪_DE_德国_3
-  - 🇺🇸_US_美国_4
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇮🇷_IR_伊朗
+  - 🇩🇪_DE_德国
   - 🇷🇺_RU_俄罗斯_2
-  - 🇩🇪_DE_德国->🇰🇷_KR_韩国
   - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇩🇪_DE_德国_4
   - 🇷🇺_RU_俄罗斯_3
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  - 🇩🇪_DE_德国_1
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇺🇸_US_美国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国
-  - 🇺🇸_US_美国_2
-  - 🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_1
   - 🇷🇺_RU_俄罗斯_1
-  - 🇩🇪_DE_德国_2
   - 🇵🇦_PA_巴拿马
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇩🇪_DE_德国_3
-  - 🇺🇸_US_美国_4
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇮🇷_IR_伊朗
+  - 🇩🇪_DE_德国
   - 🇷🇺_RU_俄罗斯_2
-  - 🇩🇪_DE_德国->🇰🇷_KR_韩国
   - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇩🇪_DE_德国_4
   - 🇷🇺_RU_俄罗斯_3
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  - 🇩🇪_DE_德国_1
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -335,24 +199,15 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇺🇸_US_美国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国
-  - 🇺🇸_US_美国_2
-  - 🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_1
   - 🇷🇺_RU_俄罗斯_1
-  - 🇩🇪_DE_德国_2
   - 🇵🇦_PA_巴拿马
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇩🇪_DE_德国_3
-  - 🇺🇸_US_美国_4
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇮🇷_IR_伊朗
+  - 🇩🇪_DE_德国
   - 🇷🇺_RU_俄罗斯_2
-  - 🇩🇪_DE_德国->🇰🇷_KR_韩国
   - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇩🇪_DE_德国_4
   - 🇷🇺_RU_俄罗斯_3
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  - 🇩🇪_DE_德国_1
   type: select
 rule-providers:
   Apple:
