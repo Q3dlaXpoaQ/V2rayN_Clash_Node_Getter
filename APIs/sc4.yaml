@@ -25,9 +25,9 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 0|--1
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 142.202.48.105
+  password: dongtaiwang.com
+  port: 32233
+  server: 185.22.152.125
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -35,7 +35,7 @@ proxies:
   name: 0|--2
   password: amazonskr05
   port: 443
-  server: 18.236.89.178
+  server: 35.87.31.210
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -43,57 +43,57 @@ proxies:
   name: 0|--3
   password: amazonskr05
   port: 443
-  server: 52.12.67.119
+  server: 34.208.196.91
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 0|--43
-  network: ws
-  port: 2082
-  server: 190.93.245.174
-  skip-cert-verify: false
+  name: 0|--4
+  password: 171pEaFf5HJtdAAI3L7r6A
+  port: 1080
+  server: 46.32.186.234
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
+  type: ss
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|--45
-  network: ws
-  port: 2082
-  server: 190.93.245.103
-  skip-cert-verify: false
+  name: 0|--5
+  password: amazonskr05
+  port: 443
+  server: 52.11.76.208
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
+  type: ss
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 0|--48
-  network: ws
-  port: 2082
-  server: 190.93.245.80
-  skip-cert-verify: false
+  name: 0|--6
+  password: amazonskr05
+  port: 443
+  server: 52.195.205.31
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|--7
+  password: amazonskr05
+  port: 443
+  server: 34.220.195.209
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 0|--8
+  password: Bk6CwTEYasiCd9iqVOvOpZ
+  port: 19940
+  server: 51.13.114.206
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 0|--9
+  password: amazonskr05
+  port: 443
+  server: 44.244.25.243
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -227,41 +227,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- client-fingerprint: chrome
-  name: 🇭🇰 13,14|香港8|@ripaojiedian
-  password: 5e2ce79c-170e-484a-8802-40584a1a3a12
-  port: 13007
-  server: naiu-hk.05vr9nyqg5.download
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇭🇰 13|🇭🇰 香港9|@ripaojiedian
-  port: 47292
-  server: 149.104.15.77
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 733eb24f-6e5f-4a1e-9f19-52ddca78aa20
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 🇭🇰 13|🇭🇰 香港10|@ripaojiedian
-  password: 36a91bbc-8181-4862-a947-eb4379a30fcf
+  name: 🇭🇰 13|🇭🇰 香港8|@ripaojiedian
+  password: ea0f5ddd-2b70-4b4a-b61a-8d402093e52c
   port: 11001
-  server: 183.232.229.164
+  server: 183.232.229.165
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 🇹🇼 13,14|台湾|@ripaojiedian
-  password: 5e2ce79c-170e-484a-8802-40584a1a3a12
-  port: 13035
-  server: naiu-other.05vr9nyqg5.download
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
-  type: trojan
 - client-fingerprint: chrome
   name: 🇯🇵 13,14|日本|@ripaojiedian
   password: QwwHvrnN
@@ -270,26 +243,26 @@ proxies:
   skip-cert-verify: false
   sni: 36.151.192.242
   type: trojan
-- cipher: aes-128-gcm
+- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
-  password: 54dcd75649dc4c78
-  port: 42929
-  server: 2bdefb8.kumgrb.xyz
+  password: 3e08f333-6239-498e-a7d7-c937258be4ce
+  port: 20236
+  server: pk3.7yvxyfv0hldls8kkq6csyy.club
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
-  password: 6741d7d6-e19b-4ece-ab6c-c50d05df9fa5
-  port: 11001
-  server: 61.172.235.22
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54102
+  server: j-p04.loveroise.com
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
-  password: 36a91bbc-8181-4862-a947-eb4379a30fcf
+  password: 62107dbc-51fc-4ca8-9bd9-67033b6a68f1
   port: 11001
   server: 61.172.235.22
   tfo: false
@@ -304,18 +277,26 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54030
-  server: s-g04.loveroise.com
+  name: 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  password: ce3cfe20-10d6-4999-9078-f918cfbab937
+  port: 10341
+  server: 119.xn--fhqu06a8m1asto.icu
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  name: 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
   password: 09833a6f-4d46-426e-87fe-7793a5489f84
   port: 54012
   server: k-r03.loveroise.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
+  password: 09833a6f-4d46-426e-87fe-7793a5489f84
+  port: 54030
+  server: s-g04.loveroise.com
   tfo: false
   type: ss
 - client-fingerprint: chrome
@@ -337,12 +318,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 137.175.97.159
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 47.129.60.132
+  server: 54.65.202.4
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -350,7 +339,7 @@ proxies:
   name: 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 47.129.236.42
+  server: 18.183.146.147
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -358,17 +347,17 @@ proxies:
   name: 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.215.140.43
+  server: 54.251.68.99
   tfo: false
   type: ss
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 🇮🇹 13|🇮🇹 意大利|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 194.41.59.80
-  tfo: false
-  type: ss
+- client-fingerprint: chrome
+  name: 🇻🇳 13,14|越南|@ripaojiedian
+  password: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
+  port: 443
+  server: vn.mjt000.com
+  skip-cert-verify: false
+  sni: vn.mjt000.com
+  type: trojan
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -418,45 +407,34 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 🇭🇰 14|香港9|@ripaojiedian
-  port: 47292
-  server: 149.104.15.77
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 733eb24f-6e5f-4a1e-9f19-52ddca78aa20
 - cipher: ss
   client-fingerprint: chrome
-  name: 🇭🇰 14|香港10|@ripaojiedian
-  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNmE5MWJiYy04MTgxLTQ4NjItYTk0Ny1lYjQzNzlhMzBmY2Y
+  name: 🇭🇰 14|香港8|@ripaojiedian
+  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplYTBmNWRkZC0yYjcwLTRiNGEtYjYxYS04ZDQwMjA5M2U1MmM
   port: 11001
-  server: 183.232.229.164
+  server: 183.232.229.165
   tfo: false
   type: ss
 - cipher: ss
   client-fingerprint: chrome
   name: 🇯🇵 14|日本2|@ripaojiedian
-  password: //YWVzLTEyOC1nY206NTRkY2Q3NTY0OWRjNGM3OA
-  port: 42929
-  server: 2bdefb8.kumgrb.xyz
+  password: //YWVzLTI1Ni1nY206M2UwOGYzMzMtNjIzOS00OThlLWE3ZDctYzkzNzI1OGJlNGNl
+  port: 20236
+  server: pk3.7yvxyfv0hldls8kkq6csyy.club
   tfo: false
   type: ss
 - cipher: ss
   client-fingerprint: chrome
   name: 🇯🇵 14|日本3|@ripaojiedian
-  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2NzQxZDdkNi1lMTliLTRlY2UtYWI2Yy1jNTBkMDVkZjlmYTU
-  port: 11001
-  server: 61.172.235.22
+  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowOTgzM2E2Zi00ZDQ2LTQyNmUtODdmZS03NzkzYTU0ODlmODQ
+  port: 54102
+  server: j-p04.loveroise.com
   tfo: false
   type: ss
 - cipher: ss
   client-fingerprint: chrome
   name: 🇯🇵 14|日本4|@ripaojiedian
-  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozNmE5MWJiYy04MTgxLTQ4NjItYTk0Ny1lYjQzNzlhMzBmY2Y
+  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo2MjEwN2RiYy01MWZjLTRjYTgtOWJkOS02NzAzM2I2YTY4ZjE
   port: 11001
   server: 61.172.235.22
   tfo: false
@@ -471,18 +449,26 @@ proxies:
   type: ss
 - cipher: ss
   client-fingerprint: chrome
-  name: 🇸🇬 14|新加坡|@ripaojiedian
-  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowOTgzM2E2Zi00ZDQ2LTQyNmUtODdmZS03NzkzYTU0ODlmODQ
-  port: 54030
-  server: s-g04.loveroise.com
+  name: 🇰🇷 14|韩国2|@ripaojiedian
+  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjZTNjZmUyMC0xMGQ2LTQ5OTktOTA3OC1mOTE4Y2ZiYWI5Mzc
+  port: 10341
+  server: 119.xn--fhqu06a8m1asto.icu
   tfo: false
   type: ss
 - cipher: ss
   client-fingerprint: chrome
-  name: 🇰🇷 14|韩国2|@ripaojiedian
+  name: 🇰🇷 14|韩国3|@ripaojiedian
   password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowOTgzM2E2Zi00ZDQ2LTQyNmUtODdmZS03NzkzYTU0ODlmODQ
   port: 54012
   server: k-r03.loveroise.com
+  tfo: false
+  type: ss
+- cipher: ss
+  client-fingerprint: chrome
+  name: 🇸🇬 14|新加坡|@ripaojiedian
+  password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowOTgzM2E2Zi00ZDQ2LTQyNmUtODdmZS03NzkzYTU0ODlmODQ
+  port: 54030
+  server: s-g04.loveroise.com
   tfo: false
   type: ss
 - alterId: 64
@@ -498,10 +484,18 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: ss
   client-fingerprint: chrome
+  name: 🇺🇸 14|美国3|@ripaojiedian
+  password: //Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY
+  port: 8388
+  server: 137.175.97.159
+  tfo: false
+  type: ss
+- cipher: ss
+  client-fingerprint: chrome
   name: 🇰🇷 14|韩国特殊|@ripaojiedian
   password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
   port: 443
-  server: 47.129.60.132
+  server: 54.65.202.4
   tfo: false
   type: ss
 - cipher: ss
@@ -509,7 +503,7 @@ proxies:
   name: 🇯🇵 14|日本特殊|@ripaojiedian
   password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
   port: 443
-  server: 47.129.236.42
+  server: 18.183.146.147
   tfo: false
   type: ss
 - cipher: ss
@@ -517,2782 +511,624 @@ proxies:
   name: 🇸🇬 14|狮城特殊|@ripaojiedian
   password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
   port: 443
-  server: 13.215.140.43
-  tfo: false
-  type: ss
-- cipher: ss
-  client-fingerprint: chrome
-  name: 🇮🇹 14|意大利|@ripaojiedian
-  password: //Y2hhY2hhMjAtaWV0Zjphc2QxMjM0NTY
-  port: 8388
-  server: 194.41.59.80
+  server: 54.251.68.99
   tfo: false
   type: ss
 - client-fingerprint: chrome
-  name: 15|CN_speednode_0001
+  name: 15|CN_speednode_0003
   network: ws
   port: 443
   server: 103.44.255.81
-  servername: edg.comorg.us.kg
+  servername: v2.yunchun.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: v2.yunchun.top
+    path: /?ed=2048
 - client-fingerprint: chrome
-  name: 15|CZ_speednode_0002
+  name: 15|ES_speednode_0011
   network: ws
-  password: bpb-trojan
-  port: 443
-  server: 195.85.23.232
-  skip-cert-verify: false
-  sni: bpb.my79801.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bpb.my79801.com
-    path: /tr
-- client-fingerprint: chrome
-  name: 15|ES_speednode_0003
-  network: ws
-  port: 57569
-  server: 185.214.103.86
-  servername: edg.comorg.us.kg
+  port: 29862
+  server: 185.214.103.210
+  servername: v2.yunchun.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|FR_speednode_0004
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 141.11.202.133
-  skip-cert-verify: false
-  sni: bpb.my79801.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bpb.my79801.com
-    path: /tr
-- client-fingerprint: chrome
-  name: 15|GB_speednode_0005
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 185.193.29.193
-  skip-cert-verify: false
-  sni: bpb.my79801.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bpb.my79801.com
-    path: /tr
-- client-fingerprint: chrome
-  name: 15|GB_speednode_0006
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 164.38.155.246
-  skip-cert-verify: false
-  sni: bpb.my79801.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bpb.my79801.com
-    path: /tr
-- client-fingerprint: chrome
-  name: 15|HK_speednode_0007
-  network: ws
-  port: 8969
-  server: 152.32.252.175
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|HK_speednode_0008
-  network: ws
-  port: 35184
-  server: 165.154.43.92
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|HK_speednode_0009
-  network: ws
-  port: 8443
-  server: 43.129.97.210
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|HK_speednode_0010
-  network: ws
-  port: 1443
-  server: 103.148.72.147
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|HK_speednode_0011
-  network: ws
-  port: 443
-  server: 20.6.159.95
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: v2.yunchun.top
+    path: /?ed=2048
 - client-fingerprint: chrome
   name: 15|HK_speednode_0012
   network: ws
-  port: 18443
-  server: 18.162.246.4
-  servername: edg.comorg.us.kg
+  port: 35181
+  server: 165.154.43.92
+  servername: v2.yunchun.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: v2.yunchun.top
+    path: /?ed=2048
 - client-fingerprint: chrome
   name: 15|HK_speednode_0013
   network: ws
-  port: 2087
-  server: 154.211.8.227
-  servername: edg.comorg.us.kg
+  port: 25909
+  server: 45.153.130.97
+  servername: v2.yunchun.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: v2.yunchun.top
+    path: /?ed=2048
 - client-fingerprint: chrome
   name: 15|HK_speednode_0014
   network: ws
-  port: 443
-  server: 43.128.26.74
-  servername: edg.comorg.us.kg
+  port: 23555
+  server: 219.77.65.212
+  servername: v2.yunchun.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: v2.yunchun.top
+    path: /?ed=2048
 - client-fingerprint: chrome
   name: 15|HK_speednode_0015
   network: ws
-  port: 2096
-  server: 154.211.8.47
-  servername: edg.comorg.us.kg
+  port: 39584
+  server: 185.213.62.199
+  servername: v2.yunchun.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: v2.yunchun.top
+    path: /?ed=2048
 - client-fingerprint: chrome
   name: 15|HK_speednode_0016
   network: ws
-  port: 14526
-  server: 202.181.27.218
-  servername: edg.comorg.us.kg
+  port: 12345
+  server: 42.98.167.229
+  servername: v2.yunchun.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: v2.yunchun.top
+    path: /?ed=2048
 - client-fingerprint: chrome
-  name: 15|HK_speednode_0017
-  network: ws
-  port: 18688
-  server: 38.207.142.114
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|HK_speednode_0018
-  network: ws
-  port: 8080
-  server: 45.149.186.112
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|HK_speednode_0019
-  network: ws
-  port: 56785
-  server: 149.104.30.57
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|HK_speednode_0020
-  network: ws
-  port: 35986
-  server: 91.229.132.209
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|HK_speednode_0021
-  network: ws
-  port: 40110
-  server: 141.11.91.177
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|JP_speednode_0022
+  name: 15|JP_speednode_0017
   network: ws
   port: 443
-  server: 52.68.248.185
-  servername: edg.comorg.us.kg
+  server: 54.199.222.232
+  servername: v2.yunchun.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: v2.yunchun.top
+    path: /?ed=2048
 - client-fingerprint: chrome
-  name: 15|JP_speednode_0023
+  name: 15|JP_speednode_0018
   network: ws
   port: 443
-  server: 35.77.126.144
-  servername: edg.comorg.us.kg
+  server: 54.248.121.219
+  servername: v2.yunchun.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: v2.yunchun.top
+    path: /?ed=2048
 - client-fingerprint: chrome
-  name: 15|JP_speednode_0024
+  name: 15|JP_speednode_0019
+  network: ws
+  port: 30860
+  server: 103.20.199.101
+  servername: v2.yunchun.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    headers:
+      Host: v2.yunchun.top
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 15|JP_speednode_0020
   network: ws
   port: 443
-  server: 43.206.192.211
-  servername: edg.comorg.us.kg
+  server: Zmaoz.Faculty.UcdavIS.Edu
+  servername: Zmaoz.Faculty.UcdavIS.Edu.
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 49d65fc2-8413-4d97-9303-ad34f0bdeef4
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: Zmaoz.Faculty.UcdavIS.Edu.
+    path: /@melov2ray/ws?ed=2048fp=firefox
 - client-fingerprint: chrome
-  name: 15|JP_speednode_0025
-  network: ws
-  port: 443
-  server: 43.153.151.240
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|JP_speednode_0026
-  network: ws
-  port: 443
-  server: 35.73.102.80
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|JP_speednode_0027
-  network: ws
-  port: 443
-  server: 54.65.107.240
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|JP_speednode_0028
-  network: ws
-  port: 2096
-  server: 103.116.7.152
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|JP_speednode_0029
-  network: ws
-  port: 2096
-  server: 103.116.7.220
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|JP_speednode_0030
-  network: ws
-  port: 8880
-  server: 138.2.18.82
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0032
-  network: ws
-  port: 50000
-  server: 125.134.172.40
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0033
-  network: ws
-  port: 443
-  server: 59.3.3.161
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0034
+  name: 15|KR_speednode_0021
   network: ws
   port: 50000
   server: 14.46.199.74
-  servername: edg.comorg.us.kg
+  servername: v2.yunchun.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: v2.yunchun.top
+    path: /?ed=2048
 - client-fingerprint: chrome
-  name: 15|KR_speednode_0035
+  name: 15|TW_speednode_0024
   network: ws
-  port: 50000
-  server: 121.131.104.228
-  servername: edg.comorg.us.kg
+  port: 10004
+  server: 114.34.202.224
+  servername: v2.yunchun.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: v2.yunchun.top
+    path: /?ed=2048
 - client-fingerprint: chrome
-  name: 15|KR_speednode_0036
+  name: 15|TW_speednode_0025
   network: ws
-  port: 50000
-  server: 220.118.142.151
-  servername: edg.comorg.us.kg
+  port: 81
+  server: 118.163.37.32
+  servername: v2.yunchun.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: v2.yunchun.top
+    path: /?ed=2048
 - client-fingerprint: chrome
-  name: 15|KR_speednode_0037
+  name: 15|TW_speednode_0026
   network: ws
-  port: 50000
-  server: 61.74.55.112
-  servername: edg.comorg.us.kg
+  port: 81
+  server: 210.61.97.241
+  servername: v2.yunchun.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: v2.yunchun.top
+    path: /?ed=2048
 - client-fingerprint: chrome
-  name: 15|KR_speednode_0038
+  name: 15|US_speednode_0028
   network: ws
-  port: 50000
-  server: 211.46.212.62
-  servername: edg.comorg.us.kg
+  port: 8880
+  server: 104.20.18.168
+  servername: dr-venom.aminghasemidrvenom.workers.dev
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 233a7a43-3340-44b7-ab79-14c29fc02e47
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: dr-venom.aminghasemidrvenom.workers.dev
+    path: /?ed=2048
 - client-fingerprint: chrome
-  name: 15|KR_speednode_0039
+  name: 15|US_speednode_0029
   network: ws
-  port: 50000
-  server: 222.104.180.40
-  servername: edg.comorg.us.kg
+  port: 8880
+  server: 104.18.15.19
+  servername: falcunargo.d369616395.workers.dev
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: cffb6eba-a33e-469f-9be0-b68cfec018e4
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: falcunargo.d369616395.workers.dev
+    path: /?ed=2048
 - client-fingerprint: chrome
-  name: 15|KR_speednode_0040
-  network: ws
-  port: 50000
-  server: 175.205.113.47
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0041
-  network: ws
-  port: 50000
-  server: 222.103.6.229
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0042
-  network: ws
-  port: 50000
-  server: 211.220.61.191
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0043
-  network: ws
-  port: 50000
-  server: 175.203.30.93
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0044
-  network: ws
-  port: 50000
-  server: 125.142.102.60
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0045
-  network: ws
-  port: 50000
-  server: 211.38.177.17
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0046
-  network: ws
-  port: 50000
-  server: 168.126.205.5
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0047
-  network: ws
-  port: 50000
-  server: 221.163.102.207
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0048
-  network: ws
-  port: 50000
-  server: 218.159.236.206
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0049
-  network: ws
-  port: 50000
-  server: 211.184.85.221
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0050
-  network: ws
-  port: 50000
-  server: 218.152.197.93
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0051
-  network: ws
-  port: 50000
-  server: 14.55.158.171
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0052
-  network: ws
-  port: 50000
-  server: 210.99.119.3
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0053
-  network: ws
-  port: 50000
-  server: 183.105.48.110
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0054
-  network: ws
-  port: 50000
-  server: 112.164.28.162
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0055
-  network: ws
-  port: 50000
-  server: 14.42.214.186
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0056
-  network: ws
-  port: 50000
-  server: 121.179.174.25
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0057
-  network: ws
-  port: 50000
-  server: 61.81.13.82
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0058
-  network: ws
-  port: 50000
-  server: 221.164.43.248
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0059
-  network: ws
-  port: 50000
-  server: 14.38.253.135
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0060
-  network: ws
-  port: 50000
-  server: 211.219.199.21
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0061
-  network: ws
-  port: 50000
-  server: 121.146.123.154
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0062
-  network: ws
-  port: 50000
-  server: 121.135.81.139
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0063
-  network: ws
-  port: 50000
-  server: 222.108.0.181
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0064
-  network: ws
-  port: 50000
-  server: 119.197.35.190
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0065
-  network: ws
-  port: 30017
-  server: 61.84.74.108
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0066
-  network: ws
-  port: 50000
-  server: 119.206.79.181
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0067
-  network: ws
-  port: 10000
-  server: 119.192.167.123
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0068
-  network: ws
-  port: 50000
-  server: 175.208.111.195
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0069
-  network: ws
-  port: 50000
-  server: 119.201.165.50
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0070
-  network: ws
-  port: 50000
-  server: 210.223.64.192
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0071
-  network: ws
-  port: 16104
-  server: 119.202.114.207
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0072
-  network: ws
-  port: 50000
-  server: 220.86.104.93
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0073
-  network: ws
-  port: 50000
-  server: 222.102.190.56
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0074
-  network: ws
-  port: 19262
-  server: 211.179.70.112
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0075
-  network: ws
-  port: 443
-  server: 20.41.104.196
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0076
-  network: ws
-  port: 443
-  server: 4.230.9.53
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0077
-  network: ws
-  port: 443
-  server: 52.141.25.42
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0078
-  network: ws
-  port: 2053
-  server: 52.231.97.210
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0079
-  network: ws
-  port: 33517
-  server: 175.114.195.4
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0080
-  network: ws
-  port: 443
-  server: 129.154.59.99
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0081
-  network: ws
-  port: 31277
-  server: 121.124.114.17
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0082
-  network: ws
-  port: 50051
-  server: 150.230.252.47
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0083
-  network: ws
-  port: 443
-  server: 146.56.101.141
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|KR_speednode_0084
-  network: ws
-  port: 47394
-  server: 45.141.139.150
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|LT_speednode_0085
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 89.116.250.94
-  skip-cert-verify: false
-  sni: bpb.my79801.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bpb.my79801.com
-    path: /tr
-- client-fingerprint: chrome
-  name: 15|LU_speednode_0086
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 94.242.228.50
-  skip-cert-verify: false
-  sni: bpb.my79801.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bpb.my79801.com
-    path: /tr
-- client-fingerprint: chrome
-  name: 15|NN_speednode_0088
-  network: ws
-  port: 443
-  server: 103.160.204.4
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|NN_speednode_0089
-  network: ws
-  port: 443
-  server: 103.160.204.50
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|RU_speednode_0090
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 45.8.211.242
-  skip-cert-verify: false
-  sni: bpb.my79801.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bpb.my79801.com
-    path: /tr
-- client-fingerprint: chrome
-  name: 15|RU_speednode_0091
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 185.174.138.239
-  skip-cert-verify: false
-  sni: bpb.my79801.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bpb.my79801.com
-    path: /tr
-- client-fingerprint: chrome
-  name: 15|SC_speednode_0092
-  network: ws
-  port: 2083
-  server: 154.197.108.1
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SE_speednode_0093
+  name: 15|US_speednode_0030
   network: ws
   port: 80
-  server: 151.101.87.26
-  servername: amir77.ir
+  server: 140.248.129.207
+  servername: muStAnG-0.ir
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: c9cc89e8-ac05-54a9-ac1a-00473190f705
   ws-opts:
     headers:
-      Host: amir77.ir
+      Host: muStAnG-0.ir
+    path: /@TEHRANARGO--@TEHRANARGO--@TEHRANARGO--@TEHRANARGO--@TEHRANARGO--@TEHRANARGO--@TEHRANARGO--@TEHRANARGO--@TEHRANARGO--@TEHRANARGO?ed=2560
+- client-fingerprint: chrome
+  name: 15|US_speednode_0031
+  network: ws
+  port: 80
+  server: 140.248.139.207
+  servername: ELiV2--ELENA.COM
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 0fa9cf4a-7061-5239-9da9-f89a88b56390
+  ws-opts:
+    headers:
+      Host: ELiV2--ELENA.COM
     path: /
 - client-fingerprint: chrome
-  name: 15|SG_speednode_0094
+  name: 15|US_speednode_0033
   network: ws
-  port: 443
-  server: 54.169.229.188
-  servername: edg.comorg.us.kg
+  port: 12378
+  server: 154.21.93.97
+  servername: v2.yunchun.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: v2.yunchun.top
+    path: /?ed=2048
 - client-fingerprint: chrome
-  name: 15|SG_speednode_0095
-  network: ws
-  port: 2087
-  server: 206.238.236.63
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0096
-  network: ws
-  port: 443
-  server: 43.156.253.94
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0097
-  network: ws
-  port: 2087
-  server: 27.50.48.18
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0098
-  network: ws
-  port: 8443
-  server: 92.243.74.239
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0099
-  network: ws
-  port: 443
-  server: 27.50.49.208
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0100
-  network: ws
-  port: 2083
-  server: 27.50.48.126
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0101
-  network: ws
-  port: 8443
-  server: 27.50.48.239
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0102
-  network: ws
-  port: 443
-  server: 27.50.49.207
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0103
-  network: ws
-  port: 2053
-  server: 27.50.49.37
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0104
-  network: ws
-  port: 2083
-  server: 27.50.49.251
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0105
-  network: ws
-  port: 2096
-  server: 206.238.236.252
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0106
-  network: ws
-  port: 2096
-  server: 27.50.49.61
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0107
-  network: ws
-  port: 443
-  server: 43.156.170.214
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0108
-  network: ws
-  port: 2083
-  server: 206.238.236.219
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0109
-  network: ws
-  port: 2087
-  server: 27.50.49.74
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0110
-  network: ws
-  port: 2083
-  server: 27.50.48.61
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0111
-  network: ws
-  port: 443
-  server: 206.238.236.16
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0112
-  network: ws
-  port: 8443
-  server: 27.50.49.230
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0113
-  network: ws
-  port: 2083
-  server: 27.50.49.154
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0114
-  network: ws
-  port: 2096
-  server: 27.50.49.188
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0115
-  network: ws
-  port: 8443
-  server: 92.243.74.2
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0116
-  network: ws
-  port: 8443
-  server: 92.243.74.3
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0117
-  network: ws
-  port: 8443
-  server: 27.50.49.166
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0118
-  network: ws
-  port: 2053
-  server: 206.238.237.47
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0119
-  network: ws
-  port: 8443
-  server: 27.50.49.234
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0120
-  network: ws
-  port: 8443
-  server: 92.243.74.180
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0121
-  network: ws
-  port: 443
-  server: 206.238.236.134
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0122
-  network: ws
-  port: 2083
-  server: 206.238.236.216
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0123
-  network: ws
-  port: 2087
-  server: 206.238.237.81
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0124
-  network: ws
-  port: 2083
-  server: 27.50.48.189
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0125
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 92.243.74.60
-  skip-cert-verify: false
-  sni: bpb.my79801.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bpb.my79801.com
-    path: /tr
-- client-fingerprint: chrome
-  name: 15|SG_speednode_0126
-  network: ws
-  port: 443
-  server: 206.238.237.212
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0128
-  network: ws
-  port: 52894
-  server: 154.17.231.21
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0129
-  network: ws
-  port: 15248
-  server: 154.17.25.25
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0130
-  network: ws
-  port: 443
-  server: 38.47.117.77
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0131
-  network: ws
-  port: 48946
-  server: 154.17.17.46
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0132
-  network: ws
-  port: 38609
-  server: 154.17.12.14
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0133
-  network: ws
-  port: 22989
-  server: 154.21.87.106
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0134
-  network: ws
-  port: 443
-  server: 154.26.181.60
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0135
-  network: ws
-  port: 11090
-  server: 154.21.94.105
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0136
-  network: ws
-  port: 12090
-  server: 154.21.91.168
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0137
-  network: ws
-  port: 443
-  server: 154.17.236.31
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0138
-  network: ws
-  port: 37955
-  server: 154.21.93.92
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0139
-  network: ws
-  port: 11090
-  server: 154.21.91.168
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0140
-  network: ws
-  port: 19355
-  server: 154.17.31.108
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0141
-  network: ws
-  port: 36433
-  server: 154.26.184.39
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0142
-  network: ws
-  port: 30861
-  server: 154.17.22.88
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0143
-  network: ws
-  port: 11557
-  server: 154.17.21.37
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0144
-  network: ws
-  port: 55200
-  server: 154.21.90.175
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0145
-  network: ws
-  port: 45956
-  server: 154.26.181.30
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0146
-  network: ws
-  port: 44729
-  server: 154.21.93.3
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0147
-  network: ws
-  port: 19246
-  server: 154.17.2.32
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0148
-  network: ws
-  port: 62729
-  server: 154.17.2.126
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0149
-  network: ws
-  port: 31682
-  server: 154.26.181.45
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0150
-  network: ws
-  port: 31146
-  server: 38.47.117.49
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0151
-  network: ws
-  port: 11349
-  server: 154.17.17.205
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0152
-  network: ws
-  port: 20442
-  server: 154.26.189.50
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0153
-  network: ws
-  port: 14713
-  server: 154.26.179.50
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0154
-  network: ws
-  port: 12090
-  server: 154.17.237.74
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0155
-  network: ws
-  port: 45067
-  server: 154.21.94.99
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0156
+  name: 15|US_speednode_0034
   network: ws
   port: 25526
   server: 23.169.184.125
-  servername: edg.comorg.us.kg
+  servername: v2.yunchun.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: v2.yunchun.top
+    path: /?ed=2048
 - client-fingerprint: chrome
-  name: 15|US_speednode_0157
+  name: 15|US_speednode_0036
   network: ws
-  port: 36883
-  server: 23.165.248.24
-  servername: edg.comorg.us.kg
+  port: 443
+  server: 199.232.86.55
+  servername: www.teh.ir
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: fa0c39fe-1c37-491b-afc8-d8538057b990
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: www.teh.ir
+    path: /VLESS?TehranArgo-TehranArgo-TehranArgo?ed=2560fp=qq
 - client-fingerprint: chrome
-  name: 15|US_speednode_0158
-  network: ws
-  port: 16583
-  server: 38.148.254.137
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0159
-  network: ws
-  port: 47827
-  server: 38.60.89.176
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0160
-  network: ws
-  port: 33884
-  server: 206.119.79.138
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0161
-  network: ws
-  port: 8443
-  server: 38.60.92.21
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0162
-  network: ws
-  port: 56134
-  server: 38.148.254.137
-  servername: edg.comorg.us.kg
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
-  ws-opts:
-    headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
-- client-fingerprint: chrome
-  name: 15|US_speednode_0163
+  name: 15|US_speednode_0037
   network: ws
   port: 80
-  server: 199.232.126.14
-  servername: amir77.ir
+  server: 104.19.154.58
+  servername: worker-winter-meadow-e881.test55.workers.dev
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  uuid: a2056696-90fc-4e0a-b7c8-e85ce9f96d18
   ws-opts:
     headers:
-      Host: amir77.ir
+      Host: worker-winter-meadow-e881.test55.workers.dev
     path: /
 - client-fingerprint: chrome
-  name: 15|US_speednode_0164
+  name: 15|US_speednode_0038
   network: ws
-  port: 443
-  server: 162.159.44.76
-  servername: edg.comorg.us.kg
+  port: 80
+  server: 104.18.26.94
+  servername: sedalat.tatexe3807.workers.dev
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 61ff8b60-2be0-40a6-94b5-92cca33f1fab
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: sedalat.tatexe3807.workers.dev
+    path: /
 - client-fingerprint: chrome
-  name: 15|US_speednode_0165
+  name: 15|US_speednode_0039
   network: ws
-  port: 2096
-  server: 162.159.38.101
-  servername: edg.comorg.us.kg
+  port: 8080
+  server: 172.66.213.38
+  servername: extERnAlnEt.EXTeRNAL-net.WorKers.DeV
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: extERnAlnEt.EXTeRNAL-net.WorKers.DeV
+    path: /dcjNLZe6XRpnDatU/OC4yMTkuNDIuNzI=
 - client-fingerprint: chrome
-  name: 15|US_speednode_0166
+  name: 15|US_speednode_0040
   network: ws
-  port: 443
-  server: 45.159.217.59
-  servername: edg.comorg.us.kg
+  port: 80
+  server: 172.64.229.27
+  servername: worker-winter-meadow-e881.test55.workers.dev
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: a2056696-90fc-4e0a-b7c8-e85ce9f96d18
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: worker-winter-meadow-e881.test55.workers.dev
+    path: /
 - client-fingerprint: chrome
-  name: 15|US_speednode_0167
+  name: 15|US_speednode_0041
   network: ws
-  port: 443
-  server: 198.41.220.127
-  servername: edg.comorg.us.kg
+  port: 8880
+  server: 172.67.195.176
+  servername: falcunargo-bia-zod.8fcd549b6a.workers.Dev
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: e9b29a36-f8dc-48ee-b5f9-e0e5be701d03
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: falcunargo-bia-zod.8fcd549b6a.workers.Dev
+    path: /
 - client-fingerprint: chrome
-  name: 15|US_speednode_0168
+  name: 15|US_speednode_0042
   network: ws
-  port: 25953
-  server: 103.170.72.129
-  servername: edg.comorg.us.kg
+  port: 80
+  server: 162.159.249.15
+  servername: worker-winter-meadow-e881.test55.workers.dev
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: a2056696-90fc-4e0a-b7c8-e85ce9f96d18
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: worker-winter-meadow-e881.test55.workers.dev
+    path: /
 - client-fingerprint: chrome
-  name: 15|US_speednode_0169
+  name: 15|US_speednode_0043
   network: ws
-  port: 443
-  server: 91.149.239.72
-  servername: edg.comorg.us.kg
+  port: 80
+  server: 151.101.194.219
+  servername: XpnTeam.ir
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 05cc8c17-5995-4d4c-8c94-e2aeee3704d7
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: XpnTeam.ir
+    path: /@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048
 - client-fingerprint: chrome
-  name: 15|US_speednode_0170
+  name: 15|US_speednode_0044
   network: ws
-  port: 2053
-  server: 162.159.44.228
-  servername: edg.comorg.us.kg
+  port: 2086
+  server: 104.18.10.128
+  servername: v2raynselling.kir-rasol-kir.workers.dev
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: d345d11e-c424-4583-b36e-527ab1f0afa4
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: v2raynselling.kir-rasol-kir.workers.dev
+    path: /
 - client-fingerprint: chrome
-  name: 15|US_speednode_0171
+  name: 15|US_speednode_0045
   network: ws
-  port: 2083
-  server: 172.67.187.145
-  servername: edg.comorg.us.kg
+  port: 80
+  server: 172.67.189.174
+  servername: sHrill-tErm-639b.TageLIT414.workeRs.dEv
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 19b3cbba-e6ac-485a-9481-926a0415eab2
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: sHrill-tErm-639b.TageLIT414.workeRs.dEv
+    path: /HLWeBTaOv6byfXQ2
 - client-fingerprint: chrome
-  name: 15|US_speednode_0172
+  name: 15|US_speednode_0046
   network: ws
-  port: 12496
-  server: 154.9.237.148
-  servername: edg.comorg.us.kg
+  port: 80
+  server: NUFiLTER.fastly80-3.hosting-ip.com
+  servername: api.nhl239.ir
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 9f44d4eb-384b-4b26-9533-a5a45709250f
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: api.nhl239.ir
+    path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=2048
 - client-fingerprint: chrome
-  name: 15|US_speednode_0173
+  name: 15|US_speednode_0047
   network: ws
-  port: 2096
-  server: 162.159.44.78
-  servername: edg.comorg.us.kg
+  port: 80
+  server: 172.64.40.169
+  servername: worker-winter-meadow-e881.test55.workers.dev
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: a2056696-90fc-4e0a-b7c8-e85ce9f96d18
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: worker-winter-meadow-e881.test55.workers.dev
+    path: /
 - client-fingerprint: chrome
-  name: 15|US_speednode_0174
+  name: 15|US_speednode_0048
   network: ws
-  port: 443
-  server: 104.24.38.31
-  servername: edg.comorg.us.kg
+  port: 8880
+  server: 104.21.92.162
+  servername: falcunargo-bia-zod.8fcd549b6a.workers.Dev
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: e9b29a36-f8dc-48ee-b5f9-e0e5be701d03
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: falcunargo-bia-zod.8fcd549b6a.workers.Dev
+    path: /
 - client-fingerprint: chrome
-  name: 15|US_speednode_0175
+  name: 15|US_speednode_0049
   network: ws
-  port: 2083
-  server: 162.159.38.105
-  servername: edg.comorg.us.kg
+  port: 80
+  server: 104.21.57.76
+  servername: SHriLL-tErM-639B.TAGeLIt414.wOrkers.Dev
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 19b3cbba-e6ac-485a-9481-926a0415eab2
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: SHriLL-tErM-639B.TAGeLIt414.wOrkers.Dev
+    path: /Nc0OWXRRyHScAFoY
 - client-fingerprint: chrome
-  name: 15|US_speednode_0176
+  name: 15|US_speednode_0050
   network: ws
-  port: 443
-  server: 167.68.42.231
-  servername: edg.comorg.us.kg
+  port: 80
+  server: 162.159.254.222
+  servername: worker-winter-meadow-e881.test55.workers.dev
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: a2056696-90fc-4e0a-b7c8-e85ce9f96d18
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: worker-winter-meadow-e881.test55.workers.dev
+    path: /
 - client-fingerprint: chrome
-  name: 15|US_speednode_0177
+  name: 15|US_speednode_0051
   network: ws
-  port: 443
-  server: 104.20.46.93
-  servername: edg.comorg.us.kg
+  port: 80
+  server: 104.16.96.58
+  servername: worker-winter-meadow-e881.test55.workers.dev
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: a2056696-90fc-4e0a-b7c8-e85ce9f96d18
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: worker-winter-meadow-e881.test55.workers.dev
+    path: /
 - client-fingerprint: chrome
-  name: 15|US_speednode_0178
+  name: 15|US_speednode_0052
   network: ws
-  password: bpb-trojan
-  port: 443
-  server: 185.148.104.251
-  skip-cert-verify: false
-  sni: bpb.my79801.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bpb.my79801.com
-    path: /tr
-- client-fingerprint: chrome
-  name: 15|US_speednode_0179
-  network: ws
-  port: 443
-  server: 91.149.239.122
-  servername: edg.comorg.us.kg
+  port: 80
+  server: 151.101.130.219
+  servername: XpnTeam.ir
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: 05cc8c17-5995-4d4c-8c94-e2aeee3704d7
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: XpnTeam.ir
+    path: /@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048
 - client-fingerprint: chrome
-  name: 15|US_speednode_0180
+  name: 15|US_speednode_0054
   network: ws
-  password: bpb-trojan
-  port: 443
-  server: 198.41.204.23
-  skip-cert-verify: false
-  sni: bpb.my79801.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bpb.my79801.com
-    path: /tr
-- client-fingerprint: chrome
-  name: 15|US_speednode_0181
-  network: ws
-  port: 2096
-  server: 162.159.44.232
-  servername: edg.comorg.us.kg
+  port: 80
+  server: 104.17.62.217
+  servername: worker-winter-meadow-e881.test55.workers.dev
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vless
-  uuid: 62357561-a129-4b9e-9614-ce2578020866
+  uuid: a2056696-90fc-4e0a-b7c8-e85ce9f96d18
   ws-opts:
     headers:
-      Host: edg.comorg.us.kg
-    path: /Telegram🇨🇳 @WangCai2 /?ed=2048security=tls
+      Host: worker-winter-meadow-e881.test55.workers.dev
+    path: /
 - client-fingerprint: chrome
-  name: 15|US_speednode_0182
+  name: 15|US_speednode_0056
   network: ws
-  password: bpb-trojan
-  port: 443
-  server: 154.85.99.206
+  port: 80
+  server: 151.101.194.219
+  servername: snapp.com
   skip-cert-verify: false
-  sni: bpb.my79801.com
-  type: trojan
+  tfo: false
+  tls: false
+  type: vless
+  uuid: f56e4463-f71a-4ab6-8074-534d2b1439c2
   ws-opts:
     headers:
-      Host: bpb.my79801.com
-    path: /tr
+      Host: snapp.com
+    path: /Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN?ed=2048
 - client-fingerprint: chrome
-  name: 15|US_speednode_0183
+  name: 15|US_speednode_0057
   network: ws
-  password: bpb-trojan
-  port: 443
-  server: 198.41.202.175
+  port: 80
+  server: unlimiteddev.fastly80-3.hosting-ip.com
+  servername: UNLIMITEDDEV.channel-telegram-1.ir
   skip-cert-verify: false
-  sni: bpb.my79801.com
-  type: trojan
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 93d1e628-e14a-4c00-feed-df69dcfc78bd
   ws-opts:
     headers:
-      Host: bpb.my79801.com
-    path: /tr
-- client-fingerprint: chrome
-  name: 15|US_speednode_0184
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 198.41.211.21
-  skip-cert-verify: false
-  sni: bpb.my79801.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bpb.my79801.com
-    path: /tr
-- client-fingerprint: chrome
-  name: 15|US_speednode_0185
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 198.41.197.94
-  skip-cert-verify: false
-  sni: bpb.my79801.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bpb.my79801.com
-    path: /tr
-- client-fingerprint: chrome
-  name: 15|US_speednode_0186
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 198.202.211.146
-  skip-cert-verify: false
-  sni: bpb.my79801.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bpb.my79801.com
-    path: /tr
-- client-fingerprint: chrome
-  name: 15|US_speednode_0187
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 45.194.53.231
-  skip-cert-verify: false
-  sni: bpb.my79801.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bpb.my79801.com
-    path: /tr
-- client-fingerprint: chrome
-  name: 15|US_speednode_0188
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 172.67.237.13
-  skip-cert-verify: false
-  sni: bpb.my79801.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bpb.my79801.com
-    path: /tr
-- client-fingerprint: chrome
-  name: 15|US_speednode_0189
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 172.67.246.161
-  skip-cert-verify: false
-  sni: bpb.my79801.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bpb.my79801.com
-    path: /tr
-- client-fingerprint: chrome
-  name: 15|US_speednode_0190
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 104.36.195.61
-  skip-cert-verify: false
-  sni: bpb.my79801.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bpb.my79801.com
-    path: /tr
+      Host: UNLIMITEDDEV.channel-telegram-1.ir
+    path: /@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480fp=chrome
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -3322,9 +1158,12 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - 0|--43
-  - 0|--45
-  - 0|--48
+  - 0|--4
+  - 0|--5
+  - 0|--6
+  - 0|--7
+  - 0|--8
+  - 0|--9
   - 5|d*********g.com_0
   - 5|d*********g.com_1
   - 5|d*********g.com_2
@@ -3336,228 +1175,81 @@ proxy-groups:
   - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-  - 🇭🇰 13,14|香港8|@ripaojiedian
-  - 🇭🇰 13|🇭🇰 香港9|@ripaojiedian
-  - 🇭🇰 13|🇭🇰 香港10|@ripaojiedian
-  - 🇹🇼 13,14|台湾|@ripaojiedian
+  - 🇭🇰 13|🇭🇰 香港8|@ripaojiedian
   - 🇯🇵 13,14|日本|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
-  - 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
+  - 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
   - 🇺🇸 13,14|美国|@ripaojiedian
   - 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
+  - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
   - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
-  - 🇮🇹 13|🇮🇹 意大利|@ripaojiedian
+  - 🇻🇳 13,14|越南|@ripaojiedian
   - 🇭🇰 14|香港3|@ripaojiedian
   - 🇭🇰 14|香港4|@ripaojiedian
   - 🇭🇰 14|香港5|@ripaojiedian
   - 🇭🇰 14|香港6|@ripaojiedian
   - 🇭🇰 14|香港7|@ripaojiedian
-  - 🇭🇰 14|香港9|@ripaojiedian
-  - 🇭🇰 14|香港10|@ripaojiedian
+  - 🇭🇰 14|香港8|@ripaojiedian
   - 🇯🇵 14|日本2|@ripaojiedian
   - 🇯🇵 14|日本3|@ripaojiedian
   - 🇯🇵 14|日本4|@ripaojiedian
   - 🇰🇷 14|韩国|@ripaojiedian
-  - 🇸🇬 14|新加坡|@ripaojiedian
   - 🇰🇷 14|韩国2|@ripaojiedian
+  - 🇰🇷 14|韩国3|@ripaojiedian
+  - 🇸🇬 14|新加坡|@ripaojiedian
   - 🇺🇸 14|美国2|@ripaojiedian
+  - 🇺🇸 14|美国3|@ripaojiedian
   - 🇰🇷 14|韩国特殊|@ripaojiedian
   - 🇯🇵 14|日本特殊|@ripaojiedian
   - 🇸🇬 14|狮城特殊|@ripaojiedian
-  - 🇮🇹 14|意大利|@ripaojiedian
-  - 15|CN_speednode_0001
-  - 15|CZ_speednode_0002
-  - 15|ES_speednode_0003
-  - 15|FR_speednode_0004
-  - 15|GB_speednode_0005
-  - 15|GB_speednode_0006
-  - 15|HK_speednode_0007
-  - 15|HK_speednode_0008
-  - 15|HK_speednode_0009
-  - 15|HK_speednode_0010
-  - 15|HK_speednode_0011
+  - 15|CN_speednode_0003
+  - 15|ES_speednode_0011
   - 15|HK_speednode_0012
   - 15|HK_speednode_0013
   - 15|HK_speednode_0014
   - 15|HK_speednode_0015
   - 15|HK_speednode_0016
-  - 15|HK_speednode_0017
-  - 15|HK_speednode_0018
-  - 15|HK_speednode_0019
-  - 15|HK_speednode_0020
-  - 15|HK_speednode_0021
-  - 15|JP_speednode_0022
-  - 15|JP_speednode_0023
-  - 15|JP_speednode_0024
-  - 15|JP_speednode_0025
-  - 15|JP_speednode_0026
-  - 15|JP_speednode_0027
-  - 15|JP_speednode_0028
-  - 15|JP_speednode_0029
-  - 15|JP_speednode_0030
-  - 15|KR_speednode_0032
-  - 15|KR_speednode_0033
-  - 15|KR_speednode_0034
-  - 15|KR_speednode_0035
-  - 15|KR_speednode_0036
-  - 15|KR_speednode_0037
-  - 15|KR_speednode_0038
-  - 15|KR_speednode_0039
-  - 15|KR_speednode_0040
-  - 15|KR_speednode_0041
-  - 15|KR_speednode_0042
-  - 15|KR_speednode_0043
-  - 15|KR_speednode_0044
-  - 15|KR_speednode_0045
-  - 15|KR_speednode_0046
-  - 15|KR_speednode_0047
-  - 15|KR_speednode_0048
-  - 15|KR_speednode_0049
-  - 15|KR_speednode_0050
-  - 15|KR_speednode_0051
-  - 15|KR_speednode_0052
-  - 15|KR_speednode_0053
-  - 15|KR_speednode_0054
-  - 15|KR_speednode_0055
-  - 15|KR_speednode_0056
-  - 15|KR_speednode_0057
-  - 15|KR_speednode_0058
-  - 15|KR_speednode_0059
-  - 15|KR_speednode_0060
-  - 15|KR_speednode_0061
-  - 15|KR_speednode_0062
-  - 15|KR_speednode_0063
-  - 15|KR_speednode_0064
-  - 15|KR_speednode_0065
-  - 15|KR_speednode_0066
-  - 15|KR_speednode_0067
-  - 15|KR_speednode_0068
-  - 15|KR_speednode_0069
-  - 15|KR_speednode_0070
-  - 15|KR_speednode_0071
-  - 15|KR_speednode_0072
-  - 15|KR_speednode_0073
-  - 15|KR_speednode_0074
-  - 15|KR_speednode_0075
-  - 15|KR_speednode_0076
-  - 15|KR_speednode_0077
-  - 15|KR_speednode_0078
-  - 15|KR_speednode_0079
-  - 15|KR_speednode_0080
-  - 15|KR_speednode_0081
-  - 15|KR_speednode_0082
-  - 15|KR_speednode_0083
-  - 15|KR_speednode_0084
-  - 15|LT_speednode_0085
-  - 15|LU_speednode_0086
-  - 15|NN_speednode_0088
-  - 15|NN_speednode_0089
-  - 15|RU_speednode_0090
-  - 15|RU_speednode_0091
-  - 15|SC_speednode_0092
-  - 15|SE_speednode_0093
-  - 15|SG_speednode_0094
-  - 15|SG_speednode_0095
-  - 15|SG_speednode_0096
-  - 15|SG_speednode_0097
-  - 15|SG_speednode_0098
-  - 15|SG_speednode_0099
-  - 15|SG_speednode_0100
-  - 15|SG_speednode_0101
-  - 15|SG_speednode_0102
-  - 15|SG_speednode_0103
-  - 15|SG_speednode_0104
-  - 15|SG_speednode_0105
-  - 15|SG_speednode_0106
-  - 15|SG_speednode_0107
-  - 15|SG_speednode_0108
-  - 15|SG_speednode_0109
-  - 15|SG_speednode_0110
-  - 15|SG_speednode_0111
-  - 15|SG_speednode_0112
-  - 15|SG_speednode_0113
-  - 15|SG_speednode_0114
-  - 15|SG_speednode_0115
-  - 15|SG_speednode_0116
-  - 15|SG_speednode_0117
-  - 15|SG_speednode_0118
-  - 15|SG_speednode_0119
-  - 15|SG_speednode_0120
-  - 15|SG_speednode_0121
-  - 15|SG_speednode_0122
-  - 15|SG_speednode_0123
-  - 15|SG_speednode_0124
-  - 15|SG_speednode_0125
-  - 15|SG_speednode_0126
-  - 15|US_speednode_0128
-  - 15|US_speednode_0129
-  - 15|US_speednode_0130
-  - 15|US_speednode_0131
-  - 15|US_speednode_0132
-  - 15|US_speednode_0133
-  - 15|US_speednode_0134
-  - 15|US_speednode_0135
-  - 15|US_speednode_0136
-  - 15|US_speednode_0137
-  - 15|US_speednode_0138
-  - 15|US_speednode_0139
-  - 15|US_speednode_0140
-  - 15|US_speednode_0141
-  - 15|US_speednode_0142
-  - 15|US_speednode_0143
-  - 15|US_speednode_0144
-  - 15|US_speednode_0145
-  - 15|US_speednode_0146
-  - 15|US_speednode_0147
-  - 15|US_speednode_0148
-  - 15|US_speednode_0149
-  - 15|US_speednode_0150
-  - 15|US_speednode_0151
-  - 15|US_speednode_0152
-  - 15|US_speednode_0153
-  - 15|US_speednode_0154
-  - 15|US_speednode_0155
-  - 15|US_speednode_0156
-  - 15|US_speednode_0157
-  - 15|US_speednode_0158
-  - 15|US_speednode_0159
-  - 15|US_speednode_0160
-  - 15|US_speednode_0161
-  - 15|US_speednode_0162
-  - 15|US_speednode_0163
-  - 15|US_speednode_0164
-  - 15|US_speednode_0165
-  - 15|US_speednode_0166
-  - 15|US_speednode_0167
-  - 15|US_speednode_0168
-  - 15|US_speednode_0169
-  - 15|US_speednode_0170
-  - 15|US_speednode_0171
-  - 15|US_speednode_0172
-  - 15|US_speednode_0173
-  - 15|US_speednode_0174
-  - 15|US_speednode_0175
-  - 15|US_speednode_0176
-  - 15|US_speednode_0177
-  - 15|US_speednode_0178
-  - 15|US_speednode_0179
-  - 15|US_speednode_0180
-  - 15|US_speednode_0181
-  - 15|US_speednode_0182
-  - 15|US_speednode_0183
-  - 15|US_speednode_0184
-  - 15|US_speednode_0185
-  - 15|US_speednode_0186
-  - 15|US_speednode_0187
-  - 15|US_speednode_0188
-  - 15|US_speednode_0189
-  - 15|US_speednode_0190
+  - 15|JP_speednode_0017
+  - 15|JP_speednode_0018
+  - 15|JP_speednode_0019
+  - 15|JP_speednode_0020
+  - 15|KR_speednode_0021
+  - 15|TW_speednode_0024
+  - 15|TW_speednode_0025
+  - 15|TW_speednode_0026
+  - 15|US_speednode_0028
+  - 15|US_speednode_0029
+  - 15|US_speednode_0030
+  - 15|US_speednode_0031
+  - 15|US_speednode_0033
+  - 15|US_speednode_0034
+  - 15|US_speednode_0036
+  - 15|US_speednode_0037
+  - 15|US_speednode_0038
+  - 15|US_speednode_0039
+  - 15|US_speednode_0040
+  - 15|US_speednode_0041
+  - 15|US_speednode_0042
+  - 15|US_speednode_0043
+  - 15|US_speednode_0044
+  - 15|US_speednode_0045
+  - 15|US_speednode_0046
+  - 15|US_speednode_0047
+  - 15|US_speednode_0048
+  - 15|US_speednode_0049
+  - 15|US_speednode_0050
+  - 15|US_speednode_0051
+  - 15|US_speednode_0052
+  - 15|US_speednode_0054
+  - 15|US_speednode_0056
+  - 15|US_speednode_0057
   - '16|d*********g.com_2 #1'
   - 1
   type: select
@@ -3568,9 +1260,12 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - 0|--43
-  - 0|--45
-  - 0|--48
+  - 0|--4
+  - 0|--5
+  - 0|--6
+  - 0|--7
+  - 0|--8
+  - 0|--9
   - 5|d*********g.com_0
   - 5|d*********g.com_1
   - 5|d*********g.com_2
@@ -3582,228 +1277,81 @@ proxy-groups:
   - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-  - 🇭🇰 13,14|香港8|@ripaojiedian
-  - 🇭🇰 13|🇭🇰 香港9|@ripaojiedian
-  - 🇭🇰 13|🇭🇰 香港10|@ripaojiedian
-  - 🇹🇼 13,14|台湾|@ripaojiedian
+  - 🇭🇰 13|🇭🇰 香港8|@ripaojiedian
   - 🇯🇵 13,14|日本|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
-  - 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
+  - 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
   - 🇺🇸 13,14|美国|@ripaojiedian
   - 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
+  - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
   - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
-  - 🇮🇹 13|🇮🇹 意大利|@ripaojiedian
+  - 🇻🇳 13,14|越南|@ripaojiedian
   - 🇭🇰 14|香港3|@ripaojiedian
   - 🇭🇰 14|香港4|@ripaojiedian
   - 🇭🇰 14|香港5|@ripaojiedian
   - 🇭🇰 14|香港6|@ripaojiedian
   - 🇭🇰 14|香港7|@ripaojiedian
-  - 🇭🇰 14|香港9|@ripaojiedian
-  - 🇭🇰 14|香港10|@ripaojiedian
+  - 🇭🇰 14|香港8|@ripaojiedian
   - 🇯🇵 14|日本2|@ripaojiedian
   - 🇯🇵 14|日本3|@ripaojiedian
   - 🇯🇵 14|日本4|@ripaojiedian
   - 🇰🇷 14|韩国|@ripaojiedian
-  - 🇸🇬 14|新加坡|@ripaojiedian
   - 🇰🇷 14|韩国2|@ripaojiedian
+  - 🇰🇷 14|韩国3|@ripaojiedian
+  - 🇸🇬 14|新加坡|@ripaojiedian
   - 🇺🇸 14|美国2|@ripaojiedian
+  - 🇺🇸 14|美国3|@ripaojiedian
   - 🇰🇷 14|韩国特殊|@ripaojiedian
   - 🇯🇵 14|日本特殊|@ripaojiedian
   - 🇸🇬 14|狮城特殊|@ripaojiedian
-  - 🇮🇹 14|意大利|@ripaojiedian
-  - 15|CN_speednode_0001
-  - 15|CZ_speednode_0002
-  - 15|ES_speednode_0003
-  - 15|FR_speednode_0004
-  - 15|GB_speednode_0005
-  - 15|GB_speednode_0006
-  - 15|HK_speednode_0007
-  - 15|HK_speednode_0008
-  - 15|HK_speednode_0009
-  - 15|HK_speednode_0010
-  - 15|HK_speednode_0011
+  - 15|CN_speednode_0003
+  - 15|ES_speednode_0011
   - 15|HK_speednode_0012
   - 15|HK_speednode_0013
   - 15|HK_speednode_0014
   - 15|HK_speednode_0015
   - 15|HK_speednode_0016
-  - 15|HK_speednode_0017
-  - 15|HK_speednode_0018
-  - 15|HK_speednode_0019
-  - 15|HK_speednode_0020
-  - 15|HK_speednode_0021
-  - 15|JP_speednode_0022
-  - 15|JP_speednode_0023
-  - 15|JP_speednode_0024
-  - 15|JP_speednode_0025
-  - 15|JP_speednode_0026
-  - 15|JP_speednode_0027
-  - 15|JP_speednode_0028
-  - 15|JP_speednode_0029
-  - 15|JP_speednode_0030
-  - 15|KR_speednode_0032
-  - 15|KR_speednode_0033
-  - 15|KR_speednode_0034
-  - 15|KR_speednode_0035
-  - 15|KR_speednode_0036
-  - 15|KR_speednode_0037
-  - 15|KR_speednode_0038
-  - 15|KR_speednode_0039
-  - 15|KR_speednode_0040
-  - 15|KR_speednode_0041
-  - 15|KR_speednode_0042
-  - 15|KR_speednode_0043
-  - 15|KR_speednode_0044
-  - 15|KR_speednode_0045
-  - 15|KR_speednode_0046
-  - 15|KR_speednode_0047
-  - 15|KR_speednode_0048
-  - 15|KR_speednode_0049
-  - 15|KR_speednode_0050
-  - 15|KR_speednode_0051
-  - 15|KR_speednode_0052
-  - 15|KR_speednode_0053
-  - 15|KR_speednode_0054
-  - 15|KR_speednode_0055
-  - 15|KR_speednode_0056
-  - 15|KR_speednode_0057
-  - 15|KR_speednode_0058
-  - 15|KR_speednode_0059
-  - 15|KR_speednode_0060
-  - 15|KR_speednode_0061
-  - 15|KR_speednode_0062
-  - 15|KR_speednode_0063
-  - 15|KR_speednode_0064
-  - 15|KR_speednode_0065
-  - 15|KR_speednode_0066
-  - 15|KR_speednode_0067
-  - 15|KR_speednode_0068
-  - 15|KR_speednode_0069
-  - 15|KR_speednode_0070
-  - 15|KR_speednode_0071
-  - 15|KR_speednode_0072
-  - 15|KR_speednode_0073
-  - 15|KR_speednode_0074
-  - 15|KR_speednode_0075
-  - 15|KR_speednode_0076
-  - 15|KR_speednode_0077
-  - 15|KR_speednode_0078
-  - 15|KR_speednode_0079
-  - 15|KR_speednode_0080
-  - 15|KR_speednode_0081
-  - 15|KR_speednode_0082
-  - 15|KR_speednode_0083
-  - 15|KR_speednode_0084
-  - 15|LT_speednode_0085
-  - 15|LU_speednode_0086
-  - 15|NN_speednode_0088
-  - 15|NN_speednode_0089
-  - 15|RU_speednode_0090
-  - 15|RU_speednode_0091
-  - 15|SC_speednode_0092
-  - 15|SE_speednode_0093
-  - 15|SG_speednode_0094
-  - 15|SG_speednode_0095
-  - 15|SG_speednode_0096
-  - 15|SG_speednode_0097
-  - 15|SG_speednode_0098
-  - 15|SG_speednode_0099
-  - 15|SG_speednode_0100
-  - 15|SG_speednode_0101
-  - 15|SG_speednode_0102
-  - 15|SG_speednode_0103
-  - 15|SG_speednode_0104
-  - 15|SG_speednode_0105
-  - 15|SG_speednode_0106
-  - 15|SG_speednode_0107
-  - 15|SG_speednode_0108
-  - 15|SG_speednode_0109
-  - 15|SG_speednode_0110
-  - 15|SG_speednode_0111
-  - 15|SG_speednode_0112
-  - 15|SG_speednode_0113
-  - 15|SG_speednode_0114
-  - 15|SG_speednode_0115
-  - 15|SG_speednode_0116
-  - 15|SG_speednode_0117
-  - 15|SG_speednode_0118
-  - 15|SG_speednode_0119
-  - 15|SG_speednode_0120
-  - 15|SG_speednode_0121
-  - 15|SG_speednode_0122
-  - 15|SG_speednode_0123
-  - 15|SG_speednode_0124
-  - 15|SG_speednode_0125
-  - 15|SG_speednode_0126
-  - 15|US_speednode_0128
-  - 15|US_speednode_0129
-  - 15|US_speednode_0130
-  - 15|US_speednode_0131
-  - 15|US_speednode_0132
-  - 15|US_speednode_0133
-  - 15|US_speednode_0134
-  - 15|US_speednode_0135
-  - 15|US_speednode_0136
-  - 15|US_speednode_0137
-  - 15|US_speednode_0138
-  - 15|US_speednode_0139
-  - 15|US_speednode_0140
-  - 15|US_speednode_0141
-  - 15|US_speednode_0142
-  - 15|US_speednode_0143
-  - 15|US_speednode_0144
-  - 15|US_speednode_0145
-  - 15|US_speednode_0146
-  - 15|US_speednode_0147
-  - 15|US_speednode_0148
-  - 15|US_speednode_0149
-  - 15|US_speednode_0150
-  - 15|US_speednode_0151
-  - 15|US_speednode_0152
-  - 15|US_speednode_0153
-  - 15|US_speednode_0154
-  - 15|US_speednode_0155
-  - 15|US_speednode_0156
-  - 15|US_speednode_0157
-  - 15|US_speednode_0158
-  - 15|US_speednode_0159
-  - 15|US_speednode_0160
-  - 15|US_speednode_0161
-  - 15|US_speednode_0162
-  - 15|US_speednode_0163
-  - 15|US_speednode_0164
-  - 15|US_speednode_0165
-  - 15|US_speednode_0166
-  - 15|US_speednode_0167
-  - 15|US_speednode_0168
-  - 15|US_speednode_0169
-  - 15|US_speednode_0170
-  - 15|US_speednode_0171
-  - 15|US_speednode_0172
-  - 15|US_speednode_0173
-  - 15|US_speednode_0174
-  - 15|US_speednode_0175
-  - 15|US_speednode_0176
-  - 15|US_speednode_0177
-  - 15|US_speednode_0178
-  - 15|US_speednode_0179
-  - 15|US_speednode_0180
-  - 15|US_speednode_0181
-  - 15|US_speednode_0182
-  - 15|US_speednode_0183
-  - 15|US_speednode_0184
-  - 15|US_speednode_0185
-  - 15|US_speednode_0186
-  - 15|US_speednode_0187
-  - 15|US_speednode_0188
-  - 15|US_speednode_0189
-  - 15|US_speednode_0190
+  - 15|JP_speednode_0017
+  - 15|JP_speednode_0018
+  - 15|JP_speednode_0019
+  - 15|JP_speednode_0020
+  - 15|KR_speednode_0021
+  - 15|TW_speednode_0024
+  - 15|TW_speednode_0025
+  - 15|TW_speednode_0026
+  - 15|US_speednode_0028
+  - 15|US_speednode_0029
+  - 15|US_speednode_0030
+  - 15|US_speednode_0031
+  - 15|US_speednode_0033
+  - 15|US_speednode_0034
+  - 15|US_speednode_0036
+  - 15|US_speednode_0037
+  - 15|US_speednode_0038
+  - 15|US_speednode_0039
+  - 15|US_speednode_0040
+  - 15|US_speednode_0041
+  - 15|US_speednode_0042
+  - 15|US_speednode_0043
+  - 15|US_speednode_0044
+  - 15|US_speednode_0045
+  - 15|US_speednode_0046
+  - 15|US_speednode_0047
+  - 15|US_speednode_0048
+  - 15|US_speednode_0049
+  - 15|US_speednode_0050
+  - 15|US_speednode_0051
+  - 15|US_speednode_0052
+  - 15|US_speednode_0054
+  - 15|US_speednode_0056
+  - 15|US_speednode_0057
   - '16|d*********g.com_2 #1'
   - 1
   type: url-test
@@ -3817,9 +1365,12 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - 0|--43
-  - 0|--45
-  - 0|--48
+  - 0|--4
+  - 0|--5
+  - 0|--6
+  - 0|--7
+  - 0|--8
+  - 0|--9
   - 5|d*********g.com_0
   - 5|d*********g.com_1
   - 5|d*********g.com_2
@@ -3831,228 +1382,81 @@ proxy-groups:
   - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-  - 🇭🇰 13,14|香港8|@ripaojiedian
-  - 🇭🇰 13|🇭🇰 香港9|@ripaojiedian
-  - 🇭🇰 13|🇭🇰 香港10|@ripaojiedian
-  - 🇹🇼 13,14|台湾|@ripaojiedian
+  - 🇭🇰 13|🇭🇰 香港8|@ripaojiedian
   - 🇯🇵 13,14|日本|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
-  - 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
+  - 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
   - 🇺🇸 13,14|美国|@ripaojiedian
   - 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
+  - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
   - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
-  - 🇮🇹 13|🇮🇹 意大利|@ripaojiedian
+  - 🇻🇳 13,14|越南|@ripaojiedian
   - 🇭🇰 14|香港3|@ripaojiedian
   - 🇭🇰 14|香港4|@ripaojiedian
   - 🇭🇰 14|香港5|@ripaojiedian
   - 🇭🇰 14|香港6|@ripaojiedian
   - 🇭🇰 14|香港7|@ripaojiedian
-  - 🇭🇰 14|香港9|@ripaojiedian
-  - 🇭🇰 14|香港10|@ripaojiedian
+  - 🇭🇰 14|香港8|@ripaojiedian
   - 🇯🇵 14|日本2|@ripaojiedian
   - 🇯🇵 14|日本3|@ripaojiedian
   - 🇯🇵 14|日本4|@ripaojiedian
   - 🇰🇷 14|韩国|@ripaojiedian
-  - 🇸🇬 14|新加坡|@ripaojiedian
   - 🇰🇷 14|韩国2|@ripaojiedian
+  - 🇰🇷 14|韩国3|@ripaojiedian
+  - 🇸🇬 14|新加坡|@ripaojiedian
   - 🇺🇸 14|美国2|@ripaojiedian
+  - 🇺🇸 14|美国3|@ripaojiedian
   - 🇰🇷 14|韩国特殊|@ripaojiedian
   - 🇯🇵 14|日本特殊|@ripaojiedian
   - 🇸🇬 14|狮城特殊|@ripaojiedian
-  - 🇮🇹 14|意大利|@ripaojiedian
-  - 15|CN_speednode_0001
-  - 15|CZ_speednode_0002
-  - 15|ES_speednode_0003
-  - 15|FR_speednode_0004
-  - 15|GB_speednode_0005
-  - 15|GB_speednode_0006
-  - 15|HK_speednode_0007
-  - 15|HK_speednode_0008
-  - 15|HK_speednode_0009
-  - 15|HK_speednode_0010
-  - 15|HK_speednode_0011
+  - 15|CN_speednode_0003
+  - 15|ES_speednode_0011
   - 15|HK_speednode_0012
   - 15|HK_speednode_0013
   - 15|HK_speednode_0014
   - 15|HK_speednode_0015
   - 15|HK_speednode_0016
-  - 15|HK_speednode_0017
-  - 15|HK_speednode_0018
-  - 15|HK_speednode_0019
-  - 15|HK_speednode_0020
-  - 15|HK_speednode_0021
-  - 15|JP_speednode_0022
-  - 15|JP_speednode_0023
-  - 15|JP_speednode_0024
-  - 15|JP_speednode_0025
-  - 15|JP_speednode_0026
-  - 15|JP_speednode_0027
-  - 15|JP_speednode_0028
-  - 15|JP_speednode_0029
-  - 15|JP_speednode_0030
-  - 15|KR_speednode_0032
-  - 15|KR_speednode_0033
-  - 15|KR_speednode_0034
-  - 15|KR_speednode_0035
-  - 15|KR_speednode_0036
-  - 15|KR_speednode_0037
-  - 15|KR_speednode_0038
-  - 15|KR_speednode_0039
-  - 15|KR_speednode_0040
-  - 15|KR_speednode_0041
-  - 15|KR_speednode_0042
-  - 15|KR_speednode_0043
-  - 15|KR_speednode_0044
-  - 15|KR_speednode_0045
-  - 15|KR_speednode_0046
-  - 15|KR_speednode_0047
-  - 15|KR_speednode_0048
-  - 15|KR_speednode_0049
-  - 15|KR_speednode_0050
-  - 15|KR_speednode_0051
-  - 15|KR_speednode_0052
-  - 15|KR_speednode_0053
-  - 15|KR_speednode_0054
-  - 15|KR_speednode_0055
-  - 15|KR_speednode_0056
-  - 15|KR_speednode_0057
-  - 15|KR_speednode_0058
-  - 15|KR_speednode_0059
-  - 15|KR_speednode_0060
-  - 15|KR_speednode_0061
-  - 15|KR_speednode_0062
-  - 15|KR_speednode_0063
-  - 15|KR_speednode_0064
-  - 15|KR_speednode_0065
-  - 15|KR_speednode_0066
-  - 15|KR_speednode_0067
-  - 15|KR_speednode_0068
-  - 15|KR_speednode_0069
-  - 15|KR_speednode_0070
-  - 15|KR_speednode_0071
-  - 15|KR_speednode_0072
-  - 15|KR_speednode_0073
-  - 15|KR_speednode_0074
-  - 15|KR_speednode_0075
-  - 15|KR_speednode_0076
-  - 15|KR_speednode_0077
-  - 15|KR_speednode_0078
-  - 15|KR_speednode_0079
-  - 15|KR_speednode_0080
-  - 15|KR_speednode_0081
-  - 15|KR_speednode_0082
-  - 15|KR_speednode_0083
-  - 15|KR_speednode_0084
-  - 15|LT_speednode_0085
-  - 15|LU_speednode_0086
-  - 15|NN_speednode_0088
-  - 15|NN_speednode_0089
-  - 15|RU_speednode_0090
-  - 15|RU_speednode_0091
-  - 15|SC_speednode_0092
-  - 15|SE_speednode_0093
-  - 15|SG_speednode_0094
-  - 15|SG_speednode_0095
-  - 15|SG_speednode_0096
-  - 15|SG_speednode_0097
-  - 15|SG_speednode_0098
-  - 15|SG_speednode_0099
-  - 15|SG_speednode_0100
-  - 15|SG_speednode_0101
-  - 15|SG_speednode_0102
-  - 15|SG_speednode_0103
-  - 15|SG_speednode_0104
-  - 15|SG_speednode_0105
-  - 15|SG_speednode_0106
-  - 15|SG_speednode_0107
-  - 15|SG_speednode_0108
-  - 15|SG_speednode_0109
-  - 15|SG_speednode_0110
-  - 15|SG_speednode_0111
-  - 15|SG_speednode_0112
-  - 15|SG_speednode_0113
-  - 15|SG_speednode_0114
-  - 15|SG_speednode_0115
-  - 15|SG_speednode_0116
-  - 15|SG_speednode_0117
-  - 15|SG_speednode_0118
-  - 15|SG_speednode_0119
-  - 15|SG_speednode_0120
-  - 15|SG_speednode_0121
-  - 15|SG_speednode_0122
-  - 15|SG_speednode_0123
-  - 15|SG_speednode_0124
-  - 15|SG_speednode_0125
-  - 15|SG_speednode_0126
-  - 15|US_speednode_0128
-  - 15|US_speednode_0129
-  - 15|US_speednode_0130
-  - 15|US_speednode_0131
-  - 15|US_speednode_0132
-  - 15|US_speednode_0133
-  - 15|US_speednode_0134
-  - 15|US_speednode_0135
-  - 15|US_speednode_0136
-  - 15|US_speednode_0137
-  - 15|US_speednode_0138
-  - 15|US_speednode_0139
-  - 15|US_speednode_0140
-  - 15|US_speednode_0141
-  - 15|US_speednode_0142
-  - 15|US_speednode_0143
-  - 15|US_speednode_0144
-  - 15|US_speednode_0145
-  - 15|US_speednode_0146
-  - 15|US_speednode_0147
-  - 15|US_speednode_0148
-  - 15|US_speednode_0149
-  - 15|US_speednode_0150
-  - 15|US_speednode_0151
-  - 15|US_speednode_0152
-  - 15|US_speednode_0153
-  - 15|US_speednode_0154
-  - 15|US_speednode_0155
-  - 15|US_speednode_0156
-  - 15|US_speednode_0157
-  - 15|US_speednode_0158
-  - 15|US_speednode_0159
-  - 15|US_speednode_0160
-  - 15|US_speednode_0161
-  - 15|US_speednode_0162
-  - 15|US_speednode_0163
-  - 15|US_speednode_0164
-  - 15|US_speednode_0165
-  - 15|US_speednode_0166
-  - 15|US_speednode_0167
-  - 15|US_speednode_0168
-  - 15|US_speednode_0169
-  - 15|US_speednode_0170
-  - 15|US_speednode_0171
-  - 15|US_speednode_0172
-  - 15|US_speednode_0173
-  - 15|US_speednode_0174
-  - 15|US_speednode_0175
-  - 15|US_speednode_0176
-  - 15|US_speednode_0177
-  - 15|US_speednode_0178
-  - 15|US_speednode_0179
-  - 15|US_speednode_0180
-  - 15|US_speednode_0181
-  - 15|US_speednode_0182
-  - 15|US_speednode_0183
-  - 15|US_speednode_0184
-  - 15|US_speednode_0185
-  - 15|US_speednode_0186
-  - 15|US_speednode_0187
-  - 15|US_speednode_0188
-  - 15|US_speednode_0189
-  - 15|US_speednode_0190
+  - 15|JP_speednode_0017
+  - 15|JP_speednode_0018
+  - 15|JP_speednode_0019
+  - 15|JP_speednode_0020
+  - 15|KR_speednode_0021
+  - 15|TW_speednode_0024
+  - 15|TW_speednode_0025
+  - 15|TW_speednode_0026
+  - 15|US_speednode_0028
+  - 15|US_speednode_0029
+  - 15|US_speednode_0030
+  - 15|US_speednode_0031
+  - 15|US_speednode_0033
+  - 15|US_speednode_0034
+  - 15|US_speednode_0036
+  - 15|US_speednode_0037
+  - 15|US_speednode_0038
+  - 15|US_speednode_0039
+  - 15|US_speednode_0040
+  - 15|US_speednode_0041
+  - 15|US_speednode_0042
+  - 15|US_speednode_0043
+  - 15|US_speednode_0044
+  - 15|US_speednode_0045
+  - 15|US_speednode_0046
+  - 15|US_speednode_0047
+  - 15|US_speednode_0048
+  - 15|US_speednode_0049
+  - 15|US_speednode_0050
+  - 15|US_speednode_0051
+  - 15|US_speednode_0052
+  - 15|US_speednode_0054
+  - 15|US_speednode_0056
+  - 15|US_speednode_0057
   - '16|d*********g.com_2 #1'
   - 1
   type: select
@@ -4066,17 +1470,13 @@ proxy-groups:
   - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-  - 🇭🇰 13,14|香港8|@ripaojiedian
-  - 🇭🇰 13|🇭🇰 香港9|@ripaojiedian
-  - 🇭🇰 13|🇭🇰 香港10|@ripaojiedian
-  - 🇹🇼 13,14|台湾|@ripaojiedian
+  - 🇭🇰 13|🇭🇰 香港8|@ripaojiedian
   - 🇭🇰 14|香港3|@ripaojiedian
   - 🇭🇰 14|香港4|@ripaojiedian
   - 🇭🇰 14|香港5|@ripaojiedian
   - 🇭🇰 14|香港6|@ripaojiedian
   - 🇭🇰 14|香港7|@ripaojiedian
-  - 🇭🇰 14|香港9|@ripaojiedian
-  - 🇭🇰 14|香港10|@ripaojiedian
+  - 🇭🇰 14|香港8|@ripaojiedian
   - 🔰 节点选择
   type: select
 - name: Ⓜ️ 微软服务
@@ -4087,9 +1487,12 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - 0|--43
-  - 0|--45
-  - 0|--48
+  - 0|--4
+  - 0|--5
+  - 0|--6
+  - 0|--7
+  - 0|--8
+  - 0|--9
   - 5|d*********g.com_0
   - 5|d*********g.com_1
   - 5|d*********g.com_2
@@ -4101,228 +1504,81 @@ proxy-groups:
   - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-  - 🇭🇰 13,14|香港8|@ripaojiedian
-  - 🇭🇰 13|🇭🇰 香港9|@ripaojiedian
-  - 🇭🇰 13|🇭🇰 香港10|@ripaojiedian
-  - 🇹🇼 13,14|台湾|@ripaojiedian
+  - 🇭🇰 13|🇭🇰 香港8|@ripaojiedian
   - 🇯🇵 13,14|日本|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
-  - 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
+  - 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
   - 🇺🇸 13,14|美国|@ripaojiedian
   - 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
+  - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
   - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
-  - 🇮🇹 13|🇮🇹 意大利|@ripaojiedian
+  - 🇻🇳 13,14|越南|@ripaojiedian
   - 🇭🇰 14|香港3|@ripaojiedian
   - 🇭🇰 14|香港4|@ripaojiedian
   - 🇭🇰 14|香港5|@ripaojiedian
   - 🇭🇰 14|香港6|@ripaojiedian
   - 🇭🇰 14|香港7|@ripaojiedian
-  - 🇭🇰 14|香港9|@ripaojiedian
-  - 🇭🇰 14|香港10|@ripaojiedian
+  - 🇭🇰 14|香港8|@ripaojiedian
   - 🇯🇵 14|日本2|@ripaojiedian
   - 🇯🇵 14|日本3|@ripaojiedian
   - 🇯🇵 14|日本4|@ripaojiedian
   - 🇰🇷 14|韩国|@ripaojiedian
-  - 🇸🇬 14|新加坡|@ripaojiedian
   - 🇰🇷 14|韩国2|@ripaojiedian
+  - 🇰🇷 14|韩国3|@ripaojiedian
+  - 🇸🇬 14|新加坡|@ripaojiedian
   - 🇺🇸 14|美国2|@ripaojiedian
+  - 🇺🇸 14|美国3|@ripaojiedian
   - 🇰🇷 14|韩国特殊|@ripaojiedian
   - 🇯🇵 14|日本特殊|@ripaojiedian
   - 🇸🇬 14|狮城特殊|@ripaojiedian
-  - 🇮🇹 14|意大利|@ripaojiedian
-  - 15|CN_speednode_0001
-  - 15|CZ_speednode_0002
-  - 15|ES_speednode_0003
-  - 15|FR_speednode_0004
-  - 15|GB_speednode_0005
-  - 15|GB_speednode_0006
-  - 15|HK_speednode_0007
-  - 15|HK_speednode_0008
-  - 15|HK_speednode_0009
-  - 15|HK_speednode_0010
-  - 15|HK_speednode_0011
+  - 15|CN_speednode_0003
+  - 15|ES_speednode_0011
   - 15|HK_speednode_0012
   - 15|HK_speednode_0013
   - 15|HK_speednode_0014
   - 15|HK_speednode_0015
   - 15|HK_speednode_0016
-  - 15|HK_speednode_0017
-  - 15|HK_speednode_0018
-  - 15|HK_speednode_0019
-  - 15|HK_speednode_0020
-  - 15|HK_speednode_0021
-  - 15|JP_speednode_0022
-  - 15|JP_speednode_0023
-  - 15|JP_speednode_0024
-  - 15|JP_speednode_0025
-  - 15|JP_speednode_0026
-  - 15|JP_speednode_0027
-  - 15|JP_speednode_0028
-  - 15|JP_speednode_0029
-  - 15|JP_speednode_0030
-  - 15|KR_speednode_0032
-  - 15|KR_speednode_0033
-  - 15|KR_speednode_0034
-  - 15|KR_speednode_0035
-  - 15|KR_speednode_0036
-  - 15|KR_speednode_0037
-  - 15|KR_speednode_0038
-  - 15|KR_speednode_0039
-  - 15|KR_speednode_0040
-  - 15|KR_speednode_0041
-  - 15|KR_speednode_0042
-  - 15|KR_speednode_0043
-  - 15|KR_speednode_0044
-  - 15|KR_speednode_0045
-  - 15|KR_speednode_0046
-  - 15|KR_speednode_0047
-  - 15|KR_speednode_0048
-  - 15|KR_speednode_0049
-  - 15|KR_speednode_0050
-  - 15|KR_speednode_0051
-  - 15|KR_speednode_0052
-  - 15|KR_speednode_0053
-  - 15|KR_speednode_0054
-  - 15|KR_speednode_0055
-  - 15|KR_speednode_0056
-  - 15|KR_speednode_0057
-  - 15|KR_speednode_0058
-  - 15|KR_speednode_0059
-  - 15|KR_speednode_0060
-  - 15|KR_speednode_0061
-  - 15|KR_speednode_0062
-  - 15|KR_speednode_0063
-  - 15|KR_speednode_0064
-  - 15|KR_speednode_0065
-  - 15|KR_speednode_0066
-  - 15|KR_speednode_0067
-  - 15|KR_speednode_0068
-  - 15|KR_speednode_0069
-  - 15|KR_speednode_0070
-  - 15|KR_speednode_0071
-  - 15|KR_speednode_0072
-  - 15|KR_speednode_0073
-  - 15|KR_speednode_0074
-  - 15|KR_speednode_0075
-  - 15|KR_speednode_0076
-  - 15|KR_speednode_0077
-  - 15|KR_speednode_0078
-  - 15|KR_speednode_0079
-  - 15|KR_speednode_0080
-  - 15|KR_speednode_0081
-  - 15|KR_speednode_0082
-  - 15|KR_speednode_0083
-  - 15|KR_speednode_0084
-  - 15|LT_speednode_0085
-  - 15|LU_speednode_0086
-  - 15|NN_speednode_0088
-  - 15|NN_speednode_0089
-  - 15|RU_speednode_0090
-  - 15|RU_speednode_0091
-  - 15|SC_speednode_0092
-  - 15|SE_speednode_0093
-  - 15|SG_speednode_0094
-  - 15|SG_speednode_0095
-  - 15|SG_speednode_0096
-  - 15|SG_speednode_0097
-  - 15|SG_speednode_0098
-  - 15|SG_speednode_0099
-  - 15|SG_speednode_0100
-  - 15|SG_speednode_0101
-  - 15|SG_speednode_0102
-  - 15|SG_speednode_0103
-  - 15|SG_speednode_0104
-  - 15|SG_speednode_0105
-  - 15|SG_speednode_0106
-  - 15|SG_speednode_0107
-  - 15|SG_speednode_0108
-  - 15|SG_speednode_0109
-  - 15|SG_speednode_0110
-  - 15|SG_speednode_0111
-  - 15|SG_speednode_0112
-  - 15|SG_speednode_0113
-  - 15|SG_speednode_0114
-  - 15|SG_speednode_0115
-  - 15|SG_speednode_0116
-  - 15|SG_speednode_0117
-  - 15|SG_speednode_0118
-  - 15|SG_speednode_0119
-  - 15|SG_speednode_0120
-  - 15|SG_speednode_0121
-  - 15|SG_speednode_0122
-  - 15|SG_speednode_0123
-  - 15|SG_speednode_0124
-  - 15|SG_speednode_0125
-  - 15|SG_speednode_0126
-  - 15|US_speednode_0128
-  - 15|US_speednode_0129
-  - 15|US_speednode_0130
-  - 15|US_speednode_0131
-  - 15|US_speednode_0132
-  - 15|US_speednode_0133
-  - 15|US_speednode_0134
-  - 15|US_speednode_0135
-  - 15|US_speednode_0136
-  - 15|US_speednode_0137
-  - 15|US_speednode_0138
-  - 15|US_speednode_0139
-  - 15|US_speednode_0140
-  - 15|US_speednode_0141
-  - 15|US_speednode_0142
-  - 15|US_speednode_0143
-  - 15|US_speednode_0144
-  - 15|US_speednode_0145
-  - 15|US_speednode_0146
-  - 15|US_speednode_0147
-  - 15|US_speednode_0148
-  - 15|US_speednode_0149
-  - 15|US_speednode_0150
-  - 15|US_speednode_0151
-  - 15|US_speednode_0152
-  - 15|US_speednode_0153
-  - 15|US_speednode_0154
-  - 15|US_speednode_0155
-  - 15|US_speednode_0156
-  - 15|US_speednode_0157
-  - 15|US_speednode_0158
-  - 15|US_speednode_0159
-  - 15|US_speednode_0160
-  - 15|US_speednode_0161
-  - 15|US_speednode_0162
-  - 15|US_speednode_0163
-  - 15|US_speednode_0164
-  - 15|US_speednode_0165
-  - 15|US_speednode_0166
-  - 15|US_speednode_0167
-  - 15|US_speednode_0168
-  - 15|US_speednode_0169
-  - 15|US_speednode_0170
-  - 15|US_speednode_0171
-  - 15|US_speednode_0172
-  - 15|US_speednode_0173
-  - 15|US_speednode_0174
-  - 15|US_speednode_0175
-  - 15|US_speednode_0176
-  - 15|US_speednode_0177
-  - 15|US_speednode_0178
-  - 15|US_speednode_0179
-  - 15|US_speednode_0180
-  - 15|US_speednode_0181
-  - 15|US_speednode_0182
-  - 15|US_speednode_0183
-  - 15|US_speednode_0184
-  - 15|US_speednode_0185
-  - 15|US_speednode_0186
-  - 15|US_speednode_0187
-  - 15|US_speednode_0188
-  - 15|US_speednode_0189
-  - 15|US_speednode_0190
+  - 15|JP_speednode_0017
+  - 15|JP_speednode_0018
+  - 15|JP_speednode_0019
+  - 15|JP_speednode_0020
+  - 15|KR_speednode_0021
+  - 15|TW_speednode_0024
+  - 15|TW_speednode_0025
+  - 15|TW_speednode_0026
+  - 15|US_speednode_0028
+  - 15|US_speednode_0029
+  - 15|US_speednode_0030
+  - 15|US_speednode_0031
+  - 15|US_speednode_0033
+  - 15|US_speednode_0034
+  - 15|US_speednode_0036
+  - 15|US_speednode_0037
+  - 15|US_speednode_0038
+  - 15|US_speednode_0039
+  - 15|US_speednode_0040
+  - 15|US_speednode_0041
+  - 15|US_speednode_0042
+  - 15|US_speednode_0043
+  - 15|US_speednode_0044
+  - 15|US_speednode_0045
+  - 15|US_speednode_0046
+  - 15|US_speednode_0047
+  - 15|US_speednode_0048
+  - 15|US_speednode_0049
+  - 15|US_speednode_0050
+  - 15|US_speednode_0051
+  - 15|US_speednode_0052
+  - 15|US_speednode_0054
+  - 15|US_speednode_0056
+  - 15|US_speednode_0057
   - '16|d*********g.com_2 #1'
   - 1
   type: select
@@ -4334,9 +1590,12 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - 0|--43
-  - 0|--45
-  - 0|--48
+  - 0|--4
+  - 0|--5
+  - 0|--6
+  - 0|--7
+  - 0|--8
+  - 0|--9
   - 5|d*********g.com_0
   - 5|d*********g.com_1
   - 5|d*********g.com_2
@@ -4348,228 +1607,81 @@ proxy-groups:
   - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-  - 🇭🇰 13,14|香港8|@ripaojiedian
-  - 🇭🇰 13|🇭🇰 香港9|@ripaojiedian
-  - 🇭🇰 13|🇭🇰 香港10|@ripaojiedian
-  - 🇹🇼 13,14|台湾|@ripaojiedian
+  - 🇭🇰 13|🇭🇰 香港8|@ripaojiedian
   - 🇯🇵 13,14|日本|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
-  - 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
+  - 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
   - 🇺🇸 13,14|美国|@ripaojiedian
   - 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
+  - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
   - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
-  - 🇮🇹 13|🇮🇹 意大利|@ripaojiedian
+  - 🇻🇳 13,14|越南|@ripaojiedian
   - 🇭🇰 14|香港3|@ripaojiedian
   - 🇭🇰 14|香港4|@ripaojiedian
   - 🇭🇰 14|香港5|@ripaojiedian
   - 🇭🇰 14|香港6|@ripaojiedian
   - 🇭🇰 14|香港7|@ripaojiedian
-  - 🇭🇰 14|香港9|@ripaojiedian
-  - 🇭🇰 14|香港10|@ripaojiedian
+  - 🇭🇰 14|香港8|@ripaojiedian
   - 🇯🇵 14|日本2|@ripaojiedian
   - 🇯🇵 14|日本3|@ripaojiedian
   - 🇯🇵 14|日本4|@ripaojiedian
   - 🇰🇷 14|韩国|@ripaojiedian
-  - 🇸🇬 14|新加坡|@ripaojiedian
   - 🇰🇷 14|韩国2|@ripaojiedian
+  - 🇰🇷 14|韩国3|@ripaojiedian
+  - 🇸🇬 14|新加坡|@ripaojiedian
   - 🇺🇸 14|美国2|@ripaojiedian
+  - 🇺🇸 14|美国3|@ripaojiedian
   - 🇰🇷 14|韩国特殊|@ripaojiedian
   - 🇯🇵 14|日本特殊|@ripaojiedian
   - 🇸🇬 14|狮城特殊|@ripaojiedian
-  - 🇮🇹 14|意大利|@ripaojiedian
-  - 15|CN_speednode_0001
-  - 15|CZ_speednode_0002
-  - 15|ES_speednode_0003
-  - 15|FR_speednode_0004
-  - 15|GB_speednode_0005
-  - 15|GB_speednode_0006
-  - 15|HK_speednode_0007
-  - 15|HK_speednode_0008
-  - 15|HK_speednode_0009
-  - 15|HK_speednode_0010
-  - 15|HK_speednode_0011
+  - 15|CN_speednode_0003
+  - 15|ES_speednode_0011
   - 15|HK_speednode_0012
   - 15|HK_speednode_0013
   - 15|HK_speednode_0014
   - 15|HK_speednode_0015
   - 15|HK_speednode_0016
-  - 15|HK_speednode_0017
-  - 15|HK_speednode_0018
-  - 15|HK_speednode_0019
-  - 15|HK_speednode_0020
-  - 15|HK_speednode_0021
-  - 15|JP_speednode_0022
-  - 15|JP_speednode_0023
-  - 15|JP_speednode_0024
-  - 15|JP_speednode_0025
-  - 15|JP_speednode_0026
-  - 15|JP_speednode_0027
-  - 15|JP_speednode_0028
-  - 15|JP_speednode_0029
-  - 15|JP_speednode_0030
-  - 15|KR_speednode_0032
-  - 15|KR_speednode_0033
-  - 15|KR_speednode_0034
-  - 15|KR_speednode_0035
-  - 15|KR_speednode_0036
-  - 15|KR_speednode_0037
-  - 15|KR_speednode_0038
-  - 15|KR_speednode_0039
-  - 15|KR_speednode_0040
-  - 15|KR_speednode_0041
-  - 15|KR_speednode_0042
-  - 15|KR_speednode_0043
-  - 15|KR_speednode_0044
-  - 15|KR_speednode_0045
-  - 15|KR_speednode_0046
-  - 15|KR_speednode_0047
-  - 15|KR_speednode_0048
-  - 15|KR_speednode_0049
-  - 15|KR_speednode_0050
-  - 15|KR_speednode_0051
-  - 15|KR_speednode_0052
-  - 15|KR_speednode_0053
-  - 15|KR_speednode_0054
-  - 15|KR_speednode_0055
-  - 15|KR_speednode_0056
-  - 15|KR_speednode_0057
-  - 15|KR_speednode_0058
-  - 15|KR_speednode_0059
-  - 15|KR_speednode_0060
-  - 15|KR_speednode_0061
-  - 15|KR_speednode_0062
-  - 15|KR_speednode_0063
-  - 15|KR_speednode_0064
-  - 15|KR_speednode_0065
-  - 15|KR_speednode_0066
-  - 15|KR_speednode_0067
-  - 15|KR_speednode_0068
-  - 15|KR_speednode_0069
-  - 15|KR_speednode_0070
-  - 15|KR_speednode_0071
-  - 15|KR_speednode_0072
-  - 15|KR_speednode_0073
-  - 15|KR_speednode_0074
-  - 15|KR_speednode_0075
-  - 15|KR_speednode_0076
-  - 15|KR_speednode_0077
-  - 15|KR_speednode_0078
-  - 15|KR_speednode_0079
-  - 15|KR_speednode_0080
-  - 15|KR_speednode_0081
-  - 15|KR_speednode_0082
-  - 15|KR_speednode_0083
-  - 15|KR_speednode_0084
-  - 15|LT_speednode_0085
-  - 15|LU_speednode_0086
-  - 15|NN_speednode_0088
-  - 15|NN_speednode_0089
-  - 15|RU_speednode_0090
-  - 15|RU_speednode_0091
-  - 15|SC_speednode_0092
-  - 15|SE_speednode_0093
-  - 15|SG_speednode_0094
-  - 15|SG_speednode_0095
-  - 15|SG_speednode_0096
-  - 15|SG_speednode_0097
-  - 15|SG_speednode_0098
-  - 15|SG_speednode_0099
-  - 15|SG_speednode_0100
-  - 15|SG_speednode_0101
-  - 15|SG_speednode_0102
-  - 15|SG_speednode_0103
-  - 15|SG_speednode_0104
-  - 15|SG_speednode_0105
-  - 15|SG_speednode_0106
-  - 15|SG_speednode_0107
-  - 15|SG_speednode_0108
-  - 15|SG_speednode_0109
-  - 15|SG_speednode_0110
-  - 15|SG_speednode_0111
-  - 15|SG_speednode_0112
-  - 15|SG_speednode_0113
-  - 15|SG_speednode_0114
-  - 15|SG_speednode_0115
-  - 15|SG_speednode_0116
-  - 15|SG_speednode_0117
-  - 15|SG_speednode_0118
-  - 15|SG_speednode_0119
-  - 15|SG_speednode_0120
-  - 15|SG_speednode_0121
-  - 15|SG_speednode_0122
-  - 15|SG_speednode_0123
-  - 15|SG_speednode_0124
-  - 15|SG_speednode_0125
-  - 15|SG_speednode_0126
-  - 15|US_speednode_0128
-  - 15|US_speednode_0129
-  - 15|US_speednode_0130
-  - 15|US_speednode_0131
-  - 15|US_speednode_0132
-  - 15|US_speednode_0133
-  - 15|US_speednode_0134
-  - 15|US_speednode_0135
-  - 15|US_speednode_0136
-  - 15|US_speednode_0137
-  - 15|US_speednode_0138
-  - 15|US_speednode_0139
-  - 15|US_speednode_0140
-  - 15|US_speednode_0141
-  - 15|US_speednode_0142
-  - 15|US_speednode_0143
-  - 15|US_speednode_0144
-  - 15|US_speednode_0145
-  - 15|US_speednode_0146
-  - 15|US_speednode_0147
-  - 15|US_speednode_0148
-  - 15|US_speednode_0149
-  - 15|US_speednode_0150
-  - 15|US_speednode_0151
-  - 15|US_speednode_0152
-  - 15|US_speednode_0153
-  - 15|US_speednode_0154
-  - 15|US_speednode_0155
-  - 15|US_speednode_0156
-  - 15|US_speednode_0157
-  - 15|US_speednode_0158
-  - 15|US_speednode_0159
-  - 15|US_speednode_0160
-  - 15|US_speednode_0161
-  - 15|US_speednode_0162
-  - 15|US_speednode_0163
-  - 15|US_speednode_0164
-  - 15|US_speednode_0165
-  - 15|US_speednode_0166
-  - 15|US_speednode_0167
-  - 15|US_speednode_0168
-  - 15|US_speednode_0169
-  - 15|US_speednode_0170
-  - 15|US_speednode_0171
-  - 15|US_speednode_0172
-  - 15|US_speednode_0173
-  - 15|US_speednode_0174
-  - 15|US_speednode_0175
-  - 15|US_speednode_0176
-  - 15|US_speednode_0177
-  - 15|US_speednode_0178
-  - 15|US_speednode_0179
-  - 15|US_speednode_0180
-  - 15|US_speednode_0181
-  - 15|US_speednode_0182
-  - 15|US_speednode_0183
-  - 15|US_speednode_0184
-  - 15|US_speednode_0185
-  - 15|US_speednode_0186
-  - 15|US_speednode_0187
-  - 15|US_speednode_0188
-  - 15|US_speednode_0189
-  - 15|US_speednode_0190
+  - 15|JP_speednode_0017
+  - 15|JP_speednode_0018
+  - 15|JP_speednode_0019
+  - 15|JP_speednode_0020
+  - 15|KR_speednode_0021
+  - 15|TW_speednode_0024
+  - 15|TW_speednode_0025
+  - 15|TW_speednode_0026
+  - 15|US_speednode_0028
+  - 15|US_speednode_0029
+  - 15|US_speednode_0030
+  - 15|US_speednode_0031
+  - 15|US_speednode_0033
+  - 15|US_speednode_0034
+  - 15|US_speednode_0036
+  - 15|US_speednode_0037
+  - 15|US_speednode_0038
+  - 15|US_speednode_0039
+  - 15|US_speednode_0040
+  - 15|US_speednode_0041
+  - 15|US_speednode_0042
+  - 15|US_speednode_0043
+  - 15|US_speednode_0044
+  - 15|US_speednode_0045
+  - 15|US_speednode_0046
+  - 15|US_speednode_0047
+  - 15|US_speednode_0048
+  - 15|US_speednode_0049
+  - 15|US_speednode_0050
+  - 15|US_speednode_0051
+  - 15|US_speednode_0052
+  - 15|US_speednode_0054
+  - 15|US_speednode_0056
+  - 15|US_speednode_0057
   - '16|d*********g.com_2 #1'
   - 1
   type: select
@@ -4582,9 +1694,12 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - 0|--43
-  - 0|--45
-  - 0|--48
+  - 0|--4
+  - 0|--5
+  - 0|--6
+  - 0|--7
+  - 0|--8
+  - 0|--9
   - 5|d*********g.com_0
   - 5|d*********g.com_1
   - 5|d*********g.com_2
@@ -4596,228 +1711,81 @@ proxy-groups:
   - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-  - 🇭🇰 13,14|香港8|@ripaojiedian
-  - 🇭🇰 13|🇭🇰 香港9|@ripaojiedian
-  - 🇭🇰 13|🇭🇰 香港10|@ripaojiedian
-  - 🇹🇼 13,14|台湾|@ripaojiedian
+  - 🇭🇰 13|🇭🇰 香港8|@ripaojiedian
   - 🇯🇵 13,14|日本|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
-  - 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
+  - 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
   - 🇺🇸 13,14|美国|@ripaojiedian
   - 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
+  - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
   - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
-  - 🇮🇹 13|🇮🇹 意大利|@ripaojiedian
+  - 🇻🇳 13,14|越南|@ripaojiedian
   - 🇭🇰 14|香港3|@ripaojiedian
   - 🇭🇰 14|香港4|@ripaojiedian
   - 🇭🇰 14|香港5|@ripaojiedian
   - 🇭🇰 14|香港6|@ripaojiedian
   - 🇭🇰 14|香港7|@ripaojiedian
-  - 🇭🇰 14|香港9|@ripaojiedian
-  - 🇭🇰 14|香港10|@ripaojiedian
+  - 🇭🇰 14|香港8|@ripaojiedian
   - 🇯🇵 14|日本2|@ripaojiedian
   - 🇯🇵 14|日本3|@ripaojiedian
   - 🇯🇵 14|日本4|@ripaojiedian
   - 🇰🇷 14|韩国|@ripaojiedian
-  - 🇸🇬 14|新加坡|@ripaojiedian
   - 🇰🇷 14|韩国2|@ripaojiedian
+  - 🇰🇷 14|韩国3|@ripaojiedian
+  - 🇸🇬 14|新加坡|@ripaojiedian
   - 🇺🇸 14|美国2|@ripaojiedian
+  - 🇺🇸 14|美国3|@ripaojiedian
   - 🇰🇷 14|韩国特殊|@ripaojiedian
   - 🇯🇵 14|日本特殊|@ripaojiedian
   - 🇸🇬 14|狮城特殊|@ripaojiedian
-  - 🇮🇹 14|意大利|@ripaojiedian
-  - 15|CN_speednode_0001
-  - 15|CZ_speednode_0002
-  - 15|ES_speednode_0003
-  - 15|FR_speednode_0004
-  - 15|GB_speednode_0005
-  - 15|GB_speednode_0006
-  - 15|HK_speednode_0007
-  - 15|HK_speednode_0008
-  - 15|HK_speednode_0009
-  - 15|HK_speednode_0010
-  - 15|HK_speednode_0011
+  - 15|CN_speednode_0003
+  - 15|ES_speednode_0011
   - 15|HK_speednode_0012
   - 15|HK_speednode_0013
   - 15|HK_speednode_0014
   - 15|HK_speednode_0015
   - 15|HK_speednode_0016
-  - 15|HK_speednode_0017
-  - 15|HK_speednode_0018
-  - 15|HK_speednode_0019
-  - 15|HK_speednode_0020
-  - 15|HK_speednode_0021
-  - 15|JP_speednode_0022
-  - 15|JP_speednode_0023
-  - 15|JP_speednode_0024
-  - 15|JP_speednode_0025
-  - 15|JP_speednode_0026
-  - 15|JP_speednode_0027
-  - 15|JP_speednode_0028
-  - 15|JP_speednode_0029
-  - 15|JP_speednode_0030
-  - 15|KR_speednode_0032
-  - 15|KR_speednode_0033
-  - 15|KR_speednode_0034
-  - 15|KR_speednode_0035
-  - 15|KR_speednode_0036
-  - 15|KR_speednode_0037
-  - 15|KR_speednode_0038
-  - 15|KR_speednode_0039
-  - 15|KR_speednode_0040
-  - 15|KR_speednode_0041
-  - 15|KR_speednode_0042
-  - 15|KR_speednode_0043
-  - 15|KR_speednode_0044
-  - 15|KR_speednode_0045
-  - 15|KR_speednode_0046
-  - 15|KR_speednode_0047
-  - 15|KR_speednode_0048
-  - 15|KR_speednode_0049
-  - 15|KR_speednode_0050
-  - 15|KR_speednode_0051
-  - 15|KR_speednode_0052
-  - 15|KR_speednode_0053
-  - 15|KR_speednode_0054
-  - 15|KR_speednode_0055
-  - 15|KR_speednode_0056
-  - 15|KR_speednode_0057
-  - 15|KR_speednode_0058
-  - 15|KR_speednode_0059
-  - 15|KR_speednode_0060
-  - 15|KR_speednode_0061
-  - 15|KR_speednode_0062
-  - 15|KR_speednode_0063
-  - 15|KR_speednode_0064
-  - 15|KR_speednode_0065
-  - 15|KR_speednode_0066
-  - 15|KR_speednode_0067
-  - 15|KR_speednode_0068
-  - 15|KR_speednode_0069
-  - 15|KR_speednode_0070
-  - 15|KR_speednode_0071
-  - 15|KR_speednode_0072
-  - 15|KR_speednode_0073
-  - 15|KR_speednode_0074
-  - 15|KR_speednode_0075
-  - 15|KR_speednode_0076
-  - 15|KR_speednode_0077
-  - 15|KR_speednode_0078
-  - 15|KR_speednode_0079
-  - 15|KR_speednode_0080
-  - 15|KR_speednode_0081
-  - 15|KR_speednode_0082
-  - 15|KR_speednode_0083
-  - 15|KR_speednode_0084
-  - 15|LT_speednode_0085
-  - 15|LU_speednode_0086
-  - 15|NN_speednode_0088
-  - 15|NN_speednode_0089
-  - 15|RU_speednode_0090
-  - 15|RU_speednode_0091
-  - 15|SC_speednode_0092
-  - 15|SE_speednode_0093
-  - 15|SG_speednode_0094
-  - 15|SG_speednode_0095
-  - 15|SG_speednode_0096
-  - 15|SG_speednode_0097
-  - 15|SG_speednode_0098
-  - 15|SG_speednode_0099
-  - 15|SG_speednode_0100
-  - 15|SG_speednode_0101
-  - 15|SG_speednode_0102
-  - 15|SG_speednode_0103
-  - 15|SG_speednode_0104
-  - 15|SG_speednode_0105
-  - 15|SG_speednode_0106
-  - 15|SG_speednode_0107
-  - 15|SG_speednode_0108
-  - 15|SG_speednode_0109
-  - 15|SG_speednode_0110
-  - 15|SG_speednode_0111
-  - 15|SG_speednode_0112
-  - 15|SG_speednode_0113
-  - 15|SG_speednode_0114
-  - 15|SG_speednode_0115
-  - 15|SG_speednode_0116
-  - 15|SG_speednode_0117
-  - 15|SG_speednode_0118
-  - 15|SG_speednode_0119
-  - 15|SG_speednode_0120
-  - 15|SG_speednode_0121
-  - 15|SG_speednode_0122
-  - 15|SG_speednode_0123
-  - 15|SG_speednode_0124
-  - 15|SG_speednode_0125
-  - 15|SG_speednode_0126
-  - 15|US_speednode_0128
-  - 15|US_speednode_0129
-  - 15|US_speednode_0130
-  - 15|US_speednode_0131
-  - 15|US_speednode_0132
-  - 15|US_speednode_0133
-  - 15|US_speednode_0134
-  - 15|US_speednode_0135
-  - 15|US_speednode_0136
-  - 15|US_speednode_0137
-  - 15|US_speednode_0138
-  - 15|US_speednode_0139
-  - 15|US_speednode_0140
-  - 15|US_speednode_0141
-  - 15|US_speednode_0142
-  - 15|US_speednode_0143
-  - 15|US_speednode_0144
-  - 15|US_speednode_0145
-  - 15|US_speednode_0146
-  - 15|US_speednode_0147
-  - 15|US_speednode_0148
-  - 15|US_speednode_0149
-  - 15|US_speednode_0150
-  - 15|US_speednode_0151
-  - 15|US_speednode_0152
-  - 15|US_speednode_0153
-  - 15|US_speednode_0154
-  - 15|US_speednode_0155
-  - 15|US_speednode_0156
-  - 15|US_speednode_0157
-  - 15|US_speednode_0158
-  - 15|US_speednode_0159
-  - 15|US_speednode_0160
-  - 15|US_speednode_0161
-  - 15|US_speednode_0162
-  - 15|US_speednode_0163
-  - 15|US_speednode_0164
-  - 15|US_speednode_0165
-  - 15|US_speednode_0166
-  - 15|US_speednode_0167
-  - 15|US_speednode_0168
-  - 15|US_speednode_0169
-  - 15|US_speednode_0170
-  - 15|US_speednode_0171
-  - 15|US_speednode_0172
-  - 15|US_speednode_0173
-  - 15|US_speednode_0174
-  - 15|US_speednode_0175
-  - 15|US_speednode_0176
-  - 15|US_speednode_0177
-  - 15|US_speednode_0178
-  - 15|US_speednode_0179
-  - 15|US_speednode_0180
-  - 15|US_speednode_0181
-  - 15|US_speednode_0182
-  - 15|US_speednode_0183
-  - 15|US_speednode_0184
-  - 15|US_speednode_0185
-  - 15|US_speednode_0186
-  - 15|US_speednode_0187
-  - 15|US_speednode_0188
-  - 15|US_speednode_0189
-  - 15|US_speednode_0190
+  - 15|JP_speednode_0017
+  - 15|JP_speednode_0018
+  - 15|JP_speednode_0019
+  - 15|JP_speednode_0020
+  - 15|KR_speednode_0021
+  - 15|TW_speednode_0024
+  - 15|TW_speednode_0025
+  - 15|TW_speednode_0026
+  - 15|US_speednode_0028
+  - 15|US_speednode_0029
+  - 15|US_speednode_0030
+  - 15|US_speednode_0031
+  - 15|US_speednode_0033
+  - 15|US_speednode_0034
+  - 15|US_speednode_0036
+  - 15|US_speednode_0037
+  - 15|US_speednode_0038
+  - 15|US_speednode_0039
+  - 15|US_speednode_0040
+  - 15|US_speednode_0041
+  - 15|US_speednode_0042
+  - 15|US_speednode_0043
+  - 15|US_speednode_0044
+  - 15|US_speednode_0045
+  - 15|US_speednode_0046
+  - 15|US_speednode_0047
+  - 15|US_speednode_0048
+  - 15|US_speednode_0049
+  - 15|US_speednode_0050
+  - 15|US_speednode_0051
+  - 15|US_speednode_0052
+  - 15|US_speednode_0054
+  - 15|US_speednode_0056
+  - 15|US_speednode_0057
   - '16|d*********g.com_2 #1'
   - 1
   type: select
@@ -4839,9 +1807,12 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - 0|--43
-  - 0|--45
-  - 0|--48
+  - 0|--4
+  - 0|--5
+  - 0|--6
+  - 0|--7
+  - 0|--8
+  - 0|--9
   - 5|d*********g.com_0
   - 5|d*********g.com_1
   - 5|d*********g.com_2
@@ -4853,228 +1824,81 @@ proxy-groups:
   - 🇭🇰 13|🇭🇰 香港5|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港6|@ripaojiedian
   - 🇭🇰 13|🇭🇰 香港7|@ripaojiedian
-  - 🇭🇰 13,14|香港8|@ripaojiedian
-  - 🇭🇰 13|🇭🇰 香港9|@ripaojiedian
-  - 🇭🇰 13|🇭🇰 香港10|@ripaojiedian
-  - 🇹🇼 13,14|台湾|@ripaojiedian
+  - 🇭🇰 13|🇭🇰 香港8|@ripaojiedian
   - 🇯🇵 13,14|日本|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本2|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本3|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本4|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国|@ripaojiedian
-  - 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国2|@ripaojiedian
+  - 🇰🇷 13|🇰🇷 韩国3|@ripaojiedian
+  - 🇸🇬 13|🇸🇬 新加坡|@ripaojiedian
   - 🇺🇸 13,14|美国|@ripaojiedian
   - 🇺🇸 13|🇺🇸 美国2|@ripaojiedian
+  - 🇺🇸 13|🇺🇸 美国3|@ripaojiedian
   - 🇰🇷 13|🇰🇷 韩国特殊|@ripaojiedian
   - 🇯🇵 13|🇯🇵 日本特殊|@ripaojiedian
   - 🇸🇬 13|🇸🇬 狮城特殊|@ripaojiedian
-  - 🇮🇹 13|🇮🇹 意大利|@ripaojiedian
+  - 🇻🇳 13,14|越南|@ripaojiedian
   - 🇭🇰 14|香港3|@ripaojiedian
   - 🇭🇰 14|香港4|@ripaojiedian
   - 🇭🇰 14|香港5|@ripaojiedian
   - 🇭🇰 14|香港6|@ripaojiedian
   - 🇭🇰 14|香港7|@ripaojiedian
-  - 🇭🇰 14|香港9|@ripaojiedian
-  - 🇭🇰 14|香港10|@ripaojiedian
+  - 🇭🇰 14|香港8|@ripaojiedian
   - 🇯🇵 14|日本2|@ripaojiedian
   - 🇯🇵 14|日本3|@ripaojiedian
   - 🇯🇵 14|日本4|@ripaojiedian
   - 🇰🇷 14|韩国|@ripaojiedian
-  - 🇸🇬 14|新加坡|@ripaojiedian
   - 🇰🇷 14|韩国2|@ripaojiedian
+  - 🇰🇷 14|韩国3|@ripaojiedian
+  - 🇸🇬 14|新加坡|@ripaojiedian
   - 🇺🇸 14|美国2|@ripaojiedian
+  - 🇺🇸 14|美国3|@ripaojiedian
   - 🇰🇷 14|韩国特殊|@ripaojiedian
   - 🇯🇵 14|日本特殊|@ripaojiedian
   - 🇸🇬 14|狮城特殊|@ripaojiedian
-  - 🇮🇹 14|意大利|@ripaojiedian
-  - 15|CN_speednode_0001
-  - 15|CZ_speednode_0002
-  - 15|ES_speednode_0003
-  - 15|FR_speednode_0004
-  - 15|GB_speednode_0005
-  - 15|GB_speednode_0006
-  - 15|HK_speednode_0007
-  - 15|HK_speednode_0008
-  - 15|HK_speednode_0009
-  - 15|HK_speednode_0010
-  - 15|HK_speednode_0011
+  - 15|CN_speednode_0003
+  - 15|ES_speednode_0011
   - 15|HK_speednode_0012
   - 15|HK_speednode_0013
   - 15|HK_speednode_0014
   - 15|HK_speednode_0015
   - 15|HK_speednode_0016
-  - 15|HK_speednode_0017
-  - 15|HK_speednode_0018
-  - 15|HK_speednode_0019
-  - 15|HK_speednode_0020
-  - 15|HK_speednode_0021
-  - 15|JP_speednode_0022
-  - 15|JP_speednode_0023
-  - 15|JP_speednode_0024
-  - 15|JP_speednode_0025
-  - 15|JP_speednode_0026
-  - 15|JP_speednode_0027
-  - 15|JP_speednode_0028
-  - 15|JP_speednode_0029
-  - 15|JP_speednode_0030
-  - 15|KR_speednode_0032
-  - 15|KR_speednode_0033
-  - 15|KR_speednode_0034
-  - 15|KR_speednode_0035
-  - 15|KR_speednode_0036
-  - 15|KR_speednode_0037
-  - 15|KR_speednode_0038
-  - 15|KR_speednode_0039
-  - 15|KR_speednode_0040
-  - 15|KR_speednode_0041
-  - 15|KR_speednode_0042
-  - 15|KR_speednode_0043
-  - 15|KR_speednode_0044
-  - 15|KR_speednode_0045
-  - 15|KR_speednode_0046
-  - 15|KR_speednode_0047
-  - 15|KR_speednode_0048
-  - 15|KR_speednode_0049
-  - 15|KR_speednode_0050
-  - 15|KR_speednode_0051
-  - 15|KR_speednode_0052
-  - 15|KR_speednode_0053
-  - 15|KR_speednode_0054
-  - 15|KR_speednode_0055
-  - 15|KR_speednode_0056
-  - 15|KR_speednode_0057
-  - 15|KR_speednode_0058
-  - 15|KR_speednode_0059
-  - 15|KR_speednode_0060
-  - 15|KR_speednode_0061
-  - 15|KR_speednode_0062
-  - 15|KR_speednode_0063
-  - 15|KR_speednode_0064
-  - 15|KR_speednode_0065
-  - 15|KR_speednode_0066
-  - 15|KR_speednode_0067
-  - 15|KR_speednode_0068
-  - 15|KR_speednode_0069
-  - 15|KR_speednode_0070
-  - 15|KR_speednode_0071
-  - 15|KR_speednode_0072
-  - 15|KR_speednode_0073
-  - 15|KR_speednode_0074
-  - 15|KR_speednode_0075
-  - 15|KR_speednode_0076
-  - 15|KR_speednode_0077
-  - 15|KR_speednode_0078
-  - 15|KR_speednode_0079
-  - 15|KR_speednode_0080
-  - 15|KR_speednode_0081
-  - 15|KR_speednode_0082
-  - 15|KR_speednode_0083
-  - 15|KR_speednode_0084
-  - 15|LT_speednode_0085
-  - 15|LU_speednode_0086
-  - 15|NN_speednode_0088
-  - 15|NN_speednode_0089
-  - 15|RU_speednode_0090
-  - 15|RU_speednode_0091
-  - 15|SC_speednode_0092
-  - 15|SE_speednode_0093
-  - 15|SG_speednode_0094
-  - 15|SG_speednode_0095
-  - 15|SG_speednode_0096
-  - 15|SG_speednode_0097
-  - 15|SG_speednode_0098
-  - 15|SG_speednode_0099
-  - 15|SG_speednode_0100
-  - 15|SG_speednode_0101
-  - 15|SG_speednode_0102
-  - 15|SG_speednode_0103
-  - 15|SG_speednode_0104
-  - 15|SG_speednode_0105
-  - 15|SG_speednode_0106
-  - 15|SG_speednode_0107
-  - 15|SG_speednode_0108
-  - 15|SG_speednode_0109
-  - 15|SG_speednode_0110
-  - 15|SG_speednode_0111
-  - 15|SG_speednode_0112
-  - 15|SG_speednode_0113
-  - 15|SG_speednode_0114
-  - 15|SG_speednode_0115
-  - 15|SG_speednode_0116
-  - 15|SG_speednode_0117
-  - 15|SG_speednode_0118
-  - 15|SG_speednode_0119
-  - 15|SG_speednode_0120
-  - 15|SG_speednode_0121
-  - 15|SG_speednode_0122
-  - 15|SG_speednode_0123
-  - 15|SG_speednode_0124
-  - 15|SG_speednode_0125
-  - 15|SG_speednode_0126
-  - 15|US_speednode_0128
-  - 15|US_speednode_0129
-  - 15|US_speednode_0130
-  - 15|US_speednode_0131
-  - 15|US_speednode_0132
-  - 15|US_speednode_0133
-  - 15|US_speednode_0134
-  - 15|US_speednode_0135
-  - 15|US_speednode_0136
-  - 15|US_speednode_0137
-  - 15|US_speednode_0138
-  - 15|US_speednode_0139
-  - 15|US_speednode_0140
-  - 15|US_speednode_0141
-  - 15|US_speednode_0142
-  - 15|US_speednode_0143
-  - 15|US_speednode_0144
-  - 15|US_speednode_0145
-  - 15|US_speednode_0146
-  - 15|US_speednode_0147
-  - 15|US_speednode_0148
-  - 15|US_speednode_0149
-  - 15|US_speednode_0150
-  - 15|US_speednode_0151
-  - 15|US_speednode_0152
-  - 15|US_speednode_0153
-  - 15|US_speednode_0154
-  - 15|US_speednode_0155
-  - 15|US_speednode_0156
-  - 15|US_speednode_0157
-  - 15|US_speednode_0158
-  - 15|US_speednode_0159
-  - 15|US_speednode_0160
-  - 15|US_speednode_0161
-  - 15|US_speednode_0162
-  - 15|US_speednode_0163
-  - 15|US_speednode_0164
-  - 15|US_speednode_0165
-  - 15|US_speednode_0166
-  - 15|US_speednode_0167
-  - 15|US_speednode_0168
-  - 15|US_speednode_0169
-  - 15|US_speednode_0170
-  - 15|US_speednode_0171
-  - 15|US_speednode_0172
-  - 15|US_speednode_0173
-  - 15|US_speednode_0174
-  - 15|US_speednode_0175
-  - 15|US_speednode_0176
-  - 15|US_speednode_0177
-  - 15|US_speednode_0178
-  - 15|US_speednode_0179
-  - 15|US_speednode_0180
-  - 15|US_speednode_0181
-  - 15|US_speednode_0182
-  - 15|US_speednode_0183
-  - 15|US_speednode_0184
-  - 15|US_speednode_0185
-  - 15|US_speednode_0186
-  - 15|US_speednode_0187
-  - 15|US_speednode_0188
-  - 15|US_speednode_0189
-  - 15|US_speednode_0190
+  - 15|JP_speednode_0017
+  - 15|JP_speednode_0018
+  - 15|JP_speednode_0019
+  - 15|JP_speednode_0020
+  - 15|KR_speednode_0021
+  - 15|TW_speednode_0024
+  - 15|TW_speednode_0025
+  - 15|TW_speednode_0026
+  - 15|US_speednode_0028
+  - 15|US_speednode_0029
+  - 15|US_speednode_0030
+  - 15|US_speednode_0031
+  - 15|US_speednode_0033
+  - 15|US_speednode_0034
+  - 15|US_speednode_0036
+  - 15|US_speednode_0037
+  - 15|US_speednode_0038
+  - 15|US_speednode_0039
+  - 15|US_speednode_0040
+  - 15|US_speednode_0041
+  - 15|US_speednode_0042
+  - 15|US_speednode_0043
+  - 15|US_speednode_0044
+  - 15|US_speednode_0045
+  - 15|US_speednode_0046
+  - 15|US_speednode_0047
+  - 15|US_speednode_0048
+  - 15|US_speednode_0049
+  - 15|US_speednode_0050
+  - 15|US_speednode_0051
+  - 15|US_speednode_0052
+  - 15|US_speednode_0054
+  - 15|US_speednode_0056
+  - 15|US_speednode_0057
   - '16|d*********g.com_2 #1'
   - 1
   type: select
