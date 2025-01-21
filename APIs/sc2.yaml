@@ -53,33 +53,8 @@ proxies:
   server: 127.0.0.1
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_美国_1
-  network: ws
-  port: 80
-  server: 104.19.48.236
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  version: '2'
-  ws-opts:
-    headers:
-      host: chunchuan.kejixiaoqi666.store
-    path: /
-- name: 中国 > 美国_1
-  password: e279c494-c426-443a-a034-a04516409242
-  port: 13035
-  server: naiu-other.05vr9nyqg5.download
-  skip-cert-verify: true
-  sni: naiu-other.05vr9nyqg5.download
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 中国 > 美国_2
+  name: 中国+>+美国_2
   password: f16d3752-7bae-474e-87dc-f892df2caeaf
   port: 31620
   server: ctmm.gscloud.bond
@@ -92,13 +67,6 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇦_乌克兰_1
-  password: ZmQwZjFk
-  port: 8388
-  server: 95.164.36.59
-  type: ss
-  udp: true
 - name: 🇧🇪_比利时_1
   password: 243eab52-9ac1-405c-887c-eb112c0985b8
   port: 443
@@ -107,19 +75,6 @@ proxies:
   sni: tw01.trojanyyds.xyz
   type: trojan
   udp: true
-- alterId: 64
-  cipher: auto
-  name: 🇨中国 > 美国_3
-  network: tcp
-  port: 46602
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  version: '2'
 - name: 🇺🇸_美国_3
   password: 243eab52-9ac1-405c-887c-eb112c0985b8
   port: 443
@@ -128,7 +83,7 @@ proxies:
   sni: in01.trojanyyds.xyz
   type: trojan
   udp: true
-- name: 🇨🇳_中国 > 美国_4
+- name: 🇨🇳_中国+>+美国_4
   password: vzhXXZVw
   port: 12524
   server: 36.150.215.222
@@ -136,7 +91,7 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇨🇳_中国 > 美国_5
+  name: 🇨🇳_中国+>+美国_5
   password: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
   port: 6181
   server: 45.250.184.183
@@ -150,90 +105,14 @@ proxies:
   sni: sg02.trojanyyds.xyz
   type: trojan
   udp: true
-- name: 🇨🇳_中国 > 美国_6
+- name: 🇨🇳_中国+>+美国_6
   password: fuck
   port: 443
   server: 42.236.73.72
   skip-cert-verify: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇷🇺_俄罗斯_1
-  network: ws
-  port: 17926
-  server: 194.87.69.52
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1cc59a3a-9625-40f7-b0e6-e233286ae82d
-  version: '2'
-  ws-opts:
-    headers:
-      host: 194.87.69.52
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_美国_5
-  network: ws
-  port: 80
-  server: 104.16.155.10
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e6543319-0574-42ac-b778-1c4325d626f5
-  version: '2'
-  ws-opts:
-    headers:
-      host: chunchuan.kejixiaoqi666.store
-    path: /
-- cipher: aes-256-gcm
-  name: 🇨🇳_中国 > 美国_7
-  password: HEFXL9QGFUT6ET4L
-  port: 18013
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  type: ss
-  udp: true
-- name: 🇨🇳_中国 > 美国_8
-  password: phXKwfrd
-  port: 42395
-  server: 36.150.215.219
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🏳中国 > 美国_9
-  password: e279c494-c426-443a-a034-a04516409242
-  port: 13012
-  server: naiu-jp.05vr9nyqg5.download
-  skip-cert-verify: true
-  sni: naiu-jp.05vr9nyqg5.download
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇦_乌克兰_2
-  password: ZDAxZDE2
-  port: 8388
-  server: 95.164.44.221
-  type: ss
-  udp: true
-- alterId: 64
-  cipher: auto
-  name: 🇨🇳_中国 > 美国_10
-  network: tcp
-  port: 56601
-  server: 183.236.51.23
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  version: '2'
-- name: 🇨🇳_中国 > 美国_11
+- name: 🇨🇳_中国+>+美国_11
   password: phXKwfrd
   port: 21673
   server: 223.111.144.12
@@ -253,20 +132,7 @@ proxies:
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   version: '2'
-- alterId: 64
-  cipher: auto
-  name: 🇨🇳_中国 > 美国_13
-  network: tcp
-  port: 50052
-  server: 183.236.48.158
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  version: '2'
-- name: 🇨🇳_中国 > 美国_14
+- name: 🇨🇳_中国+>+美国_14
   password: phXKwfrd
   port: 36442
   server: 223.113.54.145
@@ -281,30 +147,6 @@ proxies:
   sni: us01.trojanyyds.xyz
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧_英国
-  network: ws
-  port: 17926
-  server: 5.39.252.204
-  servername: ''
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1cc59a3a-9625-40f7-b0e6-e233286ae82d
-  version: '2'
-  ws-opts:
-    headers:
-      host: ''
-    path: /
-- cipher: aes-256-gcm
-  name: 🇨🇳_中国 > 美国_15
-  password: H5IGGU6EPG7XR7X4
-  port: 16014
-  server: ti3hyra4.slashdevslashnetslashtun.net
-  type: ss
-  udp: true
 - cipher: chacha20-ietf-poly1305
   name: 🇷🇺_俄罗斯_2
   password: MDZhNTAz
@@ -312,7 +154,7 @@ proxies:
   server: 89.221.224.166
   type: ss
   udp: true
-- name: 🇨🇳_中国 > 美国_16
+- name: 🇨🇳_中国+>+美国_16
   password: 38571ca6-6692-4559-b901-0bc5826b7661
   port: 60194
   server: ru0195.alibabaokz.com
@@ -337,6 +179,27 @@ proxies:
     headers:
       host: cm1.awslcn.info
     path: /
+- cipher: aes-256-cfb
+  name: 🇷🇺_RU_俄罗斯_1
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.173
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇨🇭_CH_瑞士
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 84.17.53.160
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国->🇯🇵_JP_日本
+  password: amazonskr05
+  port: 443
+  server: 54.212.56.181
+  type: ss
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -345,35 +208,24 @@ proxy-groups:
   - 6元高速机场:cczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
-  - 🇺🇸_美国_1
-  - 🏳️_未知_1
-  - 🇨🇳_中国_1
+  - 中国+>+美国_2
   - 🇺🇸_美国_2
-  - 🇺🇦_乌克兰_1
   - 🇧🇪_比利时_1
-  - 🇨🇳_中国_2
   - 🇺🇸_美国_3
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
+  - 🇨🇳_中国+>+美国_4
+  - 🇨🇳_中国+>+美国_5
   - 🇺🇸_美国_4
-  - 🇨🇳_中国_5
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_5
-  - 🇨🇳_中国_6
-  - 🇨🇳_中国_7
-  - 🏳️_未知_2
-  - 🇺🇦_乌克兰_2
-  - 🇨🇳_中国_8
-  - 🇨🇳_中国_9
-  - 🇨🇳_中国_10
-  - 🇨🇳_中国_11
-  - 🇨🇳_中国_12
+  - 🇨🇳_中国+>+美国_6
+  - 🇨🇳_中国+>+美国_11
+  - 🇨🇳_中国 > 美国_12
+  - 🇨🇳_中国+>+美国_14
   - 🇧🇪_比利时_2
-  - 🇬🇧_英国
-  - 🇨🇳_中国_13
   - 🇷🇺_俄罗斯_2
-  - 🇨🇳_中国_14
+  - 🇨🇳_中国+>+美国_16
   - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇨🇭_CH_瑞士
+  - 🇺🇸_US_美国->🇯🇵_JP_日本
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -381,35 +233,24 @@ proxy-groups:
   - 6元高速机场:cczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
-  - 🇺🇸_美国_1
-  - 🏳️_未知_1
-  - 🇨🇳_中国_1
+  - 中国+>+美国_2
   - 🇺🇸_美国_2
-  - 🇺🇦_乌克兰_1
   - 🇧🇪_比利时_1
-  - 🇨🇳_中国_2
   - 🇺🇸_美国_3
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
+  - 🇨🇳_中国+>+美国_4
+  - 🇨🇳_中国+>+美国_5
   - 🇺🇸_美国_4
-  - 🇨🇳_中国_5
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_5
-  - 🇨🇳_中国_6
-  - 🇨🇳_中国_7
-  - 🏳️_未知_2
-  - 🇺🇦_乌克兰_2
-  - 🇨🇳_中国_8
-  - 🇨🇳_中国_9
-  - 🇨🇳_中国_10
-  - 🇨🇳_中国_11
-  - 🇨🇳_中国_12
+  - 🇨🇳_中国+>+美国_6
+  - 🇨🇳_中国+>+美国_11
+  - 🇨🇳_中国 > 美国_12
+  - 🇨🇳_中国+>+美国_14
   - 🇧🇪_比利时_2
-  - 🇬🇧_英国
-  - 🇨🇳_中国_13
   - 🇷🇺_俄罗斯_2
-  - 🇨🇳_中国_14
+  - 🇨🇳_中国+>+美国_16
   - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇨🇭_CH_瑞士
+  - 🇺🇸_US_美国->🇯🇵_JP_日本
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -421,35 +262,24 @@ proxy-groups:
   - 6元高速机场:cczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
-  - 🇺🇸_美国_1
-  - 🏳️_未知_1
-  - 🇨🇳_中国_1
+  - 中国+>+美国_2
   - 🇺🇸_美国_2
-  - 🇺🇦_乌克兰_1
   - 🇧🇪_比利时_1
-  - 🇨🇳_中国_2
   - 🇺🇸_美国_3
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
+  - 🇨🇳_中国+>+美国_4
+  - 🇨🇳_中国+>+美国_5
   - 🇺🇸_美国_4
-  - 🇨🇳_中国_5
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_5
-  - 🇨🇳_中国_6
-  - 🇨🇳_中国_7
-  - 🏳️_未知_2
-  - 🇺🇦_乌克兰_2
-  - 🇨🇳_中国_8
-  - 🇨🇳_中国_9
-  - 🇨🇳_中国_10
-  - 🇨🇳_中国_11
-  - 🇨🇳_中国_12
+  - 🇨🇳_中国+>+美国_6
+  - 🇨🇳_中国+>+美国_11
+  - 🇨🇳_中国 > 美国_12
+  - 🇨🇳_中国+>+美国_14
   - 🇧🇪_比利时_2
-  - 🇬🇧_英国
-  - 🇨🇳_中国_13
   - 🇷🇺_俄罗斯_2
-  - 🇨🇳_中国_14
+  - 🇨🇳_中国+>+美国_16
   - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇨🇭_CH_瑞士
+  - 🇺🇸_US_美国->🇯🇵_JP_日本
   type: select
 - name: 📲 电报信息
   proxies:
@@ -458,35 +288,24 @@ proxy-groups:
   - 6元高速机场:cczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
-  - 🇺🇸_美国_1
-  - 🏳️_未知_1
-  - 🇨🇳_中国_1
+  - 中国+>+美国_2
   - 🇺🇸_美国_2
-  - 🇺🇦_乌克兰_1
   - 🇧🇪_比利时_1
-  - 🇨🇳_中国_2
   - 🇺🇸_美国_3
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
+  - 🇨🇳_中国+>+美国_4
+  - 🇨🇳_中国+>+美国_5
   - 🇺🇸_美国_4
-  - 🇨🇳_中国_5
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_5
-  - 🇨🇳_中国_6
-  - 🇨🇳_中国_7
-  - 🏳️_未知_2
-  - 🇺🇦_乌克兰_2
-  - 🇨🇳_中国_8
-  - 🇨🇳_中国_9
-  - 🇨🇳_中国_10
-  - 🇨🇳_中国_11
-  - 🇨🇳_中国_12
+  - 🇨🇳_中国+>+美国_6
+  - 🇨🇳_中国+>+美国_11
+  - 🇨🇳_中国 > 美国_12
+  - 🇨🇳_中国+>+美国_14
   - 🇧🇪_比利时_2
-  - 🇬🇧_英国
-  - 🇨🇳_中国_13
   - 🇷🇺_俄罗斯_2
-  - 🇨🇳_中国_14
+  - 🇨🇳_中国+>+美国_16
   - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇨🇭_CH_瑞士
+  - 🇺🇸_US_美国->🇯🇵_JP_日本
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -495,35 +314,24 @@ proxy-groups:
   - 6元高速机场:cczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
-  - 🇺🇸_美国_1
-  - 🏳️_未知_1
-  - 🇨🇳_中国_1
+  - 中国+>+美国_2
   - 🇺🇸_美国_2
-  - 🇺🇦_乌克兰_1
   - 🇧🇪_比利时_1
-  - 🇨🇳_中国_2
   - 🇺🇸_美国_3
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
+  - 🇨🇳_中国+>+美国_4
+  - 🇨🇳_中国+>+美国_5
   - 🇺🇸_美国_4
-  - 🇨🇳_中国_5
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_5
-  - 🇨🇳_中国_6
-  - 🇨🇳_中国_7
-  - 🏳️_未知_2
-  - 🇺🇦_乌克兰_2
-  - 🇨🇳_中国_8
-  - 🇨🇳_中国_9
-  - 🇨🇳_中国_10
-  - 🇨🇳_中国_11
-  - 🇨🇳_中国_12
+  - 🇨🇳_中国+>+美国_6
+  - 🇨🇳_中国+>+美国_11
+  - 🇨🇳_中国 > 美国_12
+  - 🇨🇳_中国+>+美国_14
   - 🇧🇪_比利时_2
-  - 🇬🇧_英国
-  - 🇨🇳_中国_13
   - 🇷🇺_俄罗斯_2
-  - 🇨🇳_中国_14
+  - 🇨🇳_中国+>+美国_16
   - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇨🇭_CH_瑞士
+  - 🇺🇸_US_美国->🇯🇵_JP_日本
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -532,35 +340,24 @@ proxy-groups:
   - 6元高速机场:cczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
-  - 🇺🇸_美国_1
-  - 🏳️_未知_1
-  - 🇨🇳_中国_1
+  - 中国+>+美国_2
   - 🇺🇸_美国_2
-  - 🇺🇦_乌克兰_1
   - 🇧🇪_比利时_1
-  - 🇨🇳_中国_2
   - 🇺🇸_美国_3
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
+  - 🇨🇳_中国+>+美国_4
+  - 🇨🇳_中国+>+美国_5
   - 🇺🇸_美国_4
-  - 🇨🇳_中国_5
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_5
-  - 🇨🇳_中国_6
-  - 🇨🇳_中国_7
-  - 🏳️_未知_2
-  - 🇺🇦_乌克兰_2
-  - 🇨🇳_中国_8
-  - 🇨🇳_中国_9
-  - 🇨🇳_中国_10
-  - 🇨🇳_中国_11
-  - 🇨🇳_中国_12
+  - 🇨🇳_中国+>+美国_6
+  - 🇨🇳_中国+>+美国_11
+  - 🇨🇳_中国 > 美国_12
+  - 🇨🇳_中国+>+美国_14
   - 🇧🇪_比利时_2
-  - 🇬🇧_英国
-  - 🇨🇳_中国_13
   - 🇷🇺_俄罗斯_2
-  - 🇨🇳_中国_14
+  - 🇨🇳_中国+>+美国_16
   - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇨🇭_CH_瑞士
+  - 🇺🇸_US_美国->🇯🇵_JP_日本
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -586,35 +383,24 @@ proxy-groups:
   - 6元高速机场:cczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
-  - 🇺🇸_美国_1
-  - 🏳️_未知_1
-  - 🇨🇳_中国_1
+  - 中国+>+美国_2
   - 🇺🇸_美国_2
-  - 🇺🇦_乌克兰_1
   - 🇧🇪_比利时_1
-  - 🇨🇳_中国_2
   - 🇺🇸_美国_3
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
+  - 🇨🇳_中国+>+美国_4
+  - 🇨🇳_中国+>+美国_5
   - 🇺🇸_美国_4
-  - 🇨🇳_中国_5
-  - 🇷🇺_俄罗斯_1
-  - 🇺🇸_美国_5
-  - 🇨🇳_中国_6
-  - 🇨🇳_中国_7
-  - 🏳️_未知_2
-  - 🇺🇦_乌克兰_2
-  - 🇨🇳_中国_8
-  - 🇨🇳_中国_9
-  - 🇨🇳_中国_10
-  - 🇨🇳_中国_11
-  - 🇨🇳_中国_12
+  - 🇨🇳_中国+>+美国_6
+  - 🇨🇳_中国+>+美国_11
+  - 🇨🇳_中国 > 美国_12
+  - 🇨🇳_中国+>+美国_14
   - 🇧🇪_比利时_2
-  - 🇬🇧_英国
-  - 🇨🇳_中国_13
   - 🇷🇺_俄罗斯_2
-  - 🇨🇳_中国_14
+  - 🇨🇳_中国+>+美国_16
   - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯_2
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇨🇭_CH_瑞士
+  - 🇺🇸_US_美国->🇯🇵_JP_日本
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
