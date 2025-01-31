@@ -34,7 +34,7 @@ mode: rule
 proxies:
 - cipher: aes-128-gcm
   ip-version: dual
-  name: 6元高速机场%3Acczzuu.top
+  name: 6元高速机场：cczzuu.top
   password: 6601fb90e9b3
   port: 443
   server: 127.0.0.1
@@ -57,93 +57,101 @@ proxies:
   type: ss
   udp: true
 - ip-version: dual
-  name: 🇺🇸_美国_1
-  password: 2cba4104747d49d18319e5ade1b93ab5
+  name: 🇺🇸_US_美国_1
+  password: '3767107462583558144'
   port: 443
-  server: yourjobnavigator.online
-  skip-cert-verify: true
+  server: possible-macaw.treefrog761.one
+  skip-cert-verify: false
+  sni: possible-macaw.treefrog761.one
+  tls: true
   type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇲🇩_MD_摩尔多瓦
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 91.132.94.200
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇸🇬_SG_新加坡_1
+  password: amazonskr05
+  port: 443
+  server: 13.229.129.167
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  ip-version: dual
+  name: 🇨🇳_CN_中国
+  password: asd123456
+  port: 8388
+  server: 194.41.59.80
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇺🇸_US_美国_2
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.47.252.251
+  type: ss
   udp: true
 - cipher: aes-256-gcm
   ip-version: dual
-  name: 🇫🇷_法国_1
-  password: dongtaiwang.com
-  port: 12345
-  server: 195.154.200.156
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国
+  password: K0AA69ZLLFIBXP1Q
+  port: 17004
+  server: ti3hyra4.slashdevslashnetslashtun.net
   type: ss
   udp: true
-- ip-version: dual
-  name: 🏳️_未知_1
-  password: '3763495894587285504'
+- cipher: chacha20-ietf-poly1305
+  ip-version: dual
+  name: 🇳🇱_NL_荷兰
+  password: YjJiYzBj
+  port: 8388
+  server: 45.140.146.223
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇺🇸_US_美国_3
+  password: amazonskr05
   port: 443
-  server: right-goldfish.goat627.mom
-  skip-cert-verify: true
-  sni: right-goldfish.goat627.mom
-  type: trojan
+  server: 35.88.145.179
+  type: ss
   udp: true
-- ip-version: dual
-  name: 🇨🇳_中国_1
-  password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
-  port: 21019
-  server: 219.135.231.205
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
+- cipher: auto
   ip-version: dual
-  name: 🇨🇳_中国_2
-  network: tcp
-  port: 21066
-  server: 118.193.38.173
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f11cf8ff-89b3-4c4c-fdf8-b47111d852d8
-- alterId: 0
-  cipher: auto
-  ip-version: dual
-  name: 🇷🇺_俄罗斯_1
+  name: 🇨🇳_CN_中国->🇬🇧_GB_英国
   network: ws
-  port: 33895
-  server: 45.8.159.241
+  port: 25240
+  server: cm1.awslcn.info
   tls: false
   type: vmess
   udp: true
-  uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
-- ip-version: dual
-  name: 🇷🇺_俄罗斯_2
-  password: '3763495982449565696'
-  port: 443
-  server: faithful-goshawk.goat627.mom
-  skip-cert-verify: true
-  sni: faithful-goshawk.goat627.mom
-  type: trojan
+  uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇺🇸_US_美国_5
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.47.253.171
+  type: ss
   udp: true
-- ip-version: dual
-  name: 电报群：https://t.me/vvkj11
-  password: 94d219c9-1afc-4d42-b090-8b3794764380
-  port: 443
-  server: 36.50.135.142
-  skip-cert-verify: true
-  sni: bs1.loadingip.com
-  type: trojan
+- cipher: chacha20-ietf-poly1305
+  ip-version: dual
+  name: 🇳🇱_NL_荷兰->🇺🇸_US_美国
+  password: cvII85TrW6n0OGyfpHVS1u
+  port: 8080
+  server: 45.158.171.132
+  type: ss
   udp: true
 - alterId: 0
   cipher: auto
   ip-version: dual
-  name: 🇬🇧_英国
-  network: ws
-  port: 25385
-  server: 5.39.254.196
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
-- alterId: 0
-  cipher: auto
-  ip-version: dual
-  name: 🇨🇳_中国_3
+  name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
   network: ws
   port: 25230
   server: 183.236.51.60
@@ -151,87 +159,115 @@ proxies:
   type: vmess
   udp: true
   uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-cfb
   ip-version: dual
-  name: 🇨🇳_中国_4
-  network: tcp
-  port: 13688
-  server: 118.193.34.236
-  tls: false
-  type: vmess
+  name: 🇩🇪_DE_德国
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 134.255.210.49
+  type: ss
   udp: true
-  uuid: 93127065-1a5b-4816-d009-5bf5e0aa10b6
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-cfb
   ip-version: dual
-  name: 🇨🇳_中国_5
-  network: tcp
-  port: 52825
-  server: 118.193.34.158
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 67ff500a-8484-4ed8-cf8f-b8d341534140
-- alterId: 0
-  cipher: auto
-  ip-version: dual
-  name: 🇺🇸_US_美国_1
-  network: http
-  port: 2082
-  server: 64.225.109.206
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
-- ip-version: dual
-  name: 🏳️_未知_2
-  password: 5f7be901-1bb7-4cc5-9c7d-e33bd7e407ad
+  name: 🇺🇸_US_美国_6
+  password: amazonskr05
   port: 443
-  server: cmc3.5gsieuvip.vn
-  skip-cert-verify: true
-  type: trojan
+  server: 44.243.214.113
+  type: ss
   udp: true
-- ip-version: dual
-  name: 🇫🇷_法国_2
-  password: '3763495894587285504'
+- cipher: chacha20-ietf-poly1305
+  ip-version: dual
+  name: 🇬🇧_GB_英国->🇸🇬_SG_新加坡
+  password: KuMFEVSJIgMhUW7K55V406
   port: 443
-  server: artistic-vulture.goat627.mom
-  skip-cert-verify: true
-  sni: artistic-vulture.goat627.mom
-  type: trojan
+  server: 78.129.140.11
+  type: ss
   udp: true
 - alterId: 0
   cipher: auto
   ip-version: dual
-  name: 🇺🇸_美国_2
+  name: 🇷🇺_RU_俄罗斯
   network: ws
-  port: 2086
-  server: shs.xiaoqi666.xyz
+  port: 64219
+  server: 195.58.49.42
   tls: false
   type: vmess
   udp: true
-  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
-- ip-version: dual
-  name: 🇹🇷_土耳其
-  password: '3763495982449565696'
+  uuid: 421ac25b-8ba4-4718-8997-98e2ef3b8c9b
+- cipher: aes-256-gcm
+  ip-version: dual
+  name: 🇸🇪_SE_瑞典->🇷🇺_RU_俄罗斯
+  password: Figfm1q8YZ6Dcsxc
+  port: 8388
+  server: sto5.vpntype.dev
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  ip-version: dual
+  name: 🇺🇦_UA_乌克兰
+  password: ZmQwZjFk
+  port: 8388
+  server: at1.opensocks.site
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇷🇴_RO_罗马尼亚
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.193.49.88
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇸🇬_SG_新加坡_2
+  password: amazonskr05
   port: 443
-  server: topical-gibbon.goat627.mom
-  skip-cert-verify: true
-  sni: topical-gibbon.goat627.mom
+  server: 18.143.147.45
+  type: ss
+  udp: true
+- ip-version: dual
+  name: 🇭🇺_HU_匈牙利
+  password: '3767107462583558144'
+  port: 443
+  server: uncommon-dory.goat627.mom
+  skip-cert-verify: false
+  sni: uncommon-dory.goat627.mom
+  tls: true
   type: trojan
   udp: true
-- alterId: 0
-  cipher: auto
+- cipher: aes-256-cfb
   ip-version: dual
-  name: 🇺🇸_US_美国_2
-  network: ws
-  port: 2086
-  server: 190.93.245.230
-  tls: false
-  type: vmess
+  name: 🇮🇹_IT_意大利
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 37.143.129.230
+  type: ss
   udp: true
-  uuid: 3fd7b958-2161-46e1-b6fc-bd6bb2165312
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇺🇸_US_美国_8
+  password: amazonskr05
+  port: 443
+  server: 34.217.72.81
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇸🇪_SE_瑞典
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 192.71.166.100
+  type: ss
+  udp: true
+- cipher: aes-256-gcm
+  ip-version: dual
+  name: 🇨🇳_CN_中国->🇮🇷_IR_伊朗
+  password: b12360f4-33ba-4c9b-ae0c-3da5f8c6ed05
+  port: 19994
+  server: l98tygm6.wmdkwwurw.top
+  type: ss
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -240,24 +276,31 @@ proxy-groups:
   - 6元高速机场%3Acczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
-  - 🇺🇸_美国_1
-  - 🇫🇷_法国_1
-  - 🏳️_未知_1
-  - 🇨🇳_中国_1
-  - 🇨🇳_中国_2
-  - 🇷🇺_俄罗斯_1
-  - 🇷🇺_俄罗斯_2
-  - 电报群：https://t.me/vvkj11
-  - 🇬🇧_英国
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
-  - 🇨🇳_中国_5
   - 🇺🇸_US_美国_1
-  - 🏳️_未知_2
-  - 🇫🇷_法国_2
-  - 🇺🇸_美国_2
-  - 🇹🇷_土耳其
+  - 🇲🇩_MD_摩尔多瓦
+  - 🇸🇬_SG_新加坡_1
+  - 🇨🇳_CN_中国
   - 🇺🇸_US_美国_2
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国_3
+  - 🇨🇳_CN_中国->🇬🇧_GB_英国
+  - 🇺🇸_US_美国_5
+  - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_6
+  - 🇬🇧_GB_英国->🇸🇬_SG_新加坡
+  - 🇷🇺_RU_俄罗斯
+  - 🇸🇪_SE_瑞典->🇷🇺_RU_俄罗斯
+  - 🇺🇦_UA_乌克兰
+  - 🇷🇴_RO_罗马尼亚
+  - 🇸🇬_SG_新加坡_2
+  - 🇭🇺_HU_匈牙利
+  - 🇮🇹_IT_意大利
+  - 🇺🇸_US_美国_8
+  - 🇸🇪_SE_瑞典
+  - 🇨🇳_CN_中国->🇮🇷_IR_伊朗
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -265,24 +308,31 @@ proxy-groups:
   - 6元高速机场%3Acczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
-  - 🇺🇸_美国_1
-  - 🇫🇷_法国_1
-  - 🏳️_未知_1
-  - 🇨🇳_中国_1
-  - 🇨🇳_中国_2
-  - 🇷🇺_俄罗斯_1
-  - 🇷🇺_俄罗斯_2
-  - 电报群：https://t.me/vvkj11
-  - 🇬🇧_英国
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
-  - 🇨🇳_中国_5
   - 🇺🇸_US_美国_1
-  - 🏳️_未知_2
-  - 🇫🇷_法国_2
-  - 🇺🇸_美国_2
-  - 🇹🇷_土耳其
+  - 🇲🇩_MD_摩尔多瓦
+  - 🇸🇬_SG_新加坡_1
+  - 🇨🇳_CN_中国
   - 🇺🇸_US_美国_2
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国_3
+  - 🇨🇳_CN_中国->🇬🇧_GB_英国
+  - 🇺🇸_US_美国_5
+  - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_6
+  - 🇬🇧_GB_英国->🇸🇬_SG_新加坡
+  - 🇷🇺_RU_俄罗斯
+  - 🇸🇪_SE_瑞典->🇷🇺_RU_俄罗斯
+  - 🇺🇦_UA_乌克兰
+  - 🇷🇴_RO_罗马尼亚
+  - 🇸🇬_SG_新加坡_2
+  - 🇭🇺_HU_匈牙利
+  - 🇮🇹_IT_意大利
+  - 🇺🇸_US_美国_8
+  - 🇸🇪_SE_瑞典
+  - 🇨🇳_CN_中国->🇮🇷_IR_伊朗
   tolerance: 5000
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -294,24 +344,31 @@ proxy-groups:
   - 6元高速机场%3Acczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
-  - 🇺🇸_美国_1
-  - 🇫🇷_法国_1
-  - 🏳️_未知_1
-  - 🇨🇳_中国_1
-  - 🇨🇳_中国_2
-  - 🇷🇺_俄罗斯_1
-  - 🇷🇺_俄罗斯_2
-  - 电报群：https://t.me/vvkj11
-  - 🇬🇧_英国
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
-  - 🇨🇳_中国_5
   - 🇺🇸_US_美国_1
-  - 🏳️_未知_2
-  - 🇫🇷_法国_2
-  - 🇺🇸_美国_2
-  - 🇹🇷_土耳其
+  - 🇲🇩_MD_摩尔多瓦
+  - 🇸🇬_SG_新加坡_1
+  - 🇨🇳_CN_中国
   - 🇺🇸_US_美国_2
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国_3
+  - 🇨🇳_CN_中国->🇬🇧_GB_英国
+  - 🇺🇸_US_美国_5
+  - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_6
+  - 🇬🇧_GB_英国->🇸🇬_SG_新加坡
+  - 🇷🇺_RU_俄罗斯
+  - 🇸🇪_SE_瑞典->🇷🇺_RU_俄罗斯
+  - 🇺🇦_UA_乌克兰
+  - 🇷🇴_RO_罗马尼亚
+  - 🇸🇬_SG_新加坡_2
+  - 🇭🇺_HU_匈牙利
+  - 🇮🇹_IT_意大利
+  - 🇺🇸_US_美国_8
+  - 🇸🇪_SE_瑞典
+  - 🇨🇳_CN_中国->🇮🇷_IR_伊朗
   type: select
 - name: 📲 电报信息
   proxies:
@@ -320,24 +377,31 @@ proxy-groups:
   - 6元高速机场%3Acczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
-  - 🇺🇸_美国_1
-  - 🇫🇷_法国_1
-  - 🏳️_未知_1
-  - 🇨🇳_中国_1
-  - 🇨🇳_中国_2
-  - 🇷🇺_俄罗斯_1
-  - 🇷🇺_俄罗斯_2
-  - 电报群：https://t.me/vvkj11
-  - 🇬🇧_英国
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
-  - 🇨🇳_中国_5
   - 🇺🇸_US_美国_1
-  - 🏳️_未知_2
-  - 🇫🇷_法国_2
-  - 🇺🇸_美国_2
-  - 🇹🇷_土耳其
+  - 🇲🇩_MD_摩尔多瓦
+  - 🇸🇬_SG_新加坡_1
+  - 🇨🇳_CN_中国
   - 🇺🇸_US_美国_2
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国_3
+  - 🇨🇳_CN_中国->🇬🇧_GB_英国
+  - 🇺🇸_US_美国_5
+  - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_6
+  - 🇬🇧_GB_英国->🇸🇬_SG_新加坡
+  - 🇷🇺_RU_俄罗斯
+  - 🇸🇪_SE_瑞典->🇷🇺_RU_俄罗斯
+  - 🇺🇦_UA_乌克兰
+  - 🇷🇴_RO_罗马尼亚
+  - 🇸🇬_SG_新加坡_2
+  - 🇭🇺_HU_匈牙利
+  - 🇮🇹_IT_意大利
+  - 🇺🇸_US_美国_8
+  - 🇸🇪_SE_瑞典
+  - 🇨🇳_CN_中国->🇮🇷_IR_伊朗
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -346,24 +410,31 @@ proxy-groups:
   - 6元高速机场%3Acczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
-  - 🇺🇸_美国_1
-  - 🇫🇷_法国_1
-  - 🏳️_未知_1
-  - 🇨🇳_中国_1
-  - 🇨🇳_中国_2
-  - 🇷🇺_俄罗斯_1
-  - 🇷🇺_俄罗斯_2
-  - 电报群：https://t.me/vvkj11
-  - 🇬🇧_英国
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
-  - 🇨🇳_中国_5
   - 🇺🇸_US_美国_1
-  - 🏳️_未知_2
-  - 🇫🇷_法国_2
-  - 🇺🇸_美国_2
-  - 🇹🇷_土耳其
+  - 🇲🇩_MD_摩尔多瓦
+  - 🇸🇬_SG_新加坡_1
+  - 🇨🇳_CN_中国
   - 🇺🇸_US_美国_2
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国_3
+  - 🇨🇳_CN_中国->🇬🇧_GB_英国
+  - 🇺🇸_US_美国_5
+  - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_6
+  - 🇬🇧_GB_英国->🇸🇬_SG_新加坡
+  - 🇷🇺_RU_俄罗斯
+  - 🇸🇪_SE_瑞典->🇷🇺_RU_俄罗斯
+  - 🇺🇦_UA_乌克兰
+  - 🇷🇴_RO_罗马尼亚
+  - 🇸🇬_SG_新加坡_2
+  - 🇭🇺_HU_匈牙利
+  - 🇮🇹_IT_意大利
+  - 🇺🇸_US_美国_8
+  - 🇸🇪_SE_瑞典
+  - 🇨🇳_CN_中国->🇮🇷_IR_伊朗
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -372,24 +443,31 @@ proxy-groups:
   - 6元高速机场%3Acczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
-  - 🇺🇸_美国_1
-  - 🇫🇷_法国_1
-  - 🏳️_未知_1
-  - 🇨🇳_中国_1
-  - 🇨🇳_中国_2
-  - 🇷🇺_俄罗斯_1
-  - 🇷🇺_俄罗斯_2
-  - 电报群：https://t.me/vvkj11
-  - 🇬🇧_英国
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
-  - 🇨🇳_中国_5
   - 🇺🇸_US_美国_1
-  - 🏳️_未知_2
-  - 🇫🇷_法国_2
-  - 🇺🇸_美国_2
-  - 🇹🇷_土耳其
+  - 🇲🇩_MD_摩尔多瓦
+  - 🇸🇬_SG_新加坡_1
+  - 🇨🇳_CN_中国
   - 🇺🇸_US_美国_2
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国_3
+  - 🇨🇳_CN_中国->🇬🇧_GB_英国
+  - 🇺🇸_US_美国_5
+  - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_6
+  - 🇬🇧_GB_英国->🇸🇬_SG_新加坡
+  - 🇷🇺_RU_俄罗斯
+  - 🇸🇪_SE_瑞典->🇷🇺_RU_俄罗斯
+  - 🇺🇦_UA_乌克兰
+  - 🇷🇴_RO_罗马尼亚
+  - 🇸🇬_SG_新加坡_2
+  - 🇭🇺_HU_匈牙利
+  - 🇮🇹_IT_意大利
+  - 🇺🇸_US_美国_8
+  - 🇸🇪_SE_瑞典
+  - 🇨🇳_CN_中国->🇮🇷_IR_伊朗
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -415,24 +493,31 @@ proxy-groups:
   - 6元高速机场%3Acczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
-  - 🇺🇸_美国_1
-  - 🇫🇷_法国_1
-  - 🏳️_未知_1
-  - 🇨🇳_中国_1
-  - 🇨🇳_中国_2
-  - 🇷🇺_俄罗斯_1
-  - 🇷🇺_俄罗斯_2
-  - 电报群：https://t.me/vvkj11
-  - 🇬🇧_英国
-  - 🇨🇳_中国_3
-  - 🇨🇳_中国_4
-  - 🇨🇳_中国_5
   - 🇺🇸_US_美国_1
-  - 🏳️_未知_2
-  - 🇫🇷_法国_2
-  - 🇺🇸_美国_2
-  - 🇹🇷_土耳其
+  - 🇲🇩_MD_摩尔多瓦
+  - 🇸🇬_SG_新加坡_1
+  - 🇨🇳_CN_中国
   - 🇺🇸_US_美国_2
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国_3
+  - 🇨🇳_CN_中国->🇬🇧_GB_英国
+  - 🇺🇸_US_美国_5
+  - 🇳🇱_NL_荷兰->🇺🇸_US_美国
+  - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_6
+  - 🇬🇧_GB_英国->🇸🇬_SG_新加坡
+  - 🇷🇺_RU_俄罗斯
+  - 🇸🇪_SE_瑞典->🇷🇺_RU_俄罗斯
+  - 🇺🇦_UA_乌克兰
+  - 🇷🇴_RO_罗马尼亚
+  - 🇸🇬_SG_新加坡_2
+  - 🇭🇺_HU_匈牙利
+  - 🇮🇹_IT_意大利
+  - 🇺🇸_US_美国_8
+  - 🇸🇪_SE_瑞典
+  - 🇨🇳_CN_中国->🇮🇷_IR_伊朗
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
