@@ -38,6 +38,7 @@ proxies:
   password: 6601fb90e9b3
   port: 443
   server: 127.0.0.1
+  tls: false
   type: ss
   udp: true
 - cipher: aes-128-gcm
@@ -46,6 +47,7 @@ proxies:
   password: 6601fb90e9b3
   port: 443
   server: 127.0.0.1
+  tls: false
   type: ss
   udp: true
 - cipher: aes-128-gcm
@@ -54,287 +56,507 @@ proxies:
   password: 6601fb90e9b3
   port: 443
   server: 127.0.0.1
+  tls: false
   type: ss
   udp: true
-- cipher: aes-256-cfb
+- cipher: auto
+  ip-version: dual
+  name: 🇯🇵_JP_日本->🇩🇪_DE_德国_1
+  network: ws
+  port: 80
+  server: 150.230.201.63
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
+  ip-version: dual
+  name: 🇯🇵_JP_日本->🇩🇪_DE_德国_2
+  network: ws
+  port: 80
+  server: 47.74.11.219
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
   ip-version: dual
   name: 🇺🇸_US_美国_1
-  password: amazonskr05
-  port: 443
-  server: 34.216.74.146
-  type: ss
+  network: ws
+  port: 80
+  server: 104.18.15.147
+  tls: false
+  type: vmess
   udp: true
-- alpn:
-  - http/1.1
+  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
+- cipher: auto
+  ip-version: dual
+  name: 🇯🇵_JP_日本->🇩🇪_DE_德国_3
+  network: ws
+  port: 80
+  server: 47.245.26.167
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
   ip-version: dual
   name: 🇺🇸_US_美国_2
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 13.50.25.213
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 🇱🇹_LT_立陶宛
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 147.78.1.27
-  type: ss
-  udp: true
-- ip-version: dual
-  name: 🇺🇸_US_美国->🇫🇷_FR_法国
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 54.155.7.122
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  ip-version: dual
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
   network: ws
   port: 80
-  server: join.ISVvpn.fastly80-3.hosting-ip.com
+  server: 104.18.154.42
   tls: false
   type: vmess
   udp: true
-  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
-- ip-version: dual
-  name: 🇺🇸_US_美国_3
-  network: tcp
-  password: '65086441068973800'
-  port: 443
-  server: live-serval.shiner427.skin
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
+  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
+- cipher: auto
   ip-version: dual
-  name: 🇮🇹_IT_意大利
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 37.143.129.230
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  ip-version: dual
-  name: 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
   network: ws
   port: 80
-  server: 151.101.0.155
+  server: 162.159.200.5
   tls: false
   type: vmess
   udp: true
-  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
-- alterId: 0
-  cipher: auto
+  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
+- cipher: auto
   ip-version: dual
-  name: 🇺🇸_US_美国->🇨🇳_CN_中国
-  network: tcp
-  port: 15717
-  server: 104.245.97.166
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 8b252dc4-b20c-419f-8f62-be72f057938f
-- alterId: 0
-  cipher: auto
-  ip-version: dual
-  name: 🇺🇸_US_美国_5
+  name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1
   network: ws
   port: 80
-  server: 151.101.2.165
+  server: 104.18.15.150
   tls: false
   type: vmess
   udp: true
-  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
-- cipher: aes-256-cfb
+  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
+- cipher: chacha20-ietf-poly1305
   ip-version: dual
-  name: 🇺🇸_US_美国_6
-  password: amazonskr05
-  port: 443
-  server: 54.218.121.242
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 🇺🇸_US_美国_7
-  password: amazonskr05
-  port: 443
-  server: 34.221.171.18
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  ip-version: dual
-  name: 🇩🇪_DE_德国->🇺🇸_US_美国
-  network: tcp
-  password: telegram-id-privatevpns
-  port: 22222
-  server: 3.126.41.247
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 🇺🇸_US_美国_8
-  password: amazonskr05
-  port: 443
-  server: 34.218.233.42
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 🇺🇸_US_美国_9
-  password: amazonskr05
-  port: 443
-  server: 35.91.120.138
+  name: 🇷🇺_RU_俄罗斯联邦
+  password: lDJnoMBGEcIhtYp5d8kFIh
+  port: 27981
+  server: 193.228.128.143
+  tls: false
   type: ss
   udp: true
 - ip-version: dual
   name: 🇨🇦_CA_加拿大
   network: tcp
-  password: 3bcd9e33-8377-4b32-af33-217158577ff3
-  port: 443
-  server: 172.105.103.27
+  password: telegram-id-directvpn
+  port: 22222
+  server: 15.223.142.94
   skip-cert-verify: true
-  sni: kdlsupport.zendesk.com
+  sni: trojan.miwan.co.uk
+  tls: true
   type: trojan
   udp: true
+- cipher: auto
+  ip-version: dual
+  name: 🇯🇵_JP_日本->🇩🇪_DE_德国_4
+  network: ws
+  port: 80
+  server: 150.230.197.156
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
+  ip-version: dual
+  name: 🇯🇵_JP_日本->🇩🇪_DE_德国_5
+  network: ws
+  port: 80
+  server: 131.186.63.127
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
+  ip-version: dual
+  name: 🇯🇵_JP_日本->🇩🇪_DE_德国_6
+  network: ws
+  port: 80
+  server: 47.91.19.249
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
+  ip-version: dual
+  name: 🇯🇵_JP_日本->🇩🇪_DE_德国_7
+  network: ws
+  port: 80
+  server: 47.74.40.13
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
+  ip-version: dual
+  name: 🇯🇵_JP_日本->🇩🇪_DE_德国_8
+  network: ws
+  port: 80
+  server: 43.153.181.217
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
 - ip-version: dual
-  name: 🇺🇸_US_美国->🇮🇳_IN_印度
-  password: 3bcd9e33-8377-4b32-af33-217158577ff3
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  network: ws
+  password: 4aec4e7f8cf8454ea4613659822e1a61
   port: 443
-  server: 198.199.78.30
+  server: 104.19.159.144
   skip-cert-verify: true
-  sni: kdlsupport.zendesk.com
+  sni: avianrecruit.com
+  tls: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
+  ws-opts:
+    headers: {}
+    path: 6b777a91
+- cipher: auto
   ip-version: dual
-  name: 🇧🇪_BE_比利时
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 192.71.249.146
-  type: ss
+  name: 🇺🇸_US_美国_3
+  network: ws
+  port: 8080
+  server: www.nahck.site
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 🇺🇸_US_美国_10
-  password: amazonskr05
-  port: 443
-  server: 34.217.211.139
-  type: ss
-  udp: true
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
 - ip-version: dual
-  name: 未知
+  name: 🇬🇧_GB_英国
   network: tcp
-  password: dc15d997-8b26-4294-870e-c90a5784dca4
-  port: 13019
-  server: naiu-us.05vr9nyqg5.download
-  skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.43.210.187
+  skip-cert-verify: true
+  sni: trojan.miwan.co.uk
+  tls: true
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
+- cipher: auto
   ip-version: dual
-  name: 🇨🇦_CA_加拿大->🇮🇷_IR_伊朗
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 64.74.163.130
-  type: ss
+  name: 🇺🇸_US_美国_4
+  network: ws
+  port: 80
+  server: 209.141.37.89
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-cfb
+  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
+- cipher: auto
   ip-version: dual
-  name: 🇺🇸_US_美国_11
-  password: amazonskr05
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_1
+  network: ws
+  port: 80
+  server: 104.22.51.162
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
+  ip-version: dual
+  name: 🇺🇸_US_美国_5
+  network: http
+  port: 3389
+  server: 5.161.220.92
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- grpc-opts:
+    grpc-service-name: 443trojan
+  ip-version: dual
+  name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2
+  network: grpc
+  password: qj1Dz1CJmFQRhWr1SP80aA
   port: 443
-  server: 54.212.222.229
-  type: ss
+  server: 172.67.204.84
+  skip-cert-verify: true
+  sni: cdn-21.gsmxreality.com
+  tls: true
+  type: trojan
   udp: true
+- cipher: auto
+  ip-version: dual
+  name: 🇯🇵_JP_日本->🇩🇪_DE_德国_9
+  network: ws
+  port: 80
+  server: 47.245.7.212
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
+  ip-version: dual
+  name: 🇺🇸_US_美国_6
+  network: ws
+  port: 80
+  server: zula.ir
+  tls: false
+  type: vmess
+  udp: true
+  uuid: e8bdec3c-f2c7-469a-b6cc-a38cfea5aa19
+- cipher: auto
+  ip-version: dual
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  network: ws
+  port: 80
+  server: 198.41.202.5
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
+  ip-version: dual
+  name: 🇯🇵_JP_日本->🇩🇪_DE_德国_10
+  network: ws
+  port: 80
+  server: 8.209.242.25
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
+  ip-version: dual
+  name: 🇺🇸_US_美国_7
+  network: ws
+  port: 8080
+  server: 104.21.31.244
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
 - cipher: auto
   ip-version: dual
   name: 🇺🇸_US_美国->🇩🇪_DE_德国_3
   network: ws
   port: 80
-  server: plex.com
+  server: for-irancell.outline-vpn.cloud
   tls: false
   type: vmess
   udp: true
-  uuid: ca387597-d79e-48c2-89a7-e2dc66a88a70
-- cipher: aes-256-cfb
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
   ip-version: dual
-  name: 🇩🇪_DE_德国
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 134.255.210.49
-  type: ss
+  name: 🇯🇵_JP_日本->🇩🇪_DE_德国_11
+  network: ws
+  port: 80
+  server: 138.2.6.15
+  tls: false
+  type: vmess
   udp: true
-- cipher: chacha20-ietf
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
   ip-version: dual
-  name: 🇺🇸_US_美国->🇧🇪_BE_比利时_1
-  password: asd123456
-  port: 8388
-  server: 137.175.113.193
-  type: ss
+  name: 🇯🇵_JP_日本->🇩🇪_DE_德国_12
+  network: ws
+  port: 80
+  server: 47.91.31.231
+  tls: false
+  type: vmess
   udp: true
-- ip-version: dual
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国
-  password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
-  port: 21019
-  server: 219.135.231.205
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
   ip-version: dual
-  name: 🇺🇸_US_美国_12
-  password: amazonskr05
-  port: 443
-  server: 34.221.182.25
-  type: ss
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_4
+  network: ws
+  port: 80
+  server: 104.16.77.74
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-cfb
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
   ip-version: dual
-  name: 🇺🇸_US_美国->🇧🇪_BE_比利时_2
-  password: amazonskr05
-  port: 443
-  server: 54.218.124.184
-  type: ss
+  name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3
+  network: ws
+  port: 80
+  server: 162.159.200.6
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-cfb
+  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
+- cipher: auto
   ip-version: dual
-  name: 🇷🇴_RO_罗马尼亚
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.193.49.88
-  type: ss
+  name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_4
+  network: ws
+  port: 80
+  server: 162.159.200.7
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-cfb
+  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
+- cipher: auto
   ip-version: dual
-  name: 🇺🇸_US_美国_13
-  password: amazonskr05
-  port: 443
-  server: 35.94.43.251
-  type: ss
+  name: 🇩🇪_DE_德国_1
+  network: ws
+  port: 80
+  server: 185.218.126.248
+  tls: false
+  type: vmess
   udp: true
-- ip-version: dual
-  name: 🇺🇸_US_美国_14
-  network: tcp
-  password: 3bcd9e33-8377-4b32-af33-217158577ff3
-  port: 443
-  server: 172.236.23.54
-  skip-cert-verify: true
-  sni: kdlsupport.zendesk.com
-  type: trojan
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+- cipher: auto
+  ip-version: dual
+  name: 🇯🇵_JP_日本->🇩🇪_DE_德国_13
+  network: ws
+  port: 80
+  server: 141.147.181.148
+  tls: false
+  type: vmess
   udp: true
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
+  ip-version: dual
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_5
+  network: ws
+  port: 80
+  server: 104.24.208.37
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
+  ip-version: dual
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+  network: ws
+  port: 80
+  server: 162.159.200.3
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
+- cipher: auto
+  ip-version: dual
+  name: 🇳🇱_NL_荷兰->🇩🇪_DE_德国_1
+  network: ws
+  port: 80
+  server: 188.114.96.113
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
+  ip-version: dual
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_6
+  network: ws
+  port: 80
+  server: 104.21.69.44
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
+  ip-version: dual
+  name: 🇳🇱_NL_荷兰->🇩🇪_DE_德国_2
+  network: ws
+  port: 80
+  server: mci--join.outline-vpn.cloud
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
+  ip-version: dual
+  name: 🇯🇵_JP_日本->🇩🇪_DE_德国_14
+  network: ws
+  port: 80
+  server: 47.245.54.58
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
+  ip-version: dual
+  name: 🇺🇸_US_美国->🇩🇪_DE_德国_7
+  network: ws
+  port: 80
+  server: 104.20.231.30
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
+  ip-version: dual
+  name: 🇯🇵_JP_日本->🇩🇪_DE_德国_15
+  network: ws
+  port: 80
+  server: 47.245.40.161
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
+  ip-version: dual
+  name: 🇯🇵_JP_日本->🇩🇪_DE_德国_16
+  network: ws
+  port: 80
+  server: 47.245.58.250
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
+  ip-version: dual
+  name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+  network: ws
+  port: 80
+  server: 104.18.15.148
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
+- cipher: auto
+  ip-version: dual
+  name: 🇩🇪_DE_德国_2
+  network: http
+  port: 3389
+  server: 5.75.190.50
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- cipher: auto
+  ip-version: dual
+  name: 🇳🇱_NL_荷兰->🇩🇪_DE_德国_3
+  network: ws
+  port: 80
+  server: 188.114.96.11
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+- cipher: auto
+  ip-version: dual
+  name: 🇺🇸_US_美国_9
+  network: ws
+  port: 8880
+  server: 104.21.1.28
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+- cipher: auto
+  ip-version: dual
+  name: 🇺🇸_US_美国_10
+  network: ws
+  port: 80
+  server: 104.18.15.149
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 384648b3-bcc5-401e-b145-dc91f57ee5e6
+- cipher: auto
+  ip-version: dual
+  name: 🇺🇸_US_美国_11
+  network: ws
+  port: 8080
+  server: 172.67.180.248
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
@@ -343,37 +565,55 @@ proxy-groups:
   - 6元高速机场：cczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_1
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_2
   - 🇺🇸_US_美国_1
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_3
   - 🇺🇸_US_美国_2
-  - 🇱🇹_LT_立陶宛
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇺🇸_US_美国_3
-  - 🇮🇹_IT_意大利
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
-  - 🇺🇸_US_美国->🇨🇳_CN_中国
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国_7
-  - 🇩🇪_DE_德国->🇺🇸_US_美国
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1
+  - 🇷🇺_RU_俄罗斯联邦
   - 🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国->🇮🇳_IN_印度
-  - 🇧🇪_BE_比利时
-  - 🇺🇸_US_美国_10
-  - 未知
-  - 🇨🇦_CA_加拿大->🇮🇷_IR_伊朗
-  - 🇺🇸_US_美国_11
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_4
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_5
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_6
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_7
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_8
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  - 🇺🇸_US_美国_3
+  - 🇬🇧_GB_英国
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_9
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_10
+  - 🇺🇸_US_美国_7
   - 🇺🇸_US_美国->🇩🇪_DE_德国_3
-  - 🇩🇪_DE_德国
-  - 🇺🇸_US_美国->🇧🇪_BE_比利时_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇺🇸_US_美国_12
-  - 🇺🇸_US_美国->🇧🇪_BE_比利时_2
-  - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_13
-  - 🇺🇸_US_美国_14
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_11
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_12
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_4
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_4
+  - 🇩🇪_DE_德国_1
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_13
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_5
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+  - 🇳🇱_NL_荷兰->🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_6
+  - 🇳🇱_NL_荷兰->🇩🇪_DE_德国_2
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_14
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_7
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_15
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_16
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+  - 🇩🇪_DE_德国_2
+  - 🇳🇱_NL_荷兰->🇩🇪_DE_德国_3
+  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -381,37 +621,55 @@ proxy-groups:
   - 6元高速机场：cczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_1
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_2
   - 🇺🇸_US_美国_1
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_3
   - 🇺🇸_US_美国_2
-  - 🇱🇹_LT_立陶宛
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇺🇸_US_美国_3
-  - 🇮🇹_IT_意大利
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
-  - 🇺🇸_US_美国->🇨🇳_CN_中国
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国_7
-  - 🇩🇪_DE_德国->🇺🇸_US_美国
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1
+  - 🇷🇺_RU_俄罗斯联邦
   - 🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国->🇮🇳_IN_印度
-  - 🇧🇪_BE_比利时
-  - 🇺🇸_US_美国_10
-  - 未知
-  - 🇨🇦_CA_加拿大->🇮🇷_IR_伊朗
-  - 🇺🇸_US_美国_11
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_4
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_5
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_6
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_7
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_8
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  - 🇺🇸_US_美国_3
+  - 🇬🇧_GB_英国
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_9
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_10
+  - 🇺🇸_US_美国_7
   - 🇺🇸_US_美国->🇩🇪_DE_德国_3
-  - 🇩🇪_DE_德国
-  - 🇺🇸_US_美国->🇧🇪_BE_比利时_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇺🇸_US_美国_12
-  - 🇺🇸_US_美国->🇧🇪_BE_比利时_2
-  - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_13
-  - 🇺🇸_US_美国_14
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_11
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_12
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_4
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_4
+  - 🇩🇪_DE_德国_1
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_13
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_5
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+  - 🇳🇱_NL_荷兰->🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_6
+  - 🇳🇱_NL_荷兰->🇩🇪_DE_德国_2
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_14
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_7
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_15
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_16
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+  - 🇩🇪_DE_德国_2
+  - 🇳🇱_NL_荷兰->🇩🇪_DE_德国_3
+  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
   tolerance: 5000
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -423,37 +681,55 @@ proxy-groups:
   - 6元高速机场：cczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_1
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_2
   - 🇺🇸_US_美国_1
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_3
   - 🇺🇸_US_美国_2
-  - 🇱🇹_LT_立陶宛
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇺🇸_US_美国_3
-  - 🇮🇹_IT_意大利
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
-  - 🇺🇸_US_美国->🇨🇳_CN_中国
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国_7
-  - 🇩🇪_DE_德国->🇺🇸_US_美国
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1
+  - 🇷🇺_RU_俄罗斯联邦
   - 🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国->🇮🇳_IN_印度
-  - 🇧🇪_BE_比利时
-  - 🇺🇸_US_美国_10
-  - 未知
-  - 🇨🇦_CA_加拿大->🇮🇷_IR_伊朗
-  - 🇺🇸_US_美国_11
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_4
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_5
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_6
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_7
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_8
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  - 🇺🇸_US_美国_3
+  - 🇬🇧_GB_英国
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_9
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_10
+  - 🇺🇸_US_美国_7
   - 🇺🇸_US_美国->🇩🇪_DE_德国_3
-  - 🇩🇪_DE_德国
-  - 🇺🇸_US_美国->🇧🇪_BE_比利时_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇺🇸_US_美国_12
-  - 🇺🇸_US_美国->🇧🇪_BE_比利时_2
-  - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_13
-  - 🇺🇸_US_美国_14
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_11
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_12
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_4
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_4
+  - 🇩🇪_DE_德国_1
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_13
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_5
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+  - 🇳🇱_NL_荷兰->🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_6
+  - 🇳🇱_NL_荷兰->🇩🇪_DE_德国_2
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_14
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_7
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_15
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_16
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+  - 🇩🇪_DE_德国_2
+  - 🇳🇱_NL_荷兰->🇩🇪_DE_德国_3
+  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
   type: select
 - name: 📲 电报信息
   proxies:
@@ -462,37 +738,55 @@ proxy-groups:
   - 6元高速机场：cczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_1
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_2
   - 🇺🇸_US_美国_1
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_3
   - 🇺🇸_US_美国_2
-  - 🇱🇹_LT_立陶宛
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇺🇸_US_美国_3
-  - 🇮🇹_IT_意大利
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
-  - 🇺🇸_US_美国->🇨🇳_CN_中国
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国_7
-  - 🇩🇪_DE_德国->🇺🇸_US_美国
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1
+  - 🇷🇺_RU_俄罗斯联邦
   - 🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国->🇮🇳_IN_印度
-  - 🇧🇪_BE_比利时
-  - 🇺🇸_US_美国_10
-  - 未知
-  - 🇨🇦_CA_加拿大->🇮🇷_IR_伊朗
-  - 🇺🇸_US_美国_11
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_4
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_5
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_6
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_7
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_8
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  - 🇺🇸_US_美国_3
+  - 🇬🇧_GB_英国
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_9
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_10
+  - 🇺🇸_US_美国_7
   - 🇺🇸_US_美国->🇩🇪_DE_德国_3
-  - 🇩🇪_DE_德国
-  - 🇺🇸_US_美国->🇧🇪_BE_比利时_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇺🇸_US_美国_12
-  - 🇺🇸_US_美国->🇧🇪_BE_比利时_2
-  - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_13
-  - 🇺🇸_US_美国_14
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_11
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_12
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_4
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_4
+  - 🇩🇪_DE_德国_1
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_13
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_5
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+  - 🇳🇱_NL_荷兰->🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_6
+  - 🇳🇱_NL_荷兰->🇩🇪_DE_德国_2
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_14
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_7
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_15
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_16
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+  - 🇩🇪_DE_德国_2
+  - 🇳🇱_NL_荷兰->🇩🇪_DE_德国_3
+  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -501,37 +795,55 @@ proxy-groups:
   - 6元高速机场：cczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_1
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_2
   - 🇺🇸_US_美国_1
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_3
   - 🇺🇸_US_美国_2
-  - 🇱🇹_LT_立陶宛
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇺🇸_US_美国_3
-  - 🇮🇹_IT_意大利
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
-  - 🇺🇸_US_美国->🇨🇳_CN_中国
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国_7
-  - 🇩🇪_DE_德国->🇺🇸_US_美国
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1
+  - 🇷🇺_RU_俄罗斯联邦
   - 🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国->🇮🇳_IN_印度
-  - 🇧🇪_BE_比利时
-  - 🇺🇸_US_美国_10
-  - 未知
-  - 🇨🇦_CA_加拿大->🇮🇷_IR_伊朗
-  - 🇺🇸_US_美国_11
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_4
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_5
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_6
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_7
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_8
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  - 🇺🇸_US_美国_3
+  - 🇬🇧_GB_英国
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_9
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_10
+  - 🇺🇸_US_美国_7
   - 🇺🇸_US_美国->🇩🇪_DE_德国_3
-  - 🇩🇪_DE_德国
-  - 🇺🇸_US_美国->🇧🇪_BE_比利时_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇺🇸_US_美国_12
-  - 🇺🇸_US_美国->🇧🇪_BE_比利时_2
-  - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_13
-  - 🇺🇸_US_美国_14
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_11
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_12
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_4
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_4
+  - 🇩🇪_DE_德国_1
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_13
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_5
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+  - 🇳🇱_NL_荷兰->🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_6
+  - 🇳🇱_NL_荷兰->🇩🇪_DE_德国_2
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_14
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_7
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_15
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_16
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+  - 🇩🇪_DE_德国_2
+  - 🇳🇱_NL_荷兰->🇩🇪_DE_德国_3
+  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -540,37 +852,55 @@ proxy-groups:
   - 6元高速机场：cczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_1
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_2
   - 🇺🇸_US_美国_1
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_3
   - 🇺🇸_US_美国_2
-  - 🇱🇹_LT_立陶宛
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇺🇸_US_美国_3
-  - 🇮🇹_IT_意大利
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
-  - 🇺🇸_US_美国->🇨🇳_CN_中国
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国_7
-  - 🇩🇪_DE_德国->🇺🇸_US_美国
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1
+  - 🇷🇺_RU_俄罗斯联邦
   - 🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国->🇮🇳_IN_印度
-  - 🇧🇪_BE_比利时
-  - 🇺🇸_US_美国_10
-  - 未知
-  - 🇨🇦_CA_加拿大->🇮🇷_IR_伊朗
-  - 🇺🇸_US_美国_11
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_4
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_5
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_6
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_7
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_8
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  - 🇺🇸_US_美国_3
+  - 🇬🇧_GB_英国
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_9
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_10
+  - 🇺🇸_US_美国_7
   - 🇺🇸_US_美国->🇩🇪_DE_德国_3
-  - 🇩🇪_DE_德国
-  - 🇺🇸_US_美国->🇧🇪_BE_比利时_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇺🇸_US_美国_12
-  - 🇺🇸_US_美国->🇧🇪_BE_比利时_2
-  - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_13
-  - 🇺🇸_US_美国_14
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_11
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_12
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_4
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_4
+  - 🇩🇪_DE_德国_1
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_13
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_5
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+  - 🇳🇱_NL_荷兰->🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_6
+  - 🇳🇱_NL_荷兰->🇩🇪_DE_德国_2
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_14
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_7
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_15
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_16
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+  - 🇩🇪_DE_德国_2
+  - 🇳🇱_NL_荷兰->🇩🇪_DE_德国_3
+  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -596,37 +926,55 @@ proxy-groups:
   - 6元高速机场：cczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_1
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_2
   - 🇺🇸_US_美国_1
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_3
   - 🇺🇸_US_美国_2
-  - 🇱🇹_LT_立陶宛
-  - 🇺🇸_US_美国->🇫🇷_FR_法国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
-  - 🇺🇸_US_美国_3
-  - 🇮🇹_IT_意大利
-  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
-  - 🇺🇸_US_美国->🇨🇳_CN_中国
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
-  - 🇺🇸_US_美国_7
-  - 🇩🇪_DE_德国->🇺🇸_US_美国
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_1
+  - 🇷🇺_RU_俄罗斯联邦
   - 🇨🇦_CA_加拿大
-  - 🇺🇸_US_美国->🇮🇳_IN_印度
-  - 🇧🇪_BE_比利时
-  - 🇺🇸_US_美国_10
-  - 未知
-  - 🇨🇦_CA_加拿大->🇮🇷_IR_伊朗
-  - 🇺🇸_US_美国_11
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_4
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_5
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_6
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_7
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_8
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+  - 🇺🇸_US_美国_3
+  - 🇬🇧_GB_英国
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_2
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_9
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_2
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_10
+  - 🇺🇸_US_美国_7
   - 🇺🇸_US_美国->🇩🇪_DE_德国_3
-  - 🇩🇪_DE_德国
-  - 🇺🇸_US_美国->🇧🇪_BE_比利时_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇺🇸_US_美国_12
-  - 🇺🇸_US_美国->🇧🇪_BE_比利时_2
-  - 🇷🇴_RO_罗马尼亚
-  - 🇺🇸_US_美国_13
-  - 🇺🇸_US_美国_14
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_11
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_12
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_4
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_3
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦_4
+  - 🇩🇪_DE_德国_1
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_13
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_5
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+  - 🇳🇱_NL_荷兰->🇩🇪_DE_德国_1
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_6
+  - 🇳🇱_NL_荷兰->🇩🇪_DE_德国_2
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_14
+  - 🇺🇸_US_美国->🇩🇪_DE_德国_7
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_15
+  - 🇯🇵_JP_日本->🇩🇪_DE_德国_16
+  - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+  - 🇩🇪_DE_德国_2
+  - 🇳🇱_NL_荷兰->🇩🇪_DE_德国_3
+  - 🇺🇸_US_美国_9
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
