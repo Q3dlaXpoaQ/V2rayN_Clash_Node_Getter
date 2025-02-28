@@ -34,7 +34,7 @@ mode: rule
 proxies:
 - cipher: aes-128-gcm
   ip-version: dual
-  name: 6元高速机场：cczzuu.top
+  name: 6元高速机场%3Acczzuu.top
   password: 6601fb90e9b3
   port: 443
   server: 127.0.0.1
@@ -59,31 +59,43 @@ proxies:
   tls: false
   type: ss
   udp: true
-- ip-version: dual
-  name: 🇷🇴_RO_罗马尼亚_1
-  password: '3747000103274291200'
-  port: 443
-  server: 93.114.98.252
-  skip-cert-verify: false
-  sni: alive-polecat.treefrog761.one
-  tls: true
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
+- cipher: aes-256-cfb
   ip-version: dual
-  name: 🇨🇦_CA_加拿大_1
-  password: lGqs95QkFHo2NV
-  port: 5498
-  server: 23.154.136.137
+  name: 🇺🇸_US_美国_1
+  password: amazonskr05
+  port: 443
+  server: 34.217.75.205
   tls: false
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   ip-version: dual
-  name: 🇩🇪_DE_德国->🇨🇳_CN_中国
-  password: 1RWwXhwfAB5gAEozU4G2Pg
+  name: 🇩🇪_DE_德国->🇺🇸_US_美国
+  password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
-  server: 45.87.175.178
+  server: 45.87.175.166
+  tls: false
+  type: ss
+  udp: true
+- alpn:
+  - http/1.1
+  ip-version: dual
+  name: 🇺🇸_US_美国_2
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 13.61.200.145
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  tls: true
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇷🇺_RU_俄罗斯_1
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.173
   tls: false
   type: ss
   udp: true
@@ -98,10 +110,118 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   ip-version: dual
-  name: 🇷🇺_RU_俄罗斯_1
-  password: UTJA57ypk2XKQpnm
-  port: 9033
+  name: 🇺🇸_US_美国_4
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.237.185.160
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇺🇸_US_美国_5
+  password: amazonskr05
+  port: 443
+  server: 34.220.211.62
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇷🇺_RU_俄罗斯_2
+  password: JdmRK9gMEqFgs8nP
+  port: 9003
   server: 217.30.10.18
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇺🇸_US_美国_7
+  password: amazonskr05
+  port: 443
+  server: 54.244.204.173
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇺🇸_US_美国_8
+  password: amazonskr05
+  port: 443
+  server: 34.220.174.155
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇩🇪_DE_德国
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 134.255.210.49
+  tls: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  ip-version: dual
+  name: 🇨🇳_CN_中国->🇮🇹_IT_意大利
+  password: 352ec04c-fad2-49b7-b206-4b5d68e47ce6
+  port: 44191
+  server: llwsbpu765uu86ihz88yqy4hu3rbehpd.02.01.it.k7h.lol
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇷🇺_RU_俄罗斯_3
+  password: c3NtHJ5ujV2tGDfj
+  port: 9084
+  server: 217.30.10.18
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇺🇸_US_美国_10
+  password: amazonskr05
+  port: 443
+  server: 44.243.45.146
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_5
+  password: amazonskr05
+  port: 443
+  server: 52.32.166.45
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇷🇺_RU_俄罗斯_4
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
+  server: 217.30.10.18
+  tls: false
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  ip-version: dual
+  name: 🇺🇦_UA_乌克兰_2
+  password: YTNjNDY5
+  port: 8388
+  server: 185.234.64.35
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇷🇴_RO_罗马尼亚
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.193.49.88
   tls: false
   type: ss
   udp: true
@@ -116,127 +236,16 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   ip-version: dual
-  name: 🇺🇸_US_美国->🇿🇦_ZA_南非
-  password: amazonskr05
-  port: 443
-  server: 54.244.78.72
-  tls: false
-  type: ss
-  udp: true
-- ip-version: dual
-  name: 🇷🇴_RO_罗马尼亚_2
-  password: '3747000103274291200'
-  port: 443
-  server: alive-polecat.treefrog761.one
-  skip-cert-verify: false
-  sni: alive-polecat.treefrog761.one
-  tls: true
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-  password: amazonskr05
-  port: 443
-  server: 18.236.132.239
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 🇷🇺_RU_俄罗斯_2
-  password: QWDDvVE9npNurQfA
-  port: 9026
-  server: 217.30.10.18
-  tls: false
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  ip-version: dual
-  name: 🇨🇳_CN_中国
-  network: tcp
-  port: 14100
-  server: dxv4.pai50288.uk
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
-- cipher: aes-256-gcm
-  ip-version: dual
-  name: 🇨🇦_CA_加拿大_2
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 23.154.136.148
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 🇷🇴_RO_罗马尼亚_3
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.193.49.88
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 🇷🇺_RU_俄罗斯_3
-  password: UkXRsXvR6buDMG2Y
-  port: 9001
+  name: 🇷🇺_RU_俄罗斯_5
+  password: 9XwYyZsK8SNzQDtY
+  port: 9059
   server: 217.30.10.18
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-cfb
   ip-version: dual
-  name: 🇷🇺_RU_俄罗斯_4
-  password: XPtzA9sCug3SPR4c
-  port: 9025
-  server: 217.30.10.18
-  tls: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  ip-version: dual
-  name: 🇺🇦_UA_乌克兰_2
-  password: 6IVOuzMfH5ROpgwtRTcNJKYJvYe9FDVaU7wAYYh8PRLxxZs6
-  port: 31348
-  server: 188.191.147.127
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  ip-version: dual
-  name: 🇺🇸_US_美国_4
-  password: FoOiGlkAA9yPEGP
-  port: 7307
-  server: 38.107.226.159
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  ip-version: dual
-  name: 🇺🇸_US_美国_5
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 38.107.226.159
-  tls: false
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  ip-version: dual
-  name: 🇿🇦_ZA_南非
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 129.232.134.112
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 🇮🇹_IT_意大利
+  name: 🇮🇹_IT_意大利->🇷🇺_RU_俄罗斯
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 37.143.129.230
@@ -248,56 +257,58 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 6元高速机场：cczzuu.top
+  - 6元高速机场%3Acczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
-  - 🇷🇴_RO_罗马尼亚_1
-  - 🇨🇦_CA_加拿大_1
-  - 🇩🇪_DE_德国->🇨🇳_CN_中国
-  - 🇺🇦_UA_乌克兰_1
+  - 🇺🇸_US_美国_1
+  - 🇩🇪_DE_德国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_2
   - 🇷🇺_RU_俄罗斯_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇺🇸_US_美国->🇿🇦_ZA_南非
-  - 🇷🇴_RO_罗马尼亚_2
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-  - 🇷🇺_RU_俄罗斯_2
-  - 🇨🇳_CN_中国
-  - 🇨🇦_CA_加拿大_2
-  - 🇷🇴_RO_罗马尼亚_3
-  - 🇷🇺_RU_俄罗斯_3
-  - 🇷🇺_RU_俄罗斯_4
-  - 🇺🇦_UA_乌克兰_2
+  - 🇺🇦_UA_乌克兰_1
   - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_5
-  - 🇿🇦_ZA_南非
-  - 🇮🇹_IT_意大利
+  - 🇷🇺_RU_俄罗斯_2
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇩🇪_DE_德国
+  - 🇨🇳_CN_中国->🇮🇹_IT_意大利
+  - 🇷🇺_RU_俄罗斯_3
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_5
+  - 🇷🇺_RU_俄罗斯_4
+  - 🇺🇦_UA_乌克兰_2
+  - 🇷🇴_RO_罗马尼亚
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇷🇺_RU_俄罗斯_5
+  - 🇮🇹_IT_意大利->🇷🇺_RU_俄罗斯
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 6元高速机场：cczzuu.top
+  - 6元高速机场%3Acczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
-  - 🇷🇴_RO_罗马尼亚_1
-  - 🇨🇦_CA_加拿大_1
-  - 🇩🇪_DE_德国->🇨🇳_CN_中国
-  - 🇺🇦_UA_乌克兰_1
+  - 🇺🇸_US_美国_1
+  - 🇩🇪_DE_德国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_2
   - 🇷🇺_RU_俄罗斯_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇺🇸_US_美国->🇿🇦_ZA_南非
-  - 🇷🇴_RO_罗马尼亚_2
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-  - 🇷🇺_RU_俄罗斯_2
-  - 🇨🇳_CN_中国
-  - 🇨🇦_CA_加拿大_2
-  - 🇷🇴_RO_罗马尼亚_3
-  - 🇷🇺_RU_俄罗斯_3
-  - 🇷🇺_RU_俄罗斯_4
-  - 🇺🇦_UA_乌克兰_2
+  - 🇺🇦_UA_乌克兰_1
   - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_5
-  - 🇿🇦_ZA_南非
-  - 🇮🇹_IT_意大利
+  - 🇷🇺_RU_俄罗斯_2
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇩🇪_DE_德国
+  - 🇨🇳_CN_中国->🇮🇹_IT_意大利
+  - 🇷🇺_RU_俄罗斯_3
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_5
+  - 🇷🇺_RU_俄罗斯_4
+  - 🇺🇦_UA_乌克兰_2
+  - 🇷🇴_RO_罗马尼亚
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇷🇺_RU_俄罗斯_5
+  - 🇮🇹_IT_意大利->🇷🇺_RU_俄罗斯
   tolerance: 5000
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -306,113 +317,117 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 6元高速机场：cczzuu.top
+  - 6元高速机场%3Acczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
-  - 🇷🇴_RO_罗马尼亚_1
-  - 🇨🇦_CA_加拿大_1
-  - 🇩🇪_DE_德国->🇨🇳_CN_中国
-  - 🇺🇦_UA_乌克兰_1
+  - 🇺🇸_US_美国_1
+  - 🇩🇪_DE_德国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_2
   - 🇷🇺_RU_俄罗斯_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇺🇸_US_美国->🇿🇦_ZA_南非
-  - 🇷🇴_RO_罗马尼亚_2
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-  - 🇷🇺_RU_俄罗斯_2
-  - 🇨🇳_CN_中国
-  - 🇨🇦_CA_加拿大_2
-  - 🇷🇴_RO_罗马尼亚_3
-  - 🇷🇺_RU_俄罗斯_3
-  - 🇷🇺_RU_俄罗斯_4
-  - 🇺🇦_UA_乌克兰_2
+  - 🇺🇦_UA_乌克兰_1
   - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_5
-  - 🇿🇦_ZA_南非
-  - 🇮🇹_IT_意大利
+  - 🇷🇺_RU_俄罗斯_2
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇩🇪_DE_德国
+  - 🇨🇳_CN_中国->🇮🇹_IT_意大利
+  - 🇷🇺_RU_俄罗斯_3
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_5
+  - 🇷🇺_RU_俄罗斯_4
+  - 🇺🇦_UA_乌克兰_2
+  - 🇷🇴_RO_罗马尼亚
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇷🇺_RU_俄罗斯_5
+  - 🇮🇹_IT_意大利->🇷🇺_RU_俄罗斯
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 6元高速机场：cczzuu.top
+  - 6元高速机场%3Acczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
-  - 🇷🇴_RO_罗马尼亚_1
-  - 🇨🇦_CA_加拿大_1
-  - 🇩🇪_DE_德国->🇨🇳_CN_中国
-  - 🇺🇦_UA_乌克兰_1
+  - 🇺🇸_US_美国_1
+  - 🇩🇪_DE_德国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_2
   - 🇷🇺_RU_俄罗斯_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇺🇸_US_美国->🇿🇦_ZA_南非
-  - 🇷🇴_RO_罗马尼亚_2
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-  - 🇷🇺_RU_俄罗斯_2
-  - 🇨🇳_CN_中国
-  - 🇨🇦_CA_加拿大_2
-  - 🇷🇴_RO_罗马尼亚_3
-  - 🇷🇺_RU_俄罗斯_3
-  - 🇷🇺_RU_俄罗斯_4
-  - 🇺🇦_UA_乌克兰_2
+  - 🇺🇦_UA_乌克兰_1
   - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_5
-  - 🇿🇦_ZA_南非
-  - 🇮🇹_IT_意大利
+  - 🇷🇺_RU_俄罗斯_2
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇩🇪_DE_德国
+  - 🇨🇳_CN_中国->🇮🇹_IT_意大利
+  - 🇷🇺_RU_俄罗斯_3
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_5
+  - 🇷🇺_RU_俄罗斯_4
+  - 🇺🇦_UA_乌克兰_2
+  - 🇷🇴_RO_罗马尼亚
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇷🇺_RU_俄罗斯_5
+  - 🇮🇹_IT_意大利->🇷🇺_RU_俄罗斯
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 6元高速机场：cczzuu.top
+  - 6元高速机场%3Acczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
-  - 🇷🇴_RO_罗马尼亚_1
-  - 🇨🇦_CA_加拿大_1
-  - 🇩🇪_DE_德国->🇨🇳_CN_中国
-  - 🇺🇦_UA_乌克兰_1
+  - 🇺🇸_US_美国_1
+  - 🇩🇪_DE_德国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_2
   - 🇷🇺_RU_俄罗斯_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇺🇸_US_美国->🇿🇦_ZA_南非
-  - 🇷🇴_RO_罗马尼亚_2
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-  - 🇷🇺_RU_俄罗斯_2
-  - 🇨🇳_CN_中国
-  - 🇨🇦_CA_加拿大_2
-  - 🇷🇴_RO_罗马尼亚_3
-  - 🇷🇺_RU_俄罗斯_3
-  - 🇷🇺_RU_俄罗斯_4
-  - 🇺🇦_UA_乌克兰_2
+  - 🇺🇦_UA_乌克兰_1
   - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_5
-  - 🇿🇦_ZA_南非
-  - 🇮🇹_IT_意大利
+  - 🇷🇺_RU_俄罗斯_2
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇩🇪_DE_德国
+  - 🇨🇳_CN_中国->🇮🇹_IT_意大利
+  - 🇷🇺_RU_俄罗斯_3
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_5
+  - 🇷🇺_RU_俄罗斯_4
+  - 🇺🇦_UA_乌克兰_2
+  - 🇷🇴_RO_罗马尼亚
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇷🇺_RU_俄罗斯_5
+  - 🇮🇹_IT_意大利->🇷🇺_RU_俄罗斯
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 6元高速机场：cczzuu.top
+  - 6元高速机场%3Acczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
-  - 🇷🇴_RO_罗马尼亚_1
-  - 🇨🇦_CA_加拿大_1
-  - 🇩🇪_DE_德国->🇨🇳_CN_中国
-  - 🇺🇦_UA_乌克兰_1
+  - 🇺🇸_US_美国_1
+  - 🇩🇪_DE_德国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_2
   - 🇷🇺_RU_俄罗斯_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇺🇸_US_美国->🇿🇦_ZA_南非
-  - 🇷🇴_RO_罗马尼亚_2
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-  - 🇷🇺_RU_俄罗斯_2
-  - 🇨🇳_CN_中国
-  - 🇨🇦_CA_加拿大_2
-  - 🇷🇴_RO_罗马尼亚_3
-  - 🇷🇺_RU_俄罗斯_3
-  - 🇷🇺_RU_俄罗斯_4
-  - 🇺🇦_UA_乌克兰_2
+  - 🇺🇦_UA_乌克兰_1
   - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_5
-  - 🇿🇦_ZA_南非
-  - 🇮🇹_IT_意大利
+  - 🇷🇺_RU_俄罗斯_2
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇩🇪_DE_德国
+  - 🇨🇳_CN_中国->🇮🇹_IT_意大利
+  - 🇷🇺_RU_俄罗斯_3
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_5
+  - 🇷🇺_RU_俄罗斯_4
+  - 🇺🇦_UA_乌克兰_2
+  - 🇷🇴_RO_罗马尼亚
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇷🇺_RU_俄罗斯_5
+  - 🇮🇹_IT_意大利->🇷🇺_RU_俄罗斯
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -435,29 +450,30 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 6元高速机场：cczzuu.top
+  - 6元高速机场%3Acczzuu.top
   - 重度用户推荐使用机场
   - 免费节点可能会泄漏访问记录
-  - 🇷🇴_RO_罗马尼亚_1
-  - 🇨🇦_CA_加拿大_1
-  - 🇩🇪_DE_德国->🇨🇳_CN_中国
-  - 🇺🇦_UA_乌克兰_1
+  - 🇺🇸_US_美国_1
+  - 🇩🇪_DE_德国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_2
   - 🇷🇺_RU_俄罗斯_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇺🇸_US_美国->🇿🇦_ZA_南非
-  - 🇷🇴_RO_罗马尼亚_2
-  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
-  - 🇷🇺_RU_俄罗斯_2
-  - 🇨🇳_CN_中国
-  - 🇨🇦_CA_加拿大_2
-  - 🇷🇴_RO_罗马尼亚_3
-  - 🇷🇺_RU_俄罗斯_3
-  - 🇷🇺_RU_俄罗斯_4
-  - 🇺🇦_UA_乌克兰_2
+  - 🇺🇦_UA_乌克兰_1
   - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_5
-  - 🇿🇦_ZA_南非
-  - 🇮🇹_IT_意大利
+  - 🇷🇺_RU_俄罗斯_2
+  - 🇺🇸_US_美国_7
+  - 🇺🇸_US_美国_8
+  - 🇩🇪_DE_德国
+  - 🇨🇳_CN_中国->🇮🇹_IT_意大利
+  - 🇷🇺_RU_俄罗斯_3
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯_5
+  - 🇷🇺_RU_俄罗斯_4
+  - 🇺🇦_UA_乌克兰_2
+  - 🇷🇴_RO_罗马尼亚
+  - 🇨🇳_CN_中国->🇺🇸_US_美国
+  - 🇷🇺_RU_俄罗斯_5
+  - 🇮🇹_IT_意大利->🇷🇺_RU_俄罗斯
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
