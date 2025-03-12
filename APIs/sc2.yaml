@@ -73,59 +73,45 @@ proxies:
   name: 🇺🇸_US_美国_1
   password: amazonskr05
   port: 443
-  server: 35.86.89.247
+  server: 54.201.149.176
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-cfb
   ip-version: dual
-  name: 🇺🇸_US_美国_2
+  name: 🇺🇸_US_美国_3
   password: amazonskr05
   port: 443
-  server: 18.236.83.127
+  server: 34.214.175.186
   tls: false
   type: ss
   udp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: i8oL7PsxV002zYFTmiIeg
+- alterId: 0
+  cipher: auto
   ip-version: dual
-  name: 🇺🇸_US_美国_5
-  network: grpc
-  password: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
-  port: 443
-  server: 192.3.130.103
-  skip-cert-verify: false
-  sni: us10-02zl.huangshang.filegear-sg.me
-  tls: true
-  type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 🇺🇸_US_美国_6
-  password: amazonskr05
-  port: 443
-  server: 52.24.145.185
+  name: 🇺🇸_US_美国->🇯🇵_JP_日本
+  network: ws
+  port: 2082
+  server: 172.67.202.155
   tls: false
-  type: ss
+  type: vmess
   udp: true
+  uuid: 5ce824bc-d76b-4420-aef3-45a7bade5228
 - cipher: aes-256-cfb
   ip-version: dual
-  name: 🇸🇰_SK_斯洛伐克
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 156.146.40.194
-  tls: false
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 🇺🇸_US_美国->🇬🇧_GB_英国_1
+  name: 🇺🇸_US_美国_4
   password: amazonskr05
   port: 443
   server: 34.222.44.5
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇺🇸_US_美国_5
+  password: amazonskr05
+  port: 443
+  server: 35.91.216.191
   tls: false
   type: ss
   udp: true
@@ -138,69 +124,100 @@ proxies:
   tls: false
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-cfb
   ip-version: dual
   name: 🇺🇸_US_美国_8
-  password: QiedihFikxn4kCWygMXmFb
+  password: amazonskr05
   port: 443
-  server: 77.83.246.74
+  server: 35.86.111.233
   tls: false
   type: ss
   udp: true
+- cipher: auto
+  ip-version: dual
+  name: 🇨🇳_CN_中国
+  network: ws
+  port: 63092
+  server: in06.xxxoooxxxooo.net
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2ecc00a4-25c3-344e-ae6c-8872b9092e25
 - cipher: aes-256-cfb
   ip-version: dual
-  name: 🇺🇸_US_美国->🇬🇧_GB_英国_2
+  name: 🇺🇸_US_美国_10
   password: amazonskr05
   port: 443
-  server: 54.186.195.135
+  server: 35.92.145.143
   tls: false
   type: ss
   udp: true
-- cipher: aes-256-cfb
+- alpn:
+  - http/1.1
   ip-version: dual
-  name: 🇺🇸_US_美国_9
-  password: amazonskr05
-  port: 443
-  server: 52.13.119.156
+  name: 🇺🇸_US_美国_11
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 63.177.204.133
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  tls: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  ip-version: dual
+  name: 🇺🇦_UA_乌克兰_1
+  password: d0fa3a9b-2115-4cc0-a8f5-7f4f7caf6ec1
+  port: 8080
+  server: 85.90.194.200
   tls: false
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   ip-version: dual
-  name: 🇺🇦_UA_乌克兰
+  name: 🇺🇦_UA_乌克兰_2
   password: ODA2MGZh
   port: 8388
-  server: 95.164.36.59
+  server: at1.opensocks.site
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-cfb
   ip-version: dual
-  name: 🇺🇸_US_美国->🇬🇧_GB_英国_3
+  name: 🇺🇸_US_美国_16
   password: amazonskr05
   port: 443
-  server: 54.200.183.45
+  server: 35.91.198.93
   tls: false
   type: ss
   udp: true
 - cipher: aes-256-cfb
   ip-version: dual
-  name: 🇺🇸_US_美国->🇬🇧_GB_英国_4
+  name: 🇺🇸_US_美国_17
   password: amazonskr05
   port: 443
-  server: 35.87.121.216
+  server: 35.87.37.159
   tls: false
   type: ss
   udp: true
-- ip-version: dual
-  name: 🇨🇳_CN_中国->🇬🇧_GB_英国
-  password: e06739e1-5c25-32de-8fb7-95ce8e8f9576
-  port: 20295
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z295.hongkongnode.top
-  tls: true
-  type: trojan
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇺🇸_US_美国_18
+  password: amazonskr05
+  port: 443
+  server: 35.91.235.173
+  tls: false
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇩🇰_DK_丹麦
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.186.79.53
+  tls: false
+  type: ss
   udp: true
 proxy-groups:
 - name: 🚀 节点选择
@@ -212,19 +229,21 @@ proxy-groups:
   - 免费节点可能会泄漏访问记录
   - 低月租大流量卡：121234.top
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国->🇯🇵_JP_日本
+  - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
-  - 🇸🇰_SK_斯洛伐克
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_1
   - 🇺🇸_US_美国_7
   - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-  - 🇺🇸_US_美国_9
-  - 🇺🇦_UA_乌克兰
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_3
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_4
-  - 🇨🇳_CN_中国->🇬🇧_GB_英国
+  - 🇨🇳_CN_中国
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇺🇦_UA_乌克兰_1
+  - 🇺🇦_UA_乌克兰_2
+  - 🇺🇸_US_美国_16
+  - 🇺🇸_US_美国_17
+  - 🇺🇸_US_美国_18
+  - 🇩🇰_DK_丹麦
   type: select
 - interval: 300
   name: ♻️ 自动选择
@@ -234,19 +253,21 @@ proxy-groups:
   - 免费节点可能会泄漏访问记录
   - 低月租大流量卡：121234.top
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国->🇯🇵_JP_日本
+  - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
-  - 🇸🇰_SK_斯洛伐克
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_1
   - 🇺🇸_US_美国_7
   - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-  - 🇺🇸_US_美国_9
-  - 🇺🇦_UA_乌克兰
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_3
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_4
-  - 🇨🇳_CN_中国->🇬🇧_GB_英国
+  - 🇨🇳_CN_中国
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇺🇦_UA_乌克兰_1
+  - 🇺🇦_UA_乌克兰_2
+  - 🇺🇸_US_美国_16
+  - 🇺🇸_US_美国_17
+  - 🇺🇸_US_美国_18
+  - 🇩🇰_DK_丹麦
   tolerance: 5000
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -260,19 +281,21 @@ proxy-groups:
   - 免费节点可能会泄漏访问记录
   - 低月租大流量卡：121234.top
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国->🇯🇵_JP_日本
+  - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
-  - 🇸🇰_SK_斯洛伐克
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_1
   - 🇺🇸_US_美国_7
   - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-  - 🇺🇸_US_美国_9
-  - 🇺🇦_UA_乌克兰
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_3
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_4
-  - 🇨🇳_CN_中国->🇬🇧_GB_英国
+  - 🇨🇳_CN_中国
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇺🇦_UA_乌克兰_1
+  - 🇺🇦_UA_乌克兰_2
+  - 🇺🇸_US_美国_16
+  - 🇺🇸_US_美国_17
+  - 🇺🇸_US_美国_18
+  - 🇩🇰_DK_丹麦
   type: select
 - name: 📲 电报信息
   proxies:
@@ -283,19 +306,21 @@ proxy-groups:
   - 免费节点可能会泄漏访问记录
   - 低月租大流量卡：121234.top
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国->🇯🇵_JP_日本
+  - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
-  - 🇸🇰_SK_斯洛伐克
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_1
   - 🇺🇸_US_美国_7
   - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-  - 🇺🇸_US_美国_9
-  - 🇺🇦_UA_乌克兰
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_3
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_4
-  - 🇨🇳_CN_中国->🇬🇧_GB_英国
+  - 🇨🇳_CN_中国
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇺🇦_UA_乌克兰_1
+  - 🇺🇦_UA_乌克兰_2
+  - 🇺🇸_US_美国_16
+  - 🇺🇸_US_美国_17
+  - 🇺🇸_US_美国_18
+  - 🇩🇰_DK_丹麦
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -306,19 +331,21 @@ proxy-groups:
   - 免费节点可能会泄漏访问记录
   - 低月租大流量卡：121234.top
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国->🇯🇵_JP_日本
+  - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
-  - 🇸🇰_SK_斯洛伐克
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_1
   - 🇺🇸_US_美国_7
   - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-  - 🇺🇸_US_美国_9
-  - 🇺🇦_UA_乌克兰
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_3
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_4
-  - 🇨🇳_CN_中国->🇬🇧_GB_英国
+  - 🇨🇳_CN_中国
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇺🇦_UA_乌克兰_1
+  - 🇺🇦_UA_乌克兰_2
+  - 🇺🇸_US_美国_16
+  - 🇺🇸_US_美国_17
+  - 🇺🇸_US_美国_18
+  - 🇩🇰_DK_丹麦
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -329,19 +356,21 @@ proxy-groups:
   - 免费节点可能会泄漏访问记录
   - 低月租大流量卡：121234.top
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国->🇯🇵_JP_日本
+  - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
-  - 🇸🇰_SK_斯洛伐克
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_1
   - 🇺🇸_US_美国_7
   - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-  - 🇺🇸_US_美国_9
-  - 🇺🇦_UA_乌克兰
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_3
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_4
-  - 🇨🇳_CN_中国->🇬🇧_GB_英国
+  - 🇨🇳_CN_中国
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇺🇦_UA_乌克兰_1
+  - 🇺🇦_UA_乌克兰_2
+  - 🇺🇸_US_美国_16
+  - 🇺🇸_US_美国_17
+  - 🇺🇸_US_美国_18
+  - 🇩🇰_DK_丹麦
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -369,19 +398,21 @@ proxy-groups:
   - 免费节点可能会泄漏访问记录
   - 低月租大流量卡：121234.top
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国->🇯🇵_JP_日本
+  - 🇺🇸_US_美国_4
   - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
-  - 🇸🇰_SK_斯洛伐克
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_1
   - 🇺🇸_US_美国_7
   - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_2
-  - 🇺🇸_US_美国_9
-  - 🇺🇦_UA_乌克兰
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_3
-  - 🇺🇸_US_美国->🇬🇧_GB_英国_4
-  - 🇨🇳_CN_中国->🇬🇧_GB_英国
+  - 🇨🇳_CN_中国
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇺🇦_UA_乌克兰_1
+  - 🇺🇦_UA_乌克兰_2
+  - 🇺🇸_US_美国_16
+  - 🇺🇸_US_美国_17
+  - 🇺🇸_US_美国_18
+  - 🇩🇰_DK_丹麦
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
