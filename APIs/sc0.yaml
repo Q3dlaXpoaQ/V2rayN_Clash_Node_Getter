@@ -32,118 +32,125 @@ mixed-port: 7890
 mode: rule
 proxies:
 - cipher: aes-256-cfb
-  name: 🇸🇰_SK_斯洛伐克->🇺🇸_US_美国
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 156.146.40.194
+  name: 🇺🇸_US_美国->🇸🇬_SG_新加坡
+  password: amazonskr05
+  port: 443
+  server: 35.87.29.54
   type: ss
-- name: 🇺🇸_US_美国->🇩🇪_DE_德国
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国->🇧🇪_BE_比利时
+  password: amazonskr05
+  port: 443
+  server: 34.221.169.63
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
+  password: VMhGp5wEIyCDf90T
+  port: 18755
+  server: csuzhou01.1cooldns.com
+  type: ss
+- name: 🇺🇸_US_美国_1
   password: telegram-id-privatevpns
   port: 22222
-  server: 13.38.175.48
+  server: 18.157.251.9
+  skip-cert-verify: false
   sni: trojan.burgerip.co.uk
   type: trojan
-- name: 🇺🇸_US_美国
-  network: tcp
-  password: SaujZeOR2F6eDD09KnxFcl3CY8laTXAyYOyCEI5qgwRSDp4ZCp33ASxN738zBa
-  port: 443
-  server: beseech.homeofbrave.net
-  sni: beseech.homeofbrave.net
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国_2
+  network: ws
+  port: 80
+  server: biiia-vpn-whal.fast.hosting-ip.com
+  sni: ''
+  type: vmess
+  uuid: id9---@vpn-whal
+  ws-opts:
+    headers:
+      host: cat.IR.
+    path: /?ed=2056/#id-telegram:--->@vpn_whal<---
 - cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_1
-  password: amazonskr05
-  port: 443
-  server: 35.91.216.191
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国->🇯🇵_JP_日本
-  password: amazonskr05
-  port: 443
-  server: 18.236.137.219
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇨🇭_CH_瑞士->🇺🇸_US_美国
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 84.17.53.160
-  type: ss
-- name: 🇺🇸_US_美国_2
-  password: SaujZeOR2F6eDD09KnxFcl3CY8laTXAyYOyCEI5qgwRSDp4ZCp33ASxN738zBa
-  port: 443
-  server: 69.5.52.87
-  sni: beseech.homeofbrave.net
-  type: trojan
-- cipher: aes-256-cfb
-  name: 🇩🇰_DK_丹麦
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.186.79.53
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇫🇮_FI_芬兰
-  password: eath1eicieSh_!MMyb~4HT,}bC@ohpheiRaighier0shohd
-  port: 8388
-  server: 95.217.158.231
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇬🇧_GB_英国
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 62.100.205.48
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_3
+  name: 🇺🇸_US_美国->🏳️_unKnow_未知
   password: amazonskr05
   port: 443
   server: 54.202.63.169
   type: ss
-- name: 🇺🇸_US_美国_4
-  network: tcp
-  password: 3wXO97Y83a9ynFAgyajxxpz6qeSSCu6z3C3RDwTNYcDZyCAFglBE3ANDFA0e7SFaIlDOq
+- cipher: chacha20-ietf-poly1305
+  name: 🇨🇳_CN_中国
+  password: UP3JN98C6EOR
   port: 443
-  server: socepy.homeofbrave.net
-  sni: socepy.homeofbrave.net
-  type: trojan
+  server: 62.60.233.21
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇨🇭_CH_瑞士->🏳️_unKnow_未知
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 84.17.53.160
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国_4
+  password: amazonskr05
+  port: 443
+  server: 34.210.253.95
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇮🇳_IN_印度
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+  port: 8080
+  server: 103.104.247.49
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸_US_美国->🏳️_unKnow_未知_1
+  network: ws
+  port: 80
+  server: 172.67.152.71
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
+  ws-opts:
+    headers:
+      host: 462583301568512025032010340527704.dblxc.chibaba.filegear-sg.me
+    path: /dubai.html?ed=2048
 - cipher: aes-256-cfb
   name: 🇺🇸_US_美国_5
   password: amazonskr05
   port: 443
-  server: 34.210.253.95
+  server: 54.187.221.114
   type: ss
 - cipher: aes-256-cfb
   name: 🇺🇸_US_美国_6
   password: amazonskr05
   port: 443
-  server: 35.86.111.233
+  server: 34.216.142.212
   type: ss
-- cipher: aes-128-cfb
+- cipher: aes-256-cfb
   name: 🇺🇸_US_美国_7
-  password: shadowsocks
-  port: 443
-  server: 184.170.241.194
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_8
   password: amazonskr05
   port: 443
-  server: 34.211.230.161
+  server: 35.94.124.230
   type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国->🇫🇮_FI_芬兰
-  password: amazonskr05
-  port: 443
-  server: 54.184.74.88
+- cipher: chacha20-ietf-poly1305
+  name: 🇧🇪_BE_比利时
+  password: e014f8ab71735926
+  port: 20568
+  server: 57.128.190.245
   type: ss
-- cipher: aes-256-cfb
+- alterId: 0
+  cipher: auto
   name: 🇺🇸_US_美国_9
-  password: amazonskr05
-  port: 443
-  server: 34.221.169.63
-  type: ss
+  network: ws
+  port: 20022
+  server: 207.90.238.136
+  skip-cert-verify: true
+  type: vmess
+  uuid: 3a4acd31-f733-4e37-99d8-7fc46c4097b8
+  ws-opts:
+    path: /
 - grpc-opts:
     grpc-service-name: i8oL7PsxV002zYFTmiIeg
-  name: 🇺🇸_US_美国->🇩🇰_DK_丹麦_1
+  name: 🇺🇸_US_美国_10
   network: grpc
   password: 576c81b6-4976-4fe3-b1a9-05a9c302e98e
   port: 443
@@ -151,69 +158,81 @@ proxies:
   sni: us10-01zl.huangshang.filegear-sg.me
   type: trojan
   udp: true
-- cipher: rc4-md5
-  name: 🇷🇴_RO_罗马尼亚->🇺🇸_US_美国
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 194.5.215.59
-  type: ss
 - cipher: aes-256-cfb
-  name: 🇸🇬_SG_新加坡
+  name: 🇺🇸_US_美国_11
   password: amazonskr05
   port: 443
-  server: 13.229.233.60
+  server: 52.33.164.139
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇸🇰_SK_斯洛伐克
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 156.146.40.194
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国_12
+  password: amazonskr05
+  port: 443
+  server: 54.184.74.88
+  type: ss
+- cipher: aes-256-cfb
+  name: 🇺🇸_US_美国_13
+  password: amazonskr05
+  port: 443
+  server: 44.242.208.211
   type: ss
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇸🇰_SK_斯洛伐克->🇺🇸_US_美国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国
-  - 🇺🇸_US_美国
+  - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+  - 🇺🇸_US_美国->🇧🇪_BE_比利时
+  - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国->🇯🇵_JP_日本
-  - 🇨🇭_CH_瑞士->🇺🇸_US_美国
   - 🇺🇸_US_美国_2
-  - 🇩🇰_DK_丹麦
-  - 🇫🇮_FI_芬兰
-  - 🇬🇧_GB_英国
-  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国->🏳️_unKnow_未知
+  - 🇨🇳_CN_中国
+  - 🇨🇭_CH_瑞士->🏳️_unKnow_未知
   - 🇺🇸_US_美国_4
+  - 🇮🇳_IN_印度
+  - 🇺🇸_US_美国->🏳️_unKnow_未知_1
   - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
   - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🇫🇮_FI_芬兰
+  - 🇧🇪_BE_比利时
   - 🇺🇸_US_美国_9
-  - 🇺🇸_US_美国->🇩🇰_DK_丹麦_1
-  - 🇷🇴_RO_罗马尼亚->🇺🇸_US_美国
-  - 🇸🇬_SG_新加坡
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇸🇰_SK_斯洛伐克
+  - 🇺🇸_US_美国_12
+  - 🇺🇸_US_美国_13
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇸🇰_SK_斯洛伐克->🇺🇸_US_美国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国
-  - 🇺🇸_US_美国
+  - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+  - 🇺🇸_US_美国->🇧🇪_BE_比利时
+  - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国->🇯🇵_JP_日本
-  - 🇨🇭_CH_瑞士->🇺🇸_US_美国
   - 🇺🇸_US_美国_2
-  - 🇩🇰_DK_丹麦
-  - 🇫🇮_FI_芬兰
-  - 🇬🇧_GB_英国
-  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国->🏳️_unKnow_未知
+  - 🇨🇳_CN_中国
+  - 🇨🇭_CH_瑞士->🏳️_unKnow_未知
   - 🇺🇸_US_美国_4
+  - 🇮🇳_IN_印度
+  - 🇺🇸_US_美国->🏳️_unKnow_未知_1
   - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
   - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🇫🇮_FI_芬兰
+  - 🇧🇪_BE_比利时
   - 🇺🇸_US_美国_9
-  - 🇺🇸_US_美国->🇩🇰_DK_丹麦_1
-  - 🇷🇴_RO_罗马尼亚->🇺🇸_US_美国
-  - 🇸🇬_SG_新加坡
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇸🇰_SK_斯洛伐克
+  - 🇺🇸_US_美国_12
+  - 🇺🇸_US_美国_13
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -222,105 +241,105 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇸🇰_SK_斯洛伐克->🇺🇸_US_美国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国
-  - 🇺🇸_US_美国
+  - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+  - 🇺🇸_US_美国->🇧🇪_BE_比利时
+  - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国->🇯🇵_JP_日本
-  - 🇨🇭_CH_瑞士->🇺🇸_US_美国
   - 🇺🇸_US_美国_2
-  - 🇩🇰_DK_丹麦
-  - 🇫🇮_FI_芬兰
-  - 🇬🇧_GB_英国
-  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国->🏳️_unKnow_未知
+  - 🇨🇳_CN_中国
+  - 🇨🇭_CH_瑞士->🏳️_unKnow_未知
   - 🇺🇸_US_美国_4
+  - 🇮🇳_IN_印度
+  - 🇺🇸_US_美国->🏳️_unKnow_未知_1
   - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
   - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🇫🇮_FI_芬兰
+  - 🇧🇪_BE_比利时
   - 🇺🇸_US_美国_9
-  - 🇺🇸_US_美国->🇩🇰_DK_丹麦_1
-  - 🇷🇴_RO_罗马尼亚->🇺🇸_US_美国
-  - 🇸🇬_SG_新加坡
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇸🇰_SK_斯洛伐克
+  - 🇺🇸_US_美国_12
+  - 🇺🇸_US_美国_13
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇸🇰_SK_斯洛伐克->🇺🇸_US_美国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国
-  - 🇺🇸_US_美国
+  - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+  - 🇺🇸_US_美国->🇧🇪_BE_比利时
+  - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国->🇯🇵_JP_日本
-  - 🇨🇭_CH_瑞士->🇺🇸_US_美国
   - 🇺🇸_US_美国_2
-  - 🇩🇰_DK_丹麦
-  - 🇫🇮_FI_芬兰
-  - 🇬🇧_GB_英国
-  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国->🏳️_unKnow_未知
+  - 🇨🇳_CN_中国
+  - 🇨🇭_CH_瑞士->🏳️_unKnow_未知
   - 🇺🇸_US_美国_4
+  - 🇮🇳_IN_印度
+  - 🇺🇸_US_美国->🏳️_unKnow_未知_1
   - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
   - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🇫🇮_FI_芬兰
+  - 🇧🇪_BE_比利时
   - 🇺🇸_US_美国_9
-  - 🇺🇸_US_美国->🇩🇰_DK_丹麦_1
-  - 🇷🇴_RO_罗马尼亚->🇺🇸_US_美国
-  - 🇸🇬_SG_新加坡
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇸🇰_SK_斯洛伐克
+  - 🇺🇸_US_美国_12
+  - 🇺🇸_US_美国_13
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇸🇰_SK_斯洛伐克->🇺🇸_US_美国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国
-  - 🇺🇸_US_美国
+  - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+  - 🇺🇸_US_美国->🇧🇪_BE_比利时
+  - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国->🇯🇵_JP_日本
-  - 🇨🇭_CH_瑞士->🇺🇸_US_美国
   - 🇺🇸_US_美国_2
-  - 🇩🇰_DK_丹麦
-  - 🇫🇮_FI_芬兰
-  - 🇬🇧_GB_英国
-  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国->🏳️_unKnow_未知
+  - 🇨🇳_CN_中国
+  - 🇨🇭_CH_瑞士->🏳️_unKnow_未知
   - 🇺🇸_US_美国_4
+  - 🇮🇳_IN_印度
+  - 🇺🇸_US_美国->🏳️_unKnow_未知_1
   - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
   - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🇫🇮_FI_芬兰
+  - 🇧🇪_BE_比利时
   - 🇺🇸_US_美国_9
-  - 🇺🇸_US_美国->🇩🇰_DK_丹麦_1
-  - 🇷🇴_RO_罗马尼亚->🇺🇸_US_美国
-  - 🇸🇬_SG_新加坡
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇸🇰_SK_斯洛伐克
+  - 🇺🇸_US_美国_12
+  - 🇺🇸_US_美国_13
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇸🇰_SK_斯洛伐克->🇺🇸_US_美国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国
-  - 🇺🇸_US_美国
+  - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+  - 🇺🇸_US_美国->🇧🇪_BE_比利时
+  - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国->🇯🇵_JP_日本
-  - 🇨🇭_CH_瑞士->🇺🇸_US_美国
   - 🇺🇸_US_美国_2
-  - 🇩🇰_DK_丹麦
-  - 🇫🇮_FI_芬兰
-  - 🇬🇧_GB_英国
-  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国->🏳️_unKnow_未知
+  - 🇨🇳_CN_中国
+  - 🇨🇭_CH_瑞士->🏳️_unKnow_未知
   - 🇺🇸_US_美国_4
+  - 🇮🇳_IN_印度
+  - 🇺🇸_US_美国->🏳️_unKnow_未知_1
   - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
   - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🇫🇮_FI_芬兰
+  - 🇧🇪_BE_比利时
   - 🇺🇸_US_美国_9
-  - 🇺🇸_US_美国->🇩🇰_DK_丹麦_1
-  - 🇷🇴_RO_罗马尼亚->🇺🇸_US_美国
-  - 🇸🇬_SG_新加坡
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇸🇰_SK_斯洛伐克
+  - 🇺🇸_US_美国_12
+  - 🇺🇸_US_美国_13
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -343,27 +362,27 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇸🇰_SK_斯洛伐克->🇺🇸_US_美国
-  - 🇺🇸_US_美国->🇩🇪_DE_德国
-  - 🇺🇸_US_美国
+  - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+  - 🇺🇸_US_美国->🇧🇪_BE_比利时
+  - 🇨🇳_CN_中国->🇦🇺_AU_澳大利亚
   - 🇺🇸_US_美国_1
-  - 🇺🇸_US_美国->🇯🇵_JP_日本
-  - 🇨🇭_CH_瑞士->🇺🇸_US_美国
   - 🇺🇸_US_美国_2
-  - 🇩🇰_DK_丹麦
-  - 🇫🇮_FI_芬兰
-  - 🇬🇧_GB_英国
-  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国->🏳️_unKnow_未知
+  - 🇨🇳_CN_中国
+  - 🇨🇭_CH_瑞士->🏳️_unKnow_未知
   - 🇺🇸_US_美国_4
+  - 🇮🇳_IN_印度
+  - 🇺🇸_US_美国->🏳️_unKnow_未知_1
   - 🇺🇸_US_美国_5
   - 🇺🇸_US_美国_6
   - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇺🇸_US_美国->🇫🇮_FI_芬兰
+  - 🇧🇪_BE_比利时
   - 🇺🇸_US_美国_9
-  - 🇺🇸_US_美国->🇩🇰_DK_丹麦_1
-  - 🇷🇴_RO_罗马尼亚->🇺🇸_US_美国
-  - 🇸🇬_SG_新加坡
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇸🇰_SK_斯洛伐克
+  - 🇺🇸_US_美国_12
+  - 🇺🇸_US_美国_13
   type: select
 rule-providers:
   Apple:
