@@ -4,49 +4,58 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: 俄罗斯(mibei77.com 米贝节点分享)
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享)
+  port: 56635
+  server: 185.231.59.202
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: dd9a594a-0572-4365-84da-e6dc8022c05a
+- name: JP日本(mibei77.com 米贝节点分享)
   password: Aimer
-  port: 2087
-  server: 46.254.93.134
+  port: 2083
+  server: 103.116.7.133
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: 俄罗斯(mibei77.com 米贝节点分享) 2
+- name: SG新加坡(mibei77.com 米贝节点分享)
   password: Aimer
-  port: 8443
-  server: 92.243.74.2
+  port: 2083
+  server: 27.50.49.47
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: KR韩国(mibei77.com 米贝节点分享)
-  password: Aimer
-  port: 21300
-  server: 59.9.154.15
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享)
+- name: US美国(mibei77.com 米贝节点分享) 2
   password: Aimer
   port: 443
-  server: lynn.ns.cloudflare.com
+  server: 38.47.117.77
   skip-cert-verify: true
-  sni: lynn.ns.cloudflare.com
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: IN印度(mibei77.com 米贝节点分享)
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: 8080
-  server: 103.104.247.49
-  type: ss
+- name: HK香港(mibei77.com 米贝节点分享)
+  password: Aimer
+  port: 443
+  server: 103.103.245.183
+  skip-cert-verify: true
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: US美国(mibei77.com 米贝节点分享) 2
-  password: e014f8ab71735926
-  port: 20568
-  server: 57.128.190.245
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 俄罗斯(mibei77.com 米贝节点分享)
+  network: ws
+  port: 2082
+  server: 185.174.138.196
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-headers:
+    Host: yellow-paper-029c.yvonna.workers.dev
+  ws-path: /az05.beyondy.cfd/link?/TM@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560
 - cipher: chacha20-ietf-poly1305
   name: NL荷兰(mibei77.com 米贝节点分享)
   password: Nk9asglDzHzjktVzTkvhaA
@@ -54,9 +63,30 @@ proxies:
   server: arxfw2b78fi2q9hzylhn.freesocks.work
   type: ss
   udp: true
+- cipher: aes-128-gcm
+  name: 印度(mibei77.com 米贝节点分享)
+  password: VMhGp5wEIyCDf90T
+  port: 56226
+  server: bsuqian01.dynu.net
+  type: ss
+  udp: true
+- name: HK香港(mibei77.com 米贝节点分享) 2
+  password: Aimer
+  port: 443
+  server: 43.129.171.137
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: HK香港(mibei77.com 米贝节点分享) 3
+  password: Aimer
+  port: 443
+  server: 103.103.245.183
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: HK香港(mibei77.com 米贝节点分享)
+  name: HK香港(mibei77.com 米贝节点分享) 4
   port: 51039
   server: 183.236.51.38
   skip-cert-verify: true
@@ -64,16 +94,9 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 瑞典(mibei77.com 米贝节点分享)
-  password: PI3ncxF2GPuPiB1l5gitcO
-  port: 63418
-  server: sto4.g.edgeservers.org
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: HK香港(mibei77.com 米贝节点分享) 2
+  name: HK香港(mibei77.com 米贝节点分享) 5
   port: 31998
   server: 120.234.102.229
   skip-cert-verify: true
@@ -81,41 +104,9 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: US美国(mibei77.com 米贝节点分享) 3
-  password: Aimer
-  port: 443
-  server: arvind.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: arvind.ns.cloudflare.com
-  type: trojan
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 4
-  password: Aimer
-  port: 443
-  server: thaddeus.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: thaddeus.ns.cloudflare.com
-  type: trojan
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 5
-  password: Aimer
-  port: 443
-  server: duke.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: duke.ns.cloudflare.com
-  type: trojan
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 6
-  password: Aimer
-  port: 443
-  server: thaddeus.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: thaddeus.ns.cloudflare.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: HK香港(mibei77.com 米贝节点分享) 3
+  name: HK香港(mibei77.com 米贝节点分享) 6
   port: 34042
   server: 120.232.153.40
   skip-cert-verify: true
@@ -123,37 +114,46 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 瑞典(mibei77.com 米贝节点分享) 2
-  password: 70Xwg0SbHSL8CuCkiLuGhO
-  port: 15128
-  server: sto2.g.edgeservers.org
-  type: ss
-  udp: true
-- name: US美国(mibei77.com 米贝节点分享) 7
-  password: Aimer
-  port: 443
-  server: 154.29.145.110
+- alterId: 0
+  cipher: auto
+  name: HK香港(mibei77.com 米贝节点分享) 7
+  port: 55754
+  server: 183.236.51.38
   skip-cert-verify: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
-  name: US美国(mibei77.com 米贝节点分享) 8
-  password: WVU27LquAMOeXmYeStI897
-  port: 32448
-  server: sto3.g.edgeservers.org
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: US美国(mibei77.com 米贝节点分享) 9
-  password: nxS1a7JNlIcbsN8Q4EKL5t
-  port: 36632
-  server: sto1.g.edgeservers.org
+  name: HK香港(mibei77.com 米贝节点分享) 8
+  password: GfKGyjTs7WQXalgedr9FU3
+  port: 23822
+  server: 178.208.78.170
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: HK香港(mibei77.com 米贝节点分享) 4
+  name: HK香港(mibei77.com 米贝节点分享) 9
+  port: 40059
+  server: 120.198.71.216
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 3
+  port: 59554
+  server: 183.236.51.38
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: HK香港(mibei77.com 米贝节点分享) 10
   port: 42055
   server: 120.198.71.219
   skip-cert-verify: true
@@ -161,24 +161,27 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: US美国(mibei77.com 米贝节点分享) 10
-  password: Aimer
-  port: 587
-  server: 38.207.190.141
+- alterId: 0
+  cipher: auto
+  name: US美国(mibei77.com 米贝节点分享) 4
+  port: 40105
+  server: 120.232.153.63
   skip-cert-verify: true
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: 立陶宛(mibei77.com 米贝节点分享)
-  password: Aimer
-  port: 443
-  server: 86.38.214.186
-  skip-cert-verify: true
-  type: trojan
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-gcm
+  name: HK香港(mibei77.com 米贝节点分享) 11
+  password: 4bccdfb7-f45b-44bb-9cd3-fb6f8fc8072f
+  port: 41705
+  server: zf1.10101251.xyz
+  type: ss
   udp: true
-- name: KR韩国(mibei77.com 米贝节点分享) 2
+- name: KR韩国(mibei77.com 米贝节点分享)
   password: Aimer
-  port: 35263
-  server: 112.165.54.52
+  port: 21276
+  server: 211.33.238.198
   skip-cert-verify: true
   type: trojan
   udp: true
@@ -187,56 +190,52 @@ proxy-groups:
   proxies:
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 俄罗斯(mibei77.com 米贝节点分享)
-  - 俄罗斯(mibei77.com 米贝节点分享) 2
-  - KR韩国(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享)
-  - IN印度(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
+  - SG新加坡(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享) 2
-  - NL荷兰(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享)
-  - 瑞典(mibei77.com 米贝节点分享)
+  - 俄罗斯(mibei77.com 米贝节点分享)
+  - NL荷兰(mibei77.com 米贝节点分享)
+  - 印度(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 5
-  - US美国(mibei77.com 米贝节点分享) 6
   - HK香港(mibei77.com 米贝节点分享) 3
-  - 瑞典(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 7
-  - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
   - HK香港(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 10
-  - 立陶宛(mibei77.com 米贝节点分享)
-  - KR韩国(mibei77.com 米贝节点分享) 2
+  - HK香港(mibei77.com 米贝节点分享) 5
+  - HK香港(mibei77.com 米贝节点分享) 6
+  - HK香港(mibei77.com 米贝节点分享) 7
+  - HK香港(mibei77.com 米贝节点分享) 8
+  - HK香港(mibei77.com 米贝节点分享) 9
+  - US美国(mibei77.com 米贝节点分享) 3
+  - HK香港(mibei77.com 米贝节点分享) 10
+  - US美国(mibei77.com 米贝节点分享) 4
+  - HK香港(mibei77.com 米贝节点分享) 11
+  - KR韩国(mibei77.com 米贝节点分享)
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 俄罗斯(mibei77.com 米贝节点分享)
-  - 俄罗斯(mibei77.com 米贝节点分享) 2
-  - KR韩国(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享)
-  - IN印度(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
+  - SG新加坡(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享) 2
-  - NL荷兰(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享)
-  - 瑞典(mibei77.com 米贝节点分享)
+  - 俄罗斯(mibei77.com 米贝节点分享)
+  - NL荷兰(mibei77.com 米贝节点分享)
+  - 印度(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 5
-  - US美国(mibei77.com 米贝节点分享) 6
   - HK香港(mibei77.com 米贝节点分享) 3
-  - 瑞典(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 7
-  - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
   - HK香港(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 10
-  - 立陶宛(mibei77.com 米贝节点分享)
-  - KR韩国(mibei77.com 米贝节点分享) 2
+  - HK香港(mibei77.com 米贝节点分享) 5
+  - HK香港(mibei77.com 米贝节点分享) 6
+  - HK香港(mibei77.com 米贝节点分享) 7
+  - HK香港(mibei77.com 米贝节点分享) 8
+  - HK香港(mibei77.com 米贝节点分享) 9
+  - US美国(mibei77.com 米贝节点分享) 3
+  - HK香港(mibei77.com 米贝节点分享) 10
+  - US美国(mibei77.com 米贝节点分享) 4
+  - HK香港(mibei77.com 米贝节点分享) 11
+  - KR韩国(mibei77.com 米贝节点分享)
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎥 NETFLIX
@@ -244,29 +243,27 @@ proxy-groups:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 俄罗斯(mibei77.com 米贝节点分享)
-  - 俄罗斯(mibei77.com 米贝节点分享) 2
-  - KR韩国(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享)
-  - IN印度(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
+  - SG新加坡(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享) 2
-  - NL荷兰(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享)
-  - 瑞典(mibei77.com 米贝节点分享)
+  - 俄罗斯(mibei77.com 米贝节点分享)
+  - NL荷兰(mibei77.com 米贝节点分享)
+  - 印度(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 5
-  - US美国(mibei77.com 米贝节点分享) 6
   - HK香港(mibei77.com 米贝节点分享) 3
-  - 瑞典(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 7
-  - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
   - HK香港(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 10
-  - 立陶宛(mibei77.com 米贝节点分享)
-  - KR韩国(mibei77.com 米贝节点分享) 2
+  - HK香港(mibei77.com 米贝节点分享) 5
+  - HK香港(mibei77.com 米贝节点分享) 6
+  - HK香港(mibei77.com 米贝节点分享) 7
+  - HK香港(mibei77.com 米贝节点分享) 8
+  - HK香港(mibei77.com 米贝节点分享) 9
+  - US美国(mibei77.com 米贝节点分享) 3
+  - HK香港(mibei77.com 米贝节点分享) 10
+  - US美国(mibei77.com 米贝节点分享) 4
+  - HK香港(mibei77.com 米贝节点分享) 11
+  - KR韩国(mibei77.com 米贝节点分享)
   type: select
 - name: ⛔️ 广告拦截
   proxies:
@@ -285,29 +282,27 @@ proxy-groups:
   - 🔰 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 俄罗斯(mibei77.com 米贝节点分享)
-  - 俄罗斯(mibei77.com 米贝节点分享) 2
-  - KR韩国(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享)
-  - IN印度(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
+  - SG新加坡(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享) 2
-  - NL荷兰(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享)
-  - 瑞典(mibei77.com 米贝节点分享)
+  - 俄罗斯(mibei77.com 米贝节点分享)
+  - NL荷兰(mibei77.com 米贝节点分享)
+  - 印度(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 5
-  - US美国(mibei77.com 米贝节点分享) 6
   - HK香港(mibei77.com 米贝节点分享) 3
-  - 瑞典(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 7
-  - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
   - HK香港(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 10
-  - 立陶宛(mibei77.com 米贝节点分享)
-  - KR韩国(mibei77.com 米贝节点分享) 2
+  - HK香港(mibei77.com 米贝节点分享) 5
+  - HK香港(mibei77.com 米贝节点分享) 6
+  - HK香港(mibei77.com 米贝节点分享) 7
+  - HK香港(mibei77.com 米贝节点分享) 8
+  - HK香港(mibei77.com 米贝节点分享) 9
+  - US美国(mibei77.com 米贝节点分享) 3
+  - HK香港(mibei77.com 米贝节点分享) 10
+  - US美国(mibei77.com 米贝节点分享) 4
+  - HK香港(mibei77.com 米贝节点分享) 11
+  - KR韩国(mibei77.com 米贝节点分享)
   type: select
 - name: 🌏 国内媒体
   proxies:
@@ -316,92 +311,93 @@ proxy-groups:
   - HK香港(mibei77.com 米贝节点分享) 2
   - HK香港(mibei77.com 米贝节点分享) 3
   - HK香港(mibei77.com 米贝节点分享) 4
+  - HK香港(mibei77.com 米贝节点分享) 5
+  - HK香港(mibei77.com 米贝节点分享) 6
+  - HK香港(mibei77.com 米贝节点分享) 7
+  - HK香港(mibei77.com 米贝节点分享) 8
+  - HK香港(mibei77.com 米贝节点分享) 9
+  - HK香港(mibei77.com 米贝节点分享) 10
+  - HK香港(mibei77.com 米贝节点分享) 11
   - 🔰 节点选择
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🔰 节点选择
-  - 俄罗斯(mibei77.com 米贝节点分享)
-  - 俄罗斯(mibei77.com 米贝节点分享) 2
-  - KR韩国(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享)
-  - IN印度(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
+  - SG新加坡(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享) 2
-  - NL荷兰(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享)
-  - 瑞典(mibei77.com 米贝节点分享)
+  - 俄罗斯(mibei77.com 米贝节点分享)
+  - NL荷兰(mibei77.com 米贝节点分享)
+  - 印度(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 5
-  - US美国(mibei77.com 米贝节点分享) 6
   - HK香港(mibei77.com 米贝节点分享) 3
-  - 瑞典(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 7
-  - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
   - HK香港(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 10
-  - 立陶宛(mibei77.com 米贝节点分享)
-  - KR韩国(mibei77.com 米贝节点分享) 2
+  - HK香港(mibei77.com 米贝节点分享) 5
+  - HK香港(mibei77.com 米贝节点分享) 6
+  - HK香港(mibei77.com 米贝节点分享) 7
+  - HK香港(mibei77.com 米贝节点分享) 8
+  - HK香港(mibei77.com 米贝节点分享) 9
+  - US美国(mibei77.com 米贝节点分享) 3
+  - HK香港(mibei77.com 米贝节点分享) 10
+  - US美国(mibei77.com 米贝节点分享) 4
+  - HK香港(mibei77.com 米贝节点分享) 11
+  - KR韩国(mibei77.com 米贝节点分享)
   type: select
 - name: 📲 电报信息
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
-  - 俄罗斯(mibei77.com 米贝节点分享)
-  - 俄罗斯(mibei77.com 米贝节点分享) 2
-  - KR韩国(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享)
-  - IN印度(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
+  - SG新加坡(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享) 2
-  - NL荷兰(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享)
-  - 瑞典(mibei77.com 米贝节点分享)
+  - 俄罗斯(mibei77.com 米贝节点分享)
+  - NL荷兰(mibei77.com 米贝节点分享)
+  - 印度(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 5
-  - US美国(mibei77.com 米贝节点分享) 6
   - HK香港(mibei77.com 米贝节点分享) 3
-  - 瑞典(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 7
-  - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
   - HK香港(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 10
-  - 立陶宛(mibei77.com 米贝节点分享)
-  - KR韩国(mibei77.com 米贝节点分享) 2
+  - HK香港(mibei77.com 米贝节点分享) 5
+  - HK香港(mibei77.com 米贝节点分享) 6
+  - HK香港(mibei77.com 米贝节点分享) 7
+  - HK香港(mibei77.com 米贝节点分享) 8
+  - HK香港(mibei77.com 米贝节点分享) 9
+  - US美国(mibei77.com 米贝节点分享) 3
+  - HK香港(mibei77.com 米贝节点分享) 10
+  - US美国(mibei77.com 米贝节点分享) 4
+  - HK香港(mibei77.com 米贝节点分享) 11
+  - KR韩国(mibei77.com 米贝节点分享)
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 俄罗斯(mibei77.com 米贝节点分享)
-  - 俄罗斯(mibei77.com 米贝节点分享) 2
-  - KR韩国(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享)
-  - IN印度(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
+  - SG新加坡(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享) 2
-  - NL荷兰(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享)
-  - 瑞典(mibei77.com 米贝节点分享)
+  - 俄罗斯(mibei77.com 米贝节点分享)
+  - NL荷兰(mibei77.com 米贝节点分享)
+  - 印度(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 5
-  - US美国(mibei77.com 米贝节点分享) 6
   - HK香港(mibei77.com 米贝节点分享) 3
-  - 瑞典(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 7
-  - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
   - HK香港(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 10
-  - 立陶宛(mibei77.com 米贝节点分享)
-  - KR韩国(mibei77.com 米贝节点分享) 2
+  - HK香港(mibei77.com 米贝节点分享) 5
+  - HK香港(mibei77.com 米贝节点分享) 6
+  - HK香港(mibei77.com 米贝节点分享) 7
+  - HK香港(mibei77.com 米贝节点分享) 8
+  - HK香港(mibei77.com 米贝节点分享) 9
+  - US美国(mibei77.com 米贝节点分享) 3
+  - HK香港(mibei77.com 米贝节点分享) 10
+  - US美国(mibei77.com 米贝节点分享) 4
+  - HK香港(mibei77.com 米贝节点分享) 11
+  - KR韩国(mibei77.com 米贝节点分享)
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -417,29 +413,27 @@ proxy-groups:
   - 🔰 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 俄罗斯(mibei77.com 米贝节点分享)
-  - 俄罗斯(mibei77.com 米贝节点分享) 2
-  - KR韩国(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享)
-  - IN印度(mibei77.com 米贝节点分享)
+  - JP日本(mibei77.com 米贝节点分享)
+  - SG新加坡(mibei77.com 米贝节点分享)
   - US美国(mibei77.com 米贝节点分享) 2
-  - NL荷兰(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享)
-  - 瑞典(mibei77.com 米贝节点分享)
+  - 俄罗斯(mibei77.com 米贝节点分享)
+  - NL荷兰(mibei77.com 米贝节点分享)
+  - 印度(mibei77.com 米贝节点分享)
   - HK香港(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 3
-  - US美国(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 5
-  - US美国(mibei77.com 米贝节点分享) 6
   - HK香港(mibei77.com 米贝节点分享) 3
-  - 瑞典(mibei77.com 米贝节点分享) 2
-  - US美国(mibei77.com 米贝节点分享) 7
-  - US美国(mibei77.com 米贝节点分享) 8
-  - US美国(mibei77.com 米贝节点分享) 9
   - HK香港(mibei77.com 米贝节点分享) 4
-  - US美国(mibei77.com 米贝节点分享) 10
-  - 立陶宛(mibei77.com 米贝节点分享)
-  - KR韩国(mibei77.com 米贝节点分享) 2
+  - HK香港(mibei77.com 米贝节点分享) 5
+  - HK香港(mibei77.com 米贝节点分享) 6
+  - HK香港(mibei77.com 米贝节点分享) 7
+  - HK香港(mibei77.com 米贝节点分享) 8
+  - HK香港(mibei77.com 米贝节点分享) 9
+  - US美国(mibei77.com 米贝节点分享) 3
+  - HK香港(mibei77.com 米贝节点分享) 10
+  - US美国(mibei77.com 米贝节点分享) 4
+  - HK香港(mibei77.com 米贝节点分享) 11
+  - KR韩国(mibei77.com 米贝节点分享)
   type: select
 rules:
 - DOMAIN-SUFFIX,local,🎯 全球直连
