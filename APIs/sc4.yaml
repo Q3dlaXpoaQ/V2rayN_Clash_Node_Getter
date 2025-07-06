@@ -8,3858 +8,3801 @@ proxies:
   network: ws
   port: 81
   server: 210.61.97.241
-  servername: dt.vs2024.dpdns.org
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: JP_1
+  network: ws
+  port: 12333
+  server: 121.80.244.179
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: JP_2
+  network: ws
+  port: 12333
+  server: 121.80.244.179
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
 - name: TW_2
   network: ws
   port: 81
   server: 210.61.97.241
-  servername: tx.vs2024.dpdns.org
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- alterId: '64'
+  cipher: auto
+  name: '|2.46Mb'
+  network: tcp
+  port: '50002'
+  server: 120.210.205.59
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: JP_3
+  network: ws
+  port: 11084
+  server: 121.80.244.179
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: JP_4
+  network: ws
+  port: 11084
+  server: 121.80.244.179
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
 - name: KR_1
   network: ws
-  port: 14534
-  server: 211.114.180.156
-  servername: dt.vs2024.dpdns.org
+  port: 19222
+  server: 121.163.244.186
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: 172.67.79.211_1
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: 172.67.79.211
-  skip-cert-verify: true
-  sni: kc1.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
 - name: KR_2
   network: ws
   port: 11111
   server: 112.173.102.47
-  servername: dt.vs2024.dpdns.org
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: ipv4.ip.sb_1
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: ipv4.ip.sb
-  skip-cert-verify: true
-  sni: tx.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: KR_3
-  network: ws
-  port: 11007
-  server: 218.145.4.124
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: KR_4
-  network: ws
-  port: 11111
-  server: 112.173.102.47
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: 172.67.79.211_2
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: 172.67.79.211
-  skip-cert-verify: true
-  sni: dt.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: www.ipchicken.com_1
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: www.ipchicken.com
-  skip-cert-verify: true
-  sni: dt.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: 172.67.79.211_3
-  network: ws
-  port: 443
-  server: 172.67.79.211
-  servername: kc1.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: ipv4.ip.sb_2
-  network: ws
-  port: 443
-  server: ipv4.ip.sb
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: ipv4.ip.sb_3
-  network: ws
-  port: 443
-  server: ipv4.ip.sb
-  servername: kc1.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: ipv4.ip.sb_4
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: ipv4.ip.sb
-  skip-cert-verify: true
-  sni: kc1.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: CMCC_1
-  network: ws
-  port: 443
-  server: 104.16.242.72
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: CMCC_2
-  network: ws
-  port: 443
-  server: 104.17.223.37
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: KR_5
-  network: ws
-  port: 443
-  server: 132.145.94.80
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: CMCC_3
-  network: ws
-  port: 443
-  server: 104.18.83.92
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: CMCC_4
-  network: ws
-  port: 443
-  server: 104.18.85.29
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: CMCC_5
-  network: ws
-  port: 443
-  server: 104.17.104.243
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: CMCC_6
-  network: ws
-  port: 443
-  server: 104.18.83.92
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: www.4chan.org_1
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: www.4chan.org
-  skip-cert-verify: true
-  sni: kc1.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: CMCC_7
-  network: ws
-  port: 443
-  server: 104.17.189.171
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸US_1
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 2096
-  server: 104.17.128.1
-  skip-cert-verify: true
-  sni: tx.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: CMCC_8
-  network: ws
-  port: 443
-  server: 104.19.144.212
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: CMCC_9
-  network: ws
-  port: 443
-  server: 104.17.219.208
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: CMCC_10
-  network: ws
-  port: 443
-  server: 104.17.210.171
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: www.4chan.org_2
-  network: ws
-  port: 443
-  server: www.4chan.org
-  servername: kc1.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: CMCC_11
-  network: ws
-  port: 443
-  server: 104.18.82.55
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: 🇭🇰HK_1
-  network: ws
-  port: 443
-  server: 104.17.68.85
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: 🇺🇸US_2
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 2096
-  server: 104.17.128.1
-  skip-cert-verify: true
-  sni: dt.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: www.ipchicken.com_2
-  network: ws
-  port: 443
-  server: www.ipchicken.com
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: 🇺🇸US_3
-  network: ws
-  port: 2096
-  server: 104.17.128.1
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: JP_1
-  network: ws
-  port: 443
-  server: 131.186.33.175
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: CMCC_12
-  network: ws
-  port: 443
-  server: 104.16.246.173
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: CMCC_13
-  network: ws
-  port: 443
-  server: 104.19.145.14
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: CMCC_14
-  network: ws
-  port: 443
-  server: 198.41.208.23
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: 🇭🇰HK_2
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: 104.17.68.85
-  skip-cert-verify: true
-  sni: tx.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: CMCC_15
-  network: ws
-  port: 443
-  server: 104.18.94.107
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: CMCC_16
-  network: ws
-  port: 443
-  server: 104.17.101.175
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: KR_6
-  network: ws
-  port: 14534
-  server: 211.114.180.156
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: CMCC_17
-  network: ws
-  port: 443
-  server: 104.19.150.28
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: 104.17.142.12_1
-  network: ws
-  port: 443
-  server: 104.17.142.12
-  servername: kc1.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: CMCC_18
-  network: ws
-  port: 443
-  server: 104.16.249.115
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: NL_1
-  network: ws
-  port: 8443
-  server: 150.230.20.156
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: CMCC_19
-  network: ws
-  port: 443
-  server: 104.17.223.37
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
 - name: SG_1
   network: ws
   port: 23023
   server: 43.165.191.25
-  servername: dt.vs2024.dpdns.org
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: 🇭🇰HK_3
+- name: JP_5
   network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   port: 443
-  server: 104.17.142.12
+  server: 131.186.33.175
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
-  sni: tx.vs2024.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: KR_3
+  network: ws
+  port: 443
+  server: 130.162.130.105
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SG_2
+  network: ws
+  port: 23023
+  server: 43.165.191.25
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: JP_6
+  network: ws
+  port: 443
+  server: 131.186.33.175
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: FRA_1
+  network: ws
+  password: Aimer
+  port: 81
+  server: 45.80.209.25
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: JP_2
-  network: ws
-  port: 2053
-  server: 140.238.58.181
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: CMCC_20
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: KR_4
   network: ws
   port: 443
-  server: 104.17.101.175
-  servername: dt.vs2024.dpdns.org
+  server: 130.162.130.105
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: CMCC_21
+- name: SJC_1
   network: ws
+  password: Aimer
   port: 443
-  server: 104.18.85.29
-  servername: dt.vs2024.dpdns.org
+  server: 5.182.84.244
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸US_4
-  network: ws
-  port: 2096
-  server: 104.17.128.1
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: comicabc.com_1
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: comicabc.com
-  skip-cert-verify: true
-  sni: dt.vs2024.dpdns.org
+  sni: epmk.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: JP_3
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: BR_1
   network: ws
   port: 443
-  server: 64.110.101.125
-  servername: tx.vs2024.dpdns.org
+  server: 185.133.35.183
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CT_1
+  network: ws
+  port: 443
+  server: 162.159.152.53
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
 - name: CMCC-IPV6_1
   network: ws
   port: 4700
   server: '[2606'
-  servername: dt.vs2024.dpdns.org
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: CMCC_22
+- name: SJC_2
   network: ws
-  port: 443
-  server: 104.18.94.238
-  servername: tx.vs2024.dpdns.org
+  password: Aimer
+  port: 2083
+  server: 188.164.159.214
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: US_1
   network: ws
   port: 443
-  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-  servername: tx.vs2024.dpdns.org
+  server: 63.141.128.140
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: ICN_1
+  network: ws
+  password: Aimer
+  port: 50000
+  server: 121.167.230.98
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: KR_5
+  network: ws
+  port: 19222
+  server: 121.163.244.186
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: BR_2
+  network: ws
+  port: 443
+  server: 185.133.35.183
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_3
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 45.67.214.3
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: BR_3
+  network: ws
+  port: 443
+  server: 185.133.35.22
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
 - name: CMCC-IPV6_2
   network: ws
   port: 4700
   server: '[2606'
-  servername: tx.vs2024.dpdns.org
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: JP_4
+- name: SJC_4
   network: ws
-  port: 12333
-  server: 121.80.244.179
-  servername: dt.vs2024.dpdns.org
+  password: Aimer
+  port: 443
+  server: 5.182.84.244
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_2
+  network: ws
+  port: 443
+  server: 63.141.128.3
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
+- name: SJC_5
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 154.219.5.44
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_6
+  network: ws
+  password: Aimer
+  port: 443
+  server: 188.164.159.18
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: CT_2
+  network: ws
+  port: 443
+  server: 162.159.153.239
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: US_3
+  network: ws
+  port: 443
+  server: 69.84.182.89
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CT_3
+  network: ws
+  port: 443
+  server: 162.159.153.212
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_7
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 45.67.215.217
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: CT_4
+  network: ws
+  port: 443
+  server: 162.159.153.239
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: AT_1
+  network: ws
+  port: 443
+  server: 212.183.88.94
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_8
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 46.254.92.142
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_9
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 46.254.93.243
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: CMCC-IPV6_3
   network: ws
   port: 4700
   server: '[2606'
-  servername: tx.vs2024.dpdns.org
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: CMCC_23
-  network: ws
-  port: 443
-  server: 104.16.249.115
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: CMCC_24
-  network: ws
-  port: 443
-  server: 104.16.246.173
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: CMCC_25
-  network: ws
-  port: 443
-  server: 104.18.93.7
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: iplocation.io_1
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: iplocation.io
-  skip-cert-verify: true
-  sni: kc1.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: comicabc.com_2
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: comicabc.com
-  skip-cert-verify: true
-  sni: tx.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: CT_1
-  network: ws
-  port: 443
-  server: 162.159.153.144
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: CT_2
-  network: ws
-  port: 443
-  server: 162.159.153.42
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
 - name: CMCC-IPV6_4
   network: ws
   port: 4700
   server: '[2606'
-  servername: tx.vs2024.dpdns.org
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
+- name: US_4
+  network: ws
+  port: 443
+  server: 160.79.104.11
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: US_5
+  network: ws
+  port: 443
+  server: 160.79.105.89
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CT_5
+  network: ws
+  port: 443
+  server: 162.159.153.184
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_10
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 167.68.4.223
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: CMCC-IPV6_5
   network: ws
   port: 4700
   server: '[2606'
-  servername: tx.vs2024.dpdns.org
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
+- name: SJC_11
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 135.84.74.254
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: CMCC-IPV6_6
   network: ws
   port: 4700
   server: '[2606'
-  servername: dt.vs2024.dpdns.org
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: CT_3
+- name: CT_6
   network: ws
   port: 443
-  server: 162.159.152.53
-  servername: dt.vs2024.dpdns.org
+  server: 162.159.152.81
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: time.is
+- name: SJC_12
   network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: time.is
+  password: Aimer
+  port: 2053
+  server: 213.241.198.189
   skip-cert-verify: true
-  sni: kc1.vs2024.dpdns.org
+  sni: epmk.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: CMCC_26
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: CT_7
   network: ws
   port: 443
-  server: 104.19.145.14
-  servername: tx.vs2024.dpdns.org
+  server: 162.159.153.217
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: braden.ns.cloudflare.com_1
-  network: ws
-  port: 443
-  server: braden.ns.cloudflare.com
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: IPV6_1
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 4700
-  server: '[2606'
-  skip-cert-verify: true
-  sni: dt.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: iplocation.io_2
-  network: ws
-  port: 443
-  server: iplocation.io
-  servername: kc1.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: decker.ns.cloudflare.com_1
-  network: ws
-  port: 443
-  server: decker.ns.cloudflare.com
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
 - name: CMCC-IPV6_7
   network: ws
   port: 4700
   server: '[2606'
-  servername: tx.vs2024.dpdns.org
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CT_8
+  network: ws
+  port: 443
+  server: 162.159.152.225
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: BR_4
+  network: ws
+  port: 443
+  server: 185.133.35.22
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CT_9
+  network: ws
+  port: 443
+  server: 162.159.153.194
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CT_10
+  network: ws
+  port: 443
+  server: 162.159.152.53
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_13
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 192.200.160.169
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: CT_11
+  network: ws
+  port: 443
+  server: 162.159.152.81
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CT_12
+  network: ws
+  port: 443
+  server: 162.159.153.216
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: US_6
+  network: ws
+  port: 443
+  server: 216.24.57.59
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CT_13
+  network: ws
+  port: 443
+  server: 162.159.153.212
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_14
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 46.254.93.243
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_15
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 199.34.228.178
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_16
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 188.164.159.74
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_7
+  network: ws
+  port: 443
+  server: 160.79.104.11
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CH_1
+  network: ws
+  port: 443
+  server: 140.238.212.95
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_17
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 103.116.7.220
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_18
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 45.67.214.3
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_19
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 45.150.115.195
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_20
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 188.164.159.234
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_21
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 45.150.115.195
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_8
+  network: ws
+  port: 443
+  server: 160.79.105.89
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: GB_1
+  network: ws
+  port: 443
+  server: 217.163.76.84
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_22
+  network: ws
+  password: Aimer
+  port: 443
+  server: 188.164.159.18
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_9
+  network: ws
+  port: 443
+  server: 63.141.128.88
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
 - name: CMCC-IPV6_8
   network: ws
   port: 4700
   server: '[2606'
-  servername: tx.vs2024.dpdns.org
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: kyree.ns.cloudflare.com_1
+- name: SJC_23
   network: ws
-  port: 443
-  server: kyree.ns.cloudflare.com
-  servername: dt.vs2024.dpdns.org
+  password: Aimer
+  port: 2083
+  server: 188.164.159.234
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: CMCC_27
-  network: ws
-  port: 443
-  server: 104.18.147.201
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: dylan.ns.cloudflare.com_1
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: dylan.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: tx.vs2024.dpdns.org
+  sni: epmk.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: www.hugedomains.com
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: www.hugedomains.com
-  skip-cert-verify: true
-  sni: tx.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: wilson.ns.cloudflare.com_1
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_10
   network: ws
   port: 443
-  server: wilson.ns.cloudflare.com
-  servername: kc1.vs2024.dpdns.org
+  server: 63.141.128.102
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CF随机节点_1
+  network: ws
+  port: 443
+  server: 104.24.170.151
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
 - name: CMCC-IPV6_9
   network: ws
   port: 4700
   server: '[2606'
-  servername: dt.vs2024.dpdns.org
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: dnschecker.org_1
+- name: US_11
   network: ws
   port: 443
-  server: dnschecker.org
-  servername: tx.vs2024.dpdns.org
+  server: 160.79.104.102
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: ip.gs_1
-  network: ws
-  port: 443
-  server: ip.gs
-  servername: kc1.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: 🇭🇰HK_4
-  network: ws
-  port: 443
-  server: 104.17.142.12
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: CMCC-IPV6_10
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: CMCC-IPV6_11
+- name: US_12
   network: ws
-  port: 4700
-  server: '[2606'
-  servername: tx.vs2024.dpdns.org
+  port: 443
+  server: 63.141.128.140
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: 172.67.181.209_1
+- name: US_13
   network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   port: 443
-  server: 172.67.181.209
+  server: 160.79.104.115
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
-  sni: dt.vs2024.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: AMS_1
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 45.134.21.8
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: CMCC-IPV6_12
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_24
   network: ws
-  port: 4700
-  server: '[2606'
-  servername: dt.vs2024.dpdns.org
+  password: Aimer
+  port: 2083
+  server: 135.84.74.254
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_25
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 154.219.5.44
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: CF随机节点_2
+  network: ws
+  port: 443
+  server: 104.24.184.126
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_26
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 188.164.159.74
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: CMCC-IPV6_10
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: US_14
+  network: ws
+  port: 443
+  server: 160.79.104.115
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_27
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 188.164.159.185
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: CMCC-IPV6_11
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: GB_2
+  network: ws
+  port: 443
+  server: 217.163.76.201
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: RU_1
+  network: ws
+  port: 443
+  server: 45.67.215.92
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_12
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: US_15
+  network: ws
+  port: 443
+  server: 69.84.182.89
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_28
+  network: ws
+  password: Aimer
+  port: 443
+  server: 154.197.64.206
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: CT_14
+  network: ws
+  port: 443
+  server: 162.159.153.217
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_29
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 108.165.152.55
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: AT_2
+  network: ws
+  port: 443
+  server: 212.183.88.136
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
 - name: CMCC-IPV6_13
   network: ws
   port: 4700
   server: '[2606'
-  servername: tx.vs2024.dpdns.org
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: dylan.ns.cloudflare.com_2
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: dylan.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: kc1.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: CT_4
-  network: ws
-  port: 443
-  server: 162.159.153.42
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸US_5
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 2087
-  server: 104.25.254.4
-  skip-cert-verify: true
-  sni: tx.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
 - name: CMCC-IPV6_14
   network: ws
   port: 4700
   server: '[2606'
-  servername: tx.vs2024.dpdns.org
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: 172.67.106.26_1
+- name: SJC_30
   network: ws
-  port: 443
-  server: 172.67.106.26
-  servername: dt.vs2024.dpdns.org
+  password: Aimer
+  port: 2096
+  server: 5.182.85.255
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: comicabc.com_3
-  network: ws
-  port: 443
-  server: comicabc.com
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: dnschecker.org_2
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: dnschecker.org
-  skip-cert-verify: true
-  sni: tx.vs2024.dpdns.org
+  sni: epml.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: CT_5
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: GB_3
   network: ws
   port: 443
-  server: 162.159.153.170
-  servername: tx.vs2024.dpdns.org
+  server: 217.163.76.84
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: braden.ns.cloudflare.com_2
-  network: ws
-  port: 443
-  server: braden.ns.cloudflare.com
-  servername: kc1.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: 162.159.133.85_1
-  network: ws
-  port: 443
-  server: 162.159.133.85
-  servername: kc1.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: huxley.ns.cloudflare.com_1
-  network: ws
-  port: 443
-  server: huxley.ns.cloudflare.com
-  servername: kc1.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
 - name: CMCC-IPV6_15
   network: ws
   port: 4700
   server: '[2606'
-  servername: tx.vs2024.dpdns.org
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: CMCC_28
+- name: CT_15
   network: ws
   port: 443
-  server: 104.19.150.163
-  servername: dt.vs2024.dpdns.org
+  server: 162.159.153.216
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: CMCC_29
+- name: CF随机节点_3
   network: ws
   port: 443
-  server: 104.17.189.171
-  servername: tx.vs2024.dpdns.org
+  server: 188.114.98.9
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: comicabc.com_4
+- name: US_16
   network: ws
   port: 443
-  server: comicabc.com
-  servername: tx.vs2024.dpdns.org
+  server: 160.79.105.76
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: US_2
-  network: ws
-  port: 443
-  server: time.is
-  servername: kc1.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: CT_6
-  network: ws
-  port: 443
-  server: 162.159.152.205
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: CT_7
+- name: SJC_31
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 188.164.159.98
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_32
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 188.164.159.98
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: CT_16
   network: ws
   port: 443
-  server: 162.159.153.170
-  servername: dt.vs2024.dpdns.org
+  server: 162.159.152.225
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: CT_8
+- name: US_17
   network: ws
   port: 443
-  server: 162.159.152.155
-  servername: dt.vs2024.dpdns.org
+  server: 160.79.104.102
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
+- name: CF随机节点_4
+  network: ws
+  port: 443
+  server: 103.21.244.44
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_33
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 45.67.215.217
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: CMCC-IPV6_16
   network: ws
   port: 4700
   server: '[2606'
-  servername: dt.vs2024.dpdns.org
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: kyree.ns.cloudflare.com_2
+- name: SJC_34
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 167.68.4.10
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_35
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 167.68.4.10
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: CF随机节点_5
   network: ws
   port: 443
-  server: kyree.ns.cloudflare.com
-  servername: tx.vs2024.dpdns.org
+  server: 188.114.98.9
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: www.udemy.com_1
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: www.udemy.com
-  skip-cert-verify: true
-  sni: tx.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: huxley.ns.cloudflare.com_2
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: huxley.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: kc1.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: decker.ns.cloudflare.com_2
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: decker.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: kc1.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: CT_9
-  network: ws
-  port: 443
-  server: 162.159.152.69
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: 🇭🇰HK_5
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: 103.160.204.59
-  skip-cert-verify: true
-  sni: dt.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: www.wto.org_1
+- name: US_18
   network: ws
   port: 443
-  server: www.wto.org
-  servername: dt.vs2024.dpdns.org
+  server: 160.79.105.76
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: decker.ns.cloudflare.com_3
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: US_19
   network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   port: 443
-  server: decker.ns.cloudflare.com
+  server: 63.141.128.102
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
-  sni: dt.vs2024.dpdns.org
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: www.wto.org_2
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CF随机节点_6
   network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   port: 443
-  server: www.wto.org
+  server: 103.21.244.44
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
-  sni: dt.vs2024.dpdns.org
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CT_17
+  network: ws
+  port: 443
+  server: 162.159.153.194
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: AT_3
+  network: ws
+  port: 443
+  server: 212.183.88.94
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
 - name: CMCC-IPV6_17
   network: ws
   port: 4700
   server: '[2606'
-  servername: dt.vs2024.dpdns.org
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: dylan.ns.cloudflare.com_3
+- name: SJC_36
   network: ws
-  port: 443
-  server: dylan.ns.cloudflare.com
-  servername: tx.vs2024.dpdns.org
+  password: Aimer
+  port: 2087
+  server: 103.116.7.100
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: kyree.ns.cloudflare.com_3
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: kyree.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: tx.vs2024.dpdns.org
+  sni: epmk.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: CT_10
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: CF随机节点_7
   network: ws
   port: 443
-  server: 162.159.152.31
-  servername: tx.vs2024.dpdns.org
+  server: 104.24.184.126
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: CT_11
-  network: ws
-  port: 443
-  server: 162.159.153.209
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
 - name: CMCC-IPV6_18
   network: ws
   port: 4700
   server: '[2606'
-  servername: dt.vs2024.dpdns.org
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: ip.gs_2
+- name: CF随机节点_8
   network: ws
   port: 443
-  server: ip.gs
-  servername: dt.vs2024.dpdns.org
+  server: 104.24.2.106
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: CT_12
-  network: ws
-  port: 443
-  server: 162.159.152.225
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: NL_2
+- name: AT_4
   network: ws
   port: 443
-  server: 158.101.214.54
-  servername: tx.vs2024.dpdns.org
+  server: 212.183.88.16
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: craig.ns.cloudflare.com_1
+- name: SJC_37
   network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: craig.ns.cloudflare.com
+  password: Aimer
+  port: 2087
+  server: 209.94.90.87
   skip-cert-verify: true
-  sni: tx.vs2024.dpdns.org
+  sni: epml.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: huxley.ns.cloudflare.com_3
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: huxley.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: tx.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: CT_13
-  network: ws
-  port: 443
-  server: 162.159.153.239
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: 🇭🇰HK_6
-  network: ws
-  port: 443
-  server: 103.160.204.59
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: CT_14
-  network: ws
-  port: 443
-  server: 162.159.153.72
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: CMCC_30
-  network: ws
-  port: 443
-  server: 104.17.210.171
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: CT_15
-  network: ws
-  port: 443
-  server: 162.159.152.53
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: ashton.ns.cloudflare.com_1
-  network: ws
-  port: 443
-  server: ashton.ns.cloudflare.com
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: NL_3
-  network: ws
-  port: 2053
-  server: 150.230.20.156
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: 172.67.243.218_1
-  network: ws
-  port: 443
-  server: 172.67.243.218
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: CT_16
-  network: ws
-  port: 443
-  server: 162.159.153.217
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: CMCC-IPV6_19
   network: ws
   port: 4700
   server: '[2606'
-  servername: dt.vs2024.dpdns.org
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: US_3
-  network: ws
-  port: 443
-  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: 172.67.120.0_1
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: 172.67.120.0
-  skip-cert-verify: true
-  sni: kc1.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: www.ddwhm.com_1
-  network: ws
-  port: 443
-  server: www.ddwhm.com
-  servername: kc1.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: 104.17.142.12_2
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: 104.17.142.12
-  skip-cert-verify: true
-  sni: kc1.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: US_4
-  network: ws
-  port: 443
-  server: time.is
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: 172.67.181.209_2
-  network: ws
-  port: 443
-  server: 172.67.181.209
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
 - name: CMCC-IPV6_20
   network: ws
   port: 4700
   server: '[2606'
-  servername: dt.vs2024.dpdns.org
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: CT_17
+- name: CF随机节点_9
   network: ws
   port: 443
-  server: 162.159.152.81
-  servername: dt.vs2024.dpdns.org
+  server: 104.24.170.151
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: US_5
+- name: SJC_38
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 141.11.203.191
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_39
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 108.165.152.14
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_20
   network: ws
   port: 443
-  server: icook.hk
-  servername: kc1.vs2024.dpdns.org
+  server: 192.0.54.42
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: 162.159.133.85_2
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_40
   network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: 162.159.133.85
+  password: Aimer
+  port: 2087
+  server: 46.254.92.142
   skip-cert-verify: true
-  sni: kc1.vs2024.dpdns.org
+  sni: epml.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: huxley.ns.cloudflare.com_4
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: GB_4
   network: ws
   port: 443
-  server: huxley.ns.cloudflare.com
-  servername: tx.vs2024.dpdns.org
+  server: 217.163.76.201
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: kyree.ns.cloudflare.com_4
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_41
   network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: kyree.ns.cloudflare.com
+  password: Aimer
+  port: 2096
+  server: 5.182.85.255
   skip-cert-verify: true
-  sni: dt.vs2024.dpdns.org
+  sni: epmk.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: www.whatismyip.com_1
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: www.whatismyip.com
-  skip-cert-verify: true
-  sni: dt.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: CT_18
   network: ws
   port: 443
-  server: 162.159.152.81
-  servername: tx.vs2024.dpdns.org
+  server: 162.159.153.184
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: ip.gs_3
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: ip.gs
-  skip-cert-verify: true
-  sni: kc1.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: otto.ns.cloudflare.com_1
+- name: CF随机节点_10
   network: ws
   port: 443
-  server: otto.ns.cloudflare.com
-  servername: kc1.vs2024.dpdns.org
+  server: 104.24.2.106
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: 172.67.120.0_2
-  network: ws
-  port: 443
-  server: 172.67.120.0
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: SE
-  network: ws
-  port: 8443
-  server: 129.151.198.3
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: www.ddwhm.com_2
+- name: SJC_42
   network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: www.ddwhm.com
+  password: Aimer
+  port: 2083
+  server: 103.116.7.133
   skip-cert-verify: true
-  sni: kc1.vs2024.dpdns.org
+  sni: epmk.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: HK_1
-  network: ws
-  port: 443
-  server: 47.57.181.17
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: www.whatismyip.com_2
-  network: ws
-  port: 443
-  server: www.whatismyip.com
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: CMCC-IPV6_21
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: 🇺🇸US_6
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 8443
-  server: 162.159.129.67
-  skip-cert-verify: true
-  sni: tx.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: KR_7
-  network: ws
-  port: 443
-  server: 130.162.130.105
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: pranab.ns.cloudflare.com
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: pranab.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: kc1.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: 🇺🇸US_7
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 2087
-  server: 104.25.254.4
-  skip-cert-verify: true
-  sni: dt.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: huxley.ns.cloudflare.com_5
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: huxley.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: dt.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: dylan.ns.cloudflare.com_4
-  network: ws
-  port: 443
-  server: dylan.ns.cloudflare.com
-  servername: kc1.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: www.udemy.com_2
-  network: ws
-  port: 443
-  server: www.udemy.com
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: US_6
-  network: ws
-  port: 443
-  server: time.is
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: 🇺🇸US_8
-  network: ws
-  port: 8443
-  server: 162.159.129.67
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: CT_19
   network: ws
   port: 443
-  server: 162.159.152.31
-  servername: dt.vs2024.dpdns.org
+  server: 162.159.152.155
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: benedict.ns.cloudflare.com_1
+- name: AT_5
   network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   port: 443
-  server: benedict.ns.cloudflare.com
+  server: 212.183.88.136
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
-  sni: dt.vs2024.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_43
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 108.165.152.14
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: FR_1
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_44
   network: ws
-  port: 8443
-  server: 141.145.205.115
-  servername: dt.vs2024.dpdns.org
+  password: Aimer
+  port: 2096
+  server: 103.116.7.220
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_21
+  network: ws
+  port: 443
+  server: 63.141.128.88
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: CMCC-IPV6_22
+- name: US_22
   network: ws
-  port: 4700
-  server: '[2606'
-  servername: dt.vs2024.dpdns.org
+  port: 443
+  server: 192.0.54.42
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: 🇺🇸US_9
+- name: SJC_45
   network: ws
-  port: 2053
-  server: 162.159.129.11
-  servername: tx.vs2024.dpdns.org
+  password: Aimer
+  port: 443
+  server: 167.68.4.58
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: CT_20
   network: ws
   port: 443
-  server: 162.159.152.225
-  servername: tx.vs2024.dpdns.org
+  server: 162.159.152.69
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
 - name: CT_21
   network: ws
   port: 443
-  server: 162.159.153.144
-  servername: dt.vs2024.dpdns.org
+  server: 162.159.152.69
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: otto.ns.cloudflare.com_2
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: otto.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: kc1.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: benedict.ns.cloudflare.com_2
+- name: US_23
   network: ws
   port: 443
-  server: benedict.ns.cloudflare.com
-  servername: dt.vs2024.dpdns.org
+  server: 216.24.57.59
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: decker.ns.cloudflare.com_4
-  network: ws
-  port: 443
-  server: decker.ns.cloudflare.com
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: 🇺🇸US_10
-  network: ws
-  port: 2087
-  server: 104.25.254.4
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: braden.ns.cloudflare.com_3
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: braden.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: tx.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: 172.67.120.0_3
-  network: ws
-  port: 443
-  server: 172.67.120.0
-  servername: kc1.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: GB_1
-  network: ws
-  port: 443
-  server: 141.147.114.60
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: braden.ns.cloudflare.com_4
+- name: SJC_46
   network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: braden.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: kc1.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: 172.67.120.0_4
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: 172.67.120.0
-  skip-cert-verify: true
-  sni: tx.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: US_7
-  network: ws
-  port: 443
-  server: www.hugedomains.com
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: FR_2
-  network: ws
-  port: 8443
-  server: 141.145.205.115
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: huxley.ns.cloudflare.com_6
-  network: ws
-  port: 443
-  server: huxley.ns.cloudflare.com
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: decker.ns.cloudflare.com_5
-  network: ws
-  port: 443
-  server: decker.ns.cloudflare.com
-  servername: kc1.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: ashton.ns.cloudflare.com_2
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: ashton.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: tx.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: 🇺🇸US_11
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  password: Aimer
   port: 2053
-  server: 162.159.129.11
+  server: 199.34.228.50
   skip-cert-verify: true
-  sni: tx.vs2024.dpdns.org
+  sni: epml.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: www.ipget.net_1
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_47
   network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  password: Aimer
   port: 443
-  server: www.ipget.net
+  server: 31.43.179.27
   skip-cert-verify: true
-  sni: kc1.vs2024.dpdns.org
+  sni: epml.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: NL_4
-  network: ws
-  port: 1010
-  server: 45.154.98.100
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: ip.gs_4
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: ip.gs
-  skip-cert-verify: true
-  sni: dt.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: wilson.ns.cloudflare.com_2
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: wilson.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: kc1.vs2024.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: CT_22
   network: ws
   port: 443
-  server: 162.159.153.209
-  servername: tx.vs2024.dpdns.org
+  server: 162.159.152.155
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: CT_23
+- name: JP_7
   network: ws
   port: 443
-  server: 162.159.152.69
-  servername: dt.vs2024.dpdns.org
+  server: 168.138.46.67
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: decker.ns.cloudflare.com_6
+- name: SJC_48
   network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: decker.ns.cloudflare.com
+  password: Aimer
+  port: 2083
+  server: 103.116.7.103
   skip-cert-verify: true
-  sni: tx.vs2024.dpdns.org
+  sni: epmk.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: www.ipget.net_2
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_49
   network: ws
-  port: 443
-  server: www.ipget.net
-  servername: kc1.vs2024.dpdns.org
+  password: Aimer
+  port: 2083
+  server: 103.116.7.133
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: 172.67.106.26_2
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: 172.67.106.26
-  skip-cert-verify: true
-  sni: dt.vs2024.dpdns.org
+  sni: epml.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: AT_6
+  network: ws
+  port: 443
+  server: 212.183.88.16
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_21
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_50
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 167.68.4.223
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_51
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 188.164.159.214
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_52
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 103.116.7.100
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: RU_2
+  network: ws
+  port: 443
+  server: 45.67.215.92
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_53
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 192.200.160.169
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: CMCC_1
+  network: ws
+  port: 443
+  server: 198.41.208.23
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_54
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 176.53.144.206
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_55
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 103.116.7.103
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: FRA_2
+  network: ws
+  password: Aimer
+  port: 81
+  server: 45.80.209.25
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: CMCC-IPV6_22
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_56
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 31.43.179.60
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: CMCC-IPV6_23
   network: ws
   port: 4700
   server: '[2606'
-  servername: dt.vs2024.dpdns.org
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: NL_5
-  network: ws
-  port: 5008
-  server: 45.154.98.100
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: NL_6
-  network: ws
-  port: 5008
-  server: 45.154.98.100
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: US_8
-  network: ws
-  port: 443
-  server: icook.hk
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: US_9
-  network: ws
-  port: 443
-  server: icook.hk
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
 - name: CMCC-IPV6_24
   network: ws
   port: 4700
   server: '[2606'
-  servername: tx.vs2024.dpdns.org
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: US_10
+- name: US_24
   network: ws
   port: 443
-  server: 47.253.105.131
-  servername: dt.vs2024.dpdns.org
+  server: 63.141.128.3
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: GB_2
+- name: SJC_57
   network: ws
-  port: 443
-  server: 141.147.114.60
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: JP_5
-  network: ws
-  port: 12333
-  server: 121.80.244.179
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: IL_1
-  network: ws
+  password: Aimer
   port: 2053
-  server: 129.159.132.0
-  servername: dt.vs2024.dpdns.org
+  server: 199.34.228.50
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: craig.ns.cloudflare.com_2
-  network: ws
-  port: 443
-  server: craig.ns.cloudflare.com
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: US_11
-  network: ws
-  port: 443
-  server: 129.146.46.164
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: NL_7
-  network: ws
-  port: 1010
-  server: 45.154.98.100
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: US_12
-  network: ws
-  port: 38712
-  server: 108.174.61.161
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: CT_24
-  network: ws
-  port: 443
-  server: 162.159.153.212
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: US_13
-  network: ws
-  port: 59581
-  server: 108.174.61.161
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: US_14
-  network: ws
-  port: 59581
-  server: 108.174.61.161
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: US_15
-  network: ws
-  port: 443
-  server: 129.153.203.62
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: HK_2
-  network: ws
-  port: 443
-  server: 47.57.181.17
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: KR_8
-  network: ws
-  port: 443
-  server: 144.24.90.107
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: KR_9
-  network: ws
-  port: 443
-  server: 144.24.90.107
-  servername: dt.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: dt.vs2024.dpdns.org
-    path: /?ed=2560
-- name: 172.67.243.218_2
-  network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 443
-  server: 172.67.243.218
-  skip-cert-verify: true
-  sni: tx.vs2024.dpdns.org
+  sni: epmk.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: US_16
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: CMCC_2
   network: ws
   port: 443
-  server: 129.146.46.164
-  servername: dt.vs2024.dpdns.org
+  server: 104.16.242.72
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: IPV6_2
+- name: CMCC_3
   network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  port: 443
+  server: 104.17.223.37
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_25
+  network: ws
   port: 4700
   server: '[2606'
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
-  sni: kc1.vs2024.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_58
+  network: ws
+  password: Aimer
+  port: 443
+  server: 31.43.179.27
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: US_17
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: CMCC-IPV6_26
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_4
+  network: ws
+  port: 443
+  server: 104.17.104.243
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CH_2
+  network: ws
+  port: 443
+  server: 140.238.212.95
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_59
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 199.34.228.178
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_60
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 108.165.152.55
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_61
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 209.94.90.87
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_25
+  network: ws
+  port: 443
+  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_62
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 31.43.179.60
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: CMCC_5
+  network: ws
+  port: 443
+  server: 104.17.101.175
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_6
+  network: ws
+  port: 443
+  server: 104.18.94.238
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_7
+  network: ws
+  port: 443
+  server: 104.18.82.55
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_8
+  network: ws
+  port: 443
+  server: 104.19.144.212
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_9
+  network: ws
+  port: 443
+  server: 104.17.104.243
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: AMS_2
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 45.134.21.8
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_63
+  network: ws
+  password: Aimer
+  port: 443
+  server: 167.68.4.58
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: CF随机节点_11
+  network: ws
+  port: 443
+  server: 190.93.247.160
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CF随机节点_12
+  network: ws
+  port: 443
+  server: 104.16.134.46
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CF随机节点_13
+  network: ws
+  port: 443
+  server: 104.16.120.49
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_10
+  network: ws
+  port: 443
+  server: 104.17.223.37
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_11
+  network: ws
+  port: 443
+  server: 104.16.253.83
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_12
+  network: ws
+  port: 443
+  server: 104.17.210.171
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_13
+  network: ws
+  port: 443
+  server: 104.18.80.243
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: US_26
   network: ws
   port: 443
   server: 129.213.136.180
-  servername: dt.vs2024.dpdns.org
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: IPV6_3
+- name: CMCC_14
   network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 4700
-  server: '[2606'
+  port: 443
+  server: 104.17.102.95
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
-  sni: tx.vs2024.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: US_27
+  network: ws
+  port: 443
+  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_15
+  network: ws
+  port: 443
+  server: 104.17.102.95
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_16
+  network: ws
+  port: 443
+  server: 104.18.82.55
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_17
+  network: ws
+  port: 443
+  server: 104.16.253.83
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_18
+  network: ws
+  port: 443
+  server: 104.19.144.212
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: JP_8
+  network: ws
+  port: 443
+  server: 168.138.46.67
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CF随机节点_14
+  network: ws
+  port: 443
+  server: 104.16.134.46
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_19
+  network: ws
+  port: 443
+  server: 104.19.150.163
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CF随机节点_15
+  network: ws
+  port: 443
+  server: 104.16.132.56
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_20
+  network: ws
+  port: 443
+  server: 104.19.150.163
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CF随机节点_16
+  network: ws
+  port: 443
+  server: 104.16.229.50
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CF随机节点_17
+  network: ws
+  port: 443
+  server: 190.93.247.160
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_21
+  network: ws
+  port: 443
+  server: 104.18.80.243
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_22
+  network: ws
+  port: 443
+  server: 104.18.86.131
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_23
+  network: ws
+  port: 443
+  server: 104.17.210.171
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_24
+  network: ws
+  port: 443
+  server: 198.41.208.23
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: US_28
+  network: ws
+  port: 2096
+  server: 152.70.155.147
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_25
+  network: ws
+  port: 443
+  server: 104.17.101.175
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CF随机节点_18
+  network: ws
+  port: 443
+  server: 104.16.120.49
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: AMS_3
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 5.35.68.249
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: CA_1
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: CMCC_26
   network: ws
   port: 443
-  server: 140.238.158.238
-  servername: dt.vs2024.dpdns.org
+  server: 104.17.215.102
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: dt.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: IPV6_4
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: US_18
+- name: AU_1
   network: ws
   port: 443
-  server: 150.136.87.192
-  servername: tx.vs2024.dpdns.org
+  server: 168.138.13.201
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: IPV6_5
+- name: CF随机节点_19
   network: ws
-  password: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  port: 4700
-  server: '[2606'
+  port: 443
+  server: 104.16.132.56
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
-  sni: tx.vs2024.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_27
+  network: ws
+  port: 443
+  server: 104.18.86.131
+  servername: jv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: jv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_28
+  network: ws
+  port: 443
+  server: 104.17.215.102
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: CMCC_29
+  network: ws
+  port: 443
+  server: 104.18.94.238
+  servername: dv.bgm2024.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  ws-opts:
+    headers:
+      host: dv.bgm2024.dpdns.org
+    path: /?ed=2560
+- name: SJC_64
+  network: ws
+  password: Aimer
+  port: 443
+  server: 154.197.64.206
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
   type: trojan
   udp: true
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=trojan
-- name: US_19
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: CF随机节点_20
   network: ws
   port: 443
-  server: 129.213.130.70
-  servername: tx.vs2024.dpdns.org
+  server: 104.16.229.50
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: IPV6_6
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: US_20
+- name: US_29
   network: ws
   port: 443
   server: 129.213.136.180
-  servername: tx.vs2024.dpdns.org
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: BR
+- name: US_30
   network: ws
-  port: 2053
-  server: 132.226.163.224
-  servername: tx.vs2024.dpdns.org
+  port: 2096
+  server: 152.70.155.147
+  servername: jv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: jv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: CA_2
+- name: CMCC_30
   network: ws
   port: 443
-  server: 140.238.158.238
-  servername: tx.vs2024.dpdns.org
+  server: 104.16.242.72
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
-- name: IPV6_7
+- name: SJC_65
   network: ws
-  port: 4700
-  server: '[2606'
-  servername: kc1.vs2024.dpdns.org
+  password: Aimer
+  port: 8443
+  server: 141.11.203.191
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: kc1.vs2024.dpdns.org
-    path: /?ed=2560&PROT_TYPE=vless
-- name: SG_2
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_66
   network: ws
-  port: 23023
-  server: 43.165.191.25
-  servername: tx.vs2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
-  ws-opts:
-    headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: IL_2
-  network: ws
+  password: Aimer
   port: 2053
-  server: 129.159.132.0
-  servername: tx.vs2024.dpdns.org
+  server: 213.241.198.189
   skip-cert-verify: true
-  tls: true
-  type: vless
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
-    path: /?ed=2560
-- name: US_21
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_67
   network: ws
-  port: 38712
-  server: 108.174.61.161
-  servername: tx.vs2024.dpdns.org
+  password: Aimer
+  port: 8443
+  server: 176.53.144.206
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SJC_68
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 188.164.159.185
+  skip-cert-verify: true
+  sni: epmk.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epmk.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: AU_2
+  network: ws
+  port: 443
+  server: 168.138.13.201
+  servername: dv.bgm2024.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  uuid: 55520747-311e-4015-83ce-be46e2060ce3
   ws-opts:
     headers:
-      host: tx.vs2024.dpdns.org
+      host: dv.bgm2024.dpdns.org
     path: /?ed=2560
+- name: ICN_2
+  network: ws
+  password: Aimer
+  port: 50000
+  server: 121.167.230.98
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: AMS_4
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 5.35.68.249
+  skip-cert-verify: true
+  sni: epml.ambercc.filegear-sg.me
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: epml.ambercc.filegear-sg.me
+    path: /?ed=2560&proxyip=ts.hpc.tw
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
   - TW_1
-  - TW_2
-  - KR_1
-  - 172.67.79.211_1
-  - KR_2
-  - ipv4.ip.sb_1
-  - KR_3
-  - KR_4
-  - 172.67.79.211_2
-  - www.ipchicken.com_1
-  - 172.67.79.211_3
-  - ipv4.ip.sb_2
-  - ipv4.ip.sb_3
-  - ipv4.ip.sb_4
-  - CMCC_1
-  - CMCC_2
-  - KR_5
-  - CMCC_3
-  - CMCC_4
-  - CMCC_5
-  - CMCC_6
-  - www.4chan.org_1
-  - CMCC_7
-  - 🇺🇸US_1
-  - CMCC_8
-  - CMCC_9
-  - CMCC_10
-  - www.4chan.org_2
-  - CMCC_11
-  - 🇭🇰HK_1
-  - 🇺🇸US_2
-  - www.ipchicken.com_2
-  - 🇺🇸US_3
   - JP_1
-  - CMCC_12
-  - CMCC_13
-  - CMCC_14
-  - 🇭🇰HK_2
-  - CMCC_15
-  - CMCC_16
-  - KR_6
-  - CMCC_17
-  - 104.17.142.12_1
-  - CMCC_18
-  - NL_1
-  - CMCC_19
-  - SG_1
-  - 🇭🇰HK_3
   - JP_2
-  - CMCC_20
-  - CMCC_21
-  - 🇺🇸US_4
-  - comicabc.com_1
+  - TW_2
+  - '|2.46Mb'
   - JP_3
-  - CMCC-IPV6_1
-  - CMCC_22
-  - US_1
-  - CMCC-IPV6_2
   - JP_4
-  - CMCC-IPV6_3
-  - CMCC_23
-  - CMCC_24
-  - CMCC_25
-  - iplocation.io_1
-  - comicabc.com_2
+  - KR_1
+  - KR_2
+  - SG_1
+  - JP_5
+  - KR_3
+  - SG_2
+  - JP_6
+  - FRA_1
+  - KR_4
+  - SJC_1
+  - BR_1
   - CT_1
-  - CT_2
-  - CMCC-IPV6_4
-  - CMCC-IPV6_5
-  - CMCC-IPV6_6
-  - CT_3
-  - time.is
-  - CMCC_26
-  - braden.ns.cloudflare.com_1
-  - IPV6_1
-  - iplocation.io_2
-  - decker.ns.cloudflare.com_1
-  - CMCC-IPV6_7
-  - CMCC-IPV6_8
-  - kyree.ns.cloudflare.com_1
-  - CMCC_27
-  - dylan.ns.cloudflare.com_1
-  - www.hugedomains.com
-  - wilson.ns.cloudflare.com_1
-  - CMCC-IPV6_9
-  - dnschecker.org_1
-  - ip.gs_1
-  - 🇭🇰HK_4
-  - CMCC-IPV6_10
-  - CMCC-IPV6_11
-  - 172.67.181.209_1
-  - CMCC-IPV6_12
-  - CMCC-IPV6_13
-  - dylan.ns.cloudflare.com_2
-  - CT_4
-  - 🇺🇸US_5
-  - CMCC-IPV6_14
-  - 172.67.106.26_1
-  - comicabc.com_3
-  - dnschecker.org_2
-  - CT_5
-  - braden.ns.cloudflare.com_2
-  - 162.159.133.85_1
-  - huxley.ns.cloudflare.com_1
-  - CMCC-IPV6_15
-  - CMCC_28
-  - CMCC_29
-  - comicabc.com_4
+  - CMCC-IPV6_1
+  - SJC_2
+  - US_1
+  - ICN_1
+  - KR_5
+  - BR_2
+  - SJC_3
+  - BR_3
+  - CMCC-IPV6_2
+  - SJC_4
   - US_2
-  - CT_6
-  - CT_7
-  - CT_8
-  - CMCC-IPV6_16
-  - kyree.ns.cloudflare.com_2
-  - www.udemy.com_1
-  - huxley.ns.cloudflare.com_2
-  - decker.ns.cloudflare.com_2
-  - CT_9
-  - 🇭🇰HK_5
-  - www.wto.org_1
-  - decker.ns.cloudflare.com_3
-  - www.wto.org_2
-  - CMCC-IPV6_17
-  - dylan.ns.cloudflare.com_3
-  - kyree.ns.cloudflare.com_3
-  - CT_10
-  - CT_11
-  - CMCC-IPV6_18
-  - ip.gs_2
-  - CT_12
-  - NL_2
-  - craig.ns.cloudflare.com_1
-  - huxley.ns.cloudflare.com_3
-  - CT_13
-  - 🇭🇰HK_6
-  - CT_14
-  - CMCC_30
-  - CT_15
-  - ashton.ns.cloudflare.com_1
-  - NL_3
-  - 172.67.243.218_1
-  - CT_16
-  - CMCC-IPV6_19
+  - SJC_5
+  - SJC_6
+  - CT_2
   - US_3
-  - 172.67.120.0_1
-  - www.ddwhm.com_1
-  - 104.17.142.12_2
+  - CT_3
+  - SJC_7
+  - CT_4
+  - AT_1
+  - SJC_8
+  - SJC_9
+  - CMCC-IPV6_3
+  - CMCC-IPV6_4
   - US_4
-  - 172.67.181.209_2
-  - CMCC-IPV6_20
-  - CT_17
   - US_5
-  - 162.159.133.85_2
-  - huxley.ns.cloudflare.com_4
-  - kyree.ns.cloudflare.com_4
-  - www.whatismyip.com_1
-  - CT_18
-  - ip.gs_3
-  - otto.ns.cloudflare.com_1
-  - 172.67.120.0_2
-  - SE
-  - www.ddwhm.com_2
-  - HK_1
-  - www.whatismyip.com_2
-  - CMCC-IPV6_21
-  - 🇺🇸US_6
-  - KR_7
-  - pranab.ns.cloudflare.com
-  - 🇺🇸US_7
-  - huxley.ns.cloudflare.com_5
-  - dylan.ns.cloudflare.com_4
-  - www.udemy.com_2
+  - CT_5
+  - SJC_10
+  - CMCC-IPV6_5
+  - SJC_11
+  - CMCC-IPV6_6
+  - CT_6
+  - SJC_12
+  - CT_7
+  - CMCC-IPV6_7
+  - CT_8
+  - BR_4
+  - CT_9
+  - CT_10
+  - SJC_13
+  - CT_11
+  - CT_12
   - US_6
-  - 🇺🇸US_8
+  - CT_13
+  - SJC_14
+  - SJC_15
+  - SJC_16
+  - US_7
+  - CH_1
+  - SJC_17
+  - SJC_18
+  - SJC_19
+  - SJC_20
+  - SJC_21
+  - US_8
+  - GB_1
+  - SJC_22
+  - US_9
+  - CMCC-IPV6_8
+  - SJC_23
+  - US_10
+  - CF随机节点_1
+  - CMCC-IPV6_9
+  - US_11
+  - US_12
+  - US_13
+  - AMS_1
+  - SJC_24
+  - SJC_25
+  - CF随机节点_2
+  - SJC_26
+  - CMCC-IPV6_10
+  - US_14
+  - SJC_27
+  - CMCC-IPV6_11
+  - GB_2
+  - RU_1
+  - CMCC-IPV6_12
+  - US_15
+  - SJC_28
+  - CT_14
+  - SJC_29
+  - AT_2
+  - CMCC-IPV6_13
+  - CMCC-IPV6_14
+  - SJC_30
+  - GB_3
+  - CMCC-IPV6_15
+  - CT_15
+  - CF随机节点_3
+  - US_16
+  - SJC_31
+  - SJC_32
+  - CT_16
+  - US_17
+  - CF随机节点_4
+  - SJC_33
+  - CMCC-IPV6_16
+  - SJC_34
+  - SJC_35
+  - CF随机节点_5
+  - US_18
+  - US_19
+  - CF随机节点_6
+  - CT_17
+  - AT_3
+  - CMCC-IPV6_17
+  - SJC_36
+  - CF随机节点_7
+  - CMCC-IPV6_18
+  - CF随机节点_8
+  - AT_4
+  - SJC_37
+  - CMCC-IPV6_19
+  - CMCC-IPV6_20
+  - CF随机节点_9
+  - SJC_38
+  - SJC_39
+  - US_20
+  - SJC_40
+  - GB_4
+  - SJC_41
+  - CT_18
+  - CF随机节点_10
+  - SJC_42
   - CT_19
-  - benedict.ns.cloudflare.com_1
-  - FR_1
-  - CMCC-IPV6_22
-  - 🇺🇸US_9
+  - AT_5
+  - SJC_43
+  - SJC_44
+  - US_21
+  - US_22
+  - SJC_45
   - CT_20
   - CT_21
-  - otto.ns.cloudflare.com_2
-  - benedict.ns.cloudflare.com_2
-  - decker.ns.cloudflare.com_4
-  - 🇺🇸US_10
-  - braden.ns.cloudflare.com_3
-  - 172.67.120.0_3
-  - GB_1
-  - braden.ns.cloudflare.com_4
-  - 172.67.120.0_4
-  - US_7
-  - FR_2
-  - huxley.ns.cloudflare.com_6
-  - decker.ns.cloudflare.com_5
-  - ashton.ns.cloudflare.com_2
-  - 🇺🇸US_11
-  - www.ipget.net_1
-  - NL_4
-  - ip.gs_4
-  - wilson.ns.cloudflare.com_2
+  - US_23
+  - SJC_46
+  - SJC_47
   - CT_22
-  - CT_23
-  - decker.ns.cloudflare.com_6
-  - www.ipget.net_2
-  - 172.67.106.26_2
+  - JP_7
+  - SJC_48
+  - SJC_49
+  - AT_6
+  - CMCC-IPV6_21
+  - SJC_50
+  - SJC_51
+  - SJC_52
+  - RU_2
+  - SJC_53
+  - CMCC_1
+  - SJC_54
+  - SJC_55
+  - FRA_2
+  - CMCC-IPV6_22
+  - SJC_56
   - CMCC-IPV6_23
-  - NL_5
-  - NL_6
-  - US_8
-  - US_9
   - CMCC-IPV6_24
-  - US_10
-  - GB_2
-  - JP_5
-  - IL_1
-  - craig.ns.cloudflare.com_2
-  - US_11
-  - NL_7
-  - US_12
-  - CT_24
-  - US_13
-  - US_14
-  - US_15
-  - HK_2
-  - KR_8
-  - KR_9
-  - 172.67.243.218_2
-  - US_16
-  - IPV6_2
-  - US_17
-  - IPV6_3
-  - CA_1
-  - IPV6_4
-  - US_18
-  - IPV6_5
-  - US_19
-  - IPV6_6
-  - US_20
-  - BR
-  - CA_2
-  - IPV6_7
-  - SG_2
-  - IL_2
-  - US_21
+  - US_24
+  - SJC_57
+  - CMCC_2
+  - CMCC_3
+  - CMCC-IPV6_25
+  - SJC_58
+  - CMCC-IPV6_26
+  - CMCC_4
+  - CH_2
+  - SJC_59
+  - SJC_60
+  - SJC_61
+  - US_25
+  - SJC_62
+  - CMCC_5
+  - CMCC_6
+  - CMCC_7
+  - CMCC_8
+  - CMCC_9
+  - AMS_2
+  - SJC_63
+  - CF随机节点_11
+  - CF随机节点_12
+  - CF随机节点_13
+  - CMCC_10
+  - CMCC_11
+  - CMCC_12
+  - CMCC_13
+  - US_26
+  - CMCC_14
+  - US_27
+  - CMCC_15
+  - CMCC_16
+  - CMCC_17
+  - CMCC_18
+  - JP_8
+  - CF随机节点_14
+  - CMCC_19
+  - CF随机节点_15
+  - CMCC_20
+  - CF随机节点_16
+  - CF随机节点_17
+  - CMCC_21
+  - CMCC_22
+  - CMCC_23
+  - CMCC_24
+  - US_28
+  - CMCC_25
+  - CF随机节点_18
+  - AMS_3
+  - CMCC_26
+  - AU_1
+  - CF随机节点_19
+  - CMCC_27
+  - CMCC_28
+  - CMCC_29
+  - SJC_64
+  - CF随机节点_20
+  - US_29
+  - US_30
+  - CMCC_30
+  - SJC_65
+  - SJC_66
+  - SJC_67
+  - SJC_68
+  - AU_2
+  - ICN_2
+  - AMS_4
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - TW_1
-  - TW_2
-  - KR_1
-  - 172.67.79.211_1
-  - KR_2
-  - ipv4.ip.sb_1
-  - KR_3
-  - KR_4
-  - 172.67.79.211_2
-  - www.ipchicken.com_1
-  - 172.67.79.211_3
-  - ipv4.ip.sb_2
-  - ipv4.ip.sb_3
-  - ipv4.ip.sb_4
-  - CMCC_1
-  - CMCC_2
-  - KR_5
-  - CMCC_3
-  - CMCC_4
-  - CMCC_5
-  - CMCC_6
-  - www.4chan.org_1
-  - CMCC_7
-  - 🇺🇸US_1
-  - CMCC_8
-  - CMCC_9
-  - CMCC_10
-  - www.4chan.org_2
-  - CMCC_11
-  - 🇭🇰HK_1
-  - 🇺🇸US_2
-  - www.ipchicken.com_2
-  - 🇺🇸US_3
   - JP_1
-  - CMCC_12
-  - CMCC_13
-  - CMCC_14
-  - 🇭🇰HK_2
-  - CMCC_15
-  - CMCC_16
-  - KR_6
-  - CMCC_17
-  - 104.17.142.12_1
-  - CMCC_18
-  - NL_1
-  - CMCC_19
-  - SG_1
-  - 🇭🇰HK_3
   - JP_2
-  - CMCC_20
-  - CMCC_21
-  - 🇺🇸US_4
-  - comicabc.com_1
+  - TW_2
+  - '|2.46Mb'
   - JP_3
-  - CMCC-IPV6_1
-  - CMCC_22
-  - US_1
-  - CMCC-IPV6_2
   - JP_4
-  - CMCC-IPV6_3
-  - CMCC_23
-  - CMCC_24
-  - CMCC_25
-  - iplocation.io_1
-  - comicabc.com_2
+  - KR_1
+  - KR_2
+  - SG_1
+  - JP_5
+  - KR_3
+  - SG_2
+  - JP_6
+  - FRA_1
+  - KR_4
+  - SJC_1
+  - BR_1
   - CT_1
-  - CT_2
-  - CMCC-IPV6_4
-  - CMCC-IPV6_5
-  - CMCC-IPV6_6
-  - CT_3
-  - time.is
-  - CMCC_26
-  - braden.ns.cloudflare.com_1
-  - IPV6_1
-  - iplocation.io_2
-  - decker.ns.cloudflare.com_1
-  - CMCC-IPV6_7
-  - CMCC-IPV6_8
-  - kyree.ns.cloudflare.com_1
-  - CMCC_27
-  - dylan.ns.cloudflare.com_1
-  - www.hugedomains.com
-  - wilson.ns.cloudflare.com_1
-  - CMCC-IPV6_9
-  - dnschecker.org_1
-  - ip.gs_1
-  - 🇭🇰HK_4
-  - CMCC-IPV6_10
-  - CMCC-IPV6_11
-  - 172.67.181.209_1
-  - CMCC-IPV6_12
-  - CMCC-IPV6_13
-  - dylan.ns.cloudflare.com_2
-  - CT_4
-  - 🇺🇸US_5
-  - CMCC-IPV6_14
-  - 172.67.106.26_1
-  - comicabc.com_3
-  - dnschecker.org_2
-  - CT_5
-  - braden.ns.cloudflare.com_2
-  - 162.159.133.85_1
-  - huxley.ns.cloudflare.com_1
-  - CMCC-IPV6_15
-  - CMCC_28
-  - CMCC_29
-  - comicabc.com_4
+  - CMCC-IPV6_1
+  - SJC_2
+  - US_1
+  - ICN_1
+  - KR_5
+  - BR_2
+  - SJC_3
+  - BR_3
+  - CMCC-IPV6_2
+  - SJC_4
   - US_2
-  - CT_6
-  - CT_7
-  - CT_8
-  - CMCC-IPV6_16
-  - kyree.ns.cloudflare.com_2
-  - www.udemy.com_1
-  - huxley.ns.cloudflare.com_2
-  - decker.ns.cloudflare.com_2
-  - CT_9
-  - 🇭🇰HK_5
-  - www.wto.org_1
-  - decker.ns.cloudflare.com_3
-  - www.wto.org_2
-  - CMCC-IPV6_17
-  - dylan.ns.cloudflare.com_3
-  - kyree.ns.cloudflare.com_3
-  - CT_10
-  - CT_11
-  - CMCC-IPV6_18
-  - ip.gs_2
-  - CT_12
-  - NL_2
-  - craig.ns.cloudflare.com_1
-  - huxley.ns.cloudflare.com_3
-  - CT_13
-  - 🇭🇰HK_6
-  - CT_14
-  - CMCC_30
-  - CT_15
-  - ashton.ns.cloudflare.com_1
-  - NL_3
-  - 172.67.243.218_1
-  - CT_16
-  - CMCC-IPV6_19
+  - SJC_5
+  - SJC_6
+  - CT_2
   - US_3
-  - 172.67.120.0_1
-  - www.ddwhm.com_1
-  - 104.17.142.12_2
+  - CT_3
+  - SJC_7
+  - CT_4
+  - AT_1
+  - SJC_8
+  - SJC_9
+  - CMCC-IPV6_3
+  - CMCC-IPV6_4
   - US_4
-  - 172.67.181.209_2
-  - CMCC-IPV6_20
-  - CT_17
   - US_5
-  - 162.159.133.85_2
-  - huxley.ns.cloudflare.com_4
-  - kyree.ns.cloudflare.com_4
-  - www.whatismyip.com_1
-  - CT_18
-  - ip.gs_3
-  - otto.ns.cloudflare.com_1
-  - 172.67.120.0_2
-  - SE
-  - www.ddwhm.com_2
-  - HK_1
-  - www.whatismyip.com_2
-  - CMCC-IPV6_21
-  - 🇺🇸US_6
-  - KR_7
-  - pranab.ns.cloudflare.com
-  - 🇺🇸US_7
-  - huxley.ns.cloudflare.com_5
-  - dylan.ns.cloudflare.com_4
-  - www.udemy.com_2
+  - CT_5
+  - SJC_10
+  - CMCC-IPV6_5
+  - SJC_11
+  - CMCC-IPV6_6
+  - CT_6
+  - SJC_12
+  - CT_7
+  - CMCC-IPV6_7
+  - CT_8
+  - BR_4
+  - CT_9
+  - CT_10
+  - SJC_13
+  - CT_11
+  - CT_12
   - US_6
-  - 🇺🇸US_8
+  - CT_13
+  - SJC_14
+  - SJC_15
+  - SJC_16
+  - US_7
+  - CH_1
+  - SJC_17
+  - SJC_18
+  - SJC_19
+  - SJC_20
+  - SJC_21
+  - US_8
+  - GB_1
+  - SJC_22
+  - US_9
+  - CMCC-IPV6_8
+  - SJC_23
+  - US_10
+  - CF随机节点_1
+  - CMCC-IPV6_9
+  - US_11
+  - US_12
+  - US_13
+  - AMS_1
+  - SJC_24
+  - SJC_25
+  - CF随机节点_2
+  - SJC_26
+  - CMCC-IPV6_10
+  - US_14
+  - SJC_27
+  - CMCC-IPV6_11
+  - GB_2
+  - RU_1
+  - CMCC-IPV6_12
+  - US_15
+  - SJC_28
+  - CT_14
+  - SJC_29
+  - AT_2
+  - CMCC-IPV6_13
+  - CMCC-IPV6_14
+  - SJC_30
+  - GB_3
+  - CMCC-IPV6_15
+  - CT_15
+  - CF随机节点_3
+  - US_16
+  - SJC_31
+  - SJC_32
+  - CT_16
+  - US_17
+  - CF随机节点_4
+  - SJC_33
+  - CMCC-IPV6_16
+  - SJC_34
+  - SJC_35
+  - CF随机节点_5
+  - US_18
+  - US_19
+  - CF随机节点_6
+  - CT_17
+  - AT_3
+  - CMCC-IPV6_17
+  - SJC_36
+  - CF随机节点_7
+  - CMCC-IPV6_18
+  - CF随机节点_8
+  - AT_4
+  - SJC_37
+  - CMCC-IPV6_19
+  - CMCC-IPV6_20
+  - CF随机节点_9
+  - SJC_38
+  - SJC_39
+  - US_20
+  - SJC_40
+  - GB_4
+  - SJC_41
+  - CT_18
+  - CF随机节点_10
+  - SJC_42
   - CT_19
-  - benedict.ns.cloudflare.com_1
-  - FR_1
-  - CMCC-IPV6_22
-  - 🇺🇸US_9
+  - AT_5
+  - SJC_43
+  - SJC_44
+  - US_21
+  - US_22
+  - SJC_45
   - CT_20
   - CT_21
-  - otto.ns.cloudflare.com_2
-  - benedict.ns.cloudflare.com_2
-  - decker.ns.cloudflare.com_4
-  - 🇺🇸US_10
-  - braden.ns.cloudflare.com_3
-  - 172.67.120.0_3
-  - GB_1
-  - braden.ns.cloudflare.com_4
-  - 172.67.120.0_4
-  - US_7
-  - FR_2
-  - huxley.ns.cloudflare.com_6
-  - decker.ns.cloudflare.com_5
-  - ashton.ns.cloudflare.com_2
-  - 🇺🇸US_11
-  - www.ipget.net_1
-  - NL_4
-  - ip.gs_4
-  - wilson.ns.cloudflare.com_2
+  - US_23
+  - SJC_46
+  - SJC_47
   - CT_22
-  - CT_23
-  - decker.ns.cloudflare.com_6
-  - www.ipget.net_2
-  - 172.67.106.26_2
+  - JP_7
+  - SJC_48
+  - SJC_49
+  - AT_6
+  - CMCC-IPV6_21
+  - SJC_50
+  - SJC_51
+  - SJC_52
+  - RU_2
+  - SJC_53
+  - CMCC_1
+  - SJC_54
+  - SJC_55
+  - FRA_2
+  - CMCC-IPV6_22
+  - SJC_56
   - CMCC-IPV6_23
-  - NL_5
-  - NL_6
-  - US_8
-  - US_9
   - CMCC-IPV6_24
-  - US_10
-  - GB_2
-  - JP_5
-  - IL_1
-  - craig.ns.cloudflare.com_2
-  - US_11
-  - NL_7
-  - US_12
-  - CT_24
-  - US_13
-  - US_14
-  - US_15
-  - HK_2
-  - KR_8
-  - KR_9
-  - 172.67.243.218_2
-  - US_16
-  - IPV6_2
-  - US_17
-  - IPV6_3
-  - CA_1
-  - IPV6_4
-  - US_18
-  - IPV6_5
-  - US_19
-  - IPV6_6
-  - US_20
-  - BR
-  - CA_2
-  - IPV6_7
-  - SG_2
-  - IL_2
-  - US_21
+  - US_24
+  - SJC_57
+  - CMCC_2
+  - CMCC_3
+  - CMCC-IPV6_25
+  - SJC_58
+  - CMCC-IPV6_26
+  - CMCC_4
+  - CH_2
+  - SJC_59
+  - SJC_60
+  - SJC_61
+  - US_25
+  - SJC_62
+  - CMCC_5
+  - CMCC_6
+  - CMCC_7
+  - CMCC_8
+  - CMCC_9
+  - AMS_2
+  - SJC_63
+  - CF随机节点_11
+  - CF随机节点_12
+  - CF随机节点_13
+  - CMCC_10
+  - CMCC_11
+  - CMCC_12
+  - CMCC_13
+  - US_26
+  - CMCC_14
+  - US_27
+  - CMCC_15
+  - CMCC_16
+  - CMCC_17
+  - CMCC_18
+  - JP_8
+  - CF随机节点_14
+  - CMCC_19
+  - CF随机节点_15
+  - CMCC_20
+  - CF随机节点_16
+  - CF随机节点_17
+  - CMCC_21
+  - CMCC_22
+  - CMCC_23
+  - CMCC_24
+  - US_28
+  - CMCC_25
+  - CF随机节点_18
+  - AMS_3
+  - CMCC_26
+  - AU_1
+  - CF随机节点_19
+  - CMCC_27
+  - CMCC_28
+  - CMCC_29
+  - SJC_64
+  - CF随机节点_20
+  - US_29
+  - US_30
+  - CMCC_30
+  - SJC_65
+  - SJC_66
+  - SJC_67
+  - SJC_68
+  - AU_2
+  - ICN_2
+  - AMS_4
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -3869,996 +3812,988 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - TW_1
-  - TW_2
-  - KR_1
-  - 172.67.79.211_1
-  - KR_2
-  - ipv4.ip.sb_1
-  - KR_3
-  - KR_4
-  - 172.67.79.211_2
-  - www.ipchicken.com_1
-  - 172.67.79.211_3
-  - ipv4.ip.sb_2
-  - ipv4.ip.sb_3
-  - ipv4.ip.sb_4
-  - CMCC_1
-  - CMCC_2
-  - KR_5
-  - CMCC_3
-  - CMCC_4
-  - CMCC_5
-  - CMCC_6
-  - www.4chan.org_1
-  - CMCC_7
-  - 🇺🇸US_1
-  - CMCC_8
-  - CMCC_9
-  - CMCC_10
-  - www.4chan.org_2
-  - CMCC_11
-  - 🇭🇰HK_1
-  - 🇺🇸US_2
-  - www.ipchicken.com_2
-  - 🇺🇸US_3
   - JP_1
-  - CMCC_12
-  - CMCC_13
-  - CMCC_14
-  - 🇭🇰HK_2
-  - CMCC_15
-  - CMCC_16
-  - KR_6
-  - CMCC_17
-  - 104.17.142.12_1
-  - CMCC_18
-  - NL_1
-  - CMCC_19
-  - SG_1
-  - 🇭🇰HK_3
   - JP_2
-  - CMCC_20
-  - CMCC_21
-  - 🇺🇸US_4
-  - comicabc.com_1
+  - TW_2
+  - '|2.46Mb'
   - JP_3
-  - CMCC-IPV6_1
-  - CMCC_22
-  - US_1
-  - CMCC-IPV6_2
   - JP_4
-  - CMCC-IPV6_3
-  - CMCC_23
-  - CMCC_24
-  - CMCC_25
-  - iplocation.io_1
-  - comicabc.com_2
+  - KR_1
+  - KR_2
+  - SG_1
+  - JP_5
+  - KR_3
+  - SG_2
+  - JP_6
+  - FRA_1
+  - KR_4
+  - SJC_1
+  - BR_1
   - CT_1
-  - CT_2
-  - CMCC-IPV6_4
-  - CMCC-IPV6_5
-  - CMCC-IPV6_6
-  - CT_3
-  - time.is
-  - CMCC_26
-  - braden.ns.cloudflare.com_1
-  - IPV6_1
-  - iplocation.io_2
-  - decker.ns.cloudflare.com_1
-  - CMCC-IPV6_7
-  - CMCC-IPV6_8
-  - kyree.ns.cloudflare.com_1
-  - CMCC_27
-  - dylan.ns.cloudflare.com_1
-  - www.hugedomains.com
-  - wilson.ns.cloudflare.com_1
-  - CMCC-IPV6_9
-  - dnschecker.org_1
-  - ip.gs_1
-  - 🇭🇰HK_4
-  - CMCC-IPV6_10
-  - CMCC-IPV6_11
-  - 172.67.181.209_1
-  - CMCC-IPV6_12
-  - CMCC-IPV6_13
-  - dylan.ns.cloudflare.com_2
-  - CT_4
-  - 🇺🇸US_5
-  - CMCC-IPV6_14
-  - 172.67.106.26_1
-  - comicabc.com_3
-  - dnschecker.org_2
-  - CT_5
-  - braden.ns.cloudflare.com_2
-  - 162.159.133.85_1
-  - huxley.ns.cloudflare.com_1
-  - CMCC-IPV6_15
-  - CMCC_28
-  - CMCC_29
-  - comicabc.com_4
+  - CMCC-IPV6_1
+  - SJC_2
+  - US_1
+  - ICN_1
+  - KR_5
+  - BR_2
+  - SJC_3
+  - BR_3
+  - CMCC-IPV6_2
+  - SJC_4
   - US_2
-  - CT_6
-  - CT_7
-  - CT_8
-  - CMCC-IPV6_16
-  - kyree.ns.cloudflare.com_2
-  - www.udemy.com_1
-  - huxley.ns.cloudflare.com_2
-  - decker.ns.cloudflare.com_2
-  - CT_9
-  - 🇭🇰HK_5
-  - www.wto.org_1
-  - decker.ns.cloudflare.com_3
-  - www.wto.org_2
-  - CMCC-IPV6_17
-  - dylan.ns.cloudflare.com_3
-  - kyree.ns.cloudflare.com_3
-  - CT_10
-  - CT_11
-  - CMCC-IPV6_18
-  - ip.gs_2
-  - CT_12
-  - NL_2
-  - craig.ns.cloudflare.com_1
-  - huxley.ns.cloudflare.com_3
-  - CT_13
-  - 🇭🇰HK_6
-  - CT_14
-  - CMCC_30
-  - CT_15
-  - ashton.ns.cloudflare.com_1
-  - NL_3
-  - 172.67.243.218_1
-  - CT_16
-  - CMCC-IPV6_19
+  - SJC_5
+  - SJC_6
+  - CT_2
   - US_3
-  - 172.67.120.0_1
-  - www.ddwhm.com_1
-  - 104.17.142.12_2
+  - CT_3
+  - SJC_7
+  - CT_4
+  - AT_1
+  - SJC_8
+  - SJC_9
+  - CMCC-IPV6_3
+  - CMCC-IPV6_4
   - US_4
-  - 172.67.181.209_2
-  - CMCC-IPV6_20
-  - CT_17
   - US_5
-  - 162.159.133.85_2
-  - huxley.ns.cloudflare.com_4
-  - kyree.ns.cloudflare.com_4
-  - www.whatismyip.com_1
-  - CT_18
-  - ip.gs_3
-  - otto.ns.cloudflare.com_1
-  - 172.67.120.0_2
-  - SE
-  - www.ddwhm.com_2
-  - HK_1
-  - www.whatismyip.com_2
-  - CMCC-IPV6_21
-  - 🇺🇸US_6
-  - KR_7
-  - pranab.ns.cloudflare.com
-  - 🇺🇸US_7
-  - huxley.ns.cloudflare.com_5
-  - dylan.ns.cloudflare.com_4
-  - www.udemy.com_2
+  - CT_5
+  - SJC_10
+  - CMCC-IPV6_5
+  - SJC_11
+  - CMCC-IPV6_6
+  - CT_6
+  - SJC_12
+  - CT_7
+  - CMCC-IPV6_7
+  - CT_8
+  - BR_4
+  - CT_9
+  - CT_10
+  - SJC_13
+  - CT_11
+  - CT_12
   - US_6
-  - 🇺🇸US_8
+  - CT_13
+  - SJC_14
+  - SJC_15
+  - SJC_16
+  - US_7
+  - CH_1
+  - SJC_17
+  - SJC_18
+  - SJC_19
+  - SJC_20
+  - SJC_21
+  - US_8
+  - GB_1
+  - SJC_22
+  - US_9
+  - CMCC-IPV6_8
+  - SJC_23
+  - US_10
+  - CF随机节点_1
+  - CMCC-IPV6_9
+  - US_11
+  - US_12
+  - US_13
+  - AMS_1
+  - SJC_24
+  - SJC_25
+  - CF随机节点_2
+  - SJC_26
+  - CMCC-IPV6_10
+  - US_14
+  - SJC_27
+  - CMCC-IPV6_11
+  - GB_2
+  - RU_1
+  - CMCC-IPV6_12
+  - US_15
+  - SJC_28
+  - CT_14
+  - SJC_29
+  - AT_2
+  - CMCC-IPV6_13
+  - CMCC-IPV6_14
+  - SJC_30
+  - GB_3
+  - CMCC-IPV6_15
+  - CT_15
+  - CF随机节点_3
+  - US_16
+  - SJC_31
+  - SJC_32
+  - CT_16
+  - US_17
+  - CF随机节点_4
+  - SJC_33
+  - CMCC-IPV6_16
+  - SJC_34
+  - SJC_35
+  - CF随机节点_5
+  - US_18
+  - US_19
+  - CF随机节点_6
+  - CT_17
+  - AT_3
+  - CMCC-IPV6_17
+  - SJC_36
+  - CF随机节点_7
+  - CMCC-IPV6_18
+  - CF随机节点_8
+  - AT_4
+  - SJC_37
+  - CMCC-IPV6_19
+  - CMCC-IPV6_20
+  - CF随机节点_9
+  - SJC_38
+  - SJC_39
+  - US_20
+  - SJC_40
+  - GB_4
+  - SJC_41
+  - CT_18
+  - CF随机节点_10
+  - SJC_42
   - CT_19
-  - benedict.ns.cloudflare.com_1
-  - FR_1
-  - CMCC-IPV6_22
-  - 🇺🇸US_9
+  - AT_5
+  - SJC_43
+  - SJC_44
+  - US_21
+  - US_22
+  - SJC_45
   - CT_20
   - CT_21
-  - otto.ns.cloudflare.com_2
-  - benedict.ns.cloudflare.com_2
-  - decker.ns.cloudflare.com_4
-  - 🇺🇸US_10
-  - braden.ns.cloudflare.com_3
-  - 172.67.120.0_3
-  - GB_1
-  - braden.ns.cloudflare.com_4
-  - 172.67.120.0_4
-  - US_7
-  - FR_2
-  - huxley.ns.cloudflare.com_6
-  - decker.ns.cloudflare.com_5
-  - ashton.ns.cloudflare.com_2
-  - 🇺🇸US_11
-  - www.ipget.net_1
-  - NL_4
-  - ip.gs_4
-  - wilson.ns.cloudflare.com_2
+  - US_23
+  - SJC_46
+  - SJC_47
   - CT_22
-  - CT_23
-  - decker.ns.cloudflare.com_6
-  - www.ipget.net_2
-  - 172.67.106.26_2
+  - JP_7
+  - SJC_48
+  - SJC_49
+  - AT_6
+  - CMCC-IPV6_21
+  - SJC_50
+  - SJC_51
+  - SJC_52
+  - RU_2
+  - SJC_53
+  - CMCC_1
+  - SJC_54
+  - SJC_55
+  - FRA_2
+  - CMCC-IPV6_22
+  - SJC_56
   - CMCC-IPV6_23
-  - NL_5
-  - NL_6
-  - US_8
-  - US_9
   - CMCC-IPV6_24
-  - US_10
-  - GB_2
-  - JP_5
-  - IL_1
-  - craig.ns.cloudflare.com_2
-  - US_11
-  - NL_7
-  - US_12
-  - CT_24
-  - US_13
-  - US_14
-  - US_15
-  - HK_2
-  - KR_8
-  - KR_9
-  - 172.67.243.218_2
-  - US_16
-  - IPV6_2
-  - US_17
-  - IPV6_3
-  - CA_1
-  - IPV6_4
-  - US_18
-  - IPV6_5
-  - US_19
-  - IPV6_6
-  - US_20
-  - BR
-  - CA_2
-  - IPV6_7
-  - SG_2
-  - IL_2
-  - US_21
+  - US_24
+  - SJC_57
+  - CMCC_2
+  - CMCC_3
+  - CMCC-IPV6_25
+  - SJC_58
+  - CMCC-IPV6_26
+  - CMCC_4
+  - CH_2
+  - SJC_59
+  - SJC_60
+  - SJC_61
+  - US_25
+  - SJC_62
+  - CMCC_5
+  - CMCC_6
+  - CMCC_7
+  - CMCC_8
+  - CMCC_9
+  - AMS_2
+  - SJC_63
+  - CF随机节点_11
+  - CF随机节点_12
+  - CF随机节点_13
+  - CMCC_10
+  - CMCC_11
+  - CMCC_12
+  - CMCC_13
+  - US_26
+  - CMCC_14
+  - US_27
+  - CMCC_15
+  - CMCC_16
+  - CMCC_17
+  - CMCC_18
+  - JP_8
+  - CF随机节点_14
+  - CMCC_19
+  - CF随机节点_15
+  - CMCC_20
+  - CF随机节点_16
+  - CF随机节点_17
+  - CMCC_21
+  - CMCC_22
+  - CMCC_23
+  - CMCC_24
+  - US_28
+  - CMCC_25
+  - CF随机节点_18
+  - AMS_3
+  - CMCC_26
+  - AU_1
+  - CF随机节点_19
+  - CMCC_27
+  - CMCC_28
+  - CMCC_29
+  - SJC_64
+  - CF随机节点_20
+  - US_29
+  - US_30
+  - CMCC_30
+  - SJC_65
+  - SJC_66
+  - SJC_67
+  - SJC_68
+  - AU_2
+  - ICN_2
+  - AMS_4
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - TW_1
-  - TW_2
-  - KR_1
-  - 172.67.79.211_1
-  - KR_2
-  - ipv4.ip.sb_1
-  - KR_3
-  - KR_4
-  - 172.67.79.211_2
-  - www.ipchicken.com_1
-  - 172.67.79.211_3
-  - ipv4.ip.sb_2
-  - ipv4.ip.sb_3
-  - ipv4.ip.sb_4
-  - CMCC_1
-  - CMCC_2
-  - KR_5
-  - CMCC_3
-  - CMCC_4
-  - CMCC_5
-  - CMCC_6
-  - www.4chan.org_1
-  - CMCC_7
-  - 🇺🇸US_1
-  - CMCC_8
-  - CMCC_9
-  - CMCC_10
-  - www.4chan.org_2
-  - CMCC_11
-  - 🇭🇰HK_1
-  - 🇺🇸US_2
-  - www.ipchicken.com_2
-  - 🇺🇸US_3
   - JP_1
-  - CMCC_12
-  - CMCC_13
-  - CMCC_14
-  - 🇭🇰HK_2
-  - CMCC_15
-  - CMCC_16
-  - KR_6
-  - CMCC_17
-  - 104.17.142.12_1
-  - CMCC_18
-  - NL_1
-  - CMCC_19
-  - SG_1
-  - 🇭🇰HK_3
   - JP_2
-  - CMCC_20
-  - CMCC_21
-  - 🇺🇸US_4
-  - comicabc.com_1
+  - TW_2
+  - '|2.46Mb'
   - JP_3
-  - CMCC-IPV6_1
-  - CMCC_22
-  - US_1
-  - CMCC-IPV6_2
   - JP_4
-  - CMCC-IPV6_3
-  - CMCC_23
-  - CMCC_24
-  - CMCC_25
-  - iplocation.io_1
-  - comicabc.com_2
+  - KR_1
+  - KR_2
+  - SG_1
+  - JP_5
+  - KR_3
+  - SG_2
+  - JP_6
+  - FRA_1
+  - KR_4
+  - SJC_1
+  - BR_1
   - CT_1
-  - CT_2
-  - CMCC-IPV6_4
-  - CMCC-IPV6_5
-  - CMCC-IPV6_6
-  - CT_3
-  - time.is
-  - CMCC_26
-  - braden.ns.cloudflare.com_1
-  - IPV6_1
-  - iplocation.io_2
-  - decker.ns.cloudflare.com_1
-  - CMCC-IPV6_7
-  - CMCC-IPV6_8
-  - kyree.ns.cloudflare.com_1
-  - CMCC_27
-  - dylan.ns.cloudflare.com_1
-  - www.hugedomains.com
-  - wilson.ns.cloudflare.com_1
-  - CMCC-IPV6_9
-  - dnschecker.org_1
-  - ip.gs_1
-  - 🇭🇰HK_4
-  - CMCC-IPV6_10
-  - CMCC-IPV6_11
-  - 172.67.181.209_1
-  - CMCC-IPV6_12
-  - CMCC-IPV6_13
-  - dylan.ns.cloudflare.com_2
-  - CT_4
-  - 🇺🇸US_5
-  - CMCC-IPV6_14
-  - 172.67.106.26_1
-  - comicabc.com_3
-  - dnschecker.org_2
-  - CT_5
-  - braden.ns.cloudflare.com_2
-  - 162.159.133.85_1
-  - huxley.ns.cloudflare.com_1
-  - CMCC-IPV6_15
-  - CMCC_28
-  - CMCC_29
-  - comicabc.com_4
+  - CMCC-IPV6_1
+  - SJC_2
+  - US_1
+  - ICN_1
+  - KR_5
+  - BR_2
+  - SJC_3
+  - BR_3
+  - CMCC-IPV6_2
+  - SJC_4
   - US_2
-  - CT_6
-  - CT_7
-  - CT_8
-  - CMCC-IPV6_16
-  - kyree.ns.cloudflare.com_2
-  - www.udemy.com_1
-  - huxley.ns.cloudflare.com_2
-  - decker.ns.cloudflare.com_2
-  - CT_9
-  - 🇭🇰HK_5
-  - www.wto.org_1
-  - decker.ns.cloudflare.com_3
-  - www.wto.org_2
-  - CMCC-IPV6_17
-  - dylan.ns.cloudflare.com_3
-  - kyree.ns.cloudflare.com_3
-  - CT_10
-  - CT_11
-  - CMCC-IPV6_18
-  - ip.gs_2
-  - CT_12
-  - NL_2
-  - craig.ns.cloudflare.com_1
-  - huxley.ns.cloudflare.com_3
-  - CT_13
-  - 🇭🇰HK_6
-  - CT_14
-  - CMCC_30
-  - CT_15
-  - ashton.ns.cloudflare.com_1
-  - NL_3
-  - 172.67.243.218_1
-  - CT_16
-  - CMCC-IPV6_19
+  - SJC_5
+  - SJC_6
+  - CT_2
   - US_3
-  - 172.67.120.0_1
-  - www.ddwhm.com_1
-  - 104.17.142.12_2
+  - CT_3
+  - SJC_7
+  - CT_4
+  - AT_1
+  - SJC_8
+  - SJC_9
+  - CMCC-IPV6_3
+  - CMCC-IPV6_4
   - US_4
-  - 172.67.181.209_2
-  - CMCC-IPV6_20
-  - CT_17
   - US_5
-  - 162.159.133.85_2
-  - huxley.ns.cloudflare.com_4
-  - kyree.ns.cloudflare.com_4
-  - www.whatismyip.com_1
-  - CT_18
-  - ip.gs_3
-  - otto.ns.cloudflare.com_1
-  - 172.67.120.0_2
-  - SE
-  - www.ddwhm.com_2
-  - HK_1
-  - www.whatismyip.com_2
-  - CMCC-IPV6_21
-  - 🇺🇸US_6
-  - KR_7
-  - pranab.ns.cloudflare.com
-  - 🇺🇸US_7
-  - huxley.ns.cloudflare.com_5
-  - dylan.ns.cloudflare.com_4
-  - www.udemy.com_2
+  - CT_5
+  - SJC_10
+  - CMCC-IPV6_5
+  - SJC_11
+  - CMCC-IPV6_6
+  - CT_6
+  - SJC_12
+  - CT_7
+  - CMCC-IPV6_7
+  - CT_8
+  - BR_4
+  - CT_9
+  - CT_10
+  - SJC_13
+  - CT_11
+  - CT_12
   - US_6
-  - 🇺🇸US_8
+  - CT_13
+  - SJC_14
+  - SJC_15
+  - SJC_16
+  - US_7
+  - CH_1
+  - SJC_17
+  - SJC_18
+  - SJC_19
+  - SJC_20
+  - SJC_21
+  - US_8
+  - GB_1
+  - SJC_22
+  - US_9
+  - CMCC-IPV6_8
+  - SJC_23
+  - US_10
+  - CF随机节点_1
+  - CMCC-IPV6_9
+  - US_11
+  - US_12
+  - US_13
+  - AMS_1
+  - SJC_24
+  - SJC_25
+  - CF随机节点_2
+  - SJC_26
+  - CMCC-IPV6_10
+  - US_14
+  - SJC_27
+  - CMCC-IPV6_11
+  - GB_2
+  - RU_1
+  - CMCC-IPV6_12
+  - US_15
+  - SJC_28
+  - CT_14
+  - SJC_29
+  - AT_2
+  - CMCC-IPV6_13
+  - CMCC-IPV6_14
+  - SJC_30
+  - GB_3
+  - CMCC-IPV6_15
+  - CT_15
+  - CF随机节点_3
+  - US_16
+  - SJC_31
+  - SJC_32
+  - CT_16
+  - US_17
+  - CF随机节点_4
+  - SJC_33
+  - CMCC-IPV6_16
+  - SJC_34
+  - SJC_35
+  - CF随机节点_5
+  - US_18
+  - US_19
+  - CF随机节点_6
+  - CT_17
+  - AT_3
+  - CMCC-IPV6_17
+  - SJC_36
+  - CF随机节点_7
+  - CMCC-IPV6_18
+  - CF随机节点_8
+  - AT_4
+  - SJC_37
+  - CMCC-IPV6_19
+  - CMCC-IPV6_20
+  - CF随机节点_9
+  - SJC_38
+  - SJC_39
+  - US_20
+  - SJC_40
+  - GB_4
+  - SJC_41
+  - CT_18
+  - CF随机节点_10
+  - SJC_42
   - CT_19
-  - benedict.ns.cloudflare.com_1
-  - FR_1
-  - CMCC-IPV6_22
-  - 🇺🇸US_9
+  - AT_5
+  - SJC_43
+  - SJC_44
+  - US_21
+  - US_22
+  - SJC_45
   - CT_20
   - CT_21
-  - otto.ns.cloudflare.com_2
-  - benedict.ns.cloudflare.com_2
-  - decker.ns.cloudflare.com_4
-  - 🇺🇸US_10
-  - braden.ns.cloudflare.com_3
-  - 172.67.120.0_3
-  - GB_1
-  - braden.ns.cloudflare.com_4
-  - 172.67.120.0_4
-  - US_7
-  - FR_2
-  - huxley.ns.cloudflare.com_6
-  - decker.ns.cloudflare.com_5
-  - ashton.ns.cloudflare.com_2
-  - 🇺🇸US_11
-  - www.ipget.net_1
-  - NL_4
-  - ip.gs_4
-  - wilson.ns.cloudflare.com_2
+  - US_23
+  - SJC_46
+  - SJC_47
   - CT_22
-  - CT_23
-  - decker.ns.cloudflare.com_6
-  - www.ipget.net_2
-  - 172.67.106.26_2
+  - JP_7
+  - SJC_48
+  - SJC_49
+  - AT_6
+  - CMCC-IPV6_21
+  - SJC_50
+  - SJC_51
+  - SJC_52
+  - RU_2
+  - SJC_53
+  - CMCC_1
+  - SJC_54
+  - SJC_55
+  - FRA_2
+  - CMCC-IPV6_22
+  - SJC_56
   - CMCC-IPV6_23
-  - NL_5
-  - NL_6
-  - US_8
-  - US_9
   - CMCC-IPV6_24
-  - US_10
-  - GB_2
-  - JP_5
-  - IL_1
-  - craig.ns.cloudflare.com_2
-  - US_11
-  - NL_7
-  - US_12
-  - CT_24
-  - US_13
-  - US_14
-  - US_15
-  - HK_2
-  - KR_8
-  - KR_9
-  - 172.67.243.218_2
-  - US_16
-  - IPV6_2
-  - US_17
-  - IPV6_3
-  - CA_1
-  - IPV6_4
-  - US_18
-  - IPV6_5
-  - US_19
-  - IPV6_6
-  - US_20
-  - BR
-  - CA_2
-  - IPV6_7
-  - SG_2
-  - IL_2
-  - US_21
+  - US_24
+  - SJC_57
+  - CMCC_2
+  - CMCC_3
+  - CMCC-IPV6_25
+  - SJC_58
+  - CMCC-IPV6_26
+  - CMCC_4
+  - CH_2
+  - SJC_59
+  - SJC_60
+  - SJC_61
+  - US_25
+  - SJC_62
+  - CMCC_5
+  - CMCC_6
+  - CMCC_7
+  - CMCC_8
+  - CMCC_9
+  - AMS_2
+  - SJC_63
+  - CF随机节点_11
+  - CF随机节点_12
+  - CF随机节点_13
+  - CMCC_10
+  - CMCC_11
+  - CMCC_12
+  - CMCC_13
+  - US_26
+  - CMCC_14
+  - US_27
+  - CMCC_15
+  - CMCC_16
+  - CMCC_17
+  - CMCC_18
+  - JP_8
+  - CF随机节点_14
+  - CMCC_19
+  - CF随机节点_15
+  - CMCC_20
+  - CF随机节点_16
+  - CF随机节点_17
+  - CMCC_21
+  - CMCC_22
+  - CMCC_23
+  - CMCC_24
+  - US_28
+  - CMCC_25
+  - CF随机节点_18
+  - AMS_3
+  - CMCC_26
+  - AU_1
+  - CF随机节点_19
+  - CMCC_27
+  - CMCC_28
+  - CMCC_29
+  - SJC_64
+  - CF随机节点_20
+  - US_29
+  - US_30
+  - CMCC_30
+  - SJC_65
+  - SJC_66
+  - SJC_67
+  - SJC_68
+  - AU_2
+  - ICN_2
+  - AMS_4
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
   - TW_1
-  - TW_2
-  - KR_1
-  - 172.67.79.211_1
-  - KR_2
-  - ipv4.ip.sb_1
-  - KR_3
-  - KR_4
-  - 172.67.79.211_2
-  - www.ipchicken.com_1
-  - 172.67.79.211_3
-  - ipv4.ip.sb_2
-  - ipv4.ip.sb_3
-  - ipv4.ip.sb_4
-  - CMCC_1
-  - CMCC_2
-  - KR_5
-  - CMCC_3
-  - CMCC_4
-  - CMCC_5
-  - CMCC_6
-  - www.4chan.org_1
-  - CMCC_7
-  - 🇺🇸US_1
-  - CMCC_8
-  - CMCC_9
-  - CMCC_10
-  - www.4chan.org_2
-  - CMCC_11
-  - 🇭🇰HK_1
-  - 🇺🇸US_2
-  - www.ipchicken.com_2
-  - 🇺🇸US_3
   - JP_1
-  - CMCC_12
-  - CMCC_13
-  - CMCC_14
-  - 🇭🇰HK_2
-  - CMCC_15
-  - CMCC_16
-  - KR_6
-  - CMCC_17
-  - 104.17.142.12_1
-  - CMCC_18
-  - NL_1
-  - CMCC_19
-  - SG_1
-  - 🇭🇰HK_3
   - JP_2
-  - CMCC_20
-  - CMCC_21
-  - 🇺🇸US_4
-  - comicabc.com_1
+  - TW_2
+  - '|2.46Mb'
   - JP_3
-  - CMCC-IPV6_1
-  - CMCC_22
-  - US_1
-  - CMCC-IPV6_2
   - JP_4
-  - CMCC-IPV6_3
-  - CMCC_23
-  - CMCC_24
-  - CMCC_25
-  - iplocation.io_1
-  - comicabc.com_2
+  - KR_1
+  - KR_2
+  - SG_1
+  - JP_5
+  - KR_3
+  - SG_2
+  - JP_6
+  - FRA_1
+  - KR_4
+  - SJC_1
+  - BR_1
   - CT_1
-  - CT_2
-  - CMCC-IPV6_4
-  - CMCC-IPV6_5
-  - CMCC-IPV6_6
-  - CT_3
-  - time.is
-  - CMCC_26
-  - braden.ns.cloudflare.com_1
-  - IPV6_1
-  - iplocation.io_2
-  - decker.ns.cloudflare.com_1
-  - CMCC-IPV6_7
-  - CMCC-IPV6_8
-  - kyree.ns.cloudflare.com_1
-  - CMCC_27
-  - dylan.ns.cloudflare.com_1
-  - www.hugedomains.com
-  - wilson.ns.cloudflare.com_1
-  - CMCC-IPV6_9
-  - dnschecker.org_1
-  - ip.gs_1
-  - 🇭🇰HK_4
-  - CMCC-IPV6_10
-  - CMCC-IPV6_11
-  - 172.67.181.209_1
-  - CMCC-IPV6_12
-  - CMCC-IPV6_13
-  - dylan.ns.cloudflare.com_2
-  - CT_4
-  - 🇺🇸US_5
-  - CMCC-IPV6_14
-  - 172.67.106.26_1
-  - comicabc.com_3
-  - dnschecker.org_2
-  - CT_5
-  - braden.ns.cloudflare.com_2
-  - 162.159.133.85_1
-  - huxley.ns.cloudflare.com_1
-  - CMCC-IPV6_15
-  - CMCC_28
-  - CMCC_29
-  - comicabc.com_4
+  - CMCC-IPV6_1
+  - SJC_2
+  - US_1
+  - ICN_1
+  - KR_5
+  - BR_2
+  - SJC_3
+  - BR_3
+  - CMCC-IPV6_2
+  - SJC_4
   - US_2
-  - CT_6
-  - CT_7
-  - CT_8
-  - CMCC-IPV6_16
-  - kyree.ns.cloudflare.com_2
-  - www.udemy.com_1
-  - huxley.ns.cloudflare.com_2
-  - decker.ns.cloudflare.com_2
-  - CT_9
-  - 🇭🇰HK_5
-  - www.wto.org_1
-  - decker.ns.cloudflare.com_3
-  - www.wto.org_2
-  - CMCC-IPV6_17
-  - dylan.ns.cloudflare.com_3
-  - kyree.ns.cloudflare.com_3
-  - CT_10
-  - CT_11
-  - CMCC-IPV6_18
-  - ip.gs_2
-  - CT_12
-  - NL_2
-  - craig.ns.cloudflare.com_1
-  - huxley.ns.cloudflare.com_3
-  - CT_13
-  - 🇭🇰HK_6
-  - CT_14
-  - CMCC_30
-  - CT_15
-  - ashton.ns.cloudflare.com_1
-  - NL_3
-  - 172.67.243.218_1
-  - CT_16
-  - CMCC-IPV6_19
+  - SJC_5
+  - SJC_6
+  - CT_2
   - US_3
-  - 172.67.120.0_1
-  - www.ddwhm.com_1
-  - 104.17.142.12_2
+  - CT_3
+  - SJC_7
+  - CT_4
+  - AT_1
+  - SJC_8
+  - SJC_9
+  - CMCC-IPV6_3
+  - CMCC-IPV6_4
   - US_4
-  - 172.67.181.209_2
-  - CMCC-IPV6_20
-  - CT_17
   - US_5
-  - 162.159.133.85_2
-  - huxley.ns.cloudflare.com_4
-  - kyree.ns.cloudflare.com_4
-  - www.whatismyip.com_1
-  - CT_18
-  - ip.gs_3
-  - otto.ns.cloudflare.com_1
-  - 172.67.120.0_2
-  - SE
-  - www.ddwhm.com_2
-  - HK_1
-  - www.whatismyip.com_2
-  - CMCC-IPV6_21
-  - 🇺🇸US_6
-  - KR_7
-  - pranab.ns.cloudflare.com
-  - 🇺🇸US_7
-  - huxley.ns.cloudflare.com_5
-  - dylan.ns.cloudflare.com_4
-  - www.udemy.com_2
+  - CT_5
+  - SJC_10
+  - CMCC-IPV6_5
+  - SJC_11
+  - CMCC-IPV6_6
+  - CT_6
+  - SJC_12
+  - CT_7
+  - CMCC-IPV6_7
+  - CT_8
+  - BR_4
+  - CT_9
+  - CT_10
+  - SJC_13
+  - CT_11
+  - CT_12
   - US_6
-  - 🇺🇸US_8
+  - CT_13
+  - SJC_14
+  - SJC_15
+  - SJC_16
+  - US_7
+  - CH_1
+  - SJC_17
+  - SJC_18
+  - SJC_19
+  - SJC_20
+  - SJC_21
+  - US_8
+  - GB_1
+  - SJC_22
+  - US_9
+  - CMCC-IPV6_8
+  - SJC_23
+  - US_10
+  - CF随机节点_1
+  - CMCC-IPV6_9
+  - US_11
+  - US_12
+  - US_13
+  - AMS_1
+  - SJC_24
+  - SJC_25
+  - CF随机节点_2
+  - SJC_26
+  - CMCC-IPV6_10
+  - US_14
+  - SJC_27
+  - CMCC-IPV6_11
+  - GB_2
+  - RU_1
+  - CMCC-IPV6_12
+  - US_15
+  - SJC_28
+  - CT_14
+  - SJC_29
+  - AT_2
+  - CMCC-IPV6_13
+  - CMCC-IPV6_14
+  - SJC_30
+  - GB_3
+  - CMCC-IPV6_15
+  - CT_15
+  - CF随机节点_3
+  - US_16
+  - SJC_31
+  - SJC_32
+  - CT_16
+  - US_17
+  - CF随机节点_4
+  - SJC_33
+  - CMCC-IPV6_16
+  - SJC_34
+  - SJC_35
+  - CF随机节点_5
+  - US_18
+  - US_19
+  - CF随机节点_6
+  - CT_17
+  - AT_3
+  - CMCC-IPV6_17
+  - SJC_36
+  - CF随机节点_7
+  - CMCC-IPV6_18
+  - CF随机节点_8
+  - AT_4
+  - SJC_37
+  - CMCC-IPV6_19
+  - CMCC-IPV6_20
+  - CF随机节点_9
+  - SJC_38
+  - SJC_39
+  - US_20
+  - SJC_40
+  - GB_4
+  - SJC_41
+  - CT_18
+  - CF随机节点_10
+  - SJC_42
   - CT_19
-  - benedict.ns.cloudflare.com_1
-  - FR_1
-  - CMCC-IPV6_22
-  - 🇺🇸US_9
+  - AT_5
+  - SJC_43
+  - SJC_44
+  - US_21
+  - US_22
+  - SJC_45
   - CT_20
   - CT_21
-  - otto.ns.cloudflare.com_2
-  - benedict.ns.cloudflare.com_2
-  - decker.ns.cloudflare.com_4
-  - 🇺🇸US_10
-  - braden.ns.cloudflare.com_3
-  - 172.67.120.0_3
-  - GB_1
-  - braden.ns.cloudflare.com_4
-  - 172.67.120.0_4
-  - US_7
-  - FR_2
-  - huxley.ns.cloudflare.com_6
-  - decker.ns.cloudflare.com_5
-  - ashton.ns.cloudflare.com_2
-  - 🇺🇸US_11
-  - www.ipget.net_1
-  - NL_4
-  - ip.gs_4
-  - wilson.ns.cloudflare.com_2
+  - US_23
+  - SJC_46
+  - SJC_47
   - CT_22
-  - CT_23
-  - decker.ns.cloudflare.com_6
-  - www.ipget.net_2
-  - 172.67.106.26_2
+  - JP_7
+  - SJC_48
+  - SJC_49
+  - AT_6
+  - CMCC-IPV6_21
+  - SJC_50
+  - SJC_51
+  - SJC_52
+  - RU_2
+  - SJC_53
+  - CMCC_1
+  - SJC_54
+  - SJC_55
+  - FRA_2
+  - CMCC-IPV6_22
+  - SJC_56
   - CMCC-IPV6_23
-  - NL_5
-  - NL_6
-  - US_8
-  - US_9
   - CMCC-IPV6_24
-  - US_10
-  - GB_2
-  - JP_5
-  - IL_1
-  - craig.ns.cloudflare.com_2
-  - US_11
-  - NL_7
-  - US_12
-  - CT_24
-  - US_13
-  - US_14
-  - US_15
-  - HK_2
-  - KR_8
-  - KR_9
-  - 172.67.243.218_2
-  - US_16
-  - IPV6_2
-  - US_17
-  - IPV6_3
-  - CA_1
-  - IPV6_4
-  - US_18
-  - IPV6_5
-  - US_19
-  - IPV6_6
-  - US_20
-  - BR
-  - CA_2
-  - IPV6_7
-  - SG_2
-  - IL_2
-  - US_21
+  - US_24
+  - SJC_57
+  - CMCC_2
+  - CMCC_3
+  - CMCC-IPV6_25
+  - SJC_58
+  - CMCC-IPV6_26
+  - CMCC_4
+  - CH_2
+  - SJC_59
+  - SJC_60
+  - SJC_61
+  - US_25
+  - SJC_62
+  - CMCC_5
+  - CMCC_6
+  - CMCC_7
+  - CMCC_8
+  - CMCC_9
+  - AMS_2
+  - SJC_63
+  - CF随机节点_11
+  - CF随机节点_12
+  - CF随机节点_13
+  - CMCC_10
+  - CMCC_11
+  - CMCC_12
+  - CMCC_13
+  - US_26
+  - CMCC_14
+  - US_27
+  - CMCC_15
+  - CMCC_16
+  - CMCC_17
+  - CMCC_18
+  - JP_8
+  - CF随机节点_14
+  - CMCC_19
+  - CF随机节点_15
+  - CMCC_20
+  - CF随机节点_16
+  - CF随机节点_17
+  - CMCC_21
+  - CMCC_22
+  - CMCC_23
+  - CMCC_24
+  - US_28
+  - CMCC_25
+  - CF随机节点_18
+  - AMS_3
+  - CMCC_26
+  - AU_1
+  - CF随机节点_19
+  - CMCC_27
+  - CMCC_28
+  - CMCC_29
+  - SJC_64
+  - CF随机节点_20
+  - US_29
+  - US_30
+  - CMCC_30
+  - SJC_65
+  - SJC_66
+  - SJC_67
+  - SJC_68
+  - AU_2
+  - ICN_2
+  - AMS_4
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - TW_1
-  - TW_2
-  - KR_1
-  - 172.67.79.211_1
-  - KR_2
-  - ipv4.ip.sb_1
-  - KR_3
-  - KR_4
-  - 172.67.79.211_2
-  - www.ipchicken.com_1
-  - 172.67.79.211_3
-  - ipv4.ip.sb_2
-  - ipv4.ip.sb_3
-  - ipv4.ip.sb_4
-  - CMCC_1
-  - CMCC_2
-  - KR_5
-  - CMCC_3
-  - CMCC_4
-  - CMCC_5
-  - CMCC_6
-  - www.4chan.org_1
-  - CMCC_7
-  - 🇺🇸US_1
-  - CMCC_8
-  - CMCC_9
-  - CMCC_10
-  - www.4chan.org_2
-  - CMCC_11
-  - 🇭🇰HK_1
-  - 🇺🇸US_2
-  - www.ipchicken.com_2
-  - 🇺🇸US_3
   - JP_1
-  - CMCC_12
-  - CMCC_13
-  - CMCC_14
-  - 🇭🇰HK_2
-  - CMCC_15
-  - CMCC_16
-  - KR_6
-  - CMCC_17
-  - 104.17.142.12_1
-  - CMCC_18
-  - NL_1
-  - CMCC_19
-  - SG_1
-  - 🇭🇰HK_3
   - JP_2
-  - CMCC_20
-  - CMCC_21
-  - 🇺🇸US_4
-  - comicabc.com_1
+  - TW_2
+  - '|2.46Mb'
   - JP_3
-  - CMCC-IPV6_1
-  - CMCC_22
-  - US_1
-  - CMCC-IPV6_2
   - JP_4
-  - CMCC-IPV6_3
-  - CMCC_23
-  - CMCC_24
-  - CMCC_25
-  - iplocation.io_1
-  - comicabc.com_2
+  - KR_1
+  - KR_2
+  - SG_1
+  - JP_5
+  - KR_3
+  - SG_2
+  - JP_6
+  - FRA_1
+  - KR_4
+  - SJC_1
+  - BR_1
   - CT_1
-  - CT_2
-  - CMCC-IPV6_4
-  - CMCC-IPV6_5
-  - CMCC-IPV6_6
-  - CT_3
-  - time.is
-  - CMCC_26
-  - braden.ns.cloudflare.com_1
-  - IPV6_1
-  - iplocation.io_2
-  - decker.ns.cloudflare.com_1
-  - CMCC-IPV6_7
-  - CMCC-IPV6_8
-  - kyree.ns.cloudflare.com_1
-  - CMCC_27
-  - dylan.ns.cloudflare.com_1
-  - www.hugedomains.com
-  - wilson.ns.cloudflare.com_1
-  - CMCC-IPV6_9
-  - dnschecker.org_1
-  - ip.gs_1
-  - 🇭🇰HK_4
-  - CMCC-IPV6_10
-  - CMCC-IPV6_11
-  - 172.67.181.209_1
-  - CMCC-IPV6_12
-  - CMCC-IPV6_13
-  - dylan.ns.cloudflare.com_2
-  - CT_4
-  - 🇺🇸US_5
-  - CMCC-IPV6_14
-  - 172.67.106.26_1
-  - comicabc.com_3
-  - dnschecker.org_2
-  - CT_5
-  - braden.ns.cloudflare.com_2
-  - 162.159.133.85_1
-  - huxley.ns.cloudflare.com_1
-  - CMCC-IPV6_15
-  - CMCC_28
-  - CMCC_29
-  - comicabc.com_4
+  - CMCC-IPV6_1
+  - SJC_2
+  - US_1
+  - ICN_1
+  - KR_5
+  - BR_2
+  - SJC_3
+  - BR_3
+  - CMCC-IPV6_2
+  - SJC_4
   - US_2
-  - CT_6
-  - CT_7
-  - CT_8
-  - CMCC-IPV6_16
-  - kyree.ns.cloudflare.com_2
-  - www.udemy.com_1
-  - huxley.ns.cloudflare.com_2
-  - decker.ns.cloudflare.com_2
-  - CT_9
-  - 🇭🇰HK_5
-  - www.wto.org_1
-  - decker.ns.cloudflare.com_3
-  - www.wto.org_2
-  - CMCC-IPV6_17
-  - dylan.ns.cloudflare.com_3
-  - kyree.ns.cloudflare.com_3
-  - CT_10
-  - CT_11
-  - CMCC-IPV6_18
-  - ip.gs_2
-  - CT_12
-  - NL_2
-  - craig.ns.cloudflare.com_1
-  - huxley.ns.cloudflare.com_3
-  - CT_13
-  - 🇭🇰HK_6
-  - CT_14
-  - CMCC_30
-  - CT_15
-  - ashton.ns.cloudflare.com_1
-  - NL_3
-  - 172.67.243.218_1
-  - CT_16
-  - CMCC-IPV6_19
+  - SJC_5
+  - SJC_6
+  - CT_2
   - US_3
-  - 172.67.120.0_1
-  - www.ddwhm.com_1
-  - 104.17.142.12_2
+  - CT_3
+  - SJC_7
+  - CT_4
+  - AT_1
+  - SJC_8
+  - SJC_9
+  - CMCC-IPV6_3
+  - CMCC-IPV6_4
   - US_4
-  - 172.67.181.209_2
-  - CMCC-IPV6_20
-  - CT_17
   - US_5
-  - 162.159.133.85_2
-  - huxley.ns.cloudflare.com_4
-  - kyree.ns.cloudflare.com_4
-  - www.whatismyip.com_1
-  - CT_18
-  - ip.gs_3
-  - otto.ns.cloudflare.com_1
-  - 172.67.120.0_2
-  - SE
-  - www.ddwhm.com_2
-  - HK_1
-  - www.whatismyip.com_2
-  - CMCC-IPV6_21
-  - 🇺🇸US_6
-  - KR_7
-  - pranab.ns.cloudflare.com
-  - 🇺🇸US_7
-  - huxley.ns.cloudflare.com_5
-  - dylan.ns.cloudflare.com_4
-  - www.udemy.com_2
+  - CT_5
+  - SJC_10
+  - CMCC-IPV6_5
+  - SJC_11
+  - CMCC-IPV6_6
+  - CT_6
+  - SJC_12
+  - CT_7
+  - CMCC-IPV6_7
+  - CT_8
+  - BR_4
+  - CT_9
+  - CT_10
+  - SJC_13
+  - CT_11
+  - CT_12
   - US_6
-  - 🇺🇸US_8
+  - CT_13
+  - SJC_14
+  - SJC_15
+  - SJC_16
+  - US_7
+  - CH_1
+  - SJC_17
+  - SJC_18
+  - SJC_19
+  - SJC_20
+  - SJC_21
+  - US_8
+  - GB_1
+  - SJC_22
+  - US_9
+  - CMCC-IPV6_8
+  - SJC_23
+  - US_10
+  - CF随机节点_1
+  - CMCC-IPV6_9
+  - US_11
+  - US_12
+  - US_13
+  - AMS_1
+  - SJC_24
+  - SJC_25
+  - CF随机节点_2
+  - SJC_26
+  - CMCC-IPV6_10
+  - US_14
+  - SJC_27
+  - CMCC-IPV6_11
+  - GB_2
+  - RU_1
+  - CMCC-IPV6_12
+  - US_15
+  - SJC_28
+  - CT_14
+  - SJC_29
+  - AT_2
+  - CMCC-IPV6_13
+  - CMCC-IPV6_14
+  - SJC_30
+  - GB_3
+  - CMCC-IPV6_15
+  - CT_15
+  - CF随机节点_3
+  - US_16
+  - SJC_31
+  - SJC_32
+  - CT_16
+  - US_17
+  - CF随机节点_4
+  - SJC_33
+  - CMCC-IPV6_16
+  - SJC_34
+  - SJC_35
+  - CF随机节点_5
+  - US_18
+  - US_19
+  - CF随机节点_6
+  - CT_17
+  - AT_3
+  - CMCC-IPV6_17
+  - SJC_36
+  - CF随机节点_7
+  - CMCC-IPV6_18
+  - CF随机节点_8
+  - AT_4
+  - SJC_37
+  - CMCC-IPV6_19
+  - CMCC-IPV6_20
+  - CF随机节点_9
+  - SJC_38
+  - SJC_39
+  - US_20
+  - SJC_40
+  - GB_4
+  - SJC_41
+  - CT_18
+  - CF随机节点_10
+  - SJC_42
   - CT_19
-  - benedict.ns.cloudflare.com_1
-  - FR_1
-  - CMCC-IPV6_22
-  - 🇺🇸US_9
+  - AT_5
+  - SJC_43
+  - SJC_44
+  - US_21
+  - US_22
+  - SJC_45
   - CT_20
   - CT_21
-  - otto.ns.cloudflare.com_2
-  - benedict.ns.cloudflare.com_2
-  - decker.ns.cloudflare.com_4
-  - 🇺🇸US_10
-  - braden.ns.cloudflare.com_3
-  - 172.67.120.0_3
-  - GB_1
-  - braden.ns.cloudflare.com_4
-  - 172.67.120.0_4
-  - US_7
-  - FR_2
-  - huxley.ns.cloudflare.com_6
-  - decker.ns.cloudflare.com_5
-  - ashton.ns.cloudflare.com_2
-  - 🇺🇸US_11
-  - www.ipget.net_1
-  - NL_4
-  - ip.gs_4
-  - wilson.ns.cloudflare.com_2
+  - US_23
+  - SJC_46
+  - SJC_47
   - CT_22
-  - CT_23
-  - decker.ns.cloudflare.com_6
-  - www.ipget.net_2
-  - 172.67.106.26_2
+  - JP_7
+  - SJC_48
+  - SJC_49
+  - AT_6
+  - CMCC-IPV6_21
+  - SJC_50
+  - SJC_51
+  - SJC_52
+  - RU_2
+  - SJC_53
+  - CMCC_1
+  - SJC_54
+  - SJC_55
+  - FRA_2
+  - CMCC-IPV6_22
+  - SJC_56
   - CMCC-IPV6_23
-  - NL_5
-  - NL_6
-  - US_8
-  - US_9
   - CMCC-IPV6_24
-  - US_10
-  - GB_2
-  - JP_5
-  - IL_1
-  - craig.ns.cloudflare.com_2
-  - US_11
-  - NL_7
-  - US_12
-  - CT_24
-  - US_13
-  - US_14
-  - US_15
-  - HK_2
-  - KR_8
-  - KR_9
-  - 172.67.243.218_2
-  - US_16
-  - IPV6_2
-  - US_17
-  - IPV6_3
-  - CA_1
-  - IPV6_4
-  - US_18
-  - IPV6_5
-  - US_19
-  - IPV6_6
-  - US_20
-  - BR
-  - CA_2
-  - IPV6_7
-  - SG_2
-  - IL_2
-  - US_21
+  - US_24
+  - SJC_57
+  - CMCC_2
+  - CMCC_3
+  - CMCC-IPV6_25
+  - SJC_58
+  - CMCC-IPV6_26
+  - CMCC_4
+  - CH_2
+  - SJC_59
+  - SJC_60
+  - SJC_61
+  - US_25
+  - SJC_62
+  - CMCC_5
+  - CMCC_6
+  - CMCC_7
+  - CMCC_8
+  - CMCC_9
+  - AMS_2
+  - SJC_63
+  - CF随机节点_11
+  - CF随机节点_12
+  - CF随机节点_13
+  - CMCC_10
+  - CMCC_11
+  - CMCC_12
+  - CMCC_13
+  - US_26
+  - CMCC_14
+  - US_27
+  - CMCC_15
+  - CMCC_16
+  - CMCC_17
+  - CMCC_18
+  - JP_8
+  - CF随机节点_14
+  - CMCC_19
+  - CF随机节点_15
+  - CMCC_20
+  - CF随机节点_16
+  - CF随机节点_17
+  - CMCC_21
+  - CMCC_22
+  - CMCC_23
+  - CMCC_24
+  - US_28
+  - CMCC_25
+  - CF随机节点_18
+  - AMS_3
+  - CMCC_26
+  - AU_1
+  - CF随机节点_19
+  - CMCC_27
+  - CMCC_28
+  - CMCC_29
+  - SJC_64
+  - CF随机节点_20
+  - US_29
+  - US_30
+  - CMCC_30
+  - SJC_65
+  - SJC_66
+  - SJC_67
+  - SJC_68
+  - AU_2
+  - ICN_2
+  - AMS_4
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -4882,249 +4817,247 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - TW_1
-  - TW_2
-  - KR_1
-  - 172.67.79.211_1
-  - KR_2
-  - ipv4.ip.sb_1
-  - KR_3
-  - KR_4
-  - 172.67.79.211_2
-  - www.ipchicken.com_1
-  - 172.67.79.211_3
-  - ipv4.ip.sb_2
-  - ipv4.ip.sb_3
-  - ipv4.ip.sb_4
-  - CMCC_1
-  - CMCC_2
-  - KR_5
-  - CMCC_3
-  - CMCC_4
-  - CMCC_5
-  - CMCC_6
-  - www.4chan.org_1
-  - CMCC_7
-  - 🇺🇸US_1
-  - CMCC_8
-  - CMCC_9
-  - CMCC_10
-  - www.4chan.org_2
-  - CMCC_11
-  - 🇭🇰HK_1
-  - 🇺🇸US_2
-  - www.ipchicken.com_2
-  - 🇺🇸US_3
   - JP_1
-  - CMCC_12
-  - CMCC_13
-  - CMCC_14
-  - 🇭🇰HK_2
-  - CMCC_15
-  - CMCC_16
-  - KR_6
-  - CMCC_17
-  - 104.17.142.12_1
-  - CMCC_18
-  - NL_1
-  - CMCC_19
-  - SG_1
-  - 🇭🇰HK_3
   - JP_2
-  - CMCC_20
-  - CMCC_21
-  - 🇺🇸US_4
-  - comicabc.com_1
+  - TW_2
+  - '|2.46Mb'
   - JP_3
-  - CMCC-IPV6_1
-  - CMCC_22
-  - US_1
-  - CMCC-IPV6_2
   - JP_4
-  - CMCC-IPV6_3
-  - CMCC_23
-  - CMCC_24
-  - CMCC_25
-  - iplocation.io_1
-  - comicabc.com_2
+  - KR_1
+  - KR_2
+  - SG_1
+  - JP_5
+  - KR_3
+  - SG_2
+  - JP_6
+  - FRA_1
+  - KR_4
+  - SJC_1
+  - BR_1
   - CT_1
-  - CT_2
-  - CMCC-IPV6_4
-  - CMCC-IPV6_5
-  - CMCC-IPV6_6
-  - CT_3
-  - time.is
-  - CMCC_26
-  - braden.ns.cloudflare.com_1
-  - IPV6_1
-  - iplocation.io_2
-  - decker.ns.cloudflare.com_1
-  - CMCC-IPV6_7
-  - CMCC-IPV6_8
-  - kyree.ns.cloudflare.com_1
-  - CMCC_27
-  - dylan.ns.cloudflare.com_1
-  - www.hugedomains.com
-  - wilson.ns.cloudflare.com_1
-  - CMCC-IPV6_9
-  - dnschecker.org_1
-  - ip.gs_1
-  - 🇭🇰HK_4
-  - CMCC-IPV6_10
-  - CMCC-IPV6_11
-  - 172.67.181.209_1
-  - CMCC-IPV6_12
-  - CMCC-IPV6_13
-  - dylan.ns.cloudflare.com_2
-  - CT_4
-  - 🇺🇸US_5
-  - CMCC-IPV6_14
-  - 172.67.106.26_1
-  - comicabc.com_3
-  - dnschecker.org_2
-  - CT_5
-  - braden.ns.cloudflare.com_2
-  - 162.159.133.85_1
-  - huxley.ns.cloudflare.com_1
-  - CMCC-IPV6_15
-  - CMCC_28
-  - CMCC_29
-  - comicabc.com_4
+  - CMCC-IPV6_1
+  - SJC_2
+  - US_1
+  - ICN_1
+  - KR_5
+  - BR_2
+  - SJC_3
+  - BR_3
+  - CMCC-IPV6_2
+  - SJC_4
   - US_2
-  - CT_6
-  - CT_7
-  - CT_8
-  - CMCC-IPV6_16
-  - kyree.ns.cloudflare.com_2
-  - www.udemy.com_1
-  - huxley.ns.cloudflare.com_2
-  - decker.ns.cloudflare.com_2
-  - CT_9
-  - 🇭🇰HK_5
-  - www.wto.org_1
-  - decker.ns.cloudflare.com_3
-  - www.wto.org_2
-  - CMCC-IPV6_17
-  - dylan.ns.cloudflare.com_3
-  - kyree.ns.cloudflare.com_3
-  - CT_10
-  - CT_11
-  - CMCC-IPV6_18
-  - ip.gs_2
-  - CT_12
-  - NL_2
-  - craig.ns.cloudflare.com_1
-  - huxley.ns.cloudflare.com_3
-  - CT_13
-  - 🇭🇰HK_6
-  - CT_14
-  - CMCC_30
-  - CT_15
-  - ashton.ns.cloudflare.com_1
-  - NL_3
-  - 172.67.243.218_1
-  - CT_16
-  - CMCC-IPV6_19
+  - SJC_5
+  - SJC_6
+  - CT_2
   - US_3
-  - 172.67.120.0_1
-  - www.ddwhm.com_1
-  - 104.17.142.12_2
+  - CT_3
+  - SJC_7
+  - CT_4
+  - AT_1
+  - SJC_8
+  - SJC_9
+  - CMCC-IPV6_3
+  - CMCC-IPV6_4
   - US_4
-  - 172.67.181.209_2
-  - CMCC-IPV6_20
-  - CT_17
   - US_5
-  - 162.159.133.85_2
-  - huxley.ns.cloudflare.com_4
-  - kyree.ns.cloudflare.com_4
-  - www.whatismyip.com_1
-  - CT_18
-  - ip.gs_3
-  - otto.ns.cloudflare.com_1
-  - 172.67.120.0_2
-  - SE
-  - www.ddwhm.com_2
-  - HK_1
-  - www.whatismyip.com_2
-  - CMCC-IPV6_21
-  - 🇺🇸US_6
-  - KR_7
-  - pranab.ns.cloudflare.com
-  - 🇺🇸US_7
-  - huxley.ns.cloudflare.com_5
-  - dylan.ns.cloudflare.com_4
-  - www.udemy.com_2
+  - CT_5
+  - SJC_10
+  - CMCC-IPV6_5
+  - SJC_11
+  - CMCC-IPV6_6
+  - CT_6
+  - SJC_12
+  - CT_7
+  - CMCC-IPV6_7
+  - CT_8
+  - BR_4
+  - CT_9
+  - CT_10
+  - SJC_13
+  - CT_11
+  - CT_12
   - US_6
-  - 🇺🇸US_8
+  - CT_13
+  - SJC_14
+  - SJC_15
+  - SJC_16
+  - US_7
+  - CH_1
+  - SJC_17
+  - SJC_18
+  - SJC_19
+  - SJC_20
+  - SJC_21
+  - US_8
+  - GB_1
+  - SJC_22
+  - US_9
+  - CMCC-IPV6_8
+  - SJC_23
+  - US_10
+  - CF随机节点_1
+  - CMCC-IPV6_9
+  - US_11
+  - US_12
+  - US_13
+  - AMS_1
+  - SJC_24
+  - SJC_25
+  - CF随机节点_2
+  - SJC_26
+  - CMCC-IPV6_10
+  - US_14
+  - SJC_27
+  - CMCC-IPV6_11
+  - GB_2
+  - RU_1
+  - CMCC-IPV6_12
+  - US_15
+  - SJC_28
+  - CT_14
+  - SJC_29
+  - AT_2
+  - CMCC-IPV6_13
+  - CMCC-IPV6_14
+  - SJC_30
+  - GB_3
+  - CMCC-IPV6_15
+  - CT_15
+  - CF随机节点_3
+  - US_16
+  - SJC_31
+  - SJC_32
+  - CT_16
+  - US_17
+  - CF随机节点_4
+  - SJC_33
+  - CMCC-IPV6_16
+  - SJC_34
+  - SJC_35
+  - CF随机节点_5
+  - US_18
+  - US_19
+  - CF随机节点_6
+  - CT_17
+  - AT_3
+  - CMCC-IPV6_17
+  - SJC_36
+  - CF随机节点_7
+  - CMCC-IPV6_18
+  - CF随机节点_8
+  - AT_4
+  - SJC_37
+  - CMCC-IPV6_19
+  - CMCC-IPV6_20
+  - CF随机节点_9
+  - SJC_38
+  - SJC_39
+  - US_20
+  - SJC_40
+  - GB_4
+  - SJC_41
+  - CT_18
+  - CF随机节点_10
+  - SJC_42
   - CT_19
-  - benedict.ns.cloudflare.com_1
-  - FR_1
-  - CMCC-IPV6_22
-  - 🇺🇸US_9
+  - AT_5
+  - SJC_43
+  - SJC_44
+  - US_21
+  - US_22
+  - SJC_45
   - CT_20
   - CT_21
-  - otto.ns.cloudflare.com_2
-  - benedict.ns.cloudflare.com_2
-  - decker.ns.cloudflare.com_4
-  - 🇺🇸US_10
-  - braden.ns.cloudflare.com_3
-  - 172.67.120.0_3
-  - GB_1
-  - braden.ns.cloudflare.com_4
-  - 172.67.120.0_4
-  - US_7
-  - FR_2
-  - huxley.ns.cloudflare.com_6
-  - decker.ns.cloudflare.com_5
-  - ashton.ns.cloudflare.com_2
-  - 🇺🇸US_11
-  - www.ipget.net_1
-  - NL_4
-  - ip.gs_4
-  - wilson.ns.cloudflare.com_2
+  - US_23
+  - SJC_46
+  - SJC_47
   - CT_22
-  - CT_23
-  - decker.ns.cloudflare.com_6
-  - www.ipget.net_2
-  - 172.67.106.26_2
+  - JP_7
+  - SJC_48
+  - SJC_49
+  - AT_6
+  - CMCC-IPV6_21
+  - SJC_50
+  - SJC_51
+  - SJC_52
+  - RU_2
+  - SJC_53
+  - CMCC_1
+  - SJC_54
+  - SJC_55
+  - FRA_2
+  - CMCC-IPV6_22
+  - SJC_56
   - CMCC-IPV6_23
-  - NL_5
-  - NL_6
-  - US_8
-  - US_9
   - CMCC-IPV6_24
-  - US_10
-  - GB_2
-  - JP_5
-  - IL_1
-  - craig.ns.cloudflare.com_2
-  - US_11
-  - NL_7
-  - US_12
-  - CT_24
-  - US_13
-  - US_14
-  - US_15
-  - HK_2
-  - KR_8
-  - KR_9
-  - 172.67.243.218_2
-  - US_16
-  - IPV6_2
-  - US_17
-  - IPV6_3
-  - CA_1
-  - IPV6_4
-  - US_18
-  - IPV6_5
-  - US_19
-  - IPV6_6
-  - US_20
-  - BR
-  - CA_2
-  - IPV6_7
-  - SG_2
-  - IL_2
-  - US_21
+  - US_24
+  - SJC_57
+  - CMCC_2
+  - CMCC_3
+  - CMCC-IPV6_25
+  - SJC_58
+  - CMCC-IPV6_26
+  - CMCC_4
+  - CH_2
+  - SJC_59
+  - SJC_60
+  - SJC_61
+  - US_25
+  - SJC_62
+  - CMCC_5
+  - CMCC_6
+  - CMCC_7
+  - CMCC_8
+  - CMCC_9
+  - AMS_2
+  - SJC_63
+  - CF随机节点_11
+  - CF随机节点_12
+  - CF随机节点_13
+  - CMCC_10
+  - CMCC_11
+  - CMCC_12
+  - CMCC_13
+  - US_26
+  - CMCC_14
+  - US_27
+  - CMCC_15
+  - CMCC_16
+  - CMCC_17
+  - CMCC_18
+  - JP_8
+  - CF随机节点_14
+  - CMCC_19
+  - CF随机节点_15
+  - CMCC_20
+  - CF随机节点_16
+  - CF随机节点_17
+  - CMCC_21
+  - CMCC_22
+  - CMCC_23
+  - CMCC_24
+  - US_28
+  - CMCC_25
+  - CF随机节点_18
+  - AMS_3
+  - CMCC_26
+  - AU_1
+  - CF随机节点_19
+  - CMCC_27
+  - CMCC_28
+  - CMCC_29
+  - SJC_64
+  - CF随机节点_20
+  - US_29
+  - US_30
+  - CMCC_30
+  - SJC_65
+  - SJC_66
+  - SJC_67
+  - SJC_68
+  - AU_2
+  - ICN_2
+  - AMS_4
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
