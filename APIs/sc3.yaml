@@ -32,37 +32,32 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   ip-version: dual
-  name: 🇰🇷_KR_韩国
-  password: qwerREWQ@@
-  port: 15098
-  server: 125.141.31.72
+  name: 🇬🇧_GB_英国->🇺🇸_US_美国
+  password: Bog0ELmMM9DSxDdQ
+  port: 443
+  server: 85.210.120.237
   type: ss
   udp: true
 - ip-version: dual
+  name: 🇺🇸_US_美国_1
+  network: ws
+  password: ffcf7ec1-3e09-4821-b3d9-b426a107b73b
+  port: 443
+  server: 172.67.220.32
+  sni: eEEfGty6.999836.XYz
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /XmTzATQPJv9RO3xr1D40NK
+- ip-version: dual
   name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  password: 55f2afab-bc41-4231-b725-76bef15c3cf7
-  port: 55799
-  server: lm.kaiqsz.com
-  sni: mmbiz10.redapricotcloud.com
-  type: trojan
-  udp: true
-- ip-version: dual
-  name: 🇨🇳_CN_中国->🇫🇷_FR_法国_1
-  network: tcp
-  password: 2b57ec48-0da4-11ef-8f35-f23c913c8d2b
-  port: 27235
-  server: 916030df-sytz40-t16ejh-1rdqg.cm5.cnkuaishou.com
-  type: trojan
-  udp: true
-- ip-version: dual
-  name: 🇨🇳_CN_中国->🇫🇷_FR_法国_2
-  password: 6857f1bc-f27b-11ea-87ad-f23c913c8d2b
-  port: 27235
-  server: ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com
-  skip-cert-verify: false
-  sni: ef9fae4e-sytz40-tgzvop-hns7.cm5.cnkuaishou.com
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 4447
+  server: 36.151.192.27
+  skip-cert-verify: true
+  sni: www.baidu.com
   type: trojan
   udp: true
 - alterId: 2
@@ -70,107 +65,93 @@ proxies:
   ip-version: dual
   name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
   network: ws
+  port: 30825
+  server: v25.heduian.link
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      host: v25.heduian.link
+    path: /oooo
+- ip-version: dual
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 8657
+  server: 36.156.102.123
+  skip-cert-verify: true
+  sni: www.baidu.com
+  type: trojan
+  udp: true
+- ip-version: dual
+  name: 🇺🇸_US_美国_3
+  network: ws
+  password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51
+  port: 443
+  server: 104.21.6.179
+  sni: ZZzzzZZ.890601.XYZ
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /l96MZ8se5Kl2p8BiMhP42l
+- cipher: aes-256-cfb
+  ip-version: dual
+  name: 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 156.146.40.194
+  type: ss
+  udp: true
+- ip-version: dual
+  name: 🇺🇸_US_美国_5
+  network: ws
+  password: 288124da-0d68-42f4-9f48-70dc4dcc55a6
+  port: 443
+  server: 104.21.77.79
+  sni: SsXCDfR5.986986.shoP
+  type: trojan
+  udp: true
+  ws-opts:
+    path: /raChT39pjLFYRA5HdHEIupMZeK
+- alterId: 2
+  cipher: auto
+  ip-version: dual
+  name: 🇨🇳_CN_中国
+  network: ws
   port: 30829
   server: 111.26.109.79
-  skip-cert-verify: true
-  sni: ''
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     path: /oooo
-- ip-version: dual
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
-  password: 55f2afab-bc41-4231-b725-76bef15c3cf7
-  port: 54031
-  server: lm.kaiqsz.com
-  sni: mmbiz10.redapricotcloud.com
-  type: trojan
-  udp: true
-- ip-version: dual
-  name: 🇨🇳_CN_中国->🇫🇷_FR_法国_3
-  password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-  port: 27235
-  server: 4edfad82-sytz40-tcmken-19les.cm5.cnkuaishou.com
-  type: trojan
-  udp: true
-- ip-version: dual
-  name: 🇨🇳_CN_中国->🇫🇷_FR_法国_4
-  network: tcp
-  password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9
-  port: 27235
-  server: 274ba953-sytz40-t09za6-1m0fq.cm5.cnkuaishou.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  fingerprint: ''
-  ip-version: dual
-  name: 🇮🇷_IR_伊朗
-  network: tcp
-  port: 5008
-  server: 37.152.173.192
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  udp: true
-  uuid: 81647712-fcd8-4da9-8f80-bc7a149354f8
-- cipher: aes-256-cfb
-  ip-version: dual
-  name: 🇲🇩_MD_摩尔多瓦->🇯🇵_JP_日本
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 185.153.197.5
-  type: ss
-  udp: true
-- ip-version: dual
-  name: 🇨🇳_CN_中国->🇫🇷_FR_法国_5
-  network: tcp
-  password: 2d8c38cc-fc12-11ef-94aa-f23c913c8d2b
-  port: 27235
-  server: 1dde7ddd-sytz40-tbpu76-1thmd.cm5.cnkuaishou.com
-  type: trojan
-  udp: true
-- ip-version: dual
-  name: 🇨🇳_CN_中国->🇫🇷_FR_法国_6
-  password: b2c6384c-f63d-11ec-b1b3-f23c91cfbbc9
-  port: 27235
-  server: c3fe9cc6-sytz40-thv9l4-1jbj0.cm5.cnkuaishou.com
-  type: trojan
-  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇰🇷_KR_韩国
+  - 🇬🇧_GB_英国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_1
   - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_1
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_2
   - 🇨🇳_CN_中国->🇺🇸_US_美国_2
   - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_3
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_4
-  - 🇮🇷_IR_伊朗
-  - 🇲🇩_MD_摩尔多瓦->🇯🇵_JP_日本
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_5
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_6
+  - 🇺🇸_US_美国_3
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
+  - 🇺🇸_US_美国_5
+  - 🇨🇳_CN_中国
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇰🇷_KR_韩国
+  - 🇬🇧_GB_英国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_1
   - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_1
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_2
   - 🇨🇳_CN_中国->🇺🇸_US_美国_2
   - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_3
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_4
-  - 🇮🇷_IR_伊朗
-  - 🇲🇩_MD_摩尔多瓦->🇯🇵_JP_日本
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_5
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_6
+  - 🇺🇸_US_美国_3
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
+  - 🇺🇸_US_美国_5
+  - 🇨🇳_CN_中国
   tolerance: 5000
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -179,69 +160,57 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇰🇷_KR_韩国
+  - 🇬🇧_GB_英国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_1
   - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_1
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_2
   - 🇨🇳_CN_中国->🇺🇸_US_美国_2
   - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_3
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_4
-  - 🇮🇷_IR_伊朗
-  - 🇲🇩_MD_摩尔多瓦->🇯🇵_JP_日本
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_5
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_6
+  - 🇺🇸_US_美国_3
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
+  - 🇺🇸_US_美国_5
+  - 🇨🇳_CN_中国
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇰🇷_KR_韩国
+  - 🇬🇧_GB_英国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_1
   - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_1
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_2
   - 🇨🇳_CN_中国->🇺🇸_US_美国_2
   - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_3
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_4
-  - 🇮🇷_IR_伊朗
-  - 🇲🇩_MD_摩尔多瓦->🇯🇵_JP_日本
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_5
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_6
+  - 🇺🇸_US_美国_3
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
+  - 🇺🇸_US_美国_5
+  - 🇨🇳_CN_中国
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇰🇷_KR_韩国
+  - 🇬🇧_GB_英国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_1
   - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_1
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_2
   - 🇨🇳_CN_中国->🇺🇸_US_美国_2
   - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_3
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_4
-  - 🇮🇷_IR_伊朗
-  - 🇲🇩_MD_摩尔多瓦->🇯🇵_JP_日本
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_5
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_6
+  - 🇺🇸_US_美国_3
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
+  - 🇺🇸_US_美国_5
+  - 🇨🇳_CN_中国
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇰🇷_KR_韩国
+  - 🇬🇧_GB_英国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_1
   - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_1
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_2
   - 🇨🇳_CN_中国->🇺🇸_US_美国_2
   - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_3
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_4
-  - 🇮🇷_IR_伊朗
-  - 🇲🇩_MD_摩尔多瓦->🇯🇵_JP_日本
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_5
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_6
+  - 🇺🇸_US_美国_3
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
+  - 🇺🇸_US_美国_5
+  - 🇨🇳_CN_中国
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -264,18 +233,15 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇰🇷_KR_韩国
+  - 🇬🇧_GB_英国->🇺🇸_US_美国
+  - 🇺🇸_US_美国_1
   - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_1
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_2
   - 🇨🇳_CN_中国->🇺🇸_US_美国_2
   - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_3
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_4
-  - 🇮🇷_IR_伊朗
-  - 🇲🇩_MD_摩尔多瓦->🇯🇵_JP_日本
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_5
-  - 🇨🇳_CN_中国->🇫🇷_FR_法国_6
+  - 🇺🇸_US_美国_3
+  - 🇸🇰_SK_斯洛伐克->🏳️_unKnow_未知
+  - 🇺🇸_US_美国_5
+  - 🇨🇳_CN_中国
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
