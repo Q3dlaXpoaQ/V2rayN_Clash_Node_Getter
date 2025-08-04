@@ -4,781 +4,137 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: HKG_1
-  network: ws
-  password: Aimer
-  port: 443
-  server: 47.238.89.163
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: HK_1
   network: ws
   port: 443
-  server: 47.238.71.46
-  servername: edgi.ambercc.filegear-sg.me
+  server: 123.58.220.231
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: HK_2
-  network: ws
-  port: 443
-  server: 47.239.64.163
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: HKG_2
-  network: ws
-  password: Aimer
-  port: 443
-  server: 46.232.109.84
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: HKG_3
-  network: ws
-  password: Aimer
-  port: 443
-  server: 47.239.117.205
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: HK_3
-  network: ws
-  port: 443
-  server: 47.238.89.163
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: HKG_4
-  network: ws
-  password: Aimer
-  port: 443
-  server: 47.239.125.132
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: HKG_5
-  network: ws
-  password: Aimer
-  port: 443
-  server: 103.234.53.238
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: HKG_6
-  network: ws
-  password: Aimer
-  port: 443
-  server: 47.238.71.46
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: HKG_7
-  network: ws
-  password: Aimer
-  port: 443
-  server: 43.100.70.146
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: HKG_8
-  network: ws
-  password: Aimer
-  port: 2086
-  server: 149.104.30.232
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: HKG_9
-  network: ws
-  password: Aimer
-  port: 443
-  server: 47.239.64.163
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
 - name: SG_1
   network: ws
   port: 443
-  server: 43.100.70.146
-  servername: edgi.ambercc.filegear-sg.me
+  server: 103.210.22.199
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: JP_1
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: HK_2
   network: ws
-  port: 2083
-  server: 149.62.44.86
-  servername: edgi.ambercc.filegear-sg.me
+  port: 8443
+  server: 34.150.69.61
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: US_1
+  network: ws
+  port: 443
+  server: 154.38.116.8
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: SG_2
+  network: ws
+  port: 443
+  server: 103.210.22.199
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: HK_3
+  network: ws
+  port: 443
+  server: 152.32.190.226
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
 - name: HK_4
   network: ws
   port: 443
-  server: 103.234.53.238
-  servername: edgi.ambercc.filegear-sg.me
+  server: 47.238.89.163
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: NRT_1
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 149.62.44.86
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: NRT_2
-  network: ws
-  password: Aimer
-  port: 443
-  server: 8.209.224.148
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: NRT_3
-  network: ws
-  password: Aimer
-  port: 30003
-  server: 103.76.85.91
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: NRT_4
-  network: ws
-  password: Aimer
-  port: 30001
-  server: 8.216.81.187
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SIN_1
-  network: ws
-  password: Aimer
-  port: 9950
-  server: 43.134.167.135
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: JP_2
-  network: ws
-  port: 30003
-  server: 103.76.85.91
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: JP_3
-  network: ws
-  port: 443
-  server: 8.209.224.148
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: KR_1
-  network: ws
-  port: 50000
-  server: 115.94.98.93
-  servername: 01v.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01v.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
-- name: KR_2
-  network: ws
-  port: 50000
-  server: 115.94.98.93
-  servername: 01n.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01n.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: NRT_5
-  network: ws
-  password: Aimer
-  port: 58443
-  server: 47.243.230.113
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- alterId: '64'
-  cipher: auto
-  name: '|2.46Mb'
-  network: tcp
-  port: '50002'
-  server: 120.210.205.59
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: TPE_1
-  network: ws
-  password: Aimer
-  port: 443
-  server: 34.81.185.105
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: TW_1
-  network: ws
-  port: 443
-  server: 34.81.177.170
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_1
-  network: ws
-  port: 4002
-  server: 45.145.42.229
-  servername: 01n.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01n.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: FUK_1
-  network: ws
-  password: Aimer
-  port: 10080
-  server: 59.19.192.51
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: US_2
   network: ws
-  port: 18102
-  server: 38.59.228.10
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: LHR
-  network: ws
-  password: Aimer
-  port: 18102
-  server: 38.59.228.10
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: KR_3
-  network: ws
   port: 443
-  server: 130.162.130.105
-  servername: 01v.bgm2024.dpdns.org
+  server: 154.38.116.8
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
+      host: ax1.ylka.dpdns.org
     path: /?ed=2560
-- name: ICN_1
-  network: ws
-  password: Aimer
-  port: 12165
-  server: 125.133.28.143
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: KR_4
-  network: ws
-  port: 18110
-  server: 222.104.2.192
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: FUK_2
-  network: ws
-  password: Aimer
-  port: 10480
-  server: 222.120.90.151
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: ICN_2
-  network: ws
-  password: Aimer
-  port: 12469
-  server: 59.11.33.164
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: LAX_1
-  network: ws
-  password: Aimer
-  port: 443
-  server: 154.17.26.83
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: ICN_3
-  network: ws
-  password: Aimer
-  port: 50001
-  server: 119.197.245.118
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: ICN_4
-  network: ws
-  password: Aimer
-  port: 50000
-  server: 175.214.157.85
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: ICN_5
-  network: ws
-  password: Aimer
-  port: 28015
-  server: 211.107.44.18
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: KR_5
-  network: ws
-  port: 50000
-  server: 221.166.156.189
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: ICN_6
-  network: ws
-  password: Aimer
-  port: 10001
-  server: 119.202.158.65
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: FUK_3
-  network: ws
-  password: Aimer
-  port: 12352
-  server: 222.113.136.246
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: ICN_7
-  network: ws
-  password: Aimer
-  port: 50000
-  server: 221.166.156.189
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: FUK_4
-  network: ws
-  password: Aimer
-  port: 18110
-  server: 222.104.2.192
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: KR_6
-  network: ws
-  port: 18200
-  server: 59.4.68.10
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: KR_7
-  network: ws
-  port: 12330
-  server: 211.33.238.198
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: KR_8
-  network: ws
-  port: 12391
-  server: 222.103.112.243
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: ICN_8
-  network: ws
-  password: Aimer
-  port: 12436
-  server: 220.120.139.237
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: ICN_9
-  network: ws
-  password: Aimer
-  port: 12134
-  server: 222.109.40.96
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: ICN_10
-  network: ws
-  password: Aimer
-  port: 50000
-  server: 119.203.219.248
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: FUK_5
-  network: ws
-  password: Aimer
-  port: 12391
-  server: 222.103.112.243
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: FUK_6
-  network: ws
-  password: Aimer
-  port: 12330
-  server: 211.33.238.198
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: TW_2
+- name: HK_5
   network: ws
   port: 443
-  server: 34.81.185.105
-  servername: edgi.ambercc.filegear-sg.me
+  server: 152.32.190.226
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: ICN_11
-  network: ws
-  password: Aimer
-  port: 12245
-  server: 211.105.175.213
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: ICN_12
-  network: ws
-  password: Aimer
-  port: 18200
-  server: 59.4.68.10
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SG_2
-  network: ws
-  port: 23023
-  server: 43.165.191.25
-  servername: 01n.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01n.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
-- name: PL_1
+- name: JP_1
   network: ws
-  port: 443
-  server: 45.144.48.48
-  servername: edgi.ambercc.filegear-sg.me
+  port: 8443
+  server: 23.147.232.65
+  servername: edga.aimercc.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -786,434 +142,615 @@ proxies:
   uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      host: edgi.ambercc.filegear-sg.me
+      host: edga.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: HK_6
+  network: ws
+  port: 443
+  server: 123.58.220.231
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: TW_1
+  network: ws
+  port: 43
+  server: 61.220.128.226
+  servername: edga.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edga.aimercc.dpdns.org
     path: /?ed=2560&proxyip=ts.hpc.tw
 - name: US_3
   network: ws
   port: 443
-  server: 160.79.104.11
-  servername: 01v.bgm2024.dpdns.org
+  server: 154.21.201.83
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: JP_4
-  network: ws
-  port: 12299
-  server: 47.79.32.90
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_1
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 188.164.159.175
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: CMCC-IPV6_1
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: 01n.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01n.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: AT_1
-  network: ws
-  port: 443
-  server: 212.183.88.94
-  servername: 01v.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01v.bgm2024.dpdns.org
+      host: ax1.ylka.dpdns.org
     path: /?ed=2560
 - name: US_4
   network: ws
   port: 443
-  server: 160.79.104.102
-  servername: 01v.bgm2024.dpdns.org
+  server: 154.21.201.83
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
-- name: SJC_2
+- name: KR_1
   network: ws
-  password: Aimer
-  port: 2087
-  server: 63.141.128.66
+  port: 12335
+  server: 121.170.103.94
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
 - name: US_5
   network: ws
   port: 443
-  server: 63.141.128.102
-  servername: 01n.bgm2024.dpdns.org
+  server: 107.148.239.178
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01n.bgm2024.dpdns.org
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: HK_7
+  network: ws
+  port: 443
+  server: 202.81.230.100
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: KR_2
+  network: ws
+  port: 50000
+  server: 221.161.207.216
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: KR_3
+  network: ws
+  port: 12398
+  server: 121.157.92.194
+  servername: edga.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edga.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: KR_4
+  network: ws
+  port: 12270
+  server: 119.200.48.55
+  servername: edga.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edga.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SG_3
+  network: ws
+  port: 443
+  server: 8.222.87.76
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: TW_2
+  network: ws
+  port: 443
+  server: 125.227.219.100
+  servername: edga.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edga.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: SG_4
+  network: ws
+  port: 443
+  server: 8.222.87.76
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: TW_3
+  network: ws
+  port: 10240
+  server: 34.81.140.124
+  servername: edga.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edga.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: KR_5
+  network: ws
+  port: 50000
+  server: 221.161.207.216
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: KR_6
+  network: ws
+  port: 12335
+  server: 121.170.103.94
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: KR_7
+  network: ws
+  port: 12403
+  server: 112.171.112.109
+  servername: edga.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edga.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: NL_1
+  network: ws
+  port: 443
+  server: 185.212.60.177
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: NL_2
+  network: ws
+  port: 443
+  server: 185.212.60.177
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
     path: /?ed=2560
 - name: US_6
   network: ws
   port: 443
-  server: 192.0.54.42
-  servername: 01n.bgm2024.dpdns.org
+  server: 206.237.10.69
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01n.bgm2024.dpdns.org
+      host: ax1.ylka.dpdns.org
     path: /?ed=2560
-- name: 官方优选_1
-  network: ws
-  port: 443
-  server: sage.ns.cloudflare.com
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SG_3
-  network: ws
-  port: 2096
-  server: 92.243.74.23
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: AT_2
-  network: ws
-  port: 443
-  server: 212.183.88.136
-  servername: 01v.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01v.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: SJC_3
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 45.67.215.250
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: US_7
   network: ws
-  port: 4002
-  server: 45.145.42.229
-  servername: 01v.bgm2024.dpdns.org
+  port: 443
+  server: 185.148.14.40
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
+      host: ax1.ylka.dpdns.org
     path: /?ed=2560
-- name: 官方优选_2
+- name: NL_3
   network: ws
   port: 443
-  server: theo.ns.cloudflare.com
-  servername: edgi.ambercc.filegear-sg.me
+  server: 194.36.27.67
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_4
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 188.164.159.43
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_5
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 108.165.152.239
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: NRT_6
-  network: ws
-  password: Aimer
-  port: 12299
-  server: 47.79.32.90
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_6
-  network: ws
-  password: Aimer
-  port: 443
-  server: 209.208.227.79
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_3
-  network: ws
-  password: Aimer
-  port: 443
-  server: sage.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_7
-  network: ws
-  password: Aimer
-  port: 443
-  server: 5.182.85.28
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SG_4
-  network: ws
-  port: 2087
-  server: 27.50.49.74
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
 - name: US_8
   network: ws
   port: 443
-  server: 63.141.128.102
-  servername: 01v.bgm2024.dpdns.org
+  server: 38.59.245.103
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
-- name: AT_3
+- name: NL_4
   network: ws
   port: 443
-  server: 212.183.88.94
-  servername: 01n.bgm2024.dpdns.org
+  server: 194.36.27.67
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01n.bgm2024.dpdns.org
+      host: ax1.ylka.dpdns.org
     path: /?ed=2560
 - name: US_9
   network: ws
   port: 443
-  server: 63.141.128.140
-  servername: 01n.bgm2024.dpdns.org
+  server: 206.237.10.69
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01n.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
-- name: SJC_8
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 199.34.228.50
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_9
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 108.165.152.252
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_10
-  network: ws
-  password: Aimer
-  port: 443
-  server: 154.197.64.67
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: RU_1
+- name: US_10
   network: ws
   port: 443
-  server: 45.67.215.92
-  servername: 01v.bgm2024.dpdns.org
+  server: 185.148.14.40
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
-- name: RU_2
+- name: US_11
   network: ws
   port: 443
-  server: 45.67.215.92
-  servername: 01n.bgm2024.dpdns.org
+  server: 38.59.245.103
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01n.bgm2024.dpdns.org
+      host: ax1.ylka.dpdns.org
     path: /?ed=2560
-- name: SJC_11
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 188.164.159.45
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_4
+- name: US_12
   network: ws
   port: 443
-  server: duke.ns.cloudflare.com
-  servername: edgi.ambercc.filegear-sg.me
+  server: 74.120.170.56
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: JP_2
+  network: ws
+  port: 12333
+  server: 121.80.244.179
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: US_13
+  network: ws
+  port: 443
+  server: 74.120.170.56
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: 64.49.46.181_1
+  network: ws
+  port: 443
+  server: 64.49.46.181
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: US_14
+  network: ws
+  port: 443
+  server: 142.171.123.125
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: US_15
+  network: ws
+  port: 443
+  server: 5.181.219.253
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: US_16
+  network: ws
+  port: 443
+  server: 142.171.123.125
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: 64.49.47.64_1
+  network: ws
+  port: 443
+  server: 64.49.47.64
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: 23.169.184.123_1
+  network: ws
+  port: 443
+  server: 23.169.184.123
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: HK_8
+  network: ws
+  port: 443
+  server: 23.226.8.80
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: JP_3
+  network: ws
+  port: 7000
+  server: 158.101.139.31
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: JP_4
+  network: ws
+  port: 7000
+  server: 158.101.139.31
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_1
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: HK_9
+  network: ws
+  port: 443
+  server: 119.13.79.23
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: 64.49.47.64_2
+  network: ws
+  port: 443
+  server: 64.49.47.64
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: 23.169.184.123_2
+  network: ws
+  port: 443
+  server: 23.169.184.123
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: JP_5
+  network: ws
+  port: 12299
+  server: 47.79.32.90
+  servername: edga.aimercc.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -1221,107 +758,69 @@ proxies:
   uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      host: edgi.ambercc.filegear-sg.me
+      host: edga.aimercc.dpdns.org
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: GB_1
+- name: US_17
   network: ws
   port: 443
-  server: 217.163.76.84
-  servername: 01v.bgm2024.dpdns.org
+  server: 66.103.210.62
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
-- name: US_10
+- name: US_18
   network: ws
   port: 443
-  server: 160.79.104.11
-  servername: 01n.bgm2024.dpdns.org
+  server: 66.103.210.62
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01n.bgm2024.dpdns.org
+      host: ax1.ylka.dpdns.org
     path: /?ed=2560
 - name: CMCC-IPV6_2
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01v.bgm2024.dpdns.org
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
-- name: SJC_12
+- name: 64.49.46.181_2
   network: ws
-  password: Aimer
-  port: 2083
-  server: 188.164.159.69
+  port: 443
+  server: 64.49.46.181
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_13
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: 官方优选_1
   network: ws
-  password: Aimer
-  port: 2096
-  server: 154.211.8.12
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_5
-  network: ws
-  password: Aimer
   port: 443
   server: arvind.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_14
-  network: ws
-  password: Aimer
-  port: 443
-  server: 188.164.159.18
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_6
-  network: ws
-  port: 443
-  server: lynn.ns.cloudflare.com
-  servername: edgi.ambercc.filegear-sg.me
+  servername: edga.aimercc.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -1329,1810 +828,699 @@ proxies:
   uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      host: edgi.ambercc.filegear-sg.me
+      host: edga.aimercc.dpdns.org
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_15
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 45.67.215.217
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_16
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 188.164.159.138
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_17
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 188.164.159.214
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_11
+- name: US_19
   network: ws
   port: 443
-  server: 160.79.105.89
-  servername: 01v.bgm2024.dpdns.org
+  server: 104.207.152.171
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
+      host: ax1.ylka.dpdns.org
     path: /?ed=2560
-- name: 官方优选_7
-  network: ws
-  password: Aimer
-  port: 443
-  server: theo.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_18
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 167.68.4.10
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_12
-  network: ws
-  port: 443
-  server: 160.79.104.115
-  servername: 01v.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01v.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: 官方优选_8
-  network: ws
-  password: Aimer
-  port: 443
-  server: damien.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_9
-  network: ws
-  password: Aimer
-  port: 443
-  server: kip.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_19
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 27.50.49.154
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_13
-  network: ws
-  port: 443
-  server: 63.141.128.3
-  servername: 01n.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01n.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: KR_9
-  network: ws
-  port: 443
-  server: 130.162.130.105
-  servername: 01n.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01n.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: GB_2
-  network: ws
-  port: 443
-  server: 217.163.76.84
-  servername: 01n.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01n.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: AT_4
-  network: ws
-  port: 443
-  server: 212.183.88.16
-  servername: 01v.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01v.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: BR_1
-  network: ws
-  port: 443
-  server: 185.133.35.22
-  servername: 01v.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01v.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: AT_5
-  network: ws
-  port: 443
-  server: 212.183.88.136
-  servername: 01n.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01n.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: SJC_20
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 192.200.160.15
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_21
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 5.182.85.189
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_22
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 154.197.64.189
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_23
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 199.34.228.164
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_14
-  network: ws
-  port: 443
-  server: 160.79.105.76
-  servername: 01v.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01v.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: SJC_24
-  network: ws
-  password: Aimer
-  port: 443
-  server: 209.94.90.64
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_25
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 103.116.7.100
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_26
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 92.243.74.2
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_10
-  network: ws
-  password: Aimer
-  port: 443
-  server: thaddeus.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_11
-  network: ws
-  port: 443
-  server: ignacio.ns.cloudflare.com
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_15
-  network: ws
-  port: 443
-  server: 160.79.105.76
-  servername: 01n.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01n.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: US_16
-  network: ws
-  port: 443
-  server: 160.79.104.115
-  servername: 01n.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01n.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: US_17
+- name: 美国_1
   network: ws
   port: 443
   server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-  servername: 01n.bgm2024.dpdns.org
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01n.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: US_18
-  network: ws
-  port: 443
-  server: 160.79.104.102
-  servername: 01n.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01n.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: SJC_27
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 192.200.160.35
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_28
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 213.241.198.56
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_29
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 108.165.152.204
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_12
-  network: ws
-  password: Aimer
-  port: 443
-  server: duke.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 电信🌐优选🌐群组™️™️™️：t.me/amber6hua_1
-  network: ws
-  port: 443
-  server: bestcf.030101.xyz
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_30
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 27.50.48.186
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_13
-  network: ws
-  port: 443
-  server: damien.ns.cloudflare.com
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: AT_6
-  network: ws
-  port: 443
-  server: 212.183.88.16
-  servername: 01n.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01n.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
 - name: CMCC-IPV6_3
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01n.bgm2024.dpdns.org
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01n.bgm2024.dpdns.org
+      host: ax1.ylka.dpdns.org
     path: /?ed=2560
-- name: SJC_31
+- name: US_20
   network: ws
-  password: Aimer
-  port: 2096
-  server: 108.165.152.76
+  port: 2083
+  server: 103.116.7.103
+  servername: edga.aimercc.dpdns.org
   skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      host: epgi.ambercc.filegear-sg.me
+      host: edga.aimercc.dpdns.org
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_32
+- name: 官方优选_2
   network: ws
-  password: Aimer
-  port: 2096
-  server: 92.243.74.23
+  port: 443
+  server: lynn.ns.cloudflare.com
+  servername: edga.aimercc.dpdns.org
   skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      host: epgi.ambercc.filegear-sg.me
+      host: edga.aimercc.dpdns.org
     path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 官方优选_3
+  network: ws
+  port: 443
+  server: theo.ns.cloudflare.com
+  servername: edga.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edga.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_21
+  network: ws
+  port: 443
+  server: 5.181.219.253
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: 美国_2
+  network: ws
+  port: 443
+  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
 - name: CMCC-IPV6_4
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01n.bgm2024.dpdns.org
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01n.bgm2024.dpdns.org
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: TW_4
+  network: ws
+  port: 443
+  server: 125.227.219.97
+  servername: edga.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edga.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 官方优选_4
+  network: ws
+  port: 443
+  server: pranab.ns.cloudflare.com
+  servername: edga.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edga.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: NL_5
+  network: ws
+  port: 443
+  server: 158.101.214.54
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
     path: /?ed=2560
 - name: CMCC-IPV6_5
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01v.bgm2024.dpdns.org
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
-- name: SJC_33
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 27.50.49.74
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_34
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 103.116.7.220
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 电信🌐优选🌐群组™️™️™️：t.me/amber6hua_2
-  network: ws
-  password: Aimer
-  port: 443
-  server: bestcf.030101.xyz
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: CMCC-IPV6_6
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01n.bgm2024.dpdns.org
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01n.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: US_19
-  network: ws
-  port: 443
-  server: 63.141.128.88
-  servername: 01n.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01n.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: SJC_35
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 188.164.159.246
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_36
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 108.165.152.175
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_37
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 27.50.49.177
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_20
-  network: ws
-  port: 443
-  server: 63.141.128.3
-  servername: 01v.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01v.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: BR_2
-  network: ws
-  port: 443
-  server: 185.133.35.22
-  servername: 01n.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01n.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
 - name: CMCC-IPV6_7
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01n.bgm2024.dpdns.org
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01n.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
+- name: 官方优选_5
+  network: ws
+  port: 443
+  server: sage.ns.cloudflare.com
+  servername: edga.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edga.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: HK_10
+  network: ws
+  port: 443
+  server: 119.13.79.23
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: 官方优选_6
+  network: ws
+  port: 443
+  server: ignacio.ns.cloudflare.com
+  servername: edga.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edga.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: 官方优选_7
+  network: ws
+  port: 443
+  server: thaddeus.ns.cloudflare.com
+  servername: edga.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edga.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: CMCC-IPV6_8
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01n.bgm2024.dpdns.org
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01n.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
-- name: SJC_38
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.5.85
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: GB_3
+- name: 官方优选_8
   network: ws
   port: 443
-  server: 217.163.76.201
-  servername: 01n.bgm2024.dpdns.org
+  server: duke.ns.cloudflare.com
+  servername: edga.aimercc.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      host: 01n.bgm2024.dpdns.org
+      host: edga.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_22
+  network: ws
+  port: 443
+  server: 104.207.152.171
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
-- name: SJC_39
+- name: NL_6
   network: ws
-  password: Aimer
-  port: 2087
-  server: 5.182.84.9
+  port: 5004
+  server: 45.154.98.230
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_40
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: 官方优选_9
   network: ws
-  password: Aimer
-  port: 2087
-  server: 154.219.5.87
+  port: 443
+  server: damien.ns.cloudflare.com
+  servername: edga.aimercc.dpdns.org
   skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_41
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 46.254.93.52
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
+      host: edga.aimercc.dpdns.org
     path: /?ed=2560&proxyip=ts.hpc.tw
 - name: CMCC-IPV6_9
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01v.bgm2024.dpdns.org
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
-- name: SJC_42
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 77.232.140.101
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_43
-  network: ws
-  password: Aimer
-  port: 443
-  server: 103.116.7.248
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_44
-  network: ws
-  password: Aimer
-  port: 443
-  server: 199.231.45.35
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_21
-  network: ws
-  port: 443
-  server: 63.141.128.88
-  servername: 01v.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01v.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: 官方优选_14
-  network: ws
-  port: 443
-  server: thaddeus.ns.cloudflare.com
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_45
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 92.243.74.3
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_46
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 108.165.152.93
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_47
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 135.84.74.254
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_15
-  network: ws
-  password: Aimer
-  port: 443
-  server: ignacio.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_48
-  network: ws
-  password: Aimer
-  port: 443
-  server: 103.116.7.235
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_49
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 108.165.152.163
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: CMCC-IPV6_10
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01v.bgm2024.dpdns.org
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
-- name: SJC_50
-  network: ws
-  password: Aimer
-  port: 443
-  server: 154.197.64.27
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_51
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 46.254.92.142
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_52
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 216.24.57.1
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: CMCC-IPV6_11
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01v.bgm2024.dpdns.org
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
+      host: ax1.ylka.dpdns.org
     path: /?ed=2560
-- name: 官方优选_16
+- name: FR_1
   network: ws
-  password: Aimer
-  port: 443
-  server: pranab.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_53
-  network: ws
-  password: Aimer
   port: 2053
-  server: 108.165.152.67
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_54
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 108.165.152.66
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_17
-  network: ws
-  password: Aimer
-  port: 443
-  server: lynn.ns.cloudflare.com
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_55
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 104.234.239.235
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_22
-  network: ws
-  port: 443
-  server: 192.0.54.42
-  servername: 01v.bgm2024.dpdns.org
+  server: 141.94.70.243
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
+      host: ax1.ylka.dpdns.org
     path: /?ed=2560
-- name: SJC_56
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 154.197.64.196
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_23
-  network: ws
-  port: 2087
-  server: 209.94.90.87
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: GB_4
-  network: ws
-  port: 443
-  server: 217.163.76.201
-  servername: 01v.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01v.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: LAX_2
-  network: ws
-  password: Aimer
-  port: 443
-  server: 91.149.239.64
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_57
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 103.116.7.152
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_18
-  network: ws
-  port: 443
-  server: arvind.ns.cloudflare.com
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_58
-  network: ws
-  password: Aimer
-  port: 443
-  server: 141.11.203.168
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_59
-  network: ws
-  password: Aimer
-  port: 443
-  server: 27.50.49.208
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_19
-  network: ws
-  port: 443
-  server: kip.ns.cloudflare.com
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_60
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 92.243.74.239
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_61
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 188.164.159.185
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_62
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 27.50.49.209
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_63
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 167.68.5.248
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: CMCC-IPV6_12
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01v.bgm2024.dpdns.org
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: SJC_64
-  network: ws
-  password: Aimer
-  port: 443
-  server: 77.232.140.7
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_24
-  network: ws
-  port: 443
-  server: join.my.telegram.channel.cmliussss.to.unlock.more.premium.nodes.cf.090227.xyz
-  servername: 01v.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01v.bgm2024.dpdns.org
+      host: ax1.ylka.dpdns.org
     path: /?ed=2560
 - name: CMCC-IPV6_13
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01v.bgm2024.dpdns.org
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
+      host: ax1.ylka.dpdns.org
     path: /?ed=2560
-- name: SJC_65
-  network: ws
-  password: Aimer
-  port: 443
-  server: 154.197.64.206
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_66
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 5.182.84.22
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_67
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 188.164.159.91
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: CMCC-IPV6_14
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01v.bgm2024.dpdns.org
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
+      host: ax1.ylka.dpdns.org
     path: /?ed=2560
-- name: SJC_68
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 108.165.152.65
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_69
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 108.165.152.58
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_70
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 66.81.247.230
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: CMCC-IPV6_15
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01v.bgm2024.dpdns.org
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
-- name: SJC_71
+- name: 官方优选_10
   network: ws
-  password: Aimer
   port: 443
-  server: 216.24.57.186
+  server: kip.ns.cloudflare.com
+  servername: edga.aimercc.dpdns.org
   skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      host: epgi.ambercc.filegear-sg.me
+      host: edga.aimercc.dpdns.org
     path: /?ed=2560&proxyip=ts.hpc.tw
+- name: HK_11
+  network: ws
+  port: 443
+  server: 1.65.209.123
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: PL_1
+  network: ws
+  port: 443
+  server: 45.144.48.48
+  servername: edga.aimercc.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  ws-opts:
+    headers:
+      host: edga.aimercc.dpdns.org
+    path: /?ed=2560&proxyip=ts.hpc.tw
+- name: NL_7
+  network: ws
+  port: 443
+  server: 158.101.214.54
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
 - name: CMCC-IPV6_16
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01v.bgm2024.dpdns.org
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: NL_8
+  network: ws
+  port: 5004
+  server: 45.154.98.230
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: GB_1
+  network: ws
+  port: 2053
+  server: 94.23.153.167
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
 - name: CMCC-IPV6_17
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01n.bgm2024.dpdns.org
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01n.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
-- name: SJC_72
+- name: HK_12
   network: ws
-  password: Aimer
   port: 8443
-  server: 199.34.228.178
+  server: 34.150.69.61
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_73
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 162.120.94.23
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_74
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 108.165.152.55
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
 - name: CMCC-IPV6_18
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01v.bgm2024.dpdns.org
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
+      host: ax1.ylka.dpdns.org
     path: /?ed=2560
-- name: SJC_75
+- name: FR_2
   network: ws
-  password: Aimer
-  port: 2096
-  server: 27.50.49.61
+  port: 2053
+  server: 141.94.70.243
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: TPE_2
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: TW_5
   network: ws
-  password: Aimer
-  port: 8443
-  server: 45.207.158.29
+  port: 58888
+  server: 220.132.77.244
+  servername: edga.aimercc.dpdns.org
   skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      host: epgi.ambercc.filegear-sg.me
+      host: edga.aimercc.dpdns.org
     path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_76
+- name: HK_13
   network: ws
-  password: Aimer
-  port: 2083
-  server: 108.165.152.202
+  port: 443
+  server: 47.238.89.163
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_77
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 108.165.152.29
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
 - name: CMCC-IPV6_19
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01v.bgm2024.dpdns.org
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: HK_14
+  network: ws
+  port: 443
+  server: 1.65.209.123
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: FR_3
+  network: ws
+  port: 443
+  server: 152.228.191.232
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
     path: /?ed=2560
 - name: CMCC-IPV6_20
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01n.bgm2024.dpdns.org
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01n.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_21
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: 01v.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01v.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_22
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: 01n.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01n.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: CMCC-IPV6_23
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: 01n.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01n.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: SJC_78
-  network: ws
-  password: Aimer
-  port: 443
-  server: 159.54.175.77
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: CMCC-IPV6_24
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: 01n.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01n.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: US_25
-  network: ws
-  port: 443
-  server: 129.213.136.180
-  servername: 01n.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01n.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: SJC_79
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_80
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 154.197.64.173
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: AMS
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 89.110.86.132
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: 官方优选_20
-  network: ws
-  port: 443
-  server: pranab.ns.cloudflare.com
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: CMCC-IPV6_25
-  network: ws
-  port: 4700
-  server: '[2606'
-  servername: 01n.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01n.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: ORD
-  network: ws
-  password: Aimer
-  port: 443
-  server: 172.235.32.226
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_26
-  network: ws
-  port: 443
-  server: 150.136.87.192
-  servername: 01v.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01v.bgm2024.dpdns.org
+      host: ax1.ylka.dpdns.org
     path: /?ed=2560
 - name: PL_2
   network: ws
   port: 443
   server: 176.105.253.98
-  servername: edgi.ambercc.filegear-sg.me
+  servername: edga.aimercc.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
@@ -3140,1028 +1528,875 @@ proxies:
   uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
   ws-opts:
     headers:
-      host: edgi.ambercc.filegear-sg.me
+      host: edga.aimercc.dpdns.org
     path: /?ed=2560&proxyip=ts.hpc.tw
+- name: US_23
+  network: ws
+  port: 443
+  server: 129.213.136.180
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: DE_1
+  network: ws
+  port: 443
+  server: 91.149.223.242
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: HK_15
+  network: ws
+  port: 443
+  server: 202.81.230.100
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_21
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_22
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_23
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: DE_2
+  network: ws
+  port: 443
+  server: 91.149.223.242
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: US_24
+  network: ws
+  port: 443
+  server: 129.213.136.180
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: US_25
+  network: ws
+  port: 443
+  server: 107.148.239.178
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_24
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: DE_3
+  network: ws
+  port: 8443
+  server: 91.107.159.178
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: DE_4
+  network: ws
+  port: 443
+  server: 91.107.251.232
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: GB_2
+  network: ws
+  port: 2053
+  server: 94.23.153.167
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: DE_5
+  network: ws
+  port: 443
+  server: 91.107.254.116
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: DE_6
+  network: ws
+  port: 443
+  server: 91.107.189.217
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: DE_7
+  network: ws
+  port: 8443
+  server: 91.107.159.178
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: FR_4
+  network: ws
+  port: 443
+  server: 152.228.191.232
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: DE_8
+  network: ws
+  port: 443
+  server: 91.107.251.232
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_25
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: CN_1
+  network: ws
+  port: 8443
+  server: 74.119.193.226
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: HK_16
+  network: ws
+  port: 8443
+  server: 2.56.91.89
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: DE_9
+  network: ws
+  port: 443
+  server: 91.107.189.217
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
 - name: CMCC-IPV6_26
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01n.bgm2024.dpdns.org
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01n.bgm2024.dpdns.org
+      host: ax1.ylka.dpdns.org
     path: /?ed=2560
-- name: SJC_81
-  network: ws
-  password: Aimer
-  port: 443
-  server: 199.34.228.187
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_27
-  network: ws
-  port: 443
-  server: 129.213.130.70
-  servername: 01v.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01v.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: US_28
-  network: ws
-  port: 2053
-  server: 108.165.152.67
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
 - name: CMCC-IPV6_27
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01v.bgm2024.dpdns.org
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
-- name: SJC_82
+- name: CN_2
   network: ws
-  password: Aimer
   port: 8443
-  server: 104.129.166.131
+  server: 74.119.193.226
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
 - name: CMCC-IPV6_28
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01v.bgm2024.dpdns.org
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01v.bgm2024.dpdns.org
-    path: /?ed=2560
-- name: LAX_3
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 107.174.198.228
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_29
-  network: ws
-  port: 443
-  server: 129.213.136.180
-  servername: 01v.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01v.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
 - name: CMCC-IPV6_29
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01n.bgm2024.dpdns.org
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01n.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
-- name: SJC_83
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 27.50.49.230
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SJC_84
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 108.165.152.104
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_30
+- name: DE_10
   network: ws
   port: 443
-  server: 129.213.130.70
-  servername: 01n.bgm2024.dpdns.org
+  server: 91.107.254.116
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01n.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
-- name: VNO
+- name: IN_1
   network: ws
-  password: Aimer
-  port: 8443
-  server: 37.128.205.186
+  port: 443
+  server: 103.71.23.121
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
 - name: CMCC-IPV6_30
   network: ws
   port: 4700
   server: '[2606'
-  servername: 01n.bgm2024.dpdns.org
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01n.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
-- name: SJC_85
+- name: CMCC-IPV6_31
   network: ws
-  password: Aimer
-  port: 2087
-  server: 209.94.90.87
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SEA
-  network: ws
-  password: Aimer
-  port: 587
-  server: 47.79.86.103
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_31
-  network: ws
-  port: 443
-  server: 150.136.87.192
-  servername: 01n.bgm2024.dpdns.org
+  port: 4700
+  server: '[2606'
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01n.bgm2024.dpdns.org
+      host: zx1.ylka.dpdns.org
     path: /?ed=2560
-- name: JP_5
+- name: CMCC-IPV6_32
   network: ws
-  port: 12333
-  server: 121.80.244.179
-  servername: 01n.bgm2024.dpdns.org
+  port: 4700
+  server: '[2606'
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: 01n.bgm2024.dpdns.org
+      host: ax1.ylka.dpdns.org
     path: /?ed=2560
-- name: SG_5
-  network: ws
-  port: 39231
-  server: 5.253.36.226
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: NRT_7
-  network: ws
-  password: Aimer
-  port: 12491
-  server: 34.84.32.128
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SIN_2
-  network: ws
-  password: Aimer
-  port: 39231
-  server: 5.253.36.226
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: HK_5
+- name: IN_2
   network: ws
   port: 443
-  server: 52.175.20.222
-  servername: edgi.ambercc.filegear-sg.me
+  server: 103.71.23.121
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: JP_6
-  network: ws
-  port: 12491
-  server: 34.84.32.128
-  servername: edgi.ambercc.filegear-sg.me
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
-  ws-opts:
-    headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: HKG_10
-  network: ws
-  password: Aimer
-  port: 443
-  server: 52.175.20.222
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SG_6
-  network: ws
-  port: 23023
-  server: 43.165.191.25
-  servername: 01v.bgm2024.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 55520747-311e-4015-83ce-be46e2060ce3
-  ws-opts:
-    headers:
-      host: 01v.bgm2024.dpdns.org
+      host: ax1.ylka.dpdns.org
     path: /?ed=2560
-- name: SIN_3
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 46.232.106.207
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SG_7
+- name: HK_17
   network: ws
   port: 443
-  server: 52.187.64.229
-  servername: edgi.ambercc.filegear-sg.me
+  server: 23.226.8.80
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SIN_4
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: HK_18
   network: ws
-  password: Aimer
   port: 443
-  server: 47.236.71.6
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: US_32
-  network: ws
-  port: 2053
-  server: 46.232.106.207
-  servername: edgi.ambercc.filegear-sg.me
+  server: 219.76.13.169
+  servername: ax1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: SIN_5
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: HK_19
   network: ws
-  password: Aimer
   port: 443
-  server: 52.187.64.229
+  server: 219.76.13.169
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
+  tls: true
+  type: vless
   udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: NRT_8
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: HK_20
   network: ws
-  password: Aimer
   port: 8443
-  server: 23.147.232.65
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: ICN_13
-  network: ws
-  password: Aimer
-  port: 50000
-  server: 115.94.98.93
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: NRT_9
-  network: ws
-  password: Aimer
-  port: 16993
-  server: 152.70.101.24
-  skip-cert-verify: true
-  sni: epgi.ambercc.filegear-sg.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: epgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
-- name: PL_3
-  network: ws
-  port: 443
-  server: 217.30.10.55
-  servername: edgi.ambercc.filegear-sg.me
+  server: 2.56.91.89
+  servername: zx1.ylka.dpdns.org
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: ee6774c0-9b19-4ff1-8b30-2da4b71977e2
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
   ws-opts:
     headers:
-      host: edgi.ambercc.filegear-sg.me
-    path: /?ed=2560&proxyip=ts.hpc.tw
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: US_26
+  network: ws
+  port: 443
+  server: 129.213.130.70
+  servername: zx1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: zx1.ylka.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_33
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
+- name: CMCC-IPV6_34
+  network: ws
+  port: 4700
+  server: '[2606'
+  servername: ax1.ylka.dpdns.org
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06e4425e-a8cb-4b63-929f-2105604ab0a9
+  ws-opts:
+    headers:
+      host: ax1.ylka.dpdns.org
+    path: /?ed=2560
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - HKG_1
   - HK_1
-  - HK_2
-  - HKG_2
-  - HKG_3
-  - HK_3
-  - HKG_4
-  - HKG_5
-  - HKG_6
-  - HKG_7
-  - HKG_8
-  - HKG_9
   - SG_1
-  - JP_1
-  - HK_4
-  - NRT_1
-  - NRT_2
-  - NRT_3
-  - NRT_4
-  - SIN_1
-  - JP_2
-  - JP_3
-  - KR_1
-  - KR_2
-  - NRT_5
-  - '|2.46Mb'
-  - TPE_1
-  - TW_1
+  - HK_2
   - US_1
-  - FUK_1
+  - SG_2
+  - HK_3
+  - HK_4
   - US_2
-  - LHR
+  - HK_5
+  - JP_1
+  - HK_6
+  - TW_1
+  - US_3
+  - US_4
+  - KR_1
+  - US_5
+  - HK_7
+  - KR_2
   - KR_3
-  - ICN_1
   - KR_4
-  - FUK_2
-  - ICN_2
-  - LAX_1
-  - ICN_3
-  - ICN_4
-  - ICN_5
+  - SG_3
+  - TW_2
+  - SG_4
+  - TW_3
   - KR_5
-  - ICN_6
-  - FUK_3
-  - ICN_7
-  - FUK_4
   - KR_6
   - KR_7
-  - KR_8
-  - ICN_8
-  - ICN_9
-  - ICN_10
-  - FUK_5
-  - FUK_6
-  - TW_2
-  - ICN_11
-  - ICN_12
-  - SG_2
-  - PL_1
-  - US_3
-  - JP_4
-  - SJC_1
-  - CMCC-IPV6_1
-  - AT_1
-  - US_4
-  - SJC_2
-  - US_5
+  - NL_1
+  - NL_2
   - US_6
-  - 官方优选_1
-  - SG_3
-  - AT_2
-  - SJC_3
   - US_7
-  - 官方优选_2
-  - SJC_4
-  - SJC_5
-  - NRT_6
-  - SJC_6
-  - 官方优选_3
-  - SJC_7
-  - SG_4
+  - NL_3
   - US_8
-  - AT_3
+  - NL_4
   - US_9
-  - SJC_8
-  - SJC_9
-  - SJC_10
-  - RU_1
-  - RU_2
-  - SJC_11
-  - 官方优选_4
-  - GB_1
   - US_10
-  - CMCC-IPV6_2
-  - SJC_12
-  - SJC_13
-  - 官方优选_5
-  - SJC_14
-  - 官方优选_6
-  - SJC_15
-  - SJC_16
-  - SJC_17
   - US_11
-  - 官方优选_7
-  - SJC_18
   - US_12
-  - 官方优选_8
-  - 官方优选_9
-  - SJC_19
+  - JP_2
   - US_13
-  - KR_9
-  - GB_2
-  - AT_4
-  - BR_1
-  - AT_5
-  - SJC_20
-  - SJC_21
-  - SJC_22
-  - SJC_23
+  - 64.49.46.181_1
   - US_14
-  - SJC_24
-  - SJC_25
-  - SJC_26
-  - 官方优选_10
-  - 官方优选_11
   - US_15
   - US_16
+  - 64.49.47.64_1
+  - 23.169.184.123_1
+  - HK_8
+  - JP_3
+  - JP_4
+  - CMCC-IPV6_1
+  - HK_9
+  - 64.49.47.64_2
+  - 23.169.184.123_2
+  - JP_5
   - US_17
   - US_18
-  - SJC_27
-  - SJC_28
-  - SJC_29
-  - 官方优选_12
-  - 电信🌐优选🌐群组™️™️™️：t.me/amber6hua_1
-  - SJC_30
-  - 官方优选_13
-  - AT_6
-  - CMCC-IPV6_3
-  - SJC_31
-  - SJC_32
-  - CMCC-IPV6_4
-  - CMCC-IPV6_5
-  - SJC_33
-  - SJC_34
-  - 电信🌐优选🌐群组™️™️™️：t.me/amber6hua_2
-  - CMCC-IPV6_6
+  - CMCC-IPV6_2
+  - 64.49.46.181_2
+  - 官方优选_1
   - US_19
-  - SJC_35
-  - SJC_36
-  - SJC_37
+  - 美国_1
+  - CMCC-IPV6_3
   - US_20
-  - BR_2
-  - CMCC-IPV6_7
-  - CMCC-IPV6_8
-  - SJC_38
-  - GB_3
-  - SJC_39
-  - SJC_40
-  - SJC_41
-  - CMCC-IPV6_9
-  - SJC_42
-  - SJC_43
-  - SJC_44
+  - 官方优选_2
+  - 官方优选_3
   - US_21
-  - 官方优选_14
-  - SJC_45
-  - SJC_46
-  - SJC_47
-  - 官方优选_15
-  - SJC_48
-  - SJC_49
-  - CMCC-IPV6_10
-  - SJC_50
-  - SJC_51
-  - SJC_52
-  - CMCC-IPV6_11
-  - 官方优选_16
-  - SJC_53
-  - SJC_54
-  - 官方优选_17
-  - SJC_55
+  - 美国_2
+  - CMCC-IPV6_4
+  - TW_4
+  - 官方优选_4
+  - NL_5
+  - CMCC-IPV6_5
+  - CMCC-IPV6_6
+  - CMCC-IPV6_7
+  - 官方优选_5
+  - HK_10
+  - 官方优选_6
+  - 官方优选_7
+  - CMCC-IPV6_8
+  - 官方优选_8
   - US_22
-  - SJC_56
-  - US_23
-  - GB_4
-  - LAX_2
-  - SJC_57
-  - 官方优选_18
-  - SJC_58
-  - SJC_59
-  - 官方优选_19
-  - SJC_60
-  - SJC_61
-  - SJC_62
-  - SJC_63
+  - NL_6
+  - 官方优选_9
+  - CMCC-IPV6_9
+  - CMCC-IPV6_10
+  - CMCC-IPV6_11
+  - FR_1
   - CMCC-IPV6_12
-  - SJC_64
-  - US_24
   - CMCC-IPV6_13
-  - SJC_65
-  - SJC_66
-  - SJC_67
   - CMCC-IPV6_14
-  - SJC_68
-  - SJC_69
-  - SJC_70
   - CMCC-IPV6_15
-  - SJC_71
+  - 官方优选_10
+  - HK_11
+  - PL_1
+  - NL_7
   - CMCC-IPV6_16
+  - NL_8
+  - GB_1
   - CMCC-IPV6_17
-  - SJC_72
-  - SJC_73
-  - SJC_74
+  - HK_12
   - CMCC-IPV6_18
-  - SJC_75
-  - TPE_2
-  - SJC_76
-  - SJC_77
+  - FR_2
+  - TW_5
+  - HK_13
   - CMCC-IPV6_19
+  - HK_14
+  - FR_3
   - CMCC-IPV6_20
+  - PL_2
+  - US_23
+  - DE_1
+  - HK_15
   - CMCC-IPV6_21
   - CMCC-IPV6_22
   - CMCC-IPV6_23
-  - SJC_78
-  - CMCC-IPV6_24
+  - DE_2
+  - US_24
   - US_25
-  - SJC_79
-  - SJC_80
-  - AMS
-  - 官方优选_20
+  - CMCC-IPV6_24
+  - DE_3
+  - DE_4
+  - GB_2
+  - DE_5
+  - DE_6
+  - DE_7
+  - FR_4
+  - DE_8
   - CMCC-IPV6_25
-  - ORD
-  - US_26
-  - PL_2
+  - CN_1
+  - HK_16
+  - DE_9
   - CMCC-IPV6_26
-  - SJC_81
-  - US_27
-  - US_28
   - CMCC-IPV6_27
-  - SJC_82
+  - CN_2
   - CMCC-IPV6_28
-  - LAX_3
-  - US_29
   - CMCC-IPV6_29
-  - SJC_83
-  - SJC_84
-  - US_30
-  - VNO
+  - DE_10
+  - IN_1
   - CMCC-IPV6_30
-  - SJC_85
-  - SEA
-  - US_31
-  - JP_5
-  - SG_5
-  - NRT_7
-  - SIN_2
-  - HK_5
-  - JP_6
-  - HKG_10
-  - SG_6
-  - SIN_3
-  - SG_7
-  - SIN_4
-  - US_32
-  - SIN_5
-  - NRT_8
-  - ICN_13
-  - NRT_9
-  - PL_3
+  - CMCC-IPV6_31
+  - CMCC-IPV6_32
+  - IN_2
+  - HK_17
+  - HK_18
+  - HK_19
+  - HK_20
+  - US_26
+  - CMCC-IPV6_33
+  - CMCC-IPV6_34
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - HKG_1
   - HK_1
-  - HK_2
-  - HKG_2
-  - HKG_3
-  - HK_3
-  - HKG_4
-  - HKG_5
-  - HKG_6
-  - HKG_7
-  - HKG_8
-  - HKG_9
   - SG_1
-  - JP_1
-  - HK_4
-  - NRT_1
-  - NRT_2
-  - NRT_3
-  - NRT_4
-  - SIN_1
-  - JP_2
-  - JP_3
-  - KR_1
-  - KR_2
-  - NRT_5
-  - '|2.46Mb'
-  - TPE_1
-  - TW_1
+  - HK_2
   - US_1
-  - FUK_1
+  - SG_2
+  - HK_3
+  - HK_4
   - US_2
-  - LHR
+  - HK_5
+  - JP_1
+  - HK_6
+  - TW_1
+  - US_3
+  - US_4
+  - KR_1
+  - US_5
+  - HK_7
+  - KR_2
   - KR_3
-  - ICN_1
   - KR_4
-  - FUK_2
-  - ICN_2
-  - LAX_1
-  - ICN_3
-  - ICN_4
-  - ICN_5
+  - SG_3
+  - TW_2
+  - SG_4
+  - TW_3
   - KR_5
-  - ICN_6
-  - FUK_3
-  - ICN_7
-  - FUK_4
   - KR_6
   - KR_7
-  - KR_8
-  - ICN_8
-  - ICN_9
-  - ICN_10
-  - FUK_5
-  - FUK_6
-  - TW_2
-  - ICN_11
-  - ICN_12
-  - SG_2
-  - PL_1
-  - US_3
-  - JP_4
-  - SJC_1
-  - CMCC-IPV6_1
-  - AT_1
-  - US_4
-  - SJC_2
-  - US_5
+  - NL_1
+  - NL_2
   - US_6
-  - 官方优选_1
-  - SG_3
-  - AT_2
-  - SJC_3
   - US_7
-  - 官方优选_2
-  - SJC_4
-  - SJC_5
-  - NRT_6
-  - SJC_6
-  - 官方优选_3
-  - SJC_7
-  - SG_4
+  - NL_3
   - US_8
-  - AT_3
+  - NL_4
   - US_9
-  - SJC_8
-  - SJC_9
-  - SJC_10
-  - RU_1
-  - RU_2
-  - SJC_11
-  - 官方优选_4
-  - GB_1
   - US_10
-  - CMCC-IPV6_2
-  - SJC_12
-  - SJC_13
-  - 官方优选_5
-  - SJC_14
-  - 官方优选_6
-  - SJC_15
-  - SJC_16
-  - SJC_17
   - US_11
-  - 官方优选_7
-  - SJC_18
   - US_12
-  - 官方优选_8
-  - 官方优选_9
-  - SJC_19
+  - JP_2
   - US_13
-  - KR_9
-  - GB_2
-  - AT_4
-  - BR_1
-  - AT_5
-  - SJC_20
-  - SJC_21
-  - SJC_22
-  - SJC_23
+  - 64.49.46.181_1
   - US_14
-  - SJC_24
-  - SJC_25
-  - SJC_26
-  - 官方优选_10
-  - 官方优选_11
   - US_15
   - US_16
+  - 64.49.47.64_1
+  - 23.169.184.123_1
+  - HK_8
+  - JP_3
+  - JP_4
+  - CMCC-IPV6_1
+  - HK_9
+  - 64.49.47.64_2
+  - 23.169.184.123_2
+  - JP_5
   - US_17
   - US_18
-  - SJC_27
-  - SJC_28
-  - SJC_29
-  - 官方优选_12
-  - 电信🌐优选🌐群组™️™️™️：t.me/amber6hua_1
-  - SJC_30
-  - 官方优选_13
-  - AT_6
-  - CMCC-IPV6_3
-  - SJC_31
-  - SJC_32
-  - CMCC-IPV6_4
-  - CMCC-IPV6_5
-  - SJC_33
-  - SJC_34
-  - 电信🌐优选🌐群组™️™️™️：t.me/amber6hua_2
-  - CMCC-IPV6_6
+  - CMCC-IPV6_2
+  - 64.49.46.181_2
+  - 官方优选_1
   - US_19
-  - SJC_35
-  - SJC_36
-  - SJC_37
+  - 美国_1
+  - CMCC-IPV6_3
   - US_20
-  - BR_2
-  - CMCC-IPV6_7
-  - CMCC-IPV6_8
-  - SJC_38
-  - GB_3
-  - SJC_39
-  - SJC_40
-  - SJC_41
-  - CMCC-IPV6_9
-  - SJC_42
-  - SJC_43
-  - SJC_44
+  - 官方优选_2
+  - 官方优选_3
   - US_21
-  - 官方优选_14
-  - SJC_45
-  - SJC_46
-  - SJC_47
-  - 官方优选_15
-  - SJC_48
-  - SJC_49
-  - CMCC-IPV6_10
-  - SJC_50
-  - SJC_51
-  - SJC_52
-  - CMCC-IPV6_11
-  - 官方优选_16
-  - SJC_53
-  - SJC_54
-  - 官方优选_17
-  - SJC_55
+  - 美国_2
+  - CMCC-IPV6_4
+  - TW_4
+  - 官方优选_4
+  - NL_5
+  - CMCC-IPV6_5
+  - CMCC-IPV6_6
+  - CMCC-IPV6_7
+  - 官方优选_5
+  - HK_10
+  - 官方优选_6
+  - 官方优选_7
+  - CMCC-IPV6_8
+  - 官方优选_8
   - US_22
-  - SJC_56
-  - US_23
-  - GB_4
-  - LAX_2
-  - SJC_57
-  - 官方优选_18
-  - SJC_58
-  - SJC_59
-  - 官方优选_19
-  - SJC_60
-  - SJC_61
-  - SJC_62
-  - SJC_63
+  - NL_6
+  - 官方优选_9
+  - CMCC-IPV6_9
+  - CMCC-IPV6_10
+  - CMCC-IPV6_11
+  - FR_1
   - CMCC-IPV6_12
-  - SJC_64
-  - US_24
   - CMCC-IPV6_13
-  - SJC_65
-  - SJC_66
-  - SJC_67
   - CMCC-IPV6_14
-  - SJC_68
-  - SJC_69
-  - SJC_70
   - CMCC-IPV6_15
-  - SJC_71
+  - 官方优选_10
+  - HK_11
+  - PL_1
+  - NL_7
   - CMCC-IPV6_16
+  - NL_8
+  - GB_1
   - CMCC-IPV6_17
-  - SJC_72
-  - SJC_73
-  - SJC_74
+  - HK_12
   - CMCC-IPV6_18
-  - SJC_75
-  - TPE_2
-  - SJC_76
-  - SJC_77
+  - FR_2
+  - TW_5
+  - HK_13
   - CMCC-IPV6_19
+  - HK_14
+  - FR_3
   - CMCC-IPV6_20
+  - PL_2
+  - US_23
+  - DE_1
+  - HK_15
   - CMCC-IPV6_21
   - CMCC-IPV6_22
   - CMCC-IPV6_23
-  - SJC_78
-  - CMCC-IPV6_24
+  - DE_2
+  - US_24
   - US_25
-  - SJC_79
-  - SJC_80
-  - AMS
-  - 官方优选_20
+  - CMCC-IPV6_24
+  - DE_3
+  - DE_4
+  - GB_2
+  - DE_5
+  - DE_6
+  - DE_7
+  - FR_4
+  - DE_8
   - CMCC-IPV6_25
-  - ORD
-  - US_26
-  - PL_2
+  - CN_1
+  - HK_16
+  - DE_9
   - CMCC-IPV6_26
-  - SJC_81
-  - US_27
-  - US_28
   - CMCC-IPV6_27
-  - SJC_82
+  - CN_2
   - CMCC-IPV6_28
-  - LAX_3
-  - US_29
   - CMCC-IPV6_29
-  - SJC_83
-  - SJC_84
-  - US_30
-  - VNO
+  - DE_10
+  - IN_1
   - CMCC-IPV6_30
-  - SJC_85
-  - SEA
-  - US_31
-  - JP_5
-  - SG_5
-  - NRT_7
-  - SIN_2
-  - HK_5
-  - JP_6
-  - HKG_10
-  - SG_6
-  - SIN_3
-  - SG_7
-  - SIN_4
-  - US_32
-  - SIN_5
-  - NRT_8
-  - ICN_13
-  - NRT_9
-  - PL_3
+  - CMCC-IPV6_31
+  - CMCC-IPV6_32
+  - IN_2
+  - HK_17
+  - HK_18
+  - HK_19
+  - HK_20
+  - US_26
+  - CMCC-IPV6_33
+  - CMCC-IPV6_34
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -4170,1097 +2405,617 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - HKG_1
   - HK_1
-  - HK_2
-  - HKG_2
-  - HKG_3
-  - HK_3
-  - HKG_4
-  - HKG_5
-  - HKG_6
-  - HKG_7
-  - HKG_8
-  - HKG_9
   - SG_1
-  - JP_1
-  - HK_4
-  - NRT_1
-  - NRT_2
-  - NRT_3
-  - NRT_4
-  - SIN_1
-  - JP_2
-  - JP_3
-  - KR_1
-  - KR_2
-  - NRT_5
-  - '|2.46Mb'
-  - TPE_1
-  - TW_1
+  - HK_2
   - US_1
-  - FUK_1
+  - SG_2
+  - HK_3
+  - HK_4
   - US_2
-  - LHR
+  - HK_5
+  - JP_1
+  - HK_6
+  - TW_1
+  - US_3
+  - US_4
+  - KR_1
+  - US_5
+  - HK_7
+  - KR_2
   - KR_3
-  - ICN_1
   - KR_4
-  - FUK_2
-  - ICN_2
-  - LAX_1
-  - ICN_3
-  - ICN_4
-  - ICN_5
+  - SG_3
+  - TW_2
+  - SG_4
+  - TW_3
   - KR_5
-  - ICN_6
-  - FUK_3
-  - ICN_7
-  - FUK_4
   - KR_6
   - KR_7
-  - KR_8
-  - ICN_8
-  - ICN_9
-  - ICN_10
-  - FUK_5
-  - FUK_6
-  - TW_2
-  - ICN_11
-  - ICN_12
-  - SG_2
-  - PL_1
-  - US_3
-  - JP_4
-  - SJC_1
-  - CMCC-IPV6_1
-  - AT_1
-  - US_4
-  - SJC_2
-  - US_5
+  - NL_1
+  - NL_2
   - US_6
-  - 官方优选_1
-  - SG_3
-  - AT_2
-  - SJC_3
   - US_7
-  - 官方优选_2
-  - SJC_4
-  - SJC_5
-  - NRT_6
-  - SJC_6
-  - 官方优选_3
-  - SJC_7
-  - SG_4
+  - NL_3
   - US_8
-  - AT_3
+  - NL_4
   - US_9
-  - SJC_8
-  - SJC_9
-  - SJC_10
-  - RU_1
-  - RU_2
-  - SJC_11
-  - 官方优选_4
-  - GB_1
   - US_10
-  - CMCC-IPV6_2
-  - SJC_12
-  - SJC_13
-  - 官方优选_5
-  - SJC_14
-  - 官方优选_6
-  - SJC_15
-  - SJC_16
-  - SJC_17
   - US_11
-  - 官方优选_7
-  - SJC_18
   - US_12
-  - 官方优选_8
-  - 官方优选_9
-  - SJC_19
+  - JP_2
   - US_13
-  - KR_9
-  - GB_2
-  - AT_4
-  - BR_1
-  - AT_5
-  - SJC_20
-  - SJC_21
-  - SJC_22
-  - SJC_23
+  - 64.49.46.181_1
   - US_14
-  - SJC_24
-  - SJC_25
-  - SJC_26
-  - 官方优选_10
-  - 官方优选_11
   - US_15
   - US_16
+  - 64.49.47.64_1
+  - 23.169.184.123_1
+  - HK_8
+  - JP_3
+  - JP_4
+  - CMCC-IPV6_1
+  - HK_9
+  - 64.49.47.64_2
+  - 23.169.184.123_2
+  - JP_5
   - US_17
   - US_18
-  - SJC_27
-  - SJC_28
-  - SJC_29
-  - 官方优选_12
-  - 电信🌐优选🌐群组™️™️™️：t.me/amber6hua_1
-  - SJC_30
-  - 官方优选_13
-  - AT_6
-  - CMCC-IPV6_3
-  - SJC_31
-  - SJC_32
-  - CMCC-IPV6_4
-  - CMCC-IPV6_5
-  - SJC_33
-  - SJC_34
-  - 电信🌐优选🌐群组™️™️™️：t.me/amber6hua_2
-  - CMCC-IPV6_6
+  - CMCC-IPV6_2
+  - 64.49.46.181_2
+  - 官方优选_1
   - US_19
-  - SJC_35
-  - SJC_36
-  - SJC_37
+  - 美国_1
+  - CMCC-IPV6_3
   - US_20
-  - BR_2
-  - CMCC-IPV6_7
-  - CMCC-IPV6_8
-  - SJC_38
-  - GB_3
-  - SJC_39
-  - SJC_40
-  - SJC_41
-  - CMCC-IPV6_9
-  - SJC_42
-  - SJC_43
-  - SJC_44
+  - 官方优选_2
+  - 官方优选_3
   - US_21
-  - 官方优选_14
-  - SJC_45
-  - SJC_46
-  - SJC_47
-  - 官方优选_15
-  - SJC_48
-  - SJC_49
-  - CMCC-IPV6_10
-  - SJC_50
-  - SJC_51
-  - SJC_52
-  - CMCC-IPV6_11
-  - 官方优选_16
-  - SJC_53
-  - SJC_54
-  - 官方优选_17
-  - SJC_55
+  - 美国_2
+  - CMCC-IPV6_4
+  - TW_4
+  - 官方优选_4
+  - NL_5
+  - CMCC-IPV6_5
+  - CMCC-IPV6_6
+  - CMCC-IPV6_7
+  - 官方优选_5
+  - HK_10
+  - 官方优选_6
+  - 官方优选_7
+  - CMCC-IPV6_8
+  - 官方优选_8
   - US_22
-  - SJC_56
-  - US_23
-  - GB_4
-  - LAX_2
-  - SJC_57
-  - 官方优选_18
-  - SJC_58
-  - SJC_59
-  - 官方优选_19
-  - SJC_60
-  - SJC_61
-  - SJC_62
-  - SJC_63
+  - NL_6
+  - 官方优选_9
+  - CMCC-IPV6_9
+  - CMCC-IPV6_10
+  - CMCC-IPV6_11
+  - FR_1
   - CMCC-IPV6_12
-  - SJC_64
-  - US_24
   - CMCC-IPV6_13
-  - SJC_65
-  - SJC_66
-  - SJC_67
   - CMCC-IPV6_14
-  - SJC_68
-  - SJC_69
-  - SJC_70
   - CMCC-IPV6_15
-  - SJC_71
+  - 官方优选_10
+  - HK_11
+  - PL_1
+  - NL_7
   - CMCC-IPV6_16
+  - NL_8
+  - GB_1
   - CMCC-IPV6_17
-  - SJC_72
-  - SJC_73
-  - SJC_74
+  - HK_12
   - CMCC-IPV6_18
-  - SJC_75
-  - TPE_2
-  - SJC_76
-  - SJC_77
+  - FR_2
+  - TW_5
+  - HK_13
   - CMCC-IPV6_19
+  - HK_14
+  - FR_3
   - CMCC-IPV6_20
+  - PL_2
+  - US_23
+  - DE_1
+  - HK_15
   - CMCC-IPV6_21
   - CMCC-IPV6_22
   - CMCC-IPV6_23
-  - SJC_78
-  - CMCC-IPV6_24
+  - DE_2
+  - US_24
   - US_25
-  - SJC_79
-  - SJC_80
-  - AMS
-  - 官方优选_20
+  - CMCC-IPV6_24
+  - DE_3
+  - DE_4
+  - GB_2
+  - DE_5
+  - DE_6
+  - DE_7
+  - FR_4
+  - DE_8
   - CMCC-IPV6_25
-  - ORD
-  - US_26
-  - PL_2
+  - CN_1
+  - HK_16
+  - DE_9
   - CMCC-IPV6_26
-  - SJC_81
-  - US_27
-  - US_28
   - CMCC-IPV6_27
-  - SJC_82
+  - CN_2
   - CMCC-IPV6_28
-  - LAX_3
-  - US_29
   - CMCC-IPV6_29
-  - SJC_83
-  - SJC_84
-  - US_30
-  - VNO
+  - DE_10
+  - IN_1
   - CMCC-IPV6_30
-  - SJC_85
-  - SEA
-  - US_31
-  - JP_5
-  - SG_5
-  - NRT_7
-  - SIN_2
-  - HK_5
-  - JP_6
-  - HKG_10
-  - SG_6
-  - SIN_3
-  - SG_7
-  - SIN_4
-  - US_32
-  - SIN_5
-  - NRT_8
-  - ICN_13
-  - NRT_9
-  - PL_3
+  - CMCC-IPV6_31
+  - CMCC-IPV6_32
+  - IN_2
+  - HK_17
+  - HK_18
+  - HK_19
+  - HK_20
+  - US_26
+  - CMCC-IPV6_33
+  - CMCC-IPV6_34
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - HKG_1
   - HK_1
-  - HK_2
-  - HKG_2
-  - HKG_3
-  - HK_3
-  - HKG_4
-  - HKG_5
-  - HKG_6
-  - HKG_7
-  - HKG_8
-  - HKG_9
   - SG_1
-  - JP_1
-  - HK_4
-  - NRT_1
-  - NRT_2
-  - NRT_3
-  - NRT_4
-  - SIN_1
-  - JP_2
-  - JP_3
-  - KR_1
-  - KR_2
-  - NRT_5
-  - '|2.46Mb'
-  - TPE_1
-  - TW_1
+  - HK_2
   - US_1
-  - FUK_1
+  - SG_2
+  - HK_3
+  - HK_4
   - US_2
-  - LHR
+  - HK_5
+  - JP_1
+  - HK_6
+  - TW_1
+  - US_3
+  - US_4
+  - KR_1
+  - US_5
+  - HK_7
+  - KR_2
   - KR_3
-  - ICN_1
   - KR_4
-  - FUK_2
-  - ICN_2
-  - LAX_1
-  - ICN_3
-  - ICN_4
-  - ICN_5
+  - SG_3
+  - TW_2
+  - SG_4
+  - TW_3
   - KR_5
-  - ICN_6
-  - FUK_3
-  - ICN_7
-  - FUK_4
   - KR_6
   - KR_7
-  - KR_8
-  - ICN_8
-  - ICN_9
-  - ICN_10
-  - FUK_5
-  - FUK_6
-  - TW_2
-  - ICN_11
-  - ICN_12
-  - SG_2
-  - PL_1
-  - US_3
-  - JP_4
-  - SJC_1
-  - CMCC-IPV6_1
-  - AT_1
-  - US_4
-  - SJC_2
-  - US_5
+  - NL_1
+  - NL_2
   - US_6
-  - 官方优选_1
-  - SG_3
-  - AT_2
-  - SJC_3
   - US_7
-  - 官方优选_2
-  - SJC_4
-  - SJC_5
-  - NRT_6
-  - SJC_6
-  - 官方优选_3
-  - SJC_7
-  - SG_4
+  - NL_3
   - US_8
-  - AT_3
+  - NL_4
   - US_9
-  - SJC_8
-  - SJC_9
-  - SJC_10
-  - RU_1
-  - RU_2
-  - SJC_11
-  - 官方优选_4
-  - GB_1
   - US_10
-  - CMCC-IPV6_2
-  - SJC_12
-  - SJC_13
-  - 官方优选_5
-  - SJC_14
-  - 官方优选_6
-  - SJC_15
-  - SJC_16
-  - SJC_17
   - US_11
-  - 官方优选_7
-  - SJC_18
   - US_12
-  - 官方优选_8
-  - 官方优选_9
-  - SJC_19
+  - JP_2
   - US_13
-  - KR_9
-  - GB_2
-  - AT_4
-  - BR_1
-  - AT_5
-  - SJC_20
-  - SJC_21
-  - SJC_22
-  - SJC_23
+  - 64.49.46.181_1
   - US_14
-  - SJC_24
-  - SJC_25
-  - SJC_26
-  - 官方优选_10
-  - 官方优选_11
   - US_15
   - US_16
+  - 64.49.47.64_1
+  - 23.169.184.123_1
+  - HK_8
+  - JP_3
+  - JP_4
+  - CMCC-IPV6_1
+  - HK_9
+  - 64.49.47.64_2
+  - 23.169.184.123_2
+  - JP_5
   - US_17
   - US_18
-  - SJC_27
-  - SJC_28
-  - SJC_29
-  - 官方优选_12
-  - 电信🌐优选🌐群组™️™️™️：t.me/amber6hua_1
-  - SJC_30
-  - 官方优选_13
-  - AT_6
-  - CMCC-IPV6_3
-  - SJC_31
-  - SJC_32
-  - CMCC-IPV6_4
-  - CMCC-IPV6_5
-  - SJC_33
-  - SJC_34
-  - 电信🌐优选🌐群组™️™️™️：t.me/amber6hua_2
-  - CMCC-IPV6_6
+  - CMCC-IPV6_2
+  - 64.49.46.181_2
+  - 官方优选_1
   - US_19
-  - SJC_35
-  - SJC_36
-  - SJC_37
+  - 美国_1
+  - CMCC-IPV6_3
   - US_20
-  - BR_2
-  - CMCC-IPV6_7
-  - CMCC-IPV6_8
-  - SJC_38
-  - GB_3
-  - SJC_39
-  - SJC_40
-  - SJC_41
-  - CMCC-IPV6_9
-  - SJC_42
-  - SJC_43
-  - SJC_44
+  - 官方优选_2
+  - 官方优选_3
   - US_21
-  - 官方优选_14
-  - SJC_45
-  - SJC_46
-  - SJC_47
-  - 官方优选_15
-  - SJC_48
-  - SJC_49
-  - CMCC-IPV6_10
-  - SJC_50
-  - SJC_51
-  - SJC_52
-  - CMCC-IPV6_11
-  - 官方优选_16
-  - SJC_53
-  - SJC_54
-  - 官方优选_17
-  - SJC_55
+  - 美国_2
+  - CMCC-IPV6_4
+  - TW_4
+  - 官方优选_4
+  - NL_5
+  - CMCC-IPV6_5
+  - CMCC-IPV6_6
+  - CMCC-IPV6_7
+  - 官方优选_5
+  - HK_10
+  - 官方优选_6
+  - 官方优选_7
+  - CMCC-IPV6_8
+  - 官方优选_8
   - US_22
-  - SJC_56
-  - US_23
-  - GB_4
-  - LAX_2
-  - SJC_57
-  - 官方优选_18
-  - SJC_58
-  - SJC_59
-  - 官方优选_19
-  - SJC_60
-  - SJC_61
-  - SJC_62
-  - SJC_63
+  - NL_6
+  - 官方优选_9
+  - CMCC-IPV6_9
+  - CMCC-IPV6_10
+  - CMCC-IPV6_11
+  - FR_1
   - CMCC-IPV6_12
-  - SJC_64
-  - US_24
   - CMCC-IPV6_13
-  - SJC_65
-  - SJC_66
-  - SJC_67
   - CMCC-IPV6_14
-  - SJC_68
-  - SJC_69
-  - SJC_70
   - CMCC-IPV6_15
-  - SJC_71
+  - 官方优选_10
+  - HK_11
+  - PL_1
+  - NL_7
   - CMCC-IPV6_16
+  - NL_8
+  - GB_1
   - CMCC-IPV6_17
-  - SJC_72
-  - SJC_73
-  - SJC_74
+  - HK_12
   - CMCC-IPV6_18
-  - SJC_75
-  - TPE_2
-  - SJC_76
-  - SJC_77
+  - FR_2
+  - TW_5
+  - HK_13
   - CMCC-IPV6_19
+  - HK_14
+  - FR_3
   - CMCC-IPV6_20
+  - PL_2
+  - US_23
+  - DE_1
+  - HK_15
   - CMCC-IPV6_21
   - CMCC-IPV6_22
   - CMCC-IPV6_23
-  - SJC_78
-  - CMCC-IPV6_24
+  - DE_2
+  - US_24
   - US_25
-  - SJC_79
-  - SJC_80
-  - AMS
-  - 官方优选_20
+  - CMCC-IPV6_24
+  - DE_3
+  - DE_4
+  - GB_2
+  - DE_5
+  - DE_6
+  - DE_7
+  - FR_4
+  - DE_8
   - CMCC-IPV6_25
-  - ORD
-  - US_26
-  - PL_2
+  - CN_1
+  - HK_16
+  - DE_9
   - CMCC-IPV6_26
-  - SJC_81
-  - US_27
-  - US_28
   - CMCC-IPV6_27
-  - SJC_82
+  - CN_2
   - CMCC-IPV6_28
-  - LAX_3
-  - US_29
   - CMCC-IPV6_29
-  - SJC_83
-  - SJC_84
-  - US_30
-  - VNO
+  - DE_10
+  - IN_1
   - CMCC-IPV6_30
-  - SJC_85
-  - SEA
-  - US_31
-  - JP_5
-  - SG_5
-  - NRT_7
-  - SIN_2
-  - HK_5
-  - JP_6
-  - HKG_10
-  - SG_6
-  - SIN_3
-  - SG_7
-  - SIN_4
-  - US_32
-  - SIN_5
-  - NRT_8
-  - ICN_13
-  - NRT_9
-  - PL_3
+  - CMCC-IPV6_31
+  - CMCC-IPV6_32
+  - IN_2
+  - HK_17
+  - HK_18
+  - HK_19
+  - HK_20
+  - US_26
+  - CMCC-IPV6_33
+  - CMCC-IPV6_34
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - HKG_1
   - HK_1
-  - HK_2
-  - HKG_2
-  - HKG_3
-  - HK_3
-  - HKG_4
-  - HKG_5
-  - HKG_6
-  - HKG_7
-  - HKG_8
-  - HKG_9
   - SG_1
-  - JP_1
-  - HK_4
-  - NRT_1
-  - NRT_2
-  - NRT_3
-  - NRT_4
-  - SIN_1
-  - JP_2
-  - JP_3
-  - KR_1
-  - KR_2
-  - NRT_5
-  - '|2.46Mb'
-  - TPE_1
-  - TW_1
+  - HK_2
   - US_1
-  - FUK_1
+  - SG_2
+  - HK_3
+  - HK_4
   - US_2
-  - LHR
+  - HK_5
+  - JP_1
+  - HK_6
+  - TW_1
+  - US_3
+  - US_4
+  - KR_1
+  - US_5
+  - HK_7
+  - KR_2
   - KR_3
-  - ICN_1
   - KR_4
-  - FUK_2
-  - ICN_2
-  - LAX_1
-  - ICN_3
-  - ICN_4
-  - ICN_5
+  - SG_3
+  - TW_2
+  - SG_4
+  - TW_3
   - KR_5
-  - ICN_6
-  - FUK_3
-  - ICN_7
-  - FUK_4
   - KR_6
   - KR_7
-  - KR_8
-  - ICN_8
-  - ICN_9
-  - ICN_10
-  - FUK_5
-  - FUK_6
-  - TW_2
-  - ICN_11
-  - ICN_12
-  - SG_2
-  - PL_1
-  - US_3
-  - JP_4
-  - SJC_1
-  - CMCC-IPV6_1
-  - AT_1
-  - US_4
-  - SJC_2
-  - US_5
+  - NL_1
+  - NL_2
   - US_6
-  - 官方优选_1
-  - SG_3
-  - AT_2
-  - SJC_3
   - US_7
-  - 官方优选_2
-  - SJC_4
-  - SJC_5
-  - NRT_6
-  - SJC_6
-  - 官方优选_3
-  - SJC_7
-  - SG_4
+  - NL_3
   - US_8
-  - AT_3
+  - NL_4
   - US_9
-  - SJC_8
-  - SJC_9
-  - SJC_10
-  - RU_1
-  - RU_2
-  - SJC_11
-  - 官方优选_4
-  - GB_1
   - US_10
-  - CMCC-IPV6_2
-  - SJC_12
-  - SJC_13
-  - 官方优选_5
-  - SJC_14
-  - 官方优选_6
-  - SJC_15
-  - SJC_16
-  - SJC_17
   - US_11
-  - 官方优选_7
-  - SJC_18
   - US_12
-  - 官方优选_8
-  - 官方优选_9
-  - SJC_19
+  - JP_2
   - US_13
-  - KR_9
-  - GB_2
-  - AT_4
-  - BR_1
-  - AT_5
-  - SJC_20
-  - SJC_21
-  - SJC_22
-  - SJC_23
+  - 64.49.46.181_1
   - US_14
-  - SJC_24
-  - SJC_25
-  - SJC_26
-  - 官方优选_10
-  - 官方优选_11
   - US_15
   - US_16
+  - 64.49.47.64_1
+  - 23.169.184.123_1
+  - HK_8
+  - JP_3
+  - JP_4
+  - CMCC-IPV6_1
+  - HK_9
+  - 64.49.47.64_2
+  - 23.169.184.123_2
+  - JP_5
   - US_17
   - US_18
-  - SJC_27
-  - SJC_28
-  - SJC_29
-  - 官方优选_12
-  - 电信🌐优选🌐群组™️™️™️：t.me/amber6hua_1
-  - SJC_30
-  - 官方优选_13
-  - AT_6
-  - CMCC-IPV6_3
-  - SJC_31
-  - SJC_32
-  - CMCC-IPV6_4
-  - CMCC-IPV6_5
-  - SJC_33
-  - SJC_34
-  - 电信🌐优选🌐群组™️™️™️：t.me/amber6hua_2
-  - CMCC-IPV6_6
+  - CMCC-IPV6_2
+  - 64.49.46.181_2
+  - 官方优选_1
   - US_19
-  - SJC_35
-  - SJC_36
-  - SJC_37
+  - 美国_1
+  - CMCC-IPV6_3
   - US_20
-  - BR_2
-  - CMCC-IPV6_7
-  - CMCC-IPV6_8
-  - SJC_38
-  - GB_3
-  - SJC_39
-  - SJC_40
-  - SJC_41
-  - CMCC-IPV6_9
-  - SJC_42
-  - SJC_43
-  - SJC_44
+  - 官方优选_2
+  - 官方优选_3
   - US_21
-  - 官方优选_14
-  - SJC_45
-  - SJC_46
-  - SJC_47
-  - 官方优选_15
-  - SJC_48
-  - SJC_49
-  - CMCC-IPV6_10
-  - SJC_50
-  - SJC_51
-  - SJC_52
-  - CMCC-IPV6_11
-  - 官方优选_16
-  - SJC_53
-  - SJC_54
-  - 官方优选_17
-  - SJC_55
+  - 美国_2
+  - CMCC-IPV6_4
+  - TW_4
+  - 官方优选_4
+  - NL_5
+  - CMCC-IPV6_5
+  - CMCC-IPV6_6
+  - CMCC-IPV6_7
+  - 官方优选_5
+  - HK_10
+  - 官方优选_6
+  - 官方优选_7
+  - CMCC-IPV6_8
+  - 官方优选_8
   - US_22
-  - SJC_56
-  - US_23
-  - GB_4
-  - LAX_2
-  - SJC_57
-  - 官方优选_18
-  - SJC_58
-  - SJC_59
-  - 官方优选_19
-  - SJC_60
-  - SJC_61
-  - SJC_62
-  - SJC_63
+  - NL_6
+  - 官方优选_9
+  - CMCC-IPV6_9
+  - CMCC-IPV6_10
+  - CMCC-IPV6_11
+  - FR_1
   - CMCC-IPV6_12
-  - SJC_64
-  - US_24
   - CMCC-IPV6_13
-  - SJC_65
-  - SJC_66
-  - SJC_67
   - CMCC-IPV6_14
-  - SJC_68
-  - SJC_69
-  - SJC_70
   - CMCC-IPV6_15
-  - SJC_71
+  - 官方优选_10
+  - HK_11
+  - PL_1
+  - NL_7
   - CMCC-IPV6_16
+  - NL_8
+  - GB_1
   - CMCC-IPV6_17
-  - SJC_72
-  - SJC_73
-  - SJC_74
+  - HK_12
   - CMCC-IPV6_18
-  - SJC_75
-  - TPE_2
-  - SJC_76
-  - SJC_77
+  - FR_2
+  - TW_5
+  - HK_13
   - CMCC-IPV6_19
+  - HK_14
+  - FR_3
   - CMCC-IPV6_20
+  - PL_2
+  - US_23
+  - DE_1
+  - HK_15
   - CMCC-IPV6_21
   - CMCC-IPV6_22
   - CMCC-IPV6_23
-  - SJC_78
-  - CMCC-IPV6_24
+  - DE_2
+  - US_24
   - US_25
-  - SJC_79
-  - SJC_80
-  - AMS
-  - 官方优选_20
+  - CMCC-IPV6_24
+  - DE_3
+  - DE_4
+  - GB_2
+  - DE_5
+  - DE_6
+  - DE_7
+  - FR_4
+  - DE_8
   - CMCC-IPV6_25
-  - ORD
-  - US_26
-  - PL_2
+  - CN_1
+  - HK_16
+  - DE_9
   - CMCC-IPV6_26
-  - SJC_81
-  - US_27
-  - US_28
   - CMCC-IPV6_27
-  - SJC_82
+  - CN_2
   - CMCC-IPV6_28
-  - LAX_3
-  - US_29
   - CMCC-IPV6_29
-  - SJC_83
-  - SJC_84
-  - US_30
-  - VNO
+  - DE_10
+  - IN_1
   - CMCC-IPV6_30
-  - SJC_85
-  - SEA
-  - US_31
-  - JP_5
-  - SG_5
-  - NRT_7
-  - SIN_2
-  - HK_5
-  - JP_6
-  - HKG_10
-  - SG_6
-  - SIN_3
-  - SG_7
-  - SIN_4
-  - US_32
-  - SIN_5
-  - NRT_8
-  - ICN_13
-  - NRT_9
-  - PL_3
+  - CMCC-IPV6_31
+  - CMCC-IPV6_32
+  - IN_2
+  - HK_17
+  - HK_18
+  - HK_19
+  - HK_20
+  - US_26
+  - CMCC-IPV6_33
+  - CMCC-IPV6_34
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - HKG_1
   - HK_1
-  - HK_2
-  - HKG_2
-  - HKG_3
-  - HK_3
-  - HKG_4
-  - HKG_5
-  - HKG_6
-  - HKG_7
-  - HKG_8
-  - HKG_9
   - SG_1
-  - JP_1
-  - HK_4
-  - NRT_1
-  - NRT_2
-  - NRT_3
-  - NRT_4
-  - SIN_1
-  - JP_2
-  - JP_3
-  - KR_1
-  - KR_2
-  - NRT_5
-  - '|2.46Mb'
-  - TPE_1
-  - TW_1
+  - HK_2
   - US_1
-  - FUK_1
+  - SG_2
+  - HK_3
+  - HK_4
   - US_2
-  - LHR
+  - HK_5
+  - JP_1
+  - HK_6
+  - TW_1
+  - US_3
+  - US_4
+  - KR_1
+  - US_5
+  - HK_7
+  - KR_2
   - KR_3
-  - ICN_1
   - KR_4
-  - FUK_2
-  - ICN_2
-  - LAX_1
-  - ICN_3
-  - ICN_4
-  - ICN_5
+  - SG_3
+  - TW_2
+  - SG_4
+  - TW_3
   - KR_5
-  - ICN_6
-  - FUK_3
-  - ICN_7
-  - FUK_4
   - KR_6
   - KR_7
-  - KR_8
-  - ICN_8
-  - ICN_9
-  - ICN_10
-  - FUK_5
-  - FUK_6
-  - TW_2
-  - ICN_11
-  - ICN_12
-  - SG_2
-  - PL_1
-  - US_3
-  - JP_4
-  - SJC_1
-  - CMCC-IPV6_1
-  - AT_1
-  - US_4
-  - SJC_2
-  - US_5
+  - NL_1
+  - NL_2
   - US_6
-  - 官方优选_1
-  - SG_3
-  - AT_2
-  - SJC_3
   - US_7
-  - 官方优选_2
-  - SJC_4
-  - SJC_5
-  - NRT_6
-  - SJC_6
-  - 官方优选_3
-  - SJC_7
-  - SG_4
+  - NL_3
   - US_8
-  - AT_3
+  - NL_4
   - US_9
-  - SJC_8
-  - SJC_9
-  - SJC_10
-  - RU_1
-  - RU_2
-  - SJC_11
-  - 官方优选_4
-  - GB_1
   - US_10
-  - CMCC-IPV6_2
-  - SJC_12
-  - SJC_13
-  - 官方优选_5
-  - SJC_14
-  - 官方优选_6
-  - SJC_15
-  - SJC_16
-  - SJC_17
   - US_11
-  - 官方优选_7
-  - SJC_18
   - US_12
-  - 官方优选_8
-  - 官方优选_9
-  - SJC_19
+  - JP_2
   - US_13
-  - KR_9
-  - GB_2
-  - AT_4
-  - BR_1
-  - AT_5
-  - SJC_20
-  - SJC_21
-  - SJC_22
-  - SJC_23
+  - 64.49.46.181_1
   - US_14
-  - SJC_24
-  - SJC_25
-  - SJC_26
-  - 官方优选_10
-  - 官方优选_11
   - US_15
   - US_16
+  - 64.49.47.64_1
+  - 23.169.184.123_1
+  - HK_8
+  - JP_3
+  - JP_4
+  - CMCC-IPV6_1
+  - HK_9
+  - 64.49.47.64_2
+  - 23.169.184.123_2
+  - JP_5
   - US_17
   - US_18
-  - SJC_27
-  - SJC_28
-  - SJC_29
-  - 官方优选_12
-  - 电信🌐优选🌐群组™️™️™️：t.me/amber6hua_1
-  - SJC_30
-  - 官方优选_13
-  - AT_6
-  - CMCC-IPV6_3
-  - SJC_31
-  - SJC_32
-  - CMCC-IPV6_4
-  - CMCC-IPV6_5
-  - SJC_33
-  - SJC_34
-  - 电信🌐优选🌐群组™️™️™️：t.me/amber6hua_2
-  - CMCC-IPV6_6
+  - CMCC-IPV6_2
+  - 64.49.46.181_2
+  - 官方优选_1
   - US_19
-  - SJC_35
-  - SJC_36
-  - SJC_37
+  - 美国_1
+  - CMCC-IPV6_3
   - US_20
-  - BR_2
-  - CMCC-IPV6_7
-  - CMCC-IPV6_8
-  - SJC_38
-  - GB_3
-  - SJC_39
-  - SJC_40
-  - SJC_41
-  - CMCC-IPV6_9
-  - SJC_42
-  - SJC_43
-  - SJC_44
+  - 官方优选_2
+  - 官方优选_3
   - US_21
-  - 官方优选_14
-  - SJC_45
-  - SJC_46
-  - SJC_47
-  - 官方优选_15
-  - SJC_48
-  - SJC_49
-  - CMCC-IPV6_10
-  - SJC_50
-  - SJC_51
-  - SJC_52
-  - CMCC-IPV6_11
-  - 官方优选_16
-  - SJC_53
-  - SJC_54
-  - 官方优选_17
-  - SJC_55
+  - 美国_2
+  - CMCC-IPV6_4
+  - TW_4
+  - 官方优选_4
+  - NL_5
+  - CMCC-IPV6_5
+  - CMCC-IPV6_6
+  - CMCC-IPV6_7
+  - 官方优选_5
+  - HK_10
+  - 官方优选_6
+  - 官方优选_7
+  - CMCC-IPV6_8
+  - 官方优选_8
   - US_22
-  - SJC_56
-  - US_23
-  - GB_4
-  - LAX_2
-  - SJC_57
-  - 官方优选_18
-  - SJC_58
-  - SJC_59
-  - 官方优选_19
-  - SJC_60
-  - SJC_61
-  - SJC_62
-  - SJC_63
+  - NL_6
+  - 官方优选_9
+  - CMCC-IPV6_9
+  - CMCC-IPV6_10
+  - CMCC-IPV6_11
+  - FR_1
   - CMCC-IPV6_12
-  - SJC_64
-  - US_24
   - CMCC-IPV6_13
-  - SJC_65
-  - SJC_66
-  - SJC_67
   - CMCC-IPV6_14
-  - SJC_68
-  - SJC_69
-  - SJC_70
   - CMCC-IPV6_15
-  - SJC_71
+  - 官方优选_10
+  - HK_11
+  - PL_1
+  - NL_7
   - CMCC-IPV6_16
+  - NL_8
+  - GB_1
   - CMCC-IPV6_17
-  - SJC_72
-  - SJC_73
-  - SJC_74
+  - HK_12
   - CMCC-IPV6_18
-  - SJC_75
-  - TPE_2
-  - SJC_76
-  - SJC_77
+  - FR_2
+  - TW_5
+  - HK_13
   - CMCC-IPV6_19
+  - HK_14
+  - FR_3
   - CMCC-IPV6_20
+  - PL_2
+  - US_23
+  - DE_1
+  - HK_15
   - CMCC-IPV6_21
   - CMCC-IPV6_22
   - CMCC-IPV6_23
-  - SJC_78
-  - CMCC-IPV6_24
+  - DE_2
+  - US_24
   - US_25
-  - SJC_79
-  - SJC_80
-  - AMS
-  - 官方优选_20
+  - CMCC-IPV6_24
+  - DE_3
+  - DE_4
+  - GB_2
+  - DE_5
+  - DE_6
+  - DE_7
+  - FR_4
+  - DE_8
   - CMCC-IPV6_25
-  - ORD
-  - US_26
-  - PL_2
+  - CN_1
+  - HK_16
+  - DE_9
   - CMCC-IPV6_26
-  - SJC_81
-  - US_27
-  - US_28
   - CMCC-IPV6_27
-  - SJC_82
+  - CN_2
   - CMCC-IPV6_28
-  - LAX_3
-  - US_29
   - CMCC-IPV6_29
-  - SJC_83
-  - SJC_84
-  - US_30
-  - VNO
+  - DE_10
+  - IN_1
   - CMCC-IPV6_30
-  - SJC_85
-  - SEA
-  - US_31
-  - JP_5
-  - SG_5
-  - NRT_7
-  - SIN_2
-  - HK_5
-  - JP_6
-  - HKG_10
-  - SG_6
-  - SIN_3
-  - SG_7
-  - SIN_4
-  - US_32
-  - SIN_5
-  - NRT_8
-  - ICN_13
-  - NRT_9
-  - PL_3
+  - CMCC-IPV6_31
+  - CMCC-IPV6_32
+  - IN_2
+  - HK_17
+  - HK_18
+  - HK_19
+  - HK_20
+  - US_26
+  - CMCC-IPV6_33
+  - CMCC-IPV6_34
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -5283,275 +3038,155 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - HKG_1
   - HK_1
-  - HK_2
-  - HKG_2
-  - HKG_3
-  - HK_3
-  - HKG_4
-  - HKG_5
-  - HKG_6
-  - HKG_7
-  - HKG_8
-  - HKG_9
   - SG_1
-  - JP_1
-  - HK_4
-  - NRT_1
-  - NRT_2
-  - NRT_3
-  - NRT_4
-  - SIN_1
-  - JP_2
-  - JP_3
-  - KR_1
-  - KR_2
-  - NRT_5
-  - '|2.46Mb'
-  - TPE_1
-  - TW_1
+  - HK_2
   - US_1
-  - FUK_1
+  - SG_2
+  - HK_3
+  - HK_4
   - US_2
-  - LHR
+  - HK_5
+  - JP_1
+  - HK_6
+  - TW_1
+  - US_3
+  - US_4
+  - KR_1
+  - US_5
+  - HK_7
+  - KR_2
   - KR_3
-  - ICN_1
   - KR_4
-  - FUK_2
-  - ICN_2
-  - LAX_1
-  - ICN_3
-  - ICN_4
-  - ICN_5
+  - SG_3
+  - TW_2
+  - SG_4
+  - TW_3
   - KR_5
-  - ICN_6
-  - FUK_3
-  - ICN_7
-  - FUK_4
   - KR_6
   - KR_7
-  - KR_8
-  - ICN_8
-  - ICN_9
-  - ICN_10
-  - FUK_5
-  - FUK_6
-  - TW_2
-  - ICN_11
-  - ICN_12
-  - SG_2
-  - PL_1
-  - US_3
-  - JP_4
-  - SJC_1
-  - CMCC-IPV6_1
-  - AT_1
-  - US_4
-  - SJC_2
-  - US_5
+  - NL_1
+  - NL_2
   - US_6
-  - 官方优选_1
-  - SG_3
-  - AT_2
-  - SJC_3
   - US_7
-  - 官方优选_2
-  - SJC_4
-  - SJC_5
-  - NRT_6
-  - SJC_6
-  - 官方优选_3
-  - SJC_7
-  - SG_4
+  - NL_3
   - US_8
-  - AT_3
+  - NL_4
   - US_9
-  - SJC_8
-  - SJC_9
-  - SJC_10
-  - RU_1
-  - RU_2
-  - SJC_11
-  - 官方优选_4
-  - GB_1
   - US_10
-  - CMCC-IPV6_2
-  - SJC_12
-  - SJC_13
-  - 官方优选_5
-  - SJC_14
-  - 官方优选_6
-  - SJC_15
-  - SJC_16
-  - SJC_17
   - US_11
-  - 官方优选_7
-  - SJC_18
   - US_12
-  - 官方优选_8
-  - 官方优选_9
-  - SJC_19
+  - JP_2
   - US_13
-  - KR_9
-  - GB_2
-  - AT_4
-  - BR_1
-  - AT_5
-  - SJC_20
-  - SJC_21
-  - SJC_22
-  - SJC_23
+  - 64.49.46.181_1
   - US_14
-  - SJC_24
-  - SJC_25
-  - SJC_26
-  - 官方优选_10
-  - 官方优选_11
   - US_15
   - US_16
+  - 64.49.47.64_1
+  - 23.169.184.123_1
+  - HK_8
+  - JP_3
+  - JP_4
+  - CMCC-IPV6_1
+  - HK_9
+  - 64.49.47.64_2
+  - 23.169.184.123_2
+  - JP_5
   - US_17
   - US_18
-  - SJC_27
-  - SJC_28
-  - SJC_29
-  - 官方优选_12
-  - 电信🌐优选🌐群组™️™️™️：t.me/amber6hua_1
-  - SJC_30
-  - 官方优选_13
-  - AT_6
-  - CMCC-IPV6_3
-  - SJC_31
-  - SJC_32
-  - CMCC-IPV6_4
-  - CMCC-IPV6_5
-  - SJC_33
-  - SJC_34
-  - 电信🌐优选🌐群组™️™️™️：t.me/amber6hua_2
-  - CMCC-IPV6_6
+  - CMCC-IPV6_2
+  - 64.49.46.181_2
+  - 官方优选_1
   - US_19
-  - SJC_35
-  - SJC_36
-  - SJC_37
+  - 美国_1
+  - CMCC-IPV6_3
   - US_20
-  - BR_2
-  - CMCC-IPV6_7
-  - CMCC-IPV6_8
-  - SJC_38
-  - GB_3
-  - SJC_39
-  - SJC_40
-  - SJC_41
-  - CMCC-IPV6_9
-  - SJC_42
-  - SJC_43
-  - SJC_44
+  - 官方优选_2
+  - 官方优选_3
   - US_21
-  - 官方优选_14
-  - SJC_45
-  - SJC_46
-  - SJC_47
-  - 官方优选_15
-  - SJC_48
-  - SJC_49
-  - CMCC-IPV6_10
-  - SJC_50
-  - SJC_51
-  - SJC_52
-  - CMCC-IPV6_11
-  - 官方优选_16
-  - SJC_53
-  - SJC_54
-  - 官方优选_17
-  - SJC_55
+  - 美国_2
+  - CMCC-IPV6_4
+  - TW_4
+  - 官方优选_4
+  - NL_5
+  - CMCC-IPV6_5
+  - CMCC-IPV6_6
+  - CMCC-IPV6_7
+  - 官方优选_5
+  - HK_10
+  - 官方优选_6
+  - 官方优选_7
+  - CMCC-IPV6_8
+  - 官方优选_8
   - US_22
-  - SJC_56
-  - US_23
-  - GB_4
-  - LAX_2
-  - SJC_57
-  - 官方优选_18
-  - SJC_58
-  - SJC_59
-  - 官方优选_19
-  - SJC_60
-  - SJC_61
-  - SJC_62
-  - SJC_63
+  - NL_6
+  - 官方优选_9
+  - CMCC-IPV6_9
+  - CMCC-IPV6_10
+  - CMCC-IPV6_11
+  - FR_1
   - CMCC-IPV6_12
-  - SJC_64
-  - US_24
   - CMCC-IPV6_13
-  - SJC_65
-  - SJC_66
-  - SJC_67
   - CMCC-IPV6_14
-  - SJC_68
-  - SJC_69
-  - SJC_70
   - CMCC-IPV6_15
-  - SJC_71
+  - 官方优选_10
+  - HK_11
+  - PL_1
+  - NL_7
   - CMCC-IPV6_16
+  - NL_8
+  - GB_1
   - CMCC-IPV6_17
-  - SJC_72
-  - SJC_73
-  - SJC_74
+  - HK_12
   - CMCC-IPV6_18
-  - SJC_75
-  - TPE_2
-  - SJC_76
-  - SJC_77
+  - FR_2
+  - TW_5
+  - HK_13
   - CMCC-IPV6_19
+  - HK_14
+  - FR_3
   - CMCC-IPV6_20
+  - PL_2
+  - US_23
+  - DE_1
+  - HK_15
   - CMCC-IPV6_21
   - CMCC-IPV6_22
   - CMCC-IPV6_23
-  - SJC_78
-  - CMCC-IPV6_24
+  - DE_2
+  - US_24
   - US_25
-  - SJC_79
-  - SJC_80
-  - AMS
-  - 官方优选_20
+  - CMCC-IPV6_24
+  - DE_3
+  - DE_4
+  - GB_2
+  - DE_5
+  - DE_6
+  - DE_7
+  - FR_4
+  - DE_8
   - CMCC-IPV6_25
-  - ORD
-  - US_26
-  - PL_2
+  - CN_1
+  - HK_16
+  - DE_9
   - CMCC-IPV6_26
-  - SJC_81
-  - US_27
-  - US_28
   - CMCC-IPV6_27
-  - SJC_82
+  - CN_2
   - CMCC-IPV6_28
-  - LAX_3
-  - US_29
   - CMCC-IPV6_29
-  - SJC_83
-  - SJC_84
-  - US_30
-  - VNO
+  - DE_10
+  - IN_1
   - CMCC-IPV6_30
-  - SJC_85
-  - SEA
-  - US_31
-  - JP_5
-  - SG_5
-  - NRT_7
-  - SIN_2
-  - HK_5
-  - JP_6
-  - HKG_10
-  - SG_6
-  - SIN_3
-  - SG_7
-  - SIN_4
-  - US_32
-  - SIN_5
-  - NRT_8
-  - ICN_13
-  - NRT_9
-  - PL_3
+  - CMCC-IPV6_31
+  - CMCC-IPV6_32
+  - IN_2
+  - HK_17
+  - HK_18
+  - HK_19
+  - HK_20
+  - US_26
+  - CMCC-IPV6_33
+  - CMCC-IPV6_34
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
