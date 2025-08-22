@@ -31,221 +31,55 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇩🇰_DK_丹麦
-  network: ws
-  port: 80
-  server: csgo.com
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: a134e3de-b25a-4020-9998-05fa6b715f1a
-  ws-opts:
-    headers:
-      host: cdn-node-oss-99.paofu.de
-    path: /profile/telegram@ssrsub
-- cipher: aes-128-gcm
-  name: 未知
-  password: 01721e43-5389-4f97-b21c-900abb2bda9e
-  port: 12028
-  server: awes35lesl.blhao0o.dpdns.org
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇬🇧_GB_英国
-  network: ws
-  port: 30836
-  server: v36.heduian.link
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: v36.heduian.link
-    path: /oooo
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸_US_美国->🇲🇩_MD_摩尔多瓦
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 104.192.226.106
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇲🇩_MD_摩尔多瓦
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 91.132.94.200
-  type: ss
-- cipher: rc4-md5
-  name: 🇩🇪_DE_德国
-  password: 14fFPrbezE3HDZzsMOr6
-  port: 8080
-  server: 193.108.119.230
-  type: ss
-- cipher: aes-128-gcm
-  name: 未知_1
-  password: 01721e43-5389-4f97-b21c-900abb2bda9e
-  port: 12024
-  server: awes35lesl.blhao0o.dpdns.org
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_2
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 104.192.226.106
-  type: ss
-- alterId: 0
-  cipher: auto
-  fingerprint: ''
-  name: 🇱🇹_LT_立陶宛
+- name: 🇳🇱_NL_荷兰
   network: tcp
-  port: 2096
-  server: 84.32.59.225
-  sni: ''
-  type: vmess
-  uuid: 7d81bf61-142f-4784-b1bf-3af97417fdae
+  password: 2ee85121-31de-4581-a492-eb00f606e392
+  port: 443
+  server: 45.91.171.116
+  sni: sto.freeguard.org
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸_US_美国
+  password: haQpIdcLwwtb
+  port: 443
+  server: 77.83.245.190
+  type: ss
 - alterId: 2
   cipher: auto
   name: 🇨🇳_CN_中国->🇺🇸_US_美国
   network: ws
-  port: 30837
-  server: v37.heduian.link
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: v37.heduian.link
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  network: ws
-  port: 30833
-  server: v33.heduian.link
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      host: v33.heduian.link
-    path: /oooo
-- cipher: aes-256-cfb
-  name: 🇮🇸_IS_冰岛
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 37.235.49.168
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_7
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 38.165.233.93
-  type: ss
-- alterId: 0
-  cipher: auto
-  grpc-opts:
-    grpc-service-name: '@Ghostray_NG'
-  name: 🇳🇱_NL_荷兰
-  network: grpc
-  port: 8880
-  server: s3.ghostrke.sbs
-  type: vmess
-  uuid: 60178344-0202-40d8-8c5c-ead387a42693
-- alterId: 2
-  cipher: auto
-  name: 🇨🇳_CN_中国
-  network: ws
   port: 30829
   server: v29.heduian.link
-  skip-cert-verify: true
   sni: ''
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      host: v29.heduian.link
+      host: ocbc.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 🇦🇹_AT_奥地利->🇫🇷_FR_法国
-  network: tcp
-  port: 59956
-  server: 46.29.34.205
-  type: vmess
-  uuid: ca0c9937-58a6-44ea-9111-a6abac267d0f
-- cipher: aes-256-gcm
-  name: 🇺🇸_US_美国->🇨🇳_CN_中国
-  password: iUB0923RBA
-  port: 30067
-  server: 154.3.8.151
+- cipher: aes-128-gcm
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
+  port: 13890
+  server: japan001.tmdns-sing.top
   type: ss
-- name: 🇩🇰_DK_丹麦->🇺🇸_US_美国
-  network: ws
-  password: a134e3de-b25a-4020-9998-05fa6b715f1a
-  port: 8443
-  server: pubg.ac
-  sni: cdn-node-oss-99.paofu.de
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /profile/telegram@ssrsub
-- cipher: aes-128-cfb
-  name: 🇳🇱_NL_荷兰_1
-  obfs: http_post
-  password: $$Turb0VPN$$
-  port: 443
-  protocol: auth_aes128_md5
-  server: ssca.irundns.net
-  type: ssr
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇩🇰_DK_丹麦
-  - 未知
-  - 🇨🇳_CN_中国->🇬🇧_GB_英国
-  - 🇺🇸_US_美国->🇲🇩_MD_摩尔多瓦
-  - 🇲🇩_MD_摩尔多瓦
-  - 🇩🇪_DE_德国
-  - 未知_1
-  - 🇺🇸_US_美国_2
-  - 🇱🇹_LT_立陶宛
+  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇮🇸_IS_冰岛
-  - 🇺🇸_US_美国_7
-  - 🇳🇱_NL_荷兰
-  - 🇨🇳_CN_中国
-  - 🇦🇹_AT_奥地利->🇫🇷_FR_法国
-  - 🇺🇸_US_美国->🇨🇳_CN_中国
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国
-  - 🇳🇱_NL_荷兰_1
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇩🇰_DK_丹麦
-  - 未知
-  - 🇨🇳_CN_中国->🇬🇧_GB_英国
-  - 🇺🇸_US_美国->🇲🇩_MD_摩尔多瓦
-  - 🇲🇩_MD_摩尔多瓦
-  - 🇩🇪_DE_德国
-  - 未知_1
-  - 🇺🇸_US_美国_2
-  - 🇱🇹_LT_立陶宛
+  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇮🇸_IS_冰岛
-  - 🇺🇸_US_美国_7
-  - 🇳🇱_NL_荷兰
-  - 🇨🇳_CN_中国
-  - 🇦🇹_AT_奥地利->🇫🇷_FR_法国
-  - 🇺🇸_US_美国->🇨🇳_CN_中国
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国
-  - 🇳🇱_NL_荷兰_1
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -254,97 +88,37 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇩🇰_DK_丹麦
-  - 未知
-  - 🇨🇳_CN_中国->🇬🇧_GB_英国
-  - 🇺🇸_US_美国->🇲🇩_MD_摩尔多瓦
-  - 🇲🇩_MD_摩尔多瓦
-  - 🇩🇪_DE_德国
-  - 未知_1
-  - 🇺🇸_US_美国_2
-  - 🇱🇹_LT_立陶宛
+  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇮🇸_IS_冰岛
-  - 🇺🇸_US_美国_7
-  - 🇳🇱_NL_荷兰
-  - 🇨🇳_CN_中国
-  - 🇦🇹_AT_奥地利->🇫🇷_FR_法国
-  - 🇺🇸_US_美国->🇨🇳_CN_中国
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国
-  - 🇳🇱_NL_荷兰_1
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇩🇰_DK_丹麦
-  - 未知
-  - 🇨🇳_CN_中国->🇬🇧_GB_英国
-  - 🇺🇸_US_美国->🇲🇩_MD_摩尔多瓦
-  - 🇲🇩_MD_摩尔多瓦
-  - 🇩🇪_DE_德国
-  - 未知_1
-  - 🇺🇸_US_美国_2
-  - 🇱🇹_LT_立陶宛
+  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇮🇸_IS_冰岛
-  - 🇺🇸_US_美国_7
-  - 🇳🇱_NL_荷兰
-  - 🇨🇳_CN_中国
-  - 🇦🇹_AT_奥地利->🇫🇷_FR_法国
-  - 🇺🇸_US_美国->🇨🇳_CN_中国
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国
-  - 🇳🇱_NL_荷兰_1
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇩🇰_DK_丹麦
-  - 未知
-  - 🇨🇳_CN_中国->🇬🇧_GB_英国
-  - 🇺🇸_US_美国->🇲🇩_MD_摩尔多瓦
-  - 🇲🇩_MD_摩尔多瓦
-  - 🇩🇪_DE_德国
-  - 未知_1
-  - 🇺🇸_US_美国_2
-  - 🇱🇹_LT_立陶宛
+  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇮🇸_IS_冰岛
-  - 🇺🇸_US_美国_7
-  - 🇳🇱_NL_荷兰
-  - 🇨🇳_CN_中国
-  - 🇦🇹_AT_奥地利->🇫🇷_FR_法国
-  - 🇺🇸_US_美国->🇨🇳_CN_中国
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国
-  - 🇳🇱_NL_荷兰_1
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇩🇰_DK_丹麦
-  - 未知
-  - 🇨🇳_CN_中国->🇬🇧_GB_英国
-  - 🇺🇸_US_美国->🇲🇩_MD_摩尔多瓦
-  - 🇲🇩_MD_摩尔多瓦
-  - 🇩🇪_DE_德国
-  - 未知_1
-  - 🇺🇸_US_美国_2
-  - 🇱🇹_LT_立陶宛
+  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇮🇸_IS_冰岛
-  - 🇺🇸_US_美国_7
-  - 🇳🇱_NL_荷兰
-  - 🇨🇳_CN_中国
-  - 🇦🇹_AT_奥地利->🇫🇷_FR_法国
-  - 🇺🇸_US_美国->🇨🇳_CN_中国
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国
-  - 🇳🇱_NL_荷兰_1
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -367,25 +141,10 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇩🇰_DK_丹麦
-  - 未知
-  - 🇨🇳_CN_中国->🇬🇧_GB_英国
-  - 🇺🇸_US_美国->🇲🇩_MD_摩尔多瓦
-  - 🇲🇩_MD_摩尔多瓦
-  - 🇩🇪_DE_德国
-  - 未知_1
-  - 🇺🇸_US_美国_2
-  - 🇱🇹_LT_立陶宛
+  - 🇳🇱_NL_荷兰
+  - 🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  - 🇮🇸_IS_冰岛
-  - 🇺🇸_US_美国_7
-  - 🇳🇱_NL_荷兰
-  - 🇨🇳_CN_中国
-  - 🇦🇹_AT_奥地利->🇫🇷_FR_法国
-  - 🇺🇸_US_美国->🇨🇳_CN_中国
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国
-  - 🇳🇱_NL_荷兰_1
   type: select
 rule-providers:
   Apple:
