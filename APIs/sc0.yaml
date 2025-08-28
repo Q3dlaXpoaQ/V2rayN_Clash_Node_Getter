@@ -31,25 +31,23 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 🇳🇱_NL_荷兰
+- alterId: 0
+  cipher: auto
+  fingerprint: ''
+  name: 🇮🇷_IR_伊朗->🇺🇸_US_美国
   network: tcp
-  password: 2ee85121-31de-4581-a492-eb00f606e392
-  port: 443
-  server: 45.91.171.116
-  sni: sto.freeguard.org
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸_US_美国
-  password: haQpIdcLwwtb
-  port: 443
-  server: 77.83.245.190
-  type: ss
+  port: 8880
+  server: 91.99.2.86
+  sni: ''
+  type: vmess
+  uuid: 4c467080-3301-470e-b99b-2a7202039f7e
 - alterId: 2
   cipher: auto
   name: 🇨🇳_CN_中国->🇺🇸_US_美国
   network: ws
   port: 30829
   server: v29.heduian.link
+  skip-cert-verify: true
   sni: ''
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -57,29 +55,27 @@ proxies:
     headers:
       host: ocbc.com
     path: /oooo
-- cipher: aes-128-gcm
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-  password: 6b1e5475-7661-4921-aa26-d11758b2f3f1
-  port: 13890
-  server: japan001.tmdns-sing.top
+- cipher: chacha20-ietf-poly1305
+  name: 🇷🇺_RU_俄罗斯
+  password: aObvLFQBhTQ1
+  port: 443
+  server: 81.177.214.214
   type: ss
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国
+  - 🇮🇷_IR_伊朗->🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇷🇺_RU_俄罗斯
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国
+  - 🇮🇷_IR_伊朗->🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇷🇺_RU_俄罗斯
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -88,37 +84,33 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国
+  - 🇮🇷_IR_伊朗->🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇷🇺_RU_俄罗斯
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国
+  - 🇮🇷_IR_伊朗->🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇷🇺_RU_俄罗斯
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国
+  - 🇮🇷_IR_伊朗->🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇷🇺_RU_俄罗斯
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国
+  - 🇮🇷_IR_伊朗->🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇷🇺_RU_俄罗斯
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -141,10 +133,9 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇳🇱_NL_荷兰
-  - 🇺🇸_US_美国
+  - 🇮🇷_IR_伊朗->🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇷🇺_RU_俄罗斯
   type: select
 rule-providers:
   Apple:
