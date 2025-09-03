@@ -31,16 +31,6 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
-- alterId: 0
-  cipher: auto
-  fingerprint: ''
-  name: 🇮🇷_IR_伊朗->🇺🇸_US_美国
-  network: tcp
-  port: 8880
-  server: 91.99.2.86
-  sni: ''
-  type: vmess
-  uuid: 4c467080-3301-470e-b99b-2a7202039f7e
 - alterId: 2
   cipher: auto
   name: 🇨🇳_CN_中国->🇺🇸_US_美国
@@ -55,27 +45,59 @@ proxies:
     headers:
       host: ocbc.com
     path: /oooo
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺_RU_俄罗斯
-  password: aObvLFQBhTQ1
-  port: 443
-  server: 81.177.214.214
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇩🇰_DK_丹麦->🇺🇸_US_美国
+  network: ws
+  port: 80
+  server: fastcup.net
+  type: vmess
+  uuid: 457f64d5-cc68-4911-82ee-636ebb568a46
+  ws-opts:
+    headers:
+      host: cdn-node-oss-99.paofu.de
+    path: /profile/telegram@ssrsub
+- alterId: 0
+  cipher: auto
+  name: 🇩🇰_DK_丹麦->🇺🇸_US_美国_1
+  network: ws
+  port: 80
+  server: csgo.com
+  type: vmess
+  uuid: 457f64d5-cc68-4911-82ee-636ebb568a46
+  ws-opts:
+    headers:
+      host: cdn-node-oss-99.paofu.de
+    path: /profile/telegram@ssrsub
+- alterId: 0
+  cipher: auto
+  name: 🇩🇰_DK_丹麦->🇺🇸_US_美国_2
+  network: ws
+  port: 80
+  server: pubg.ac
+  type: vmess
+  uuid: 457f64d5-cc68-4911-82ee-636ebb568a46
+  ws-opts:
+    headers:
+      host: cdn-node-oss-99.paofu.de
+    path: /profile/telegram@ssrsub
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇮🇷_IR_伊朗->🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇷🇺_RU_俄罗斯
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_1
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_2
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇮🇷_IR_伊朗->🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇷🇺_RU_俄罗斯
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_1
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_2
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -84,33 +106,37 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇮🇷_IR_伊朗->🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇷🇺_RU_俄罗斯
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_1
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_2
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇮🇷_IR_伊朗->🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇷🇺_RU_俄罗斯
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_1
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_2
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇮🇷_IR_伊朗->🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇷🇺_RU_俄罗斯
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_1
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_2
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇮🇷_IR_伊朗->🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇷🇺_RU_俄罗斯
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_1
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_2
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -133,9 +159,10 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇮🇷_IR_伊朗->🇺🇸_US_美国
   - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇷🇺_RU_俄罗斯
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_1
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_2
   type: select
 rule-providers:
   Apple:

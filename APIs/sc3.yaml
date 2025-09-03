@@ -34,208 +34,156 @@ mode: rule
 proxies:
 - alterId: 0
   cipher: auto
-  name: 🇺🇸_US_美国_1
+  name: 🇩🇰_DK_丹麦->🇺🇸_US_美国_1
   network: ws
-  port: 8880
-  server: 192.200.160.211
+  port: 80
+  server: csgo.com
   type: vmess
-  uuid: 7a384b65-fcc9-32b1-bff4-d2494705b7b1
+  uuid: 457f64d5-cc68-4911-82ee-636ebb568a46
   ws-opts:
     headers:
-      host: TG.WangCai2.s4.db-link02.top
-    path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
+      host: cdn-node-oss-99.paofu.de
+    path: /profile/telegram@ssrsub
+- cipher: aes-256-cfb
+  name: 🇷🇺_RU_俄罗斯_1
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 185.231.233.112
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 🇩🇰_DK_丹麦->🇺🇸_US_美国_2
+  network: ws
+  port: 80
+  server: fastcup.net
+  type: vmess
+  uuid: 457f64d5-cc68-4911-82ee-636ebb568a46
+  ws-opts:
+    headers:
+      host: cdn-node-oss-99.paofu.de
+    path: /profile/telegram@ssrsub
+- alterId: 0
+  cipher: auto
+  name: 🇩🇰_DK_丹麦->🇺🇸_US_美国_3
+  network: ws
+  port: 80
+  server: pubg.ac
+  type: vmess
+  uuid: 457f64d5-cc68-4911-82ee-636ebb568a46
+  ws-opts:
+    headers:
+      host: cdn-node-oss-99.paofu.de
+    path: /profile/telegram@ssrsub
+- alterId: 0
+  cipher: auto
+  name: 🇨🇳_CN_中国_1
+  network: tcp
+  port: 50414
+  server: 103.13.19.254
+  sni: ''
+  type: vmess
+  uuid: aacec49a-c6eb-43a0-b14a-e3b4302e5f1a
+- name: 🇩🇰_DK_丹麦->🇺🇸_US_美国_4
+  network: ws
+  password: 457f64d5-cc68-4911-82ee-636ebb568a46
+  port: 8443
+  server: csgo.com
+  sni: cdn-node-oss-99.paofu.de
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: cdn-node-oss-99.paofu.de
+    path: /profile/telegram@ssrsub
+- cipher: chacha20-ietf-poly1305
+  name: 🇳🇱_NL_荷兰
+  password: Sur5Ny74npD3
+  port: 443
+  server: 185.242.247.249
+  type: ss
+- name: 🇩🇰_DK_丹麦->🇺🇸_US_美国_5
+  network: ws
+  password: 457f64d5-cc68-4911-82ee-636ebb568a46
+  port: 8443
+  server: pubg.ac
+  sni: cdn-node-oss-99.paofu.de
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: cdn-node-oss-99.paofu.de
+    path: /profile/telegram@ssrsub
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国->🇺🇸_US_美国
+  name: 🇨🇳_CN_中国_2
   network: ws
-  port: 30829
-  server: v29.heduian.link
+  port: 30805
+  server: v5.heduian.link
   skip-cert-verify: true
   sni: ''
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      host: v29.heduian.link
+      host: v5.heduian.link
     path: /oooo
+- cipher: chacha20-ietf-poly1305
+  name: 🇷🇺_RU_俄罗斯_2
+  password: NbQNqngaIwS7
+  port: 443
+  server: 83.217.9.101
+  type: ss
+- name: 🇩🇰_DK_丹麦->🇺🇸_US_美国_6
+  network: ws
+  password: 457f64d5-cc68-4911-82ee-636ebb568a46
+  port: 8443
+  server: fastcup.net
+  sni: cdn-node-oss-99.paofu.de
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      host: cdn-node-oss-99.paofu.de
+    path: /profile/telegram@ssrsub
 - cipher: aes-256-cfb
-  name: 🇸🇪_SE_瑞典
+  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 192.71.166.100
+  server: 185.153.197.5
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 🇿🇦_ZA_南非_1
-  network: ws
-  port: 8880
-  server: 102.177.176.210
-  sni: ''
-  type: vmess
-  uuid: d9369b77-531e-31f4-a2a2-2273db2825a2
-  ws-opts:
-    headers:
-      host: TG.WangCai2.s4.db-link02.top
-    path: /dabai&Telegram🇨🇳 @WangCai2 /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇧🇬_BG_保加利亚->🇺🇸_US_美国
-  network: ws
-  port: 8880
-  server: 185.176.26.215
-  sni: ''
-  type: vmess
-  uuid: 0b67f537-9bdd-3c10-baa3-0554249bd788
-  ws-opts:
-    headers:
-      host: TG.WangCai2.s4.db-link02.top
-    path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2
-  network: ws
-  port: 80
-  server: www.speedtest.net
-  sni: ''
-  type: vmess
-  uuid: 3d76ac40-80c4-11f0-b432-205c6d5f5d78
-  ws-opts:
-    headers:
-      host: zula.ir.eu-2.hihu.net
-    path: /b87r3d9e
-- alterId: 0
-  cipher: auto
-  fingerprint: ''
-  name: 🇪🇸_ES_西班牙->🇺🇸_US_美国
-  network: tcp
-  port: 32020
-  server: s3.ipyar.org
-  sni: ''
-  type: vmess
-  uuid: 78b4fb57-39d7-4e9d-dd38-c9a38322bcb2
-- alterId: 0
-  cipher: auto
-  name: 🇧🇷_BR_巴西
-  network: ws
-  port: 8880
-  server: 185.159.247.220
-  type: vmess
-  uuid: 470c6d0a-7ee5-3e9d-8f49-1c4e485fafc9
-  ws-opts:
-    headers:
-      host: TG.WangCai2.s4.db-link02.top
-    path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_3
-  network: ws
-  port: 8880
-  server: 216.24.57.214
-  type: vmess
-  uuid: d1b75cc3-e618-37c4-9c55-ff11b4ed493b
-  ws-opts:
-    headers:
-      host: TG.WangCai2.s4.db-link02.top
-    path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇿🇦_ZA_南非_2
-  network: ws
-  port: 8880
-  server: 102.177.176.209
-  skip-cert-verify: true
-  sni: ''
-  type: vmess
-  uuid: 6f96494c-bdaf-3091-bf7b-29cfe92882b6
-  ws-opts:
-    headers:
-      host: TG.WangCai2.s4.db-link02.top
-    path: /dabai&Telegram🇨🇳 @WangCai2 /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇱🇹_LT_立陶宛->🇺🇸_US_美国
-  network: ws
-  port: 8880
-  server: 185.148.104.215
-  type: vmess
-  uuid: 0b67f537-9bdd-3c10-baa3-0554249bd788
-  ws-opts:
-    headers:
-      host: TG.WangCai2.s4.db-link02.top
-    path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_4
-  network: ws
-  port: 8880
-  server: 216.205.52.215
-  type: vmess
-  uuid: 0b67f537-9bdd-3c10-baa3-0554249bd788
-  ws-opts:
-    headers:
-      host: TG.WangCai2.s4.db-link02.top
-    path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇸🇮_SI_斯洛文尼亚->🇺🇸_US_美国
-  network: ws
-  port: 8880
-  server: 92.53.191.209
-  type: vmess
-  uuid: 6f96494c-bdaf-3091-bf7b-29cfe92882b6
-  ws-opts:
-    headers:
-      host: TG.WangCai2.s4.db-link02.top
-    path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇷🇴_RO_罗马尼亚->🇺🇸_US_美国
-  network: ws
-  port: 8880
-  server: 213.182.199.220
-  type: vmess
-  uuid: 470c6d0a-7ee5-3e9d-8f49-1c4e485fafc9
-  ws-opts:
-    headers:
-      host: TG.WangCai2.s4.db-link02.top
-    path: /dabai&Telegram🇨🇳@WangCai2/?ed=2560
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇸🇪_SE_瑞典
-  - 🇿🇦_ZA_南非_1
-  - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
-  - 🇺🇸_US_美国_2
-  - 🇪🇸_ES_西班牙->🇺🇸_US_美国
-  - 🇧🇷_BR_巴西
-  - 🇺🇸_US_美国_3
-  - 🇿🇦_ZA_南非_2
-  - 🇱🇹_LT_立陶宛->🇺🇸_US_美国
-  - 🇺🇸_US_美国_4
-  - 🇸🇮_SI_斯洛文尼亚->🇺🇸_US_美国
-  - 🇷🇴_RO_罗马尼亚->🇺🇸_US_美国
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_1
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_2
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_3
+  - 🇨🇳_CN_中国_1
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_4
+  - 🇳🇱_NL_荷兰
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_5
+  - 🇨🇳_CN_中国_2
+  - 🇷🇺_RU_俄罗斯_2
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_6
+  - 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇸🇪_SE_瑞典
-  - 🇿🇦_ZA_南非_1
-  - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
-  - 🇺🇸_US_美国_2
-  - 🇪🇸_ES_西班牙->🇺🇸_US_美国
-  - 🇧🇷_BR_巴西
-  - 🇺🇸_US_美国_3
-  - 🇿🇦_ZA_南非_2
-  - 🇱🇹_LT_立陶宛->🇺🇸_US_美国
-  - 🇺🇸_US_美国_4
-  - 🇸🇮_SI_斯洛文尼亚->🇺🇸_US_美国
-  - 🇷🇴_RO_罗马尼亚->🇺🇸_US_美国
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_1
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_2
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_3
+  - 🇨🇳_CN_中国_1
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_4
+  - 🇳🇱_NL_荷兰
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_5
+  - 🇨🇳_CN_中国_2
+  - 🇷🇺_RU_俄罗斯_2
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_6
+  - 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
   tolerance: 5000
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -255,20 +203,18 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇺🇸_US_美国_1
-  - 🇨🇳_CN_中国->🇺🇸_US_美国
-  - 🇸🇪_SE_瑞典
-  - 🇿🇦_ZA_南非_1
-  - 🇧🇬_BG_保加利亚->🇺🇸_US_美国
-  - 🇺🇸_US_美国_2
-  - 🇪🇸_ES_西班牙->🇺🇸_US_美国
-  - 🇧🇷_BR_巴西
-  - 🇺🇸_US_美国_3
-  - 🇿🇦_ZA_南非_2
-  - 🇱🇹_LT_立陶宛->🇺🇸_US_美国
-  - 🇺🇸_US_美国_4
-  - 🇸🇮_SI_斯洛文尼亚->🇺🇸_US_美国
-  - 🇷🇴_RO_罗马尼亚->🇺🇸_US_美国
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_1
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_2
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_3
+  - 🇨🇳_CN_中国_1
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_4
+  - 🇳🇱_NL_荷兰
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_5
+  - 🇨🇳_CN_中国_2
+  - 🇷🇺_RU_俄罗斯_2
+  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_6
+  - 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
