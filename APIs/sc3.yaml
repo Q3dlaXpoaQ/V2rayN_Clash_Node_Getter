@@ -32,158 +32,137 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇩🇰_DK_丹麦->🇺🇸_US_美国_1
-  network: ws
-  port: 80
-  server: csgo.com
-  type: vmess
-  uuid: 457f64d5-cc68-4911-82ee-636ebb568a46
-  ws-opts:
-    headers:
-      host: cdn-node-oss-99.paofu.de
-    path: /profile/telegram@ssrsub
 - cipher: aes-256-cfb
-  name: 🇷🇺_RU_俄罗斯_1
+  name: 🇮🇸_IS_冰岛
   password: f8f7aCzcPKbsF8p3
   port: 989
-  server: 185.231.233.112
+  server: 37.235.49.168
   type: ss
 - alterId: 0
-  cipher: auto
-  name: 🇩🇰_DK_丹麦->🇺🇸_US_美国_2
-  network: ws
-  port: 80
-  server: fastcup.net
-  type: vmess
-  uuid: 457f64d5-cc68-4911-82ee-636ebb568a46
-  ws-opts:
-    headers:
-      host: cdn-node-oss-99.paofu.de
-    path: /profile/telegram@ssrsub
-- alterId: 0
-  cipher: auto
-  name: 🇩🇰_DK_丹麦->🇺🇸_US_美国_3
-  network: ws
-  port: 80
-  server: pubg.ac
-  type: vmess
-  uuid: 457f64d5-cc68-4911-82ee-636ebb568a46
-  ws-opts:
-    headers:
-      host: cdn-node-oss-99.paofu.de
-    path: /profile/telegram@ssrsub
-- alterId: 0
-  cipher: auto
-  name: 🇨🇳_CN_中国_1
+  cipher: none
+  fingerprint: ''
+  name: 🇮🇳_IN_印度->🇬🇧_GB_英国
   network: tcp
-  port: 50414
-  server: 103.13.19.254
+  port: 443
+  server: 103.57.249.204
   sni: ''
   type: vmess
-  uuid: aacec49a-c6eb-43a0-b14a-e3b4302e5f1a
-- name: 🇩🇰_DK_丹麦->🇺🇸_US_美国_4
-  network: ws
-  password: 457f64d5-cc68-4911-82ee-636ebb568a46
-  port: 8443
-  server: csgo.com
-  sni: cdn-node-oss-99.paofu.de
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: cdn-node-oss-99.paofu.de
-    path: /profile/telegram@ssrsub
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱_NL_荷兰
-  password: Sur5Ny74npD3
+  uuid: f13143a7-542d-49ec-9428-098142b6977c
+- alterId: 0
+  cipher: auto
+  fingerprint: ''
+  name: 🇬🇧_GB_英国
+  network: tcp
   port: 443
-  server: 185.242.247.249
+  server: 89.31.120.192
+  sni: ''
+  type: vmess
+  uuid: 44537595-9ccc-4b83-8936-5f9ad3229019
+- cipher: chacha20-ietf-poly1305
+  name: 🇸🇦_SA_沙特阿拉伯
+  password: 9JeYy8SkViXuSHVs9GFeSe
+  port: 443
+  server: 77.110.110.117
   type: ss
-- name: 🇩🇰_DK_丹麦->🇺🇸_US_美国_5
-  network: ws
-  password: 457f64d5-cc68-4911-82ee-636ebb568a46
-  port: 8443
-  server: pubg.ac
-  sni: cdn-node-oss-99.paofu.de
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      host: cdn-node-oss-99.paofu.de
-    path: /profile/telegram@ssrsub
+- alterId: 64
+  cipher: auto
+  name: 🇺🇸_US_美国->🇨🇳_CN_中国
+  network: tcp
+  port: 30002
+  server: 38.12.83.217
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: chacha20-ietf-poly1305
+  name: 🇷🇺_RU_俄罗斯
+  password: eUh4lSpi7nOYj0vSrqLUh0
+  port: 8506
+  server: 95.163.176.37
+  type: ss
 - alterId: 2
   cipher: auto
-  name: 🇨🇳_CN_中国_2
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
   network: ws
-  port: 30805
-  server: v5.heduian.link
+  port: 30835
+  server: v35.heduian.link
   skip-cert-verify: true
   sni: ''
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      host: v5.heduian.link
+      host: v35.heduian.link
     path: /oooo
-- cipher: chacha20-ietf-poly1305
-  name: 🇷🇺_RU_俄罗斯_2
-  password: NbQNqngaIwS7
-  port: 443
-  server: 83.217.9.101
-  type: ss
-- name: 🇩🇰_DK_丹麦->🇺🇸_US_美国_6
+- alterId: 0
+  cipher: auto
+  grpc-opts:
+    grpc-service-name: '@Ghostray_NG'
+  name: 🇳🇱_NL_荷兰->🇨🇳_CN_中国
+  network: grpc
+  port: 8880
+  server: s3.ghostrke.sbs
+  type: vmess
+  uuid: 2525a5e5-99f6-45b5-8439-cfaa2d395768
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
   network: ws
-  password: 457f64d5-cc68-4911-82ee-636ebb568a46
-  port: 8443
-  server: fastcup.net
-  sni: cdn-node-oss-99.paofu.de
-  type: trojan
-  udp: true
+  port: 30829
+  server: v29.heduian.link
+  skip-cert-verify: true
+  sni: ''
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      host: cdn-node-oss-99.paofu.de
-    path: /profile/telegram@ssrsub
+      host: ocbc.com
+    path: /oooo
 - cipher: aes-256-cfb
-  name: 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
+  name: 🇲🇩_MD_摩尔多瓦
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 185.153.197.5
   type: ss
+- alterId: 0
+  cipher: auto
+  fingerprint: ''
+  name: 🇺🇸_US_美国
+  network: tcp
+  port: 443
+  server: 38.60.134.249
+  sni: ''
+  type: vmess
+  uuid: beb28159-7f4c-4c09-9313-6283515f150b
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_1
-  - 🇷🇺_RU_俄罗斯_1
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_2
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_3
-  - 🇨🇳_CN_中国_1
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_4
-  - 🇳🇱_NL_荷兰
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_5
-  - 🇨🇳_CN_中国_2
-  - 🇷🇺_RU_俄罗斯_2
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_6
-  - 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
+  - 🇮🇸_IS_冰岛
+  - 🇮🇳_IN_印度->🇬🇧_GB_英国
+  - 🇬🇧_GB_英国
+  - 🇸🇦_SA_沙特阿拉伯
+  - 🇺🇸_US_美国->🇨🇳_CN_中国
+  - 🇷🇺_RU_俄罗斯
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇳🇱_NL_荷兰->🇨🇳_CN_中国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  - 🇲🇩_MD_摩尔多瓦
+  - 🇺🇸_US_美国
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_1
-  - 🇷🇺_RU_俄罗斯_1
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_2
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_3
-  - 🇨🇳_CN_中国_1
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_4
-  - 🇳🇱_NL_荷兰
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_5
-  - 🇨🇳_CN_中国_2
-  - 🇷🇺_RU_俄罗斯_2
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_6
-  - 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
+  - 🇮🇸_IS_冰岛
+  - 🇮🇳_IN_印度->🇬🇧_GB_英国
+  - 🇬🇧_GB_英国
+  - 🇸🇦_SA_沙特阿拉伯
+  - 🇺🇸_US_美国->🇨🇳_CN_中国
+  - 🇷🇺_RU_俄罗斯
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇳🇱_NL_荷兰->🇨🇳_CN_中国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  - 🇲🇩_MD_摩尔多瓦
+  - 🇺🇸_US_美国
   tolerance: 5000
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -203,18 +182,17 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_1
-  - 🇷🇺_RU_俄罗斯_1
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_2
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_3
-  - 🇨🇳_CN_中国_1
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_4
-  - 🇳🇱_NL_荷兰
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_5
-  - 🇨🇳_CN_中国_2
-  - 🇷🇺_RU_俄罗斯_2
-  - 🇩🇰_DK_丹麦->🇺🇸_US_美国_6
-  - 🇲🇩_MD_摩尔多瓦->🇷🇺_RU_俄罗斯
+  - 🇮🇸_IS_冰岛
+  - 🇮🇳_IN_印度->🇬🇧_GB_英国
+  - 🇬🇧_GB_英国
+  - 🇸🇦_SA_沙特阿拉伯
+  - 🇺🇸_US_美国->🇨🇳_CN_中国
+  - 🇷🇺_RU_俄罗斯
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - 🇳🇱_NL_荷兰->🇨🇳_CN_中国
+  - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+  - 🇲🇩_MD_摩尔多瓦
+  - 🇺🇸_US_美国
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
