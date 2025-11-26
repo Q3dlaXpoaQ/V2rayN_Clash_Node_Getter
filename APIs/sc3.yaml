@@ -32,179 +32,238 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
-- name: 🇨🇳_CN_中国
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK²_5|0.6MB/s|2%|YT|NF|D+|X|KeepHistory
+  network: ws
+  port: 80
+  server: 32c57d76-t66sg0-t7n4ch-1rfon.hk3.p5pv.com
+  servername: 32c57d76-t66sg0-t7n4ch-1rfon.hk3.p5pv.com
+  type: vmess
+  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 32c57d76-t66sg0-t7n4ch-1rfon.hk3.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰 HK_66
+  network: ws
+  port: 80
+  server: dfed4efb-t4n8g0-t636g9-luwe.hk3.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  type: vmess
+  uuid: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇳🇱 IT²_1|2.6MB/s|27%|GPT⁺|TK-NL|NF|X|KeepHistory
   network: tcp
-  password: adbac894-90b9-4913-b77e-a715a8d4ebc8
-  port: 20021
-  server: oss-cn-shanghai.letssepub.com
-  sni: dingding-doc.com
+  port: 30805
+  server: v5.heduian.link
+  servername: v5.heduian.link
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: 🇺🇸_US_美国
+  network: ws
+  password: 94a81dc7-e8e6-46e5-838d-84ca142b88b2
+  port: 443
+  server: 94.131.123.74
+  sni: joss.gpj1.web.id
   tls: true
   type: trojan
-- name: 🇨🇳_CN_中国_1
-  network: tcp
-  password: BxceQaOe
-  port: 194
-  server: 36.151.192.242
-  skip-cert-verify: true
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/94.131.123.74=443
+- fingerprint: randomized
+  name: 🇫🇷_FR_法国
+  network: ws
+  password: be94cd60-8e91-4cd6-9c53-26ee1314edfd
+  port: 2053
+  server: 178.33.161.196
+  sni: joss.gpj1.web.id
+  tls: true
   type: trojan
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/178.33.161.196=2053
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK²_6|4.4MB/s|2%|GPT|YT|NF|D+|X
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  servername: hkt.gotochinatown.net
+  type: vmess
+  uuid: aed1cc24-351d-11ef-ba52-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- fingerprint: randomized
+  name: 🇷🇺_RU_俄罗斯
+  network: ws
+  password: d78d48df-b788-4a95-9e9f-77c9b2f69822
+  port: 8443
+  server: 193.233.114.58
+  sni: joss.gpj1.web.id
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/193.233.114.58=8443
+- name: 🇨🇳_CN_中国
+  network: tcp
+  password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
+  port: 5223
+  server: psg2-ag.t.sgateway.link
+  sni: pod-kr-g1.psusercontent.com
+  tls: true
+  type: trojan
+- cipher: aes-128-gcm
+  name: 🇨🇳_CN_中国_1
+  password: 79ad2852-eb76-4c3e-ba4d-3668ee5ece74
+  port: 21712
+  server: wangcai.singdns.com
+  type: ss
 - name: 🇨🇳_CN_中国_2
   network: tcp
-  password: BxceQaOe
-  port: 4556
-  server: 36.151.192.242
-  skip-cert-verify: true
+  password: Q9gofGxinwLv0TfDfdKmdttdPGxrhKQS
+  port: 5223
+  server: hk3.t.sgateway.link
+  sni: pod-hk-z1.psusercontent.com
+  tls: true
   type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇷🇺_RU_俄罗斯_1
+  password: 17ZDORWIliQHuO6WRGHChXYMzdRtAYVP
+  port: 443
+  server: 45.14.245.2
+  type: ss
 - name: 🇨🇳_CN_中国_3
   network: tcp
-  password: BxceQaOe
-  port: 24392
-  server: 36.150.215.239
-  skip-cert-verify: true
+  password: dd2f25b4c70689de8bc0f7fa9d6591cb
+  port: 443
+  server: 58.152.18.98
+  sni: www.nintendogames.net
   type: trojan
 - name: 🇨🇳_CN_中国_4
   network: tcp
   password: BxceQaOe
-  port: 53743
-  server: 36.150.215.239
+  port: 443
+  server: 58.152.18.95
   skip-cert-verify: true
+  sni: t.me/ripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国 33
-  network: ws
-  port: 80
-  server: 185.146.173.16
-  servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国 33_1
-  network: ws
-  port: 80
-  server: 141.101.121.250
-  servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-- fingerprint: random
-  name: 🇺🇸_US_美国_2
-  network: ws
-  password: trojan
-  port: 443
-  server: www.digitalocean.com
-  sni: azadnet-9ya.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: azadnet-9ya.pages.dev
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国 26
-  network: ws
-  port: 80
-  server: 185.146.173.117
-  servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 美国 CloudFlare节点
-  network: ws
-  port: 80
-  server: 104.18.240.238
-  servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-- cipher: chacha20-ietf
-  name: 🇨🇳_CN_中国_7
-  password: asd123456
-  port: 8388
-  server: 103.36.91.32
+- cipher: chacha20-ietf-poly1305
+  name: 🏳️_unKnow_未知
+  password: lXOVjEMsx00jeOQzHsQrkL
+  port: 4966
+  server: 213.176.16.71
   type: ss
-- fingerprint: random
-  name: 🇺🇸_US_美国_13
+- name: 🇺🇸_US_美国_4
   network: ws
-  password: trojan
-  port: 443
-  server: ip.sb
-  sni: nixian.pages.dev
+  password: c2de1269-17cb-41f6-ab97-f8c11a6f0f4f
+  port: 8443
+  server: 158.178.206.197
+  sni: joss.gpj1.web.id
   tls: true
   type: trojan
   ws-opts:
     headers:
-      Host: nixian.pages.dev
-    path: /?ed=2560/?Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-Join-sho--Telegram--VITUREY-
-- alterId: 0
-  cipher: auto
-  name: 🇩🇪 德国 18
-  network: ws
-  port: 80
-  server: 185.146.173.24
-  servername: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-  type: vmess
-  uuid: d967ffca-de90-4daa-bd00-d527e5bae11f
-  ws-opts:
-    headers:
-      Host: google.whatsapp.snapp.torob.basalam.leoshopping77.ir.
-    path: /?BIA_TELEGRAM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
-      TM (@AZARBAYJAB1) TM (@AZARBAYJAB1)
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/158.178.206.197=8443
+- cipher: chacha20-ietf-poly1305
+  name: 🇫🇷_FR_法国_1
+  password: ODfxioK0VkKxTdpVQJ4rv8HglAu0vzv6
+  port: 443
+  server: 146.19.49.251
+  type: ss
+- name: 🇺🇸_US_美国_5
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.76.168.69
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- name: 🇩🇪_DE_德国
+  network: tcp
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.127.91.148
+  skip-cert-verify: true
+  sni: 3.127.91.148
+  type: trojan
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸_US_美国_6
+  password: NDRySIABARbErNIVsCNVkyYAHiBzhveT
+  port: 443
+  server: 23.95.75.146
+  type: ss
+- name: 🇩🇪_DE_德国_1
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22223
+  server: 3.127.91.148
+  skip-cert-verify: true
+  sni: trojan.burgerip.co.uk
+  type: trojan
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
+  - 🇭🇰HK²_5|0.6MB/s|2%|YT|NF|D+|X|KeepHistory
+  - 🇭🇰 HK_66
+  - 🇳🇱 IT²_1|2.6MB/s|27%|GPT⁺|TK-NL|NF|X|KeepHistory
+  - 🇺🇸_US_美国
+  - 🇫🇷_FR_法国
+  - 🇭🇰HK²_6|4.4MB/s|2%|GPT|YT|NF|D+|X
+  - 🇷🇺_RU_俄罗斯
   - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_1
   - 🇨🇳_CN_中国_2
+  - 🇷🇺_RU_俄罗斯_1
   - 🇨🇳_CN_中国_3
   - 🇨🇳_CN_中国_4
-  - 🇩🇪 德国 33
-  - 🇩🇪 德国 33_1
-  - 🇺🇸_US_美国_2
-  - 🇩🇪 德国 26
-  - 🇺🇸 美国 CloudFlare节点
-  - 🇨🇳_CN_中国_7
-  - 🇺🇸_US_美国_13
-  - 🇩🇪 德国 18
+  - 🏳️_unKnow_未知
+  - 🇺🇸_US_美国_4
+  - 🇫🇷_FR_法国_1
+  - 🇺🇸_US_美国_5
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_6
+  - 🇩🇪_DE_德国_1
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
+  - 🇭🇰HK²_5|0.6MB/s|2%|YT|NF|D+|X|KeepHistory
+  - 🇭🇰 HK_66
+  - 🇳🇱 IT²_1|2.6MB/s|27%|GPT⁺|TK-NL|NF|X|KeepHistory
+  - 🇺🇸_US_美国
+  - 🇫🇷_FR_法国
+  - 🇭🇰HK²_6|4.4MB/s|2%|GPT|YT|NF|D+|X
+  - 🇷🇺_RU_俄罗斯
   - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_1
   - 🇨🇳_CN_中国_2
+  - 🇷🇺_RU_俄罗斯_1
   - 🇨🇳_CN_中国_3
   - 🇨🇳_CN_中国_4
-  - 🇩🇪 德国 33
-  - 🇩🇪 德国 33_1
-  - 🇺🇸_US_美国_2
-  - 🇩🇪 德国 26
-  - 🇺🇸 美国 CloudFlare节点
-  - 🇨🇳_CN_中国_7
-  - 🇺🇸_US_美国_13
-  - 🇩🇪 德国 18
+  - 🏳️_unKnow_未知
+  - 🇺🇸_US_美国_4
+  - 🇫🇷_FR_法国_1
+  - 🇺🇸_US_美国_5
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_6
+  - 🇩🇪_DE_德国_1
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎯 全球直连
@@ -223,19 +282,26 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
+  - 🇭🇰HK²_5|0.6MB/s|2%|YT|NF|D+|X|KeepHistory
+  - 🇭🇰 HK_66
+  - 🇳🇱 IT²_1|2.6MB/s|27%|GPT⁺|TK-NL|NF|X|KeepHistory
+  - 🇺🇸_US_美国
+  - 🇫🇷_FR_法国
+  - 🇭🇰HK²_6|4.4MB/s|2%|GPT|YT|NF|D+|X
+  - 🇷🇺_RU_俄罗斯
   - 🇨🇳_CN_中国
   - 🇨🇳_CN_中国_1
   - 🇨🇳_CN_中国_2
+  - 🇷🇺_RU_俄罗斯_1
   - 🇨🇳_CN_中国_3
   - 🇨🇳_CN_中国_4
-  - 🇩🇪 德国 33
-  - 🇩🇪 德国 33_1
-  - 🇺🇸_US_美国_2
-  - 🇩🇪 德国 26
-  - 🇺🇸 美国 CloudFlare节点
-  - 🇨🇳_CN_中国_7
-  - 🇺🇸_US_美国_13
-  - 🇩🇪 德国 18
+  - 🏳️_unKnow_未知
+  - 🇺🇸_US_美国_4
+  - 🇫🇷_FR_法国_1
+  - 🇺🇸_US_美国_5
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_6
+  - 🇩🇪_DE_德国_1
   type: select
 tun:
   auto-detect-interface: true

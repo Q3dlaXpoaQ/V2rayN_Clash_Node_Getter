@@ -34,219 +34,353 @@ mode: rule
 proxies:
 - alpn:
   - h3
-  auth-str: dongtaiwang.com
-  down: '55'
-  name: 🇺🇸_US_美国
-  port: 49003
-  protocol: udp
-  server: 51.159.226.1
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '11'
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇦🇺_AU_澳大利亚
+  network: ws
+  port: 60006
+  server: 43.161.227.251
+  servername: s3.sni565.netlib.re
+  tls: true
+  type: vless
+  uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
+  ws-opts:
+    headers:
+      Host: s3.sni565.netlib.re
+    path: /proxyip=tw.sni2025.netlib.re
 - alpn:
   - h3
-  auth-str: dongtaiwang.com
-  down: '100'
-  name: 🇫🇷_FR_法国
-  port: 15010
-  protocol: udp
-  server: 195.154.200.40
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇳_CN_中国
+  network: ws
+  port: 443
+  server: 8.218.189.27
+  servername: s3.sni565.netlib.re
+  tls: true
+  type: vless
+  uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
+  ws-opts:
+    headers:
+      Host: s3.sni565.netlib.re
+    path: /proxyip=tw.sni2025.netlib.re
+- name: 🇺🇸_US_美国
+  network: ws
+  password: 12345678-1234-1234-1234-123456789123
+  port: 2096
+  server: wangcai.cf.877774.xyz
+  sni: joss.gpj1.web.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/HK?Telegram🇨🇳 @WangCai2
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇰🇷_KR_韩国
+  network: ws
+  port: 50003
+  server: 211.195.83.140
+  servername: s3.sni565.netlib.re
+  tls: true
+  type: vless
+  uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
+  ws-opts:
+    headers:
+      Host: s3.sni565.netlib.re
+    path: /proxyip=tw.sni2025.netlib.re
+- name: 🇺🇸_US_美国_1
+  network: ws
+  port: 2096
+  server: wangcai.cf.877774.xyz
+  servername: joss.gpj1.web.id
+  tls: true
+  type: vless
+  uuid: d78d48df-b788-4a95-9e9f-77c9b2f69822
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/HK?Telegram🇨🇳 @WangCai2
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇳_CN_中国_1
+  network: ws
+  port: 43
+  server: 220.128.110.108
+  servername: s3.sni565.netlib.re
+  tls: true
+  type: vless
+  uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
+  ws-opts:
+    headers:
+      Host: s3.sni565.netlib.re
+    path: /proxyip=tw.sni2025.netlib.re
+- name: 🇺🇸_US_美国_2
+  network: ws
+  port: 2096
+  server: 108.162.198.24
+  servername: kuangbao.xiejiang.dpdns.org
+  tls: true
+  type: vless
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇰🇷_KR_韩国_1
+  network: ws
+  port: 50000
+  server: 106.242.64.238
+  servername: s2.sni565.netlib.re
+  tls: true
+  type: vless
+  uuid: 6923b959-c65f-764c-b072-94711382d716
+  ws-opts:
+    headers:
+      Host: s2.sni565.netlib.re
+    path: /proxyip=tw.sni2025.netlib.re
+- name: 🇯🇵_JP_日本
+  network: ws
+  port: 443
+  server: 54.95.79.44
+  servername: kuangbao.xiejiang.dpdns.org
+  tls: true
+  type: vless
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇰🇷_KR_韩国_2
+  network: ws
+  port: 50001
+  server: 115.90.84.220
+  servername: s3.sni565.netlib.re
+  tls: true
+  type: vless
+  uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
+  ws-opts:
+    headers:
+      Host: s3.sni565.netlib.re
+    path: /proxyip=tw.sni2025.netlib.re
+- alpn:
+  - http/1.1
+  fingerprint: random
+  name: 🇺🇸_US_美国_3
+  network: ws
+  password: '0'
+  port: 443
+  server: 162.159.42.58
   skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '100'
+  sni: c03237cb.ba73fe85.netlib.re
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: c03237cb.ba73fe85.netlib.re
+    path: /
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸_US_美国_4
+  network: ws
+  port: 443
+  server: 130.33.68.45
+  servername: s3.sni565.netlib.re
+  tls: true
+  type: vless
+  uuid: 69228a95-e9cb-b1ff-40d2-7315d9d4b9b7
+  ws-opts:
+    headers:
+      Host: s3.sni565.netlib.re
+    path: /proxyip=tw.sni2025.netlib.re
+- name: 🇯🇵_JP_日本_1
+  network: ws
+  port: 443
+  server: 54.249.169.40
+  servername: kuangbao.xiejiang.dpdns.org
+  tls: true
+  type: vless
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
+- name: 🇷🇺_RU_俄罗斯
+  network: ws
+  port: 443
+  server: 193.124.18.13
+  servername: kuangbao.xiejiang.dpdns.org
+  tls: true
+  type: vless
+  uuid: 5aba5b77-48eb-4ae2-b60d-5bfee7ac169e
+  ws-opts:
+    headers:
+      Host: kuangbao.xiejiang.dpdns.org
+    path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 🇺🇸US²_14|GPT⁺|YT|NF|X
+  name: 🇺🇸US²_5|4.5MB/s|57%|GPT⁺|GM|YT|TK|NF|X
+  network: ws
+  port: 443
+  server: okl5i3.zeeoomboom.de
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /video/pmi58yp5.m3u8
+- encryption: none
+  name: 🇺🇸_US_美国_5
   network: ws
   port: 80
-  server: us2.nodea6a6.skynode.me
-  servername: us2.nodea6a6.skynode.me
-  type: vmess
-  uuid: c3f95b7e-0fc7-3311-9a3d-e34e675632d4
+  server: 172.66.156.81
+  servername: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+  type: vless
+  uuid: 0267b737-c79b-4092-95ad-74694cbbce32
   ws-opts:
     headers:
-      Host: us2.nodea6a6.skynode.me
-    path: /download?ed=2560
-- name: 🇺🇸_US_美国_1
-  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-  port: 1743
-  server: dcc40639-t3cxs0-tcj7b6-d70y.la.shifen.uk
-  sni: dcc40639-t3cxs0-tcj7b6-d70y.la.shifen.uk
-  type: hysteria2
-- name: 🇺🇸_US_美国_2
-  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  port: 1743
-  ports: 20000-50000
-  server: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
-  sni: 9edb1f6e-t56dc0-t9lxaa-1glq.la.shifen.uk
-  type: hysteria2
-- name: 🇺🇸_US_美国_3
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 1743
-  ports: 20000-50000
-  server: c0a37350-t4x400-tdtx5w-au6.la.shifen.uk
-  sni: c0a37350-t4x400-tdtx5w-au6.la.shifen.uk
-  type: hysteria2
-- name: 🇺🇸_US_美国_4
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 1743
-  server: 5bedbab5-t3bpc0-t49cd4-4550.la.shifen.uk
-  type: hysteria2
-- name: 🇨🇳_CN_中国
-  network: tcp
-  password: 1b57001bd214304027025a740b6cf1ac
-  port: 443
-  server: 203.198.122.194
-  sni: www.nintendogames.net
+      Host: websocket.network.www.speedtest.net.flutter.dev.russia.pyt.digitalcity5.xyz.
+    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+- fingerprint: randomized
+  name: 🇨🇳_CN_中国_2
+  network: ws
+  password: c6b96097-fe2d-487d-b9ef-60c994b90db2
+  port: 35951
+  server: 36.50.90.241
+  sni: joss.gpj1.web.id
+  tls: true
   type: trojan
-- name: 🇺🇸_US_美国_5
-  password: 06c625ea-5902-11ee-9e87-f23c9313b177
-  port: 1743
-  server: c01db724-t3dk00-t3ss2y-4mce.la.shifen.uk
-  sni: c01db724-t3dk00-t3ss2y-4mce.la.shifen.uk
-  type: hysteria2
-- name: 🇺🇸_US_美国_6
-  password: 94931862-1484-11f0-9ab7-f23c95b6f51d
-  port: 1743
-  server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
-  type: hysteria2
+  ws-opts:
+    headers:
+      Host: joss.gpj1.web.id
+    path: /Free-VPN-CF-Geo-Project/36.50.90.241=35951
 - alterId: 0
   cipher: auto
-  name: 新加坡 亚马逊(Amazon)公司数据中心
+  name: 🇫🇷FR²_4|4.2MB/s|100%|GPT⁺|YT|TK|NF|X
   network: ws
-  port: 8080
-  server: hk3.nodea6a6.skynode.me
-  servername: node-59-175-206-86.speedtest.cn
+  port: 443
+  server: n5vaz1.zeeoomboom.de
+  tls: true
   type: vmess
-  uuid: c3f95b7e-0fc7-3311-9a3d-e34e675632d4
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /video/i3o7f0yh.m3u8
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US²_12|5.1MB/s|100%|GPT⁺|YT|TK|NF|X
+  network: ws
+  port: 443
+  server: a3fyst.zeeoomboom.de
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /video/d4kapx2v.m3u8
+- alterId: 0
+  cipher: zero
+  name: 🇭🇰HK¹⁺_1|0.5MB/s|2%|YT|D+|X|KeepSucceed
+  network: ws
+  port: 35951
+  server: 36.50.90.241
+  servername: vm.gpj1.web.id
+  tls: true
+  type: vmess
+  uuid: f282b878-8711-45a1-8c69-5564172123c1
   ws-opts:
     headers:
-      Host: node-59-175-206-86.speedtest.cn
-    path: /download?ed=2560
-- name: 🇺🇸_US_美国_7
-  password: 537d7098-fdbe-11ef-8ebc-f23c93141fad
-  port: 1743
-  server: 6e206c57-t3b340-tcj7b6-d70y.la.shifen.uk
-  type: hysteria2
+      Host: vm.gpj1.web.id
+    path: /Geo-Project/36.50.90.241-35951
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸US²_6|4.1MB/s|100%|GPT⁺|YT|TK|NF|X
+  network: ws
+  port: 443
+  server: xyst5w.teeoomboom.de
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    path: /video/g5petez.m3u8
 - cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_8
+  name: 🇫🇷_FR_法国
   password: amazonskr05
   port: 443
-  server: 18.170.33.219
+  server: 35.181.172.34
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 🇮🇷_IR_伊朗
-  password: k1dBOmOB4oqi7Ump37a1bQ
-  port: 8080
-  server: 151.242.251.133
-  type: ss
-- name: 🇺🇸_US_美国_9
-  password: 712bdc36-24be-11ee-be53-f23c9313b177
-  port: 1743
-  server: 68407ef0-t3dk00-tcl9of-5fdt.la.shifen.uk
-  type: hysteria2
-- cipher: aes-256-cfb
-  name: 🇺🇸_US_美国_10
-  password: amazonskr05
+  name: 🇩🇪_DE_德国
+  password: 1RWwXhwfAB5gAEozU4G2Pg
   port: 443
-  server: 16.52.152.103
+  server: 45.87.175.166
   type: ss
-- name: 🇺🇸_US_美国_11
-  password: df7bed3c-06eb-11f0-8ebc-f23c93141fad
-  port: 1743
-  server: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
-  sni: e10829f0-t4un40-t9lb2a-1glq.la.shifen.uk
-  type: hysteria2
-- name: 🇨🇳_CN_中国_1
-  network: tcp
-  password: BxceQaOe
-  port: 443
-  server: 58.152.46.98
-  skip-cert-verify: true
-  type: trojan
-- encryption: none
-  name: 🇺🇸_US_美国_12
-  network: tcp
-  port: 47387
-  server: 198.186.131.216
-  type: vless
-  uuid: cdc453bb-34c8-4405-a322-56f6878ccd40
-- name: 🇮🇷_IR_伊朗_1
-  password: 73746dab-cdf5-4ff5-9313-a1f4c55edd49
-  port: 50001
-  server: hk1.jueduibupao.top
-  skip-cert-verify: true
-  sni: hk1.jueduibupao.top
-  type: hysteria2
-- name: 🇺🇸_US_美国_13
-  password: ef392d8a-3473-4812-8d9d-cc91992dd49c
-  port: 20101
-  server: azcus1.jueduibupao.top
-  skip-cert-verify: true
-  sni: azcus1.jueduibupao.top
-  type: hysteria2
-- name: 🇷🇺_RU_俄罗斯
-  password: 7b56a495-39a9-421d-8bed-81fe33b0e365
-  port: 48413
-  server: linjp1.jueduibupao.top
-  skip-cert-verify: true
-  sni: linjp1.jueduibupao.top
-  type: hysteria2
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
+  - 🇦🇺_AU_澳大利亚
+  - 🇨🇳_CN_中国
   - 🇺🇸_US_美国
-  - 🇫🇷_FR_法国
-  - 🇺🇸US²_14|GPT⁺|YT|NF|X
+  - 🇰🇷_KR_韩国
   - 🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国_1
   - 🇺🇸_US_美国_2
+  - 🇰🇷_KR_韩国_1
+  - 🇯🇵_JP_日本
+  - 🇰🇷_KR_韩国_2
   - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国_4
-  - 🇨🇳_CN_中国
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
-  - 新加坡 亚马逊(Amazon)公司数据中心
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇮🇷_IR_伊朗
-  - 🇺🇸_US_美国_9
-  - 🇺🇸_US_美国_10
-  - 🇺🇸_US_美国_11
-  - 🇨🇳_CN_中国_1
-  - 🇺🇸_US_美国_12
-  - 🇮🇷_IR_伊朗_1
-  - 🇺🇸_US_美国_13
+  - 🇯🇵_JP_日本_1
   - 🇷🇺_RU_俄罗斯
+  - 🇺🇸US²_5|4.5MB/s|57%|GPT⁺|GM|YT|TK|NF|X
+  - 🇺🇸_US_美国_5
+  - 🇨🇳_CN_中国_2
+  - 🇫🇷FR²_4|4.2MB/s|100%|GPT⁺|YT|TK|NF|X
+  - 🇺🇸US²_12|5.1MB/s|100%|GPT⁺|YT|TK|NF|X
+  - 🇭🇰HK¹⁺_1|0.5MB/s|2%|YT|D+|X|KeepSucceed
+  - 🇺🇸US²_6|4.1MB/s|100%|GPT⁺|YT|TK|NF|X
+  - 🇫🇷_FR_法国
+  - 🇩🇪_DE_德国
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
+  - 🇦🇺_AU_澳大利亚
+  - 🇨🇳_CN_中国
   - 🇺🇸_US_美国
-  - 🇫🇷_FR_法国
-  - 🇺🇸US²_14|GPT⁺|YT|NF|X
+  - 🇰🇷_KR_韩国
   - 🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国_1
   - 🇺🇸_US_美国_2
+  - 🇰🇷_KR_韩国_1
+  - 🇯🇵_JP_日本
+  - 🇰🇷_KR_韩国_2
   - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国_4
-  - 🇨🇳_CN_中国
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
-  - 新加坡 亚马逊(Amazon)公司数据中心
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇮🇷_IR_伊朗
-  - 🇺🇸_US_美国_9
-  - 🇺🇸_US_美国_10
-  - 🇺🇸_US_美国_11
-  - 🇨🇳_CN_中国_1
-  - 🇺🇸_US_美国_12
-  - 🇮🇷_IR_伊朗_1
-  - 🇺🇸_US_美国_13
+  - 🇯🇵_JP_日本_1
   - 🇷🇺_RU_俄罗斯
+  - 🇺🇸US²_5|4.5MB/s|57%|GPT⁺|GM|YT|TK|NF|X
+  - 🇺🇸_US_美国_5
+  - 🇨🇳_CN_中国_2
+  - 🇫🇷FR²_4|4.2MB/s|100%|GPT⁺|YT|TK|NF|X
+  - 🇺🇸US²_12|5.1MB/s|100%|GPT⁺|YT|TK|NF|X
+  - 🇭🇰HK¹⁺_1|0.5MB/s|2%|YT|D+|X|KeepSucceed
+  - 🇺🇸US²_6|4.1MB/s|100%|GPT⁺|YT|TK|NF|X
+  - 🇫🇷_FR_法国
+  - 🇩🇪_DE_德国
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎯 全球直连
@@ -265,28 +399,29 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
+  - 🇦🇺_AU_澳大利亚
+  - 🇨🇳_CN_中国
   - 🇺🇸_US_美国
-  - 🇫🇷_FR_法国
-  - 🇺🇸US²_14|GPT⁺|YT|NF|X
+  - 🇰🇷_KR_韩国
   - 🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国_1
   - 🇺🇸_US_美国_2
+  - 🇰🇷_KR_韩国_1
+  - 🇯🇵_JP_日本
+  - 🇰🇷_KR_韩国_2
   - 🇺🇸_US_美国_3
   - 🇺🇸_US_美国_4
-  - 🇨🇳_CN_中国
-  - 🇺🇸_US_美国_5
-  - 🇺🇸_US_美国_6
-  - 新加坡 亚马逊(Amazon)公司数据中心
-  - 🇺🇸_US_美国_7
-  - 🇺🇸_US_美国_8
-  - 🇮🇷_IR_伊朗
-  - 🇺🇸_US_美国_9
-  - 🇺🇸_US_美国_10
-  - 🇺🇸_US_美国_11
-  - 🇨🇳_CN_中国_1
-  - 🇺🇸_US_美国_12
-  - 🇮🇷_IR_伊朗_1
-  - 🇺🇸_US_美国_13
+  - 🇯🇵_JP_日本_1
   - 🇷🇺_RU_俄罗斯
+  - 🇺🇸US²_5|4.5MB/s|57%|GPT⁺|GM|YT|TK|NF|X
+  - 🇺🇸_US_美国_5
+  - 🇨🇳_CN_中国_2
+  - 🇫🇷FR²_4|4.2MB/s|100%|GPT⁺|YT|TK|NF|X
+  - 🇺🇸US²_12|5.1MB/s|100%|GPT⁺|YT|TK|NF|X
+  - 🇭🇰HK¹⁺_1|0.5MB/s|2%|YT|D+|X|KeepSucceed
+  - 🇺🇸US²_6|4.1MB/s|100%|GPT⁺|YT|TK|NF|X
+  - 🇫🇷_FR_法国
+  - 🇩🇪_DE_德国
   type: select
 rule-providers:
   BanAD:
