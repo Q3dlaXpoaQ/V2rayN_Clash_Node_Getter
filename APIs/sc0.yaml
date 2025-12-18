@@ -32,259 +32,418 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 中国 阿里云
+  network: none
+  port: 32228
+  server: 8.218.116.26
+  type: vmess
+  uuid: e4767e9f-ed00-4f31-a984-a918bdd9b09c
+- cipher: chacha20-ietf
+  name: 🇨🇳_CN_中国
+  password: asd123456
+  port: 8388
+  server: 103.149.183.154
+  type: ss
 - alpn:
   - h3
   auth-str: dongtaiwang.com
-  down: '100'
+  down: 55 Mbps
   name: 🇫🇷_FR_法国
-  port: 15010
+  port: 50011
   protocol: udp
-  server: 195.154.200.40
+  server: 62.210.10.186
   skip-cert-verify: true
   sni: apple.com
   type: hysteria
-  up: '100'
+  up: 11 Mbps
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   down: '55'
-  name: 🇺🇸_US_美国
-  port: 49003
+  name: 🇫🇷_FR_法国_1
+  port: 35511
   protocol: udp
-  server: 51.159.226.1
+  server: 62.210.10.186
   skip-cert-verify: true
   sni: apple.com
   type: hysteria
   up: '11'
-- name: 🇨🇳_CN_中国
-  password: 92bd8c68-6434-11ee-b644-f23c91cfbbc9
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇨🇳_CN_中国_1
+  network: tcp
   port: 443
-  ports: 30000-60000
-  server: 4cd36d8f-t6pb40-tonrqx-1khwf.hk2.hyhuawei.com
-  sni: 4cd36d8f-t6pb40-tonrqx-1khwf.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_1
-  password: 1cce7df2-251c-11ee-9409-f23c9164ca5d
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  server: 8.222.134.143
+  servername: www.primevideo.com
+  tls: true
+  type: vless
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK²_2|11.0MB/s|2%|GPT|YT|NF|D+|X
+  network: ws
+  port: 80
+  server: e66ecabe-t7h340-tq9o8d-1d3bw.hkt.gotochinatown.net
+  servername: e66ecabe-t7h340-tq9o8d-1d3bw.hkt.gotochinatown.net
+  type: vmess
+  uuid: 0fcf5a7a-e1b7-11ec-a352-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: e66ecabe-t7h340-tq9o8d-1d3bw.hkt.gotochinatown.net
+    path: /
+- client-fingerprint: chrome
+  name: 🇺🇸_US_美国
+  network: ws
+  port: 2053
+  server: notability.com
+  servername: ss.saaas.de5.net
+  tls: true
+  type: vless
+  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  ws-opts:
+    headers:
+      Host: ss.saaas.de5.net
+    path: /proxyip=sjc.o00o.ooo
+- client-fingerprint: chrome
+  name: 🇺🇸_US_美国_1
+  network: ws
+  port: 2053
+  server: www.gov.se
+  servername: ss.saaas.de5.net
+  tls: true
+  type: vless
+  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  ws-opts:
+    headers:
+      Host: ss.saaas.de5.net
+    path: /proxyip=sjc.o00o.ooo
+- client-fingerprint: chrome
+  name: 🇺🇸_US_美国_2
+  network: ws
+  port: 2053
+  server: quick-edit.devprod.cloudflare.dev
+  servername: ss.saaas.de5.net
+  tls: true
+  type: vless
+  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  ws-opts:
+    headers:
+      Host: ss.saaas.de5.net
+    path: /proxyip=sjc.o00o.ooo
+- client-fingerprint: chrome
+  name: 🇺🇸_US_美国_3
+  network: ws
+  port: 2053
+  server: 162.159.254.137
+  servername: ss.saaas.de5.net
+  tls: true
+  type: vless
+  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  ws-opts:
+    headers:
+      Host: ss.saaas.de5.net
+    path: /proxyip=sjc.o00o.ooo
+- client-fingerprint: chrome
+  name: 🇺🇸_US_美国_4
+  network: ws
+  port: 2053
+  server: delivr.com
+  servername: ss.saaas.de5.net
+  tls: true
+  type: vless
+  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  ws-opts:
+    headers:
+      Host: ss.saaas.de5.net
+    path: /proxyip=sjc.o00o.ooo
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸_US_美国_5
+  network: ws
   port: 443
-  ports: 30000-60000
-  server: b0d0563d-t6r5s0-taz53d-1j0y6.hk2.hyhuawei.com
-  sni: b0d0563d-t6r5s0-taz53d-1j0y6.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_2
-  password: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
+  server: www.speedtest.net
+  servername: DigiOCmaMooSHawSFOrVisitINGmAMaVlwS.MMogAmES.iR.
+  tls: true
+  type: vless
+  uuid: 73856b73-19d2-47e6-b991-5eaa421161ea
+  ws-opts:
+    headers:
+      Host: DigiOCmaMooSHawSFOrVisitINGmAMaVlwS.MMogAmES.iR.
+    path: /admin?ed=1024
+- client-fingerprint: chrome
+  name: 🇺🇸_US_美国_6
+  network: ws
+  port: 2053
+  server: cloudflare.tv
+  servername: ss.saaas.de5.net
+  tls: true
+  type: vless
+  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  ws-opts:
+    headers:
+      Host: ss.saaas.de5.net
+    path: /proxyip=sjc.o00o.ooo
+- client-fingerprint: chrome
+  name: 🇺🇸_US_美国_7
+  network: ws
+  port: 2053
+  server: 104.19.73.126
+  servername: ss.saaas.de5.net
+  tls: true
+  type: vless
+  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  ws-opts:
+    headers:
+      Host: ss.saaas.de5.net
+    path: /proxyip=sjc.o00o.ooo
+- client-fingerprint: chrome
+  name: 🏳️_unKnow_未知
+  network: ws
+  port: 2053
+  server: platform.wise.com
+  servername: ss.saaas.de5.net
+  tls: true
+  type: vless
+  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  ws-opts:
+    headers:
+      Host: ss.saaas.de5.net
+    path: /proxyip=sjc.o00o.ooo
+- client-fingerprint: chrome
+  name: 🇺🇸_US_美国_8
+  network: ws
   port: 443
-  ports: 30000-60000
-  server: f92321f2-t6r5s0-t7vzvm-1j0a4.hk2.hyhuawei.com
-  sni: f92321f2-t6r5s0-t7vzvm-1j0a4.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_3
-  password: 34f0cf42-0f8a-11ec-a8bf-f23c91cfbbc9
+  server: shops.myshopify.com
+  servername: ss.saaas.de5.net
+  tls: true
+  type: vless
+  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  ws-opts:
+    headers:
+      Host: ss.saaas.de5.net
+    path: /proxyip=sjc.o00o.ooo
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇷🇺_RU_俄罗斯
+  network: tcp
   port: 443
-  ports: 30000-60000
-  server: 21d94221-t6pb40-tdps9l-155d9.hk2.hyhuawei.com
-  sni: 21d94221-t6pb40-tdps9l-155d9.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_4
-  password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
+  reality-opts:
+    public-key: zkeQCEkz7LlrzwzeG26Ae_HEk3_QlgM9CbiWJx5iWh0
+  server: 83.166.255.72
+  servername: 01.img.avito.st
+  tls: true
+  type: vless
+  uuid: eb162ab1-a006-4931-b1b3-8fc88a22b10e
+- cipher: chacha20-ietf
+  name: 🇨🇳_CN_中国_2
+  password: asd123456
+  port: 8388
+  server: 103.149.183.113
+  type: ss
+- client-fingerprint: chrome
+  name: 🇺🇸_US_美国_9
+  network: ws
+  port: 2053
+  server: cfxr.eu.org
+  servername: ss.saaas.de5.net
+  tls: true
+  type: vless
+  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  ws-opts:
+    headers:
+      Host: ss.saaas.de5.net
+    path: /proxyip=sjc.o00o.ooo
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇯🇵_JP_日本
+  network: tcp
+  port: 27724
+  reality-opts:
+    public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
+  server: 116.80.44.144
+  servername: www.yahoo.co.jp
+  tls: true
+  type: vless
+  uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
+- client-fingerprint: chrome
+  name: 🇺🇸_US_美国_10
+  network: ws
+  port: 2053
+  server: convera.com
+  servername: ss.saaas.de5.net
+  tls: true
+  type: vless
+  uuid: 69413f01-c5ae-edb7-66e7-0a9e11caf2c9
+  ws-opts:
+    headers:
+      Host: ss.saaas.de5.net
+    path: /proxyip=sjc.o00o.ooo
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸_US_美国_11
+  network: ws
+  port: 2087
+  server: staticdelivery.nexusmods.com
+  servername: vpsfr.00666600.xyz
+  tls: true
+  type: vless
+  uuid: f7d0f5f5-a9ec-4095-9596-d948f43d5de2
+  ws-opts:
+    headers:
+      Host: vpsfr.00666600.xyz
+    path: /1aioh50
+- alterId: 2
+  cipher: auto
+  name: 🇺🇸US²_3|0.9MB/s|52%|GPT⁺|TK|NF|X|KeepHistory
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇦_SA_沙特阿拉伯
+  network: tcp
   port: 443
-  ports: 30000-60000
-  server: 1efe8341-t6pb40-td95qh-1isea.hk2.hyhuawei.com
-  sni: 1efe8341-t6pb40-td95qh-1isea.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_5
-  password: ca9c0c54-1513-11f0-8a7b-f23c913c8d2b
-  port: 443
-  ports: 30000-60000
-  server: ab41cc25-t6r5s0-tdahby-1tnab.hk2.hyhuawei.com
-  sni: ab41cc25-t6r5s0-tdahby-1tnab.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_6
-  password: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
-  port: 443
-  ports: 30000-60000
-  server: 0e681e5b-t6pb40-t8ivpf-z65w.hk2.hyhuawei.com
-  sni: 0e681e5b-t6pb40-t8ivpf-z65w.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_7
-  password: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-  port: 443
-  ports: 30000-60000
-  server: 7ae29732-t6t0g0-tkp3tl-1s09x.hk2.hyhuawei.com
-  sni: 7ae29732-t6t0g0-tkp3tl-1s09x.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_8
-  password: 602e99aa-718d-11eb-b77b-f23c913c8d2b
-  port: 443
-  ports: 30000-60000
-  server: 89ac33ca-t6pb40-tbcla6-194tt.hk2.hyhuawei.com
-  sni: 89ac33ca-t6pb40-tbcla6-194tt.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_9
-  password: e168c43e-c6d9-11ed-a8bf-f23c91cfbbc9
-  port: 443
-  ports: 30000-60000
-  server: 29d44efc-t6pb40-tfeciy-1iddy.hk2.hyhuawei.com
-  sni: 29d44efc-t6pb40-tfeciy-1iddy.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_10
-  password: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
-  port: 443
-  ports: 30000-60000
-  server: 260e25c8-t6pb40-t7j1ub-g3b3.hk2.hyhuawei.com
-  sni: 260e25c8-t6pb40-t7j1ub-g3b3.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_11
-  password: d2f0bee2-02f1-11f0-8eb0-f23c9164ca5d
-  port: 443
-  ports: 30000-60000
-  server: d15b0a2f-t6pb40-tc61cs-1tja8.hk2.hyhuawei.com
-  sni: d15b0a2f-t6pb40-tc61cs-1tja8.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_12
-  password: bd515574-3b10-11ee-ac14-f23c9164ca5d
-  port: 443
-  ports: 30000-60000
-  server: f8703d1a-t6r5s0-tb016b-1m7l4.hk2.hyhuawei.com
-  sni: f8703d1a-t6r5s0-tb016b-1m7l4.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_13
-  password: 7c077572-6da9-11ef-b786-f23c91cfbbc9
-  port: 443
-  ports: 30000-60000
-  server: 9e157430-t6pb40-t9hghw-1sdoq.hk2.hyhuawei.com
-  sni: 9e157430-t6pb40-t9hghw-1sdoq.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_14
-  password: de003c72-0157-11ef-86da-f23c91cfbbc9
-  port: 443
-  ports: 30000-60000
-  server: 407b0f79-t6r5s0-tm3dx0-1r9dt.hk2.hyhuawei.com
-  sni: 407b0f79-t6r5s0-tm3dx0-1r9dt.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_15
-  password: f860f2da-5035-11ed-bb74-f23c9164ca5d
-  port: 443
-  ports: 30000-60000
-  server: 7ea417a7-t6pb40-tnt75r-1k8ga.hk2.hyhuawei.com
-  sni: 7ea417a7-t6pb40-tnt75r-1k8ga.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_16
-  password: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
-  port: 443
-  ports: 30000-60000
-  server: ec23962f-t6r5s0-t9lm1q-1p1b.hk2.hyhuawei.com
-  sni: ec23962f-t6r5s0-t9lm1q-1p1b.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_17
-  password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
-  port: 443
-  ports: 30000-60000
-  server: 11c6c1ec-t6r5s0-tdfzix-fm2v.hk2.hyhuawei.com
-  sni: 11c6c1ec-t6r5s0-tdfzix-fm2v.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_18
-  password: a2313fba-74a6-11ed-a8bf-f23c91cfbbc9
-  port: 443
-  ports: 30000-60000
-  server: 17cf0999-t6t0g0-t8ivpf-z65w.hk2.hyhuawei.com
-  sni: 17cf0999-t6t0g0-t8ivpf-z65w.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_19
-  password: 48e51dfa-db8f-11ed-a23f-f23c91369f2d
-  port: 443
-  ports: 30000-60000
-  server: 21230cae-t6r5s0-tk4rx8-1n7d9.hk2.hyhuawei.com
-  sni: 21230cae-t6r5s0-tk4rx8-1n7d9.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_20
-  password: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-  port: 443
-  ports: 30000-60000
-  server: 836370d5-t6r5s0-tkp3tl-1s09x.hk2.hyhuawei.com
-  sni: 836370d5-t6r5s0-tkp3tl-1s09x.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_21
-  password: 28213b50-7ed5-11ee-add6-f23c91369f2d
-  port: 443
-  ports: 30000-60000
-  server: 135f5a03-t6pb40-t7hmka-1plv4.hk2.hyhuawei.com
-  sni: 135f5a03-t6pb40-t7hmka-1plv4.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_22
-  password: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
-  port: 443
-  ports: 30000-60000
-  server: 11c76ef0-t6r5s0-th9kx9-1os43.hk2.hyhuawei.com
-  sni: 11c76ef0-t6r5s0-th9kx9-1os43.hk2.hyhuawei.com
-  type: hysteria2
-- name: 🇨🇳_CN_中国_23
-  password: 520b9126-9870-11ef-81b0-f23c9164ca5d
-  port: 443
-  ports: 30000-60000
-  server: c2ea438e-t6r5s0-t95ncr-1slop.hk2.hyhuawei.com
-  sni: c2ea438e-t6r5s0-t95ncr-1slop.hk2.hyhuawei.com
-  type: hysteria2
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: 48720c
+  server: us01-vlr01-gmn03.vpnvezdehod.net
+  servername: hls-svod.itunes.apple.com
+  tls: true
+  type: vless
+  uuid: 2ca07504-c06a-41a4-b26b-99807a7d24cf
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇵🇱_PL_波兰
+  network: tcp
+  port: 24170
+  reality-opts:
+    public-key: VsmNi1ZMXVOwhCWpbCp51w-D_DzrxWX4jgfpcU0S9G4
+    short-id: 2fb2106a629b
+    spider-x: /
+  server: 185.136.132.171
+  servername: speedtest.net
+  tls: true
+  type: vless
+  uuid: fe21e399-ec6f-4cb5-8441-e911178665b1
+- name: 🇩🇰_DK_丹麦
+  network: ws
+  port: 80
+  server: hajimamadvpnjoinsho.fast199.hosting-ip.com
+  servername: downloadha.global.ssl.fastly.net
+  type: vless
+  uuid: b727aa5e-27bd-4fe5-bd95-7db682992637
+  ws-opts:
+    headers:
+      Host: downloadha.global.ssl.fastly.net
+    path: /Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN---Join----HAJIMAMADVPN
+- alterId: 2
+  cipher: auto
+  name: 🇭🇰HK²_3|9.9MB/s|2%|GPT⁺|YT|NF|D+|X
+  network: ws
+  port: 80
+  server: 6af671a9-t70f40-t7c05o-n09f.hkt.gotochinatown.net
+  servername: 6af671a9-t70f40-t7c05o-n09f.hkt.gotochinatown.net
+  type: vmess
+  uuid: 89b0ea8c-806b-11ed-94ba-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: 6af671a9-t70f40-t7c05o-n09f.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
+  network: tcp
+  port: 30836
+  server: v36.hdacd.com
+  servername: v36.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: 中国 V2CROSS.COM
+  network: tcp
+  port: 30830
+  server: v30.hdacd.com
+  servername: v30.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇫🇷_FR_法国
-  - 🇺🇸_US_美国
+  - 中国 阿里云
   - 🇨🇳_CN_中国
+  - 🇫🇷_FR_法国
+  - 🇫🇷_FR_法国_1
   - 🇨🇳_CN_中国_1
+  - 🇭🇰HK²_2|11.0MB/s|2%|GPT|YT|NF|D+|X
+  - 🇺🇸_US_美国
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国_7
+  - 🏳️_unKnow_未知
+  - 🇺🇸_US_美国_8
+  - 🇷🇺_RU_俄罗斯
   - 🇨🇳_CN_中国_2
-  - 🇨🇳_CN_中国_3
-  - 🇨🇳_CN_中国_4
-  - 🇨🇳_CN_中国_5
-  - 🇨🇳_CN_中国_6
-  - 🇨🇳_CN_中国_7
-  - 🇨🇳_CN_中国_8
-  - 🇨🇳_CN_中国_9
-  - 🇨🇳_CN_中国_10
-  - 🇨🇳_CN_中国_11
-  - 🇨🇳_CN_中国_12
-  - 🇨🇳_CN_中国_13
-  - 🇨🇳_CN_中国_14
-  - 🇨🇳_CN_中国_15
-  - 🇨🇳_CN_中国_16
-  - 🇨🇳_CN_中国_17
-  - 🇨🇳_CN_中国_18
-  - 🇨🇳_CN_中国_19
-  - 🇨🇳_CN_中国_20
-  - 🇨🇳_CN_中国_21
-  - 🇨🇳_CN_中国_22
-  - 🇨🇳_CN_中国_23
+  - 🇺🇸_US_美国_9
+  - 🇯🇵_JP_日本
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇺🇸US²_3|0.9MB/s|52%|GPT⁺|TK|NF|X|KeepHistory
+  - 🇸🇦_SA_沙特阿拉伯
+  - 🇵🇱_PL_波兰
+  - 🇩🇰_DK_丹麦
+  - 🇭🇰HK²_3|9.9MB/s|2%|GPT⁺|YT|NF|D+|X
+  - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
+  - 中国 V2CROSS.COM
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇫🇷_FR_法国
-  - 🇺🇸_US_美国
+  - 中国 阿里云
   - 🇨🇳_CN_中国
+  - 🇫🇷_FR_法国
+  - 🇫🇷_FR_法国_1
   - 🇨🇳_CN_中国_1
+  - 🇭🇰HK²_2|11.0MB/s|2%|GPT|YT|NF|D+|X
+  - 🇺🇸_US_美国
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国_7
+  - 🏳️_unKnow_未知
+  - 🇺🇸_US_美国_8
+  - 🇷🇺_RU_俄罗斯
   - 🇨🇳_CN_中国_2
-  - 🇨🇳_CN_中国_3
-  - 🇨🇳_CN_中国_4
-  - 🇨🇳_CN_中国_5
-  - 🇨🇳_CN_中国_6
-  - 🇨🇳_CN_中国_7
-  - 🇨🇳_CN_中国_8
-  - 🇨🇳_CN_中国_9
-  - 🇨🇳_CN_中国_10
-  - 🇨🇳_CN_中国_11
-  - 🇨🇳_CN_中国_12
-  - 🇨🇳_CN_中国_13
-  - 🇨🇳_CN_中国_14
-  - 🇨🇳_CN_中国_15
-  - 🇨🇳_CN_中国_16
-  - 🇨🇳_CN_中国_17
-  - 🇨🇳_CN_中国_18
-  - 🇨🇳_CN_中国_19
-  - 🇨🇳_CN_中国_20
-  - 🇨🇳_CN_中国_21
-  - 🇨🇳_CN_中国_22
-  - 🇨🇳_CN_中国_23
+  - 🇺🇸_US_美国_9
+  - 🇯🇵_JP_日本
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇺🇸US²_3|0.9MB/s|52%|GPT⁺|TK|NF|X|KeepHistory
+  - 🇸🇦_SA_沙特阿拉伯
+  - 🇵🇱_PL_波兰
+  - 🇩🇰_DK_丹麦
+  - 🇭🇰HK²_3|9.9MB/s|2%|GPT⁺|YT|NF|D+|X
+  - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
+  - 中国 V2CROSS.COM
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: 🎯 全球直连
@@ -303,32 +462,35 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇫🇷_FR_法国
-  - 🇺🇸_US_美国
+  - 中国 阿里云
   - 🇨🇳_CN_中国
+  - 🇫🇷_FR_法国
+  - 🇫🇷_FR_法国_1
   - 🇨🇳_CN_中国_1
+  - 🇭🇰HK²_2|11.0MB/s|2%|GPT|YT|NF|D+|X
+  - 🇺🇸_US_美国
+  - 🇺🇸_US_美国_1
+  - 🇺🇸_US_美国_2
+  - 🇺🇸_US_美国_3
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇺🇸_US_美国_7
+  - 🏳️_unKnow_未知
+  - 🇺🇸_US_美国_8
+  - 🇷🇺_RU_俄罗斯
   - 🇨🇳_CN_中国_2
-  - 🇨🇳_CN_中国_3
-  - 🇨🇳_CN_中国_4
-  - 🇨🇳_CN_中国_5
-  - 🇨🇳_CN_中国_6
-  - 🇨🇳_CN_中国_7
-  - 🇨🇳_CN_中国_8
-  - 🇨🇳_CN_中国_9
-  - 🇨🇳_CN_中国_10
-  - 🇨🇳_CN_中国_11
-  - 🇨🇳_CN_中国_12
-  - 🇨🇳_CN_中国_13
-  - 🇨🇳_CN_中国_14
-  - 🇨🇳_CN_中国_15
-  - 🇨🇳_CN_中国_16
-  - 🇨🇳_CN_中国_17
-  - 🇨🇳_CN_中国_18
-  - 🇨🇳_CN_中国_19
-  - 🇨🇳_CN_中国_20
-  - 🇨🇳_CN_中国_21
-  - 🇨🇳_CN_中国_22
-  - 🇨🇳_CN_中国_23
+  - 🇺🇸_US_美国_9
+  - 🇯🇵_JP_日本
+  - 🇺🇸_US_美国_10
+  - 🇺🇸_US_美国_11
+  - 🇺🇸US²_3|0.9MB/s|52%|GPT⁺|TK|NF|X|KeepHistory
+  - 🇸🇦_SA_沙特阿拉伯
+  - 🇵🇱_PL_波兰
+  - 🇩🇰_DK_丹麦
+  - 🇭🇰HK²_3|9.9MB/s|2%|GPT⁺|YT|NF|D+|X
+  - 🇬🇧 英国 - Slough - DigitalOcean, LLC - 1
+  - 中国 V2CROSS.COM
   type: select
 rule-providers:
   BanAD:
