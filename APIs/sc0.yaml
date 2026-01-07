@@ -1,2 +1,4035 @@
-null
-...
+allow-lan: false
+dns:
+  default-nameserver:
+  - 223.5.5.5
+  - 114.114.114.114
+  enable: true
+  enhanced-mode: fake-ip
+  fake-ip-filter:
+  - '*.lan'
+  - '*.localdomain'
+  - '*.example'
+  - '*.invalid'
+  - '*.localhost'
+  - '*.test'
+  - '*.local'
+  - '*.home.arpa'
+  - router.asus.com
+  - localhost.sec.qq.com
+  - localhost.ptlogin2.qq.com
+  - +.msftconnecttest.com
+  fake-ip-range: 198.18.0.1/16
+  ipv6: false
+  listen: 0.0.0.0:53
+  nameserver:
+  - 223.5.5.5
+  - 114.114.114.114
+  - 119.29.29.29
+  - 180.76.76.76
+external-controller: 0.0.0.0:9090
+ipv6: false
+log-level: info
+mixed-port: 7890
+mode: rule
+proxies:
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)
+  network: ws
+  port: 2096
+  server: 31.43.179.236
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 美国(yudou789.top 玉豆免费节点)_1
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  sni: epge.muarua.filegear-sg.me
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: epge.muarua.filegear-sg.me
+    path: /
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)
+  network: ws
+  port: 8443
+  server: 51.77.141.212
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 美国(yudou789.top 玉豆免费节点)_2
+  network: ws
+  password: 5a2c16f9
+  port: 2096
+  server: 188.244.122.238
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: //Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_3
+  network: ws
+  port: 443
+  server: 91.149.239.64
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 美国(yudou789.top 玉豆免费节点)_4
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: one.cf.cdn.hyli.xyz
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_1
+  network: ws
+  port: 8443
+  server: 57.129.47.78
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_5
+  network: ws
+  port: 2096
+  server: 104.129.166.236
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 美国(yudou789.top 玉豆免费节点)_6
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: one.cf.cdn.hyli.xyz
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: ////
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_2
+  network: ws
+  port: 443
+  server: 213.176.75.166
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- name: 美国(yudou789.top 玉豆免费节点)_7
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: one.cf.cdn.hyli.xyz
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: ///
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_8
+  network: ws
+  port: 2096
+  server: 45.153.7.236
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_9
+  network: ws
+  port: 2096
+  server: 195.26.229.236
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_10
+  network: ws
+  port: 2096
+  server: 164.38.155.236
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_11
+  network: ws
+  port: 35273
+  server: 74.48.77.104
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_12
+  network: ws
+  port: 28163
+  server: 138.2.232.156
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 法国(yudou789.top 玉豆免费节点)
+  network: ws
+  port: 443
+  server: 212.83.190.180
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 日本(yudou789.top 玉豆免费节点)
+  network: ws
+  password: 5a2c16f9
+  port: 44004
+  server: 45.11.1.118
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_13
+  network: ws
+  port: 443
+  server: cf.zhetengsha.eu.org
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_14
+  network: ws
+  port: 443
+  server: cdn.204910.best
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- name: 美国(yudou789.top 玉豆免费节点)_15
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: one.cf.cdn.hyli.xyz
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: //
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_16
+  network: ws
+  port: 2096
+  server: 45.142.120.236
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 波兰(yudou789.top 玉豆免费节点)
+  network: ws
+  port: 443
+  server: 77.91.76.17
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_17
+  network: ws
+  port: 443
+  server: 74.48.133.115
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 日本(yudou789.top 玉豆免费节点)_1
+  network: ws
+  password: 5a2c16f9
+  port: 2053
+  server: 185.18.222.208
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_18
+  network: ws
+  port: 443
+  server: cdn.204910.best
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /fp=chrome
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_19
+  network: ws
+  port: 2096
+  server: 114.129.43.236
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 新加坡(yudou789.top 玉豆免费节点)
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 168.138.189.91
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_20
+  network: ws
+  port: 2096
+  server: 185.176.26.236
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 俄罗斯(yudou789.top 玉豆免费节点)
+  network: ws
+  port: 2053
+  server: 78.153.136.254
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_21
+  network: ws
+  port: 12388
+  server: 34.168.95.100
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 香港(yudou789.top 玉豆免费节点)
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 219.76.13.167
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_22
+  network: ws
+  port: 443
+  server: 66.85.139.204
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_23
+  network: ws
+  port: 2096
+  server: 162.120.94.236
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_24
+  network: ws
+  port: 2096
+  server: 5.10.214.236
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 新加坡(yudou789.top 玉豆免费节点)_1
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 167.88.172.224
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_25
+  network: ws
+  port: 443
+  server: 95.182.99.65
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_26
+  network: ws
+  port: 2096
+  server: 45.80.108.236
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 新加坡(yudou789.top 玉豆免费节点)_2
+  network: ws
+  password: 5a2c16f9
+  port: 8900
+  server: 47.74.254.191
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_27
+  network: ws
+  port: 443
+  server: 195.200.26.225
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 香港(yudou789.top 玉豆免费节点)_1
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 219.76.13.180
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_28
+  network: ws
+  port: 54443
+  server: 173.249.201.109
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_29
+  network: ws
+  port: 443
+  server: 142.171.3.228
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 新加坡(yudou789.top 玉豆免费节点)_3
+  network: ws
+  password: 5a2c16f9
+  port: 53435
+  server: 129.150.36.188
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_30
+  network: ws
+  port: 12217
+  server: 45.15.124.7
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 新加坡(yudou789.top 玉豆免费节点)_4
+  network: ws
+  port: 443
+  server: 128.199.134.152
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 新加坡(yudou789.top 玉豆免费节点)_5
+  network: ws
+  password: 5a2c16f9
+  port: 53702
+  server: 168.138.170.211
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 新加坡(yudou789.top 玉豆免费节点)_6
+  network: ws
+  port: 443
+  server: 52.230.146.177
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 新加坡(yudou789.top 玉豆免费节点)_7
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 164.52.2.99
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_31
+  network: ws
+  port: 443
+  server: 45.94.209.202
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- name: 韩国(yudou789.top 玉豆免费节点)
+  network: ws
+  password: 5a2c16f9
+  port: 11027
+  server: 121.175.77.73
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_32
+  network: ws
+  port: 443
+  server: 5.101.180.145
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 新加坡(yudou789.top 玉豆免费节点)_8
+  network: ws
+  password: 5a2c16f9
+  port: 17465
+  server: 138.2.95.33
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_33
+  network: ws
+  port: 443
+  server: 172.212.108.47
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_34
+  network: ws
+  port: 443
+  server: 147.45.114.187
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 新加坡(yudou789.top 玉豆免费节点)_9
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 167.99.73.22
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- name: 韩国(yudou789.top 玉豆免费节点)_1
+  network: ws
+  password: 5a2c16f9
+  port: 12527
+  server: 61.85.1.77
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- name: 韩国(yudou789.top 玉豆免费节点)_2
+  network: ws
+  password: 5a2c16f9
+  port: 12374
+  server: 61.85.1.77
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 新加坡(yudou789.top 玉豆免费节点)_10
+  network: ws
+  port: 443
+  server: 167.88.172.224
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 韩国(yudou789.top 玉豆免费节点)_3
+  network: ws
+  password: 5a2c16f9
+  port: 30029
+  server: 61.85.1.77
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_35
+  network: ws
+  port: 22711
+  server: 45.76.232.169
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 韩国(yudou789.top 玉豆免费节点)_4
+  network: ws
+  password: 5a2c16f9
+  port: 17001
+  server: 61.85.1.77
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 香港(yudou789.top 玉豆免费节点)_2
+  network: ws
+  port: 443
+  server: 101.79.165.113
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  grpc-opts:
+    grpc-service-name: ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON
+  name: 法国(yudou789.top 玉豆免费节点)_1
+  network: grpc
+  port: 52549
+  server: '[2001:41d0:601:2000::767]'
+  type: vless
+  uuid: b679f0dc-c362-4fbf-9fc7-1bf17f1e0352
+- name: 韩国(yudou789.top 玉豆免费节点)_5
+  network: ws
+  password: 5a2c16f9
+  port: 12247
+  server: 61.85.1.77
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_36
+  network: ws
+  port: 443
+  server: 193.233.204.4
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 香港(yudou789.top 玉豆免费节点)_3
+  network: ws
+  password: 5a2c16f9
+  port: 36619
+  server: 118.141.64.192
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- name: 香港(yudou789.top 玉豆免费节点)_4
+  network: ws
+  password: 5a2c16f9
+  port: 10002
+  server: 223.16.138.113
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 香港(yudou789.top 玉豆免费节点)_5
+  network: ws
+  port: 36619
+  server: 118.141.64.192
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 香港(yudou789.top 玉豆免费节点)_6
+  network: ws
+  password: 5a2c16f9
+  port: 10201
+  server: 223.16.138.113
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 香港(yudou789.top 玉豆免费节点)_7
+  network: ws
+  port: 8443
+  server: 206.237.13.23
+  servername: tw.aniusnippets.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: tw.aniusnippets.qzz.io
+    path: /?ed=2560
+- encryption: none
+  name: 香港(yudou789.top 玉豆免费节点)_8
+  network: ws
+  port: 8443
+  server: 206.237.13.23
+  servername: ww1.allxniu.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: ww1.allxniu.qzz.io
+    path: /?ed=2560
+- encryption: none
+  name: 香港(yudou789.top 玉豆免费节点)_9
+  network: ws
+  port: 443
+  server: 43.161.225.77
+  servername: jp.xaniusg2.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: jp.xaniusg2.qzz.io
+    path: /?ed=2560
+- encryption: none
+  name: 香港(yudou789.top 玉豆免费节点)_10
+  network: ws
+  port: 12466
+  server: 83.229.121.223
+  servername: www.sgxaniu.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: www.sgxaniu.qzz.io
+    path: /?ed=2560
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_37
+  network: ws
+  port: 8443
+  server: 206.237.13.23
+  servername: jp.xaniusg2.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: jp.xaniusg2.qzz.io
+    path: /?ed=2560
+- encryption: none
+  name: 香港(yudou789.top 玉豆免费节点)_11
+  network: ws
+  port: 8443
+  server: 68.64.178.74
+  servername: www.sgxaniu.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: www.sgxaniu.qzz.io
+    path: /?ed=2560
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_38
+  network: ws
+  port: 2053
+  server: 193.46.217.173
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 香港(yudou789.top 玉豆免费节点)_12
+  network: ws
+  port: 30443
+  server: 83.229.124.163
+  servername: x-hk.xaniusnippets.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: x-hk.xaniusnippets.qzz.io
+    path: /?ed=2560
+- encryption: none
+  name: 香港(yudou789.top 玉豆免费节点)_13
+  network: ws
+  port: 30443
+  server: 83.229.124.163
+  servername: tw.aniusnippets.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: tw.aniusnippets.qzz.io
+    path: /?ed=2560
+- encryption: none
+  name: 英国(yudou789.top 玉豆免费节点)
+  network: ws
+  port: 8443
+  server: 94.156.250.8
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 香港(yudou789.top 玉豆免费节点)_14
+  network: ws
+  port: 12466
+  server: 83.229.121.223
+  servername: tw.aniusnippets.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: tw.aniusnippets.qzz.io
+    path: /?ed=2560
+- encryption: none
+  name: 香港(yudou789.top 玉豆免费节点)_15
+  network: ws
+  port: 443
+  server: 43.161.225.77
+  servername: ww1.allxniu.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: ww1.allxniu.qzz.io
+    path: /?ed=2560
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_39
+  network: ws
+  port: 443
+  server: 192.236.249.107
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_40
+  network: ws
+  port: 700
+  server: 185.138.164.228
+  servername: zybs.worker.ddns-ip.net
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: zybs.worker.ddns-ip.net
+    path: /@Marisa_kristi
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_41
+  network: ws
+  port: 443
+  server: 194.147.115.132
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_42
+  network: ws
+  port: 443
+  server: 104.19.39.97
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_43
+  network: ws
+  port: 443
+  server: 45.144.232.86
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 日本(yudou789.top 玉豆免费节点)_2
+  network: ws
+  port: 21262
+  server: 45.66.129.7
+  servername: tw.aniusnippets.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: tw.aniusnippets.qzz.io
+    path: /?ed=2560
+- name: 香港(yudou789.top 玉豆免费节点)_16
+  network: ws
+  password: 5a2c16f9
+  port: 8443
+  server: 152.32.215.105
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 香港(yudou789.top 玉豆免费节点)_17
+  network: ws
+  port: 443
+  server: 8.223.63.150
+  servername: jp.xaniusg2.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: jp.xaniusg2.qzz.io
+    path: /?ed=2560
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_44
+  network: ws
+  port: 2053
+  server: 37.1.208.111
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 香港(yudou789.top 玉豆免费节点)_18
+  network: ws
+  port: 443
+  server: 43.161.222.97
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 新加坡(yudou789.top 玉豆免费节点)_11
+  network: ws
+  password: 5a2c16f9
+  port: 8443
+  server: 66.42.51.60
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 香港(yudou789.top 玉豆免费节点)_19
+  network: ws
+  port: 30443
+  server: 83.229.124.163
+  servername: jp.xaniusg2.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: jp.xaniusg2.qzz.io
+    path: /?ed=2560
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_45
+  network: ws
+  port: 2053
+  server: 104.234.50.223
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_46
+  network: ws
+  port: 443
+  server: 46.17.102.9
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_47
+  network: ws
+  port: 2053
+  server: 46.17.102.249
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_48
+  network: ws
+  port: 2053
+  server: 45.156.24.61
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_49
+  network: ws
+  port: 443
+  server: 212.90.120.231
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 法国(yudou789.top 玉豆免费节点)_2
+  network: ws
+  port: 443
+  server: 91.90.193.159
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_3
+  network: ws
+  port: 443
+  server: 45.8.132.142
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_50
+  network: ws
+  port: 8443
+  server: 38.180.99.253
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 香港(yudou789.top 玉豆免费节点)_20
+  network: ws
+  password: 5a2c16f9
+  port: 46639
+  server: 192.131.142.161
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_51
+  network: ws
+  port: 65001
+  server: 43.130.105.166
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 日本(yudou789.top 玉豆免费节点)_3
+  network: ws
+  port: 8443
+  server: 172.237.11.207
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_52
+  network: ws
+  port: 443
+  server: 65.49.223.222
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 香港(yudou789.top 玉豆免费节点)_21
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 47.76.218.163
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- name: 日本(yudou789.top 玉豆免费节点)_4
+  network: ws
+  password: 5a2c16f9
+  port: 49153
+  server: 47.79.90.37
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: //Telegram🇨🇳WangCai2
+- name: 新加坡(yudou789.top 玉豆免费节点)_12
+  network: ws
+  password: 5a2c16f9
+  port: 2053
+  server: 31.192.238.71
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_4
+  network: ws
+  port: 555
+  server: 194.9.6.73
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_5
+  network: ws
+  port: 443
+  server: 195.58.38.63
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 法国(yudou789.top 玉豆免费节点)_3
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: cf.130519.xyz
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: ///
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_6
+  network: ws
+  port: 2053
+  server: 45.142.115.186
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_53
+  network: ws
+  port: 443
+  server: 35.230.79.26
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 日本(yudou789.top 玉豆免费节点)_5
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 153.121.45.101
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: //Telegram🇨🇳WangCai2
+- name: 美国(yudou789.top 玉豆免费节点)_54
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: cf.130519.xyz
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- encryption: none
+  name: 英国(yudou789.top 玉豆免费节点)_1
+  network: ws
+  port: 81
+  server: 95.164.18.132
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 香港(yudou789.top 玉豆免费节点)_22
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 8.212.27.131
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_55
+  network: ws
+  port: 443
+  server: 95.179.140.212
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_56
+  network: ws
+  port: 2053
+  server: 188.116.23.181
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_7
+  network: ws
+  port: 8443
+  server: 193.42.62.240
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_8
+  network: ws
+  port: 443
+  server: 194.58.33.103
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 日本(yudou789.top 玉豆免费节点)_6
+  network: ws
+  port: 443
+  server: 156.231.117.147
+  servername: ww1.allxniu.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: ww1.allxniu.qzz.io
+    path: /?ed=2560
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_57
+  network: ws
+  port: 443
+  server: 77.110.109.7
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 日本(yudou789.top 玉豆免费节点)_7
+  network: ws
+  password: 5a2c16f9
+  port: 49153
+  server: 47.79.90.37
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_9
+  network: ws
+  port: 443
+  server: 212.193.4.20
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_58
+  network: ws
+  port: 8443
+  server: 45.43.88.120
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_10
+  network: ws
+  port: 443
+  server: 185.211.6.152
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- name: 美国(yudou789.top 玉豆免费节点)_59
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 216.10.243.159
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_11
+  network: ws
+  port: 443
+  server: 92.42.96.223
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_12
+  network: ws
+  port: 443
+  server: 109.107.190.58
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 香港(yudou789.top 玉豆免费节点)_23
+  network: ws
+  port: 443
+  server: 62.60.246.165
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 日本(yudou789.top 玉豆免费节点)_8
+  network: ws
+  port: 50888
+  server: 103.150.8.160
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 英国(yudou789.top 玉豆免费节点)_2
+  network: ws
+  port: 443
+  server: 172.187.200.28
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_13
+  network: ws
+  port: 443
+  server: 185.193.66.128
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_60
+  network: ws
+  port: 2096
+  server: 134.209.71.141
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_61
+  network: ws
+  port: 21262
+  server: 45.66.129.7
+  servername: www.sgxaniu.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: www.sgxaniu.qzz.io
+    path: /?ed=2560
+- encryption: none
+  name: 香港(yudou789.top 玉豆免费节点)_24
+  network: ws
+  port: 443
+  server: 8.223.63.150
+  servername: www.sgxaniu.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: www.sgxaniu.qzz.io
+    path: /?ed=2560
+- encryption: none
+  name: 法国(yudou789.top 玉豆免费节点)_4
+  network: ws
+  port: 2083
+  server: 193.42.62.165
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 香港(yudou789.top 玉豆免费节点)_25
+  network: ws
+  port: 443
+  server: 62.60.246.107
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 新加坡(yudou789.top 玉豆免费节点)_13
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: tw.aniusnippets.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: tw.aniusnippets.qzz.io
+    path: /?ed=2560
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_14
+  network: ws
+  port: 443
+  server: 172.86.95.236
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 美国(yudou789.top 玉豆免费节点)_62
+  network: ws
+  password: 5a2c16f9
+  port: 2053
+  server: 199.119.137.77
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram@V2rayAlpha
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_15
+  network: ws
+  port: 8443
+  server: 77.91.76.152
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 俄罗斯(yudou789.top 玉豆免费节点)_1
+  network: ws
+  port: 8443
+  server: 78.153.136.254
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_63
+  network: ws
+  port: 443
+  server: 167.99.58.113
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_16
+  network: ws
+  port: 2053
+  server: 147.45.42.73
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_64
+  network: ws
+  port: 8443
+  server: 158.51.125.177
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 香港(yudou789.top 玉豆免费节点)_26
+  network: ws
+  port: 443
+  server: 62.60.246.200
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_17
+  network: ws
+  port: 8443
+  server: 147.45.42.4
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_18
+  network: ws
+  port: 2053
+  server: 147.45.42.4
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_65
+  network: ws
+  port: 443
+  server: 167.99.49.60
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_19
+  network: ws
+  port: 2096
+  server: 194.87.77.223
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 香港(yudou789.top 玉豆免费节点)_27
+  network: ws
+  port: 443
+  server: 62.60.246.167
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_20
+  network: ws
+  port: 8444
+  server: 45.95.174.50
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 香港(yudou789.top 玉豆免费节点)_28
+  network: ws
+  port: 443
+  server: 62.60.246.147
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_66
+  network: ws
+  port: 8443
+  server: 38.180.25.224
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 新加坡(yudou789.top 玉豆免费节点)_14
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 20.247.137.183
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 法国(yudou789.top 玉豆免费节点)_5
+  network: ws
+  port: 443
+  server: 94.228.162.176
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 香港(yudou789.top 玉豆免费节点)_29
+  network: ws
+  port: 443
+  server: 62.60.246.137
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_21
+  network: ws
+  port: 443
+  server: 89.169.13.207
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- cipher: chacha20-ietf-poly1305
+  name: 美国(yudou789.top 玉豆免费节点)_67
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+- encryption: none
+  name: 波兰(yudou789.top 玉豆免费节点)_1
+  network: ws
+  port: 443
+  server: 77.91.76.64
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- name: 美国(yudou789.top 玉豆免费节点)_68
+  network: ws
+  password: 5a2c16f9
+  port: 2053
+  server: 199.119.137.77
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram@V2rayAlpha
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_69
+  network: ws
+  port: 42841
+  server: 43.165.190.11
+  servername: mot.morisi.ggff.net
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: mot.morisi.ggff.net
+    path: /@Marisa_kristi
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_70
+  network: ws
+  port: 8443
+  server: 45.82.161.175
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 日本(yudou789.top 玉豆免费节点)_9
+  network: ws
+  port: 19000
+  server: 34.146.161.25
+  servername: x-hk.xaniusnippets.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: x-hk.xaniusnippets.qzz.io
+    path: /?ed=2560
+- encryption: none
+  name: 日本(yudou789.top 玉豆免费节点)_10
+  network: ws
+  port: 443
+  server: 156.231.117.147
+  servername: x-hk.xaniusnippets.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: x-hk.xaniusnippets.qzz.io
+    path: /?ed=2560
+- name: 日本(yudou789.top 玉豆免费节点)_11
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 47.79.43.222
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_71
+  network: ws
+  port: 2053
+  server: 46.226.166.51
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 日本(yudou789.top 玉豆免费节点)_12
+  network: ws
+  port: 36515
+  server: 103.53.81.195
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_72
+  network: ws
+  port: 443
+  server: 185.242.107.80
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 美国(yudou789.top 玉豆免费节点)_73
+  network: ws
+  password: trojan
+  port: 2087
+  server: 109.234.211.66
+  sni: store.timimi.dpdns.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: store.timimi.dpdns.org
+    path: /?BIA_TELEGRAM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)TM(@AZARBAYJAB1)
+- name: 新加坡(yudou789.top 玉豆免费节点)_15
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 38.180.249.123
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- name: 新加坡(yudou789.top 玉豆免费节点)_16
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 160.22.79.155
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- name: 新加坡(yudou789.top 玉豆免费节点)_17
+  network: ws
+  password: 5a2c16f9
+  port: 81
+  server: 5.34.176.119
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_74
+  network: ws
+  port: 2053
+  server: 192.3.30.175
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_75
+  network: ws
+  port: 443
+  server: 195.135.255.199
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 新加坡(yudou789.top 玉豆免费节点)_18
+  network: ws
+  port: 443
+  server: 20.17.98.97
+  servername: ww1.allxniu.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: ww1.allxniu.qzz.io
+    path: /?ed=2560
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_76
+  network: ws
+  port: 443
+  server: 185.233.202.155
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 新加坡(yudou789.top 玉豆免费节点)_19
+  network: ws
+  port: 443
+  server: 20.17.98.97
+  servername: jp.xaniusg2.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: jp.xaniusg2.qzz.io
+    path: /?ed=2560
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_77
+  network: ws
+  port: 2053
+  server: 38.180.40.116
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_78
+  network: ws
+  port: 443
+  server: 77.73.71.196
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 日本(yudou789.top 玉豆免费节点)_13
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 45.76.198.248
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_79
+  network: ws
+  port: 2053
+  server: 89.111.172.106
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- cipher: chacha20-ietf-poly1305
+  name: 法国(yudou789.top 玉豆免费节点)_6
+  password: 5bbe7bf7a282ad8b
+  port: 11201
+  server: 51.178.114.93
+  type: ss
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_22
+  network: ws
+  port: 443
+  server: 45.145.43.190
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_23
+  network: ws
+  port: 443
+  server: 46.101.148.54
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 新加坡(yudou789.top 玉豆免费节点)_20
+  network: ws
+  port: 443
+  server: 43.218.77.16
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_80
+  network: ws
+  port: 81
+  server: 185.186.245.63
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_81
+  network: ws
+  port: 4433
+  server: 23.94.5.177
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 新加坡(yudou789.top 玉豆免费节点)_21
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 209.97.173.243
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_82
+  network: ws
+  port: 2053
+  server: 217.25.91.145
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_83
+  network: ws
+  port: 443
+  server: 37.48.90.120
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_84
+  network: ws
+  port: 42841
+  server: 43.165.190.11
+  servername: mot.luyuju.dpdns.org
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: mot.luyuju.dpdns.org
+    path: /@Marisa_kristi
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_24
+  network: ws
+  port: 443
+  server: 89.22.224.103
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 日本(yudou789.top 玉豆免费节点)_14
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 168.138.46.67
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- name: 日本(yudou789.top 玉豆免费节点)_15
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 43.165.183.43
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_85
+  network: ws
+  port: 443
+  server: 69.84.182.108
+  servername: pq-us4.globals-download.com
+  tls: true
+  type: vless
+  uuid: e343471a-aad3-40da-9dea-72cc8c7dce5f
+  ws-opts:
+    headers:
+      Host: pq-us4.globals-download.com
+    path: /pq/us4
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_25
+  network: ws
+  port: 443
+  server: 77.221.140.167
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_86
+  network: ws
+  port: 443
+  server: 172.67.160.192
+  servername: nuclear.us.kg
+  tls: true
+  type: vless
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  ws-opts:
+    headers:
+      Host: nuclear.us.kg
+    path: /free/103.101.153.32:443
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_26
+  network: ws
+  port: 8443
+  server: 77.91.78.18
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 日本(yudou789.top 玉豆免费节点)_16
+  network: ws
+  port: 50005
+  server: 185.184.223.73
+  servername: x-hk.xaniusnippets.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: x-hk.xaniusnippets.qzz.io
+    path: /?ed=2560
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_87
+  network: ws
+  port: 443
+  server: 185.125.219.164
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- alterId: 0
+  cipher: auto
+  name: 法国(yudou789.top 玉豆免费节点)_7
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: ?ed=2048
+- encryption: none
+  name: 印度(yudou789.top 玉豆免费节点)
+  network: ws
+  port: 443
+  server: cloudflare.182682.xyz
+  servername: l.ayovo.netlib.re
+  tls: true
+  type: vless
+  uuid: 3e2e3c21-3fc8-468f-9ab5-e782bdf5bf97
+  ws-opts:
+    headers:
+      Host: l.ayovo.netlib.re
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 法国(yudou789.top 玉豆免费节点)_8
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou789.top 玉豆免费节点)_88
+  network: ws
+  port: 80
+  server: dDdCCVFg.922922.SHOP
+  servername: dDdCCVFg.922922.SHOP
+  type: vmess
+  uuid: bce0c7cb-08d1-46a7-b77b-7bff8b46252f
+  ws-opts:
+    headers:
+      Host: dDdCCVFg.922922.SHOP
+    path: /RkUUbqhA9GJZBROjL3Q5vTymr
+- name: 香港(yudou789.top 玉豆免费节点)_30
+  network: ws
+  password: 5a2c16f9
+  port: 12082
+  server: 141.11.149.195
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- name: 新加坡(yudou789.top 玉豆免费节点)_22
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 128.199.134.152
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_27
+  network: ws
+  port: 8443
+  server: 51.195.102.180
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 波兰(yudou789.top 玉豆免费节点)_2
+  network: ws
+  port: 8443
+  server: 82.118.22.141
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 新加坡(yudou789.top 玉豆免费节点)_23
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 143.42.66.91
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- cipher: chacha20-ietf-poly1305
+  name: 美国(yudou789.top 玉豆免费节点)_89
+  password: RFK38Cg7APneSB5cWDcpbm
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_90
+  network: ws
+  port: 443
+  server: vip2.kaixincloud.top
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /
+- encryption: none
+  name: 韩国(yudou789.top 玉豆免费节点)_6
+  network: ws
+  port: 10041
+  server: 211.197.161.123
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 韩国(yudou789.top 玉豆免费节点)_7
+  network: ws
+  password: 5a2c16f9
+  port: 12312
+  server: 211.48.77.114
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_91
+  network: ws
+  port: 8443
+  server: 95.182.97.125
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_28
+  network: ws
+  port: 8443
+  server: 51.77.140.23
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_29
+  network: ws
+  port: 443
+  server: 168.119.166.165
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 韩国(yudou789.top 玉豆免费节点)_8
+  network: ws
+  password: ff1dbbc9-ddf2-4d6c-a315-61ecd4223bc0
+  port: 16058
+  server: 14.32.3.193
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 香港(yudou789.top 玉豆免费节点)_31
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 47.79.20.64
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_30
+  network: ws
+  port: 443
+  server: 144.91.77.167
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 法国(yudou789.top 玉豆免费节点)_9
+  network: ws
+  port: 8443
+  server: 51.38.224.25
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- alterId: 0
+  cipher: auto
+  name: 美国(yudou789.top 玉豆免费节点)_92
+  network: ws
+  port: 62211
+  server: 2001:bc8:32d7:2013::8
+  servername: www.bing.com
+  type: vmess
+  uuid: e1786d49-ccba-466b-a0dd-e1ab59bd83bb
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /github.com/Alvin9999
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_31
+  network: ws
+  port: 443
+  server: 185.245.182.254
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- alterId: 0
+  cipher: auto
+  name: 法国(yudou789.top 玉豆免费节点)_10
+  network: ws
+  port: 44579
+  server: 2001:bc8:32d7:302::10
+  servername: AZERB.NET
+  type: vmess
+  uuid: 8e34e170-13ae-4892-9d20-05962acc9f84
+  ws-opts:
+    headers:
+      Host: AZERB.NET
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1?ed=2560
+- name: 韩国(yudou789.top 玉豆免费节点)_9
+  network: ws
+  password: 5a2c16f9
+  port: 50000
+  server: 222.97.1.10
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_93
+  network: ws
+  port: 587
+  server: 45.156.22.150
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_32
+  network: ws
+  port: 8443
+  server: 185.193.66.128
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- cipher: chacha20-ietf-poly1305
+  name: 美国(yudou789.top 玉豆免费节点)_94
+  password: wwzVn2ZnHfqYa6l8EWh3eY
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+- encryption: none
+  name: 波兰(yudou789.top 玉豆免费节点)_3
+  network: ws
+  port: 2053
+  server: 62.192.174.228
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_95
+  network: ws
+  port: 54596
+  server: 46.17.43.237
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 新加坡(yudou789.top 玉豆免费节点)_24
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: ww1.allxniu.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: ww1.allxniu.qzz.io
+    path: /?ed=2560
+- name: 韩国(yudou789.top 玉豆免费节点)_10
+  network: ws
+  password: 5a2c16f9
+  port: 443
+  server: 221.139.87.28
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_96
+  network: ws
+  port: 8443
+  server: 45.91.200.130
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 新加坡(yudou789.top 玉豆免费节点)_25
+  network: ws
+  port: 443
+  server: 34.143.159.175
+  servername: x-hk.xaniusnippets.qzz.io
+  tls: true
+  type: vless
+  uuid: e258977b-e413-4718-a3af-02d75492c349
+  ws-opts:
+    headers:
+      Host: x-hk.xaniusnippets.qzz.io
+    path: /?ed=2560
+- encryption: none
+  name: 日本(yudou789.top 玉豆免费节点)_17
+  network: ws
+  port: 443
+  server: 188.213.168.52
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_33
+  network: ws
+  port: 443
+  server: 77.91.77.218
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 土耳其(yudou789.top 玉豆免费节点)
+  network: ws
+  port: 443
+  server: 45.89.52.9
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 香港(yudou789.top 玉豆免费节点)_32
+  network: ws
+  password: 5a2c16f9
+  port: 8080
+  server: 85.208.104.34
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_34
+  network: ws
+  port: 443
+  server: 89.169.52.156
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 波兰(yudou789.top 玉豆免费节点)_4
+  network: ws
+  port: 8443
+  server: 77.91.76.152
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_97
+  network: ws
+  port: 2053
+  server: 178.250.159.120
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 德国(yudou789.top 玉豆免费节点)_35
+  network: ws
+  port: 51663
+  server: 176.96.136.176
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_98
+  network: ws
+  port: 443
+  server: 46.226.166.179
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 美国(yudou789.top 玉豆免费节点)_99
+  network: ws
+  port: 2096
+  server: 140.99.233.236
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: /Telegram🇨🇳WangCai2
+- name: 日本(yudou789.top 玉豆免费节点)_18
+  network: ws
+  password: 5a2c16f9
+  port: 25965
+  server: 140.83.57.114
+  sni: snippets.kkii.eu.org
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+- encryption: none
+  name: 俄罗斯(yudou789.top 玉豆免费节点)_2
+  network: ws
+  port: 2053
+  server: 77.221.153.168
+  servername: snippets.kkii.eu.org
+  tls: true
+  type: vless
+  uuid: 5a2c16f9-e365-4080-8d38-6924c3835586
+  ws-opts:
+    headers:
+      Host: snippets.kkii.eu.org
+    path: Telegram🇨🇳WangCai2
+proxy-groups:
+- name: 🚀 节点选择
+  proxies:
+  - ♻️ 自动选择
+  - DIRECT
+  - 美国(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_1
+  - 德国(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_2
+  - 美国(yudou789.top 玉豆免费节点)_3
+  - 美国(yudou789.top 玉豆免费节点)_4
+  - 德国(yudou789.top 玉豆免费节点)_1
+  - 美国(yudou789.top 玉豆免费节点)_5
+  - 美国(yudou789.top 玉豆免费节点)_6
+  - 德国(yudou789.top 玉豆免费节点)_2
+  - 美国(yudou789.top 玉豆免费节点)_7
+  - 美国(yudou789.top 玉豆免费节点)_8
+  - 美国(yudou789.top 玉豆免费节点)_9
+  - 美国(yudou789.top 玉豆免费节点)_10
+  - 美国(yudou789.top 玉豆免费节点)_11
+  - 美国(yudou789.top 玉豆免费节点)_12
+  - 法国(yudou789.top 玉豆免费节点)
+  - 日本(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_13
+  - 美国(yudou789.top 玉豆免费节点)_14
+  - 美国(yudou789.top 玉豆免费节点)_15
+  - 美国(yudou789.top 玉豆免费节点)_16
+  - 波兰(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_17
+  - 日本(yudou789.top 玉豆免费节点)_1
+  - 美国(yudou789.top 玉豆免费节点)_18
+  - 美国(yudou789.top 玉豆免费节点)_19
+  - 新加坡(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_20
+  - 俄罗斯(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_21
+  - 香港(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_22
+  - 美国(yudou789.top 玉豆免费节点)_23
+  - 美国(yudou789.top 玉豆免费节点)_24
+  - 新加坡(yudou789.top 玉豆免费节点)_1
+  - 美国(yudou789.top 玉豆免费节点)_25
+  - 美国(yudou789.top 玉豆免费节点)_26
+  - 新加坡(yudou789.top 玉豆免费节点)_2
+  - 美国(yudou789.top 玉豆免费节点)_27
+  - 香港(yudou789.top 玉豆免费节点)_1
+  - 美国(yudou789.top 玉豆免费节点)_28
+  - 美国(yudou789.top 玉豆免费节点)_29
+  - 新加坡(yudou789.top 玉豆免费节点)_3
+  - 美国(yudou789.top 玉豆免费节点)_30
+  - 新加坡(yudou789.top 玉豆免费节点)_4
+  - 新加坡(yudou789.top 玉豆免费节点)_5
+  - 新加坡(yudou789.top 玉豆免费节点)_6
+  - 新加坡(yudou789.top 玉豆免费节点)_7
+  - 美国(yudou789.top 玉豆免费节点)_31
+  - 韩国(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_32
+  - 新加坡(yudou789.top 玉豆免费节点)_8
+  - 美国(yudou789.top 玉豆免费节点)_33
+  - 美国(yudou789.top 玉豆免费节点)_34
+  - 新加坡(yudou789.top 玉豆免费节点)_9
+  - 韩国(yudou789.top 玉豆免费节点)_1
+  - 韩国(yudou789.top 玉豆免费节点)_2
+  - 新加坡(yudou789.top 玉豆免费节点)_10
+  - 韩国(yudou789.top 玉豆免费节点)_3
+  - 美国(yudou789.top 玉豆免费节点)_35
+  - 韩国(yudou789.top 玉豆免费节点)_4
+  - 香港(yudou789.top 玉豆免费节点)_2
+  - 法国(yudou789.top 玉豆免费节点)_1
+  - 韩国(yudou789.top 玉豆免费节点)_5
+  - 美国(yudou789.top 玉豆免费节点)_36
+  - 香港(yudou789.top 玉豆免费节点)_3
+  - 香港(yudou789.top 玉豆免费节点)_4
+  - 香港(yudou789.top 玉豆免费节点)_5
+  - 香港(yudou789.top 玉豆免费节点)_6
+  - 香港(yudou789.top 玉豆免费节点)_7
+  - 香港(yudou789.top 玉豆免费节点)_8
+  - 香港(yudou789.top 玉豆免费节点)_9
+  - 香港(yudou789.top 玉豆免费节点)_10
+  - 美国(yudou789.top 玉豆免费节点)_37
+  - 香港(yudou789.top 玉豆免费节点)_11
+  - 美国(yudou789.top 玉豆免费节点)_38
+  - 香港(yudou789.top 玉豆免费节点)_12
+  - 香港(yudou789.top 玉豆免费节点)_13
+  - 英国(yudou789.top 玉豆免费节点)
+  - 香港(yudou789.top 玉豆免费节点)_14
+  - 香港(yudou789.top 玉豆免费节点)_15
+  - 美国(yudou789.top 玉豆免费节点)_39
+  - 美国(yudou789.top 玉豆免费节点)_40
+  - 美国(yudou789.top 玉豆免费节点)_41
+  - 美国(yudou789.top 玉豆免费节点)_42
+  - 美国(yudou789.top 玉豆免费节点)_43
+  - 日本(yudou789.top 玉豆免费节点)_2
+  - 香港(yudou789.top 玉豆免费节点)_16
+  - 香港(yudou789.top 玉豆免费节点)_17
+  - 美国(yudou789.top 玉豆免费节点)_44
+  - 香港(yudou789.top 玉豆免费节点)_18
+  - 新加坡(yudou789.top 玉豆免费节点)_11
+  - 香港(yudou789.top 玉豆免费节点)_19
+  - 美国(yudou789.top 玉豆免费节点)_45
+  - 美国(yudou789.top 玉豆免费节点)_46
+  - 美国(yudou789.top 玉豆免费节点)_47
+  - 美国(yudou789.top 玉豆免费节点)_48
+  - 美国(yudou789.top 玉豆免费节点)_49
+  - 法国(yudou789.top 玉豆免费节点)_2
+  - 德国(yudou789.top 玉豆免费节点)_3
+  - 美国(yudou789.top 玉豆免费节点)_50
+  - 香港(yudou789.top 玉豆免费节点)_20
+  - 美国(yudou789.top 玉豆免费节点)_51
+  - 日本(yudou789.top 玉豆免费节点)_3
+  - 美国(yudou789.top 玉豆免费节点)_52
+  - 香港(yudou789.top 玉豆免费节点)_21
+  - 日本(yudou789.top 玉豆免费节点)_4
+  - 新加坡(yudou789.top 玉豆免费节点)_12
+  - 德国(yudou789.top 玉豆免费节点)_4
+  - 德国(yudou789.top 玉豆免费节点)_5
+  - 法国(yudou789.top 玉豆免费节点)_3
+  - 德国(yudou789.top 玉豆免费节点)_6
+  - 美国(yudou789.top 玉豆免费节点)_53
+  - 日本(yudou789.top 玉豆免费节点)_5
+  - 美国(yudou789.top 玉豆免费节点)_54
+  - 英国(yudou789.top 玉豆免费节点)_1
+  - 香港(yudou789.top 玉豆免费节点)_22
+  - 美国(yudou789.top 玉豆免费节点)_55
+  - 美国(yudou789.top 玉豆免费节点)_56
+  - 德国(yudou789.top 玉豆免费节点)_7
+  - 德国(yudou789.top 玉豆免费节点)_8
+  - 日本(yudou789.top 玉豆免费节点)_6
+  - 美国(yudou789.top 玉豆免费节点)_57
+  - 日本(yudou789.top 玉豆免费节点)_7
+  - 德国(yudou789.top 玉豆免费节点)_9
+  - 美国(yudou789.top 玉豆免费节点)_58
+  - 德国(yudou789.top 玉豆免费节点)_10
+  - 美国(yudou789.top 玉豆免费节点)_59
+  - 德国(yudou789.top 玉豆免费节点)_11
+  - 德国(yudou789.top 玉豆免费节点)_12
+  - 香港(yudou789.top 玉豆免费节点)_23
+  - 日本(yudou789.top 玉豆免费节点)_8
+  - 英国(yudou789.top 玉豆免费节点)_2
+  - 德国(yudou789.top 玉豆免费节点)_13
+  - 美国(yudou789.top 玉豆免费节点)_60
+  - 美国(yudou789.top 玉豆免费节点)_61
+  - 香港(yudou789.top 玉豆免费节点)_24
+  - 法国(yudou789.top 玉豆免费节点)_4
+  - 香港(yudou789.top 玉豆免费节点)_25
+  - 新加坡(yudou789.top 玉豆免费节点)_13
+  - 德国(yudou789.top 玉豆免费节点)_14
+  - 美国(yudou789.top 玉豆免费节点)_62
+  - 德国(yudou789.top 玉豆免费节点)_15
+  - 俄罗斯(yudou789.top 玉豆免费节点)_1
+  - 美国(yudou789.top 玉豆免费节点)_63
+  - 德国(yudou789.top 玉豆免费节点)_16
+  - 美国(yudou789.top 玉豆免费节点)_64
+  - 香港(yudou789.top 玉豆免费节点)_26
+  - 德国(yudou789.top 玉豆免费节点)_17
+  - 德国(yudou789.top 玉豆免费节点)_18
+  - 美国(yudou789.top 玉豆免费节点)_65
+  - 德国(yudou789.top 玉豆免费节点)_19
+  - 香港(yudou789.top 玉豆免费节点)_27
+  - 德国(yudou789.top 玉豆免费节点)_20
+  - 香港(yudou789.top 玉豆免费节点)_28
+  - 美国(yudou789.top 玉豆免费节点)_66
+  - 新加坡(yudou789.top 玉豆免费节点)_14
+  - 法国(yudou789.top 玉豆免费节点)_5
+  - 香港(yudou789.top 玉豆免费节点)_29
+  - 德国(yudou789.top 玉豆免费节点)_21
+  - 美国(yudou789.top 玉豆免费节点)_67
+  - 波兰(yudou789.top 玉豆免费节点)_1
+  - 美国(yudou789.top 玉豆免费节点)_68
+  - 美国(yudou789.top 玉豆免费节点)_69
+  - 美国(yudou789.top 玉豆免费节点)_70
+  - 日本(yudou789.top 玉豆免费节点)_9
+  - 日本(yudou789.top 玉豆免费节点)_10
+  - 日本(yudou789.top 玉豆免费节点)_11
+  - 美国(yudou789.top 玉豆免费节点)_71
+  - 日本(yudou789.top 玉豆免费节点)_12
+  - 美国(yudou789.top 玉豆免费节点)_72
+  - 美国(yudou789.top 玉豆免费节点)_73
+  - 新加坡(yudou789.top 玉豆免费节点)_15
+  - 新加坡(yudou789.top 玉豆免费节点)_16
+  - 新加坡(yudou789.top 玉豆免费节点)_17
+  - 美国(yudou789.top 玉豆免费节点)_74
+  - 美国(yudou789.top 玉豆免费节点)_75
+  - 新加坡(yudou789.top 玉豆免费节点)_18
+  - 美国(yudou789.top 玉豆免费节点)_76
+  - 新加坡(yudou789.top 玉豆免费节点)_19
+  - 美国(yudou789.top 玉豆免费节点)_77
+  - 美国(yudou789.top 玉豆免费节点)_78
+  - 日本(yudou789.top 玉豆免费节点)_13
+  - 美国(yudou789.top 玉豆免费节点)_79
+  - 法国(yudou789.top 玉豆免费节点)_6
+  - 德国(yudou789.top 玉豆免费节点)_22
+  - 德国(yudou789.top 玉豆免费节点)_23
+  - 新加坡(yudou789.top 玉豆免费节点)_20
+  - 美国(yudou789.top 玉豆免费节点)_80
+  - 美国(yudou789.top 玉豆免费节点)_81
+  - 新加坡(yudou789.top 玉豆免费节点)_21
+  - 美国(yudou789.top 玉豆免费节点)_82
+  - 美国(yudou789.top 玉豆免费节点)_83
+  - 美国(yudou789.top 玉豆免费节点)_84
+  - 德国(yudou789.top 玉豆免费节点)_24
+  - 日本(yudou789.top 玉豆免费节点)_14
+  - 日本(yudou789.top 玉豆免费节点)_15
+  - 美国(yudou789.top 玉豆免费节点)_85
+  - 德国(yudou789.top 玉豆免费节点)_25
+  - 美国(yudou789.top 玉豆免费节点)_86
+  - 德国(yudou789.top 玉豆免费节点)_26
+  - 日本(yudou789.top 玉豆免费节点)_16
+  - 美国(yudou789.top 玉豆免费节点)_87
+  - 法国(yudou789.top 玉豆免费节点)_7
+  - 印度(yudou789.top 玉豆免费节点)
+  - 法国(yudou789.top 玉豆免费节点)_8
+  - 美国(yudou789.top 玉豆免费节点)_88
+  - 香港(yudou789.top 玉豆免费节点)_30
+  - 新加坡(yudou789.top 玉豆免费节点)_22
+  - 德国(yudou789.top 玉豆免费节点)_27
+  - 波兰(yudou789.top 玉豆免费节点)_2
+  - 新加坡(yudou789.top 玉豆免费节点)_23
+  - 美国(yudou789.top 玉豆免费节点)_89
+  - 美国(yudou789.top 玉豆免费节点)_90
+  - 韩国(yudou789.top 玉豆免费节点)_6
+  - 韩国(yudou789.top 玉豆免费节点)_7
+  - 美国(yudou789.top 玉豆免费节点)_91
+  - 德国(yudou789.top 玉豆免费节点)_28
+  - 德国(yudou789.top 玉豆免费节点)_29
+  - 韩国(yudou789.top 玉豆免费节点)_8
+  - 香港(yudou789.top 玉豆免费节点)_31
+  - 德国(yudou789.top 玉豆免费节点)_30
+  - 法国(yudou789.top 玉豆免费节点)_9
+  - 美国(yudou789.top 玉豆免费节点)_92
+  - 德国(yudou789.top 玉豆免费节点)_31
+  - 法国(yudou789.top 玉豆免费节点)_10
+  - 韩国(yudou789.top 玉豆免费节点)_9
+  - 美国(yudou789.top 玉豆免费节点)_93
+  - 德国(yudou789.top 玉豆免费节点)_32
+  - 美国(yudou789.top 玉豆免费节点)_94
+  - 波兰(yudou789.top 玉豆免费节点)_3
+  - 美国(yudou789.top 玉豆免费节点)_95
+  - 新加坡(yudou789.top 玉豆免费节点)_24
+  - 韩国(yudou789.top 玉豆免费节点)_10
+  - 美国(yudou789.top 玉豆免费节点)_96
+  - 新加坡(yudou789.top 玉豆免费节点)_25
+  - 日本(yudou789.top 玉豆免费节点)_17
+  - 德国(yudou789.top 玉豆免费节点)_33
+  - 土耳其(yudou789.top 玉豆免费节点)
+  - 香港(yudou789.top 玉豆免费节点)_32
+  - 德国(yudou789.top 玉豆免费节点)_34
+  - 波兰(yudou789.top 玉豆免费节点)_4
+  - 美国(yudou789.top 玉豆免费节点)_97
+  - 德国(yudou789.top 玉豆免费节点)_35
+  - 美国(yudou789.top 玉豆免费节点)_98
+  - 美国(yudou789.top 玉豆免费节点)_99
+  - 日本(yudou789.top 玉豆免费节点)_18
+  - 俄罗斯(yudou789.top 玉豆免费节点)_2
+  type: select
+- interval: 300
+  name: ♻️ 自动选择
+  proxies:
+  - 美国(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_1
+  - 德国(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_2
+  - 美国(yudou789.top 玉豆免费节点)_3
+  - 美国(yudou789.top 玉豆免费节点)_4
+  - 德国(yudou789.top 玉豆免费节点)_1
+  - 美国(yudou789.top 玉豆免费节点)_5
+  - 美国(yudou789.top 玉豆免费节点)_6
+  - 德国(yudou789.top 玉豆免费节点)_2
+  - 美国(yudou789.top 玉豆免费节点)_7
+  - 美国(yudou789.top 玉豆免费节点)_8
+  - 美国(yudou789.top 玉豆免费节点)_9
+  - 美国(yudou789.top 玉豆免费节点)_10
+  - 美国(yudou789.top 玉豆免费节点)_11
+  - 美国(yudou789.top 玉豆免费节点)_12
+  - 法国(yudou789.top 玉豆免费节点)
+  - 日本(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_13
+  - 美国(yudou789.top 玉豆免费节点)_14
+  - 美国(yudou789.top 玉豆免费节点)_15
+  - 美国(yudou789.top 玉豆免费节点)_16
+  - 波兰(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_17
+  - 日本(yudou789.top 玉豆免费节点)_1
+  - 美国(yudou789.top 玉豆免费节点)_18
+  - 美国(yudou789.top 玉豆免费节点)_19
+  - 新加坡(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_20
+  - 俄罗斯(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_21
+  - 香港(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_22
+  - 美国(yudou789.top 玉豆免费节点)_23
+  - 美国(yudou789.top 玉豆免费节点)_24
+  - 新加坡(yudou789.top 玉豆免费节点)_1
+  - 美国(yudou789.top 玉豆免费节点)_25
+  - 美国(yudou789.top 玉豆免费节点)_26
+  - 新加坡(yudou789.top 玉豆免费节点)_2
+  - 美国(yudou789.top 玉豆免费节点)_27
+  - 香港(yudou789.top 玉豆免费节点)_1
+  - 美国(yudou789.top 玉豆免费节点)_28
+  - 美国(yudou789.top 玉豆免费节点)_29
+  - 新加坡(yudou789.top 玉豆免费节点)_3
+  - 美国(yudou789.top 玉豆免费节点)_30
+  - 新加坡(yudou789.top 玉豆免费节点)_4
+  - 新加坡(yudou789.top 玉豆免费节点)_5
+  - 新加坡(yudou789.top 玉豆免费节点)_6
+  - 新加坡(yudou789.top 玉豆免费节点)_7
+  - 美国(yudou789.top 玉豆免费节点)_31
+  - 韩国(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_32
+  - 新加坡(yudou789.top 玉豆免费节点)_8
+  - 美国(yudou789.top 玉豆免费节点)_33
+  - 美国(yudou789.top 玉豆免费节点)_34
+  - 新加坡(yudou789.top 玉豆免费节点)_9
+  - 韩国(yudou789.top 玉豆免费节点)_1
+  - 韩国(yudou789.top 玉豆免费节点)_2
+  - 新加坡(yudou789.top 玉豆免费节点)_10
+  - 韩国(yudou789.top 玉豆免费节点)_3
+  - 美国(yudou789.top 玉豆免费节点)_35
+  - 韩国(yudou789.top 玉豆免费节点)_4
+  - 香港(yudou789.top 玉豆免费节点)_2
+  - 法国(yudou789.top 玉豆免费节点)_1
+  - 韩国(yudou789.top 玉豆免费节点)_5
+  - 美国(yudou789.top 玉豆免费节点)_36
+  - 香港(yudou789.top 玉豆免费节点)_3
+  - 香港(yudou789.top 玉豆免费节点)_4
+  - 香港(yudou789.top 玉豆免费节点)_5
+  - 香港(yudou789.top 玉豆免费节点)_6
+  - 香港(yudou789.top 玉豆免费节点)_7
+  - 香港(yudou789.top 玉豆免费节点)_8
+  - 香港(yudou789.top 玉豆免费节点)_9
+  - 香港(yudou789.top 玉豆免费节点)_10
+  - 美国(yudou789.top 玉豆免费节点)_37
+  - 香港(yudou789.top 玉豆免费节点)_11
+  - 美国(yudou789.top 玉豆免费节点)_38
+  - 香港(yudou789.top 玉豆免费节点)_12
+  - 香港(yudou789.top 玉豆免费节点)_13
+  - 英国(yudou789.top 玉豆免费节点)
+  - 香港(yudou789.top 玉豆免费节点)_14
+  - 香港(yudou789.top 玉豆免费节点)_15
+  - 美国(yudou789.top 玉豆免费节点)_39
+  - 美国(yudou789.top 玉豆免费节点)_40
+  - 美国(yudou789.top 玉豆免费节点)_41
+  - 美国(yudou789.top 玉豆免费节点)_42
+  - 美国(yudou789.top 玉豆免费节点)_43
+  - 日本(yudou789.top 玉豆免费节点)_2
+  - 香港(yudou789.top 玉豆免费节点)_16
+  - 香港(yudou789.top 玉豆免费节点)_17
+  - 美国(yudou789.top 玉豆免费节点)_44
+  - 香港(yudou789.top 玉豆免费节点)_18
+  - 新加坡(yudou789.top 玉豆免费节点)_11
+  - 香港(yudou789.top 玉豆免费节点)_19
+  - 美国(yudou789.top 玉豆免费节点)_45
+  - 美国(yudou789.top 玉豆免费节点)_46
+  - 美国(yudou789.top 玉豆免费节点)_47
+  - 美国(yudou789.top 玉豆免费节点)_48
+  - 美国(yudou789.top 玉豆免费节点)_49
+  - 法国(yudou789.top 玉豆免费节点)_2
+  - 德国(yudou789.top 玉豆免费节点)_3
+  - 美国(yudou789.top 玉豆免费节点)_50
+  - 香港(yudou789.top 玉豆免费节点)_20
+  - 美国(yudou789.top 玉豆免费节点)_51
+  - 日本(yudou789.top 玉豆免费节点)_3
+  - 美国(yudou789.top 玉豆免费节点)_52
+  - 香港(yudou789.top 玉豆免费节点)_21
+  - 日本(yudou789.top 玉豆免费节点)_4
+  - 新加坡(yudou789.top 玉豆免费节点)_12
+  - 德国(yudou789.top 玉豆免费节点)_4
+  - 德国(yudou789.top 玉豆免费节点)_5
+  - 法国(yudou789.top 玉豆免费节点)_3
+  - 德国(yudou789.top 玉豆免费节点)_6
+  - 美国(yudou789.top 玉豆免费节点)_53
+  - 日本(yudou789.top 玉豆免费节点)_5
+  - 美国(yudou789.top 玉豆免费节点)_54
+  - 英国(yudou789.top 玉豆免费节点)_1
+  - 香港(yudou789.top 玉豆免费节点)_22
+  - 美国(yudou789.top 玉豆免费节点)_55
+  - 美国(yudou789.top 玉豆免费节点)_56
+  - 德国(yudou789.top 玉豆免费节点)_7
+  - 德国(yudou789.top 玉豆免费节点)_8
+  - 日本(yudou789.top 玉豆免费节点)_6
+  - 美国(yudou789.top 玉豆免费节点)_57
+  - 日本(yudou789.top 玉豆免费节点)_7
+  - 德国(yudou789.top 玉豆免费节点)_9
+  - 美国(yudou789.top 玉豆免费节点)_58
+  - 德国(yudou789.top 玉豆免费节点)_10
+  - 美国(yudou789.top 玉豆免费节点)_59
+  - 德国(yudou789.top 玉豆免费节点)_11
+  - 德国(yudou789.top 玉豆免费节点)_12
+  - 香港(yudou789.top 玉豆免费节点)_23
+  - 日本(yudou789.top 玉豆免费节点)_8
+  - 英国(yudou789.top 玉豆免费节点)_2
+  - 德国(yudou789.top 玉豆免费节点)_13
+  - 美国(yudou789.top 玉豆免费节点)_60
+  - 美国(yudou789.top 玉豆免费节点)_61
+  - 香港(yudou789.top 玉豆免费节点)_24
+  - 法国(yudou789.top 玉豆免费节点)_4
+  - 香港(yudou789.top 玉豆免费节点)_25
+  - 新加坡(yudou789.top 玉豆免费节点)_13
+  - 德国(yudou789.top 玉豆免费节点)_14
+  - 美国(yudou789.top 玉豆免费节点)_62
+  - 德国(yudou789.top 玉豆免费节点)_15
+  - 俄罗斯(yudou789.top 玉豆免费节点)_1
+  - 美国(yudou789.top 玉豆免费节点)_63
+  - 德国(yudou789.top 玉豆免费节点)_16
+  - 美国(yudou789.top 玉豆免费节点)_64
+  - 香港(yudou789.top 玉豆免费节点)_26
+  - 德国(yudou789.top 玉豆免费节点)_17
+  - 德国(yudou789.top 玉豆免费节点)_18
+  - 美国(yudou789.top 玉豆免费节点)_65
+  - 德国(yudou789.top 玉豆免费节点)_19
+  - 香港(yudou789.top 玉豆免费节点)_27
+  - 德国(yudou789.top 玉豆免费节点)_20
+  - 香港(yudou789.top 玉豆免费节点)_28
+  - 美国(yudou789.top 玉豆免费节点)_66
+  - 新加坡(yudou789.top 玉豆免费节点)_14
+  - 法国(yudou789.top 玉豆免费节点)_5
+  - 香港(yudou789.top 玉豆免费节点)_29
+  - 德国(yudou789.top 玉豆免费节点)_21
+  - 美国(yudou789.top 玉豆免费节点)_67
+  - 波兰(yudou789.top 玉豆免费节点)_1
+  - 美国(yudou789.top 玉豆免费节点)_68
+  - 美国(yudou789.top 玉豆免费节点)_69
+  - 美国(yudou789.top 玉豆免费节点)_70
+  - 日本(yudou789.top 玉豆免费节点)_9
+  - 日本(yudou789.top 玉豆免费节点)_10
+  - 日本(yudou789.top 玉豆免费节点)_11
+  - 美国(yudou789.top 玉豆免费节点)_71
+  - 日本(yudou789.top 玉豆免费节点)_12
+  - 美国(yudou789.top 玉豆免费节点)_72
+  - 美国(yudou789.top 玉豆免费节点)_73
+  - 新加坡(yudou789.top 玉豆免费节点)_15
+  - 新加坡(yudou789.top 玉豆免费节点)_16
+  - 新加坡(yudou789.top 玉豆免费节点)_17
+  - 美国(yudou789.top 玉豆免费节点)_74
+  - 美国(yudou789.top 玉豆免费节点)_75
+  - 新加坡(yudou789.top 玉豆免费节点)_18
+  - 美国(yudou789.top 玉豆免费节点)_76
+  - 新加坡(yudou789.top 玉豆免费节点)_19
+  - 美国(yudou789.top 玉豆免费节点)_77
+  - 美国(yudou789.top 玉豆免费节点)_78
+  - 日本(yudou789.top 玉豆免费节点)_13
+  - 美国(yudou789.top 玉豆免费节点)_79
+  - 法国(yudou789.top 玉豆免费节点)_6
+  - 德国(yudou789.top 玉豆免费节点)_22
+  - 德国(yudou789.top 玉豆免费节点)_23
+  - 新加坡(yudou789.top 玉豆免费节点)_20
+  - 美国(yudou789.top 玉豆免费节点)_80
+  - 美国(yudou789.top 玉豆免费节点)_81
+  - 新加坡(yudou789.top 玉豆免费节点)_21
+  - 美国(yudou789.top 玉豆免费节点)_82
+  - 美国(yudou789.top 玉豆免费节点)_83
+  - 美国(yudou789.top 玉豆免费节点)_84
+  - 德国(yudou789.top 玉豆免费节点)_24
+  - 日本(yudou789.top 玉豆免费节点)_14
+  - 日本(yudou789.top 玉豆免费节点)_15
+  - 美国(yudou789.top 玉豆免费节点)_85
+  - 德国(yudou789.top 玉豆免费节点)_25
+  - 美国(yudou789.top 玉豆免费节点)_86
+  - 德国(yudou789.top 玉豆免费节点)_26
+  - 日本(yudou789.top 玉豆免费节点)_16
+  - 美国(yudou789.top 玉豆免费节点)_87
+  - 法国(yudou789.top 玉豆免费节点)_7
+  - 印度(yudou789.top 玉豆免费节点)
+  - 法国(yudou789.top 玉豆免费节点)_8
+  - 美国(yudou789.top 玉豆免费节点)_88
+  - 香港(yudou789.top 玉豆免费节点)_30
+  - 新加坡(yudou789.top 玉豆免费节点)_22
+  - 德国(yudou789.top 玉豆免费节点)_27
+  - 波兰(yudou789.top 玉豆免费节点)_2
+  - 新加坡(yudou789.top 玉豆免费节点)_23
+  - 美国(yudou789.top 玉豆免费节点)_89
+  - 美国(yudou789.top 玉豆免费节点)_90
+  - 韩国(yudou789.top 玉豆免费节点)_6
+  - 韩国(yudou789.top 玉豆免费节点)_7
+  - 美国(yudou789.top 玉豆免费节点)_91
+  - 德国(yudou789.top 玉豆免费节点)_28
+  - 德国(yudou789.top 玉豆免费节点)_29
+  - 韩国(yudou789.top 玉豆免费节点)_8
+  - 香港(yudou789.top 玉豆免费节点)_31
+  - 德国(yudou789.top 玉豆免费节点)_30
+  - 法国(yudou789.top 玉豆免费节点)_9
+  - 美国(yudou789.top 玉豆免费节点)_92
+  - 德国(yudou789.top 玉豆免费节点)_31
+  - 法国(yudou789.top 玉豆免费节点)_10
+  - 韩国(yudou789.top 玉豆免费节点)_9
+  - 美国(yudou789.top 玉豆免费节点)_93
+  - 德国(yudou789.top 玉豆免费节点)_32
+  - 美国(yudou789.top 玉豆免费节点)_94
+  - 波兰(yudou789.top 玉豆免费节点)_3
+  - 美国(yudou789.top 玉豆免费节点)_95
+  - 新加坡(yudou789.top 玉豆免费节点)_24
+  - 韩国(yudou789.top 玉豆免费节点)_10
+  - 美国(yudou789.top 玉豆免费节点)_96
+  - 新加坡(yudou789.top 玉豆免费节点)_25
+  - 日本(yudou789.top 玉豆免费节点)_17
+  - 德国(yudou789.top 玉豆免费节点)_33
+  - 土耳其(yudou789.top 玉豆免费节点)
+  - 香港(yudou789.top 玉豆免费节点)_32
+  - 德国(yudou789.top 玉豆免费节点)_34
+  - 波兰(yudou789.top 玉豆免费节点)_4
+  - 美国(yudou789.top 玉豆免费节点)_97
+  - 德国(yudou789.top 玉豆免费节点)_35
+  - 美国(yudou789.top 玉豆免费节点)_98
+  - 美国(yudou789.top 玉豆免费节点)_99
+  - 日本(yudou789.top 玉豆免费节点)_18
+  - 俄罗斯(yudou789.top 玉豆免费节点)_2
+  type: url-test
+  url: http://www.gstatic.com/generate_204
+- name: 🎯 全球直连
+  proxies:
+  - DIRECT
+  - 🚀 节点选择
+  - ♻️ 自动选择
+  type: select
+- name: 🛑 全球拦截
+  proxies:
+  - REJECT
+  - DIRECT
+  type: select
+- name: 🐟 漏网之鱼
+  proxies:
+  - 🚀 节点选择
+  - 🎯 全球直连
+  - ♻️ 自动选择
+  - 美国(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_1
+  - 德国(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_2
+  - 美国(yudou789.top 玉豆免费节点)_3
+  - 美国(yudou789.top 玉豆免费节点)_4
+  - 德国(yudou789.top 玉豆免费节点)_1
+  - 美国(yudou789.top 玉豆免费节点)_5
+  - 美国(yudou789.top 玉豆免费节点)_6
+  - 德国(yudou789.top 玉豆免费节点)_2
+  - 美国(yudou789.top 玉豆免费节点)_7
+  - 美国(yudou789.top 玉豆免费节点)_8
+  - 美国(yudou789.top 玉豆免费节点)_9
+  - 美国(yudou789.top 玉豆免费节点)_10
+  - 美国(yudou789.top 玉豆免费节点)_11
+  - 美国(yudou789.top 玉豆免费节点)_12
+  - 法国(yudou789.top 玉豆免费节点)
+  - 日本(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_13
+  - 美国(yudou789.top 玉豆免费节点)_14
+  - 美国(yudou789.top 玉豆免费节点)_15
+  - 美国(yudou789.top 玉豆免费节点)_16
+  - 波兰(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_17
+  - 日本(yudou789.top 玉豆免费节点)_1
+  - 美国(yudou789.top 玉豆免费节点)_18
+  - 美国(yudou789.top 玉豆免费节点)_19
+  - 新加坡(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_20
+  - 俄罗斯(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_21
+  - 香港(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_22
+  - 美国(yudou789.top 玉豆免费节点)_23
+  - 美国(yudou789.top 玉豆免费节点)_24
+  - 新加坡(yudou789.top 玉豆免费节点)_1
+  - 美国(yudou789.top 玉豆免费节点)_25
+  - 美国(yudou789.top 玉豆免费节点)_26
+  - 新加坡(yudou789.top 玉豆免费节点)_2
+  - 美国(yudou789.top 玉豆免费节点)_27
+  - 香港(yudou789.top 玉豆免费节点)_1
+  - 美国(yudou789.top 玉豆免费节点)_28
+  - 美国(yudou789.top 玉豆免费节点)_29
+  - 新加坡(yudou789.top 玉豆免费节点)_3
+  - 美国(yudou789.top 玉豆免费节点)_30
+  - 新加坡(yudou789.top 玉豆免费节点)_4
+  - 新加坡(yudou789.top 玉豆免费节点)_5
+  - 新加坡(yudou789.top 玉豆免费节点)_6
+  - 新加坡(yudou789.top 玉豆免费节点)_7
+  - 美国(yudou789.top 玉豆免费节点)_31
+  - 韩国(yudou789.top 玉豆免费节点)
+  - 美国(yudou789.top 玉豆免费节点)_32
+  - 新加坡(yudou789.top 玉豆免费节点)_8
+  - 美国(yudou789.top 玉豆免费节点)_33
+  - 美国(yudou789.top 玉豆免费节点)_34
+  - 新加坡(yudou789.top 玉豆免费节点)_9
+  - 韩国(yudou789.top 玉豆免费节点)_1
+  - 韩国(yudou789.top 玉豆免费节点)_2
+  - 新加坡(yudou789.top 玉豆免费节点)_10
+  - 韩国(yudou789.top 玉豆免费节点)_3
+  - 美国(yudou789.top 玉豆免费节点)_35
+  - 韩国(yudou789.top 玉豆免费节点)_4
+  - 香港(yudou789.top 玉豆免费节点)_2
+  - 法国(yudou789.top 玉豆免费节点)_1
+  - 韩国(yudou789.top 玉豆免费节点)_5
+  - 美国(yudou789.top 玉豆免费节点)_36
+  - 香港(yudou789.top 玉豆免费节点)_3
+  - 香港(yudou789.top 玉豆免费节点)_4
+  - 香港(yudou789.top 玉豆免费节点)_5
+  - 香港(yudou789.top 玉豆免费节点)_6
+  - 香港(yudou789.top 玉豆免费节点)_7
+  - 香港(yudou789.top 玉豆免费节点)_8
+  - 香港(yudou789.top 玉豆免费节点)_9
+  - 香港(yudou789.top 玉豆免费节点)_10
+  - 美国(yudou789.top 玉豆免费节点)_37
+  - 香港(yudou789.top 玉豆免费节点)_11
+  - 美国(yudou789.top 玉豆免费节点)_38
+  - 香港(yudou789.top 玉豆免费节点)_12
+  - 香港(yudou789.top 玉豆免费节点)_13
+  - 英国(yudou789.top 玉豆免费节点)
+  - 香港(yudou789.top 玉豆免费节点)_14
+  - 香港(yudou789.top 玉豆免费节点)_15
+  - 美国(yudou789.top 玉豆免费节点)_39
+  - 美国(yudou789.top 玉豆免费节点)_40
+  - 美国(yudou789.top 玉豆免费节点)_41
+  - 美国(yudou789.top 玉豆免费节点)_42
+  - 美国(yudou789.top 玉豆免费节点)_43
+  - 日本(yudou789.top 玉豆免费节点)_2
+  - 香港(yudou789.top 玉豆免费节点)_16
+  - 香港(yudou789.top 玉豆免费节点)_17
+  - 美国(yudou789.top 玉豆免费节点)_44
+  - 香港(yudou789.top 玉豆免费节点)_18
+  - 新加坡(yudou789.top 玉豆免费节点)_11
+  - 香港(yudou789.top 玉豆免费节点)_19
+  - 美国(yudou789.top 玉豆免费节点)_45
+  - 美国(yudou789.top 玉豆免费节点)_46
+  - 美国(yudou789.top 玉豆免费节点)_47
+  - 美国(yudou789.top 玉豆免费节点)_48
+  - 美国(yudou789.top 玉豆免费节点)_49
+  - 法国(yudou789.top 玉豆免费节点)_2
+  - 德国(yudou789.top 玉豆免费节点)_3
+  - 美国(yudou789.top 玉豆免费节点)_50
+  - 香港(yudou789.top 玉豆免费节点)_20
+  - 美国(yudou789.top 玉豆免费节点)_51
+  - 日本(yudou789.top 玉豆免费节点)_3
+  - 美国(yudou789.top 玉豆免费节点)_52
+  - 香港(yudou789.top 玉豆免费节点)_21
+  - 日本(yudou789.top 玉豆免费节点)_4
+  - 新加坡(yudou789.top 玉豆免费节点)_12
+  - 德国(yudou789.top 玉豆免费节点)_4
+  - 德国(yudou789.top 玉豆免费节点)_5
+  - 法国(yudou789.top 玉豆免费节点)_3
+  - 德国(yudou789.top 玉豆免费节点)_6
+  - 美国(yudou789.top 玉豆免费节点)_53
+  - 日本(yudou789.top 玉豆免费节点)_5
+  - 美国(yudou789.top 玉豆免费节点)_54
+  - 英国(yudou789.top 玉豆免费节点)_1
+  - 香港(yudou789.top 玉豆免费节点)_22
+  - 美国(yudou789.top 玉豆免费节点)_55
+  - 美国(yudou789.top 玉豆免费节点)_56
+  - 德国(yudou789.top 玉豆免费节点)_7
+  - 德国(yudou789.top 玉豆免费节点)_8
+  - 日本(yudou789.top 玉豆免费节点)_6
+  - 美国(yudou789.top 玉豆免费节点)_57
+  - 日本(yudou789.top 玉豆免费节点)_7
+  - 德国(yudou789.top 玉豆免费节点)_9
+  - 美国(yudou789.top 玉豆免费节点)_58
+  - 德国(yudou789.top 玉豆免费节点)_10
+  - 美国(yudou789.top 玉豆免费节点)_59
+  - 德国(yudou789.top 玉豆免费节点)_11
+  - 德国(yudou789.top 玉豆免费节点)_12
+  - 香港(yudou789.top 玉豆免费节点)_23
+  - 日本(yudou789.top 玉豆免费节点)_8
+  - 英国(yudou789.top 玉豆免费节点)_2
+  - 德国(yudou789.top 玉豆免费节点)_13
+  - 美国(yudou789.top 玉豆免费节点)_60
+  - 美国(yudou789.top 玉豆免费节点)_61
+  - 香港(yudou789.top 玉豆免费节点)_24
+  - 法国(yudou789.top 玉豆免费节点)_4
+  - 香港(yudou789.top 玉豆免费节点)_25
+  - 新加坡(yudou789.top 玉豆免费节点)_13
+  - 德国(yudou789.top 玉豆免费节点)_14
+  - 美国(yudou789.top 玉豆免费节点)_62
+  - 德国(yudou789.top 玉豆免费节点)_15
+  - 俄罗斯(yudou789.top 玉豆免费节点)_1
+  - 美国(yudou789.top 玉豆免费节点)_63
+  - 德国(yudou789.top 玉豆免费节点)_16
+  - 美国(yudou789.top 玉豆免费节点)_64
+  - 香港(yudou789.top 玉豆免费节点)_26
+  - 德国(yudou789.top 玉豆免费节点)_17
+  - 德国(yudou789.top 玉豆免费节点)_18
+  - 美国(yudou789.top 玉豆免费节点)_65
+  - 德国(yudou789.top 玉豆免费节点)_19
+  - 香港(yudou789.top 玉豆免费节点)_27
+  - 德国(yudou789.top 玉豆免费节点)_20
+  - 香港(yudou789.top 玉豆免费节点)_28
+  - 美国(yudou789.top 玉豆免费节点)_66
+  - 新加坡(yudou789.top 玉豆免费节点)_14
+  - 法国(yudou789.top 玉豆免费节点)_5
+  - 香港(yudou789.top 玉豆免费节点)_29
+  - 德国(yudou789.top 玉豆免费节点)_21
+  - 美国(yudou789.top 玉豆免费节点)_67
+  - 波兰(yudou789.top 玉豆免费节点)_1
+  - 美国(yudou789.top 玉豆免费节点)_68
+  - 美国(yudou789.top 玉豆免费节点)_69
+  - 美国(yudou789.top 玉豆免费节点)_70
+  - 日本(yudou789.top 玉豆免费节点)_9
+  - 日本(yudou789.top 玉豆免费节点)_10
+  - 日本(yudou789.top 玉豆免费节点)_11
+  - 美国(yudou789.top 玉豆免费节点)_71
+  - 日本(yudou789.top 玉豆免费节点)_12
+  - 美国(yudou789.top 玉豆免费节点)_72
+  - 美国(yudou789.top 玉豆免费节点)_73
+  - 新加坡(yudou789.top 玉豆免费节点)_15
+  - 新加坡(yudou789.top 玉豆免费节点)_16
+  - 新加坡(yudou789.top 玉豆免费节点)_17
+  - 美国(yudou789.top 玉豆免费节点)_74
+  - 美国(yudou789.top 玉豆免费节点)_75
+  - 新加坡(yudou789.top 玉豆免费节点)_18
+  - 美国(yudou789.top 玉豆免费节点)_76
+  - 新加坡(yudou789.top 玉豆免费节点)_19
+  - 美国(yudou789.top 玉豆免费节点)_77
+  - 美国(yudou789.top 玉豆免费节点)_78
+  - 日本(yudou789.top 玉豆免费节点)_13
+  - 美国(yudou789.top 玉豆免费节点)_79
+  - 法国(yudou789.top 玉豆免费节点)_6
+  - 德国(yudou789.top 玉豆免费节点)_22
+  - 德国(yudou789.top 玉豆免费节点)_23
+  - 新加坡(yudou789.top 玉豆免费节点)_20
+  - 美国(yudou789.top 玉豆免费节点)_80
+  - 美国(yudou789.top 玉豆免费节点)_81
+  - 新加坡(yudou789.top 玉豆免费节点)_21
+  - 美国(yudou789.top 玉豆免费节点)_82
+  - 美国(yudou789.top 玉豆免费节点)_83
+  - 美国(yudou789.top 玉豆免费节点)_84
+  - 德国(yudou789.top 玉豆免费节点)_24
+  - 日本(yudou789.top 玉豆免费节点)_14
+  - 日本(yudou789.top 玉豆免费节点)_15
+  - 美国(yudou789.top 玉豆免费节点)_85
+  - 德国(yudou789.top 玉豆免费节点)_25
+  - 美国(yudou789.top 玉豆免费节点)_86
+  - 德国(yudou789.top 玉豆免费节点)_26
+  - 日本(yudou789.top 玉豆免费节点)_16
+  - 美国(yudou789.top 玉豆免费节点)_87
+  - 法国(yudou789.top 玉豆免费节点)_7
+  - 印度(yudou789.top 玉豆免费节点)
+  - 法国(yudou789.top 玉豆免费节点)_8
+  - 美国(yudou789.top 玉豆免费节点)_88
+  - 香港(yudou789.top 玉豆免费节点)_30
+  - 新加坡(yudou789.top 玉豆免费节点)_22
+  - 德国(yudou789.top 玉豆免费节点)_27
+  - 波兰(yudou789.top 玉豆免费节点)_2
+  - 新加坡(yudou789.top 玉豆免费节点)_23
+  - 美国(yudou789.top 玉豆免费节点)_89
+  - 美国(yudou789.top 玉豆免费节点)_90
+  - 韩国(yudou789.top 玉豆免费节点)_6
+  - 韩国(yudou789.top 玉豆免费节点)_7
+  - 美国(yudou789.top 玉豆免费节点)_91
+  - 德国(yudou789.top 玉豆免费节点)_28
+  - 德国(yudou789.top 玉豆免费节点)_29
+  - 韩国(yudou789.top 玉豆免费节点)_8
+  - 香港(yudou789.top 玉豆免费节点)_31
+  - 德国(yudou789.top 玉豆免费节点)_30
+  - 法国(yudou789.top 玉豆免费节点)_9
+  - 美国(yudou789.top 玉豆免费节点)_92
+  - 德国(yudou789.top 玉豆免费节点)_31
+  - 法国(yudou789.top 玉豆免费节点)_10
+  - 韩国(yudou789.top 玉豆免费节点)_9
+  - 美国(yudou789.top 玉豆免费节点)_93
+  - 德国(yudou789.top 玉豆免费节点)_32
+  - 美国(yudou789.top 玉豆免费节点)_94
+  - 波兰(yudou789.top 玉豆免费节点)_3
+  - 美国(yudou789.top 玉豆免费节点)_95
+  - 新加坡(yudou789.top 玉豆免费节点)_24
+  - 韩国(yudou789.top 玉豆免费节点)_10
+  - 美国(yudou789.top 玉豆免费节点)_96
+  - 新加坡(yudou789.top 玉豆免费节点)_25
+  - 日本(yudou789.top 玉豆免费节点)_17
+  - 德国(yudou789.top 玉豆免费节点)_33
+  - 土耳其(yudou789.top 玉豆免费节点)
+  - 香港(yudou789.top 玉豆免费节点)_32
+  - 德国(yudou789.top 玉豆免费节点)_34
+  - 波兰(yudou789.top 玉豆免费节点)_4
+  - 美国(yudou789.top 玉豆免费节点)_97
+  - 德国(yudou789.top 玉豆免费节点)_35
+  - 美国(yudou789.top 玉豆免费节点)_98
+  - 美国(yudou789.top 玉豆免费节点)_99
+  - 日本(yudou789.top 玉豆免费节点)_18
+  - 俄罗斯(yudou789.top 玉豆免费节点)_2
+  type: select
+rule-providers:
+  BanAD:
+    behavior: classical
+    interval: 86400
+    path: ./rules/providers/BanAD.list
+    type: http
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+  BanProgramAD:
+    behavior: classical
+    interval: 86400
+    path: ./rules/providers/BanProgramAD.list
+    type: http
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+  ChinaCompanyIp:
+    behavior: classical
+    interval: 86400
+    path: ./rules/providers/ChinaCompanyIp.list
+    type: http
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+  ChinaDomain:
+    behavior: classical
+    interval: 86400
+    path: ./rules/providers/ChinaDomain.list
+    type: http
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+  GoogleCN:
+    behavior: classical
+    interval: 86400
+    path: ./rules/providers/GoogleCN.list
+    type: http
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
+  LocalAreaNetwork:
+    behavior: classical
+    interval: 86400
+    path: ./rules/providers/LocalAreaNetwork.list
+    type: http
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+  ProxyLite:
+    behavior: classical
+    interval: 86400
+    path: ./rules/providers/ProxyLite.list
+    type: http
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+  ProxyMedia:
+    behavior: classical
+    interval: 86400
+    path: ./rules/providers/ProxyMedia.list
+    type: http
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+  SteamCN:
+    behavior: classical
+    interval: 86400
+    path: ./rules/providers/SteamCN.list
+    type: http
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
+  Telegram:
+    behavior: classical
+    interval: 86400
+    path: ./rules/providers/Telegram.list
+    type: http
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+rules:
+- RULE-SET,LocalAreaNetwork,🎯 全球直连
+- RULE-SET,BanAD,🛑 全球拦截
+- RULE-SET,BanProgramAD,🛑 全球拦截
+- RULE-SET,GoogleCN,🎯 全球直连
+- RULE-SET,SteamCN,🎯 全球直连
+- RULE-SET,Telegram,🚀 节点选择
+- RULE-SET,ProxyMedia,🚀 节点选择
+- RULE-SET,ProxyLite,🚀 节点选择
+- RULE-SET,ChinaDomain,🎯 全球直连
+- RULE-SET,ChinaCompanyIp,🎯 全球直连
+- GEOIP,CN,🎯 全球直连
+- MATCH,🐟 漏网之鱼
+tun:
+  auto-detect-interface: true
+  auto-route: true
+  dns-hijack:
+  - 114.114.114.114
+  - 180.76.76.76
+  - 119.29.29.29
+  - 223.5.5.5
+  - 8.8.8.8
+  - 8.8.4.4
+  - 1.1.1.1
+  - 1.0.0.1
+  enable: true
+  stack: system
