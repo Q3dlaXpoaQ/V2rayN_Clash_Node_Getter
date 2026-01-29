@@ -30,104 +30,95 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰 香港2|@stairnode
-  port: 52080
-  server: 61.15.60.153
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: bfb47846-aedb-4ea3-a81f-27895a4ec1bb
 - name: 🇭🇰 香港3|@stairnode
-  password: 4843e94d205f3893f588255a591abe94
+  password: 869e9086806483ca4744a4cb0f3d6e16
   port: 443
-  server: 58.152.18.98
+  server: 58.152.110.210
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇭🇰 香港4|@stairnode
   password: BxceQaOe
-  port: 3292
-  server: 13.114.140.34
+  port: 2266
+  server: 95.40.75.51
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 🇭🇰 香港5|@stairnode
   password: BxceQaOe
-  port: 3042
-  server: 16.162.252.215
+  port: 2826
+  server: 52.196.16.120
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 🇯🇵 日本|@stairnode
   password: BxceQaOe
-  port: 2053
-  server: 18.181.201.166
+  port: 3760
+  server: 13.159.16.204
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 🇯🇵 日本2|@stairnode
-  password: 4843e94d205f3893f588255a591abe94
+  password: 869e9086806483ca4744a4cb0f3d6e16
   port: 1933
-  server: 160.16.57.238
+  server: 153.121.39.240
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇯🇵 日本3|@stairnode
-  password: 4843e94d205f3893f588255a591abe94
-  port: 4006
-  server: 160.16.117.182
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 3423
+  server: 202.181.103.246
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇸🇬 新加坡|@stairnode
-  password: 4843e94d205f3893f588255a591abe94
-  port: 544
-  server: 153.121.65.107
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 3901
+  server: 160.16.63.16
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇸🇬 新加坡2|@stairnode
-  password: 4843e94d205f3893f588255a591abe94
-  port: 3901
-  server: 160.16.124.55
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 3076
+  server: 160.16.196.59
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇸🇬 新加坡3|@stairnode
   password: BxceQaOe
-  port: 1196
-  server: 13.114.140.34
+  port: 3579
+  server: 13.158.129.83
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 🇺🇸 美国|@stairnode
-  password: 4843e94d205f3893f588255a591abe94
-  port: 5076
-  server: 160.16.57.238
+  password: 869e9086806483ca4744a4cb0f3d6e16
+  port: 491
+  server: 153.121.39.240
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇺🇸 美国2|@stairnode
-  password: 4843e94d205f3893f588255a591abe94
+  password: 869e9086806483ca4744a4cb0f3d6e16
   port: 5076
-  server: 160.16.117.182
+  server: 153.121.39.240
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 🇺🇸 美国3|@stairnode
   password: BxceQaOe
-  port: 4569
-  server: 16.162.22.195
+  port: 2173
+  server: 13.158.129.83
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: 🇻🇳 越南|@stairnode
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.125
+- cipher: chacha20-ietf-poly1305
+  name: 🇬🇧 英国|@stairnode
+  password: kaQH3hGdcP80XEDI
+  port: 443
+  server: admin.c2.havij.co
   type: ss
 proxy-groups:
 - name: 🚀 节点选择
@@ -136,7 +127,6 @@ proxy-groups:
   - DIRECT
   - 8元老牌专线机场：cczzuu.top
   - 🇭🇰 香港|@stairnode
-  - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
@@ -149,14 +139,13 @@ proxy-groups:
   - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
-  - 🇻🇳 越南|@stairnode
+  - 🇬🇧 英国|@stairnode
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 8元老牌专线机场：cczzuu.top
   - 🇭🇰 香港|@stairnode
-  - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
@@ -169,7 +158,7 @@ proxy-groups:
   - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
-  - 🇻🇳 越南|@stairnode
+  - 🇬🇧 英国|@stairnode
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -180,7 +169,6 @@ proxy-groups:
   - 🎯 全球直连
   - 8元老牌专线机场：cczzuu.top
   - 🇭🇰 香港|@stairnode
-  - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
@@ -193,7 +181,7 @@ proxy-groups:
   - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
-  - 🇻🇳 越南|@stairnode
+  - 🇬🇧 英国|@stairnode
   type: select
 - name: 📲 电报信息
   proxies:
@@ -201,7 +189,6 @@ proxy-groups:
   - 🎯 全球直连
   - 8元老牌专线机场：cczzuu.top
   - 🇭🇰 香港|@stairnode
-  - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
@@ -214,7 +201,7 @@ proxy-groups:
   - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
-  - 🇻🇳 越南|@stairnode
+  - 🇬🇧 英国|@stairnode
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
@@ -222,7 +209,6 @@ proxy-groups:
   - 🚀 节点选择
   - 8元老牌专线机场：cczzuu.top
   - 🇭🇰 香港|@stairnode
-  - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
@@ -235,7 +221,7 @@ proxy-groups:
   - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
-  - 🇻🇳 越南|@stairnode
+  - 🇬🇧 英国|@stairnode
   type: select
 - name: 🍎 苹果服务
   proxies:
@@ -243,7 +229,6 @@ proxy-groups:
   - 🎯 全球直连
   - 8元老牌专线机场：cczzuu.top
   - 🇭🇰 香港|@stairnode
-  - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
@@ -256,7 +241,7 @@ proxy-groups:
   - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
-  - 🇻🇳 越南|@stairnode
+  - 🇬🇧 英国|@stairnode
   type: select
 - name: 📢 谷歌FCM
   proxies:
@@ -265,7 +250,6 @@ proxy-groups:
   - ♻️ 自动选择
   - 8元老牌专线机场：cczzuu.top
   - 🇭🇰 香港|@stairnode
-  - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
@@ -278,7 +262,7 @@ proxy-groups:
   - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
-  - 🇻🇳 越南|@stairnode
+  - 🇬🇧 英国|@stairnode
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -303,7 +287,6 @@ proxy-groups:
   - ♻️ 自动选择
   - 8元老牌专线机场：cczzuu.top
   - 🇭🇰 香港|@stairnode
-  - 🇭🇰 香港2|@stairnode
   - 🇭🇰 香港3|@stairnode
   - 🇭🇰 香港4|@stairnode
   - 🇭🇰 香港5|@stairnode
@@ -316,7 +299,7 @@ proxy-groups:
   - 🇺🇸 美国|@stairnode
   - 🇺🇸 美国2|@stairnode
   - 🇺🇸 美国3|@stairnode
-  - 🇻🇳 越南|@stairnode
+  - 🇬🇧 英国|@stairnode
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
