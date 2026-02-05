@@ -32,144 +32,438 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
-- cipher: aes-256-cfb
-  name: 🇰🇷_KR_韩国
-  password: qwerREWQ@@
-  port: 43231
-  server: 221.150.109.89
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷_KR_韩国_1
-  password: qwerREWQ@@
-  port: 28860
-  server: 168.126.234.233
-  type: ss
-- name: 🇺🇸_US_美国_2
-  password: er668
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇻🇪_VE_委内瑞拉
+  port: 51102
+  reality-opts:
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: 887c0d72e771a934
+  server: 158.160.221.132
+  servername: yandex.ru
+  tls: true
+  type: vless
+  uuid: d4d031ec-0ba6-486a-aa0c-dce2b7cb8933
+- name: 🇺🇸_US_美国
+  network: ws
   port: 443
-  server: kfjdi.pages.dev
-  skip-cert-verify: false
-  tls: false
-  type: trojan
+  server: 172.67.160.192
+  servername: nuclear.us.kg
+  tls: true
+  type: vless
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   ws-opts:
-    path: 🔒
-- cipher: aes-256-cfb
-  name: 🇰🇷_KR_韩国_2
-  password: qwerREWQ@@
-  port: 39502
-  server: 218.38.103.150
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷_KR_韩国_3
-  password: qwerREWQ@@
-  port: 61417
-  server: 121.170.203.147
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷_KR_韩国_4
-  password: qwerREWQ@@
-  port: 19307
-  server: 211.201.169.70
-  type: ss
-- cipher: aes-256-cfb
-  name: 🇰🇷_KR_韩国_5
-  password: qwerREWQ@@
-  port: 4483
-  server: 218.234.149.9
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳_CN_中国
-  password: 34bafa5f59fc339f
-  port: 11201
-  server: 156.244.36.105
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇳🇱_NL_荷兰_1
-  password: X36TIi4C3NH6Oln3TdGyjg
-  port: 9443
-  server: fl3.cowjuice.me
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇭🇺_HU_匈牙利
-  password: 01dc0d7cbb650bc3
-  port: 11201
-  server: 109.61.39.150
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇯🇴_JO_约旦
-  password: 11bf054dcc0342cd
-  port: 11201
-  server: 91.106.109.74
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳_CN_中国_1
-  password: 2272de48c53e0a57
-  port: 11201
-  server: 154.205.147.237
-  type: ss
+    headers:
+      Host: nuclear.us.kg
+    path: /free/103.101.153.32:443
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸_US_美国_1
+  port: 8443
+  reality-opts:
+    public-key: nGpFJVvSeovPXUN32QWht5nxg16Mwus--TLdY0JBHjY
+    short-id: 5a53bd202e47bab8
+  server: 144.31.111.182
+  servername: cloudlane.xyz
+  tls: true
+  type: vless
+  uuid: 9f4ffa56-6813-430c-8cac-159cc469086a
 - alterId: 2
-  name: 中国 - 香港 - PCCW IMS Limited - 45
+  cipher: auto
+  name: 🇨🇳_CN_中国
   network: ws
   port: 80
-  server: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
+  server: a97f4a24-t9w4g0-tn57fp-5ifr.hkt.gotochinatown.net
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+  uuid: ecfab6c8-df5b-11ed-98a7-f23c913c8d2b
   ws-opts:
     headers:
-      Host: 5804d996-t70f40-tonrmx-8n27.hkt.gotochinatown.net
+      Host: broadcastlv.chat.bilibili.com
     path: /
+- client-fingerprint: chrome
+  name: 🇺🇸_US_美国_2
+  network: ws
+  port: 443
+  server: 141.101.123.40
+  servername: rAyAn-cOnFiG-it-1.pAriSa.dPdNs.oRg
+  tls: true
+  type: vless
+  uuid: 8388434b-bbc8-4e00-b497-69a7f56f6e24
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-it-1.pAriSa.dPdNs.oRg
+    path: /ws
 - alterId: 2
-  name: 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+  cipher: auto
+  name: 🇨🇳_CN_中国_1
   network: ws
   port: 80
-  server: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
+  server: c31c955e-t63340-tao3bn-ggww.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: bcc58e88-e147-11ec-b286-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: c31c955e-t63340-tao3bn-ggww.hkt.gotochinatown.net
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国_2
+  network: ws
+  port: 80
+  server: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
+  servername: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 167db97c-ee01-11ef-b737-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: 5545a4de-t8lts0-tasors-1tdqt.hkt.gotochinatown.net
+    path: /
+- client-fingerprint: chrome
+  name: 🇺🇸_US_美国_3
+  network: ws
+  port: 443
+  server: 173.245.59.121
+  servername: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
+  tls: true
+  type: vless
+  uuid: 979b6822-d65a-400d-89f8-30391903ac20
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-uk-1.pAriSa.dPdNs.oRg
+    path: /ws
+- client-fingerprint: chrome
+  name: 🇧🇷_BR_巴西->🇺🇸_US_美国
+  network: ws
+  port: 443
+  server: cdn.halazzon.ir
+  servername: afrcloud4.c01.kr
+  tls: true
+  type: vless
+  uuid: a75cf6f3-10fb-461b-a5a5-a934f6039cce
+  ws-opts:
+    headers:
+      Host: afrcloud4.c01.kr
+    path: /36.95.152.58=12137
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国_3
+  network: ws
+  port: 80
+  server: 92c73b3e-t9w4g0-thd0h1-1rz5s.hkt.gotochinatown.net
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b
   ws-opts:
     headers:
-      Host: 010ece56-t6r5s0-thd0h1-1rz5s.hkt.gotochinatown.net
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺_RU_俄罗斯
+  port: 443
+  reality-opts:
+    public-key: 6EHTqOektSiQ8OMDU-5I1RWpFWw22N_N1aJCJdymXCA
+    short-id: 199939d7
+  server: russia7.yourbot.me
+  servername: ftp.debian.org
+  tls: true
+  type: vless
+  uuid: 15d5ef21-f4cd-4812-bb30-f998051c5dc1
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
+  port: 8443
+  reality-opts:
+    public-key: Qddpg8luihgzgx4g4uMJklXzlrMCd8L1igJSWrRUvSc
+    short-id: 887c0d72e771a934
+  server: 83.166.238.183
+  servername: m.vk.ru
+  tls: true
+  type: vless
+  uuid: d4d031ec-0ba6-486a-aa0c-dce2b7cb8933
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+  port: 8443
+  reality-opts:
+    public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04
+    short-id: 205748bc0f24a747
+  server: 89.169.162.214
+  servername: yandex.ru
+  tls: true
+  type: vless
+  uuid: 2ad6bd90-51fd-41d2-985b-b7aab5cd77c8
+- cipher: aes-256-cfb
+  name: 未知
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.127
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸_US_美国_4
+  password: kaQH3hGdcP80XEDI
+  port: 443
+  server: admin.c2.havij.co
+  type: ss
+- name: 🇺🇸_US_美国->🇳🇱_NL_荷兰
+  network: ws
+  port: 2096
+  server: cloud2.turkserver.ir
+  servername: javani-nol.ip-venzo.com.
+  tls: true
+  type: vless
+  uuid: 77cb6e9e-f83f-40e5-b4da-90e25d75123e
+  ws-opts:
+    headers:
+      Host: javani-nol.ip-venzo.com.
+    path: /
+- client-fingerprint: chrome
+  name: 🇧🇷_BR_巴西->🇩🇪_DE_德国
+  network: ws
+  port: 443
+  server: my.montago-shop.ir
+  servername: mx.mahoshid.ir
+  tls: true
+  type: vless
+  uuid: 929c6e27-4c24-4775-bc51-0e6117dabd4b
+  ws-opts:
+    headers:
+      Host: mx.mahoshid.ir
+    path: /?ed=2560
+- client-fingerprint: firefox
+  name: 🇷🇺_RU_俄罗斯_1
+  port: 443
+  reality-opts:
+    public-key: RHUQAGJ_MYNKsZt2XO_DATEm1cQh0Rdpz83DTCGSKl0
+    short-id: 740d6f2e
+  server: 0ru84.tcpdoor.net
+  servername: 0ru84.tcpdoor.net
+  tls: true
+  type: vless
+  uuid: 40ecece1-edd9-4543-99c7-529ee594135d
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国_4
+  network: ws
+  port: 80
+  server: 51f142c0-t9w4g0-tart0c-g3b3.hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 9ad05870-d8c5-11ef-9f1c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- client-fingerprint: chrome
+  name: 🇺🇸_US_美国->🇫🇷_FR_法国
+  network: ws
+  port: 443
+  server: 104.24.69.114
+  servername: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+  tls: true
+  type: vless
+  uuid: 85462399-8624-4e5c-bbb0-f95d84ca8256
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-fr-1.pAriSa.dPdNs.oRg
+    path: /ws
+- name: 🇺🇸_US_美国->🇩🇪_DE_德国
+  network: ws
+  port: 2052
+  server: nx.cloud1.hosting-ip.zulagaming.icu
+  tls: false
+  type: vless
+  uuid: 1f00970a-14c1-40d0-9c06-43f513975be1
+  ws-opts:
+    headers:
+      Host: rizai.blogasak.fun.zulagaming.icu.blog.zulagaming.icu
+    path: /?ed=2560
+- name: 🇺🇸_US_美国->🇫🇮_FI_芬兰
+  network: ws
+  port: 80
+  server: FASTLY.COM
+  tls: false
+  type: vless
+  uuid: c805b05e-339d-40e0-8787-432d97a27345
+  ws-opts:
+    headers:
+      Host: mihan-germar2.global.ssl.fastly.net
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+  port: 443
+  reality-opts:
+    public-key: llaiqC-oIhL_bjc236FPq26LSn7IVhIa4cIC6OVytws
+    short-id: 8453e5fd9af927
+  server: rus-0001-xr.packet-drop-society.net
+  servername: hls-svod.itunes.apple.com
+  tls: true
+  type: vless
+  uuid: ba77276e-9939-4c6c-a73e-90e02b6faf13
+- client-fingerprint: chrome
+  name: 🇬🇧_GB_英国
+  port: 8081
+  reality-opts:
+    public-key: EJKcPSl0dv7mtU26gg6tUmKPw_aDvO2AHraRgNn6B14
+    short-id: 425ba80cd1a821a8
+  server: 5.188.142.230
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  uuid: 148fcfad-46d5-40c1-8045-52c4f626fc8a
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国_5
+  network: ws
+  port: 80
+  server: c3d192c0-t9w4g0-tb5nzx-1mqag.hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: b585dac6-dc69-11ef-9f1c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- name: 🇩🇪_DE_德国
+  port: 443
+  server: secdn17.suio.me
+  servername: secdn17.suio.me
+  tls: true
+  type: vless
+  uuid: a7a9f670-44c0-45a9-8047-69db0203c142
+- client-fingerprint: chrome
+  name: 🇺🇸_US_美国_5
+  network: ws
+  port: 443
+  server: 190.93.245.102
+  servername: rAyAn-cOnFiG-tr-1.pAriSa.dPdNs.oRg
+  tls: true
+  type: vless
+  uuid: f521fa2c-835e-43e7-b4dc-a1fd6f2ed1dd
+  ws-opts:
+    headers:
+      Host: rAyAn-cOnFiG-tr-1.pAriSa.dPdNs.oRg
+    path: /ws
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
+  port: 443
+  reality-opts:
+    public-key: mhS5tgy6bzzFw_sOpdAGuKVS5MF1e0FjzimA92KnPUE
+  server: 217.16.25.173
+  servername: eh.vk.ru
+  tls: true
+  type: vless
+  uuid: 0bdf406a-84a5-46a0-baf8-c1d85ad30d6b
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国_6
+  network: ws
+  port: 80
+  server: 967d835d-t9w4g0-tysu9z-1nq4g.hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 80aa5178-f936-11ed-8ce6-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 🇨🇳_CN_中国_7
+  network: ws
+  port: 80
+  server: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
+  servername: broadcastlv.chat.bilibili.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: dd1b8960-t70f40-t7fz1r-8rja.hkt.gotochinatown.net
     path: /
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇰🇷_KR_韩国
-  - 🇰🇷_KR_韩国_1
-  - 🇺🇸_US_美国_2
-  - 🇰🇷_KR_韩国_2
-  - 🇰🇷_KR_韩国_3
-  - 🇰🇷_KR_韩国_4
-  - 🇰🇷_KR_韩国_5
+  - 🇻🇪_VE_委内瑞拉
+  - 🇺🇸_US_美国
+  - 🇺🇸_US_美国_1
   - 🇨🇳_CN_中国
-  - 🇳🇱_NL_荷兰_1
-  - 🇭🇺_HU_匈牙利
-  - 🇯🇴_JO_约旦
+  - 🇺🇸_US_美国_2
   - 🇨🇳_CN_中国_1
-  - 中国 - 香港 - PCCW IMS Limited - 45
-  - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+  - 🇨🇳_CN_中国_2
+  - 🇺🇸_US_美国_3
+  - 🇧🇷_BR_巴西->🇺🇸_US_美国
+  - 🇨🇳_CN_中国_3
+  - 🇷🇺_RU_俄罗斯
+  - 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
+  - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+  - 未知
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰
+  - 🇧🇷_BR_巴西->🇩🇪_DE_德国
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇨🇳_CN_中国_4
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国->🇩🇪_DE_德国
+  - 🇺🇸_US_美国->🇫🇮_FI_芬兰
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+  - 🇬🇧_GB_英国
+  - 🇨🇳_CN_中国_5
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_5
+  - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国_6
+  - 🇨🇳_CN_中国_7
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇰🇷_KR_韩国
-  - 🇰🇷_KR_韩国_1
-  - 🇺🇸_US_美国_2
-  - 🇰🇷_KR_韩国_2
-  - 🇰🇷_KR_韩国_3
-  - 🇰🇷_KR_韩国_4
-  - 🇰🇷_KR_韩国_5
+  - 🇻🇪_VE_委内瑞拉
+  - 🇺🇸_US_美国
+  - 🇺🇸_US_美国_1
   - 🇨🇳_CN_中国
-  - 🇳🇱_NL_荷兰_1
-  - 🇭🇺_HU_匈牙利
-  - 🇯🇴_JO_约旦
+  - 🇺🇸_US_美国_2
   - 🇨🇳_CN_中国_1
-  - 中国 - 香港 - PCCW IMS Limited - 45
-  - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+  - 🇨🇳_CN_中国_2
+  - 🇺🇸_US_美国_3
+  - 🇧🇷_BR_巴西->🇺🇸_US_美国
+  - 🇨🇳_CN_中国_3
+  - 🇷🇺_RU_俄罗斯
+  - 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
+  - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+  - 未知
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰
+  - 🇧🇷_BR_巴西->🇩🇪_DE_德国
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇨🇳_CN_中国_4
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国->🇩🇪_DE_德国
+  - 🇺🇸_US_美国->🇫🇮_FI_芬兰
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+  - 🇬🇧_GB_英国
+  - 🇨🇳_CN_中国_5
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_5
+  - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国_6
+  - 🇨🇳_CN_中国_7
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -178,77 +472,141 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇰🇷_KR_韩国
-  - 🇰🇷_KR_韩国_1
-  - 🇺🇸_US_美国_2
-  - 🇰🇷_KR_韩国_2
-  - 🇰🇷_KR_韩国_3
-  - 🇰🇷_KR_韩国_4
-  - 🇰🇷_KR_韩国_5
+  - 🇻🇪_VE_委内瑞拉
+  - 🇺🇸_US_美国
+  - 🇺🇸_US_美国_1
   - 🇨🇳_CN_中国
-  - 🇳🇱_NL_荷兰_1
-  - 🇭🇺_HU_匈牙利
-  - 🇯🇴_JO_约旦
+  - 🇺🇸_US_美国_2
   - 🇨🇳_CN_中国_1
-  - 中国 - 香港 - PCCW IMS Limited - 45
-  - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+  - 🇨🇳_CN_中国_2
+  - 🇺🇸_US_美国_3
+  - 🇧🇷_BR_巴西->🇺🇸_US_美国
+  - 🇨🇳_CN_中国_3
+  - 🇷🇺_RU_俄罗斯
+  - 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
+  - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+  - 未知
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰
+  - 🇧🇷_BR_巴西->🇩🇪_DE_德国
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇨🇳_CN_中国_4
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国->🇩🇪_DE_德国
+  - 🇺🇸_US_美国->🇫🇮_FI_芬兰
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+  - 🇬🇧_GB_英国
+  - 🇨🇳_CN_中国_5
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_5
+  - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国_6
+  - 🇨🇳_CN_中国_7
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇰🇷_KR_韩国
-  - 🇰🇷_KR_韩国_1
-  - 🇺🇸_US_美国_2
-  - 🇰🇷_KR_韩国_2
-  - 🇰🇷_KR_韩国_3
-  - 🇰🇷_KR_韩国_4
-  - 🇰🇷_KR_韩国_5
+  - 🇻🇪_VE_委内瑞拉
+  - 🇺🇸_US_美国
+  - 🇺🇸_US_美国_1
   - 🇨🇳_CN_中国
-  - 🇳🇱_NL_荷兰_1
-  - 🇭🇺_HU_匈牙利
-  - 🇯🇴_JO_约旦
+  - 🇺🇸_US_美国_2
   - 🇨🇳_CN_中国_1
-  - 中国 - 香港 - PCCW IMS Limited - 45
-  - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+  - 🇨🇳_CN_中国_2
+  - 🇺🇸_US_美国_3
+  - 🇧🇷_BR_巴西->🇺🇸_US_美国
+  - 🇨🇳_CN_中国_3
+  - 🇷🇺_RU_俄罗斯
+  - 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
+  - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+  - 未知
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰
+  - 🇧🇷_BR_巴西->🇩🇪_DE_德国
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇨🇳_CN_中国_4
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国->🇩🇪_DE_德国
+  - 🇺🇸_US_美国->🇫🇮_FI_芬兰
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+  - 🇬🇧_GB_英国
+  - 🇨🇳_CN_中国_5
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_5
+  - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国_6
+  - 🇨🇳_CN_中国_7
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇰🇷_KR_韩国
-  - 🇰🇷_KR_韩国_1
-  - 🇺🇸_US_美国_2
-  - 🇰🇷_KR_韩国_2
-  - 🇰🇷_KR_韩国_3
-  - 🇰🇷_KR_韩国_4
-  - 🇰🇷_KR_韩国_5
+  - 🇻🇪_VE_委内瑞拉
+  - 🇺🇸_US_美国
+  - 🇺🇸_US_美国_1
   - 🇨🇳_CN_中国
-  - 🇳🇱_NL_荷兰_1
-  - 🇭🇺_HU_匈牙利
-  - 🇯🇴_JO_约旦
+  - 🇺🇸_US_美国_2
   - 🇨🇳_CN_中国_1
-  - 中国 - 香港 - PCCW IMS Limited - 45
-  - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+  - 🇨🇳_CN_中国_2
+  - 🇺🇸_US_美国_3
+  - 🇧🇷_BR_巴西->🇺🇸_US_美国
+  - 🇨🇳_CN_中国_3
+  - 🇷🇺_RU_俄罗斯
+  - 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
+  - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+  - 未知
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰
+  - 🇧🇷_BR_巴西->🇩🇪_DE_德国
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇨🇳_CN_中国_4
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国->🇩🇪_DE_德国
+  - 🇺🇸_US_美国->🇫🇮_FI_芬兰
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+  - 🇬🇧_GB_英国
+  - 🇨🇳_CN_中国_5
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_5
+  - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国_6
+  - 🇨🇳_CN_中国_7
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇰🇷_KR_韩国
-  - 🇰🇷_KR_韩国_1
-  - 🇺🇸_US_美国_2
-  - 🇰🇷_KR_韩国_2
-  - 🇰🇷_KR_韩国_3
-  - 🇰🇷_KR_韩国_4
-  - 🇰🇷_KR_韩国_5
+  - 🇻🇪_VE_委内瑞拉
+  - 🇺🇸_US_美国
+  - 🇺🇸_US_美国_1
   - 🇨🇳_CN_中国
-  - 🇳🇱_NL_荷兰_1
-  - 🇭🇺_HU_匈牙利
-  - 🇯🇴_JO_约旦
+  - 🇺🇸_US_美国_2
   - 🇨🇳_CN_中国_1
-  - 中国 - 香港 - PCCW IMS Limited - 45
-  - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+  - 🇨🇳_CN_中国_2
+  - 🇺🇸_US_美国_3
+  - 🇧🇷_BR_巴西->🇺🇸_US_美国
+  - 🇨🇳_CN_中国_3
+  - 🇷🇺_RU_俄罗斯
+  - 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
+  - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+  - 未知
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰
+  - 🇧🇷_BR_巴西->🇩🇪_DE_德国
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇨🇳_CN_中国_4
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国->🇩🇪_DE_德国
+  - 🇺🇸_US_美国->🇫🇮_FI_芬兰
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+  - 🇬🇧_GB_英国
+  - 🇨🇳_CN_中国_5
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_5
+  - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国_6
+  - 🇨🇳_CN_中国_7
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -271,20 +629,36 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇰🇷_KR_韩国
-  - 🇰🇷_KR_韩国_1
-  - 🇺🇸_US_美国_2
-  - 🇰🇷_KR_韩国_2
-  - 🇰🇷_KR_韩国_3
-  - 🇰🇷_KR_韩国_4
-  - 🇰🇷_KR_韩国_5
+  - 🇻🇪_VE_委内瑞拉
+  - 🇺🇸_US_美国
+  - 🇺🇸_US_美国_1
   - 🇨🇳_CN_中国
-  - 🇳🇱_NL_荷兰_1
-  - 🇭🇺_HU_匈牙利
-  - 🇯🇴_JO_约旦
+  - 🇺🇸_US_美国_2
   - 🇨🇳_CN_中国_1
-  - 中国 - 香港 - PCCW IMS Limited - 45
-  - 🇭🇰 HK²_23|2.8MB/s|0%|GPT⁺|YT|X|History|[原生|住宅]
+  - 🇨🇳_CN_中国_2
+  - 🇺🇸_US_美国_3
+  - 🇧🇷_BR_巴西->🇺🇸_US_美国
+  - 🇨🇳_CN_中国_3
+  - 🇷🇺_RU_俄罗斯
+  - 🇷🇺_RU_俄罗斯->🇵🇱_PL_波兰
+  - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国
+  - 未知
+  - 🇺🇸_US_美国_4
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰
+  - 🇧🇷_BR_巴西->🇩🇪_DE_德国
+  - 🇷🇺_RU_俄罗斯_1
+  - 🇨🇳_CN_中国_4
+  - 🇺🇸_US_美国->🇫🇷_FR_法国
+  - 🇺🇸_US_美国->🇩🇪_DE_德国
+  - 🇺🇸_US_美国->🇫🇮_FI_芬兰
+  - 🇺🇸_US_美国->🇳🇱_NL_荷兰_1
+  - 🇬🇧_GB_英国
+  - 🇨🇳_CN_中国_5
+  - 🇩🇪_DE_德国
+  - 🇺🇸_US_美国_5
+  - 🇷🇺_RU_俄罗斯->🇺🇸_US_美国_1
+  - 🇨🇳_CN_中国_6
+  - 🇨🇳_CN_中国_7
   type: select
 tun:
   auto-detect-interface: true
