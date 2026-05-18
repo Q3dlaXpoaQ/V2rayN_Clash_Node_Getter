@@ -17,26 +17,19 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB英國
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- name: 🇸🇬SG新加坡丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 66.42.61.215
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
   udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB英國節點
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 🇰🇷KR韓國丨yoyapai.com
   password: 8r<[9'l6hAO#8ZQi
   port: 18001
@@ -52,8 +45,132 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - name: 🇰🇷KR韓國丨yoyapai.com_1
   password: 8r<[9'l6hAO#8ZQi
-  port: 10912
-  server: 175.197.237.36
+  port: 19461
+  server: 123.99.111.135
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇳🇱NL荷蘭丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 185.52.0.84
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇳🇱NL荷蘭丨yoyapai.com_1
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 91.221.190.80
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇳🇱NL荷蘭丨yoyapai.com_2
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 2.59.183.210
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇳🇱NL荷蘭丨yoyapai.com_3
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 38.180.96.40
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇳🇱NL荷蘭丨yoyapai.com_4
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 144.31.122.162
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇩🇰DK丹麥丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 77.37.96.132
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇨🇭CH臺灣丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 146.70.71.157
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 奧地利節點丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 38.180.143.51
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇸 US美國丨yoyapai.com
+  password: XUMTygEM1jVYIvysXKqA5T
+  port: 443
+  server: hackney-latest-strike.freesocks.work
+  type: ss
+  udp: true
+- name: 🇧🇪BE比利時丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 95.164.62.196
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -76,59 +193,17 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 亞太地區
+  port: 54022
+  server: 103.181.164.145
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: 🇰🇷KR韓國丨yoyapai.com_3
-  password: 8r<[9'l6hAO#8ZQi
-  port: 10243
-  server: 14.50.59.154
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇰🇷KR韓國丨yoyapai.com_4
-  password: 8r<[9'l6hAO#8ZQi
-  port: 28017
-  server: 59.11.232.216
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇰🇷KR韓國丨yoyapai.com_5
-  password: 8r<[9'l6hAO#8ZQi
-  port: 18852
-  server: 59.10.72.49
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇰🇷KR韓國丨yoyapai.com_6
-  password: 8r<[9'l6hAO#8ZQi
-  port: 12345
-  server: 59.12.232.18
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇰🇷KR韓國丨yoyapai.com_7
   password: 8r<[9'l6hAO#8ZQi
   port: 20880
   server: 183.107.78.213
@@ -141,146 +216,9 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 🇰🇷KR韓國丨yoyapai.com_8
-  password: 8r<[9'l6hAO#8ZQi
-  port: 25448
-  server: 121.167.94.122
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇰🇷KR韓國丨yoyapai.com_9
-  password: 8r<[9'l6hAO#8ZQi
-  port: 20002
-  server: 118.39.136.248
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇰🇷KR韓國丨yoyapai.com_10
-  password: 8r<[9'l6hAO#8ZQi
-  port: 32768
-  server: 61.72.208.162
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇸🇬SG新加坡丨yoyapai.com
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 66.42.61.215
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇰🇷KR韓國丨yoyapai.com_11
-  password: 8r<[9'l6hAO#8ZQi
-  port: 32773
-  server: 59.0.95.106
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇰🇷KR韓國丨yoyapai.com_12
-  password: 8r<[9'l6hAO#8ZQi
-  port: 18469
-  server: 59.16.228.103
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇳🇱NL荷蘭丨yoyapai.com
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 185.162.9.60
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸 US美國丨yoyapai.com
-  password: XUMTygEM1jVYIvysXKqA5T
-  port: 443
-  server: hackney-latest-strike.freesocks.work
-  type: ss
-  udp: true
-- name: 🇳🇱NL荷蘭丨yoyapai.com_1
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 2.59.183.210
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇳🇱NL荷蘭丨yoyapai.com_2
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 185.52.0.84
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 泰國節點丨yoyapai.com
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 45.150.128.181
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 亞太地區
+  name: 美國節點
   port: 54022
   server: 103.181.164.145
   skip-cert-verify: false
@@ -288,46 +226,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 🇳🇱NL荷蘭丨yoyapai.com_3
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 91.221.190.80
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇳🇱NL荷蘭丨yoyapai.com_4
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 152.53.200.164
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 泰國節點丨yoyapai.com_1
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.249.33.117
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 泰國節點丨yoyapai.com_2
+- name: 泰國節點丨yoyapai.com
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
   server: 45.91.134.91
@@ -340,59 +239,10 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 🇳🇱NL荷蘭丨yoyapai.com_5
+- name: 🇰🇷KR韓國丨yoyapai.com_4
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 144.31.122.101
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇧🇪BE比利時丨yoyapai.com
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 95.164.62.196
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 荷蘭節點丨yoyapai.com
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 152.53.200.89
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 美國節點
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 🇳🇱NL荷蘭丨yoyapai.com_6
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 31.59.114.3
+  port: 20002
+  server: 118.39.136.248
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -404,7 +254,7 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: 美國
+  name: 亞太地區_1
   port: 54022
   server: 103.181.164.145
   skip-cert-verify: false
@@ -414,7 +264,17 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 英國
+  name: 德國
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 美國
   port: 180
   server: 82.198.246.214
   skip-cert-verify: false
@@ -424,9 +284,42 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 英國_1
+  name: 英國
   port: 180
-  server: 82.198.246.233
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 丹麥節點🇩🇰DK丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 77.37.96.247
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 英國節點
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 美國節點_1
+  port: 180
+  server: 82.198.246.214
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -435,8 +328,38 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 美國_1
+  port: 54022
+  server: 103.181.164.145
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 英國_1
   port: 180
   server: 82.198.246.214
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 美國節點_2
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 美國_2
+  port: 180
+  server: 82.198.246.9
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -446,7 +369,7 @@ proxies:
   cipher: auto
   name: 英國_2
   port: 180
-  server: 82.198.246.233
+  server: 82.198.246.250
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -463,81 +386,8 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
-  cipher: aes-128-gcm
-  name: 美國節點_1
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
   cipher: auto
-  name: 亞太地區_1
-  port: 54022
-  server: 103.181.164.145
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 英國
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US美國節點
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英國_4
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英國_5
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 荷蘭節點丨yoyapai.com_1
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 31.15.17.129
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: 美國節點_2
+  name: 英國節點_1
   port: 180
   server: 82.198.246.9
   skip-cert-verify: false
@@ -549,7 +399,7 @@ proxies:
   cipher: auto
   name: 美國節點_3
   port: 180
-  server: 82.198.246.97
+  server: 82.198.246.9
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -557,7 +407,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 🇬🇧 GB英國節點_1
+  name: 英國節點_2
   port: 180
   server: 82.198.246.97
   skip-cert-verify: false
@@ -567,18 +417,131 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 德國
+  name: 英國節點_3
   port: 180
-  server: 82.198.246.250
+  server: 82.198.246.97
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 🇳🇱NL荷蘭丨yoyapai.com_7
+- alterId: 0
+  cipher: auto
+  name: 英國_4
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英國節點_4
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英國_5
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 瑞士節點丨yoyapai.com
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 91.221.191.120
+  port: 443
+  server: 140.238.208.240
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 美國節點_4
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英國節點_5
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 美國節點_5
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英國節點_6
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英國節點_7
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 美國節點_6
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 美國節點_7
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 瑞典節點丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 185.104.151.181
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -590,29 +553,9 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: 🇺🇸 US美國節點_1
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US美國節點_2
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
   name: 德國_1
   port: 180
-  server: 82.198.246.250
+  server: 82.198.246.233
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -622,7 +565,106 @@ proxies:
   cipher: auto
   name: 英國_6
   port: 180
-  server: 82.198.246.214
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英國節點_8
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 美國節點_8
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英國節點_9
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 泰國節點丨yoyapai.com_1
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 45.150.128.181
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 美國_3
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英國節點_10
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 瑞典節點丨yoyapai.com_1
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 83.147.254.243
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 瑞典節點丨yoyapai.com_2
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 176.125.240.147
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 英國節點_11
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -642,448 +684,12 @@ proxies:
   cipher: auto
   name: 英國_8
   port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 🇨🇭CH臺灣丨yoyapai.com
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 146.70.71.157
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸 US美國節點_3
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB英國節點_2
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB英國節點_3
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB英國節點_4
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB英國節點_5
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英國節點
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 英國_9
-  port: 180
   server: 82.198.246.250
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB英國節點_6
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB英國節點_7
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB英國節點_8
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB英國節點_9
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB英國節點_10
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB英國節點_11
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 美國_2
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 亞太地區_2
-  port: 54022
-  server: 103.181.164.145
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 英國_10
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB英國節點_12
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB英國節點_13
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 🇬🇧 GB英國_1
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 🇳🇱NL荷蘭丨yoyapai.com_8
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 38.180.70.111
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: 英國節點_1
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 🇰🇷KR韓國丨yoyapai.com_13
-  password: 8r<[9'l6hAO#8ZQi
-  port: 10088
-  server: 118.47.197.17
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇰🇷KR韓國丨yoyapai.com_14
-  password: 8r<[9'l6hAO#8ZQi
-  port: 33848
-  server: 210.178.173.195
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: 英國_11
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: aes-128-gcm
-  name: 美國_3
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 美國_4
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 🇩🇰DK丹麥丨yoyapai.com
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 77.37.96.132
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: 英國_12
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 🇰🇷KR韓國丨yoyapai.com_15
-  password: 8r<[9'l6hAO#8ZQi
-  port: 19461
-  server: 123.99.111.135
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: 英國_13
-  port: 180
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 俄羅斯節點丨yoyapai.com
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 95.213.226.60
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: 英國_14
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 俄羅斯節點丨yoyapai.com_1
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 82.97.249.34
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 丹麥節點🇩🇰DK丨yoyapai.com
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 77.37.96.247
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: 美國_5
-  port: 180
-  server: 82.198.246.9
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: 德國_2
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 🇱🇻LV拉脫維亞節點丨yoyapai.com
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 91.239.23.10
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 俄羅斯節點丨yoyapai.com_2
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 79.141.73.189
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 拉脫維亞丨yoyapai.com
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 146.19.84.236
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
 - name: 意大利節點🇮🇹IT丨yoyapai.com
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -1097,35 +703,19 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 德國節點丨yoyapai.com
-  network: ws
-  port: 443
-  server: 194.247.186.199
-  servername: sni.latonyamadeline.ndjp.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 美國丨yoyapai.com
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 172.66.44.230
-  skip-cert-verify: false
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /tro8sFW1S91B6sZrM1?ed=2560
 - alterId: 0
   cipher: auto
-  name: 英國_15
+  name: 英國_9
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 美國節點_9
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -1133,10 +723,10 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 🇸🇪SE瑞典丨yoyapai.com
+- name: 🇰🇷KR韓國丨yoyapai.com_5
   password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 176.125.240.63
+  port: 12345
+  server: 59.12.232.18
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -1146,19 +736,26 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 瑞士節點丨yoyapai.com
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 38.180.84.86
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 英國節點_12
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英國_10
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: firefox
   name: 新加坡丨yoyapai.com
   network: ws
@@ -1173,22 +770,9 @@ proxies:
     headers:
       Host: juzi8186.qea.ccwu.cc
     path: /tv/juzibaipiao?ed=2560
-- name: 立陶宛節點🇱🇹LT丨yoyapai.com
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 46.29.234.91
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: 英國節點_2
+  name: 英國_11
   port: 180
   server: 82.198.246.9
   skip-cert-verify: false
@@ -1198,34 +782,8 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 🇸🇪SE瑞典節點丨yoyapai.com
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 45.153.187.209
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇳🇱NL荷蘭丨yoyapai.com_9
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 95.169.192.234
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇷🇴RO羅馬尼亞節點丨yoyapai.com
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 45.67.34.89
+  port: 443
+  server: 83.147.254.168
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -1237,7 +795,17 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: 英國_16
+  name: 🇬🇧 GB英國
+  port: 180
+  server: 82.198.246.9
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 美國_4
   port: 180
   server: 82.198.246.37
   skip-cert-verify: false
@@ -1245,35 +813,29 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 俄羅斯節點丨yoyapai.com_3
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 85.239.39.144
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 西班牙節點🇪🇸ES丨yoyapai.com
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 172.233.97.34
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: 英國_17
+  name: 英國_12
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 美國節點_10
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英國節點_13
   port: 180
   server: 82.198.246.37
   skip-cert-verify: false
@@ -1281,127 +843,10 @@ proxies:
   type: vmess
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: 瑞士節點丨yoyapai.com_1
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 91.192.102.55
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇳🇱NL荷蘭丨yoyapai.com_10
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 144.31.122.101
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇵🇱PL波蘭丨yoyapai.com
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 85.155.230.9
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 奧地利節點丨yoyapai.com
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 46.102.156.144
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇳🇱NL荷蘭丨yoyapai.com_11
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 185.31.200.184
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇳🇱NL荷蘭丨yoyapai.com_12
+- name: 🇳🇱NL荷蘭丨yoyapai.com_5
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 38.180.160.199
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 匈牙利節點丨yoyapai.com
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 180.149.37.38
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 瑞典節點丨yoyapai.com
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 176.125.240.147
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇳🇱NL荷蘭丨yoyapai.com_13
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 38.180.233.61
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇳🇱NL荷蘭丨yoyapai.com_14
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 31.15.18.58
+  server: 91.221.191.120
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -1413,124 +858,28 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: 美國_6
-  network: ws
-  port: 23456
-  server: 2a14:7584:d0a2::a
+  name: 英國節點_14
+  port: 180
+  server: 82.198.246.97
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: bd48e0ac-e90e-4451-a4f2-abf061cfb890
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /alvin9999.com
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: 亞太地區_3
-  port: 51556
-  server: 103.181.164.145
+  name: 🇬🇧 英國
+  port: 180
+  server: 82.198.246.233
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 捷克節點丨yoyapai.com
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 185.253.46.5
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 荷蘭丨yoyapai.com
-  network: ws
-  port: 2053
-  server: 151.242.69.214
-  servername: sni.111000.v6.army
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.army
-    path: /?ed=2560&https://t.me/wangcai2🇨🇳
-- name: 🇳🇱NL荷蘭丨yoyapai.com_15
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 38.180.96.40
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 38.180.205.71
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 瑞士節點丨yoyapai.com_2
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 140.238.208.240
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇷🇴RO羅馬尼亞節點丨yoyapai.com_2
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 38.180.35.88
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 奧地利節點丨yoyapai.com_1
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 38.180.143.51
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 🇱🇹LT立陶宛丨yoyapai.com
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- name: 荷蘭節點丨yoyapai.com
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 185.80.128.115
+  server: 77.110.103.243
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -1540,6 +889,26 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: 英國節點_15
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英國節點_16
+  port: 180
+  server: 82.198.246.97
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: 🇷🇺RU俄羅斯丨yoyapai.com
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -1553,10 +922,10 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 瑞典節點丨yoyapai.com_1
+- name: 🇳🇱NL荷蘭丨yoyapai.com_6
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 64.112.127.151
+  server: 45.145.171.206
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -1566,10 +935,10 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 法國節點丨yoyapai.com
+- name: 🇳🇱NL荷蘭丨yoyapai.com_7
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 138.124.81.204
+  port: 8443
+  server: 185.162.9.60
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -1592,49 +961,33 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 🇳🇱NL荷蘭丨yoyapai.com_16
+- alterId: 0
+  cipher: auto
+  name: 香港節點
+  port: 51556
+  server: 103.181.164.145
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: 🇰🇷KR韓國丨yoyapai.com_6
+  password: 8r<[9'l6hAO#8ZQi
+  port: 32773
+  server: 59.0.95.106
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇳🇱NL荷蘭丨yoyapai.com_8
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 144.31.122.162
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 德國節點丨yoyapai.com_1
-  network: ws
-  port: 443
-  server: 217.144.190.230
-  servername: sni.latonyamadeline.ndjp.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 🇳🇱NL荷蘭丨yoyapai.com_17
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 45.145.171.206
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 意大利丨yoyapai.com
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 38.180.194.222
+  server: 95.169.192.234
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -1657,23 +1010,10 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 美國節點丨yoyapai.com
-  network: ws
-  port: 8443
-  server: 62.60.149.222
-  servername: sni.latonyamadeline.ndjp.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 瑞典節點丨yoyapai.com_2
+- name: 匈牙利節點丨yoyapai.com
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 185.104.151.181
+  port: 8443
+  server: 180.149.37.38
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -1683,36 +1023,192 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 荷蘭丨yoyapai.com_1
-  network: ws
+- name: 🇳🇱NL荷蘭丨yoyapai.com_9
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 194.147.33.251
-  servername: sni.111000.v6.army
+  server: 38.180.233.61
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.army
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 荷蘭丨yoyapai.com_2
-  network: ws
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 俄羅斯節點丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 150.251.147.97
-  servername: sni.111000.v6.army
+  server: 85.239.39.144
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
+  type: trojan
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.army
-    path: /?ed=2560&https://t.me/wangcai2🇨🇳
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇸🇪SE瑞典節點丨yoyapai.com_1
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 45.153.187.209
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 捷克節點丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 185.253.46.5
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇷🇴RO羅馬尼亞節點丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 38.180.205.71
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 意大利丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 38.180.194.222
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 荷蘭節點丨yoyapai.com_1
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 152.53.200.89
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 拉脫維亞丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 146.19.84.236
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇱🇻LV拉脫維亞節點丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 91.239.23.10
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 立陶宛節點🇱🇹LT丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 46.29.234.91
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 瑞士節點丨yoyapai.com_1
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 91.192.102.55
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇳🇱NL荷蘭丨yoyapai.com_10
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 152.53.200.164
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 俄羅斯節點丨yoyapai.com_1
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 95.213.226.60
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇳🇱NL荷蘭丨yoyapai.com_11
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 38.180.70.111
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - name: 瑞典節點丨yoyapai.com_3
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 83.147.254.243
+  server: 64.112.127.151
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -1722,23 +1218,140 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 美國節點丨yoyapai.com_1
-  network: ws
-  port: 8443
-  server: 193.23.219.205
-  servername: sni.latonyamadeline.ndjp.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: 🇸🇪SE瑞典節點丨yoyapai.com_1
+- name: 瑞士節點丨yoyapai.com_2
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 77.110.121.125
+  server: 38.180.84.86
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 法國節點丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 138.124.81.204
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇸🇪SE瑞典丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 176.125.240.63
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 西班牙節點🇪🇸ES丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 172.233.97.34
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 奧地利節點丨yoyapai.com_1
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 46.102.156.144
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇳🇱NL荷蘭丨yoyapai.com_12
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 185.31.200.184
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 俄羅斯節點丨yoyapai.com_2
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 79.141.73.189
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 荷蘭節點丨yoyapai.com_2
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 31.15.17.129
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 38.180.35.88
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇳🇱NL荷蘭丨yoyapai.com_13
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 31.15.18.58
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: 🇱🇹LT立陶宛丨yoyapai.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 185.80.128.115
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -1749,32 +1362,12 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - cipher: chacha20-ietf-poly1305
-  name: 美國節點丨yoyapai.com_2
+  name: 美國節點丨yoyapai.com
   password: hbGrpfvNrJsUmKmPbR3iY2
   port: 443
   server: tinkered-pennies-puppies.freesocks.work
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 美國丨yoyapai.com_1
-  password: wwzVn2ZnHfqYa6l8EWh3eY
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
-  type: ss
-  udp: true
-- name: 荷蘭節點丨yoyapai.com_2
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 77.110.103.243
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
 - name: 🇪🇪EE愛沙尼亞丨yoyapai.com
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -1788,32 +1381,26 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: 🇸🇪SE瑞典節點丨yoyapai.com_2
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 83.147.254.168
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
+- alterId: 64
+  cipher: auto
+  name: 亞太地區_2
+  port: 54022
+  server: 103.181.164.145
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: 美國節點丨yoyapai.com_3
-  network: ws
-  port: 443
-  server: 77.110.96.142
-  servername: sni.latonyamadeline.ndjp.net
-  tls: true
-  type: vless
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 亞太地區_3
+  port: 54022
+  server: 103.181.164.145
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.latonyamadeline.ndjp.net
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 亞太地區_4
@@ -1824,413 +1411,332 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 亞太地區_5
-  port: 51556
-  server: 103.181.164.145
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 亞太地區_6
-  port: 54022
-  server: 103.181.164.145
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 美國節點_4
-  port: 51556
-  server: 103.181.164.145
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 亞太地區_7
-  port: 54022
-  server: 103.181.164.145
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 亞太地區_8
-  port: 51556
-  server: 103.181.164.145
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 亞太地區_9
-  port: 51556
-  server: 103.181.164.145
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  name: 美國丨yoyapai.com_2
-  password: 9tqhMdIrTkgQ46PvhyAtMH
-  port: 443
-  server: switcher-nick-croquet.freesocks.work
+- cipher: aes-128-gcm
+  name: 🇺🇸 US美国丨yoyapai.com
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: chengbai02.ascwt179.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 美國丨yoyapai.com_3
+  name: 美國節點丨yoyapai.com_1
   password: RFK38Cg7APneSB5cWDcpbm
   port: 443
   server: switcher-nick-croquet.freesocks.work
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美國節點丨yoyapai.com_2
+  password: 9tqhMdIrTkgQ46PvhyAtMH
+  port: 443
+  server: switcher-nick-croquet.freesocks.work
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 英國節點_17
+  port: 180
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇬🇧 GB英國_1
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 🇺🇸 US美國節點
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: 英國_13
+  port: 180
+  server: 82.198.246.233
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇬🇧 GB英國
-  - 🇬🇧 GB英國節點
+  - 🇸🇬SG新加坡丨yoyapai.com
   - 🇰🇷KR韓國丨yoyapai.com
   - 🇰🇷KR韓國丨yoyapai.com_1
-  - 🇰🇷KR韓國丨yoyapai.com_2
-  - 🇰🇷KR韓國丨yoyapai.com_3
-  - 🇰🇷KR韓國丨yoyapai.com_4
-  - 🇰🇷KR韓國丨yoyapai.com_5
-  - 🇰🇷KR韓國丨yoyapai.com_6
-  - 🇰🇷KR韓國丨yoyapai.com_7
-  - 🇰🇷KR韓國丨yoyapai.com_8
-  - 🇰🇷KR韓國丨yoyapai.com_9
-  - 🇰🇷KR韓國丨yoyapai.com_10
-  - 🇸🇬SG新加坡丨yoyapai.com
-  - 🇰🇷KR韓國丨yoyapai.com_11
-  - 🇰🇷KR韓國丨yoyapai.com_12
   - 🇳🇱NL荷蘭丨yoyapai.com
-  - 🇺🇸 US美國丨yoyapai.com
   - 🇳🇱NL荷蘭丨yoyapai.com_1
   - 🇳🇱NL荷蘭丨yoyapai.com_2
-  - 泰國節點丨yoyapai.com
-  - 亞太地區
   - 🇳🇱NL荷蘭丨yoyapai.com_3
   - 🇳🇱NL荷蘭丨yoyapai.com_4
-  - 泰國節點丨yoyapai.com_1
-  - 泰國節點丨yoyapai.com_2
-  - 🇳🇱NL荷蘭丨yoyapai.com_5
+  - 🇩🇰DK丹麥丨yoyapai.com
+  - 🇨🇭CH臺灣丨yoyapai.com
+  - 奧地利節點丨yoyapai.com
+  - 🇺🇸 US美國丨yoyapai.com
   - 🇧🇪BE比利時丨yoyapai.com
-  - 荷蘭節點丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_2
+  - 亞太地區
+  - 🇰🇷KR韓國丨yoyapai.com_3
   - 美國節點
-  - 🇳🇱NL荷蘭丨yoyapai.com_6
+  - 泰國節點丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_4
+  - 亞太地區_1
+  - 德國
   - 美國
   - 英國
-  - 英國_1
+  - 丹麥節點🇩🇰DK丨yoyapai.com
+  - 英國節點
+  - 美國節點_1
   - 美國_1
+  - 英國_1
+  - 美國節點_2
+  - 美國_2
   - 英國_2
   - 英國_3
-  - 美國節點_1
-  - 亞太地區_1
-  - 🇬🇧 英國
-  - 🇺🇸 US美國節點
-  - 英國_4
-  - 英國_5
-  - 荷蘭節點丨yoyapai.com_1
-  - 美國節點_2
+  - 英國節點_1
   - 美國節點_3
-  - 🇬🇧 GB英國節點_1
-  - 德國
-  - 🇳🇱NL荷蘭丨yoyapai.com_7
-  - 🇺🇸 US美國節點_1
-  - 🇺🇸 US美國節點_2
+  - 英國節點_2
+  - 英國節點_3
+  - 英國_4
+  - 英國節點_4
+  - 英國_5
+  - 瑞士節點丨yoyapai.com
+  - 美國節點_4
+  - 英國節點_5
+  - 美國節點_5
+  - 英國節點_6
+  - 英國節點_7
+  - 美國節點_6
+  - 美國節點_7
+  - 瑞典節點丨yoyapai.com
   - 德國_1
   - 英國_6
+  - 英國節點_8
+  - 美國節點_8
+  - 英國節點_9
+  - 泰國節點丨yoyapai.com_1
+  - 美國_3
+  - 英國節點_10
+  - 瑞典節點丨yoyapai.com_1
+  - 瑞典節點丨yoyapai.com_2
+  - 英國節點_11
   - 英國_7
   - 英國_8
-  - 🇨🇭CH臺灣丨yoyapai.com
-  - 🇺🇸 US美國節點_3
-  - 🇬🇧 GB英國節點_2
-  - 🇬🇧 GB英國節點_3
-  - 🇬🇧 GB英國節點_4
-  - 🇬🇧 GB英國節點_5
-  - 英國節點
-  - 英國_9
-  - 🇬🇧 GB英國節點_6
-  - 🇬🇧 GB英國節點_7
-  - 🇬🇧 GB英國節點_8
-  - 🇬🇧 GB英國節點_9
-  - 🇬🇧 GB英國節點_10
-  - 🇬🇧 GB英國節點_11
-  - 美國_2
-  - 亞太地區_2
-  - 英國_10
-  - 🇬🇧 GB英國節點_12
-  - 🇬🇧 GB英國節點_13
-  - 🇬🇧 GB英國_1
-  - 🇳🇱NL荷蘭丨yoyapai.com_8
-  - 英國節點_1
-  - 🇰🇷KR韓國丨yoyapai.com_13
-  - 🇰🇷KR韓國丨yoyapai.com_14
-  - 英國_11
-  - 美國_3
-  - 美國_4
-  - 🇩🇰DK丹麥丨yoyapai.com
-  - 英國_12
-  - 🇰🇷KR韓國丨yoyapai.com_15
-  - 英國_13
-  - 俄羅斯節點丨yoyapai.com
-  - 英國_14
-  - 俄羅斯節點丨yoyapai.com_1
-  - 丹麥節點🇩🇰DK丨yoyapai.com
-  - 美國_5
-  - 德國_2
-  - 🇱🇻LV拉脫維亞節點丨yoyapai.com
-  - 俄羅斯節點丨yoyapai.com_2
-  - 拉脫維亞丨yoyapai.com
   - 意大利節點🇮🇹IT丨yoyapai.com
-  - 德國節點丨yoyapai.com
-  - 美國丨yoyapai.com
-  - 英國_15
-  - 🇸🇪SE瑞典丨yoyapai.com
-  - 瑞士節點丨yoyapai.com
+  - 英國_9
+  - 美國節點_9
+  - 🇰🇷KR韓國丨yoyapai.com_5
+  - 英國節點_12
+  - 英國_10
   - 新加坡丨yoyapai.com
-  - 立陶宛節點🇱🇹LT丨yoyapai.com
-  - 英國節點_2
+  - 英國_11
   - 🇸🇪SE瑞典節點丨yoyapai.com
+  - 🇬🇧 GB英國
+  - 美國_4
+  - 英國_12
+  - 美國節點_10
+  - 英國節點_13
+  - 🇳🇱NL荷蘭丨yoyapai.com_5
+  - 英國節點_14
+  - 🇬🇧 英國
+  - 荷蘭節點丨yoyapai.com
+  - 英國節點_15
+  - 英國節點_16
+  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_6
+  - 🇳🇱NL荷蘭丨yoyapai.com_7
+  - 🇫🇷FR法國丨yoyapai.com
+  - 香港節點
+  - 🇰🇷KR韓國丨yoyapai.com_6
+  - 🇳🇱NL荷蘭丨yoyapai.com_8
+  - 瑞典丨yoyapai.com
+  - 匈牙利節點丨yoyapai.com
   - 🇳🇱NL荷蘭丨yoyapai.com_9
+  - 俄羅斯節點丨yoyapai.com
+  - 🇸🇪SE瑞典節點丨yoyapai.com_1
+  - 捷克節點丨yoyapai.com
   - 🇷🇴RO羅馬尼亞節點丨yoyapai.com
-  - 英國_16
-  - 俄羅斯節點丨yoyapai.com_3
-  - 西班牙節點🇪🇸ES丨yoyapai.com
-  - 英國_17
+  - 意大利丨yoyapai.com
+  - 荷蘭節點丨yoyapai.com_1
+  - 拉脫維亞丨yoyapai.com
+  - 🇱🇻LV拉脫維亞節點丨yoyapai.com
+  - 立陶宛節點🇱🇹LT丨yoyapai.com
   - 瑞士節點丨yoyapai.com_1
   - 🇳🇱NL荷蘭丨yoyapai.com_10
-  - 🇵🇱PL波蘭丨yoyapai.com
-  - 奧地利節點丨yoyapai.com
+  - 俄羅斯節點丨yoyapai.com_1
   - 🇳🇱NL荷蘭丨yoyapai.com_11
-  - 🇳🇱NL荷蘭丨yoyapai.com_12
-  - 匈牙利節點丨yoyapai.com
-  - 瑞典節點丨yoyapai.com
-  - 🇳🇱NL荷蘭丨yoyapai.com_13
-  - 🇳🇱NL荷蘭丨yoyapai.com_14
-  - 美國_6
-  - 亞太地區_3
-  - 捷克節點丨yoyapai.com
-  - 荷蘭丨yoyapai.com
-  - 🇳🇱NL荷蘭丨yoyapai.com_15
-  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
-  - 瑞士節點丨yoyapai.com_2
-  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_2
-  - 奧地利節點丨yoyapai.com_1
-  - 🇱🇹LT立陶宛丨yoyapai.com
-  - 🇷🇺RU俄羅斯丨yoyapai.com
-  - 瑞典節點丨yoyapai.com_1
-  - 法國節點丨yoyapai.com
-  - 🇫🇷FR法國丨yoyapai.com
-  - 🇳🇱NL荷蘭丨yoyapai.com_16
-  - 德國節點丨yoyapai.com_1
-  - 🇳🇱NL荷蘭丨yoyapai.com_17
-  - 意大利丨yoyapai.com
-  - 瑞典丨yoyapai.com
-  - 美國節點丨yoyapai.com
-  - 瑞典節點丨yoyapai.com_2
-  - 荷蘭丨yoyapai.com_1
-  - 荷蘭丨yoyapai.com_2
   - 瑞典節點丨yoyapai.com_3
-  - 美國節點丨yoyapai.com_1
-  - 🇸🇪SE瑞典節點丨yoyapai.com_1
-  - 美國節點丨yoyapai.com_2
-  - 美國丨yoyapai.com_1
+  - 瑞士節點丨yoyapai.com_2
+  - 法國節點丨yoyapai.com
+  - 🇸🇪SE瑞典丨yoyapai.com
+  - 西班牙節點🇪🇸ES丨yoyapai.com
+  - 奧地利節點丨yoyapai.com_1
+  - 🇳🇱NL荷蘭丨yoyapai.com_12
+  - 俄羅斯節點丨yoyapai.com_2
   - 荷蘭節點丨yoyapai.com_2
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
+  - 🇳🇱NL荷蘭丨yoyapai.com_13
+  - 🇱🇹LT立陶宛丨yoyapai.com
+  - 美國節點丨yoyapai.com
   - 🇪🇪EE愛沙尼亞丨yoyapai.com
-  - 🇸🇪SE瑞典節點丨yoyapai.com_2
-  - 美國節點丨yoyapai.com_3
+  - 亞太地區_2
+  - 亞太地區_3
   - 亞太地區_4
-  - 亞太地區_5
-  - 亞太地區_6
-  - 美國節點_4
-  - 亞太地區_7
-  - 亞太地區_8
-  - 亞太地區_9
-  - 美國丨yoyapai.com_2
-  - 美國丨yoyapai.com_3
+  - 🇺🇸 US美国丨yoyapai.com
+  - 美國節點丨yoyapai.com_1
+  - 美國節點丨yoyapai.com_2
+  - 英國節點_17
+  - 🇬🇧 GB英國_1
+  - 🇺🇸 US美國節點
+  - 英國_13
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇬🇧 GB英國
-  - 🇬🇧 GB英國節點
+  - 🇸🇬SG新加坡丨yoyapai.com
   - 🇰🇷KR韓國丨yoyapai.com
   - 🇰🇷KR韓國丨yoyapai.com_1
-  - 🇰🇷KR韓國丨yoyapai.com_2
-  - 🇰🇷KR韓國丨yoyapai.com_3
-  - 🇰🇷KR韓國丨yoyapai.com_4
-  - 🇰🇷KR韓國丨yoyapai.com_5
-  - 🇰🇷KR韓國丨yoyapai.com_6
-  - 🇰🇷KR韓國丨yoyapai.com_7
-  - 🇰🇷KR韓國丨yoyapai.com_8
-  - 🇰🇷KR韓國丨yoyapai.com_9
-  - 🇰🇷KR韓國丨yoyapai.com_10
-  - 🇸🇬SG新加坡丨yoyapai.com
-  - 🇰🇷KR韓國丨yoyapai.com_11
-  - 🇰🇷KR韓國丨yoyapai.com_12
   - 🇳🇱NL荷蘭丨yoyapai.com
-  - 🇺🇸 US美國丨yoyapai.com
   - 🇳🇱NL荷蘭丨yoyapai.com_1
   - 🇳🇱NL荷蘭丨yoyapai.com_2
-  - 泰國節點丨yoyapai.com
-  - 亞太地區
   - 🇳🇱NL荷蘭丨yoyapai.com_3
   - 🇳🇱NL荷蘭丨yoyapai.com_4
-  - 泰國節點丨yoyapai.com_1
-  - 泰國節點丨yoyapai.com_2
-  - 🇳🇱NL荷蘭丨yoyapai.com_5
+  - 🇩🇰DK丹麥丨yoyapai.com
+  - 🇨🇭CH臺灣丨yoyapai.com
+  - 奧地利節點丨yoyapai.com
+  - 🇺🇸 US美國丨yoyapai.com
   - 🇧🇪BE比利時丨yoyapai.com
-  - 荷蘭節點丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_2
+  - 亞太地區
+  - 🇰🇷KR韓國丨yoyapai.com_3
   - 美國節點
-  - 🇳🇱NL荷蘭丨yoyapai.com_6
+  - 泰國節點丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_4
+  - 亞太地區_1
+  - 德國
   - 美國
   - 英國
-  - 英國_1
+  - 丹麥節點🇩🇰DK丨yoyapai.com
+  - 英國節點
+  - 美國節點_1
   - 美國_1
+  - 英國_1
+  - 美國節點_2
+  - 美國_2
   - 英國_2
   - 英國_3
-  - 美國節點_1
-  - 亞太地區_1
-  - 🇬🇧 英國
-  - 🇺🇸 US美國節點
-  - 英國_4
-  - 英國_5
-  - 荷蘭節點丨yoyapai.com_1
-  - 美國節點_2
+  - 英國節點_1
   - 美國節點_3
-  - 🇬🇧 GB英國節點_1
-  - 德國
-  - 🇳🇱NL荷蘭丨yoyapai.com_7
-  - 🇺🇸 US美國節點_1
-  - 🇺🇸 US美國節點_2
+  - 英國節點_2
+  - 英國節點_3
+  - 英國_4
+  - 英國節點_4
+  - 英國_5
+  - 瑞士節點丨yoyapai.com
+  - 美國節點_4
+  - 英國節點_5
+  - 美國節點_5
+  - 英國節點_6
+  - 英國節點_7
+  - 美國節點_6
+  - 美國節點_7
+  - 瑞典節點丨yoyapai.com
   - 德國_1
   - 英國_6
+  - 英國節點_8
+  - 美國節點_8
+  - 英國節點_9
+  - 泰國節點丨yoyapai.com_1
+  - 美國_3
+  - 英國節點_10
+  - 瑞典節點丨yoyapai.com_1
+  - 瑞典節點丨yoyapai.com_2
+  - 英國節點_11
   - 英國_7
   - 英國_8
-  - 🇨🇭CH臺灣丨yoyapai.com
-  - 🇺🇸 US美國節點_3
-  - 🇬🇧 GB英國節點_2
-  - 🇬🇧 GB英國節點_3
-  - 🇬🇧 GB英國節點_4
-  - 🇬🇧 GB英國節點_5
-  - 英國節點
-  - 英國_9
-  - 🇬🇧 GB英國節點_6
-  - 🇬🇧 GB英國節點_7
-  - 🇬🇧 GB英國節點_8
-  - 🇬🇧 GB英國節點_9
-  - 🇬🇧 GB英國節點_10
-  - 🇬🇧 GB英國節點_11
-  - 美國_2
-  - 亞太地區_2
-  - 英國_10
-  - 🇬🇧 GB英國節點_12
-  - 🇬🇧 GB英國節點_13
-  - 🇬🇧 GB英國_1
-  - 🇳🇱NL荷蘭丨yoyapai.com_8
-  - 英國節點_1
-  - 🇰🇷KR韓國丨yoyapai.com_13
-  - 🇰🇷KR韓國丨yoyapai.com_14
-  - 英國_11
-  - 美國_3
-  - 美國_4
-  - 🇩🇰DK丹麥丨yoyapai.com
-  - 英國_12
-  - 🇰🇷KR韓國丨yoyapai.com_15
-  - 英國_13
-  - 俄羅斯節點丨yoyapai.com
-  - 英國_14
-  - 俄羅斯節點丨yoyapai.com_1
-  - 丹麥節點🇩🇰DK丨yoyapai.com
-  - 美國_5
-  - 德國_2
-  - 🇱🇻LV拉脫維亞節點丨yoyapai.com
-  - 俄羅斯節點丨yoyapai.com_2
-  - 拉脫維亞丨yoyapai.com
   - 意大利節點🇮🇹IT丨yoyapai.com
-  - 德國節點丨yoyapai.com
-  - 美國丨yoyapai.com
-  - 英國_15
-  - 🇸🇪SE瑞典丨yoyapai.com
-  - 瑞士節點丨yoyapai.com
+  - 英國_9
+  - 美國節點_9
+  - 🇰🇷KR韓國丨yoyapai.com_5
+  - 英國節點_12
+  - 英國_10
   - 新加坡丨yoyapai.com
-  - 立陶宛節點🇱🇹LT丨yoyapai.com
-  - 英國節點_2
+  - 英國_11
   - 🇸🇪SE瑞典節點丨yoyapai.com
+  - 🇬🇧 GB英國
+  - 美國_4
+  - 英國_12
+  - 美國節點_10
+  - 英國節點_13
+  - 🇳🇱NL荷蘭丨yoyapai.com_5
+  - 英國節點_14
+  - 🇬🇧 英國
+  - 荷蘭節點丨yoyapai.com
+  - 英國節點_15
+  - 英國節點_16
+  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_6
+  - 🇳🇱NL荷蘭丨yoyapai.com_7
+  - 🇫🇷FR法國丨yoyapai.com
+  - 香港節點
+  - 🇰🇷KR韓國丨yoyapai.com_6
+  - 🇳🇱NL荷蘭丨yoyapai.com_8
+  - 瑞典丨yoyapai.com
+  - 匈牙利節點丨yoyapai.com
   - 🇳🇱NL荷蘭丨yoyapai.com_9
+  - 俄羅斯節點丨yoyapai.com
+  - 🇸🇪SE瑞典節點丨yoyapai.com_1
+  - 捷克節點丨yoyapai.com
   - 🇷🇴RO羅馬尼亞節點丨yoyapai.com
-  - 英國_16
-  - 俄羅斯節點丨yoyapai.com_3
-  - 西班牙節點🇪🇸ES丨yoyapai.com
-  - 英國_17
+  - 意大利丨yoyapai.com
+  - 荷蘭節點丨yoyapai.com_1
+  - 拉脫維亞丨yoyapai.com
+  - 🇱🇻LV拉脫維亞節點丨yoyapai.com
+  - 立陶宛節點🇱🇹LT丨yoyapai.com
   - 瑞士節點丨yoyapai.com_1
   - 🇳🇱NL荷蘭丨yoyapai.com_10
-  - 🇵🇱PL波蘭丨yoyapai.com
-  - 奧地利節點丨yoyapai.com
+  - 俄羅斯節點丨yoyapai.com_1
   - 🇳🇱NL荷蘭丨yoyapai.com_11
-  - 🇳🇱NL荷蘭丨yoyapai.com_12
-  - 匈牙利節點丨yoyapai.com
-  - 瑞典節點丨yoyapai.com
-  - 🇳🇱NL荷蘭丨yoyapai.com_13
-  - 🇳🇱NL荷蘭丨yoyapai.com_14
-  - 美國_6
-  - 亞太地區_3
-  - 捷克節點丨yoyapai.com
-  - 荷蘭丨yoyapai.com
-  - 🇳🇱NL荷蘭丨yoyapai.com_15
-  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
-  - 瑞士節點丨yoyapai.com_2
-  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_2
-  - 奧地利節點丨yoyapai.com_1
-  - 🇱🇹LT立陶宛丨yoyapai.com
-  - 🇷🇺RU俄羅斯丨yoyapai.com
-  - 瑞典節點丨yoyapai.com_1
-  - 法國節點丨yoyapai.com
-  - 🇫🇷FR法國丨yoyapai.com
-  - 🇳🇱NL荷蘭丨yoyapai.com_16
-  - 德國節點丨yoyapai.com_1
-  - 🇳🇱NL荷蘭丨yoyapai.com_17
-  - 意大利丨yoyapai.com
-  - 瑞典丨yoyapai.com
-  - 美國節點丨yoyapai.com
-  - 瑞典節點丨yoyapai.com_2
-  - 荷蘭丨yoyapai.com_1
-  - 荷蘭丨yoyapai.com_2
   - 瑞典節點丨yoyapai.com_3
-  - 美國節點丨yoyapai.com_1
-  - 🇸🇪SE瑞典節點丨yoyapai.com_1
-  - 美國節點丨yoyapai.com_2
-  - 美國丨yoyapai.com_1
+  - 瑞士節點丨yoyapai.com_2
+  - 法國節點丨yoyapai.com
+  - 🇸🇪SE瑞典丨yoyapai.com
+  - 西班牙節點🇪🇸ES丨yoyapai.com
+  - 奧地利節點丨yoyapai.com_1
+  - 🇳🇱NL荷蘭丨yoyapai.com_12
+  - 俄羅斯節點丨yoyapai.com_2
   - 荷蘭節點丨yoyapai.com_2
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
+  - 🇳🇱NL荷蘭丨yoyapai.com_13
+  - 🇱🇹LT立陶宛丨yoyapai.com
+  - 美國節點丨yoyapai.com
   - 🇪🇪EE愛沙尼亞丨yoyapai.com
-  - 🇸🇪SE瑞典節點丨yoyapai.com_2
-  - 美國節點丨yoyapai.com_3
+  - 亞太地區_2
+  - 亞太地區_3
   - 亞太地區_4
-  - 亞太地區_5
-  - 亞太地區_6
-  - 美國節點_4
-  - 亞太地區_7
-  - 亞太地區_8
-  - 亞太地區_9
-  - 美國丨yoyapai.com_2
-  - 美國丨yoyapai.com_3
+  - 🇺🇸 US美国丨yoyapai.com
+  - 美國節點丨yoyapai.com_1
+  - 美國節點丨yoyapai.com_2
+  - 英國節點_17
+  - 🇬🇧 GB英國_1
+  - 🇺🇸 US美國節點
+  - 英國_13
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -2239,669 +1745,533 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇬🇧 GB英國
-  - 🇬🇧 GB英國節點
+  - 🇸🇬SG新加坡丨yoyapai.com
   - 🇰🇷KR韓國丨yoyapai.com
   - 🇰🇷KR韓國丨yoyapai.com_1
-  - 🇰🇷KR韓國丨yoyapai.com_2
-  - 🇰🇷KR韓國丨yoyapai.com_3
-  - 🇰🇷KR韓國丨yoyapai.com_4
-  - 🇰🇷KR韓國丨yoyapai.com_5
-  - 🇰🇷KR韓國丨yoyapai.com_6
-  - 🇰🇷KR韓國丨yoyapai.com_7
-  - 🇰🇷KR韓國丨yoyapai.com_8
-  - 🇰🇷KR韓國丨yoyapai.com_9
-  - 🇰🇷KR韓國丨yoyapai.com_10
-  - 🇸🇬SG新加坡丨yoyapai.com
-  - 🇰🇷KR韓國丨yoyapai.com_11
-  - 🇰🇷KR韓國丨yoyapai.com_12
   - 🇳🇱NL荷蘭丨yoyapai.com
-  - 🇺🇸 US美國丨yoyapai.com
   - 🇳🇱NL荷蘭丨yoyapai.com_1
   - 🇳🇱NL荷蘭丨yoyapai.com_2
-  - 泰國節點丨yoyapai.com
-  - 亞太地區
   - 🇳🇱NL荷蘭丨yoyapai.com_3
   - 🇳🇱NL荷蘭丨yoyapai.com_4
-  - 泰國節點丨yoyapai.com_1
-  - 泰國節點丨yoyapai.com_2
-  - 🇳🇱NL荷蘭丨yoyapai.com_5
+  - 🇩🇰DK丹麥丨yoyapai.com
+  - 🇨🇭CH臺灣丨yoyapai.com
+  - 奧地利節點丨yoyapai.com
+  - 🇺🇸 US美國丨yoyapai.com
   - 🇧🇪BE比利時丨yoyapai.com
-  - 荷蘭節點丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_2
+  - 亞太地區
+  - 🇰🇷KR韓國丨yoyapai.com_3
   - 美國節點
-  - 🇳🇱NL荷蘭丨yoyapai.com_6
+  - 泰國節點丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_4
+  - 亞太地區_1
+  - 德國
   - 美國
   - 英國
-  - 英國_1
+  - 丹麥節點🇩🇰DK丨yoyapai.com
+  - 英國節點
+  - 美國節點_1
   - 美國_1
+  - 英國_1
+  - 美國節點_2
+  - 美國_2
   - 英國_2
   - 英國_3
-  - 美國節點_1
-  - 亞太地區_1
-  - 🇬🇧 英國
-  - 🇺🇸 US美國節點
-  - 英國_4
-  - 英國_5
-  - 荷蘭節點丨yoyapai.com_1
-  - 美國節點_2
+  - 英國節點_1
   - 美國節點_3
-  - 🇬🇧 GB英國節點_1
-  - 德國
-  - 🇳🇱NL荷蘭丨yoyapai.com_7
-  - 🇺🇸 US美國節點_1
-  - 🇺🇸 US美國節點_2
+  - 英國節點_2
+  - 英國節點_3
+  - 英國_4
+  - 英國節點_4
+  - 英國_5
+  - 瑞士節點丨yoyapai.com
+  - 美國節點_4
+  - 英國節點_5
+  - 美國節點_5
+  - 英國節點_6
+  - 英國節點_7
+  - 美國節點_6
+  - 美國節點_7
+  - 瑞典節點丨yoyapai.com
   - 德國_1
   - 英國_6
+  - 英國節點_8
+  - 美國節點_8
+  - 英國節點_9
+  - 泰國節點丨yoyapai.com_1
+  - 美國_3
+  - 英國節點_10
+  - 瑞典節點丨yoyapai.com_1
+  - 瑞典節點丨yoyapai.com_2
+  - 英國節點_11
   - 英國_7
   - 英國_8
-  - 🇨🇭CH臺灣丨yoyapai.com
-  - 🇺🇸 US美國節點_3
-  - 🇬🇧 GB英國節點_2
-  - 🇬🇧 GB英國節點_3
-  - 🇬🇧 GB英國節點_4
-  - 🇬🇧 GB英國節點_5
-  - 英國節點
-  - 英國_9
-  - 🇬🇧 GB英國節點_6
-  - 🇬🇧 GB英國節點_7
-  - 🇬🇧 GB英國節點_8
-  - 🇬🇧 GB英國節點_9
-  - 🇬🇧 GB英國節點_10
-  - 🇬🇧 GB英國節點_11
-  - 美國_2
-  - 亞太地區_2
-  - 英國_10
-  - 🇬🇧 GB英國節點_12
-  - 🇬🇧 GB英國節點_13
-  - 🇬🇧 GB英國_1
-  - 🇳🇱NL荷蘭丨yoyapai.com_8
-  - 英國節點_1
-  - 🇰🇷KR韓國丨yoyapai.com_13
-  - 🇰🇷KR韓國丨yoyapai.com_14
-  - 英國_11
-  - 美國_3
-  - 美國_4
-  - 🇩🇰DK丹麥丨yoyapai.com
-  - 英國_12
-  - 🇰🇷KR韓國丨yoyapai.com_15
-  - 英國_13
-  - 俄羅斯節點丨yoyapai.com
-  - 英國_14
-  - 俄羅斯節點丨yoyapai.com_1
-  - 丹麥節點🇩🇰DK丨yoyapai.com
-  - 美國_5
-  - 德國_2
-  - 🇱🇻LV拉脫維亞節點丨yoyapai.com
-  - 俄羅斯節點丨yoyapai.com_2
-  - 拉脫維亞丨yoyapai.com
   - 意大利節點🇮🇹IT丨yoyapai.com
-  - 德國節點丨yoyapai.com
-  - 美國丨yoyapai.com
-  - 英國_15
-  - 🇸🇪SE瑞典丨yoyapai.com
-  - 瑞士節點丨yoyapai.com
+  - 英國_9
+  - 美國節點_9
+  - 🇰🇷KR韓國丨yoyapai.com_5
+  - 英國節點_12
+  - 英國_10
   - 新加坡丨yoyapai.com
-  - 立陶宛節點🇱🇹LT丨yoyapai.com
-  - 英國節點_2
+  - 英國_11
   - 🇸🇪SE瑞典節點丨yoyapai.com
+  - 🇬🇧 GB英國
+  - 美國_4
+  - 英國_12
+  - 美國節點_10
+  - 英國節點_13
+  - 🇳🇱NL荷蘭丨yoyapai.com_5
+  - 英國節點_14
+  - 🇬🇧 英國
+  - 荷蘭節點丨yoyapai.com
+  - 英國節點_15
+  - 英國節點_16
+  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_6
+  - 🇳🇱NL荷蘭丨yoyapai.com_7
+  - 🇫🇷FR法國丨yoyapai.com
+  - 香港節點
+  - 🇰🇷KR韓國丨yoyapai.com_6
+  - 🇳🇱NL荷蘭丨yoyapai.com_8
+  - 瑞典丨yoyapai.com
+  - 匈牙利節點丨yoyapai.com
   - 🇳🇱NL荷蘭丨yoyapai.com_9
+  - 俄羅斯節點丨yoyapai.com
+  - 🇸🇪SE瑞典節點丨yoyapai.com_1
+  - 捷克節點丨yoyapai.com
   - 🇷🇴RO羅馬尼亞節點丨yoyapai.com
-  - 英國_16
-  - 俄羅斯節點丨yoyapai.com_3
-  - 西班牙節點🇪🇸ES丨yoyapai.com
-  - 英國_17
+  - 意大利丨yoyapai.com
+  - 荷蘭節點丨yoyapai.com_1
+  - 拉脫維亞丨yoyapai.com
+  - 🇱🇻LV拉脫維亞節點丨yoyapai.com
+  - 立陶宛節點🇱🇹LT丨yoyapai.com
   - 瑞士節點丨yoyapai.com_1
   - 🇳🇱NL荷蘭丨yoyapai.com_10
-  - 🇵🇱PL波蘭丨yoyapai.com
-  - 奧地利節點丨yoyapai.com
+  - 俄羅斯節點丨yoyapai.com_1
   - 🇳🇱NL荷蘭丨yoyapai.com_11
-  - 🇳🇱NL荷蘭丨yoyapai.com_12
-  - 匈牙利節點丨yoyapai.com
-  - 瑞典節點丨yoyapai.com
-  - 🇳🇱NL荷蘭丨yoyapai.com_13
-  - 🇳🇱NL荷蘭丨yoyapai.com_14
-  - 美國_6
-  - 亞太地區_3
-  - 捷克節點丨yoyapai.com
-  - 荷蘭丨yoyapai.com
-  - 🇳🇱NL荷蘭丨yoyapai.com_15
-  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
-  - 瑞士節點丨yoyapai.com_2
-  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_2
-  - 奧地利節點丨yoyapai.com_1
-  - 🇱🇹LT立陶宛丨yoyapai.com
-  - 🇷🇺RU俄羅斯丨yoyapai.com
-  - 瑞典節點丨yoyapai.com_1
-  - 法國節點丨yoyapai.com
-  - 🇫🇷FR法國丨yoyapai.com
-  - 🇳🇱NL荷蘭丨yoyapai.com_16
-  - 德國節點丨yoyapai.com_1
-  - 🇳🇱NL荷蘭丨yoyapai.com_17
-  - 意大利丨yoyapai.com
-  - 瑞典丨yoyapai.com
-  - 美國節點丨yoyapai.com
-  - 瑞典節點丨yoyapai.com_2
-  - 荷蘭丨yoyapai.com_1
-  - 荷蘭丨yoyapai.com_2
   - 瑞典節點丨yoyapai.com_3
-  - 美國節點丨yoyapai.com_1
-  - 🇸🇪SE瑞典節點丨yoyapai.com_1
-  - 美國節點丨yoyapai.com_2
-  - 美國丨yoyapai.com_1
+  - 瑞士節點丨yoyapai.com_2
+  - 法國節點丨yoyapai.com
+  - 🇸🇪SE瑞典丨yoyapai.com
+  - 西班牙節點🇪🇸ES丨yoyapai.com
+  - 奧地利節點丨yoyapai.com_1
+  - 🇳🇱NL荷蘭丨yoyapai.com_12
+  - 俄羅斯節點丨yoyapai.com_2
   - 荷蘭節點丨yoyapai.com_2
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
+  - 🇳🇱NL荷蘭丨yoyapai.com_13
+  - 🇱🇹LT立陶宛丨yoyapai.com
+  - 美國節點丨yoyapai.com
   - 🇪🇪EE愛沙尼亞丨yoyapai.com
-  - 🇸🇪SE瑞典節點丨yoyapai.com_2
-  - 美國節點丨yoyapai.com_3
+  - 亞太地區_2
+  - 亞太地區_3
   - 亞太地區_4
-  - 亞太地區_5
-  - 亞太地區_6
-  - 美國節點_4
-  - 亞太地區_7
-  - 亞太地區_8
-  - 亞太地區_9
-  - 美國丨yoyapai.com_2
-  - 美國丨yoyapai.com_3
+  - 🇺🇸 US美国丨yoyapai.com
+  - 美國節點丨yoyapai.com_1
+  - 美國節點丨yoyapai.com_2
+  - 英國節點_17
+  - 🇬🇧 GB英國_1
+  - 🇺🇸 US美國節點
+  - 英國_13
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇬🇧 GB英國
-  - 🇬🇧 GB英國節點
+  - 🇸🇬SG新加坡丨yoyapai.com
   - 🇰🇷KR韓國丨yoyapai.com
   - 🇰🇷KR韓國丨yoyapai.com_1
-  - 🇰🇷KR韓國丨yoyapai.com_2
-  - 🇰🇷KR韓國丨yoyapai.com_3
-  - 🇰🇷KR韓國丨yoyapai.com_4
-  - 🇰🇷KR韓國丨yoyapai.com_5
-  - 🇰🇷KR韓國丨yoyapai.com_6
-  - 🇰🇷KR韓國丨yoyapai.com_7
-  - 🇰🇷KR韓國丨yoyapai.com_8
-  - 🇰🇷KR韓國丨yoyapai.com_9
-  - 🇰🇷KR韓國丨yoyapai.com_10
-  - 🇸🇬SG新加坡丨yoyapai.com
-  - 🇰🇷KR韓國丨yoyapai.com_11
-  - 🇰🇷KR韓國丨yoyapai.com_12
   - 🇳🇱NL荷蘭丨yoyapai.com
-  - 🇺🇸 US美國丨yoyapai.com
   - 🇳🇱NL荷蘭丨yoyapai.com_1
   - 🇳🇱NL荷蘭丨yoyapai.com_2
-  - 泰國節點丨yoyapai.com
-  - 亞太地區
   - 🇳🇱NL荷蘭丨yoyapai.com_3
   - 🇳🇱NL荷蘭丨yoyapai.com_4
-  - 泰國節點丨yoyapai.com_1
-  - 泰國節點丨yoyapai.com_2
-  - 🇳🇱NL荷蘭丨yoyapai.com_5
+  - 🇩🇰DK丹麥丨yoyapai.com
+  - 🇨🇭CH臺灣丨yoyapai.com
+  - 奧地利節點丨yoyapai.com
+  - 🇺🇸 US美國丨yoyapai.com
   - 🇧🇪BE比利時丨yoyapai.com
-  - 荷蘭節點丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_2
+  - 亞太地區
+  - 🇰🇷KR韓國丨yoyapai.com_3
   - 美國節點
-  - 🇳🇱NL荷蘭丨yoyapai.com_6
+  - 泰國節點丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_4
+  - 亞太地區_1
+  - 德國
   - 美國
   - 英國
-  - 英國_1
+  - 丹麥節點🇩🇰DK丨yoyapai.com
+  - 英國節點
+  - 美國節點_1
   - 美國_1
+  - 英國_1
+  - 美國節點_2
+  - 美國_2
   - 英國_2
   - 英國_3
-  - 美國節點_1
-  - 亞太地區_1
-  - 🇬🇧 英國
-  - 🇺🇸 US美國節點
-  - 英國_4
-  - 英國_5
-  - 荷蘭節點丨yoyapai.com_1
-  - 美國節點_2
+  - 英國節點_1
   - 美國節點_3
-  - 🇬🇧 GB英國節點_1
-  - 德國
-  - 🇳🇱NL荷蘭丨yoyapai.com_7
-  - 🇺🇸 US美國節點_1
-  - 🇺🇸 US美國節點_2
+  - 英國節點_2
+  - 英國節點_3
+  - 英國_4
+  - 英國節點_4
+  - 英國_5
+  - 瑞士節點丨yoyapai.com
+  - 美國節點_4
+  - 英國節點_5
+  - 美國節點_5
+  - 英國節點_6
+  - 英國節點_7
+  - 美國節點_6
+  - 美國節點_7
+  - 瑞典節點丨yoyapai.com
   - 德國_1
   - 英國_6
+  - 英國節點_8
+  - 美國節點_8
+  - 英國節點_9
+  - 泰國節點丨yoyapai.com_1
+  - 美國_3
+  - 英國節點_10
+  - 瑞典節點丨yoyapai.com_1
+  - 瑞典節點丨yoyapai.com_2
+  - 英國節點_11
   - 英國_7
   - 英國_8
-  - 🇨🇭CH臺灣丨yoyapai.com
-  - 🇺🇸 US美國節點_3
-  - 🇬🇧 GB英國節點_2
-  - 🇬🇧 GB英國節點_3
-  - 🇬🇧 GB英國節點_4
-  - 🇬🇧 GB英國節點_5
-  - 英國節點
-  - 英國_9
-  - 🇬🇧 GB英國節點_6
-  - 🇬🇧 GB英國節點_7
-  - 🇬🇧 GB英國節點_8
-  - 🇬🇧 GB英國節點_9
-  - 🇬🇧 GB英國節點_10
-  - 🇬🇧 GB英國節點_11
-  - 美國_2
-  - 亞太地區_2
-  - 英國_10
-  - 🇬🇧 GB英國節點_12
-  - 🇬🇧 GB英國節點_13
-  - 🇬🇧 GB英國_1
-  - 🇳🇱NL荷蘭丨yoyapai.com_8
-  - 英國節點_1
-  - 🇰🇷KR韓國丨yoyapai.com_13
-  - 🇰🇷KR韓國丨yoyapai.com_14
-  - 英國_11
-  - 美國_3
-  - 美國_4
-  - 🇩🇰DK丹麥丨yoyapai.com
-  - 英國_12
-  - 🇰🇷KR韓國丨yoyapai.com_15
-  - 英國_13
-  - 俄羅斯節點丨yoyapai.com
-  - 英國_14
-  - 俄羅斯節點丨yoyapai.com_1
-  - 丹麥節點🇩🇰DK丨yoyapai.com
-  - 美國_5
-  - 德國_2
-  - 🇱🇻LV拉脫維亞節點丨yoyapai.com
-  - 俄羅斯節點丨yoyapai.com_2
-  - 拉脫維亞丨yoyapai.com
   - 意大利節點🇮🇹IT丨yoyapai.com
-  - 德國節點丨yoyapai.com
-  - 美國丨yoyapai.com
-  - 英國_15
-  - 🇸🇪SE瑞典丨yoyapai.com
-  - 瑞士節點丨yoyapai.com
+  - 英國_9
+  - 美國節點_9
+  - 🇰🇷KR韓國丨yoyapai.com_5
+  - 英國節點_12
+  - 英國_10
   - 新加坡丨yoyapai.com
-  - 立陶宛節點🇱🇹LT丨yoyapai.com
-  - 英國節點_2
+  - 英國_11
   - 🇸🇪SE瑞典節點丨yoyapai.com
+  - 🇬🇧 GB英國
+  - 美國_4
+  - 英國_12
+  - 美國節點_10
+  - 英國節點_13
+  - 🇳🇱NL荷蘭丨yoyapai.com_5
+  - 英國節點_14
+  - 🇬🇧 英國
+  - 荷蘭節點丨yoyapai.com
+  - 英國節點_15
+  - 英國節點_16
+  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_6
+  - 🇳🇱NL荷蘭丨yoyapai.com_7
+  - 🇫🇷FR法國丨yoyapai.com
+  - 香港節點
+  - 🇰🇷KR韓國丨yoyapai.com_6
+  - 🇳🇱NL荷蘭丨yoyapai.com_8
+  - 瑞典丨yoyapai.com
+  - 匈牙利節點丨yoyapai.com
   - 🇳🇱NL荷蘭丨yoyapai.com_9
+  - 俄羅斯節點丨yoyapai.com
+  - 🇸🇪SE瑞典節點丨yoyapai.com_1
+  - 捷克節點丨yoyapai.com
   - 🇷🇴RO羅馬尼亞節點丨yoyapai.com
-  - 英國_16
-  - 俄羅斯節點丨yoyapai.com_3
-  - 西班牙節點🇪🇸ES丨yoyapai.com
-  - 英國_17
+  - 意大利丨yoyapai.com
+  - 荷蘭節點丨yoyapai.com_1
+  - 拉脫維亞丨yoyapai.com
+  - 🇱🇻LV拉脫維亞節點丨yoyapai.com
+  - 立陶宛節點🇱🇹LT丨yoyapai.com
   - 瑞士節點丨yoyapai.com_1
   - 🇳🇱NL荷蘭丨yoyapai.com_10
-  - 🇵🇱PL波蘭丨yoyapai.com
-  - 奧地利節點丨yoyapai.com
+  - 俄羅斯節點丨yoyapai.com_1
   - 🇳🇱NL荷蘭丨yoyapai.com_11
-  - 🇳🇱NL荷蘭丨yoyapai.com_12
-  - 匈牙利節點丨yoyapai.com
-  - 瑞典節點丨yoyapai.com
-  - 🇳🇱NL荷蘭丨yoyapai.com_13
-  - 🇳🇱NL荷蘭丨yoyapai.com_14
-  - 美國_6
-  - 亞太地區_3
-  - 捷克節點丨yoyapai.com
-  - 荷蘭丨yoyapai.com
-  - 🇳🇱NL荷蘭丨yoyapai.com_15
-  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
-  - 瑞士節點丨yoyapai.com_2
-  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_2
-  - 奧地利節點丨yoyapai.com_1
-  - 🇱🇹LT立陶宛丨yoyapai.com
-  - 🇷🇺RU俄羅斯丨yoyapai.com
-  - 瑞典節點丨yoyapai.com_1
-  - 法國節點丨yoyapai.com
-  - 🇫🇷FR法國丨yoyapai.com
-  - 🇳🇱NL荷蘭丨yoyapai.com_16
-  - 德國節點丨yoyapai.com_1
-  - 🇳🇱NL荷蘭丨yoyapai.com_17
-  - 意大利丨yoyapai.com
-  - 瑞典丨yoyapai.com
-  - 美國節點丨yoyapai.com
-  - 瑞典節點丨yoyapai.com_2
-  - 荷蘭丨yoyapai.com_1
-  - 荷蘭丨yoyapai.com_2
   - 瑞典節點丨yoyapai.com_3
-  - 美國節點丨yoyapai.com_1
-  - 🇸🇪SE瑞典節點丨yoyapai.com_1
-  - 美國節點丨yoyapai.com_2
-  - 美國丨yoyapai.com_1
+  - 瑞士節點丨yoyapai.com_2
+  - 法國節點丨yoyapai.com
+  - 🇸🇪SE瑞典丨yoyapai.com
+  - 西班牙節點🇪🇸ES丨yoyapai.com
+  - 奧地利節點丨yoyapai.com_1
+  - 🇳🇱NL荷蘭丨yoyapai.com_12
+  - 俄羅斯節點丨yoyapai.com_2
   - 荷蘭節點丨yoyapai.com_2
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
+  - 🇳🇱NL荷蘭丨yoyapai.com_13
+  - 🇱🇹LT立陶宛丨yoyapai.com
+  - 美國節點丨yoyapai.com
   - 🇪🇪EE愛沙尼亞丨yoyapai.com
-  - 🇸🇪SE瑞典節點丨yoyapai.com_2
-  - 美國節點丨yoyapai.com_3
+  - 亞太地區_2
+  - 亞太地區_3
   - 亞太地區_4
-  - 亞太地區_5
-  - 亞太地區_6
-  - 美國節點_4
-  - 亞太地區_7
-  - 亞太地區_8
-  - 亞太地區_9
-  - 美國丨yoyapai.com_2
-  - 美國丨yoyapai.com_3
+  - 🇺🇸 US美国丨yoyapai.com
+  - 美國節點丨yoyapai.com_1
+  - 美國節點丨yoyapai.com_2
+  - 英國節點_17
+  - 🇬🇧 GB英國_1
+  - 🇺🇸 US美國節點
+  - 英國_13
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇬🇧 GB英國
-  - 🇬🇧 GB英國節點
+  - 🇸🇬SG新加坡丨yoyapai.com
   - 🇰🇷KR韓國丨yoyapai.com
   - 🇰🇷KR韓國丨yoyapai.com_1
-  - 🇰🇷KR韓國丨yoyapai.com_2
-  - 🇰🇷KR韓國丨yoyapai.com_3
-  - 🇰🇷KR韓國丨yoyapai.com_4
-  - 🇰🇷KR韓國丨yoyapai.com_5
-  - 🇰🇷KR韓國丨yoyapai.com_6
-  - 🇰🇷KR韓國丨yoyapai.com_7
-  - 🇰🇷KR韓國丨yoyapai.com_8
-  - 🇰🇷KR韓國丨yoyapai.com_9
-  - 🇰🇷KR韓國丨yoyapai.com_10
-  - 🇸🇬SG新加坡丨yoyapai.com
-  - 🇰🇷KR韓國丨yoyapai.com_11
-  - 🇰🇷KR韓國丨yoyapai.com_12
   - 🇳🇱NL荷蘭丨yoyapai.com
-  - 🇺🇸 US美國丨yoyapai.com
   - 🇳🇱NL荷蘭丨yoyapai.com_1
   - 🇳🇱NL荷蘭丨yoyapai.com_2
-  - 泰國節點丨yoyapai.com
-  - 亞太地區
   - 🇳🇱NL荷蘭丨yoyapai.com_3
   - 🇳🇱NL荷蘭丨yoyapai.com_4
-  - 泰國節點丨yoyapai.com_1
-  - 泰國節點丨yoyapai.com_2
-  - 🇳🇱NL荷蘭丨yoyapai.com_5
+  - 🇩🇰DK丹麥丨yoyapai.com
+  - 🇨🇭CH臺灣丨yoyapai.com
+  - 奧地利節點丨yoyapai.com
+  - 🇺🇸 US美國丨yoyapai.com
   - 🇧🇪BE比利時丨yoyapai.com
-  - 荷蘭節點丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_2
+  - 亞太地區
+  - 🇰🇷KR韓國丨yoyapai.com_3
   - 美國節點
-  - 🇳🇱NL荷蘭丨yoyapai.com_6
+  - 泰國節點丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_4
+  - 亞太地區_1
+  - 德國
   - 美國
   - 英國
-  - 英國_1
+  - 丹麥節點🇩🇰DK丨yoyapai.com
+  - 英國節點
+  - 美國節點_1
   - 美國_1
+  - 英國_1
+  - 美國節點_2
+  - 美國_2
   - 英國_2
   - 英國_3
-  - 美國節點_1
-  - 亞太地區_1
-  - 🇬🇧 英國
-  - 🇺🇸 US美國節點
-  - 英國_4
-  - 英國_5
-  - 荷蘭節點丨yoyapai.com_1
-  - 美國節點_2
+  - 英國節點_1
   - 美國節點_3
-  - 🇬🇧 GB英國節點_1
-  - 德國
-  - 🇳🇱NL荷蘭丨yoyapai.com_7
-  - 🇺🇸 US美國節點_1
-  - 🇺🇸 US美國節點_2
+  - 英國節點_2
+  - 英國節點_3
+  - 英國_4
+  - 英國節點_4
+  - 英國_5
+  - 瑞士節點丨yoyapai.com
+  - 美國節點_4
+  - 英國節點_5
+  - 美國節點_5
+  - 英國節點_6
+  - 英國節點_7
+  - 美國節點_6
+  - 美國節點_7
+  - 瑞典節點丨yoyapai.com
   - 德國_1
   - 英國_6
+  - 英國節點_8
+  - 美國節點_8
+  - 英國節點_9
+  - 泰國節點丨yoyapai.com_1
+  - 美國_3
+  - 英國節點_10
+  - 瑞典節點丨yoyapai.com_1
+  - 瑞典節點丨yoyapai.com_2
+  - 英國節點_11
   - 英國_7
   - 英國_8
-  - 🇨🇭CH臺灣丨yoyapai.com
-  - 🇺🇸 US美國節點_3
-  - 🇬🇧 GB英國節點_2
-  - 🇬🇧 GB英國節點_3
-  - 🇬🇧 GB英國節點_4
-  - 🇬🇧 GB英國節點_5
-  - 英國節點
-  - 英國_9
-  - 🇬🇧 GB英國節點_6
-  - 🇬🇧 GB英國節點_7
-  - 🇬🇧 GB英國節點_8
-  - 🇬🇧 GB英國節點_9
-  - 🇬🇧 GB英國節點_10
-  - 🇬🇧 GB英國節點_11
-  - 美國_2
-  - 亞太地區_2
-  - 英國_10
-  - 🇬🇧 GB英國節點_12
-  - 🇬🇧 GB英國節點_13
-  - 🇬🇧 GB英國_1
-  - 🇳🇱NL荷蘭丨yoyapai.com_8
-  - 英國節點_1
-  - 🇰🇷KR韓國丨yoyapai.com_13
-  - 🇰🇷KR韓國丨yoyapai.com_14
-  - 英國_11
-  - 美國_3
-  - 美國_4
-  - 🇩🇰DK丹麥丨yoyapai.com
-  - 英國_12
-  - 🇰🇷KR韓國丨yoyapai.com_15
-  - 英國_13
-  - 俄羅斯節點丨yoyapai.com
-  - 英國_14
-  - 俄羅斯節點丨yoyapai.com_1
-  - 丹麥節點🇩🇰DK丨yoyapai.com
-  - 美國_5
-  - 德國_2
-  - 🇱🇻LV拉脫維亞節點丨yoyapai.com
-  - 俄羅斯節點丨yoyapai.com_2
-  - 拉脫維亞丨yoyapai.com
   - 意大利節點🇮🇹IT丨yoyapai.com
-  - 德國節點丨yoyapai.com
-  - 美國丨yoyapai.com
-  - 英國_15
-  - 🇸🇪SE瑞典丨yoyapai.com
-  - 瑞士節點丨yoyapai.com
+  - 英國_9
+  - 美國節點_9
+  - 🇰🇷KR韓國丨yoyapai.com_5
+  - 英國節點_12
+  - 英國_10
   - 新加坡丨yoyapai.com
-  - 立陶宛節點🇱🇹LT丨yoyapai.com
-  - 英國節點_2
+  - 英國_11
   - 🇸🇪SE瑞典節點丨yoyapai.com
+  - 🇬🇧 GB英國
+  - 美國_4
+  - 英國_12
+  - 美國節點_10
+  - 英國節點_13
+  - 🇳🇱NL荷蘭丨yoyapai.com_5
+  - 英國節點_14
+  - 🇬🇧 英國
+  - 荷蘭節點丨yoyapai.com
+  - 英國節點_15
+  - 英國節點_16
+  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_6
+  - 🇳🇱NL荷蘭丨yoyapai.com_7
+  - 🇫🇷FR法國丨yoyapai.com
+  - 香港節點
+  - 🇰🇷KR韓國丨yoyapai.com_6
+  - 🇳🇱NL荷蘭丨yoyapai.com_8
+  - 瑞典丨yoyapai.com
+  - 匈牙利節點丨yoyapai.com
   - 🇳🇱NL荷蘭丨yoyapai.com_9
+  - 俄羅斯節點丨yoyapai.com
+  - 🇸🇪SE瑞典節點丨yoyapai.com_1
+  - 捷克節點丨yoyapai.com
   - 🇷🇴RO羅馬尼亞節點丨yoyapai.com
-  - 英國_16
-  - 俄羅斯節點丨yoyapai.com_3
-  - 西班牙節點🇪🇸ES丨yoyapai.com
-  - 英國_17
+  - 意大利丨yoyapai.com
+  - 荷蘭節點丨yoyapai.com_1
+  - 拉脫維亞丨yoyapai.com
+  - 🇱🇻LV拉脫維亞節點丨yoyapai.com
+  - 立陶宛節點🇱🇹LT丨yoyapai.com
   - 瑞士節點丨yoyapai.com_1
   - 🇳🇱NL荷蘭丨yoyapai.com_10
-  - 🇵🇱PL波蘭丨yoyapai.com
-  - 奧地利節點丨yoyapai.com
+  - 俄羅斯節點丨yoyapai.com_1
   - 🇳🇱NL荷蘭丨yoyapai.com_11
-  - 🇳🇱NL荷蘭丨yoyapai.com_12
-  - 匈牙利節點丨yoyapai.com
-  - 瑞典節點丨yoyapai.com
-  - 🇳🇱NL荷蘭丨yoyapai.com_13
-  - 🇳🇱NL荷蘭丨yoyapai.com_14
-  - 美國_6
-  - 亞太地區_3
-  - 捷克節點丨yoyapai.com
-  - 荷蘭丨yoyapai.com
-  - 🇳🇱NL荷蘭丨yoyapai.com_15
-  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
-  - 瑞士節點丨yoyapai.com_2
-  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_2
-  - 奧地利節點丨yoyapai.com_1
-  - 🇱🇹LT立陶宛丨yoyapai.com
-  - 🇷🇺RU俄羅斯丨yoyapai.com
-  - 瑞典節點丨yoyapai.com_1
-  - 法國節點丨yoyapai.com
-  - 🇫🇷FR法國丨yoyapai.com
-  - 🇳🇱NL荷蘭丨yoyapai.com_16
-  - 德國節點丨yoyapai.com_1
-  - 🇳🇱NL荷蘭丨yoyapai.com_17
-  - 意大利丨yoyapai.com
-  - 瑞典丨yoyapai.com
-  - 美國節點丨yoyapai.com
-  - 瑞典節點丨yoyapai.com_2
-  - 荷蘭丨yoyapai.com_1
-  - 荷蘭丨yoyapai.com_2
   - 瑞典節點丨yoyapai.com_3
-  - 美國節點丨yoyapai.com_1
-  - 🇸🇪SE瑞典節點丨yoyapai.com_1
-  - 美國節點丨yoyapai.com_2
-  - 美國丨yoyapai.com_1
+  - 瑞士節點丨yoyapai.com_2
+  - 法國節點丨yoyapai.com
+  - 🇸🇪SE瑞典丨yoyapai.com
+  - 西班牙節點🇪🇸ES丨yoyapai.com
+  - 奧地利節點丨yoyapai.com_1
+  - 🇳🇱NL荷蘭丨yoyapai.com_12
+  - 俄羅斯節點丨yoyapai.com_2
   - 荷蘭節點丨yoyapai.com_2
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
+  - 🇳🇱NL荷蘭丨yoyapai.com_13
+  - 🇱🇹LT立陶宛丨yoyapai.com
+  - 美國節點丨yoyapai.com
   - 🇪🇪EE愛沙尼亞丨yoyapai.com
-  - 🇸🇪SE瑞典節點丨yoyapai.com_2
-  - 美國節點丨yoyapai.com_3
+  - 亞太地區_2
+  - 亞太地區_3
   - 亞太地區_4
-  - 亞太地區_5
-  - 亞太地區_6
-  - 美國節點_4
-  - 亞太地區_7
-  - 亞太地區_8
-  - 亞太地區_9
-  - 美國丨yoyapai.com_2
-  - 美國丨yoyapai.com_3
+  - 🇺🇸 US美国丨yoyapai.com
+  - 美國節點丨yoyapai.com_1
+  - 美國節點丨yoyapai.com_2
+  - 英國節點_17
+  - 🇬🇧 GB英國_1
+  - 🇺🇸 US美國節點
+  - 英國_13
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇬🇧 GB英國
-  - 🇬🇧 GB英國節點
+  - 🇸🇬SG新加坡丨yoyapai.com
   - 🇰🇷KR韓國丨yoyapai.com
   - 🇰🇷KR韓國丨yoyapai.com_1
-  - 🇰🇷KR韓國丨yoyapai.com_2
-  - 🇰🇷KR韓國丨yoyapai.com_3
-  - 🇰🇷KR韓國丨yoyapai.com_4
-  - 🇰🇷KR韓國丨yoyapai.com_5
-  - 🇰🇷KR韓國丨yoyapai.com_6
-  - 🇰🇷KR韓國丨yoyapai.com_7
-  - 🇰🇷KR韓國丨yoyapai.com_8
-  - 🇰🇷KR韓國丨yoyapai.com_9
-  - 🇰🇷KR韓國丨yoyapai.com_10
-  - 🇸🇬SG新加坡丨yoyapai.com
-  - 🇰🇷KR韓國丨yoyapai.com_11
-  - 🇰🇷KR韓國丨yoyapai.com_12
   - 🇳🇱NL荷蘭丨yoyapai.com
-  - 🇺🇸 US美國丨yoyapai.com
   - 🇳🇱NL荷蘭丨yoyapai.com_1
   - 🇳🇱NL荷蘭丨yoyapai.com_2
-  - 泰國節點丨yoyapai.com
-  - 亞太地區
   - 🇳🇱NL荷蘭丨yoyapai.com_3
   - 🇳🇱NL荷蘭丨yoyapai.com_4
-  - 泰國節點丨yoyapai.com_1
-  - 泰國節點丨yoyapai.com_2
-  - 🇳🇱NL荷蘭丨yoyapai.com_5
+  - 🇩🇰DK丹麥丨yoyapai.com
+  - 🇨🇭CH臺灣丨yoyapai.com
+  - 奧地利節點丨yoyapai.com
+  - 🇺🇸 US美國丨yoyapai.com
   - 🇧🇪BE比利時丨yoyapai.com
-  - 荷蘭節點丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_2
+  - 亞太地區
+  - 🇰🇷KR韓國丨yoyapai.com_3
   - 美國節點
-  - 🇳🇱NL荷蘭丨yoyapai.com_6
+  - 泰國節點丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_4
+  - 亞太地區_1
+  - 德國
   - 美國
   - 英國
-  - 英國_1
+  - 丹麥節點🇩🇰DK丨yoyapai.com
+  - 英國節點
+  - 美國節點_1
   - 美國_1
+  - 英國_1
+  - 美國節點_2
+  - 美國_2
   - 英國_2
   - 英國_3
-  - 美國節點_1
-  - 亞太地區_1
-  - 🇬🇧 英國
-  - 🇺🇸 US美國節點
-  - 英國_4
-  - 英國_5
-  - 荷蘭節點丨yoyapai.com_1
-  - 美國節點_2
+  - 英國節點_1
   - 美國節點_3
-  - 🇬🇧 GB英國節點_1
-  - 德國
-  - 🇳🇱NL荷蘭丨yoyapai.com_7
-  - 🇺🇸 US美國節點_1
-  - 🇺🇸 US美國節點_2
+  - 英國節點_2
+  - 英國節點_3
+  - 英國_4
+  - 英國節點_4
+  - 英國_5
+  - 瑞士節點丨yoyapai.com
+  - 美國節點_4
+  - 英國節點_5
+  - 美國節點_5
+  - 英國節點_6
+  - 英國節點_7
+  - 美國節點_6
+  - 美國節點_7
+  - 瑞典節點丨yoyapai.com
   - 德國_1
   - 英國_6
+  - 英國節點_8
+  - 美國節點_8
+  - 英國節點_9
+  - 泰國節點丨yoyapai.com_1
+  - 美國_3
+  - 英國節點_10
+  - 瑞典節點丨yoyapai.com_1
+  - 瑞典節點丨yoyapai.com_2
+  - 英國節點_11
   - 英國_7
   - 英國_8
-  - 🇨🇭CH臺灣丨yoyapai.com
-  - 🇺🇸 US美國節點_3
-  - 🇬🇧 GB英國節點_2
-  - 🇬🇧 GB英國節點_3
-  - 🇬🇧 GB英國節點_4
-  - 🇬🇧 GB英國節點_5
-  - 英國節點
-  - 英國_9
-  - 🇬🇧 GB英國節點_6
-  - 🇬🇧 GB英國節點_7
-  - 🇬🇧 GB英國節點_8
-  - 🇬🇧 GB英國節點_9
-  - 🇬🇧 GB英國節點_10
-  - 🇬🇧 GB英國節點_11
-  - 美國_2
-  - 亞太地區_2
-  - 英國_10
-  - 🇬🇧 GB英國節點_12
-  - 🇬🇧 GB英國節點_13
-  - 🇬🇧 GB英國_1
-  - 🇳🇱NL荷蘭丨yoyapai.com_8
-  - 英國節點_1
-  - 🇰🇷KR韓國丨yoyapai.com_13
-  - 🇰🇷KR韓國丨yoyapai.com_14
-  - 英國_11
-  - 美國_3
-  - 美國_4
-  - 🇩🇰DK丹麥丨yoyapai.com
-  - 英國_12
-  - 🇰🇷KR韓國丨yoyapai.com_15
-  - 英國_13
-  - 俄羅斯節點丨yoyapai.com
-  - 英國_14
-  - 俄羅斯節點丨yoyapai.com_1
-  - 丹麥節點🇩🇰DK丨yoyapai.com
-  - 美國_5
-  - 德國_2
-  - 🇱🇻LV拉脫維亞節點丨yoyapai.com
-  - 俄羅斯節點丨yoyapai.com_2
-  - 拉脫維亞丨yoyapai.com
   - 意大利節點🇮🇹IT丨yoyapai.com
-  - 德國節點丨yoyapai.com
-  - 美國丨yoyapai.com
-  - 英國_15
-  - 🇸🇪SE瑞典丨yoyapai.com
-  - 瑞士節點丨yoyapai.com
+  - 英國_9
+  - 美國節點_9
+  - 🇰🇷KR韓國丨yoyapai.com_5
+  - 英國節點_12
+  - 英國_10
   - 新加坡丨yoyapai.com
-  - 立陶宛節點🇱🇹LT丨yoyapai.com
-  - 英國節點_2
+  - 英國_11
   - 🇸🇪SE瑞典節點丨yoyapai.com
+  - 🇬🇧 GB英國
+  - 美國_4
+  - 英國_12
+  - 美國節點_10
+  - 英國節點_13
+  - 🇳🇱NL荷蘭丨yoyapai.com_5
+  - 英國節點_14
+  - 🇬🇧 英國
+  - 荷蘭節點丨yoyapai.com
+  - 英國節點_15
+  - 英國節點_16
+  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_6
+  - 🇳🇱NL荷蘭丨yoyapai.com_7
+  - 🇫🇷FR法國丨yoyapai.com
+  - 香港節點
+  - 🇰🇷KR韓國丨yoyapai.com_6
+  - 🇳🇱NL荷蘭丨yoyapai.com_8
+  - 瑞典丨yoyapai.com
+  - 匈牙利節點丨yoyapai.com
   - 🇳🇱NL荷蘭丨yoyapai.com_9
+  - 俄羅斯節點丨yoyapai.com
+  - 🇸🇪SE瑞典節點丨yoyapai.com_1
+  - 捷克節點丨yoyapai.com
   - 🇷🇴RO羅馬尼亞節點丨yoyapai.com
-  - 英國_16
-  - 俄羅斯節點丨yoyapai.com_3
-  - 西班牙節點🇪🇸ES丨yoyapai.com
-  - 英國_17
+  - 意大利丨yoyapai.com
+  - 荷蘭節點丨yoyapai.com_1
+  - 拉脫維亞丨yoyapai.com
+  - 🇱🇻LV拉脫維亞節點丨yoyapai.com
+  - 立陶宛節點🇱🇹LT丨yoyapai.com
   - 瑞士節點丨yoyapai.com_1
   - 🇳🇱NL荷蘭丨yoyapai.com_10
-  - 🇵🇱PL波蘭丨yoyapai.com
-  - 奧地利節點丨yoyapai.com
+  - 俄羅斯節點丨yoyapai.com_1
   - 🇳🇱NL荷蘭丨yoyapai.com_11
-  - 🇳🇱NL荷蘭丨yoyapai.com_12
-  - 匈牙利節點丨yoyapai.com
-  - 瑞典節點丨yoyapai.com
-  - 🇳🇱NL荷蘭丨yoyapai.com_13
-  - 🇳🇱NL荷蘭丨yoyapai.com_14
-  - 美國_6
-  - 亞太地區_3
-  - 捷克節點丨yoyapai.com
-  - 荷蘭丨yoyapai.com
-  - 🇳🇱NL荷蘭丨yoyapai.com_15
-  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
-  - 瑞士節點丨yoyapai.com_2
-  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_2
-  - 奧地利節點丨yoyapai.com_1
-  - 🇱🇹LT立陶宛丨yoyapai.com
-  - 🇷🇺RU俄羅斯丨yoyapai.com
-  - 瑞典節點丨yoyapai.com_1
-  - 法國節點丨yoyapai.com
-  - 🇫🇷FR法國丨yoyapai.com
-  - 🇳🇱NL荷蘭丨yoyapai.com_16
-  - 德國節點丨yoyapai.com_1
-  - 🇳🇱NL荷蘭丨yoyapai.com_17
-  - 意大利丨yoyapai.com
-  - 瑞典丨yoyapai.com
-  - 美國節點丨yoyapai.com
-  - 瑞典節點丨yoyapai.com_2
-  - 荷蘭丨yoyapai.com_1
-  - 荷蘭丨yoyapai.com_2
   - 瑞典節點丨yoyapai.com_3
-  - 美國節點丨yoyapai.com_1
-  - 🇸🇪SE瑞典節點丨yoyapai.com_1
-  - 美國節點丨yoyapai.com_2
-  - 美國丨yoyapai.com_1
+  - 瑞士節點丨yoyapai.com_2
+  - 法國節點丨yoyapai.com
+  - 🇸🇪SE瑞典丨yoyapai.com
+  - 西班牙節點🇪🇸ES丨yoyapai.com
+  - 奧地利節點丨yoyapai.com_1
+  - 🇳🇱NL荷蘭丨yoyapai.com_12
+  - 俄羅斯節點丨yoyapai.com_2
   - 荷蘭節點丨yoyapai.com_2
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
+  - 🇳🇱NL荷蘭丨yoyapai.com_13
+  - 🇱🇹LT立陶宛丨yoyapai.com
+  - 美國節點丨yoyapai.com
   - 🇪🇪EE愛沙尼亞丨yoyapai.com
-  - 🇸🇪SE瑞典節點丨yoyapai.com_2
-  - 美國節點丨yoyapai.com_3
+  - 亞太地區_2
+  - 亞太地區_3
   - 亞太地區_4
-  - 亞太地區_5
-  - 亞太地區_6
-  - 美國節點_4
-  - 亞太地區_7
-  - 亞太地區_8
-  - 亞太地區_9
-  - 美國丨yoyapai.com_2
-  - 美國丨yoyapai.com_3
+  - 🇺🇸 US美国丨yoyapai.com
+  - 美國節點丨yoyapai.com_1
+  - 美國節點丨yoyapai.com_2
+  - 英國節點_17
+  - 🇬🇧 GB英國_1
+  - 🇺🇸 US美國節點
+  - 英國_13
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -2924,168 +2294,134 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇬🇧 GB英國
-  - 🇬🇧 GB英國節點
+  - 🇸🇬SG新加坡丨yoyapai.com
   - 🇰🇷KR韓國丨yoyapai.com
   - 🇰🇷KR韓國丨yoyapai.com_1
-  - 🇰🇷KR韓國丨yoyapai.com_2
-  - 🇰🇷KR韓國丨yoyapai.com_3
-  - 🇰🇷KR韓國丨yoyapai.com_4
-  - 🇰🇷KR韓國丨yoyapai.com_5
-  - 🇰🇷KR韓國丨yoyapai.com_6
-  - 🇰🇷KR韓國丨yoyapai.com_7
-  - 🇰🇷KR韓國丨yoyapai.com_8
-  - 🇰🇷KR韓國丨yoyapai.com_9
-  - 🇰🇷KR韓國丨yoyapai.com_10
-  - 🇸🇬SG新加坡丨yoyapai.com
-  - 🇰🇷KR韓國丨yoyapai.com_11
-  - 🇰🇷KR韓國丨yoyapai.com_12
   - 🇳🇱NL荷蘭丨yoyapai.com
-  - 🇺🇸 US美國丨yoyapai.com
   - 🇳🇱NL荷蘭丨yoyapai.com_1
   - 🇳🇱NL荷蘭丨yoyapai.com_2
-  - 泰國節點丨yoyapai.com
-  - 亞太地區
   - 🇳🇱NL荷蘭丨yoyapai.com_3
   - 🇳🇱NL荷蘭丨yoyapai.com_4
-  - 泰國節點丨yoyapai.com_1
-  - 泰國節點丨yoyapai.com_2
-  - 🇳🇱NL荷蘭丨yoyapai.com_5
+  - 🇩🇰DK丹麥丨yoyapai.com
+  - 🇨🇭CH臺灣丨yoyapai.com
+  - 奧地利節點丨yoyapai.com
+  - 🇺🇸 US美國丨yoyapai.com
   - 🇧🇪BE比利時丨yoyapai.com
-  - 荷蘭節點丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_2
+  - 亞太地區
+  - 🇰🇷KR韓國丨yoyapai.com_3
   - 美國節點
-  - 🇳🇱NL荷蘭丨yoyapai.com_6
+  - 泰國節點丨yoyapai.com
+  - 🇰🇷KR韓國丨yoyapai.com_4
+  - 亞太地區_1
+  - 德國
   - 美國
   - 英國
-  - 英國_1
+  - 丹麥節點🇩🇰DK丨yoyapai.com
+  - 英國節點
+  - 美國節點_1
   - 美國_1
+  - 英國_1
+  - 美國節點_2
+  - 美國_2
   - 英國_2
   - 英國_3
-  - 美國節點_1
-  - 亞太地區_1
-  - 🇬🇧 英國
-  - 🇺🇸 US美國節點
-  - 英國_4
-  - 英國_5
-  - 荷蘭節點丨yoyapai.com_1
-  - 美國節點_2
+  - 英國節點_1
   - 美國節點_3
-  - 🇬🇧 GB英國節點_1
-  - 德國
-  - 🇳🇱NL荷蘭丨yoyapai.com_7
-  - 🇺🇸 US美國節點_1
-  - 🇺🇸 US美國節點_2
+  - 英國節點_2
+  - 英國節點_3
+  - 英國_4
+  - 英國節點_4
+  - 英國_5
+  - 瑞士節點丨yoyapai.com
+  - 美國節點_4
+  - 英國節點_5
+  - 美國節點_5
+  - 英國節點_6
+  - 英國節點_7
+  - 美國節點_6
+  - 美國節點_7
+  - 瑞典節點丨yoyapai.com
   - 德國_1
   - 英國_6
+  - 英國節點_8
+  - 美國節點_8
+  - 英國節點_9
+  - 泰國節點丨yoyapai.com_1
+  - 美國_3
+  - 英國節點_10
+  - 瑞典節點丨yoyapai.com_1
+  - 瑞典節點丨yoyapai.com_2
+  - 英國節點_11
   - 英國_7
   - 英國_8
-  - 🇨🇭CH臺灣丨yoyapai.com
-  - 🇺🇸 US美國節點_3
-  - 🇬🇧 GB英國節點_2
-  - 🇬🇧 GB英國節點_3
-  - 🇬🇧 GB英國節點_4
-  - 🇬🇧 GB英國節點_5
-  - 英國節點
-  - 英國_9
-  - 🇬🇧 GB英國節點_6
-  - 🇬🇧 GB英國節點_7
-  - 🇬🇧 GB英國節點_8
-  - 🇬🇧 GB英國節點_9
-  - 🇬🇧 GB英國節點_10
-  - 🇬🇧 GB英國節點_11
-  - 美國_2
-  - 亞太地區_2
-  - 英國_10
-  - 🇬🇧 GB英國節點_12
-  - 🇬🇧 GB英國節點_13
-  - 🇬🇧 GB英國_1
-  - 🇳🇱NL荷蘭丨yoyapai.com_8
-  - 英國節點_1
-  - 🇰🇷KR韓國丨yoyapai.com_13
-  - 🇰🇷KR韓國丨yoyapai.com_14
-  - 英國_11
-  - 美國_3
-  - 美國_4
-  - 🇩🇰DK丹麥丨yoyapai.com
-  - 英國_12
-  - 🇰🇷KR韓國丨yoyapai.com_15
-  - 英國_13
-  - 俄羅斯節點丨yoyapai.com
-  - 英國_14
-  - 俄羅斯節點丨yoyapai.com_1
-  - 丹麥節點🇩🇰DK丨yoyapai.com
-  - 美國_5
-  - 德國_2
-  - 🇱🇻LV拉脫維亞節點丨yoyapai.com
-  - 俄羅斯節點丨yoyapai.com_2
-  - 拉脫維亞丨yoyapai.com
   - 意大利節點🇮🇹IT丨yoyapai.com
-  - 德國節點丨yoyapai.com
-  - 美國丨yoyapai.com
-  - 英國_15
-  - 🇸🇪SE瑞典丨yoyapai.com
-  - 瑞士節點丨yoyapai.com
+  - 英國_9
+  - 美國節點_9
+  - 🇰🇷KR韓國丨yoyapai.com_5
+  - 英國節點_12
+  - 英國_10
   - 新加坡丨yoyapai.com
-  - 立陶宛節點🇱🇹LT丨yoyapai.com
-  - 英國節點_2
+  - 英國_11
   - 🇸🇪SE瑞典節點丨yoyapai.com
+  - 🇬🇧 GB英國
+  - 美國_4
+  - 英國_12
+  - 美國節點_10
+  - 英國節點_13
+  - 🇳🇱NL荷蘭丨yoyapai.com_5
+  - 英國節點_14
+  - 🇬🇧 英國
+  - 荷蘭節點丨yoyapai.com
+  - 英國節點_15
+  - 英國節點_16
+  - 🇷🇺RU俄羅斯丨yoyapai.com
+  - 🇳🇱NL荷蘭丨yoyapai.com_6
+  - 🇳🇱NL荷蘭丨yoyapai.com_7
+  - 🇫🇷FR法國丨yoyapai.com
+  - 香港節點
+  - 🇰🇷KR韓國丨yoyapai.com_6
+  - 🇳🇱NL荷蘭丨yoyapai.com_8
+  - 瑞典丨yoyapai.com
+  - 匈牙利節點丨yoyapai.com
   - 🇳🇱NL荷蘭丨yoyapai.com_9
+  - 俄羅斯節點丨yoyapai.com
+  - 🇸🇪SE瑞典節點丨yoyapai.com_1
+  - 捷克節點丨yoyapai.com
   - 🇷🇴RO羅馬尼亞節點丨yoyapai.com
-  - 英國_16
-  - 俄羅斯節點丨yoyapai.com_3
-  - 西班牙節點🇪🇸ES丨yoyapai.com
-  - 英國_17
+  - 意大利丨yoyapai.com
+  - 荷蘭節點丨yoyapai.com_1
+  - 拉脫維亞丨yoyapai.com
+  - 🇱🇻LV拉脫維亞節點丨yoyapai.com
+  - 立陶宛節點🇱🇹LT丨yoyapai.com
   - 瑞士節點丨yoyapai.com_1
   - 🇳🇱NL荷蘭丨yoyapai.com_10
-  - 🇵🇱PL波蘭丨yoyapai.com
-  - 奧地利節點丨yoyapai.com
+  - 俄羅斯節點丨yoyapai.com_1
   - 🇳🇱NL荷蘭丨yoyapai.com_11
-  - 🇳🇱NL荷蘭丨yoyapai.com_12
-  - 匈牙利節點丨yoyapai.com
-  - 瑞典節點丨yoyapai.com
-  - 🇳🇱NL荷蘭丨yoyapai.com_13
-  - 🇳🇱NL荷蘭丨yoyapai.com_14
-  - 美國_6
-  - 亞太地區_3
-  - 捷克節點丨yoyapai.com
-  - 荷蘭丨yoyapai.com
-  - 🇳🇱NL荷蘭丨yoyapai.com_15
-  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
-  - 瑞士節點丨yoyapai.com_2
-  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_2
-  - 奧地利節點丨yoyapai.com_1
-  - 🇱🇹LT立陶宛丨yoyapai.com
-  - 🇷🇺RU俄羅斯丨yoyapai.com
-  - 瑞典節點丨yoyapai.com_1
-  - 法國節點丨yoyapai.com
-  - 🇫🇷FR法國丨yoyapai.com
-  - 🇳🇱NL荷蘭丨yoyapai.com_16
-  - 德國節點丨yoyapai.com_1
-  - 🇳🇱NL荷蘭丨yoyapai.com_17
-  - 意大利丨yoyapai.com
-  - 瑞典丨yoyapai.com
-  - 美國節點丨yoyapai.com
-  - 瑞典節點丨yoyapai.com_2
-  - 荷蘭丨yoyapai.com_1
-  - 荷蘭丨yoyapai.com_2
   - 瑞典節點丨yoyapai.com_3
-  - 美國節點丨yoyapai.com_1
-  - 🇸🇪SE瑞典節點丨yoyapai.com_1
-  - 美國節點丨yoyapai.com_2
-  - 美國丨yoyapai.com_1
+  - 瑞士節點丨yoyapai.com_2
+  - 法國節點丨yoyapai.com
+  - 🇸🇪SE瑞典丨yoyapai.com
+  - 西班牙節點🇪🇸ES丨yoyapai.com
+  - 奧地利節點丨yoyapai.com_1
+  - 🇳🇱NL荷蘭丨yoyapai.com_12
+  - 俄羅斯節點丨yoyapai.com_2
   - 荷蘭節點丨yoyapai.com_2
+  - 🇷🇴RO羅馬尼亞節點丨yoyapai.com_1
+  - 🇳🇱NL荷蘭丨yoyapai.com_13
+  - 🇱🇹LT立陶宛丨yoyapai.com
+  - 美國節點丨yoyapai.com
   - 🇪🇪EE愛沙尼亞丨yoyapai.com
-  - 🇸🇪SE瑞典節點丨yoyapai.com_2
-  - 美國節點丨yoyapai.com_3
+  - 亞太地區_2
+  - 亞太地區_3
   - 亞太地區_4
-  - 亞太地區_5
-  - 亞太地區_6
-  - 美國節點_4
-  - 亞太地區_7
-  - 亞太地區_8
-  - 亞太地區_9
-  - 美國丨yoyapai.com_2
-  - 美國丨yoyapai.com_3
+  - 🇺🇸 US美国丨yoyapai.com
+  - 美國節點丨yoyapai.com_1
+  - 美國節點丨yoyapai.com_2
+  - 英國節點_17
+  - 🇬🇧 GB英國_1
+  - 🇺🇸 US美國節點
+  - 英國_13
   type: select
 rule-providers:
   Apple:

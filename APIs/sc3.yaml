@@ -17,256 +17,262 @@ log-level: info
 mixed-port: 7890
 mode: rule
 proxies:
+- name: 🇺🇸_US_美国
+  network: ws
+  port: 80
+  server: 172.64.147.255
+  tls: false
+  type: vless
+  udp: true
+  uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622
+  ws-opts:
+    headers:
+      Host: tt.andishehparenting.com
+    path: /
+- name: 🇺🇸_US_美国_1
+  network: ws
+  port: 443
+  server: 45.40.154.139
+  servername: sni.111000.dynv6.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+- cipher: aes-128-gcm
+  name: 🇺🇸_US_美国->🇬🇧_GB_英国
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: chengbai02.ascwt179.com
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰_HK_中国香港
+  port: 56698
+  server: 47.239.69.43
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0be3a336-85ad-4c42-930b-05318236e68c
 - cipher: aes-256-cfb
   name: 🇻🇳_VN_越南
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
-  server: 103.186.154.53
+  server: 103.186.154.198
   type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 🇻🇳_VN_越南_1
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.207
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇦🇪_AE_阿拉伯联合酋长国
-  port: 443
-  server: nlety.ksnodes.net
-  servername: nlety.ksnodes.net
+- name: 🇺🇸_US_美国_2
+  network: ws
+  port: 8443
+  server: 104.20.6.134
+  servername: sni.111000.dynv6.net
   tls: true
   type: vless
   udp: true
-  uuid: b6ce8a51-19b9-4979-91ba-b4298c26d5fc
-- cipher: aes-256-cfb
-  name: 🇻🇳_VN_越南_2
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.224
-  type: ss
-  udp: true
-- name: 🇯🇵_JP_日本
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dynv6.net
+    path: /?Telegram @v2rayngzendegimamad
+- client-fingerprint: ios
+  name: 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
   network: ws
   port: 443
-  server: 103.13.19.227
-  servername: 1-aym.pages.dev
+  server: 119.246.150.50
+  servername: gogo.wknm.dpdns.org
   tls: true
   type: vless
   udp: true
   uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
     headers:
-      Host: 1-aym.pages.dev
-    path: /fp=chrome
-- cipher: aes-256-cfb
-  name: 🇻🇳_VN_越南_3
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.147
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇻🇳_VN_越南_4
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.155.35
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪_DE_德国
-  port: 9443
-  server: bero-3.bexum.fun
-  servername: bero-3.bexum.fun
-  tls: true
-  type: vless
-  udp: true
-  uuid: cbf10015-d51a-4a7c-b13a-3c6091135d93
-- cipher: aes-256-cfb
-  name: 🇻🇳_VN_越南_5
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.157
-  type: ss
-  udp: true
-- name: 🇺🇸_US_美国
+      Host: gogo.wknm.dpdns.org
+    path: /
+- name: 🇸🇪_SE_瑞典
   network: ws
-  port: 2053
-  server: 104.17.72.206
-  servername: sni.111000.indevs.in
+  port: 443
+  server: 5.178.109.158
+  servername: sni.111000.dns.army
   tls: true
   type: vless
   udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.indevs.in
+      Host: sni.111000.dns.army
+    path: /?https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3=
 - client-fingerprint: chrome
-  name: 🇩🇪_DE_德国_1
-  port: 20222
-  reality-opts:
-    public-key: USzu7jEsyeyLjhJ_w8Wm76bd6bSXy8TciAojicQKAHk
-    short-id: 48e9a51281c1
-  server: 148.253.208.98
-  servername: stats.vk-portal.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: faed8940-ce1a-4613-a05b-65d833e3346b
-- name: 🇰🇷_KR_韩国->🇯🇵_JP_日本
-  network: ws
-  port: 37173
-  server: 14.35.236.28
-  servername: 8a005khup3.mesa.ip-ddns.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 8a005khup3.mesa.ip-ddns.com
-    path: /@Marisa_kristifp=chrome
-- cipher: aes-256-cfb
-  name: 🇻🇳_VN_越南_6
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.183
-  type: ss
-  udp: true
-- name: 🇺🇸_US_美国_1
+  name: 🇺🇸_US_美国_3
   network: ws
   port: 2096
-  server: 188.114.98.0
-  servername: sni.111000.indevs.in
+  server: 167.68.42.191
+  servername: sni.my111000.tech
   tls: true
   type: vless
   udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.indevs.in
-    path: /?Telegram%F0%9F%87%A8%F0%9F%87%B3+%40WangCai2=
+      Host: sni.my111000.tech
+    path: /
+- cipher: aes-256-cfb
+  name: 🇻🇳_VN_越南_1
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.210
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
-  name: 🇲🇾_MY_马来西亚->🇫🇷_FR_法国
-  port: 30835
-  server: v35.hdacd.com
+  name: 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港
+  port: 30809
+  server: v9.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇩🇪_DE_德国_2
-  port: 443
-  reality-opts:
-    public-key: 6eN2NciEaZis5J4muRRqpfLQ1OglI3A8lNSTmAGo6Do
-    short-id: 3c6fc84d
-  server: 62.60.217.95
-  servername: stats.vk-portal.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ef19221-6d5e-4bce-baa1-7c043eae3309
-- alterId: 0
-  cipher: auto
-  name: 🇺🇸_US_美国_2
-  port: 180
-  server: 82.198.246.97
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
-  name: 🇰🇷_KR_韩国
-  network: ws
-  port: 15993
-  server: 119.205.128.200
-  servername: mug.support.gfw.hidns.co
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: mug.support.gfw.hidns.co
-    path: /danfengfp=chrome
-- name: 🇱🇻_LV_拉脱维亚
+- name: 🇺🇸_US_美国_4
   network: ws
   port: 443
-  server: 169.40.1.34
-  servername: sni.111000.v6.rocks
+  server: 104.17.101.139
+  servername: sni.111000.dynv6.net
   tls: true
   type: vless
   udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: sni.111000.v6.rocks
-    path: /?ed=2560
-- name: 🇰🇿_KZ_哈萨克斯坦
-  password: BmVb9TGoytYhaLnZhkrVCtx8khbQFTA_
-  port: 5443
-  server: kz-1.bexum.fun
+      Host: sni.111000.dynv6.net
+    path: /?proxyip=ip.111000.de5.net%3A443
+- cipher: aes-256-cfb
+  name: 🇻🇳_VN_越南_2
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.27
+  type: ss
+  udp: true
+- name: 🇺🇸_US_美国_5
+  network: ws
+  port: 2096
+  server: 8.34.146.191
+  servername: sni.my111000.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.my111000.tech
+    path: Telegram%F0%9F%87%A8%F0%9F%87%B3@WangCai2/
+- name: 🇺🇸_US_美国_6
+  password: acf3f32e-2b46-4535-a068-4bcb6dcb86f8
+  port: 50000
+  server: us200m.jiasu.asia
   skip-cert-verify: false
-  sni: kz-1.bexum.fun
+  sni: us200m.jiasu.asia
   tls: false
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: 🇻🇳_VN_越南_3
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.64
+  type: ss
+  udp: true
+- name: 🇦🇹_AT_奥地利
+  network: ws
+  port: 2096
+  server: 212.183.88.238
+  servername: sni.jpmj.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.jpmj.dev
+    path: /?ed=2560&Telegram🇨🇳+@WangCai2
+- cipher: aes-256-cfb
+  name: 🇻🇳_VN_越南_4
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.209
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: 🇻🇳_VN_越南_5
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.195
+  type: ss
+  udp: true
+- name: 🇳🇱_NL_荷兰->🇱🇻_LV_拉脱维亚
+  network: ws
+  port: 443
+  server: 212.87.223.196
+  servername: sni.111000.dns.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dns.army
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
-  - 🇻🇳_VN_越南
-  - 🇻🇳_VN_越南_1
-  - 🇦🇪_AE_阿拉伯联合酋长国
-  - 🇻🇳_VN_越南_2
-  - 🇯🇵_JP_日本
-  - 🇻🇳_VN_越南_3
-  - 🇻🇳_VN_越南_4
-  - 🇩🇪_DE_德国
-  - 🇻🇳_VN_越南_5
   - 🇺🇸_US_美国
-  - 🇩🇪_DE_德国_1
-  - 🇰🇷_KR_韩国->🇯🇵_JP_日本
-  - 🇻🇳_VN_越南_6
   - 🇺🇸_US_美国_1
-  - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国
-  - 🇩🇪_DE_德国_2
+  - 🇺🇸_US_美国->🇬🇧_GB_英国
+  - 🇭🇰_HK_中国香港
+  - 🇻🇳_VN_越南
   - 🇺🇸_US_美国_2
-  - 🇰🇷_KR_韩国
-  - 🇱🇻_LV_拉脱维亚
-  - 🇰🇿_KZ_哈萨克斯坦
+  - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
+  - 🇸🇪_SE_瑞典
+  - 🇺🇸_US_美国_3
+  - 🇻🇳_VN_越南_1
+  - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港
+  - 🇺🇸_US_美国_4
+  - 🇻🇳_VN_越南_2
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇻🇳_VN_越南_3
+  - 🇦🇹_AT_奥地利
+  - 🇻🇳_VN_越南_4
+  - 🇻🇳_VN_越南_5
+  - 🇳🇱_NL_荷兰->🇱🇻_LV_拉脱维亚
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
-  - 🇻🇳_VN_越南
-  - 🇻🇳_VN_越南_1
-  - 🇦🇪_AE_阿拉伯联合酋长国
-  - 🇻🇳_VN_越南_2
-  - 🇯🇵_JP_日本
-  - 🇻🇳_VN_越南_3
-  - 🇻🇳_VN_越南_4
-  - 🇩🇪_DE_德国
-  - 🇻🇳_VN_越南_5
   - 🇺🇸_US_美国
-  - 🇩🇪_DE_德国_1
-  - 🇰🇷_KR_韩国->🇯🇵_JP_日本
-  - 🇻🇳_VN_越南_6
   - 🇺🇸_US_美国_1
-  - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国
-  - 🇩🇪_DE_德国_2
+  - 🇺🇸_US_美国->🇬🇧_GB_英国
+  - 🇭🇰_HK_中国香港
+  - 🇻🇳_VN_越南
   - 🇺🇸_US_美国_2
-  - 🇰🇷_KR_韩国
-  - 🇱🇻_LV_拉脱维亚
-  - 🇰🇿_KZ_哈萨克斯坦
+  - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
+  - 🇸🇪_SE_瑞典
+  - 🇺🇸_US_美国_3
+  - 🇻🇳_VN_越南_1
+  - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港
+  - 🇺🇸_US_美国_4
+  - 🇻🇳_VN_越南_2
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇻🇳_VN_越南_3
+  - 🇦🇹_AT_奥地利
+  - 🇻🇳_VN_越南_4
+  - 🇻🇳_VN_越南_5
+  - 🇳🇱_NL_荷兰->🇱🇻_LV_拉脱维亚
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -275,101 +281,101 @@ proxy-groups:
   - 🚀 节点选择
   - ♻️ 自动选择
   - 🎯 全球直连
-  - 🇻🇳_VN_越南
-  - 🇻🇳_VN_越南_1
-  - 🇦🇪_AE_阿拉伯联合酋长国
-  - 🇻🇳_VN_越南_2
-  - 🇯🇵_JP_日本
-  - 🇻🇳_VN_越南_3
-  - 🇻🇳_VN_越南_4
-  - 🇩🇪_DE_德国
-  - 🇻🇳_VN_越南_5
   - 🇺🇸_US_美国
-  - 🇩🇪_DE_德国_1
-  - 🇰🇷_KR_韩国->🇯🇵_JP_日本
-  - 🇻🇳_VN_越南_6
   - 🇺🇸_US_美国_1
-  - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国
-  - 🇩🇪_DE_德国_2
+  - 🇺🇸_US_美国->🇬🇧_GB_英国
+  - 🇭🇰_HK_中国香港
+  - 🇻🇳_VN_越南
   - 🇺🇸_US_美国_2
-  - 🇰🇷_KR_韩国
-  - 🇱🇻_LV_拉脱维亚
-  - 🇰🇿_KZ_哈萨克斯坦
+  - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
+  - 🇸🇪_SE_瑞典
+  - 🇺🇸_US_美国_3
+  - 🇻🇳_VN_越南_1
+  - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港
+  - 🇺🇸_US_美国_4
+  - 🇻🇳_VN_越南_2
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇻🇳_VN_越南_3
+  - 🇦🇹_AT_奥地利
+  - 🇻🇳_VN_越南_4
+  - 🇻🇳_VN_越南_5
+  - 🇳🇱_NL_荷兰->🇱🇻_LV_拉脱维亚
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇻🇳_VN_越南
-  - 🇻🇳_VN_越南_1
-  - 🇦🇪_AE_阿拉伯联合酋长国
-  - 🇻🇳_VN_越南_2
-  - 🇯🇵_JP_日本
-  - 🇻🇳_VN_越南_3
-  - 🇻🇳_VN_越南_4
-  - 🇩🇪_DE_德国
-  - 🇻🇳_VN_越南_5
   - 🇺🇸_US_美国
-  - 🇩🇪_DE_德国_1
-  - 🇰🇷_KR_韩国->🇯🇵_JP_日本
-  - 🇻🇳_VN_越南_6
   - 🇺🇸_US_美国_1
-  - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国
-  - 🇩🇪_DE_德国_2
+  - 🇺🇸_US_美国->🇬🇧_GB_英国
+  - 🇭🇰_HK_中国香港
+  - 🇻🇳_VN_越南
   - 🇺🇸_US_美国_2
-  - 🇰🇷_KR_韩国
-  - 🇱🇻_LV_拉脱维亚
-  - 🇰🇿_KZ_哈萨克斯坦
+  - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
+  - 🇸🇪_SE_瑞典
+  - 🇺🇸_US_美国_3
+  - 🇻🇳_VN_越南_1
+  - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港
+  - 🇺🇸_US_美国_4
+  - 🇻🇳_VN_越南_2
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇻🇳_VN_越南_3
+  - 🇦🇹_AT_奥地利
+  - 🇻🇳_VN_越南_4
+  - 🇻🇳_VN_越南_5
+  - 🇳🇱_NL_荷兰->🇱🇻_LV_拉脱维亚
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
-  - 🇻🇳_VN_越南
-  - 🇻🇳_VN_越南_1
-  - 🇦🇪_AE_阿拉伯联合酋长国
-  - 🇻🇳_VN_越南_2
-  - 🇯🇵_JP_日本
-  - 🇻🇳_VN_越南_3
-  - 🇻🇳_VN_越南_4
-  - 🇩🇪_DE_德国
-  - 🇻🇳_VN_越南_5
   - 🇺🇸_US_美国
-  - 🇩🇪_DE_德国_1
-  - 🇰🇷_KR_韩国->🇯🇵_JP_日本
-  - 🇻🇳_VN_越南_6
   - 🇺🇸_US_美国_1
-  - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国
-  - 🇩🇪_DE_德国_2
+  - 🇺🇸_US_美国->🇬🇧_GB_英国
+  - 🇭🇰_HK_中国香港
+  - 🇻🇳_VN_越南
   - 🇺🇸_US_美国_2
-  - 🇰🇷_KR_韩国
-  - 🇱🇻_LV_拉脱维亚
-  - 🇰🇿_KZ_哈萨克斯坦
+  - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
+  - 🇸🇪_SE_瑞典
+  - 🇺🇸_US_美国_3
+  - 🇻🇳_VN_越南_1
+  - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港
+  - 🇺🇸_US_美国_4
+  - 🇻🇳_VN_越南_2
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇻🇳_VN_越南_3
+  - 🇦🇹_AT_奥地利
+  - 🇻🇳_VN_越南_4
+  - 🇻🇳_VN_越南_5
+  - 🇳🇱_NL_荷兰->🇱🇻_LV_拉脱维亚
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
-  - 🇻🇳_VN_越南
-  - 🇻🇳_VN_越南_1
-  - 🇦🇪_AE_阿拉伯联合酋长国
-  - 🇻🇳_VN_越南_2
-  - 🇯🇵_JP_日本
-  - 🇻🇳_VN_越南_3
-  - 🇻🇳_VN_越南_4
-  - 🇩🇪_DE_德国
-  - 🇻🇳_VN_越南_5
   - 🇺🇸_US_美国
-  - 🇩🇪_DE_德国_1
-  - 🇰🇷_KR_韩国->🇯🇵_JP_日本
-  - 🇻🇳_VN_越南_6
   - 🇺🇸_US_美国_1
-  - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国
-  - 🇩🇪_DE_德国_2
+  - 🇺🇸_US_美国->🇬🇧_GB_英国
+  - 🇭🇰_HK_中国香港
+  - 🇻🇳_VN_越南
   - 🇺🇸_US_美国_2
-  - 🇰🇷_KR_韩国
-  - 🇱🇻_LV_拉脱维亚
-  - 🇰🇿_KZ_哈萨克斯坦
+  - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
+  - 🇸🇪_SE_瑞典
+  - 🇺🇸_US_美国_3
+  - 🇻🇳_VN_越南_1
+  - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港
+  - 🇺🇸_US_美国_4
+  - 🇻🇳_VN_越南_2
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇻🇳_VN_越南_3
+  - 🇦🇹_AT_奥地利
+  - 🇻🇳_VN_越南_4
+  - 🇻🇳_VN_越南_5
+  - 🇳🇱_NL_荷兰->🇱🇻_LV_拉脱维亚
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -392,24 +398,24 @@ proxy-groups:
   - 🚀 节点选择
   - 🎯 全球直连
   - ♻️ 自动选择
-  - 🇻🇳_VN_越南
-  - 🇻🇳_VN_越南_1
-  - 🇦🇪_AE_阿拉伯联合酋长国
-  - 🇻🇳_VN_越南_2
-  - 🇯🇵_JP_日本
-  - 🇻🇳_VN_越南_3
-  - 🇻🇳_VN_越南_4
-  - 🇩🇪_DE_德国
-  - 🇻🇳_VN_越南_5
   - 🇺🇸_US_美国
-  - 🇩🇪_DE_德国_1
-  - 🇰🇷_KR_韩国->🇯🇵_JP_日本
-  - 🇻🇳_VN_越南_6
   - 🇺🇸_US_美国_1
-  - 🇲🇾_MY_马来西亚->🇫🇷_FR_法国
-  - 🇩🇪_DE_德国_2
+  - 🇺🇸_US_美国->🇬🇧_GB_英国
+  - 🇭🇰_HK_中国香港
+  - 🇻🇳_VN_越南
   - 🇺🇸_US_美国_2
-  - 🇰🇷_KR_韩国
-  - 🇱🇻_LV_拉脱维亚
-  - 🇰🇿_KZ_哈萨克斯坦
+  - 🇭🇰_HK_中国香港->🇸🇬_SG_新加坡
+  - 🇸🇪_SE_瑞典
+  - 🇺🇸_US_美国_3
+  - 🇻🇳_VN_越南_1
+  - 🇮🇩_ID_印度尼西亚->🇭🇰_HK_中国香港
+  - 🇺🇸_US_美国_4
+  - 🇻🇳_VN_越南_2
+  - 🇺🇸_US_美国_5
+  - 🇺🇸_US_美国_6
+  - 🇻🇳_VN_越南_3
+  - 🇦🇹_AT_奥地利
+  - 🇻🇳_VN_越南_4
+  - 🇻🇳_VN_越南_5
+  - 🇳🇱_NL_荷兰->🇱🇻_LV_拉脱维亚
   type: select
