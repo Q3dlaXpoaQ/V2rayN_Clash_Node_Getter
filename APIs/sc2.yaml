@@ -13,100 +13,55 @@ proxies:
   tls: false
   type: vmess
   uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
-- auth: miaoge110
-  name: 🇩🇪 德国 starcorenode.com
-  password: miaoge110
-  port: 51511
-  server: 5.45.100.100
-  skip-cert-verify: false
-  sni: www.bing.com
-  type: hysteria2
-- name: 🇺🇸 美国 CloudFlare节点
-  network: ws
-  port: 443
-  server: 172.66.47.45
-  servername: octopusss4.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1
-  ws-opts:
-    headers:
-      Host: octopusss4.com
-    path: /tsghdws
-- name: 🇺🇸 美国 CloudFlare节点 2
-  network: ws
-  password: humanity
-  port: 443
-  server: www.multiplydose.com
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- cipher: chacha20-ietf-poly1305
-  name: 🇨🇳 台湾省台中市 中华电信
-  password: a5115845-cc23-4082-905e-869fe212dfef
-  port: 36321
-  server: account-center.zzdy25.com
-  type: ss
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇷🇺 俄罗斯 starcorenode.com
-  network: tcp
-  port: 22231
-  server: r1.mizulina.top
-  servername: r1.mizulina.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
 - alpn:
   - http%2F1.1
-  name: 🇺🇸 美国 CloudFlare节点 3
+  name: 🇺🇸 美国 CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 104.20.6.134
+  server: 104.17.121.9
   skip-cert-verify: false
-  sni: www.calmloud.com
+  sni: www.calmlunch.com
   type: trojan
   ws-opts:
     headers:
-      Host: www.calmloud.com
+      Host: www.calmlunch.com
     path: /assignment
-- alterId: 0
-  cipher: auto
-  name: 亚太地区 starcorenode.com
+- name: 🇺🇸 美国 CloudFlare节点 2
   network: ws
-  port: 10123
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  port: 2053
+  server: 172.64.35.7
+  servername: josni.hoyes.cloudns.ch
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
   ws-opts:
     headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+      Host: josni.hoyes.cloudns.ch
     path: /
-- name: 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
-  password: rXyShM8Jni+5Sbq3k4gkyr5Lq0zOMRL2Uf
-  port: 443
-  server: 45.79.8.17
+- name: 🇺🇸 美国 CloudFlare节点 3
+  network: ws
+  port: 2087
+  server: cf.9999669.xyz
+  servername: fgnix832fx.fx6hsv0.ccwu.cc
   skip-cert-verify: false
-  sni: 45.79.8.17
-  type: trojan
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: fgnix832fx.fx6hsv0.ccwu.cc
+    path: /
 - alpn:
   - http/1.1
-  name: 🇺🇸 美国 RF Engineering
+  name: 🇺🇸 美国 starcorenode.com
   network: ws
   password: humanity
   port: 443
-  server: 141.193.213.10
+  server: 199.181.197.169
   skip-cert-verify: false
   sni: www.calmloud.com
   type: trojan
@@ -114,35 +69,65 @@ proxies:
     headers:
       Host: www.calmloud.com
     path: /assignment
+- name: 🇺🇸 美国 CloudFlare节点 4
+  network: ws
+  password: humanity
+  port: 443
+  server: www.creationlong.org
+  skip-cert-verify: false
+  sni: www.creationlong.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.creationlong.org
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇺🇸 美国 CloudFlare节点 5
+  network: ws
+  port: 443
+  server: yd.mmhh.eu.cc
+  servername: hhlfy.twiladaphne.ndjp.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /
+- name: 🇷🇴 罗马尼亚 starcorenode.com
+  password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd
+  port: 443
+  server: 185.137.157.254
+  skip-cert-verify: false
+  sni: www.directorypipeline.click
+  type: trojan
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
   - 8元老牌专线机场：cczzuu.top
-  - 🇩🇪 德国 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点
   - 🇺🇸 美国 CloudFlare节点 2
-  - 🇨🇳 台湾省台中市 中华电信
-  - 🇷🇺 俄罗斯 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点 3
-  - 亚太地区 starcorenode.com
-  - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
-  - 🇺🇸 美国 RF Engineering
+  - 🇺🇸 美国 starcorenode.com
+  - 🇺🇸 美国 CloudFlare节点 4
+  - 🇺🇸 美国 CloudFlare节点 5
+  - 🇷🇴 罗马尼亚 starcorenode.com
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 8元老牌专线机场：cczzuu.top
-  - 🇩🇪 德国 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点
   - 🇺🇸 美国 CloudFlare节点 2
-  - 🇨🇳 台湾省台中市 中华电信
-  - 🇷🇺 俄罗斯 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点 3
-  - 亚太地区 starcorenode.com
-  - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
-  - 🇺🇸 美国 RF Engineering
+  - 🇺🇸 美国 starcorenode.com
+  - 🇺🇸 美国 CloudFlare节点 4
+  - 🇺🇸 美国 CloudFlare节点 5
+  - 🇷🇴 罗马尼亚 starcorenode.com
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -152,60 +137,52 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 8元老牌专线机场：cczzuu.top
-  - 🇩🇪 德国 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点
   - 🇺🇸 美国 CloudFlare节点 2
-  - 🇨🇳 台湾省台中市 中华电信
-  - 🇷🇺 俄罗斯 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点 3
-  - 亚太地区 starcorenode.com
-  - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
-  - 🇺🇸 美国 RF Engineering
+  - 🇺🇸 美国 starcorenode.com
+  - 🇺🇸 美国 CloudFlare节点 4
+  - 🇺🇸 美国 CloudFlare节点 5
+  - 🇷🇴 罗马尼亚 starcorenode.com
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - 8元老牌专线机场：cczzuu.top
-  - 🇩🇪 德国 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点
   - 🇺🇸 美国 CloudFlare节点 2
-  - 🇨🇳 台湾省台中市 中华电信
-  - 🇷🇺 俄罗斯 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点 3
-  - 亚太地区 starcorenode.com
-  - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
-  - 🇺🇸 美国 RF Engineering
+  - 🇺🇸 美国 starcorenode.com
+  - 🇺🇸 美国 CloudFlare节点 4
+  - 🇺🇸 美国 CloudFlare节点 5
+  - 🇷🇴 罗马尼亚 starcorenode.com
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
   - 8元老牌专线机场：cczzuu.top
-  - 🇩🇪 德国 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点
   - 🇺🇸 美国 CloudFlare节点 2
-  - 🇨🇳 台湾省台中市 中华电信
-  - 🇷🇺 俄罗斯 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点 3
-  - 亚太地区 starcorenode.com
-  - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
-  - 🇺🇸 美国 RF Engineering
+  - 🇺🇸 美国 starcorenode.com
+  - 🇺🇸 美国 CloudFlare节点 4
+  - 🇺🇸 美国 CloudFlare节点 5
+  - 🇷🇴 罗马尼亚 starcorenode.com
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - 8元老牌专线机场：cczzuu.top
-  - 🇩🇪 德国 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点
   - 🇺🇸 美国 CloudFlare节点 2
-  - 🇨🇳 台湾省台中市 中华电信
-  - 🇷🇺 俄罗斯 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点 3
-  - 亚太地区 starcorenode.com
-  - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
-  - 🇺🇸 美国 RF Engineering
+  - 🇺🇸 美国 starcorenode.com
+  - 🇺🇸 美国 CloudFlare节点 4
+  - 🇺🇸 美国 CloudFlare节点 5
+  - 🇷🇴 罗马尼亚 starcorenode.com
   type: select
 - name: 📢 谷歌FCM
   proxies:
@@ -213,15 +190,13 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - 8元老牌专线机场：cczzuu.top
-  - 🇩🇪 德国 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点
   - 🇺🇸 美国 CloudFlare节点 2
-  - 🇨🇳 台湾省台中市 中华电信
-  - 🇷🇺 俄罗斯 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点 3
-  - 亚太地区 starcorenode.com
-  - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
-  - 🇺🇸 美国 RF Engineering
+  - 🇺🇸 美国 starcorenode.com
+  - 🇺🇸 美国 CloudFlare节点 4
+  - 🇺🇸 美国 CloudFlare节点 5
+  - 🇷🇴 罗马尼亚 starcorenode.com
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -245,15 +220,13 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - 8元老牌专线机场：cczzuu.top
-  - 🇩🇪 德国 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点
   - 🇺🇸 美国 CloudFlare节点 2
-  - 🇨🇳 台湾省台中市 中华电信
-  - 🇷🇺 俄罗斯 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点 3
-  - 亚太地区 starcorenode.com
-  - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
-  - 🇺🇸 美国 RF Engineering
+  - 🇺🇸 美国 starcorenode.com
+  - 🇺🇸 美国 CloudFlare节点 4
+  - 🇺🇸 美国 CloudFlare节点 5
+  - 🇷🇴 罗马尼亚 starcorenode.com
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
