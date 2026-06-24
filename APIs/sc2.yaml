@@ -13,13 +13,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 009e558d-3cf4-49d8-b5e4-82c9e14fe1a4
-- alpn:
-  - http%2F1.1
-  name: 🇺🇸 美国 CloudFlare节点
+- name: 🇧🇷 巴西圣保罗 CloudFlare节点
   network: ws
   password: humanity
   port: 443
-  server: 104.17.121.9
+  server: 188.114.98.0
   skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
@@ -27,107 +25,225 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: /assignment
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇰 丹麦 starcorenode.com
+  network: tcp
+  port: 443
+  server: assets.trorays.com
+  servername: assets.trorays.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: b69a71ef-51dc-48c6-b3df-4c3533062606
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇿🇦 南非 starcorenode.com
+  network: tcp
+  port: 8443
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: 2cfb5a0ae8ab0cb0
+  server: 45.194.10.68
+  servername: storage.yandex.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
+- name: 🇯🇵 日本 东京Fastly节点
+  network: ws
+  port: 80
+  server: 151.101.109.223
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
+- name: 🇺🇸 美国 华盛顿Cogent通信公司
+  password: ks3og6wZ9kH8UJv1bmpvwXbfgDNNaTd1Lk
+  port: 443
+  server: 38.54.64.247
+  skip-cert-verify: false
+  type: trojan
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 俄罗斯 starcorenode.com
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 212.41.10.228
+  servername: abuse.sellflow.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 33de2596-d95d-412b-a8c2-410be7060ca3
+- name: 🇺🇸 美国 CloudFlare节点
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.155.209
+  skip-cert-verify: false
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+    path: /assignment
 - name: 🇺🇸 美国 CloudFlare节点 2
   network: ws
-  port: 2053
-  server: 172.64.35.7
-  servername: josni.hoyes.cloudns.ch
+  port: 443
+  server: 108.162.194.135
+  servername: nbhhh.mrcool.kdns.fr
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
   ws-opts:
     headers:
-      Host: josni.hoyes.cloudns.ch
+      Host: nbhhh.mrcool.kdns.fr
     path: /
-- name: 🇺🇸 美国 CloudFlare节点 3
-  network: ws
-  port: 2087
-  server: cf.9999669.xyz
-  servername: fgnix832fx.fx6hsv0.ccwu.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  ws-opts:
-    headers:
-      Host: fgnix832fx.fx6hsv0.ccwu.cc
-    path: /
-- alpn:
-  - http/1.1
+- alterId: 0
+  cipher: auto
   name: 🇺🇸 美国 starcorenode.com
   network: ws
-  password: humanity
-  port: 443
-  server: 199.181.197.169
+  port: 80
+  server: 69.84.182.49
   skip-cert-verify: false
-  sni: www.calmloud.com
-  type: trojan
+  tls: false
+  type: vmess
+  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
   ws-opts:
     headers:
-      Host: www.calmloud.com
-    path: /assignment
-- name: 🇺🇸 美国 CloudFlare节点 4
+      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
+    path: /
+- name: 🇺🇸 美国 Fastly节点
   network: ws
-  password: humanity
-  port: 443
-  server: www.creationlong.org
+  port: 80
+  server: 151.101.71.151
   skip-cert-verify: false
-  sni: www.creationlong.org
-  type: trojan
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
-      Host: www.creationlong.org
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇺🇸 美国 CloudFlare节点 5
+      Host: max-gb1.global.ssl.fastly.net
+    path: /?ed=2560
+- alpn:
+  - h3,h2,http/1.1
+  client-fingerprint: chrome
+  name: 🇺🇸 美国 starcorenode.com 2
   network: ws
   port: 443
-  server: yd.mmhh.eu.cc
-  servername: hhlfy.twiladaphne.ndjp.net
+  server: 140.248.185.253
+  servername: global.fastly.com
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  uuid: 6e7ebc40-58a6-c567-4ae8-51b7605a272b
   ws-opts:
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: global.fastly.com
+    path: /
+- name: 🇺🇸 美国 starcorenode.com 3
+  network: ws
+  port: 80
+  server: 199.232.197.131
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
     path: /
 - name: 🇷🇴 罗马尼亚 starcorenode.com
-  password: hxn2jK9Uzezogua0oHuq9Y8viN=UCe.2Jd
+  password: fFj7MAGy1VlAWmB_gMBG_27oPYTSHvV6MX
   port: 443
-  server: 185.137.157.254
+  server: 185.137.157.59
   skip-cert-verify: false
-  sni: www.directorypipeline.click
+  sni: www.lateralio.click
   type: trojan
+- name: 🇺🇸 北美地区 starcorenode.com
+  network: ws
+  port: 80
+  server: hentai-cdn.apruxdomain.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 32dffb35-9b53-4b62-8694-a8fa9dc999ed
+  ws-opts:
+    headers:
+      Host: hentai-cdn.apruxdomain.xyz
+    path: /
+- name: 🇺🇸 美国 Fastly全球Anycast节点
+  network: ws
+  port: 80
+  server: speedtest.net
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
 proxy-groups:
 - name: 🚀 节点选择
   proxies:
   - ♻️ 自动选择
   - DIRECT
   - 8元老牌专线机场：cczzuu.top
+  - 🇧🇷 巴西圣保罗 CloudFlare节点
+  - 🇩🇰 丹麦 starcorenode.com
+  - 🇿🇦 南非 starcorenode.com
+  - 🇯🇵 日本 东京Fastly节点
+  - 🇺🇸 美国 华盛顿Cogent通信公司
+  - 🇷🇺 俄罗斯 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点
   - 🇺🇸 美国 CloudFlare节点 2
-  - 🇺🇸 美国 CloudFlare节点 3
   - 🇺🇸 美国 starcorenode.com
-  - 🇺🇸 美国 CloudFlare节点 4
-  - 🇺🇸 美国 CloudFlare节点 5
+  - 🇺🇸 美国 Fastly节点
+  - 🇺🇸 美国 starcorenode.com 2
+  - 🇺🇸 美国 starcorenode.com 3
   - 🇷🇴 罗马尼亚 starcorenode.com
+  - 🇺🇸 北美地区 starcorenode.com
+  - 🇺🇸 美国 Fastly全球Anycast节点
   type: select
 - interval: 300
   name: ♻️ 自动选择
   proxies:
   - 8元老牌专线机场：cczzuu.top
+  - 🇧🇷 巴西圣保罗 CloudFlare节点
+  - 🇩🇰 丹麦 starcorenode.com
+  - 🇿🇦 南非 starcorenode.com
+  - 🇯🇵 日本 东京Fastly节点
+  - 🇺🇸 美国 华盛顿Cogent通信公司
+  - 🇷🇺 俄罗斯 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点
   - 🇺🇸 美国 CloudFlare节点 2
-  - 🇺🇸 美国 CloudFlare节点 3
   - 🇺🇸 美国 starcorenode.com
-  - 🇺🇸 美国 CloudFlare节点 4
-  - 🇺🇸 美国 CloudFlare节点 5
+  - 🇺🇸 美国 Fastly节点
+  - 🇺🇸 美国 starcorenode.com 2
+  - 🇺🇸 美国 starcorenode.com 3
   - 🇷🇴 罗马尼亚 starcorenode.com
+  - 🇺🇸 北美地区 starcorenode.com
+  - 🇺🇸 美国 Fastly全球Anycast节点
   tolerance: 50
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -137,52 +253,84 @@ proxy-groups:
   - ♻️ 自动选择
   - 🎯 全球直连
   - 8元老牌专线机场：cczzuu.top
+  - 🇧🇷 巴西圣保罗 CloudFlare节点
+  - 🇩🇰 丹麦 starcorenode.com
+  - 🇿🇦 南非 starcorenode.com
+  - 🇯🇵 日本 东京Fastly节点
+  - 🇺🇸 美国 华盛顿Cogent通信公司
+  - 🇷🇺 俄罗斯 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点
   - 🇺🇸 美国 CloudFlare节点 2
-  - 🇺🇸 美国 CloudFlare节点 3
   - 🇺🇸 美国 starcorenode.com
-  - 🇺🇸 美国 CloudFlare节点 4
-  - 🇺🇸 美国 CloudFlare节点 5
+  - 🇺🇸 美国 Fastly节点
+  - 🇺🇸 美国 starcorenode.com 2
+  - 🇺🇸 美国 starcorenode.com 3
   - 🇷🇴 罗马尼亚 starcorenode.com
+  - 🇺🇸 北美地区 starcorenode.com
+  - 🇺🇸 美国 Fastly全球Anycast节点
   type: select
 - name: 📲 电报信息
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - 8元老牌专线机场：cczzuu.top
+  - 🇧🇷 巴西圣保罗 CloudFlare节点
+  - 🇩🇰 丹麦 starcorenode.com
+  - 🇿🇦 南非 starcorenode.com
+  - 🇯🇵 日本 东京Fastly节点
+  - 🇺🇸 美国 华盛顿Cogent通信公司
+  - 🇷🇺 俄罗斯 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点
   - 🇺🇸 美国 CloudFlare节点 2
-  - 🇺🇸 美国 CloudFlare节点 3
   - 🇺🇸 美国 starcorenode.com
-  - 🇺🇸 美国 CloudFlare节点 4
-  - 🇺🇸 美国 CloudFlare节点 5
+  - 🇺🇸 美国 Fastly节点
+  - 🇺🇸 美国 starcorenode.com 2
+  - 🇺🇸 美国 starcorenode.com 3
   - 🇷🇴 罗马尼亚 starcorenode.com
+  - 🇺🇸 北美地区 starcorenode.com
+  - 🇺🇸 美国 Fastly全球Anycast节点
   type: select
 - name: Ⓜ️ 微软服务
   proxies:
   - 🎯 全球直连
   - 🚀 节点选择
   - 8元老牌专线机场：cczzuu.top
+  - 🇧🇷 巴西圣保罗 CloudFlare节点
+  - 🇩🇰 丹麦 starcorenode.com
+  - 🇿🇦 南非 starcorenode.com
+  - 🇯🇵 日本 东京Fastly节点
+  - 🇺🇸 美国 华盛顿Cogent通信公司
+  - 🇷🇺 俄罗斯 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点
   - 🇺🇸 美国 CloudFlare节点 2
-  - 🇺🇸 美国 CloudFlare节点 3
   - 🇺🇸 美国 starcorenode.com
-  - 🇺🇸 美国 CloudFlare节点 4
-  - 🇺🇸 美国 CloudFlare节点 5
+  - 🇺🇸 美国 Fastly节点
+  - 🇺🇸 美国 starcorenode.com 2
+  - 🇺🇸 美国 starcorenode.com 3
   - 🇷🇴 罗马尼亚 starcorenode.com
+  - 🇺🇸 北美地区 starcorenode.com
+  - 🇺🇸 美国 Fastly全球Anycast节点
   type: select
 - name: 🍎 苹果服务
   proxies:
   - 🚀 节点选择
   - 🎯 全球直连
   - 8元老牌专线机场：cczzuu.top
+  - 🇧🇷 巴西圣保罗 CloudFlare节点
+  - 🇩🇰 丹麦 starcorenode.com
+  - 🇿🇦 南非 starcorenode.com
+  - 🇯🇵 日本 东京Fastly节点
+  - 🇺🇸 美国 华盛顿Cogent通信公司
+  - 🇷🇺 俄罗斯 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点
   - 🇺🇸 美国 CloudFlare节点 2
-  - 🇺🇸 美国 CloudFlare节点 3
   - 🇺🇸 美国 starcorenode.com
-  - 🇺🇸 美国 CloudFlare节点 4
-  - 🇺🇸 美国 CloudFlare节点 5
+  - 🇺🇸 美国 Fastly节点
+  - 🇺🇸 美国 starcorenode.com 2
+  - 🇺🇸 美国 starcorenode.com 3
   - 🇷🇴 罗马尼亚 starcorenode.com
+  - 🇺🇸 北美地区 starcorenode.com
+  - 🇺🇸 美国 Fastly全球Anycast节点
   type: select
 - name: 📢 谷歌FCM
   proxies:
@@ -190,13 +338,21 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - 8元老牌专线机场：cczzuu.top
+  - 🇧🇷 巴西圣保罗 CloudFlare节点
+  - 🇩🇰 丹麦 starcorenode.com
+  - 🇿🇦 南非 starcorenode.com
+  - 🇯🇵 日本 东京Fastly节点
+  - 🇺🇸 美国 华盛顿Cogent通信公司
+  - 🇷🇺 俄罗斯 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点
   - 🇺🇸 美国 CloudFlare节点 2
-  - 🇺🇸 美国 CloudFlare节点 3
   - 🇺🇸 美国 starcorenode.com
-  - 🇺🇸 美国 CloudFlare节点 4
-  - 🇺🇸 美国 CloudFlare节点 5
+  - 🇺🇸 美国 Fastly节点
+  - 🇺🇸 美国 starcorenode.com 2
+  - 🇺🇸 美国 starcorenode.com 3
   - 🇷🇴 罗马尼亚 starcorenode.com
+  - 🇺🇸 北美地区 starcorenode.com
+  - 🇺🇸 美国 Fastly全球Anycast节点
   type: select
 - name: 🎯 全球直连
   proxies:
@@ -220,13 +376,21 @@ proxy-groups:
   - 🎯 全球直连
   - ♻️ 自动选择
   - 8元老牌专线机场：cczzuu.top
+  - 🇧🇷 巴西圣保罗 CloudFlare节点
+  - 🇩🇰 丹麦 starcorenode.com
+  - 🇿🇦 南非 starcorenode.com
+  - 🇯🇵 日本 东京Fastly节点
+  - 🇺🇸 美国 华盛顿Cogent通信公司
+  - 🇷🇺 俄罗斯 starcorenode.com
   - 🇺🇸 美国 CloudFlare节点
   - 🇺🇸 美国 CloudFlare节点 2
-  - 🇺🇸 美国 CloudFlare节点 3
   - 🇺🇸 美国 starcorenode.com
-  - 🇺🇸 美国 CloudFlare节点 4
-  - 🇺🇸 美国 CloudFlare节点 5
+  - 🇺🇸 美国 Fastly节点
+  - 🇺🇸 美国 starcorenode.com 2
+  - 🇺🇸 美国 starcorenode.com 3
   - 🇷🇴 罗马尼亚 starcorenode.com
+  - 🇺🇸 北美地区 starcorenode.com
+  - 🇺🇸 美国 Fastly全球Anycast节点
   type: select
 rules:
 - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
